@@ -33,7 +33,31 @@ try {
 
 # Push (optional)
 if (-not $SkipPush) {
-  Exec "git push origin $branch"
+  # Ensure a remote exists
+  $remotes = (git remote) -split "\r?\n" | Where-Object { $_ -ne '' }
+  if (-not $remotes) {
+    Write-Host "Aucun remote Git configuré. Ajoute-en un, par ex.:" -ForegroundColor Yellow
+    Write-Host "  git remote add origin <URL_DU_DEPOT>" -ForegroundColor Yellow
+    Write-Host "Puis relance le script." -ForegroundColor Yellow
+    exit 1
+  }
+  try {
+    Exec "git push origin $branch"
+  } catch {
+    Write-Host "Le push a échoué. Tentative avec --set-upstream..." -ForegroundColor Yellow
+    try {
+      Exec "git push -u origin $branch"
+    } catch {
+      Write-Host "Le push a encore échoué. Causes communes:" -ForegroundColor Red
+      Write-Host "- Authentification requise (configurer HTTPS avec un token PAT ou SSH)" -ForegroundColor Red
+      Write-Host "- Le remote 'origin' ne pointe pas vers le bon dépôt" -ForegroundColor Red
+      Write-Host "- Droits insuffisants sur le dépôt" -ForegroundColor Red
+      Write-Host "Essaye manuellement:" -ForegroundColor Yellow
+      Write-Host "  git remote -v" -ForegroundColor Yellow
+      Write-Host "  git push -u origin $branch" -ForegroundColor Yellow
+      exit 1
+    }
+  }
 }
 
 Write-Host "Done" -ForegroundColor Green
