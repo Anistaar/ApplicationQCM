@@ -1,0 +1,1931 @@
+// src/main.ts
+// Entraînement & Examen avec rattrapage 100%,
+// Leitner adaptatif (gravité de l'erreur), priorisation des due,
+// bouton Valider piloté par le DOM, thèmes (5e colonne), déduplication, stats par thèmes.
+import { parseQuestions, isCorrect, correctText, countCorrect } from './parser';
+import { shuffleInPlace } from './shuffle';
+import { keyForQuestion, dedupeQuestions } from './utils';
+import { courses } from './courses';
+import { loadStats, updateStatAfterAnswer, computeSeverity, isDue } from './scheduling';
+const $ = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+/* course discovery & helpers moved to src/courses.ts and src/utils.ts */
+/* =========================
+   Éléments UI
+   ========================= */
+const els = {
+    selectMatiere: $('#matiere'),
+    selectCours: $('#cours'),
+    multiCoursCheckboxes: $('#cours-multi-checkboxes'),
+    coursCheckboxList: $('#cours-checkbox-list'),
+    selectAllCours: $('#select-all-cours'),
+    multiCoursToggle: $('#multi-cours-toggle'),
+    selectThemes: $('#themes'),
+    inputNombre: $('#nombre'),
+    radiosMode: $$('input[name="mode"]'),
+    btnStart: $('#start'),
+    root: $('#quiz-root'),
+    themeToggle: $('#theme-toggle'),
+    advancedToggle: $('#advanced-toggle'),
+    selectionArea: $('#selection-area'),
+    activeToolbar: $('#active-toolbar'),
+    activeTitle: $('#active-title'),
+    activeQuit: $('#btn-exit-mode'),
+};
+const elsExtra = {
+    btnExplorer: $('#btn-explorer'),
+    fileBrowser: $('#file-browser'),
+    fbFolders: $('#fb-folders'),
+    fbFiles: $('#fb-files'),
+    fbClose: $('#fb-close'),
+    btnDownloadSelected: $('#btn-download-selected'),
+    planCard: $('#plan-card'),
+    planList: $('#plan-list'),
+    planFilter: $('#plan-filter'),
+    folderStatsCard: $('#folder-stats-card'),
+    folderStats: $('#folder-stats'),
+};
+const state = {
+    mode: 'entrainement',
+    file: '',
+    files: [], // Nouveau: pour gérer plusieurs fichiers
+    n: 10,
+    questions: [],
+    userAnswers: [],
+    correctMap: [],
+    index: 0,
+    corrige: false,
+    lastCorrect: false,
+    selectedThemes: [],
+    round: 1,
+    allPool: [],
+    questionStart: null,
+};
+/* =========================2
+   Thème sombre / clair
+   ========================= */
+initTheme();
+function initTheme() {
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const saved = localStorage.getItem('t2q-theme');
+    const isDark = saved ? saved === 'dark' : prefersDark;
+    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    if (els.themeToggle)
+        els.themeToggle.checked = isDark;
+    els.themeToggle?.addEventListener('change', () => {
+        const dark = !!els.themeToggle.checked;
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        localStorage.setItem('t2q-theme', dark ? 'dark' : 'light');
+    });
+}
+/* =========================
+   Déduplication
+   ========================= */
+// ...utils (norm/keyForQuestion/dedupeQuestions) moved to src/utils.ts
+/* =========================
+   Choix cours & thèmes
+   ========================= */
+populateMatiereAndCourseSelects();
+function populateMatiereAndCourseSelects() {
+    // Remplir la liste des matières (dossiers)
+    const folders = Array.from(new Set(courses.map((c) => c.folder))).sort((a, b) => a.localeCompare(b));
+    if (els.selectMatiere) {
+        els.selectMatiere.innerHTML = '';
+        const optAll = document.createElement('option');
+        optAll.value = '';
+        optAll.textContent = '— Toutes les matières —';
+        els.selectMatiere.appendChild(optAll);
+        for (const f of folders) {
+            const opt = document.createElement('option');
+            opt.value = f;
+            opt.textContent = f;
+            els.selectMatiere.appendChild(opt);
+        }
+        // on change, remplir les cours
+        els.selectMatiere.addEventListener('change', () => {
+            const folder = els.selectMatiere.value;
+            populateCourseSelect(folder);
+            renderPlanForFolder(folder);
+            renderFolderStats(folder);
+        });
+    }
+    // Au chargement: attendre la sélection d'une matière
+    if (els.selectCours) {
+        els.selectCours.innerHTML = '<option disabled selected>— Choisissez une matière —</option>';
+        els.selectCours.disabled = true;
+    }
+    renderPlanForFolder('');
+    renderFolderStats('');
+}
+// Simple/avancé: masque/affiche les options
+initAdvancedToggle();
+function initAdvancedToggle() {
+    const advRows = Array.from(document.querySelectorAll('.row.advanced'));
+    const setVis = (show) => {
+        advRows.forEach(r => r.style.display = show ? '' : 'none');
+    };
+    const saved = localStorage.getItem('t2q-advanced');
+    const initial = saved ? saved === '1' : false;
+    if (els.advancedToggle) {
+        els.advancedToggle.checked = initial;
+        setVis(initial);
+        els.advancedToggle.addEventListener('change', () => {
+            const on = !!els.advancedToggle.checked;
+            setVis(on);
+            localStorage.setItem('t2q-advanced', on ? '1' : '0');
+        });
+    }
+    else {
+        setVis(false);
+    }
+}
+// Logique de basculement entre sélection simple et multiple
+els.multiCoursToggle?.addEventListener('change', () => {
+    const isMulti = els.multiCoursToggle.checked;
+    if (isMulti) {
+        // Passer en mode multi
+        els.selectCours.style.display = 'none';
+        els.multiCoursCheckboxes.style.display = 'block';
+        // Créer les checkboxes pour tous les cours
+        createCoursCheckboxes();
+    }
+    else {
+        // Passer en mode simple
+        els.selectCours.style.display = 'block';
+        els.multiCoursCheckboxes.style.display = 'none';
+    }
+});
+function createCoursCheckboxes() {
+    if (!els.coursCheckboxList)
+        return;
+    els.coursCheckboxList.innerHTML = '';
+    // Récupérer les cours filtrés selon la matière sélectionnée
+    const folderFilter = els.selectMatiere?.value || '';
+    const filtered = folderFilter ? courses.filter((c) => c.folder === folderFilter) : courses;
+    // Grouper par dossier pour un affichage plus clair
+    const groupedCourses = new Map();
+    for (const course of filtered) {
+        const folder = course.folder;
+        if (!groupedCourses.has(folder)) {
+            groupedCourses.set(folder, []);
+        }
+        groupedCourses.get(folder).push(course);
+    }
+    // Créer les checkboxes groupées par dossier
+    for (const [folder, courseList] of groupedCourses) {
+        // Afficher le nom du dossier si on montre plusieurs dossiers
+        if (groupedCourses.size > 1) {
+            const folderHeader = document.createElement('div');
+            folderHeader.style.fontWeight = '600';
+            folderHeader.style.fontSize = '12px';
+            folderHeader.style.color = 'var(--muted)';
+            folderHeader.style.marginTop = '8px';
+            folderHeader.style.marginBottom = '4px';
+            folderHeader.textContent = folder;
+            els.coursCheckboxList.appendChild(folderHeader);
+        }
+        for (const course of courseList) {
+            const item = document.createElement('div');
+            item.className = 'cours-checkbox-item';
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = course.path;
+            checkbox.id = `cours-${course.path.replace(/[^a-zA-Z0-9]/g, '_')}`;
+            const label = document.createElement('label');
+            label.htmlFor = checkbox.id;
+            label.textContent = course.label;
+            label.style.flex = '1';
+            label.style.cursor = 'pointer';
+            // Ajouter un tag pour le dossier si on affiche plusieurs dossiers
+            if (groupedCourses.size > 1) {
+                const folderTag = document.createElement('span');
+                folderTag.className = 'folder-tag';
+                folderTag.textContent = folder;
+                item.appendChild(folderTag);
+            }
+            // Event listener pour mettre à jour les thèmes
+            checkbox.addEventListener('change', () => {
+                loadMultiCoursesForThemes();
+            });
+            item.appendChild(checkbox);
+            item.appendChild(label);
+            els.coursCheckboxList.appendChild(item);
+        }
+    }
+}
+// Gestionnaire pour "Tout sélectionner"
+els.selectAllCours?.addEventListener('change', () => {
+    const checkboxes = $$('#cours-checkbox-list input[type="checkbox"]');
+    const isChecked = els.selectAllCours.checked;
+    checkboxes.forEach(cb => {
+        cb.checked = isChecked;
+    });
+    // Mettre à jour les thèmes
+    loadMultiCoursesForThemes();
+});
+function syncCoursSelectors() {
+    // Cette fonction n'est plus nécessaire avec les checkboxes
+    // mais on la garde pour éviter les erreurs
+}
+function populateCourseSelect(folderFilter) {
+    if (!els.selectCours)
+        return;
+    els.selectCours.innerHTML = '';
+    const filtered = folderFilter ? courses.filter((c) => c.folder === folderFilter) : courses;
+    // Activer le select seulement si une matière est choisie
+    els.selectCours.disabled = !folderFilter;
+    if (filtered.length === 0) {
+        const opt = document.createElement('option');
+        opt.disabled = true;
+        opt.textContent = '— Aucun cours —';
+        els.selectCours.appendChild(opt);
+        return;
+    }
+    for (const c of filtered) {
+        const opt = document.createElement('option');
+        // Use the full path as the value so it's unique across folders
+        opt.value = c.path;
+        opt.textContent = `${c.label}${folderFilter ? '' : ` (${c.folder})`}`;
+        els.selectCours.appendChild(opt);
+    }
+    // sélection par défaut première entrée
+    els.selectCours.value = filtered[0].path;
+    state.file = filtered[0].path;
+    loadCourseForThemes(state.file);
+    // Si on est en mode multi, recréer les checkboxes avec les nouveaux cours
+    if (els.multiCoursToggle?.checked) {
+        createCoursCheckboxes();
+    }
+    // Mettre à jour le plan
+    renderPlanForFolder(folderFilter);
+}
+els.selectCours?.addEventListener('change', () => {
+    state.file = els.selectCours.value;
+    loadCourseForThemes(state.file);
+    // Sélection dans le plan: met en surbrillance l'élément correspondant
+    highlightPlanSelection(state.file);
+});
+function loadMultiCoursesForThemes() {
+    // Récupérer les checkboxes cochées
+    const checkedBoxes = $$('#cours-checkbox-list input[type="checkbox"]:checked');
+    const selectedFiles = checkedBoxes.map(cb => cb.value).filter(Boolean);
+    if (selectedFiles.length === 0) {
+        fillThemes([]);
+        return;
+    }
+    const allThemes = new Set();
+    for (const filename of selectedFiles) {
+        const course = courses.find((c) => c.path === filename || c.file === filename);
+        if (course) {
+            const parsed = parseQuestions(course.content);
+            const unique = dedupeQuestions(parsed);
+            unique.forEach((q) => (q.tags ?? []).forEach((t) => allThemes.add(t)));
+        }
+    }
+    fillThemes(Array.from(allThemes).sort((a, b) => a.localeCompare(b)));
+}
+function loadCourseForThemes(filename) {
+    const course = courses.find((c) => c.path === filename || c.file === filename);
+    if (!course) {
+        fillThemes([]);
+        return;
+    }
+    const parsed = parseQuestions(course.content);
+    const unique = dedupeQuestions(parsed);
+    const set = new Set();
+    unique.forEach((q) => (q.tags ?? []).forEach((t) => set.add(t)));
+    fillThemes(Array.from(set).sort((a, b) => a.localeCompare(b)));
+}
+// ---- Plan du cours ----
+function renderPlanForFolder(folderFilter) {
+    if (!elsExtra.planList)
+        return;
+    const listRoot = elsExtra.planList;
+    listRoot.innerHTML = '';
+    // Ne rien afficher tant qu'aucune matière n'est choisie
+    if (!folderFilter) {
+        listRoot.innerHTML = `<div class="subtitle">Sélectionnez une matière pour voir le plan.</div>`;
+        return;
+    }
+    const filtered = courses.filter(c => c.folder === folderFilter);
+    if (filtered.length === 0) {
+        listRoot.innerHTML = `<div class="subtitle">Aucun chapitre pour cette matière.</div>`;
+        return;
+    }
+    // Index par top-level chapitre (ou fallback "Divers")
+    const groups = new Map();
+    for (const c of filtered) {
+        const key = c.chapterTop || 'Divers';
+        const arr = groups.get(key) || [];
+        arr.push(c);
+        groups.set(key, arr);
+    }
+    // Filtre texte
+    const query = (elsExtra.planFilter?.value || '').trim().toLowerCase();
+    for (const [top, list] of Array.from(groups.entries()).sort((a, b) => a[0].localeCompare(b[0]))) {
+        // En-tête
+        const h = document.createElement('div');
+        h.style.fontWeight = '700';
+        h.style.marginTop = '6px';
+        h.style.color = 'var(--muted)';
+        h.textContent = top;
+        listRoot.appendChild(h);
+        const grid = document.createElement('div');
+        grid.style.display = 'grid';
+        grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(220px, 1fr))';
+        grid.style.gap = '6px';
+        for (const c of list) {
+            const title = c.chapterFull || c.label;
+            if (query && !title.toLowerCase().includes(query))
+                continue;
+            const item = document.createElement('div');
+            item.style.border = '1px solid var(--brd)';
+            item.style.borderRadius = '8px';
+            item.style.padding = '8px';
+            item.style.cursor = 'pointer';
+            item.dataset.path = c.path;
+            const st = computeCourseStats(c);
+            const accPct = st ? Math.round((st.sumSeen > 0 ? Math.min(1, Math.max(0, st.sumCorrect / st.sumSeen)) : 0) * 100) : 0;
+            const duePct = st && st.total > 0 ? Math.round((st.due / st.total) * 100) : 0;
+            const avgTime = st && st.avgTimeMs ? `${Math.round(st.avgTimeMs / 100) / 10}s` : '—';
+            item.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px">
+          <div>
+            <div style="font-weight:600">${escapeHtml(title)}</div>
+            <div style="font-size:12px; color:var(--muted)">${escapeHtml(c.folder)} · ${escapeHtml(c.file.replace(/\.txt$/i, ''))}</div>
+          </div>
+          <div style="display:flex; gap:8px; align-items:center">
+            <span class="badge" title="Questions">Q: ${st?.total ?? '—'}</span>
+            <span class="badge" title="Vu">Vu: ${st?.seen ?? '—'}</span>
+            <span class="badge" title="Dues">Dues: ${st?.due ?? '—'}</span>
+            <span class="badge" title="Réussite">${accPct}%</span>
+            <span class="badge" title="Temps moyen">${avgTime}</span>
+          </div>
+        </div>
+      `;
+            // Sélection simple: clic sur la carte sélectionne le cours
+            item.addEventListener('click', () => {
+                if (els.multiCoursToggle?.checked) {
+                    // Toggle la checkbox correspondante
+                    const cb = document.getElementById(`cours-${c.path.replace(/[^a-zA-Z0-9]/g, '_')}`);
+                    if (cb) {
+                        cb.checked = !cb.checked;
+                    }
+                    loadMultiCoursesForThemes();
+                }
+                else {
+                    // Sélection simple
+                    state.file = c.path;
+                    if (els.selectMatiere)
+                        els.selectMatiere.value = c.folder;
+                    populateCourseSelect(c.folder);
+                    els.selectCours.value = c.path;
+                    loadCourseForThemes(c.path);
+                    highlightPlanSelection(c.path);
+                }
+            });
+            // Actions additionnelles: Voir / Télécharger
+            const actions = document.createElement('div');
+            actions.style.display = 'flex';
+            actions.style.gap = '6px';
+            actions.style.marginTop = '8px';
+            const btnVoir = document.createElement('button');
+            btnVoir.className = 'secondary';
+            btnVoir.textContent = 'Voir';
+            btnVoir.addEventListener('click', (ev) => { ev.stopPropagation(); openCoursePreview(c.path); });
+            actions.appendChild(btnVoir);
+            item.appendChild(actions);
+            grid.appendChild(item);
+        }
+        listRoot.appendChild(grid);
+    }
+    highlightPlanSelection(state.file);
+}
+function computeFolderStats(folder) {
+    if (!folder)
+        return null;
+    const stats = loadStats();
+    const inFolder = courses.filter(c => c.folder === folder);
+    if (inFolder.length === 0)
+        return { folder, total: 0, seen: 0, due: 0, sumSeen: 0, sumCorrect: 0, avgTimeMs: undefined };
+    // Collecter toutes les questions du dossier et dédupliquer
+    let allQs = [];
+    for (const c of inFolder) {
+        const qs = parseQuestions(c.content);
+        allQs.push(...qs);
+    }
+    allQs = dedupeQuestions(allQs);
+    let total = allQs.length;
+    let seen = 0;
+    let due = 0;
+    let sumSeen = 0;
+    let sumCorrect = 0;
+    let timeSum = 0;
+    let timeCount = 0;
+    for (const q of allQs) {
+        const key = keyForQuestion(q);
+        const st = stats[key];
+        if (st) {
+            const s = st.seen || 0;
+            const c = Math.min(st.correct || 0, s);
+            if (s > 0)
+                seen += 1;
+            sumSeen += s;
+            sumCorrect += c;
+            if (typeof st.avgTimeMs === 'number' && st.avgTimeMs > 0) {
+                timeSum += st.avgTimeMs;
+                timeCount += 1;
+            }
+        }
+        if (isDue(q))
+            due += 1;
+    }
+    const avgTimeMs = timeCount > 0 ? Math.round(timeSum / timeCount) : undefined;
+    return { folder, total, seen, due, sumSeen, sumCorrect, avgTimeMs };
+}
+function renderFolderStats(folder) {
+    const card = elsExtra.folderStatsCard;
+    const root = elsExtra.folderStats;
+    if (!card || !root)
+        return;
+    if (!folder) {
+        card.style.display = 'none';
+        root.innerHTML = '';
+        return;
+    }
+    const agg = computeFolderStats(folder);
+    if (!agg) {
+        card.style.display = 'none';
+        root.innerHTML = '';
+        return;
+    }
+    card.style.display = 'block';
+    const acc = agg.sumSeen > 0 ? Math.max(0, Math.min(1, agg.sumCorrect / agg.sumSeen)) : 0;
+    const accPct = Math.round(acc * 100);
+    const avgTime = (agg.avgTimeMs && agg.avgTimeMs > 0) ? `${Math.round(agg.avgTimeMs / 100) / 10}s` : '—';
+    const seenPct = agg.total > 0 ? Math.round((agg.seen / agg.total) * 100) : 0;
+    const duePct = agg.total > 0 ? Math.round((agg.due / agg.total) * 100) : 0;
+    const badge = (() => {
+        if (agg.total === 0)
+            return '<span class="badge">Aucun contenu</span>';
+        if (accPct < 50 || duePct >= 40)
+            return '<span class="badge danger">À prioriser</span>';
+        if (accPct < 70 || duePct >= 20)
+            return '<span class="badge warn">À réviser</span>';
+        return '<span class="badge ok">Solide</span>';
+    })();
+    root.innerHTML = `
+    <div class="folder-stats-grid">
+      <div class="stat">
+        <div class="label">Questions</div>
+        <div class="value">${agg.total}</div>
+      </div>
+      <div class="stat">
+        <div class="label">Vu</div>
+        <div class="value">${agg.seen} <small class="muted">(${seenPct}%)</small></div>
+      </div>
+      <div class="stat">
+        <div class="label">Dues</div>
+        <div class="value">${agg.due} <small class="muted">(${duePct}%)</small></div>
+      </div>
+      <div class="stat">
+        <div class="label">Réussite</div>
+        <div class="value">${accPct}%</div>
+      </div>
+      <div class="stat">
+        <div class="label">Temps moyen</div>
+        <div class="value">${avgTime}</div>
+      </div>
+      <div class="stat" style="align-items:flex-end">${badge}</div>
+    </div>
+  `;
+}
+function computeCourseStats(course) {
+    if (!course)
+        return null;
+    const stats = loadStats();
+    // Collecter et dédupliquer les questions du cours
+    const qs = dedupeQuestions(parseQuestions(course.content));
+    let total = qs.length;
+    let seen = 0;
+    let due = 0;
+    let sumSeen = 0;
+    let sumCorrect = 0;
+    let timeSum = 0;
+    let timeCount = 0;
+    for (const q of qs) {
+        const k = keyForQuestion(q);
+        const st = stats[k];
+        if (st) {
+            const s = st.seen || 0;
+            const c = Math.min(st.correct || 0, s);
+            if (s > 0)
+                seen += 1;
+            sumSeen += s;
+            sumCorrect += c;
+            if (typeof st.avgTimeMs === 'number' && st.avgTimeMs > 0) {
+                timeSum += st.avgTimeMs;
+                timeCount += 1;
+            }
+        }
+        if (isDue(q))
+            due += 1;
+    }
+    const avgTimeMs = timeCount > 0 ? Math.round(timeSum / timeCount) : undefined;
+    return { total, seen, due, sumSeen, sumCorrect, avgTimeMs };
+}
+function highlightPlanSelection(path) {
+    const items = $$('#plan-list [data-path]');
+    items.forEach(it => {
+        if (it.dataset.path === path) {
+            it.style.outline = '2px solid var(--accent)';
+        }
+        else {
+            it.style.outline = 'none';
+        }
+    });
+}
+elsExtra.planFilter?.addEventListener('input', () => renderPlanForFolder(els.selectMatiere?.value || ''));
+// ---- File browser modal ----
+function openFileBrowser() {
+    if (!elsExtra.fileBrowser || !elsExtra.fbFiles || !elsExtra.fbFolders)
+        return;
+    elsExtra.fbFiles.innerHTML = '';
+    elsExtra.fbFolders.innerHTML = '';
+    // toolbar with category filter
+    const toolbar = document.createElement('div');
+    toolbar.className = 'fb-toolbar';
+    const sel = document.createElement('select');
+    sel.innerHTML = `<option value="">Tous les thèmes</option><option value="classique">Classique</option><option value="marginaliste">Marginaliste</option><option value="autre">Autre</option>`;
+    toolbar.appendChild(sel);
+    elsExtra.fbFiles.appendChild(toolbar);
+    // group courses by folder
+    const map = new Map();
+    for (const c of courses) {
+        const arr = map.get(c.folder) || [];
+        arr.push(c);
+        map.set(c.folder, arr);
+    }
+    // render folders (left)
+    for (const [folder, list] of map) {
+        const f = document.createElement('div');
+        f.className = 'fb-folder';
+        f.style.padding = '6px';
+        f.style.cursor = 'pointer';
+        f.textContent = folder;
+        f.addEventListener('click', () => {
+            // highlight selection
+            Array.from(elsExtra.fbFolders.children).forEach(ch => ch.classList.remove('active'));
+            f.classList.add('active');
+            // render files as draggable grid
+            renderFilesGridForFolder(folder, list);
+        });
+        elsExtra.fbFolders.appendChild(f);
+    }
+    elsExtra.fileBrowser.style.display = 'block';
+}
+function closeFileBrowser() { if (elsExtra.fileBrowser)
+    elsExtra.fileBrowser.style.display = 'none'; }
+elsExtra.btnExplorer?.addEventListener('click', openFileBrowser);
+elsExtra.fbClose?.addEventListener('click', closeFileBrowser);
+// Télécharger le cours sélectionné dans le select
+elsExtra.btnDownloadSelected?.addEventListener('click', () => {
+    const selected = els.selectCours?.value || state.file;
+    if (!selected)
+        return;
+    downloadCourse(selected);
+});
+// Layout persistence helpers
+function layoutKeyFor(folder) { return `t2q_layout_${folder.replace(/[^a-z0-9]/gi, '_')}`; }
+function saveLayout(folder, layout) { localStorage.setItem(layoutKeyFor(folder), JSON.stringify(layout)); }
+function loadLayout(folder) {
+    try {
+        return JSON.parse(localStorage.getItem(layoutKeyFor(folder)) || 'null');
+    }
+    catch {
+        return null;
+    }
+}
+// Render files as draggable grid with rows (layout = array of rows, each row array of file paths)
+function renderFilesGridForFolder(folder, list) {
+    if (!elsExtra.fbFiles)
+        return;
+    elsExtra.fbFiles.innerHTML = '';
+    const existingLayout = loadLayout(folder);
+    let layout;
+    if (existingLayout) {
+        layout = existingLayout;
+    }
+    else {
+        // default: single row with all files
+        layout = [list.map(c => c.path)];
+    }
+    const grid = document.createElement('div');
+    grid.style.display = 'flex';
+    grid.style.flexDirection = 'column';
+    grid.style.gap = '8px';
+    // helper to create a row container
+    function makeRow(rowIdx, rowFiles) {
+        const row = document.createElement('div');
+        row.className = 'fb-row';
+        row.style.display = 'flex';
+        row.style.gap = '8px';
+        row.style.alignItems = 'stretch';
+        row.style.minHeight = '48px';
+        row.style.border = '1px dashed var(--brd)';
+        row.style.padding = '6px';
+        row.dataset.row = String(rowIdx);
+        // adjust card width to fill row based on count
+        const count = Math.max(1, rowFiles.length);
+        const cardWidth = `calc(${Math.floor(100 / count)}% - ${8 * (count - 1) / count}px)`;
+        for (const p of rowFiles) {
+            const c = list.find(x => x.path === p);
+            if (!c)
+                continue;
+            const card = document.createElement('div');
+            card.className = 'fb-card';
+            card.draggable = true;
+            card.style.flex = `0 0 ${cardWidth}`;
+            card.style.border = '1px solid var(--brd)';
+            card.style.padding = '8px';
+            card.style.borderRadius = '6px';
+            card.style.background = 'transparent';
+            card.dataset.path = c.path;
+            card.innerHTML = `
+        <div style="font-weight:600; margin-bottom:6px">${escapeHtml(c.label)}</div>
+        <div style="display:flex; gap:6px">
+          <button class="secondary fb-view">Voir</button>
+        </div>
+      `;
+            card.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', c.path);
+                card.classList.add('dragging');
+            });
+            card.addEventListener('dragend', () => { card.classList.remove('dragging'); });
+            // actions
+            const btnView = card.querySelector('.fb-view');
+            btnView?.addEventListener('click', (ev) => { ev.stopPropagation(); openCoursePreview(c.path); });
+            // click on card background: start directly
+            card.addEventListener('click', async (e) => {
+                const target = e.target;
+                if (target.closest('button'))
+                    return; // ignore button clicks
+                state.file = c.path;
+                if (els.selectMatiere)
+                    els.selectMatiere.value = c.folder;
+                populateCourseSelect(c.folder);
+                els.selectCours.value = c.path;
+                await start();
+                closeFileBrowser();
+            });
+            row.appendChild(card);
+        }
+        // allow drop on row
+        row.addEventListener('dragover', (e) => { e.preventDefault(); row.classList.add('drag-over'); });
+        row.addEventListener('dragleave', () => { row.classList.remove('drag-over'); });
+        row.addEventListener('drop', (e) => {
+            e.preventDefault();
+            row.classList.remove('drag-over');
+            const path = e.dataTransfer.getData('text/plain');
+            if (!path)
+                return;
+            // remove from old row
+            for (const r of layout) {
+                const idx = r.indexOf(path);
+                if (idx !== -1) {
+                    r.splice(idx, 1);
+                    break;
+                }
+            }
+            // insert into this row at end
+            layout[rowIdx].push(path);
+            // cleanup empty rows
+            layout = layout.filter(r => r.length > 0);
+            saveLayout(folder, layout);
+            // re-render
+            renderFilesGridForFolder(folder, list);
+        });
+        return row;
+    }
+    // build rows
+    layout.forEach((rowFiles, i) => grid.appendChild(makeRow(i, rowFiles)));
+    // control to add a new empty row
+    const addRowBtn = document.createElement('button');
+    addRowBtn.className = 'secondary';
+    addRowBtn.textContent = 'Ajouter une ligne';
+    addRowBtn.addEventListener('click', () => {
+        layout.push([]);
+        saveLayout(folder, layout);
+        renderFilesGridForFolder(folder, list);
+    });
+    elsExtra.fbFiles.appendChild(grid);
+    elsExtra.fbFiles.appendChild(addRowBtn);
+}
+// Ouvrir un aperçu lecture seule du cours dans un nouvel onglet
+function openCoursePreview(path) {
+    const course = courses.find(c => c.path === path || c.file === path);
+    if (!course)
+        return;
+    const w = window.open('', '_blank');
+    if (!w)
+        return;
+    const title = `${course.label} — ${course.folder}`;
+    const escaped = escapeHtml(course.content).replace(/\n/g, '<br/>');
+    w.document.write(`<!doctype html><html><head><meta charset="utf-8"/><title>${title}</title>
+    <style>body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.4;padding:16px}
+    .bar{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:8px 0;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center}
+    .btn{padding:6px 10px;border:1px solid #222;background:#222;color:#fff;border-radius:8px;cursor:pointer}
+    pre{white-space:pre-wrap}</style></head><body>
+    <div class="bar"><strong>${title}</strong><div><button class="btn" onclick="window.print()">Imprimer / PDF</button></div></div>
+    <pre>${escaped}</pre>
+  </body></html>`);
+    w.document.close();
+}
+// Télécharger le cours (.txt) côté client
+function downloadCourse(path) {
+    const course = courses.find(c => c.path === path || c.file === path);
+    if (!course)
+        return;
+    const blob = new Blob([course.content], { type: 'text/plain;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = course.file || 'cours.txt';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+}
+// (Fonction "Ouvrir en page" supprimée)
+function fillThemes(topics) {
+    if (!els.selectThemes)
+        return;
+    els.selectThemes.innerHTML = '';
+    if (topics.length === 0) {
+        const opt = document.createElement('option');
+        opt.disabled = true;
+        opt.textContent = '— Aucun thème détecté —';
+        els.selectThemes.appendChild(opt);
+        // Mise à jour disponibilité Match (aucun thème => peut toujours être dispo si paires sans tags)
+        updateMatchModeAvailability();
+        return;
+    }
+    for (const t of topics) {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        els.selectThemes.appendChild(opt);
+    }
+    updateMatchModeAvailability();
+}
+function getSelectedThemes() {
+    const opts = Array.from(els.selectThemes?.selectedOptions ?? []);
+    return opts.map((o) => o.value).filter(Boolean);
+}
+function getSelectedTypes() {
+    const boxes = Array.from(document.querySelectorAll('.qtype'));
+    return boxes.filter(b => b.checked).map(b => b.value).filter(Boolean);
+}
+/* =========================
+   Lancement série
+   ========================= */
+function readMode() {
+    const r = els.radiosMode.find((r) => r.checked);
+    return r?.value ?? 'entrainement';
+}
+els.btnStart?.addEventListener('click', start);
+async function start() {
+    state.mode = readMode();
+    state.n = Math.max(1, parseInt(els.inputNombre.value || '10', 10));
+    state.selectedThemes = getSelectedThemes();
+    const normalizePath = (s) => s.replace(/\\/g, '/');
+    // Déterminer les fichiers à utiliser (mode simple ou multiple)
+    let selectedFiles = [];
+    if (els.multiCoursToggle.checked) {
+        // Mode multiple : récupérer les checkboxes cochées
+        const checkedBoxes = $$('#cours-checkbox-list input[type="checkbox"]:checked');
+        selectedFiles = checkedBoxes.map(cb => cb.value).filter(Boolean);
+        if (selectedFiles.length === 0) {
+            return renderError('Veuillez sélectionner au moins un cours en mode multi-fichiers.');
+        }
+    }
+    else {
+        // Mode simple : utiliser le fichier sélectionné
+        selectedFiles = [state.file || els.selectCours.value];
+    }
+    // Collecter toutes les questions de tous les fichiers sélectionnés
+    let allQuestions = [];
+    let courseLabels = [];
+    for (const filePath of selectedFiles) {
+        const want = normalizePath(filePath);
+        let course = courses.find((c) => normalizePath(c.path) === want || normalizePath(c.file) === want);
+        if (!course) {
+            // try fuzzy match: endsWith
+            course = courses.find((c) => normalizePath(c.path).endsWith(want) || want.endsWith(normalizePath(c.file)));
+        }
+        if (!course) {
+            console.warn('Available course paths:', courses.map(c => c.path));
+            return renderError(`Cours introuvable : ${filePath}`);
+        }
+        courseLabels.push(course.label);
+        // Parse et ajoute les questions de ce cours
+        const questionsFromCourse = parseQuestions(course.content);
+        // Ajouter une propriété pour tracer l'origine du cours
+        questionsFromCourse.forEach(q => {
+            q.sourceCourse = course.label;
+        });
+        allQuestions.push(...questionsFromCourse);
+    }
+    // Déduplication globale
+    let pool = dedupeQuestions(allQuestions);
+    // Filtrer par thèmes sélectionnés
+    if (state.selectedThemes.length > 0) {
+        pool = pool.filter((q) => (q.tags ?? []).some((t) => state.selectedThemes.includes(t)));
+        pool = dedupeQuestions(pool);
+    }
+    // Filtrer par types de questions sélectionnés
+    const selectedTypes = getSelectedTypes();
+    if (selectedTypes.length > 0 && selectedTypes.length < 4) {
+        pool = pool.filter((q) => selectedTypes.includes(q.type));
+    }
+    if (pool.length === 0)
+        return renderError('Aucune question ne correspond aux critères sélectionnés.');
+    // Mettre à jour l'état avec les informations multi-cours
+    state.files = selectedFiles;
+    state.file = selectedFiles.length === 1 ? selectedFiles[0] : courseLabels.join(' + ');
+    // Priorité aux cartes "dûes" (Leitner)
+    const due = pool.filter(isDue);
+    const fresh = pool.filter((q) => !isDue(q));
+    shuffleInPlace(due);
+    shuffleInPlace(fresh);
+    const chosen = [];
+    for (const arr of [due, fresh]) {
+        for (const q of arr) {
+            if (chosen.length < state.n)
+                chosen.push(q);
+            else
+                break;
+        }
+        if (chosen.length >= state.n)
+            break;
+    }
+    state.allPool = pool.slice();
+    state.questions = chosen;
+    // Randomiser options & normaliser
+    for (const q of state.questions) {
+        normalizeAnswersInPlace(q);
+        if ((q.type === 'QCM' || q.type === 'QR') && q.answers)
+            shuffleInPlace(q.answers);
+    }
+    // Modes spécifiques: ne cacher l'UI qu'après avoir validé qu'on peut lancer
+    if (state.mode === 'flashcards') {
+        if (state.questions.length === 0)
+            return renderError('Pas de questions pour générer des flashcards.');
+        enterActiveMode();
+        return renderFlashcards(state.questions.slice());
+    }
+    if (state.mode === 'match') {
+        const pairs = [];
+        for (const q of pool) {
+            if (q.type === 'DragMatch') {
+                for (const p of (q.pairs ?? []))
+                    pairs.push({ item: p.item, match: p.match });
+            }
+        }
+        if (pairs.length === 0) {
+            return renderError('Aucun exercice DragMatch trouvé. Sélectionne un cours contenant des paires pour le mode Match.');
+        }
+        shuffleInPlace(pairs);
+        const count = Math.min(state.n, Math.max(4, Math.min(12, pairs.length)));
+        enterActiveMode();
+        return renderMatchMode(pairs.slice(0, count));
+    }
+    // Modes classiques (entrainement / examen)
+    enterActiveMode();
+    state.round = 1;
+    resetRoundState(state.questions.length);
+    render();
+}
+function resetRoundState(len) {
+    state.index = 0;
+    state.corrige = false;
+    state.lastCorrect = false;
+    state.userAnswers = new Array(len).fill(null);
+    state.correctMap = new Array(len).fill(null);
+}
+/* =========================
+   Rendu UI
+   ========================= */
+function renderError(msg) {
+    // En cas d'erreur ne pas rester en mode actif vide
+    if (document.documentElement.classList.contains('app-mode-active')) {
+        exitActiveMode();
+    }
+    els.root.innerHTML = `<div class="card"><strong>Erreur :</strong> ${escapeHtml(msg)}</div>`;
+    mountFloatingNext(false);
+}
+function progressBar() {
+    const total = state.questions.length || 1;
+    const cur = Math.min(state.index, total);
+    const percent = Math.floor((cur / total) * 100);
+    return `<div class="progress"><div class="progress__bar" style="width:${percent}%"></div></div>`;
+}
+function render() {
+    const fin = state.index >= state.questions.length;
+    const head = `
+    <div class="head">
+      <div><span class="badge">${escapeHtml(state.file)}</span></div>
+      <div>Mode : <strong>${state.mode === 'entrainement' ? 'Entraînement' : 'Examen'}</strong></div>
+      <div>Tour : <strong>${state.round}</strong></div>
+      <div>Progression : <strong>${Math.min(state.index + 1, state.questions.length)} / ${state.questions.length}</strong></div>
+    </div>
+    ${progressBar()}
+  `;
+    if (fin) {
+        mountFloatingNext(false);
+        return handleEndOfRound(head);
+    }
+    const q = state.questions[state.index];
+    normalizeAnswersInPlace(q);
+    // démarrer le chrono pour la question affichée (si écran question)
+    if (state.index < state.questions.length && !state.corrige) {
+        try {
+            state.questionStart = performance.now();
+        }
+        catch {
+            state.questionStart = Date.now();
+        }
+    }
+    else {
+        state.questionStart = null;
+    }
+    if (q.type === 'QR')
+        renderQR(head, q);
+    else if (q.type === 'QCM')
+        window.renderQCM ? window.renderQCM(head, q) : renderQCM(head, q);
+    else if (q.type === 'VF')
+        renderVF(head, q);
+    else if (q.type === 'DragMatch')
+        renderDragMatch(head, q);
+}
+function helperText(q) {
+    let text = '';
+    if (q.type === 'VF')
+        text = 'Choisis Vrai ou Faux.';
+    else if (q.type === 'DragMatch')
+        text = 'Glisse les réponses dans les bonnes cases.';
+    else if (q.type === 'QR')
+        text = 'Sélectionne la bonne réponse.';
+    else if (q.type === 'QCM') {
+        const nb = countCorrect(q);
+        text = nb > 1 ? 'Plusieurs réponses possibles — coche toutes les bonnes.' : 'Une ou plusieurs réponses possibles.';
+    }
+    // Ajouter la source si en mode multi-cours
+    if (els.multiCoursToggle.checked && q.sourceCourse) {
+        text += ` <span style="color: var(--muted); font-style: italic;">[${q.sourceCourse}]</span>`;
+    }
+    return text;
+}
+/* ---------- écrans questions ---------- */
+function renderQR(head, q) {
+    const opts = (q.answers ?? [])
+        .map((a) => {
+        let cls = 'opt';
+        if (state.corrige) {
+            const chosen = state.userAnswers[state.index]?.value === a.text;
+            if (a.correct)
+                cls += ' good';
+            if (!a.correct && chosen)
+                cls += ' bad';
+        }
+        return `
+      <label class="${cls}">
+        <input type="radio" name="qr" value="${escapeAttr(a.text)}" ${state.corrige ? 'disabled' : ''}/>
+        <span class="label">${escapeHtml(a.text)}</span>
+        ${state.corrige ? markIcon(a.correct, state.userAnswers[state.index]?.value === a.text) : ''}
+      </label>`;
+    })
+        .join('');
+    els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">${helperText(q)}</small></div>
+      <div class="options">${opts}</div>
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+    $$('input[name="qr"]').forEach((el) => el.addEventListener('change', updateButtonsFromDOM));
+    bindValidateAndNext(q);
+    updateButtonsFromDOM();
+    document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function renderQCM(head, q) {
+    const existing = state.userAnswers[state.index]?.kind === 'QCM' ? state.userAnswers[state.index].values : [];
+    const opts = (q.answers ?? [])
+        .map((a) => {
+        const checked = existing?.includes(a.text) ? 'checked' : '';
+        let cls = 'opt';
+        if (state.corrige) {
+            if (a.correct)
+                cls += ' good';
+            if (!a.correct && existing?.includes(a.text))
+                cls += ' bad';
+        }
+        return `
+      <label class="${cls}">
+        <input type="checkbox" value="${escapeAttr(a.text)}" ${state.corrige ? 'disabled' : ''} ${checked}/>
+        <span class="label">${escapeHtml(a.text)}</span>
+        ${state.corrige ? markIcon(a.correct, existing?.includes(a.text)) : ''}
+      </label>`;
+    })
+        .join('');
+    els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">${helperText(q)}</small></div>
+      <div class="options">${opts}</div>
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+    $$('.options input[type="checkbox"]').forEach((el) => el.addEventListener('change', updateButtonsFromDOM));
+    bindValidateAndNext(q);
+    updateButtonsFromDOM();
+    document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function renderVF(head, q) {
+    els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">${helperText(q)}</small></div>
+      <div class="options options--inline">
+        <label class="opt">
+          <input type="radio" name="vf" value="V" ${state.corrige ? 'disabled' : ''}/>
+          <span>Vrai</span>
+          ${state.corrige ? markIcon(q.vf === 'V', state.userAnswers[state.index]?.value === 'V') : ''}
+        </label>
+        <label class="opt">
+          <input type="radio" name="vf" value="F" ${state.corrige ? 'disabled' : ''}/>
+          <span>Faux</span>
+          ${state.corrige ? markIcon(q.vf === 'F', state.userAnswers[state.index]?.value === 'F') : ''}
+        </label>
+      </div>
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+    $$('input[name="vf"]').forEach((el) => el.addEventListener('change', updateButtonsFromDOM));
+    bindValidateAndNext(q);
+    updateButtonsFromDOM();
+    document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function renderDragMatch(head, q) {
+    if (q.type !== 'DragMatch')
+        return;
+    const userAnswer = state.userAnswers[state.index];
+    const userMatches = userAnswer?.matches ?? {};
+    // Shuffle matches for dragging
+    const matchValues = (q.pairs ?? []).map(p => p.match);
+    if (!state.corrige)
+        shuffleInPlace(matchValues);
+    const itemsHtml = (q.pairs ?? []).map((pair, idx) => {
+        const matchedValue = userMatches[pair.item] || '';
+        const isCorrect = state.corrige && matchedValue === pair.match;
+        const isIncorrect = state.corrige && matchedValue && matchedValue !== pair.match;
+        return `
+      <div class="drag-item-row ${state.corrige ? (isCorrect ? 'correct' : isIncorrect ? 'incorrect' : '') : ''}" data-item="${escapeHtml(pair.item)}">
+        <div class="drag-item-label">${escapeHtml(pair.item)}</div>
+        <div class="drag-drop-zone" data-item="${escapeHtml(pair.item)}">
+          ${matchedValue ? `<div class="drag-match-chip" data-match="${escapeHtml(matchedValue)}">${escapeHtml(matchedValue)}</div>` : '<span class="placeholder">Glisser ici</span>'}
+        </div>
+        ${state.corrige && pair.match !== matchedValue ? `<div class="correct-answer">→ ${escapeHtml(pair.match)}</div>` : ''}
+      </div>
+    `;
+    }).join('');
+    const availableMatchesHtml = matchValues.map(match => {
+        const isUsed = Object.values(userMatches).includes(match);
+        return `<div class="drag-match-chip ${isUsed && !state.corrige ? 'used' : ''}" draggable="${!state.corrige}" data-match="${escapeHtml(match)}">${escapeHtml(match)}</div>`;
+    }).join('');
+    els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">Glisse les réponses dans les bonnes cases.</small></div>
+      
+      <div class="drag-container">
+        <div class="drag-items">
+          ${itemsHtml}
+        </div>
+        
+        ${!state.corrige ? `
+          <div class="drag-matches-pool">
+            <div class="pool-label">Réponses disponibles:</div>
+            <div class="drag-matches">
+              ${availableMatchesHtml}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+      
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+    if (!state.corrige) {
+        setupDragAndDrop(q);
+    }
+    bindValidateAndNext(q);
+    updateButtonsFromDOM();
+    document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function setupDragAndDrop(q) {
+    if (q.type !== 'DragMatch')
+        return;
+    let draggedElement = null;
+    // Handle drag start from chips
+    $$('.drag-match-chip[draggable="true"]').forEach(chip => {
+        chip.addEventListener('dragstart', (e) => {
+            draggedElement = chip;
+            chip.classList.add('dragging');
+            if (e.dataTransfer) {
+                e.dataTransfer.effectAllowed = 'move';
+                e.dataTransfer.setData('text/plain', chip.getAttribute('data-match') || '');
+            }
+        });
+        chip.addEventListener('dragend', () => {
+            chip.classList.remove('dragging');
+        });
+    });
+    // Handle drop zones
+    $$('.drag-drop-zone').forEach(zone => {
+        zone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            zone.classList.add('drag-over');
+            if (e.dataTransfer)
+                e.dataTransfer.dropEffect = 'move';
+        });
+        zone.addEventListener('dragleave', () => {
+            zone.classList.remove('drag-over');
+        });
+        zone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            zone.classList.remove('drag-over');
+            const matchValue = e.dataTransfer?.getData('text/plain');
+            const itemName = zone.getAttribute('data-item');
+            if (matchValue && itemName) {
+                // Remove from old location if exists
+                const userAnswer = state.userAnswers[state.index];
+                if (!userAnswer) {
+                    state.userAnswers[state.index] = { kind: 'DragMatch', matches: {} };
+                }
+                const matches = state.userAnswers[state.index].matches || {};
+                // Find and remove this match from other items
+                for (const key in matches) {
+                    if (matches[key] === matchValue) {
+                        delete matches[key];
+                    }
+                }
+                // Add to this item
+                matches[itemName] = matchValue;
+                state.userAnswers[state.index].matches = matches;
+                // Update the drop zone visually
+                zone.innerHTML = `<div class="drag-match-chip" draggable="true" data-match="${escapeHtml(matchValue)}">${escapeHtml(matchValue)}</div>`;
+                // Re-setup drag for the new chip
+                const newChip = zone.querySelector('.drag-match-chip');
+                if (newChip) {
+                    newChip.addEventListener('dragstart', (e) => {
+                        newChip.classList.add('dragging');
+                        if (e.dataTransfer) {
+                            e.dataTransfer.effectAllowed = 'move';
+                            e.dataTransfer.setData('text/plain', newChip.getAttribute('data-match') || '');
+                        }
+                        // Remove from matches when dragging out
+                        const userAnswer = state.userAnswers[state.index];
+                        if (userAnswer?.matches && itemName) {
+                            delete userAnswer.matches[itemName];
+                        }
+                    });
+                    newChip.addEventListener('dragend', () => {
+                        newChip.classList.remove('dragging');
+                    });
+                }
+                // Hide used chip from pool
+                const poolChips = $$('.drag-matches .drag-match-chip');
+                poolChips.forEach(chip => {
+                    if (chip.getAttribute('data-match') === matchValue) {
+                        chip.classList.add('used');
+                    }
+                });
+                updateButtonsFromDOM();
+            }
+        });
+    });
+    // Allow removing from drop zones by dragging back to pool
+    $$('.drag-drop-zone .drag-match-chip').forEach(chip => {
+        chip.setAttribute('draggable', 'true');
+        chip.addEventListener('dragstart', (e) => {
+            draggedElement = chip;
+            chip.classList.add('dragging');
+            if (e.dataTransfer) {
+                e.dataTransfer.effectAllowed = 'move';
+                e.dataTransfer.setData('text/plain', chip.getAttribute('data-match') || '');
+            }
+            // Remove from matches when dragging out
+            const zone = chip.closest('.drag-drop-zone');
+            const itemName = zone?.getAttribute('data-item');
+            const matchValue = chip.getAttribute('data-match');
+            if (itemName && matchValue) {
+                const userAnswer = state.userAnswers[state.index];
+                if (userAnswer?.matches) {
+                    delete userAnswer.matches[itemName];
+                }
+            }
+        });
+        chip.addEventListener('dragend', () => {
+            chip.classList.remove('dragging');
+        });
+    });
+}
+/* ---------- Mode Flashcards ---------- */
+function renderFlashcards(list) {
+    // simple front/back flow using correctText for the answer
+    let idx = 0;
+    let showAnswer = false;
+    let correctCount = 0;
+    const startTs = performance.now ? performance.now() : Date.now();
+    function head() {
+        return `
+      <div class="head">
+        <div><span class="badge">Flashcards</span></div>
+        <div>Progression : <strong>${Math.min(idx + 1, list.length)} / ${list.length}</strong></div>
+      </div>
+      ${progressBarFlash(idx, list.length)}
+    `;
+    }
+    function progressBarFlash(i, total) {
+        const percent = Math.floor((i / Math.max(1, total)) * 100);
+        return `<div class="progress"><div class="progress__bar" style="width:${percent}%"></div></div>`;
+    }
+    function renderEnd() {
+        const elapsedMs = Math.round((performance.now ? performance.now() : Date.now()) - startTs);
+        els.root.innerHTML = `
+      ${head()}
+      <div class="card">
+        <h2>Session terminée</h2>
+        <p>Connues: <strong>${correctCount}</strong> / ${list.length}</p>
+        <p>Temps: <strong>${Math.round(elapsedMs / 1000)}s</strong></p>
+        <button id="btn-return" class="primary">Revenir</button>
+      </div>
+    `;
+        $('#btn-return')?.addEventListener('click', exitActiveMode);
+    }
+    function renderOne() {
+        if (idx >= list.length)
+            return renderEnd();
+        const q = list[idx];
+        const front = `<div class="flash-q">${escapeHtml(q.question)}</div>`;
+        const back = `<div class="flash-a">${escapeHtml(correctText(q))}</div>` + (q.explication ? `<div class="block"><small class="muted">${escapeHtml(q.explication)}</small></div>` : '');
+        els.root.innerHTML = `
+      ${head()}
+      <div class="flash-wrap card--q" id="qcard">
+        <div class="flashcard">${showAnswer ? back : front}</div>
+        <div class="flash-toolbar">
+          <button class="secondary" id="btn-prev" ${idx === 0 ? 'disabled' : ''}>Précédent</button>
+          <div class="badge">${helperText(q)}</div>
+          <button class="secondary" id="btn-next" ${idx >= list.length - 1 ? 'disabled' : ''}>Suivant</button>
+        </div>
+        <div class="flash-actions">
+          ${!showAnswer ? `<button class="primary" id="btn-flip">Voir la réponse</button>` : `
+            <button class="secondary" id="btn-again">À revoir</button>
+            <button class="primary" id="btn-good">Je sais</button>
+          `}
+        </div>
+      </div>
+    `;
+        document.getElementById('btn-flip')?.addEventListener('click', () => { showAnswer = true; renderOne(); });
+        document.getElementById('btn-prev')?.addEventListener('click', () => { if (idx > 0) {
+            idx -= 1;
+            showAnswer = false;
+            renderOne();
+        } });
+        document.getElementById('btn-next')?.addEventListener('click', () => { if (idx < list.length - 1) {
+            idx += 1;
+            showAnswer = false;
+            renderOne();
+        } });
+        document.getElementById('btn-again')?.addEventListener('click', () => {
+            // schedule as incorrect and push to end
+            updateStatAfterAnswer(q, false, 1);
+            list.push(q); // repeat later
+            idx += 1;
+            showAnswer = false;
+            renderOne();
+        });
+        document.getElementById('btn-good')?.addEventListener('click', () => {
+            updateStatAfterAnswer(q, true, 0);
+            correctCount += 1;
+            idx += 1;
+            showAnswer = false;
+            renderOne();
+        });
+        document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    renderOne();
+}
+/* ---------- Mode Match (style Quizlet) ---------- */
+function renderMatchMode(pairs) {
+    let cards = [];
+    pairs.forEach((p, i) => {
+        cards.push({ id: `i_${i}`, key: i, text: p.item });
+        cards.push({ id: `m_${i}`, key: i, text: p.match });
+    });
+    shuffleInPlace(cards);
+    let selected = [];
+    let matchedIds = new Set();
+    const startTs = performance.now ? performance.now() : Date.now();
+    function headHtml(remain) {
+        return `
+      <div class="match-toolbar">
+        <div><span class="badge">Match — ${pairs.length} paires</span></div>
+        <div>Restant: <strong>${remain}</strong></div>
+        <div><button id="btn-quit" class="secondary">Quitter</button></div>
+      </div>
+    `;
+    }
+    function renderEnd() {
+        const elapsedMs = Math.round((performance.now ? performance.now() : Date.now()) - startTs);
+        els.root.innerHTML = `
+      ${headHtml(0)}
+      <div class="card">
+        <h2>Terminé ⚡</h2>
+        <p>Temps: <strong>${Math.round(elapsedMs / 1000)}s</strong></p>
+        <button id="btn-restart" class="primary">Rejouer</button>
+      </div>
+    `;
+        document.getElementById('btn-restart')?.addEventListener('click', () => renderMatchMode(pairs));
+        document.getElementById('btn-quit')?.addEventListener('click', exitActiveMode);
+    }
+    function renderGrid() {
+        const remain = pairs.length - (matchedIds.size / 2);
+        if (remain <= 0)
+            return renderEnd();
+        els.root.innerHTML = `
+      ${headHtml(remain)}
+      <div class="match-grid">
+        ${cards.map(c => `
+          <div class="match-card ${selected.find(s => s.id === c.id) ? 'selected' : ''} ${matchedIds.has(c.id) ? 'matched' : ''}" data-id="${c.id}">${escapeHtml(c.text)}</div>
+        `).join('')}
+      </div>
+    `;
+        document.getElementById('btn-quit')?.addEventListener('click', exitActiveMode);
+        $$('.match-card').forEach(el => {
+            el.addEventListener('click', () => {
+                const id = el.getAttribute('data-id');
+                const card = cards.find(x => x.id === id);
+                if (matchedIds.has(id))
+                    return;
+                // toggle select
+                if (selected.find(s => s.id === id)) {
+                    selected = selected.filter(s => s.id !== id);
+                    el.classList.remove('selected');
+                    return;
+                }
+                if (selected.length < 2) {
+                    selected.push(card);
+                    el.classList.add('selected');
+                }
+                if (selected.length === 2) {
+                    const [a, b] = selected;
+                    if (a.key === b.key && a.id !== b.id) {
+                        // match
+                        matchedIds.add(a.id);
+                        matchedIds.add(b.id);
+                        setTimeout(() => { renderGrid(); }, 150);
+                    }
+                    else {
+                        // mismatch
+                        setTimeout(() => {
+                            // shake feedback could be added
+                            selected = [];
+                            renderGrid();
+                        }, 350);
+                    }
+                }
+            });
+        });
+    }
+    renderGrid();
+}
+/* ---------- boutons / feedback ---------- */
+function renderActionButtons(q) {
+    if (state.mode === 'entrainement') {
+        return !state.corrige
+            ? `<button class="primary" id="btn-valider" disabled>Valider</button>`
+            : feedbackBlock(q, state.lastCorrect, q.type === 'QCM');
+    }
+    return `<button class="primary" id="btn-valider" disabled>Valider</button>`;
+}
+function bindValidateAndNext(q) {
+    const btn = $('#btn-valider');
+    btn?.addEventListener('click', () => {
+        const { ok, ua } = getDOMAnswer(q);
+        if (!ok || !ua)
+            return;
+        // mesurer le temps passé sur la question (ms)
+        const start = state.questionStart ?? (performance.now ? performance.now() : Date.now());
+        const elapsedMs = Math.max(0, Math.round((performance.now ? performance.now() : Date.now()) - start));
+        // stocker la réponse
+        ua.timeMs = elapsedMs;
+        state.userAnswers[state.index] = ua;
+        const correct = computeIsCorrect(q, ua);
+        const sev = computeSeverity(q, ua); // 0..1
+        if (state.mode === 'entrainement') {
+            state.lastCorrect = correct;
+            state.correctMap[state.index] = correct;
+            updateStatAfterAnswer(q, correct, sev, ua.timeMs); // Leitner adaptatif + time
+            // Rafraîchir les stats de la matière sélectionnée en arrière-plan
+            const folder = els.selectMatiere?.value || '';
+            if (folder)
+                renderFolderStats(folder);
+            state.corrige = true;
+            render();
+            mountFloatingNext(true);
+        }
+        else {
+            state.corrige = false;
+            // in examen mode, still record stats with time if present
+            updateStatAfterAnswer(q, correct, sev, ua.timeMs);
+            const folder = els.selectMatiere?.value || '';
+            if (folder)
+                renderFolderStats(folder);
+            suivant();
+        }
+    });
+    mountFloatingNext(state.mode === 'entrainement' && state.corrige);
+}
+// Raccourcis clavier
+let keyHandlerInstalled = false;
+if (!keyHandlerInstalled) {
+    document.addEventListener('keydown', (e) => {
+        const btnVal = document.getElementById('btn-valider');
+        const fab = document.getElementById('fab-next');
+        if (e.key === 'Enter' && btnVal && !btnVal.disabled) {
+            btnVal.click();
+            e.preventDefault();
+        }
+        else if ((e.key.toLowerCase() === 'n' || e.key === ' ') && fab && !fab.disabled && fab.style.display !== 'none') {
+            fab.click();
+            e.preventDefault();
+        }
+        else if (e.key === 'Escape' && document.documentElement.classList.contains('app-mode-active')) {
+            // ESC pour quitter la session
+            exitActiveMode();
+            e.preventDefault();
+        }
+    });
+    keyHandlerInstalled = true;
+}
+function markIcon(isGood, wasChosen) {
+    if (isGood)
+        return `<span class="mark mark--good" title="Bonne réponse">✓</span>`;
+    if (wasChosen)
+        return `<span class="mark mark--bad" title="Mauvais choix">✗</span>`;
+    return '';
+}
+function feedbackBlock(q, ok, multi = false) {
+    const title = ok ? 'Correct !' : 'Incorrect.';
+    const good = `${multi ? 'Bonne(s) réponse(s)' : 'Bonne réponse'} : ${escapeHtml(correctText(q))}`;
+    const hasExp = !!q.explication && q.explication.trim().length > 0;
+    const nextBtn = `<button class="secondary" id="btn-suivant">Suivant</button>`;
+    setTimeout(() => { $('#btn-suivant')?.addEventListener('click', suivant); }, 0);
+    if (!hasExp) {
+        return `
+      <div class="feedback ${ok ? 'ok' : 'ko'}">
+        <strong>${title}</strong>
+        <div class="block"><strong>${good}</strong></div>
+        ${nextBtn}
+      </div>
+    `;
+    }
+    return `
+    <details class="feedback ${ok ? 'ok' : 'ko'}" open>
+      <summary>${title} — <strong>${good}</strong></summary>
+      <div class="block"><small class="muted">${escapeHtml(q.explication)}</small></div>
+      ${nextBtn}
+    </details>
+  `;
+}
+function mountFloatingNext(enabled) {
+    let btn = document.getElementById('fab-next');
+    if (!btn) {
+        btn = document.createElement('button');
+        btn.id = 'fab-next';
+        btn.className = 'fab-next';
+        btn.textContent = 'Suivant';
+        document.body.appendChild(btn);
+        btn.addEventListener('click', suivant);
+    }
+    btn.disabled = !enabled;
+    btn.style.display = enabled ? 'inline-flex' : 'none';
+}
+function suivant() {
+    if (state.mode === 'entrainement' && !state.corrige)
+        return;
+    state.corrige = false;
+    state.lastCorrect = false;
+    state.index += 1;
+    render();
+}
+/* =========================
+   Fin de tour & rattrapage
+   ========================= */
+function handleEndOfRound(head) {
+    const wrong = [];
+    if (state.mode === 'entrainement') {
+        state.questions.forEach((q, i) => {
+            if (state.correctMap[i] === false)
+                wrong.push(q);
+        });
+    }
+    else {
+        state.questions.forEach((q, i) => {
+            const ua = state.userAnswers[i];
+            let correct = false, sev = 1;
+            if (ua) {
+                if (q.type === 'QR')
+                    correct = isCorrect(q, { value: ua.kind === 'QR' ? ua.value : null });
+                else if (q.type === 'QCM')
+                    correct = isCorrect(q, { values: ua.kind === 'QCM' ? ua.values : [] });
+                else if (q.type === 'VF')
+                    correct = isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null });
+                sev = computeSeverity(q, ua);
+            }
+            if (!correct)
+                wrong.push(q);
+            updateStatAfterAnswer(q, correct, sev);
+        });
+    }
+    if (wrong.length > 0) {
+        shuffleInPlace(wrong);
+        for (const q of wrong) {
+            normalizeAnswersInPlace(q);
+            if ((q.type === 'QCM' || q.type === 'QR') && q.answers)
+                shuffleInPlace(q.answers);
+        }
+        state.questions = wrong;
+        state.round += 1;
+        resetRoundState(wrong.length);
+        els.root.innerHTML = `
+      ${head}
+      <div class="card">
+        <h2>Rattrapage</h2>
+        <p>Tu dois corriger ${wrong.length} question(s) avant de poursuivre.</p>
+        <button class="primary" id="btn-continue">Reprendre</button>
+      </div>
+    `;
+        $('#btn-continue')?.addEventListener('click', render);
+        return;
+    }
+    return renderResultats(head);
+}
+function themeKeyList(q) {
+    const t = (q.tags ?? []).map(s => s.trim()).filter(Boolean);
+    return (t.length > 0 ? t : ['(Sans thème)']);
+}
+function buildThemeStats(questions, userAnswers) {
+    const map = new Map();
+    questions.forEach((q, i) => {
+        const ua = userAnswers[i];
+        let ok = false;
+        if (ua) {
+            if (q.type === 'QR')
+                ok = isCorrect(q, { value: ua.kind === 'QR' ? ua.value : null });
+            else if (q.type === 'QCM')
+                ok = isCorrect(q, { values: ua.kind === 'QCM' ? ua.values : [] });
+            else if (q.type === 'VF')
+                ok = isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null });
+        }
+        for (const th of themeKeyList(q)) {
+            const cur = map.get(th) || { theme: th, total: 0, correct: 0, accuracy: 0, wrongIdx: [] };
+            cur.total += 1;
+            if (ok)
+                cur.correct += 1;
+            else
+                cur.wrongIdx.push(i);
+            map.set(th, cur);
+        }
+    });
+    const arr = Array.from(map.values()).map(s => ({ ...s, accuracy: s.total ? s.correct / s.total : 0 }));
+    arr.sort((a, b) => a.accuracy - b.accuracy); // prioriser les lacunes
+    return arr;
+}
+function renderThemeStatsCard(stats) {
+    if (stats.length === 0)
+        return '';
+    const rows = stats.map(s => `
+    <tr>
+      <td>${escapeHtml(s.theme)}</td>
+      <td style="text-align:center">${s.correct} / ${s.total}</td>
+      <td style="text-align:right">${Math.round(s.accuracy * 100)}%</td>
+    </tr>
+  `).join('');
+    return `
+    <div class="card">
+      <h3>À approfondir par thèmes</h3>
+      <p class="subtitle">Classement du plus faible taux de réussite au plus élevé.</p>
+      <div style="overflow:auto">
+        <table style="width:100%; border-collapse:collapse; font-size:14px">
+          <thead>
+            <tr>
+              <th style="text-align:left; border-bottom:1px solid var(--brd); padding-bottom:6px">Thème</th>
+              <th style="text-align:center; border-bottom:1px solid var(--brd)">Score</th>
+              <th style="text-align:right; border-bottom:1px solid var(--brd)">Réussite</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+      <small class="muted">Astuce : relance une série en sélectionnant le(s) thème(s) du haut pour cibler les lacunes.</small>
+    </div>
+  `;
+}
+function renderResultats(head) {
+    let score = 0;
+    const items = state.questions
+        .map((q, i) => {
+        const ua = state.userAnswers[i];
+        const ok = ua &&
+            (q.type === 'QR'
+                ? isCorrect(q, { value: ua.kind === 'QR' ? ua.value : null })
+                : q.type === 'QCM'
+                    ? isCorrect(q, { values: ua.kind === 'QCM' ? ua.values : [] })
+                    : q.type === 'VF'
+                        ? isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null })
+                        : false);
+        if (ok)
+            score++;
+        const userText = (() => {
+            if (!ua)
+                return '(aucune réponse)';
+            if (q.type === 'VF')
+                return ua.kind === 'VF' ? (ua.value === 'V' ? 'Vrai' : 'Faux') : '(aucune réponse)';
+            if (q.type === 'QR')
+                return ua.kind === 'QR' ? (ua.value ?? '(aucune réponse)') : '(aucune réponse)';
+            if (q.type === 'QCM')
+                return ua.kind === 'QCM' ? ((ua.values ?? []).join(' | ') || '(aucune réponse)') : '(aucune réponse)';
+            return '(aucune réponse)';
+        })();
+        return `
+        <li class="${ok ? 'ok' : 'ko'}">
+          <div class="qtitle">${i + 1}. ${escapeHtml(q.question)}</div>
+          <div><strong>Ta réponse :</strong> ${escapeHtml(userText)}</div>
+          <div><strong>Bonne réponse :</strong> ${escapeHtml(correctText(q))}</div>
+          ${q.explication ? `<div class="block"><small class="muted">${escapeHtml(q.explication)}</small></div>` : ''}
+        </li>
+      `;
+    })
+        .join('');
+    const themeStats = buildThemeStats(state.questions, state.userAnswers);
+    const themeCard = renderThemeStatsCard(themeStats);
+    els.root.innerHTML = `
+    ${head}
+    <div class="card">
+      <h2>Série validée 🎉</h2>
+      <p>Score du dernier tour : <strong>${score} / ${state.questions.length}</strong></p>
+      <button id="btn-return" class="primary">Revenir</button>
+    </div>
+    ${themeCard}
+    <ol class="list">${items}</ol>
+  `;
+    mountFloatingNext(false);
+    $('#btn-return')?.addEventListener('click', exitActiveMode);
+}
+/* =========================
+   Helpers validation DOM
+   ========================= */
+function getDOMAnswer(q) {
+    if (q.type === 'VF') {
+        const v = document.querySelector('input[name="vf"]:checked')?.value;
+        return v ? { ok: true, ua: { kind: 'VF', value: v } } : { ok: false, ua: null };
+    }
+    if (q.type === 'QR') {
+        const v = document.querySelector('input[name="qr"]:checked')?.value ?? null;
+        return v ? { ok: true, ua: { kind: 'QR', value: v } } : { ok: false, ua: null };
+    }
+    if (q.type === 'QCM') {
+        const boxes = Array.from(document.querySelectorAll('.options input[type="checkbox"]'));
+        const values = boxes.filter(b => b.checked).map(b => b.value);
+        return values.length > 0 ? { ok: true, ua: { kind: 'QCM', values } } : { ok: false, ua: null };
+    }
+    if (q.type === 'DragMatch') {
+        const userAnswer = state.userAnswers[state.index];
+        const matches = userAnswer?.matches ?? {};
+        const pairs = q.pairs ?? [];
+        const hasAny = Object.keys(matches).length > 0;
+        // Autoriser la validation dès qu'au moins une association est faite (meilleure UX)
+        return hasAny ? { ok: true, ua: { kind: 'DragMatch', matches } } : { ok: false, ua: null };
+    }
+    return { ok: false, ua: null };
+}
+function normalizeAnswersInPlace(q) {
+    if ((q.type === 'QCM' || q.type === 'QR') && q.answers) {
+        q.answers = q.answers
+            .map(a => ({ ...a, text: (a.text ?? '').trim() }))
+            .filter(a => a.text.length > 0);
+    }
+}
+function updateButtonsFromDOM() {
+    const btn = document.getElementById('btn-valider');
+    if (!btn)
+        return;
+    const q = state.questions[state.index];
+    const { ok } = getDOMAnswer(q);
+    btn.disabled = !ok;
+}
+// scheduling functions moved to src/scheduling.ts
+/* =========================
+   Utils
+   ========================= */
+function computeIsCorrect(q, ua) {
+    if (q.type === 'QR')
+        return isCorrect(q, { value: ua.kind === 'QR' ? ua.value : null });
+    if (q.type === 'QCM')
+        return isCorrect(q, { values: ua.kind === 'QCM' ? ua.values : [] });
+    if (q.type === 'VF')
+        return isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null });
+    if (q.type === 'DragMatch')
+        return isCorrect(q, { matches: ua.kind === 'DragMatch' ? ua.matches : {} });
+    return false;
+}
+function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+function escapeAttr(s) {
+    return s.replace(/"/g, '&quot;');
+}
+// Expose debug
+(Object.assign(window, { t2q: { state } }));
+/* =========================
+   Mode UI hide/show helpers
+   ========================= */
+function enterActiveMode() {
+    document.documentElement.classList.add('app-mode-active');
+    if (els.selectionArea)
+        els.selectionArea.style.display = 'none';
+    updateActiveToolbar();
+}
+function exitActiveMode() {
+    document.documentElement.classList.remove('app-mode-active');
+    if (els.selectionArea)
+        els.selectionArea.style.display = 'block';
+    state.questions = [];
+    state.userAnswers = [];
+    state.correctMap = [];
+    state.index = 0;
+    state.corrige = false;
+    els.root.innerHTML = '';
+    mountFloatingNext(false);
+    // Mettre à jour les stats matière à la sortie
+    const folder = els.selectMatiere?.value || '';
+    if (folder)
+        renderFolderStats(folder);
+}
+// Sécurité: garantir que l'UI de sélection est visible au chargement initial
+if (document.documentElement.classList.contains('app-mode-active')) {
+    document.documentElement.classList.remove('app-mode-active');
+}
+if (els.selectionArea && els.selectionArea.style.display === 'none' && state.questions.length === 0) {
+    els.selectionArea.style.display = 'block';
+}
+// Quit via toolbar
+els.activeQuit?.addEventListener('click', exitActiveMode);
+function modeLabel(m) {
+    if (m === 'entrainement')
+        return 'Entraînement';
+    if (m === 'examen')
+        return 'Examen';
+    if (m === 'flashcards')
+        return 'Flashcards';
+    if (m === 'match')
+        return 'Match';
+    return String(m);
+}
+function updateActiveToolbar() {
+    if (!els.activeTitle)
+        return;
+    const fileLabel = state.file || '';
+    els.activeTitle.textContent = `${modeLabel(state.mode)} — ${fileLabel}`;
+}
+/* =========================
+   Disponibilité du mode Match
+   ========================= */
+function updateMatchModeAvailability() {
+    const matchRadio = document.querySelector('input[name="mode"][value="match"]');
+    const hintEl = document.getElementById('match-mode-hint');
+    if (!matchRadio || !hintEl)
+        return;
+    // Si l'utilisateur a décoché DragMatch dans les types, le mode est indisponible
+    const selectedTypes = getSelectedTypes();
+    if (selectedTypes.length > 0 && !selectedTypes.includes('DragMatch')) {
+        matchRadio.disabled = true;
+        if (matchRadio.checked) {
+            // Basculer sur un mode valide
+            const fallback = document.querySelector('input[name="mode"][value="entrainement"]');
+            if (fallback)
+                fallback.checked = true;
+        }
+        hintEl.textContent = 'Match indisponible : type DragMatch décoché.';
+        return;
+    }
+    // Déterminer les fichiers sélectionnés
+    let selectedFiles = [];
+    if (els.multiCoursToggle?.checked) {
+        const checkedBoxes = $$('#cours-checkbox-list input[type="checkbox"]:checked');
+        selectedFiles = checkedBoxes.map(cb => cb.value).filter(Boolean);
+    }
+    else {
+        selectedFiles = [state.file || (els.selectCours?.value || '')];
+    }
+    selectedFiles = selectedFiles.filter(Boolean);
+    if (selectedFiles.length === 0) {
+        matchRadio.disabled = true;
+        hintEl.textContent = 'Match indisponible : aucun cours sélectionné.';
+        return;
+    }
+    const themes = getSelectedThemes();
+    let totalPairs = 0;
+    let dragMatchQuestions = 0;
+    for (const fp of selectedFiles) {
+        const course = courses.find(c => c.path === fp || c.file === fp);
+        if (!course)
+            continue;
+        let qs = parseQuestions(course.content);
+        qs = dedupeQuestions(qs);
+        if (themes.length > 0) {
+            qs = qs.filter(q => (q.tags ?? []).some((t) => themes.includes(t)));
+            qs = dedupeQuestions(qs);
+        }
+        if (selectedTypes.length > 0 && selectedTypes.length < 4) {
+            qs = qs.filter(q => selectedTypes.includes(q.type));
+        }
+        for (const q of qs) {
+            if (q.type === 'DragMatch') {
+                dragMatchQuestions += 1;
+                totalPairs += (q.pairs ?? []).length;
+            }
+        }
+    }
+    if (totalPairs === 0) {
+        matchRadio.disabled = true;
+        if (matchRadio.checked) {
+            const fallback = document.querySelector('input[name="mode"][value="entrainement"]');
+            if (fallback)
+                fallback.checked = true;
+        }
+        hintEl.textContent = 'Match indisponible : aucune paire DragMatch trouvée avec les filtres actuels.';
+    }
+    else {
+        matchRadio.disabled = false;
+        hintEl.textContent = `Match disponible : ${totalPairs} paire${totalPairs > 1 ? 's' : ''} (dans ${dragMatchQuestions} question${dragMatchQuestions > 1 ? 's' : ''}).`;
+    }
+}
+// Brancher les événements déclenchant la mise à jour
+document.addEventListener('DOMContentLoaded', () => {
+    updateMatchModeAvailability();
+});
+// Sur changement de sélection de cours simple
+els.selectCours?.addEventListener('change', () => updateMatchModeAvailability());
+// Sur changement des checkboxes multi-cours
+els.selectAllCours?.addEventListener('change', () => updateMatchModeAvailability());
+// Délégation pour chaque checkbox dynamique (re-évaluation après création)
+function observeCoursCheckboxContainer() {
+    const container = document.getElementById('cours-checkbox-list');
+    if (!container)
+        return;
+    const mo = new MutationObserver(() => {
+        const boxes = Array.from(container.querySelectorAll('input[type="checkbox"]'));
+        boxes.forEach(b => {
+            b.removeEventListener('change', updateMatchModeAvailability);
+            b.addEventListener('change', updateMatchModeAvailability);
+        });
+    });
+    mo.observe(container, { childList: true, subtree: true });
+}
+observeCoursCheckboxContainer();
+// Sur changement de thèmes
+els.selectThemes?.addEventListener('change', () => updateMatchModeAvailability());
+// Sur changement des types
+Array.from(document.querySelectorAll('.qtype')).forEach(el => {
+    el.addEventListener('change', () => updateMatchModeAvailability());
+});
+// Sur bascule multi-cours
+els.multiCoursToggle?.addEventListener('change', () => {
+    setTimeout(updateMatchModeAvailability, 0); // après création des checkboxes
+});
+// Après remplissage des thèmes : injecter appel dans fonction existante
+// (on ajoute un hook à la fin en modifiant directement la fonction ci-dessus)
+// NOTE: si la signature de fillThemes change, mettre à jour ce hook.
+// Pour éviter la réassignation interdite, on ajoute un MutationObserver plus haut
+// et on appelle updateMatchModeAvailability dans les événements + dans loadCourseForThemes/multi.

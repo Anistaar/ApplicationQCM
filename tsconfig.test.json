@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "build-tests",
+    "rootDir": "src",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "jsx": "react-jsx",
+    "sourceMap": false,
+    "declaration": false,
+    "isolatedModules": false
+  },
+  "include": ["src"]
+}

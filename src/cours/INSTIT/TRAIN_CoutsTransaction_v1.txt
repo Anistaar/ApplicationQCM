@@ -5,4 +5,3 @@ QCM || Choix du mode de gouvernance || V:Marché / Hiérarchie / Hybrides selon 
 QCM || Exemple : pièce automobile très spécifique — choisir ? || V:Intégration/contrat long terme|Spot‑market|Aucun contrat|Appel d’offres quotidien
 QCM || Piège : laquelle est FAUSSE ? || Marché si coûts faibles|Hiérarchie si actifs spécifiques|Hybrides possibles|V:Contrats sont inutiles
 QCM || Plateformes numériques : effet sur coûts ? || V:Réduction recherche/négociation|Toujours ↑ coûts de surveillance|Élimination totale des coûts|Aucun impact
-QCM || Which are TRUE? TCE assumes… || V:bounded rationality|V:opportunism|perfect information|no asset specificity

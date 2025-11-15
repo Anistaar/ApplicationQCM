@@ -1,0 +1,23 @@
+{
+  "name": "text2quiz-discord-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "TS_NODE_TRANSPILE_ONLY=1 node --env-file=.env --loader ts-node/esm src/index.ts",
+    "deploy-commands": "TS_NODE_TRANSPILE_ONLY=1 node --env-file=.env --loader ts-node/esm src/registerCommands.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

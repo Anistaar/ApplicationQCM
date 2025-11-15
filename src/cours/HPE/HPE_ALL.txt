@@ -1,28 +1,28 @@
 === INTRODUCTION - STATUT DE L'ECONOMIE ===
 
-QCM || Trois arguments faisant penser que l'économie est une science || V:On parle de sciences économiques, prix Nobel depuis 1969, modélisation mathématique|Seulement le prix Nobel|Uniquement la modélisation|Seulement le nom "sciences économiques"
+QCM || Lesquels des éléments suivants suggèrent que l'économie peut être considérée comme une science ? || V:On parle de sciences économiques, prix Nobel depuis 1969, modélisation mathématique|Seulement le prix Nobel|Uniquement la modélisation|Seulement le nom "sciences économiques"
 
-QCM || Prix Nobel d'économie vrai nom || Prix Nobel d'économie|V:Prix de la banque de Suède en sciences économiques en mémoire d'Alfred Nobel|Prix Nobel de la paix économique|Prix européen d'économie
+QCM || Quel est l'intitulé exact du "prix Nobel d'économie" ? || Prix Nobel d'économie|V:Prix de la banque de Suède en sciences économiques en mémoire d'Alfred Nobel|Prix Nobel de la paix économique|Prix européen d'économie
 
 VF || Le "prix Nobel d'économie" fait partie des prix créés par Alfred Nobel. || F || Prix financé par la Banque de Suède en mémoire d'Alfred Nobel, distinct des prix originels.
 
-QCM || Différence économie vs sciences naturelles || Même méthode|V:En économie on peut revenir aux théories passées, pas en sciences naturelles|Économie plus rigoureuse|Aucune différence
+QCM || En quoi l'économie se distingue-t-elle des sciences naturelles selon ce cours ? || Même méthode|V:En économie on peut revenir aux théories passées, pas en sciences naturelles|Économie plus rigoureuse|Aucune différence
 
-QCM || Connaissances en économie vs sciences naturelles || V:Connaissances passées continuent d'influencer le futur en économie|Remplacement systématique comme en sciences|Évolution identique|Pas d'évolution
+QCM || Par rapport aux sciences naturelles, comment évoluent les connaissances en économie ? || V:Connaissances passées continuent d'influencer le futur en économie|Remplacement systématique comme en sciences|Évolution identique|Pas d'évolution
 
-QCM || Histoire sciences naturelles selon le cours || Utile pour pratique actuelle|V:Musée de théories dépassées|Guide pour recherche|Base théorique
+QCM || Dans ce cours, comment l'histoire des sciences naturelles est-elle qualifiée ? || Utile pour pratique actuelle|V:Musée de théories dépassées|Guide pour recherche|Base théorique
 
 QCM || Quel est l'ouvrage principal de Thomas Kuhn ? || V:La structure des révolutions scientifiques|L'origine des espèces|Théorie générale|Principes d'économie
 
-QCM || Quel concept clé associe-t-on à Kuhn ? || Révolution|V:Paradigme|Évolution|Progrès
+QCM || Quel concept clé associe-t-on à Thomas Kuhn ? || Révolution|V:Paradigme|Évolution|Progrès
 
-QCM || Qu'entend-on par « paradigme » chez Kuhn ? || Théorie isolée|V:Modèle commun, cadre d'analyse d'une communauté scientifique|Méthode unique|Outil mathématique
+QCM || Chez Kuhn, que désigne le terme « paradigme » ? || Théorie isolée|V:Modèle commun, cadre d'analyse d'une communauté scientifique|Méthode unique|Outil mathématique
 
-QCM || Caractéristique communauté scientifique Kuhn || Désaccord permanent|V:Cohésion, consensus autour principes base et méthodes|Individualisme|Compétition
+QCM || Selon Kuhn, quelle caractéristique décrit une communauté scientifique ? || Désaccord permanent|V:Cohésion, consensus autour principes base et méthodes|Individualisme|Compétition
 
-QCM || Révolution scientifique Kuhn || Évolution lente|V:Changement de paradigme face aux anomalies|Amélioration continue|Retour en arrière
+QCM || Qu'appelle-t-on « révolution scientifique » chez Kuhn ? || Évolution lente|V:Changement de paradigme face aux anomalies|Amélioration continue|Retour en arrière
 
-QCM || Analogie construction puzzle Kuhn || V:Science normale résout problèmes dans cadre établi|Science révolutionnaire|Création de nouveaux puzzles|Destruction paradigmes
+QCM || À quoi sert l'analogie du puzzle chez Kuhn pour décrire la science « normale » ? || V:Science normale résout problèmes dans cadre établi|Science révolutionnaire|Création de nouveaux puzzles|Destruction paradigmes
 
 QR || La révolution keynésienne met surtout en avant : || V:La demande effective|La neutralité de la monnaie|La loi de Say|La valeur-travail || Accent sur la demande globale et le rôle stabilisateur de l'État.
 
@@ -42,147 +42,147 @@ QCM || Pour Popper, une proposition scientifique est-elle réfutable ? || Toujou
 
 QCM || Exemple tous cygnes blancs || V:Rentre dans champ science (cohérent et testable)|Non scientifique|Partiellement scientifique|Impossible à déterminer
 
-QCM || Transitivité microéconomie exemple || Pierre papier ciseaux|V:A>B, B>C donc A>C sauf pierre-feuille-ciseaux|A=B=C|Aucun ordre
+QCM || Quel exemple illustre la transitivité (ou son exception) en microéconomie ? || Pierre papier ciseaux|V:A>B, B>C donc A>C sauf pierre-feuille-ciseaux|A=B=C|Aucun ordre
 
-QCM || Problème propositions économiques || Toujours testables|V:Nombreuses propositions non testables par nature|Facilement testables|Testabilité parfaite
+QCM || Quel problème épistémologique affecte de nombreuses propositions économiques ? || Toujours testables|V:Nombreuses propositions non testables par nature|Facilement testables|Testabilité parfaite
 
-QCM || Concurrence pure parfaite réalité || Correspond parfaitement|V:Aucune hypothèse ne correspond à la réalité|Partiellement réaliste|Proche réalité
+QCM || Dans la réalité, dans quelle mesure les hypothèses de la CPP (concurrence pure et parfaite) sont-elles vérifiées ? || Correspond parfaitement|V:Aucune hypothèse ne correspond à la réalité|Partiellement réaliste|Proche réalité
 
-QCM || Lois tendancielles caractéristique || Absolues|V:Évolution variable sauf si facteurs l'empêchent|Précises|Immuables
+QCM || Quelle est la caractéristique d'une loi tendancielle en économie ? || Absolues|V:Évolution variable sauf si facteurs l'empêchent|Précises|Immuables
 
-QCM || Expérimentation économie vs laboratoire || Identique|V:Très difficile conditions pratiques|Plus facile|Impossible
+QCM || Pourquoi l'expérimentation est-elle plus difficile en économie qu'en laboratoire ? || Identique|V:Très difficile conditions pratiques|Plus facile|Impossible
 
-QCM || Validation théories économiques || Facilement validées|V:Très difficile d'infirmer en économie|Systématiquement validées|Rapidement invalidées
+QCM || Pourquoi est-il difficile d'infirmer des théories en économie ? || Facilement validées|V:Très difficile d'infirmer en économie|Systématiquement validées|Rapidement invalidées
 
-QCM || Coexistence paradigmes économie || Impossible|V:Fragilité expérimentation explique coexistence possible|Temporaire seulement|Inadmissible
+QCM || Qu'est-ce qui peut expliquer la coexistence de paradigmes en économie ? || Impossible|V:Fragilité expérimentation explique coexistence possible|Temporaire seulement|Inadmissible
 
-QCM || Chômage paradigme libéral/classique || Insuffisance demande|V:Salaires trop élevés par rapport productivité|Manque formation|Problème technologique
+QCM || Dans le paradigme libéral/classique, à quoi est imputé le chômage ? || Insuffisance demande|V:Salaires trop élevés par rapport productivité|Manque formation|Problème technologique
 
-QCM || Chômage paradigme keynésien || Salaires trop élevés|V:Insuffisance de la demande|Surproduction|Problème offre
+QCM || Selon le paradigme keynésien, quelle est la cause centrale du chômage ? || Salaires trop élevés|V:Insuffisance de la demande|Surproduction|Problème offre
 
 DragMatch || Associez chaque auteur à l'idée centrale de son apport || Adam Smith:Main invisible et rôle de la concurrence, David Ricardo:Rente différentielle et terres de qualité, Thomas Malthus:Population géométrique et rendements décroissants, Karl Marx:Plus-value et travail abstrait, Carl Menger:Utilité marginale subjective, William Jevons:Utilité marginale mesurable, Léon Walras:Équilibre général et tâtonnement, Alfred Marshall:Équilibre partiel et productivité marginale, Vilfredo Pareto:Optimum de Pareto || Cartographier les apports sans retenir des dates.
 
 === ECOLE CLASSIQUE - VALEUR TRAVAIL ===
 
-QCM || L'école classique apparaît principalement à quelle période ? || XVIIe siècle|V:XVIIIe siècle|XIXe siècle|XXe siècle
+QCM || À quelle période l'école classique apparaît-elle principalement ? || XVIIe siècle|V:XVIIIe siècle|XIXe siècle|XXe siècle
 
-QCM || Questions centrales école classique || Prix et utilité|V:Création richesse, formation valeur, répartition équitable|Consommation et production|Marché et concurrence
+QCM || Quelles sont les questions centrales abordées par l'école classique ? || Prix et utilité|V:Création richesse, formation valeur, répartition équitable|Consommation et production|Marché et concurrence
 
-QCM || Critère appartenance école classique || Utilité marginale|V:Valeur d'un bien repose sur le travail|Préférences individuelles|Équilibre marché
+QCM || Quel critère permet de rattacher un auteur à l'école classique ? || Utilité marginale|V:Valeur d'un bien repose sur le travail|Préférences individuelles|Équilibre marché
 
-QCM || Économistes appartenant école classique || Walras, Jevons, Menger|V:Adam Smith, David Ricardo, Robert Malthus, Karl Marx|Marshall, Pareto|Keynes, Friedman
+QCM || Lesquels des économistes suivants appartiennent à l'école classique ? || Walras, Jevons, Menger|V:Adam Smith, David Ricardo, Robert Malthus, Karl Marx|Marshall, Pareto|Keynes, Friedman
 
-QCM || Opposition idéologique classiques || Tous libéraux|V:Smith libéral, Marx socialiste/communiste|Tous socialistes|Tous conservateurs
+QCM || Sur le plan idéologique, comment certains classiques se distinguent-ils ? || Tous libéraux|V:Smith libéral, Marx socialiste/communiste|Tous socialistes|Tous conservateurs
 
-QCM || Sous-catégorie école classique anglaise || Marx et Ricardo|V:Smith et Ricardo - libéralisme économique|Malthus et Marx|Smith et Malthus
+QCM || Parmi les propositions suivantes, laquelle décrit la sous-catégorie anglaise des classiques ? || Marx et Ricardo|V:Smith et Ricardo - libéralisme économique|Malthus et Marx|Smith et Malthus
 
-QCM || Dans le sens économique historique, « être libéral » signifie plutôt : || État interventionniste|V:Croire en l'efficacité du marché, avec un État non interventionniste direct|État planificateur|État propriétaire
+QCM || Dans le sens historique en économie, que signifie plutôt « être libéral » ? || État interventionniste|V:Croire en l'efficacité du marché, avec un État non interventionniste direct|État planificateur|État propriétaire
 
-QCM || Trois piliers libéralisme || État, marché, société|V:Individualisme, liberté économique, équilibre économique|Solidarité, égalité, fraternité|Ordre, autorité, tradition
+QCM || Quels sont les trois piliers associés au libéralisme économique ? || État, marché, société|V:Individualisme, liberté économique, équilibre économique|Solidarité, égalité, fraternité|Ordre, autorité, tradition
 
-QCM || Rôle État pour libéraux || Actif et interventionniste|V:Arbitre qui encadre et garantit liberté économique|Propriétaire moyens production|Planificateur central
+QCM || Quel rôle l'État doit-il tenir selon les libéraux ? || Actif et interventionniste|V:Arbitre qui encadre et garantit liberté économique|Propriétaire moyens production|Planificateur central
 
-QCM || Selon Aristote, combien de notions de valeur distingue-t-on ? || Une seule valeur|V:Deux valeurs - usage et échange|Trois valeurs|Valeur unique
+QCM || Selon Aristote, combien de notions de valeur distingue-t-on et lesquelles ? || Une seule valeur|V:Deux valeurs - usage et échange|Trois valeurs|Valeur unique
 
 QCM || La valeur d'usage renvoie à : || Capacité d'échange|V:Utilité du bien|Prix du bien|Rareté du bien
 
-QCM || Valeur d'échange définition || Utilité du bien|V:Nombre d'unités d'autres biens obtenus en échange|Coût de production|Travail incorporé
+QCM || Quelle est la bonne définition de la « valeur d'échange » ? || Utilité du bien|V:Nombre d'unités d'autres biens obtenus en échange|Coût de production|Travail incorporé
 
-QCM || Lien valeurs usage/échange selon Smith || Toujours proportionnelles|V:Non liées selon Smith|Inversement proportionnelles|Parfaitement corrélées
+QCM || Selon Smith, quel lien existe-t-il entre la valeur d'usage et la valeur d'échange ? || Toujours proportionnelles|V:Non liées selon Smith|Inversement proportionnelles|Parfaitement corrélées
 
-QCM || Paradoxe eau/diamant eau || Valeur usage faible, échange élevée|V:Valeur usage max, échange minimale|Valeurs équilibrées|Valeur usage nulle
+QCM || Dans le paradoxe de l'eau et du diamant, que dire de l'eau ? || Valeur usage faible, échange élevée|V:Valeur usage max, échange minimale|Valeurs équilibrées|Valeur usage nulle
 
-QCM || Paradoxe eau/diamant diamant || V:Valeur usage minimale, échange max|Valeur usage max, échange faible|Valeurs équilibrées|Aucune valeur
+QCM || Dans le paradoxe de l'eau et du diamant, que dire du diamant ? || V:Valeur usage minimale, échange max|Valeur usage max, échange faible|Valeurs équilibrées|Aucune valeur
 
-QCM || Condition valeur d'échange || Valeur usage nulle|V:Certaine valeur usage nécessaire mais pas proportionnelle|Valeur usage max|Parfaite proportionnalité
+QCM || Quelle condition sur la valeur d'usage est nécessaire pour qu'un bien ait une valeur d'échange ? || Valeur usage nulle|V:Certaine valeur usage nécessaire mais pas proportionnelle|Valeur usage max|Parfaite proportionnalité
 
-QCM || Recherche étalon mesure Smith || Qui varie dans temps|V:Ne varie ni temps ni espace|Variable selon lieu|Flexible
+QCM || Quel étalon de mesure Smith recherche-t-il pour comparer les valeurs ? || Qui varie dans temps|V:Ne varie ni temps ni espace|Variable selon lieu|Flexible
 
-QCM || Étalon choisi par Smith || Métaux précieux|V:Effort humain, travail|Monnaie|Blé
+QCM || Quel étalon Smith retient-il finalement pour mesurer la valeur ? || Métaux précieux|V:Effort humain, travail|Monnaie|Blé
 
-QCM || Valeur travail pour Smith || Variable selon personne|V:Même pour tout monde - coût renoncement repos|Différente par classe|Dépend du bien
+QCM || Comment Smith définit-il la valeur-travail comme étalon ? || Variable selon personne|V:Même pour tout monde - coût renoncement repos|Différente par classe|Dépend du bien
 
-QCM || Société primitive Smith || Classes sociales|V:Pas de classes sociales, chaque travailleur récupère intégralement produit|Inégalités|Propriété privée
+QCM || Dans la société « primitive » selon Smith, quelle est la structure sociale ? || Classes sociales|V:Pas de classes sociales, chaque travailleur récupère intégralement produit|Inégalités|Propriété privée
 
-QCM || Exemple société primitive castor/daim || Castor 1h, daim 2h|V:Castor 2h, daim 1h|Castor 3h, daim 1h|Temps égal
+QCM || Dans l'exemple de la chasse au castor et au daim chez Smith, quels temps de travail sont associés ? || Castor 1h, daim 2h|V:Castor 2h, daim 1h|Castor 3h, daim 1h|Temps égal
 
-QCM || Échange société primitive 1 daim || 2 castors|V:1/2 castor|1 castor|3 castors
+QCM || Toujours chez Smith, quelle contrepartie en castors obtient-on pour 1 daim dans la société primitive ? || 2 castors|V:1/2 castor|1 castor|3 castors
 
-QCM || Société avancée Smith classes || Deux classes|V:Trois classes - travailleurs, propriétaires moyens production, propriétaires terriens|Quatre classes|Une classe
+QCM || Dans la société avancée décrite par Smith, combien de classes distingue-t-on et lesquelles ? || Deux classes|V:Trois classes - travailleurs, propriétaires moyens production, propriétaires terriens|Quatre classes|Une classe
 
-QCM || Double déduction société avancée || Une seule déduction|V:Profit (propriétaires moyens production) et rente (propriétaires terriens)|Impôts seulement|Taxes diverses
+QCM || Quelle « double déduction » s'opère sur la valeur dans la société avancée chez Smith ? || Une seule déduction|V:Profit (propriétaires moyens production) et rente (propriétaires terriens)|Impôts seulement|Taxes diverses
 
-QCM || Profit Smith définition || Salaire élevé|V:Part aux propriétaires moyens de production|Bénéfice travailleur|Revenu État
+QCM || Comment Smith définit-il le profit dans la répartition de la valeur ? || Salaire élevé|V:Part aux propriétaires moyens de production|Bénéfice travailleur|Revenu État
 
-QCM || Rente Smith définition || Loyer immobilier|V:Part aux propriétaires terriens|Profit agricole|Salaire foncier
+QCM || Comment Smith définit-il la rente perçue par les propriétaires terriens ? || Loyer immobilier|V:Part aux propriétaires terriens|Profit agricole|Salaire foncier
 
-QCM || Conséquence double déduction || Salaire augmente|V:Valeur d'échange augmente avec intermédiaires|Prix diminue|Stabilité
+QCM || Quelle est la conséquence de la double déduction sur la valeur d'échange ? || Salaire augmente|V:Valeur d'échange augmente avec intermédiaires|Prix diminue|Stabilité
 
-QCM || Critique Ricardo contre Smith || Approche correcte|V:Pourquoi valeur double avec propriétaire foncier alors qu'efforts identiques|Méthode insuffisante|Calcul erroné
+QCM || Quelle critique Ricardo adresse-t-il à la mesure de la valeur chez Smith ? || Approche correcte|V:Pourquoi valeur double avec propriétaire foncier alors qu'efforts identiques|Méthode insuffisante|Calcul erroné
 
-QCM || Solution Ricardo || Travail commandé|V:Travail incorporé|Travail abstrait|Travail concret
+QCM || Quelle solution Ricardo propose-t-il pour mesurer la valeur ? || Travail commandé|V:Travail incorporé|Travail abstrait|Travail concret
 
-QCM || Travail incorporé Ricardo || V:Quantité travail nécessaire pour être produit|Travail commandé|Travail payé|Travail social
+QCM || Chez Ricardo, que signifie « travail incorporé » ? || V:Quantité travail nécessaire pour être produit|Travail commandé|Travail payé|Travail social
 
-QCM || Composition travail incorporé || Travail direct seulement|V:Travail direct + travail indirect|Travail indirect seulement|Travail abstrait
+QCM || De quoi se compose le travail incorporé selon Ricardo ? || Travail direct seulement|V:Travail direct + travail indirect|Travail indirect seulement|Travail abstrait
 
-QCM || Avantage théorie Ricardo || Dépend société|V:Plus d'interférence entre valeur bien et société|Complexité sociale|Subjectivité
+QCM || Quel avantage Ricardo voit-il à sa théorie de la valeur ? || Dépend société|V:Plus d'interférence entre valeur bien et société|Complexité sociale|Subjectivité
 
-QCM || Limite pratique Ricardo || Facilité calcul|V:Difficultés pratiques prise en compte travail indirect|Simplicité|Évidence
+QCM || Quelle limite pratique rencontre la mesure du travail incorporé ? || Facilité calcul|V:Difficultés pratiques prise en compte travail indirect|Simplicité|Évidence
 
-QCM || Marx critique Ricardo || Accord total|V:Travail trop différent par nature, compare incomparable|Méthode parfaite|Calcul correct
+QCM || Quelle critique Marx adresse-t-il à la comparaison des travaux chez Ricardo ? || Accord total|V:Travail trop différent par nature, compare incomparable|Méthode parfaite|Calcul correct
 
-QCM || Travail concret Marx || Travail homogène|V:Tâches propres chaque production, non comparables|Travail mesurable|Travail abstrait
+QCM || Comment Marx définit-il le « travail concret » ? || Travail homogène|V:Tâches propres chaque production, non comparables|Travail mesurable|Travail abstrait
 
-QCM || Travail abstrait Marx || Travail spécialisé|V:Travail impersonnel, homogène et mesurable|Travail concret|Travail individuel
+QCM || Comment Marx définit-il le « travail abstrait » ? || Travail spécialisé|V:Travail impersonnel, homogène et mesurable|Travail concret|Travail individuel
 
-QCM || Fondement valeur Marx || Travail concret|V:Travail abstrait seul comparable|Utilité|Prix marché
+QCM || Quel est, pour Marx, le véritable fondement de la valeur ? || Travail concret|V:Travail abstrait seul comparable|Utilité|Prix marché
 
-QCM || Valeur représentation Marx || Réalité objective|V:Représentation sociale, image commune|Mesure physique|Donnée naturelle
+QCM || Pour Marx, qu'est-ce que la valeur représente réellement ? || Réalité objective|V:Représentation sociale, image commune|Mesure physique|Donnée naturelle
 
-QCM || Unité mesure travail abstrait Marx || Travail complexe|V:Travail simple - force physique homme ordinaire|Travail spécialisé|Travail intellectuel
+QCM || Quelle unité Marx retient-il pour mesurer le travail abstrait ? || Travail complexe|V:Travail simple - force physique homme ordinaire|Travail spécialisé|Travail intellectuel
 
-QCM || Travail simple Marx || Travail qualifié|V:Force physique tout homme ordinaire possède|Travail technique|Travail artistique
+QCM || Qu'appelle-t-on « travail simple » chez Marx ? || Travail qualifié|V:Force physique tout homme ordinaire possède|Travail technique|Travail artistique
 
-QCM || Travail complexe Marx || Travail simple|V:Multiple du travail simple|Travail différent|Travail supérieur
+QCM || Comment définir le « travail complexe » chez Marx ? || Travail simple|V:Multiple du travail simple|Travail différent|Travail supérieur
 
-QCM || Travail socialement nécessaire || Travail individuel|V:Quantité travail nécessaire production dans conditions sociales normales|Travail minimum|Travail maximum
+QCM || Qu'entend-on par « temps de travail socialement nécessaire » ? || Travail individuel|V:Quantité travail nécessaire production dans conditions sociales normales|Travail minimum|Travail maximum
 
-QCM || Effet progrès technique Marx || Augmente valeur|V:Diminue temps travail socialement nécessaire|Stabilise valeur|Complexifie production
+QCM || Quel est l'effet du progrès technique sur la valeur, selon Marx ? || Augmente valeur|V:Diminue temps travail socialement nécessaire|Stabilise valeur|Complexifie production
 
-QCM || Conséquence non-adoption progrès || Avantage compétitif|V:Valeur travail divisée, activité peut devenir non rentable|Stabilité|Profit supplémentaire
+QCM || Que se passe-t-il si une entreprise n'adopte pas un progrès technique généralisé ? || Avantage compétitif|V:Valeur travail divisée, activité peut devenir non rentable|Stabilité|Profit supplémentaire
 
-QCM || Valeur bien société avancée Smith || Travail seulement|V:Travail + rente + profit|Profit seulement|Rente seulement
+QCM || Dans la société avancée chez Smith, quels éléments composent la valeur d'un bien ? || Travail seulement|V:Travail + rente + profit|Profit seulement|Rente seulement
 
-QCM || Profit légitimité Smith || Arbitraire|V:Contrepartie risque prise, proportionnel au risque|Exploitation|Hasard
+QCM || Comment Smith justifie-t-il la légitimité du profit ? || Arbitraire|V:Contrepartie risque prise, proportionnel au risque|Exploitation|Hasard
 
-QCM || Taux profit naturel Smith || Variable|V:Taux correspondant conditions normales d'investissement|Fixe|Aléatoire
+QCM || Qu'appelle-t-on « taux de profit naturel » chez Smith ? || Variable|V:Taux correspondant conditions normales d'investissement|Fixe|Aléatoire
 
-QCM || Rente justification Smith || Travail foncier|V:Contrepartie mise disposition terres aux travailleurs|Profit agricole|Investissement
+QCM || Comment Smith justifie-t-il la rente foncière ? || Travail foncier|V:Contrepartie mise disposition terres aux travailleurs|Profit agricole|Investissement
 
-QCM || Salaire détermination Smith || Fixe|V:Résiduel - valeur bien moins profit et rente|Principal|Prioritaire
+QCM || Dans la répartition chez Smith, comment le salaire est-il déterminé ? || Fixe|V:Résiduel - valeur bien moins profit et rente|Principal|Prioritaire
 
-QCM || Rapport de force Smith || Équilibré|V:Travailleurs position faiblesse sans moyens production|Travailleurs dominants|Capitalistes faibles
+QCM || Quel rapport de force Smith observe-t-il entre travailleurs et propriétaires des moyens de production ? || Équilibré|V:Travailleurs position faiblesse sans moyens production|Travailleurs dominants|Capitalistes faibles
 
-QCM || Justification inégalité Smith || Injuste|V:Nécessaire pour croissance via investissement financé par profit|Temporaire|Évitable
+QCM || Quelle justification Smith donne-t-il à l'inégalité des revenus ? || Injuste|V:Nécessaire pour croissance via investissement financé par profit|Temporaire|Évitable
 
-QCM || Logique Smith pauvreté || Pauvreté absolue seule compte|V:Mieux être pauvre société riche que riche société pauvre|Égalité nécessaire|Pauvreté relative importante
+QCM || Quelle idée Smith exprime-t-il à propos de la pauvreté relative et absolue ? || Pauvreté absolue seule compte|V:Mieux être pauvre société riche que riche société pauvre|Égalité nécessaire|Pauvreté relative importante
 
 QCM || Ricardo profit définition || Principal revenu|V:Ce qui reste après paiement rente et salaire|Salaire déguisé|Rente industrielle
 
-QCM || Rente Ricardo domaine || Tous secteurs|V:Uniquement agriculture|Industrie seulement|Services seulement
+QCM || Dans quel domaine s'applique la notion de rente chez Ricardo ? || Tous secteurs|V:Uniquement agriculture|Industrie seulement|Services seulement
 
-QCM || Rente Ricardo principe || Fixe pour toutes terres|V:Proportionnelle fertilité du sol|Inversement proportionnelle|Aléatoire
+QCM || Quel principe relie la rente à la fertilité du sol chez Ricardo ? || Fixe pour toutes terres|V:Proportionnelle fertilité du sol|Inversement proportionnelle|Aléatoire
 
-QCM || Salaire Ricardo niveau || Variable|V:Niveau naturel minimal de subsistance|Élevé|Négocié
+QCM || Quel est le niveau « naturel » du salaire chez Ricardo ? || Variable|V:Niveau naturel minimal de subsistance|Élevé|Négocié
 
-QCM || Production travail Ricardo || Formation|V:Permettre travailleur capable autre journée et trouver remplaçant|Loisir|Consommation
+QCM || À quoi doit servir la rémunération du travail selon Ricardo ? || Formation|V:Permettre travailleur capable autre journée et trouver remplaçant|Loisir|Consommation
 
-QCM || Baisse tendancielle profit Ricardo || Théorie fausse|V:Taux profit diminue fil du temps|Taux augmente|Taux stable
+QCM || Quelle est la tendance de long terme du taux de profit chez Ricardo ? || Théorie fausse|V:Taux profit diminue fil du temps|Taux augmente|Taux stable
 
-QCM || État stationnaire Ricardo || Croissance infinie|V:Production n'augmente plus, se répète période en période|Décroissance|Stagnation temporaire
+QCM || Que décrit l'« état stationnaire » dans la théorie de Ricardo ? || Croissance infinie|V:Production n'augmente plus, se répète période en période|Décroissance|Stagnation temporaire
 
-QCM || Solution baisse profit Ricardo || Aucune solution|V:Importation produits agricoles coût production plus faible|Augmenter salaires|Réduire production
+QCM || Quelle solution Ricardo propose-t-il face à la baisse tendancielle du profit ? || Aucune solution|V:Importation produits agricoles coût production plus faible|Augmenter salaires|Réduire production
 
 QCM || Marx force travail || Travail même|V:Ensemble facultés physiques et intellectuelles pour créer choses utiles|Capacité physique|Énergie
 
@@ -212,7 +212,7 @@ QCM || Régulateur croissance démographique || Politique nataliste|V:Dégradati
 
 === ECOLE MARGINALISTE - PRIX ET MARCHE ===
 
-VF || Le marginalisme rompt avec la valeur-travail des classiques en plaçant l'utilité marginale au centre de la valeur. || V || Changement de perspective: de la valeur-travail à l'utilité marginale.
+VF || Le marginalisme rompt avec la valeur-travail des classiques en plaçant l'utilité marginale au centre de la valeur. || V || Changement de perspective : de la valeur-travail à l'utilité marginale.
 
 QCM || Concept origine marginalisme || Valeur travail|V:Utilité marginale|Prix naturel|Coût production
 
@@ -220,41 +220,41 @@ QCM || Fondateurs marginalisme || Smith, Ricardo, Marx|V:Carl Menger, William Je
 
 QCM || Autre nom marginalistes || Classiques|V:Néoclassiques|Post-keynésiens|Monétaristes
 
-QCM || Justification terme néoclassique || Continuité directe|V:Non justifiée - changement radical perspective|Évolution naturelle|Amélioration
+QCM || Pourquoi parle-t-on (improprement) de « néoclassiques » pour les marginalistes ? || Continuité directe|V:Non justifiée - changement radical perspective|Évolution naturelle|Amélioration
 
-QCM || Différence 1 analyse || V:Classiques ancrés réel/société, marginalistes agents marché|Même approche|Marginalistes plus réalistes|Classiques abstraits
+QCM || En quoi diffère l'angle d'analyse entre classiques et marginalistes ? || V:Classiques ancrés réel/société, marginalistes agents marché|Même approche|Marginalistes plus réalistes|Classiques abstraits
 
-QCM || Vocabulaire marginalistes || Capitaliste, travailleur|V:Producteur, offreur de travail|Bourgeois, prolétaire|Propriétaire, locataire
+QCM || Quel vocabulaire privilégient les marginalistes ? || Capitaliste, travailleur|V:Producteur, offreur de travail|Bourgeois, prolétaire|Propriétaire, locataire
 
-QCM || Différence 2 objet étude || Même science|V:Classiques science richesse, marginalistes science choix individuels|Marginalistes plus larges|Classiques plus précis
+QCM || Quelle différence d'objet d'étude oppose classiques et marginalistes ? || Même science|V:Classiques science richesse, marginalistes science choix individuels|Marginalistes plus larges|Classiques plus précis
 
-QCM || Différence 3 expression || Même méthode|V:Classiques littéraire, marginalistes mathématique|Classiques mathématiques|Marginalistes littéraires
+QCM || Quelle différence d'expression (méthode) oppose classiques et marginalistes ? || Même méthode|V:Classiques littéraire, marginalistes mathématique|Classiques mathématiques|Marginalistes littéraires
 
-QCM || Premier mathématiques || Smith|V:Malthus avec géométrique|Ricardo|Marx
+QCM || Le premier à mobiliser des outils mathématiques parmi ces auteurs est : || Smith|V:Malthus avec géométrique|Ricardo|Marx
 
-QCM || Différence 4 valeur || Même théorie|V:Classiques valeur travail, marginalistes utilité marginale|Inversé|Complémentaires
+QCM || Quelle différence de théorie de la valeur oppose classiques et marginalistes ? || Même théorie|V:Classiques valeur travail, marginalistes utilité marginale|Inversé|Complémentaires
 
-QCM || Paradoxe eau/diamant Smith || Résolu par Smith|V:Rejeté par Smith|Ignoré|Expliqué différemment
+QCM || Comment Smith traite-t-il le paradoxe de l'eau et du diamant ? || Résolu par Smith|V:Rejeté par Smith|Ignoré|Expliqué différemment
 
-QCM || Réponse marginalistes paradoxe || Travail incorporé|V:Rareté relative influence valeur|Utilité absolue|Coût production
+QCM || Quelle réponse les marginalistes apportent-ils au paradoxe de la valeur ? || Travail incorporé|V:Rareté relative influence valeur|Utilité absolue|Coût production
 
-QCM || Exemple Jevons valeur || Diamant|V:Pourquoi perles ont valeur|Eau|Or
+QCM || Quel exemple Jevons mobilise-t-il pour discuter de la valeur ? || Diamant|V:Pourquoi perles ont valeur|Eau|Or
 
-QCM || Approche classique perles || Rareté|V:Valeur élevée car incorporent grande quantité travail|Utilité|Beauté
+QCM || Quelle est l'explication « classique » de la valeur des perles ? || Rareté|V:Valeur élevée car incorporent grande quantité travail|Utilité|Beauté
 
-QCM || Contre-exemple Jevons || Perles chères|V:Nacre ne vaut rien malgré même travail|Plongée difficile|Rareté perles
+QCM || Quel contre-exemple Jevons utilise-t-il pour contester l'explication classique ? || Perles chères|V:Nacre ne vaut rien malgré même travail|Plongée difficile|Rareté perles
 
-QCM || Conclusion marginaliste valeur || Déterminée par travail|V:Non déterminée par travail|Subjective seulement|Objective seulement
+QCM || Quelle conclusion marginaliste tire-t-on sur l'origine de la valeur ? || Déterminée par travail|V:Non déterminée par travail|Subjective seulement|Objective seulement
 
-QCM || Perles valeur élevée car || Travail incorporé|V:Recherchées (utiles) et rares|Belles|Chères
+QCM || Pourquoi les perles ont-elles une valeur élevée selon les marginalistes ? || Travail incorporé|V:Recherchées (utiles) et rares|Belles|Chères
 
-QCM || Bien économique Menger conditions || Utilité seulement|V:Utilité reconnue ET rareté|Rareté seulement|Prix élevé
+QCM || Quelles conditions un bien doit-il remplir pour être un « bien économique » chez Menger ? || Utilité seulement|V:Utilité reconnue ET rareté|Rareté seulement|Prix élevé
 
-QCM || Rareté notion || Absolue|V:Relative - besoin excède quantité disponible|Physique|Temporaire
+QCM || Comment définir la rareté au sens de Menger ? || Absolue|V:Relative - besoin excède quantité disponible|Physique|Temporaire
 
-QCM || Bien utilité max rareté nulle || Diamant|V:Air qu'on respire|Eau|Pain
+QCM || Quel exemple illustre une utilité maximale mais une rareté nulle ? || Diamant|V:Air qu'on respire|Eau|Pain
 
-QCM || Valeur caractère Menger || Objectif|V:Subjectif|Mesurable|Absolu
+QCM || Quel caractère Menger attribue-t-il à la valeur ? || Objectif|V:Subjectif|Mesurable|Absolu
 
 QCM || Exemple ordinateur cours || Valeur constante|V:Valeur varie selon utilité perçue et quantité|Prix fixe|Utilité fixe
 
@@ -375,3 +375,35 @@ QCM || Monopoles naturels || Coûts variables élevés|V:Coûts fixes élevés|C
 QCM || Effet nombre entreprises monopole naturel || Prix diminuent|V:Plus entreprises, prix plus élevés|Prix constants|Prix variables
 
 QCM || Solution monopole naturel || Concurrence libre|V:Une seule entreprise encadrée par État|Interdiction|Nationalisation
+
+=== PARTIELS / ANCIENS EXAMENS ===
+
+QCM || Le prix Nobel d’économie 2024 a été décerné à : || V:Acemoglu, Johnson et Robinson pour leurs travaux sur la façon dont les institutions se forment et affectent la prospérité|Georges Akerlof pour ses travaux sur les asymétries de l’information et la sélection adverse|Stiglitz et Shapiro pour leurs travaux sur le marché du travail et le salaire d’efficience|Aucun des économistes mentionnés dans les propositions précédentes || Le prix Nobel 2024 a récompensé les travaux sur les institutions (Acemoglu, Johnson, Robinson).
+
+QCM || En reprenant les termes de David Ricardo et d’Adam Smith, le prix naturel d’un bien est supérieur à son prix de marché si : || la production de ce bien nécessite 2 heures de travail et qu’il est vendu 15 euros sur le marché|V:la production de ce bien nécessite 2 heures de travail et qu’il est vendu 25 euros sur le marché|la production de ce bien nécessite 2 heures de travail et qu’il est échangé contre un autre nécessitant 1 heure de travail|la production de ce bien nécessite 2 heures de travail et qu’il est échangé contre un autre nécessitant 3 heures de travail || Prix naturel = valeur en travail, prix marché > prix naturel → bien surévalué.
+
+QCM || Supposons qu’un bien nécessite 1 heure de travail pour être produit. L’heure de travail vaut 15 euros. Ce bien qui était vendu 18 euros voit son prix baisser jusqu’à 15 euros. Adam Smith et David Ricardo expliquent cette évolution par : || l’intervention de l’État|V:la concurrence|la baisse du coût de production|la baisse de son utilité marginale || Concurrence ramène le prix de marché vers le prix naturel.
+
+QCM || L’image du commissaire-priseur est utilisée par Walras pour : || décrire le processus d’échange dans une économie de marché|décrire l’équilibre du marché du travail|V:décrire le processus de tâtonnement vers l’équilibre général|décrire les trois propositions précédentes || Commissaire-priseur = ajustement progressif des prix par tâtonnement.
+
+QCM || Supposons que vous receviez 7 cadeaux alors que votre frère en reçoit 5. La redistribution optimale au sens de Pareto est atteinte si : || votre mère décide de vous en prendre 1 pour le donner à votre frère|V:votre mère décide finalement d’acheter 1 cadeau supplémentaire à votre frère, qui passe à 6 cadeaux|votre mère décide d’acheter exactement 2 cadeaux supplémentaires à votre frère|aucune des propositions précédentes n’est correcte || Optimum de Pareto = personne n’est perdant, un est gagnant → cadeau supplémentaire.
+
+QCM || Pour les économistes classiques, l’équilibre du marché du travail : || V:implique le plein emploi des travailleurs disponibles|peut s’accompagner de chômage volontaire|peut s’accompagner de chômage involontaire|est atteint lorsque le salaire conduit les entreprises à embaucher tous les travailleurs || Marché du travail classique → ajustement par le salaire → plein emploi.
+
+QCM || Pour les économistes keynésiens, le chômage s’explique par : || des rigidités institutionnelles empêchant la régulation du marché du travail|V:un coût du travail trop élevé par rapport à son niveau d’équilibre|le chômage ne peut être que volontaire|le chômage ne peut être qu’involontaire || Keynes : chômage involontaire dû à insuffisance de la demande et rigidités.
+
+QCM || Friedman remet en cause l’efficacité de la politique budgétaire dans la lutte contre le chômage car : || V:l’augmentation temporaire de la demande publique ne modifie pas le revenu permanent des individus|les dépenses publiques étant financées par l’impôt, l’effet budgétaire est nul|l’augmentation de la masse monétaire engendre une hausse des prix anticipée|les agents ajustent leur comportement dès l’annonce d’une hausse de la dépense publique || Friedman → revenu permanent : la dépense publique n’a pas d’effet durable.
+
+QCM || Sous l’hypothèse d’anticipations rationnelles : || V:les prévisions des agents économiques se révèlent correctes en moyenne|seuls les chocs aléatoires peuvent avoir des effets réels|les deux propositions précédentes sont correctes|aucune des propositions n’est correcte || Anticipations rationnelles : agents utilisent toute l’info disponible → prévisions correctes en moyenne.
+
+QCM || Les nouveaux keynésiens : || remettent en cause l’hypothèse d’anticipation rationnelle|remettent en cause l’hypothèse d’ajustement instantané des prix de marché|V:remettent en cause les deux hypothèses précédentes|remettent en cause l’efficacité de la politique économique || Nouveaux keynésiens : rigidités + info imparfaite → contestent rationalité parfaite et ajustement instantané.
+
+QCM || Sous l’hypothèse de marchés concurrentiels et d’anticipations rationnelles, les déséquilibres durables entre offre et demande s’expliquent par : || l’existence d’asymétries de l’information|l’existence de coûts de menu|V:les deux raisons précédentes|des rigidités institutionnelles || Nouveaux keynésiens : asymétries d’information + coûts d’ajustement → déséquilibres durables.
+
+QCM || L’absence d’ajustement du taux d’intérêt à son niveau d’équilibre sur le marché du crédit s’explique par Stiglitz : || des anticipations rationnelles|une intervention publique bloquant la hausse du taux d’intérêt|la loi de l’offre et de la demande|V:l’incapacité des prêteurs à distinguer les bons des mauvais emprunteurs || Stiglitz : sélection adverse → impossibilité d’ajuster les taux.
+
+QCM || En 1970, Akerlof propose une analyse du marché des voitures d’occasion qui aboutit à : || V:définir le problème de sélection adverse|définir le problème d’aléa moral|montrer l’existence de coûts de menu|montrer que les trois propositions sont vraies || Akerlof → “Market for Lemons” → sélection adverse.
+
+QCM || Stiglitz et Shapiro montrent que lorsque l’employeur n’est pas capable d’apprécier l’effort des salariés, il peut être rationnel de : || V:verser des salaires supérieurs au cas d’excès d’offre de travail|maintenir des salaires supérieurs au niveau d’équilibre|considérer le chômage comme volontaire|aucune des propositions n’est vraie || Salaire d’efficience → motiver et discipliner les salariés.
+
+QCM || Pour Stiglitz et Shapiro, l’existence d’un chômage supérieur à son niveau d’équilibre : || a un effet positif sur les chômeurs|V:a un effet positif sur les travailleurs, incités à fournir un maximum d’effort|a un effet négatif sur les travailleurs, démotivés|a un effet négatif sur les chômeurs, qui renoncent à chercher un emploi || Salaire d’efficience → chômage disciplinaire : pression positive sur travailleurs en poste.

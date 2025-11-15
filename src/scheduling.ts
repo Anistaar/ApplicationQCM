@@ -1,5 +1,6 @@
 import type { Question, UserAnswer } from './types';
-import { keyForQuestion as _keyForQuestion } from './utils';
+// Explicit .js extension for Node ESM resolution after compilation
+import { keyForQuestion as _keyForQuestion } from './utils.js';
 
 export type QStat = {
   box: number;

@@ -6,10 +6,17 @@
   "scripts": {
     "dev": "vite --port 5173",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "build:tests": "tsc -p tsconfig.test.json",
+    "test": "npm run build:tests && node --experimental-specifier-resolution=node tests/run-tests.js",
+    "rename:courses": "node scripts/rename-courses.mjs",
+    "release": "powershell -ExecutionPolicy Bypass -File ./scripts/release.ps1",
+    "commit": "powershell -ExecutionPolicy Bypass -File ./scripts/quick-commit.ps1"
   },
   "devDependencies": {
     "typescript": "5.5.4",
-    "vite": "5.4.8"
+    "vite": "5.4.8",
+    "ts-node": "10.9.2",
+    "@types/node": "20.11.30"
   }
 }

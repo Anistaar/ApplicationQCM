@@ -1,0 +1,6 @@
+chapter: Grand I > Définitions clés
+# Fichier de test plan — Définitions
+
+QCM || Coche les éléments faisant partie d'un cours || V:Questions|V:Chapitre|Programme
+
+QR || La matière correspond à : || V:Un dossier regroupant des cours|Un seul chapitre|Un type de question

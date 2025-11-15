@@ -1,0 +1,3 @@
+# Fichier sans ligne chapter:
+
+QR || Cette fiche n'a pas de chapitre déclaré || V:C'est vrai|C'est faux

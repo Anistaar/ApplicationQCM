@@ -1,0 +1,8 @@
+chapter: Grand I > Introduction
+# Fichier de test plan — Intro
+
+QR || Qu'est-ce qu'un test ? || V:Un scénario pour vérifier une fonctionnalité|Un bug connu|Une documentation
+
+DragMatch || Associe les termes aux définitions || Chapitre:Subdivision d'un cours, Matière:Dossier principal, Question:Élément d'évaluation
+
+VF || Les tests servent à vérifier que le plan s'affiche correctement || V
