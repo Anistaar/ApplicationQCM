@@ -46,7 +46,8 @@ Exec "git push origin $Branch"
 # 4) Trigger remote deploy
 $remote = "$ServerUser@$ServerHost"
 Write-Host "Triggering remote deploy on $remote" -ForegroundColor Green
-ssh $remote "bash -lc '$RemoteDeployPath'"
+# Run the remote deploy script explicitly via bash to avoid execute-bit issues
+ssh $remote "bash -lc 'bash $RemoteDeployPath'"
 if ($LASTEXITCODE -ne 0) { throw "Remote deploy failed" }
 
 Write-Host "Deploy done." -ForegroundColor Green
