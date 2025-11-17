@@ -1,0 +1,361 @@
+chapter: Chapitre 0 > Introduction
+
+CM Macroéconomie 
+
+
+
+références bibliographique : edition dalloz = Macroéconomie de Blanchard et Cohen
+
+Edition Dunod= initiation à la macro Bernard Bernier et Yves Simon 
+
+                          = macroéconomie de Cynac Guillaumin
+
+
+
+
+
+Introduction :
+
+
+
+Que fait la macro ? décrire et expliquer des phénomènes économiques tel que le chômage, l’inflation, le déficit (ext,int) autrement dit on veut comprendre des phénomènes qui résultent de millions de décisions individuelles qui sont prises par les agents éco tel que les ménages, les entreprises, l’état etc…
+
+
+
+Mener une analyse macroéconomique, est ce que cela revient à additionner des décisions individuelles ?
+
+
+
+(Micro=une entrep
+
+Macro=ensemble des producteurs)
+
+
+
+Cette première question nous conduit à s’interroger sur le passage de la micro vers la macro et donc d’introduire l’analyse classique et l’analyse keynésienne (JM Keynes).
+
+
+
+Le fait de distinguer l’analyse class de l’analyse éco va nous interroger sur le rôle que va jouer l’état. Au niv macro : l’état a plusieurs fonctions :
+
+
+
+-     d’affectations des ressources
+
+De redistribution 
+
+De stabilisation🡪 le but est d’avoir une certaine régulation des fluctuations de la croissance 
+
+
+
+Dans un environnement instable pour la croissance, c’est de se dire est ce que l’état peut reduire ces déséquilibres (chômage…) par la conduite de politique économique. Pour mener des politiques et surtout connaitre leurs effets, il faut connaitre les mécanismes qui existent au sein d’une nation/économie. Il faut les comprendre d’un point de vue macroéconomique.   
+
+
+
+Analyser le revenu, l’emploi ou encore les prix (inflation) nécessitent surtout de connaitre leurs déterminants. 
+
+En Eco, on considère des Agrégats (=revenus de l’ensemble des ménages, PIB, consommation). 
+
+Ce sont des qtités globalement homogènes tel que la consommation des ménages, l’investissement des entreprises, les recettes et les dépenses publiques, les échanges avec l’extérieur.  On s’intéresse au comportement des unités de base considéré dans une optique globale.  
+
+
+
+On passe par une analyse qui est simplifié par rapport à la réalité. On ne pourra jamais représentée la réalité dans sa totalité = recours à des simplifications. Autrement dit on se fait des représentations théoriques fondés sur des hypothèses relatives au comportement des principaux agents et au fonctionnement de l’économie.
+
+Il ne faut pas tenter de confronter directement la théorie à la réalité. On peut au mieux confronter des prédictions, des modèles au fait observés par le biais de la statistique, des méthodes de simulation et par l’économétrie.
+
+
+
+Un modèle en éco s’exprime de 3 façons différentes : soit par une formulation littéraire, soit par l’outil mathématiques (permet de se représenter un modèle sous la forme d’équation), son avantage c’est qu’il permet de faire apparaitre de manière explicite les variables du modèle et en permet donc la résolution. La formulation gr    aphique qui permet de visualiser le langage algébrique.  
+
+
+
+Il existe également une dimension temporelle, les relations entre les variables se font soit en l’absence de dimension temporelle, on parle de modèle statique soit on fait de la statique comparative autrement dit « je veux analyser deux situations entre elles sans expliquer le passage de l’une à l’autre ». Enfin, on introduit de manière concrète la variable temporelle, on parle de modèle dynamique, on cherche à savoir comment l’économie évolue au cours du temps.
+
+
+
+Dans ce cours, on s’intéresse essentiellement au fonctionnement d’une économie en courte période càd qu’on suppose que les comportements des agents économiques sont stables dans le temps. 
+
+
+
+On utilise le circuit économique comme représentation de la nation. Le circuit permet de représenter les liens qui existent entre les différents agrégats d’une nation. 
+
+
+
+
+
+Le revenu à un rôle direct sur la demande et la demande à un effet sur l’offre et l’offre a un impact sur les revenus. La politique économique vient jouer un rôle sur ce circuit. L’extérieur (international) peut également venir influer.
+
+
+
+
+
+
+
+
+
+En éco, pour produire on utilise travail et capital. A cours termes le capital= fixe.
+
+
+
+Les principales grandeurs macro nécessitaient de comprendre de quoi est constituer la demande et l’offre sur le plan macroéconomique. Pour se faire, il existe des grandeurs macro éco qui sont également mesurer par des statisticiens et une de ses 1ère grandeurs macro, c’est le PIB. Première façon de le concevoir : 
+
+
+
+PIB= valeur des biens et des services finaux (distingue des biens intermédiaires) produit dans une économie pour une période donnée 
+
+PIB= somme des valeurs ajoutées créer dans l’économie au cours d’une période
+
+PIB= somme des revenus distribués dans l’économie au cours d’une période donné
+
+
+
+Il est nécessaire de différencier le PIB nominal du PIB réel. 
+
+
+
+Variable réel= on retire l’influence de l’inflation et est exprimé en prix constant 
+
+Variable nominal= exprimé en prix courant `
+
+
+
+Le PIB nominal autrement dit en euro courant c’est le produit entre la somme des quantités des biens finaux et leur prix courant donc le PIB nominal peut augmenter pour 2 raisons : 
+
+Soit prck les quantités produites augmentent soit prck le prix des biens augmentent. 
+
+
+
+Pour comparer dans le temps des PIB entre eux, il est nécessaire de gommer l’effet de la hausse des prix dans le temps. On parle dans ce cas de PIB réel autrement dit de PIB constant. (On multiplie tjrs par un PIB constant). 
+
+
+
+PIB réel= prix constant x quantité 
+
+(Si on produit + besoin de + de qtité donc – de chômage)
+
+
+
+La représentation sous forme de circuit décrit les relations bilatérales réels et monétaires entre les ménages et les entreprises.  D’un point de vue réel, les entreprises offrent des emplois aux ménages qui demandent à leur tour des biens.  
+
+
+
+((Emplois // travail) ménages offrent du travail et entreprises offrent des emplois ) !!!
+
+
+
+D’un point de vue monétaire, les entrep distribuent des revenus qu’ils reviendront sous forme de recettes par le biais de l’achat de la production par les ménages.
+
+
+
+Un circuit ça retrace l’ensemble des opérations qui sont effectués par les agents. On va distinguer 4 grp d’agents : 
+
+Les ménages
+
+Les entreprises
+
+Les administrations publiques
+
+Le reste du monde 
+
+
+
+Les types d’opérations effectués par les agents=
+
+Opération de production
+
+Opération de répartition 
+
+Opération financière 
+
+
+
+Pour consommer, la production nationale n’est pas la seule source utilisée par les résidents (ceux habitant dans la nation). Ils peuvent également acheter des biens étrangers, cad Les importations représentent les biens achetés par les résidents à des unités non-résidentes. 
+
+
+
+L’offre au sein du circuit éco est composée de ce qui est produit par la nation cad le PIB=y mais également par les produits importés= Z/M.  
+
+
+
+Offre= PIB= Y  + importation = Z ou M
+
+Ressources 
+
+        Offre= demande
+
+Ressources = Emplois  🡪 équilibre emploi ressource 
+
+
+
+
+
+Les biens produits à l’intérieur d’un pays représenté par Y et les biens importés représentent les ressources du pays. Ils sont destinés à la consommation privé des ménages, à l’investissement privée des entreprises, à la consommation et à l’investissement publique des administrations et ça sert aussi aux exportations.
+
+
+
+La Dde est constitués de la consommation des ménages C et de l’investissement PV des entrep I et a l’investissement et la consommation publique des administrations G et X exportations= CIGX
+
+
+
+O=D
+
+Ressources= emplois🡺 équilibre comptable 
+
+
+
+Ressources= mesurés par le PIB, ce qui est produit au sens du pays mais aussi ce qui est importés 
+
+Emplois= au niv de la nation on a des ménages qui vont consommer biens/services + entreprises qui vont investir + rôle de l’état , adm publiques (dépenses publiques) + le reste du monde = utilisations des biens 
+
+Y+M= C+I+G+X
+
+Y= C+I+G+(X-M)
+
+X-M= balance commerciale 
+
+
+
+La consommation c’est la catégorie la plus importante des emplois, on parle ici de dépenses de consommation qui sont faites par les ménages sur des biens et des services finaux. 
+
+Une curiosité : l’achat de biens immobiliers n’est pas comptabilisé dans la consommation mais c’est considéré comme de l’investissement. 
+
+Deuxième curiosité: c’est de dire que les entreprises ne consomment pas. 
+
+
+
+L’investissement I= LA formation F brute B de capital C fixe= FBCF 
+
+Les dépenses gvtales G c’est le parallèle de la consommation des ménages mais pour l’ensemble des administrations publiques.
+
+
+
+D’autres grandeurs macro auxquels on s’intéresse= le taux de chômage, grandeur essentielle qui présente des difficultés concernant sa mesure. Au niveau de La réalité statistique, il est plus compliqué à définir même si le phénomène en lui-même est une réalité.
+
+Pour avoir une idée de la façon dont est mesuré le chômage il y a une nécessité de considérer 2qst que doit se poser chaque individu :
+
+Est-ce que l’individu occupe un emploi ? 
+
+Si la rep est négative, est ce que l’individu cherche un emploi 
+
+
+
+de la vont découler les def :
+
+
+
+L’ensemble des personnes qui répondent oui à la première question= population occupée 
+
+Ceux qui répondent non à la première mais oui a la 2nd= groupe de chômeurs 
+
+Si actif dans la recherche d’emplois= comptabilisé chômeurs
+
+Ceux qui ont répondu OUI et NON+OUI = population active
+
+Qd on répond non aux deux questions= populations inactive 
+
+
+
+En France, l’INSEE calcule un taux de chômage au sens du BIT : 3 conditions pour qu’un individu en âge de travailler (15ans ou plus) soit considérer comme chômeurs :
+
+
+
+-être sans travail donc ne pas avoir travailler même une heure pendant la semaine de référence
+
+-être disponible pour travailler (prêt à accepter un travail dans les 15jours)
+
+-être à la recherche d’un travail 
+
+
+
+De ce fait, certaines personnes sont exclues par ex les personnes en stage de formation, celle qui ont travaillé qlqs heures lors de la semaine de réf. Les conditions de la recherche active de travail fait l’objet de débat. 
+
+De façon + problématique, certaines personnes considérées comme inactive pourrait être incluse dans la catégorie des chômeurs (ex : travailleurs qui se retrouve découragés car faible chance de trouver un emploi), travailleurs qui sont à temps partiel mais pas par choix .
+
+
+
+Chez pôle emploi diff définition que celle de l’INSEE, on ne peut pas comparer les chiffres de taux de chômage de chacun. 
+
+
+
+Le taux de chômage= rapport entre le nombre de chômeurs sur la population active
+
+La population active= somme des chômeurs et des travailleurs 
+
+u= U/L 
+
+U= nombre de chômeurs 
+
+L= population active = N+U
+
+N= nombre de travailleurs employés 
+
+
+
+
+
+Autres grandeurs : taux d’inflation
+
+= hausse durable du niveau général des prix.
+
+Elle peut avoir différentes origines. Sachant que c’est la BCE qui est en charge du contrôle de l’inflation 
+
+
+
+L’inflation peut être lié à un choc qui se produit sur l’offre des biens, sachant que l’origine de ce choc peut etre une augmentation trop importante des salaires 
+
++ augmentation du cout des matières premières.
+
+
+
+Ce choc peut aussi provenir d’une augmentation de la fiscalité (coute + cher aux entrep de produire)
+
+
+
+Inflation importée par ex : qd le prix des matière premières augmentent, (hausse des prix des consommations intermédiaires)
+
+
+
+L’inflation peut également provenir de la demande= inflation par la demande. Si on se met du côté de la théorie keynésienne on dit que l’inflation par la demande peut survenir si l’offre est inélastique càd qu’elle peut intervenir en situation de plein emploi 
+
+= demande de plus en plus forte 
+
+Inélastique= l’O ne peut pas s’adapter a la D en raison du plein emploi qui mobilisent toutes les ressources 🡪 pas en mesure de produire + sur court termes 
+
+
+
+Aussi de la demande : Elle peut s’expliquer par une création monétaire excessive. Si la qtité de monnaie augmente plus rapidement que la quantité de bien dans l’économie, dans ce cas le niveau général des prix doit augmenter pour que l’équilibre sur les marchés soit rétabli. 
+
+
+
+Lorsque la BCE décide de baisser les taux d’intérêt, les gvts peuvent inciter les agents économiques à emprunter. Qd un agent économique emprunte, il participe à la création monétaire. 
+
+
+
+L’inflation= hausse du niveau général des prix 
+
+Taux d’inflation= taux d’accroissement du niveau général des prix 
+
+
+
+Niveau des prix= en macro, on retient l’indice des prix à la consommation càd l’IPC. 
+
+
+
+On détermine cet indice : c’est le prix d’un panier des biens déterminé au cours du temps.
+
+La liste des biens qui est prise en considération découle d’une étude détaillé des dépenses de consommation. L’objectif est que ce panier représente le panier de consommation moyen des ménages sur tout un territoire. Cette liste est revisitée environ tous les 10ans. 
+
+L’INSEE fait ça pour la France, mais qd on veut comparer l’indice des prix avec d’autre pays il faut que la base soit la même. 
+
+
+
+CC : en macroéconomie, on répond à un certain nombre de question, l’objectif du cours de l1 n’est pas de répondre à chacune d’entre elles mais de donner des pistes d’analyses, des tentatives d’explication qui vont être d’avantages précisé/enrichis au fur de notre parcours. Pour répondre à ces Pol, on a recours à des agrégats.
+
+QCM || La macroéconomie étudie principalement || V:Les phénomènes économiques globaux (chômage, inflation, croissance)|Les décisions individuelles des consommateurs|Le comportement d'une entreprise|Les choix de portefeuille
+QCM || Les trois fonctions de l'État selon l'analyse macroéconomique sont || V:Affectation, redistribution, stabilisation|Production, consommation, investissement|Offre, demande, équilibre|Emploi, prix, monnaie
+QCM || Un agrégat économique correspond à || V:Une quantité globale relativement homogène|Une décision individuelle|Un modèle mathématique|Une politique économique
+QCM || Les trois façons d'exprimer un modèle économique sont || V:Formulation littéraire|V:Formulation mathématique|V:Formulation graphique|Formulation expérimentale
+QCM || La différence entre modèle statique et modèle dynamique || V:Le modèle statique ignore la dimension temporelle|Le modèle statique est toujours faux|V:Le modèle dynamique étudie l'évolution dans le temps|Les deux sont identiques
+QCM || La statique comparative consiste à || V:Comparer deux équilibres sans décrire la trajectoire|Étudier l'évolution dans le temps|Faire des expériences reproductibles|Maximiser les profits
+QCM || L'investissement de remplacement vise à || V:Maintenir en l'état les capacités de production|Augmenter les capacités|Réduire les coûts|Moderniser uniquement

@@ -1,0 +1,17 @@
+chapter: Chapitre 2 > Présentation graphique des données statistiques
+
+# Moyens (Diff: Moyen)
+VF || Un histogramme pour variables continues doit utiliser des barres d'aires proportionnelles aux effectifs (ou densités), pas forcément de même largeur || V || Les aires (pas les hauteurs) reflètent les effectifs quand les classes ont des amplitudes différentes || Diff: Moyen, Chapitre 2, Histogramme
+VF || Un diagramme en secteurs (camembert) convient bien à des parts de marché totales à 100% || V || Adapté à variables qualitatives ou parts d'un total || Diff: Moyen, Chapitre 2, Choix du graphique
+
+QR || On observe 25 réponses: \nA=10, B=5, C=10. La part de A en % (arrondie) vaut || V:40%|45%|50% || 10/25=0,4 soit 40% || Diff: Moyen, Chapitre 2, Pourcentage
+QR || Pour tracer un histogramme avec classes [0;5[, [5;15[, [15;20[, effectifs 5, 10, 5, les largeurs sont 5,10,5. La hauteur de la seconde barre en densité vaut || V:10/10=1|10|2 || Densité = effectif / largeur de classe = 10/10 = 1 || Diff: Moyen, Chapitre 2, Densité
+QR || Une note de lecture doit || V:Expliquer comment se lit une information du graphique|Décrire l'histoire de la donnée|Remplacer la source || Définition fournie dans le cours || Diff: Moyen, Chapitre 2, Note de lecture
+
+QCM || Pour rendre un graphique lisible, on fait || V:Unités explicites|V:Graduations cohérentes|V:Titres clairs|Masquage systématique des axes || Bonnes pratiques listées || Diff: Moyen, Chapitre 2, Lisibilité
+QCM || Choix du graphique selon variable || V:Qualitative nominale:Barres|V:Quantitative continue:Histogramme|V:Évolution temporelle:Série chronologique|Parts d'un total:Camembert || Mapping variable→graphique || Diff: Moyen, Chapitre 2, Choix
+QCM || Erreurs à éviter || V:Échelles trompeuses|V:Tronquer l'axe sans avertir|V:Surchargede visuels|Toujours arrondir à l'entier || Recommandations 
+ || Diff: Moyen, Chapitre 2, Erreurs
+
+DragMatch || Associe type de graphique et usage || Barres:Comparaison de catégories, Histogramme:Distribution continue, Nuage de points:Relation entre deux quanti., Secteurs:Part d'un total || Usages standards || Diff: Moyen, Chapitre 2, Usages
+DragMatch || Associe élément et vérification || Axe Y:Unité/échelle, Axe X:Libellés lisibles, Légende:Décodage des séries, Source:Origine fiable, Commentaire:Synthèse des points clés || Contenu d'un graphique || Diff: Moyen, Chapitre 2, Contrôle

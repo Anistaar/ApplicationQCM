@@ -1,0 +1,17 @@
+chapter: Chapitre 2 > Présentation graphique des données statistiques
+
+# Faciles (Diff: Facile)
+VF || Un bon graphique doit être clair, agréable à lire, adapté aux données et ne pas surcharger l'information || V || Le chapitre donne ces règles générales comme critères d'un visuel efficace || Diff: Facile, Chapitre 2, Bonnes pratiques
+VF || Une note de lecture n'est pas nécessaire si les axes sont nommés || F || Le contenu d'un graphique inclut une note de lecture et un commentaire || Diff: Facile, Chapitre 2, Contenu d'un graphique
+VF || La visualisation est un outil de communication des résultats d'une étude statistique || V || Le chapitre insiste sur la communication et la compréhension par le lecteur || Diff: Facile, Chapitre 2, Communication
+
+QR || Quel est l'objectif principal d'un graphique ? || V:Présenter visuellement et de façon synthétique l'information contenue dans une variable|Remplacer toute analyse par un dessin|Rendre les données privées || Le chapitre définit la raison d'être des graphiques || Diff: Facile, Chapitre 2, Objectifs
+QR || Parmi les éléments à toujours inclure dans un graphique, on trouve || V:Un titre énonciatif|Le nom de l'auteur seulement|Un code couleur obligatoire || La liste inclut titre, axes, note de lecture, source, légende si besoin, commentaire || Diff: Facile, Chapitre 2, Contenu d'un graphique
+QR || Une source des données est || V:Recommandée voire nécessaire pour situer l'information|Toujours inutile|Remplacée par la note de lecture || Les diapositives mentionnent explicitement la source || Diff: Facile, Chapitre 2, Source
+
+QCM || Les éléments à vérifier sur les axes d'un graphique sont || V:Unités explicites|V:Graduations lisibles|V:Arrondis cohérents|La suppression systématique de l'axe des ordonnées || Le cours recommande des axes clairement explicités avec unités et chiffres lisibles || Diff: Facile, Chapitre 2, Axes
+QCM || Un graphique efficace doit || V:Être minimaliste si nécessaire|V:S'adapter au type de variable|V:Être clair et explicite|Remplacer tout commentaire textuel || Un commentaire accompagne toujours un graphique || Diff: Facile, Chapitre 2, Efficacité
+QCM || Pour éviter une mauvaise interprétation, il faut || V:Éviter toute ambiguïté de lecture|V:Se mettre à la place du lecteur|V:Expliquer pourquoi l'info est importante|Toujours ajouter le plus d'éléments possible || Trop d'information nuit; il faut sélectionner le pertinent || Diff: Facile, Chapitre 2, Interprétation
+
+DragMatch || Associe l'élément du graphique à son rôle || Titre:Énonce ce qui est présenté, Axes:Portent unités et graduations, Note de lecture:Explique comment lire, Source:Donne l'origine des données, Légende:Décodage visuel, Commentaire:Mise en valeur des points clés || Les éléments listés figurent dans le cours || Diff: Facile, Chapitre 2, Contenu d'un graphique
+DragMatch || Associe règle générale et principe || Clarté:Compréhension immédiate, Esthétique:Lecture agréable, Adaptation:Type de graphique selon variable, Sélection:Éviter surcharge d'information || Reprise des règles générales || Diff: Facile, Chapitre 2, Règles générales

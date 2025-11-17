@@ -1,0 +1,1598 @@
+chapter: Statistiques > Chapitre 1 (2)
+
+
+
+Statistiques Descriptives
+L1 Économie
+Seynabou Gueye, Mehdi Guelmamen, Emilien Macault
+Faculté de Droit, Économie et Administration
+Université de Lorraine
+Chapitre 1 : Notions statistiques et collecte des données
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20241 / 69
+
+Sommaire
+1
+Introduction
+Modalités pratiques
+Objectifs de la statistique
+Pièges de la statistique
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20242 / 69
+
+Sommaire
+1
+Introduction
+Modalités pratiques
+Objectifs de la statistique
+Pièges de la statistique
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20243 / 69
+
+Modalités pratiques
+Ce cours mélangera cours magistraux et applications en classe→
+alternance de CM et de TD.
+Vous êtes répartis en groupes avec différents professeurs mais le contenu
+couvert est le même→à la fin du semestre, le sujet d’examen est
+identique pour toute la promotion.
+La présence est obligatoire→n’oubliez pas de remplir la feuille
+d’émargement.
+La participation en classe est valorisée!
+L’évaluation comprend une "colle" d’1h30 en cours de semestre (lors
+d’une séance) et un examen final.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20244 / 69
+
+Références bibliographiques
+Anderson, D. et al. (2015). Statistiques pour l’économie et la
+gestion. De Boeck Supérieur.
+Barnichon, D. (2008). Mathématiques et statistiques appliquées à
+l’économie: cours, méthodes, exercices corrigés. Bréal.
+Bailly, P. et al. (2007). Statistiques Descriptives : Exercices.
+Presses Universitaires de Grenoble.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20245 / 69
+
+Sommaire
+1
+Introduction
+Modalités pratiques
+Objectifs de la statistique
+Pièges de la statistique
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20246 / 69
+
+Introduction
+Le mot "statistique" a été inventé au 18è siècle par l’économiste G.
+Achenwall, du mot italien "statista", personne d’Etat→à l’origine, les
+statistiques sont vues comme les outils des personnes d’Etat.
+A l’origine, il désigne lesméthodes numériquespour l’étude de
+phénomènes sociauxpuis l’ensemble des techniques quantitatives pour
+analyser et prédire le comportement dephénomènes observés.
+La statistique est un champ desmathématiques appliquées: c’est à
+la fois un ensemble de techniques et l’étude scientifique de celles-ci.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20247 / 69
+
+Introduction
+Les statistiques servent à :
+1
+Collecter des données (sondages, expériences);
+2
+Décrire des données, synthétiser l’information qu’elles contiennent;
+3
+Faire des prévisions, expliquer des phénomènes, prendre des déci-
+sions.
+Elles sont utilisées dans tous les domaines:
+Prévisions météorologiques;
+Enquêtes sociologiques et démographiques;
+Marketing, finance, assurance;
+Expériences médicales, prédiction de pathologies;
+Mais aussi archéologie, géosciences, informatique, etc.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20248 / 69
+
+Les trois fonctions de la statistique
+Décrire
+Expliquer
+Prédire
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20249 / 69
+
+Introduction
+L’idée fondamentale de la statistique est qu’en observant unmême
+phénomène sur un "petit" nombre d’individus, on peut obtenir une
+information qui segénéraliseà ceux qu’on n’observe pas.
+Chaque fonction de la statistique est un champ d’étude propre:
+Décrire→statistique descriptive;
+Prédire→statistique inférentielle;
+Expliquer→inférence causale.
+Dans ce cours, on se concentrera sur la partie descriptive: comment
+synthétiser et visualiser l’information contenue par des observations ?
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202410 / 69
+
+Sommaire
+1
+Introduction
+Modalités pratiques
+Objectifs de la statistique
+Pièges de la statistique
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202411 / 69
+
+Introduction
+Question:comment ne pas dire n’importe quoi en généralisant ce
+qu’on observe?
+Il existe de nombreux pièges, oubiais, liés aux statistiques qui rendent
+les résultats inutilisables:
+Lors d’un projet, on demande à des étudiants de sonder les
+passagers des bus pour connaître le taux de fraudes sur les
+différentes lignes. Quel est le problème lié à ce type d’enquêtes ?
+La description de données est également une étape délicate:
+Exemple : Que peut-on conclure suite à la divulgation d’une
+statistique mettant en avant que dans une ville donnée, le nombre
+de meurtres a augmenté de 100% entre 2021 et 2022 ?
+Il faut donc faire attention tout au long du processus.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202412 / 69
+
+Exemples de biais
+Une application vous dit "Si vous appréciez notre service,
+laissez-nous une évaluation."
+→biais de motivation:les
+individus satisfaits répondront plus que les individus déçus;
+Un étudiant en stage fait circuler une étude de marché auprès de
+ses camarades de promo→biais d’endogamie:les individus
+sondés sont tous des étudiants de la même promo;
+Une entreprise réalise un sondage en appelant des individus sur
+leur téléphone fixe→biais technologique:les individus
+répondant sont susceptibles d’être des personnes âgées.
+Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
+représentatifs car ils sont indirectement sélectionnés selon des critères
+précis.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+
+Exemples de biais
+Une application vous dit "Si vous appréciez notre service,
+laissez-nous une évaluation."
+→biais de motivation:les
+individus satisfaits répondront plus que les individus déçus;
+Un étudiant en stage fait circuler une étude de marché auprès de
+ses camarades de promo
+→biais d’endogamie:les individus
+sondés sont tous des étudiants de la même promo;
+Une entreprise réalise un sondage en appelant des individus sur
+leur téléphone fixe→biais technologique:les individus
+répondant sont susceptibles d’être des personnes âgées.
+Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
+représentatifs car ils sont indirectement sélectionnés selon des critères
+précis.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+
+Exemples de biais
+Une application vous dit "Si vous appréciez notre service,
+laissez-nous une évaluation."
+→biais de motivation:les
+individus satisfaits répondront plus que les individus déçus;
+Un étudiant en stage fait circuler une étude de marché auprès de
+ses camarades de promo
+→biais d’endogamie:les individus
+sondés sont tous des étudiants de la même promo;
+Une entreprise réalise un sondage en appelant des individus sur
+leur téléphone fixe
+→biais technologique:les individus
+répondant sont susceptibles d’être des personnes âgées.
+Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
+représentatifs car ils sont indirectement sélectionnés selon des critères
+précis.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+
+Exemples de biais
+Une application vous dit "Si vous appréciez notre service,
+laissez-nous une évaluation."
+→biais de motivation:les
+individus satisfaits répondront plus que les individus déçus;
+Un étudiant en stage fait circuler une étude de marché auprès de
+ses camarades de promo
+→biais d’endogamie:les individus
+sondés sont tous des étudiants de la même promo;
+Une entreprise réalise un sondage en appelant des individus sur
+leur téléphone fixe
+→biais technologique:les individus
+répondant sont susceptibles d’être des personnes âgées.
+Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
+représentatifs car ils sont indirectement sélectionnés selon des critères
+précis.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+
+Le biais du survivant
+Seconde Guerre mondiale: où renforcer le blindage des avions de l’US
+Air Force pour limiter les pertes?
+Réponse : là où il y a le moins d’impacts!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202414 / 69
+
+Le biais du survivant
+Seconde Guerre mondiale: où renforcer le blindage des avions de l’US
+Air Force pour limiter les pertes?
+Réponse : là où il y a le moins d’impacts!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202414 / 69
+
+Piège récurrent: la corrélation fallacieuse
+Source: Le Monde
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202415 / 69
+
+Piège récurrent: la corrélation fallacieuse
+Source: Le Monde. Coefficient de corrélation de 90,1%
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202416 / 69
+
+Piège récurrent: la corrélation fallacieuse
+Source: Le Monde
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202417 / 69
+
+Piège récurrent: la corrélation fallacieuse
+On dit que deux phénomènes sontcorréléss’ils évoluent
+conjointement, soit dans le même sens, soit en sens inverse.
+On a tendance à croire que deux phénomènes corrélés ont unlien de
+cause à effet→C’EST FAUX!!
+Exemple: en France, 57% des décès ont lieu à l’hôpital donc pour rester
+en bonne santé il vaut mieux éviter les hôpitaux.
+Une corrélation peut être le fruit du hasard, d’une cause commune (ici,
+la maladie), etc.→corrélation n’implique pas causalité!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202418 / 69
+
+Visualiser des données
+On peut aussi induire des personnes en erreur en présentant mal
+(volontairement ou non) les données dont on dispose.
+Par exemple:
+En prenant des échelles qui déforment la réalité;
+Avec des pourcentages dont la somme dépasse 100%;
+En comparant des quantités qui ne sont pas comparables;
+En mettant trop d’informations pour "noyer le poisson";
+En manipulant les données pour exclure des individus, changer des
+valeurs, etc.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202419 / 69
+
+Visualiser des données
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202420 / 69
+
+Visualiser des données
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202421 / 69
+
+Visualiser des données
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202422 / 69
+
+Conclusion
+Appréhender les statistiques – que ce soit pour en produire ou en lire –
+requiert donc d’être:
+Rigoureuxdans les méthodes et les calculs;
+Attentifaux différents biais qui pourraient perturber les données;
+Objectifdans la présentation des résultats;
+Synthétiquedans la quantité d’information présentée.
+Bref, faire des statistiques, ça s’apprend!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202423 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+La population
+Variables et modalités
+Les fréquences
+Les regroupements en classes
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202424 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+La population
+Variables et modalités
+Les fréquences
+Les regroupements en classes
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202425 / 69
+
+La population
+En statistiques, unepopulationreprésente l’ensemble des individus
+sur lequel porte l’étude. On la notera iciΩ.
+Unindividu– ou unité statistique –ωest un élément d’une
+population:ω∈Ω.
+On observe rarement toute la population, et plutôt unéchantillon
+O⊆Ω, qui représente donc un sous-ensemble de la population.
+Un individu appartient donc à un échantillon, lui-même appartenant à
+une population:ω∈O⊂Ω.
+On note Card(O)ounl’effectif(le nombre d’individus) deO. On
+appelleeffectif cumulél’effectif deΩ. Exemple :
+Ω ={a, b, c, d}Card(Ω) = 4, doncn=4
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202426 / 69
+
+La population
+Figure: Illustration de la notion de population
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202427 / 69
+
+La population
+Pour récolter des données, deux méthodes sont généralement utilisées:
+1
+Lesondage, qui vise à interroger un échantillon représentatif de la
+population – donc un sous-ensemble de la population – pour
+extrapoler des résultats. C’est notamment comme cela que sont
+calculés les parts d’audience à la télévision, via un panel
+représentatif de 5000 foyers.
+2
+Lerecensement, réalisé sur l’ensemble de la population. Par
+exemple, les communes de moins de 10 000 habitants réalisent une
+fois tous les cinq ans une enquête de recensement portant sur toute
+la population, à raison d’une commune sur cinq chaque année.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202428 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+La population
+Variables et modalités
+Variables qualitatives
+Variables quantitatives
+Les effectifs
+Les fréquences
+Les regroupements en classes
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202429 / 69
+
+Variables et modalités
+Lors d’études statistiques, on étudie descaractères– ouvariables
+statistiques– possédés par tous les individus de la population.
+On notera une variable parX, et on a:
+X: Ω→C
+ω7→X(ω)
+(1)
+Une variableXest donc une application deΩdansC, l’ensemble des
+valeursoumodalitésdeX.
+Exemple : siXest la note d’un étudiant à un examen, généralement
+C={0,1,2,3, ...,20}
+Pour chaque variables, on peut définir des modalités différentes
+selon les situations: notes avec demi-points, note supérieure ou
+inférieure à 10, etc.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202430 / 69
+
+Variables et modalités
+Toutes les modalités d’un même caractère respectent 2 propriétés:
+Incompatibles: un individu ne peut pas correspondre à plusieurs
+modalités d’un même caractère.
+Exemple: Lors d’un match de football à élimination directe, les
+modalités sont soit la victoire, soit la défaite. Les deux sont
+incompatibles.
+Exhaustives: chaque individu doit appartenir à une modalité.
+Sinon, un ou plusieurs individus ne sont pas considérés.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202431 / 69
+
+Variables et modalités
+Exercice:
+Une entreprise emploie 500 salariés sur 3 usines (A, B et C). Pour
+étudier le statut conjugal des employés, on interroge les 150
+salariés de l’usine A. Indiquer la population, l’échantillon, le
+caractère, les individus et les modalités:
+Population: ensemble des 500 salariés.
+Échantillon: salariés travaillant dans l’usine A.
+Caractère: statut conjugal.
+Individus: salariés.
+Modalités: célibataire, concubinage, union civile, marié(e),
+divorcé(e), veuf(ve).
+A partir de cette enquête, peut-on en déduire que la situation
+conjugale de l’ensemble des salariés suit la même répartition?→A
+priori non!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 69
+
+Variables et modalités
+Exercice:
+Une entreprise emploie 500 salariés sur 3 usines (A, B et C). Pour
+étudier le statut conjugal des employés, on interroge les 150
+salariés de l’usine A. Indiquer la population, l’échantillon, le
+caractère, les individus et les modalités:
+Population: ensemble des 500 salariés.
+Échantillon: salariés travaillant dans l’usine A.
+Caractère: statut conjugal.
+Individus: salariés.
+Modalités: célibataire, concubinage, union civile, marié(e),
+divorcé(e), veuf(ve).
+A partir de cette enquête, peut-on en déduire que la situation
+conjugale de l’ensemble des salariés suit la même répartition?
+→A
+priori non!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 69
+
+Variables et modalités
+Exercice:
+Une entreprise emploie 500 salariés sur 3 usines (A, B et C). Pour
+étudier le statut conjugal des employés, on interroge les 150
+salariés de l’usine A. Indiquer la population, l’échantillon, le
+caractère, les individus et les modalités:
+Population: ensemble des 500 salariés.
+Échantillon: salariés travaillant dans l’usine A.
+Caractère: statut conjugal.
+Individus: salariés.
+Modalités: célibataire, concubinage, union civile, marié(e),
+divorcé(e), veuf(ve).
+A partir de cette enquête, peut-on en déduire que la situation
+conjugale de l’ensemble des salariés suit la même répartition?
+→A
+priori non!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 69
+
+Variables qualitatives
+Une variableXestqualitativelorsque ses modalités ne sont pas des
+quantités mesurables.
+Lorsque les modalités sont sujettes à une relation d’ordre, la
+variable est diteordinale: par exemple les appréciations lors d’un
+sondage (satisfait, moyennement satisfait, peu satisfait);
+Lorsque ce n’est pas le cas elle est ditenominale: par exemple
+département de résidence, catégories socio-professionnelles, nom
+des journaux, signes astrologiques.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202433 / 69
+
+Ensembles discrets et continus
+On dit qu’un ensemble de nombres est
+Discretlorsque ses éléments sont séparés les uns des autres: par
+exempleN={1,2,3,4, . . .} →entre 1 et 3 il n’y a que 2;
+Continusi entre deux éléments distincts, il y a toujours d’autres
+éléments: par exemple l’intervalle[0,1]→entre0,1et0,11il y a
+une infinité de valeurs :0,105,0,100001, etc.
+ATTENTION:un ensemble contenant un nombre fini de nombres est
+toujours discret, mais l’inverse n’est pas vrai!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202434 / 69
+
+Variables quantitatives
+Une variableXestquantitativelorsqu’elle représente une quantité
+mesurable.
+On dit queXestdiscrètelorsque ses valeurs appartiennent à un
+ensemble discret: il est possible de les énumérer : le nombre
+d’items d’une liste, le nombre de personnes dans une salle.
+On dit queXestcontinuelorsque ses valeurs appartiennent à un
+ensemble continu: il est impossible de les énumérer, par exemple la
+taille en mètres, une note à un examen.
+Dans la pratique, une modalité est continue lorsqu’elle peut prendre un
+grand nombre de valeurs, notamment avec des décimales: par exemple
+le PIB d’un pays.
+On peut transformer une variable continue en variable discrète en la
+regroupant en classes: par exemple le PIB arrondi au million d’euros.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202435 / 69
+
+Exercice
+Exercice:Indiquer si les variables suivantes sont qualitatives
+(ordinales ou nominales), quantitatives discrètes ou continues:
+catégories socio professionnelles, poids en kg, nombre de parts fiscales
+par foyer, nombre de fautes par ligne, niveau de satisfaction, salaire.
+Catégories socio-professionnelles : qualitatif nominal.
+Poids: quantitatif continu.
+Nombre de parts fiscales par foyer: quantitatif discret.
+Nombre de fautes par ligne: quantitatif discret.
+Niveau de satisfaction: qualitatif ordinal.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202436 / 69
+
+Exercice
+Exercice:Indiquer si les variables suivantes sont qualitatives
+(ordinales ou nominales), quantitatives discrètes ou continues:
+catégories socio professionnelles, poids en kg, nombre de parts fiscales
+par foyer, nombre de fautes par ligne, niveau de satisfaction, salaire.
+Catégories socio-professionnelles : qualitatif nominal.
+Poids: quantitatif continu.
+Nombre de parts fiscales par foyer: quantitatif discret.
+Nombre de fautes par ligne: quantitatif discret.
+Niveau de satisfaction: qualitatif ordinal.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202436 / 69
+
+Les effectifs
+L’effectifn
+i
+qui représente le nombre d’individus ayant la même
+modalitéx
+i
+est appeléeffectif partieloufréquence absolue.
+n
+i
+=Card{ω∈Ω :X(ω) =x
+i
+}
+Dans l’exemple de l’usine de 150 salariés, on peut calculer l’effectif des
+célibataires, des marié(e)s ou des veuf(ve)s.
+Dans l’exemple des notes, on peut calculer l’effectif des élèves ayant eu
+moins de 10 et de ceux ayant eu 10 ou plus.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202437 / 69
+
+Les effectifs
+L’effectifcumuléest la somme deskeffectifs partiels. Il peut être
+croissantoudécroissant.
+n=Card(Ω) =n
+1
++n
+2
++n
+3
++...+n
+k
+=
+k
+∑
+i=1
+n
+i
+L’effectif cumulé sur toutes les modalités d’une variable est égal au
+nombre d’éléments de la population.
+Par exemple:
+L’effectif des élèves ayant eu moins de 10 à un examen est l’effectif
+cumulé (croissant) des élèves ayant eu1,2, . . . ,9:
+n
+<10
+=n
+1
++n
+2
++···+n
+9
+L’effectif des élèves ayant eu 10 ou plus est correspond au nombre
+d’élèves moins l’effectif des élèves ayant eu moins de 10:
+n
+≥10
+=n−n
+<10
+=n−n
+9
+−n
+8
+−···−n
+1
+.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202438 / 69
+
+Les effectifs
+Remarque :
+Calculer des effectifs cumulés n’a de sens uniquement si l’on
+traite de variables ordinales. De tels calculs pour une variable
+nominale n’a aucun sens.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202439 / 69
+
+Les effectifs
+Exercice: Soit les notes de 30 étudiants sur 5. Calculer les effectifs
+cumulés croissants et décroissants.
+Notex
+i
+012345
+Effectifn
+i
+467742
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202440 / 69
+
+Les effectifs (correction)
+Notex
+i
+Effectifn
+i
+Effectif cumulé croissantEffectif cumulé décroissant
+04430
+161026
+271720
+372413
+44286
+52302
+Totaln= 30
+Comment interpréter le chiffre 17?
+17 étudiants ont eu au plus 2 ou moins.
+Comment interpréter le chiffre 13?
+13 étudiants ont eu au moins 3 ou plus.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202441 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+La population
+Variables et modalités
+Les fréquences
+Fréquences simples
+Fréquences cumulées
+Les regroupements en classes
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202442 / 69
+
+La fréquence simple
+Lafréquencef
+i
+d’une modalitéx
+i
+est égale à l’effectif de la modalité
+(n
+i
+) divisé par l’effectif total de l’échantillon (N).
+Une fréquence est un nombre entre 0 et 1, mais pour qu’elle soit plus
+lisible, on peut la calculer enpourcentageen la multipliant par 100 :
+f
+i
+=
+n
+i
+N
+×100
+Remarque
+La somme des fréquences est toujours égale à 100%:
+∑
+i
+f
+i
+=
+∑
+i
+n
+i
+N
+=
+1
+N
+∑
+i
+n
+i
+=
+N
+N
+= 1
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202443 / 69
+
+La fréquence cumulée
+Lafréquence cumuléeest obtenue en cumulant les fréquences
+simples. Elle peut être:
+croissante(fréquence cumulée croissante notée FCC);
+décroissante(fréquence cumulée décroissante notée FCD)
+Remarque
+On peut aussi calculer les fréquences cumulées en divisant les
+effectifs cumulés par l’effectif total.
+Remarque 2 :
+Calculer des fréquences cumulées n’a de sens uniquement si l’on
+traite de variables ordinales. De tels calculs pour une variable
+nominale n’a aucun sens.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202444 / 69
+
+La fréquence cumulée
+Exercice :dans un ensemble de 20 individus, on a 5 personnes qui ont
+un salaire compris entre 1000€et 1500€, 5 entre 1500€et 2000€, et 10
+au-dessus de 2000€. Calculez la fréquence simple ainsi que les
+fréquences cumulées croissantes et décroissantes.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202445 / 69
+
+La fréquence cumulée
+Correction:
+Salairex
+i
+Effectifn
+i
+Fréquence simple (%)FCC (%)FCD (%)
+[1000;1500[52525100
+[1500;2000[5255075
+[2000 et plus105010050
+Totaln= 20100%
+Que veut dire le 25% dans la colonneFCC?
+Cela veut dire que 25% des individus gagnent 1500€ou moins.
+Que veut dire le 75% dans la colonneFCD?
+Cela veut dire que 75% des individus gagnent 1500€ou plus.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202446 / 69
+
+La fréquence cumulée
+Correction:
+Salairex
+i
+Effectifn
+i
+Fréquence simple (%)FCC (%)FCD (%)
+[1000;1500[52525100
+[1500;2000[5255075
+[2000 et plus105010050
+Totaln= 20100%
+Que veut dire le 25% dans la colonneFCC?
+Cela veut dire que 25% des individus gagnent 1500€ou moins.
+Que veut dire le 75% dans la colonneFCD?
+Cela veut dire que 75% des individus gagnent 1500€ou plus.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202446 / 69
+
+La fréquence cumulée
+Correction:
+Salairex
+i
+Effectifn
+i
+Fréquence simple (%)FCC (%)FCD (%)
+[1000;1500[52525100
+[1500;2000[5255075
+[2000 et plus105010050
+Totaln= 20100%
+Que veut dire le 25% dans la colonneFCC?
+Cela veut dire que 25% des individus gagnent 1500€ou moins.
+Que veut dire le 75% dans la colonneFCD?
+Cela veut dire que 75% des individus gagnent 1500€ou plus.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202446 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+La population
+Variables et modalités
+Les fréquences
+Les regroupements en classes
+Classes de valeurs (modalités)
+Amplitude de classe
+Centre de classe
+Les regroupements en classes
+3
+Les opérateurs somme et produit
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202447 / 69
+
+Classes de valeurs
+Il est possible de construire une nouvelle modalité appeléeclasseen
+regroupant plusieurs modalités d’une variableX.
+Par exemple, pour une variable continue, on peut former des intervalles
+du type[a, b[. Par convention, on exclutbmais on incluta.
+Exemple:On observe les salaires avec les modalités suivantes:
+x
+1
+∈[0; 500[,x
+2
+∈[500; 1000[,x
+3
+∈[1000; 1500[,x
+4
+∈[1500; 2000[. On
+considère la classe ̃xdes salaires entre 0 et 1000 euros.
+ ̃xcorrespond au regroupement des modalitésx
+1
+etx
+2
+;
+Par convention, on exclut la borne supérieure: un individu avec un
+salaire exactement de 1000 euros n’appartient pas à ̃x;
+Les nouvelles modalités de la variableXsont( ̃x, x
+3
+, x
+4
+).
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202448 / 69
+
+Amplitude et centre de classe
+Lorsque les classes sont des intervalles,l’amplitudeAd’une classe se
+définit comme la longueur de l’intervalle[a, b[
+A=b−a(2)
+Dans l’exemple précédent, l’amplitude de ̃xest donc de 1000 euros.
+Le centreCd’une classe est la valeur centrale de la classe[a, b[:
+C=a+
+A
+2
+=
+a+b
+2
+(3)
+Pour la classeX∈[1000; 1500[,C= 1250.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202449 / 69
+
+Les regroupements en classes
+Dans un échantillon, il existe des règles pour établir les classes ainsi que
+leur amplitude. Les classes obtenues ne doivent pas:
+1
+Avoir une amplitude trop large, ce qui affecte la précision des
+données.
+2
+Avoir une amplitude trop faible, ce qui donnerait un nombre de
+classes trop élevé et donc rendrait les données illisibles.
+Pour déterminer le nombre de classeskd’un échantillon de tailleN
+(soit l’effectif total), nous pouvons utiliser :
+Larègle empirique:2
+k
+≥N⇒k≥
+ln(N)
+ln(2)
+Larègle de Sturge:k∼1 + 3,3×log
+10
+(N)
+Larègle de Yule:k∼2,5×
+4
+√
+N= 2,5
+√
+√
+N= 2,5×N
+1
+4
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202450 / 69
+
+Exemple
+Pour déterminer l’amplitude des classes, on utilise la formule suivante:
+A=
+x
+max
+−x
+min
+k
+Avecx
+max
+etx
+min
+respectivement la plus grande et la plus petite valeur
+dexdans la série statistique, etkle nombre de classes.
+Exemple : Représenter la variable statistique suivante sous forme de
+classes.
+38392834554534362736
+26233651253526393924
+31494526263939444534
+14263936362651491826
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202451 / 69
+
+Exemple
+On commence pardéterminer le nombre de classes. On sait que
+l’effectif total estN= 40. On applique l’une des 3 règles :
+La règle empirique :k≥
+ln(40)
+ln(2)
+= 5,322
+La règle de Sturge :k∼1 + 3,3×log
+10
+(40) = 6,287
+La règle de Yule :k∼2,5(40)
+1
+4
+= 6,29
+On choisit donc de regrouper les données en 6 classes.
+Remarque
+Larègle empiriquepeut parfois manquer de précision.
+L’amplitude est donnée par:
+55−14
+6
+≈6,83≈7
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202452 / 69
+
+Exemple
+On obtient le tableau suivant :
+Classe (k)Effectif (n
+i
+)
+14≥X≥212
+21≥X≥2810
+28≥X≥355
+35≥X≥4214
+42≥X≥494
+49≥X≥565
+TotalN= 40
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202453 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+L’opérateur sommeΣ
+L’opérateur produit
+∏
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202454 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+L’opérateur sommeΣ
+L’opérateur produit
+∏
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202455 / 69
+
+L’opérateur sommeΣ
+Soitx
+1
+, x
+2
+, x
+3
+, ..., x
+n
+∈Rune famille de nombres. Pour deux valeursk
+etpaveck≤p, on note :
+p
+∑
+i=k
+x
+i
+=x
+k
++x
+k+1
++x
+k+2
++···+x
+p
+Par exemple,
+4
+∑
+i=2
+x
+i
+=x
+2
++x
+3
++x
+4
+Dans cette somme,iest unindicequi varie entreketp.
+La somme dekàpdesx
+i
+contient doncp−k+ 1termes.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202456 / 69
+
+L’opérateur sommeΣ
+On a les propriétés suivantes :
+1
+∑
+n
+i=1
+(x
+i
++y
+i
++z
+i
+) =
+∑
+n
+i=1
+x
+i
++
+∑
+n
+i=1
+y
+i
++
+∑
+n
+i=1
+z
+i
+2
+∑
+n
+i=1
+(ax
+i
+) =a
+∑
+n
+i=1
+x
+i
+3
+∑
+n
+i=1
+b=nb
+Conséquence :
+n
+∑
+i=1
+(ax
+i
++b) =a
+n
+∑
+i=1
+x
+i
++nb
+Et :
+n
+∑
+i=1
+(ax
+i
++b)
+2
+=a
+2
+n
+∑
+i=1
+x
+2
+i
++ 2ab
+n
+∑
+i=1
+x
+i
++nb
+2
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202457 / 69
+
+L’opérateur sommeΣ
+On a :
+n
+∑
+i=1
+(ax
+i
++b)
+2
+=
+n
+∑
+i=1
+(a
+2
+x
+2
+i
++ 2abx
+i
++b
+2
+)
+car(A+B)
+2
+=A
+2
++ 2AB+B
+2
+Donc
+n
+∑
+i=1
+(ax
+i
++b)
+2
+= (
+n
+∑
+i=1
+a
+2
+x
+2
+i
+) + (
+n
+∑
+i=1
+2abx
+i
+) +
+n
+∑
+i=1
+(b
+2
+)
+⇒
+n
+∑
+i=1
+(ax
+i
++b)
+2
+=a
+2
+n
+∑
+i=1
+x
+2
+i
++ 2ab
+n
+∑
+i=1
+x
+i
++nb
+2
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202458 / 69
+
+L’opérateur sommeΣ
+Exercice :
+1
+Développer :
+∑
+3
+i=1
+x
+i
+et
+∑
+2
+j=0
+x
+j
+y
+2−j
+2
+Ecrire avec le symboleΣ:x
+4
++x
+5
++x
+6
++x
+7
+etz
+0
++z
+2
++z
+4
++z
+6
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202459 / 69
+
+L’opérateur sommeΣ
+Solutions :
+1
+∑
+3
+i=1
+x
+i
+=x
+1
+︸︷︷︸
+i=1
++x
+2
+︸︷︷︸
+i=2
++x
+3
+︸︷︷︸
+i=3
+∑
+2
+j=0
+x
+j
+y
+2−j
+=x
+0
+y
+2
+︸
+︷︷︸
+j=0
++x
+1
+y
+1
+︸︷︷︸
+j=1
++x
+2
+y
+0
+︸︷︷︸
+j=2
+2
+x
+4
++x
+5
++x
+6
++x
+7
+=
+∑
+7
+i=4
+x
+i
+z
+0
++z
+2
++z
+4
++z
+6
+=
+∑
+3
+p=0
+z
+2p
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202460 / 69
+
+L’opérateur sommeΣ
+Exercice :
+Sachant que :
+4
+∑
+i=1
+n
+i
+=N= 10,
+4
+∑
+i=1
+n
+i
+x
+i
+= 6et
+4
+∑
+i=1
+n
+i
+x
+2
+i
+= 30
+Calculer :
+A=
+∑
+4
+i=1
+n
+i
+(5x
+i
+−7)
+B=
+∑
+4
+i=1
+n
+i
+(2x
+i
++ 3)
+2
+C=
+∑
+4
+i=1
+n
+i
+(2x
+i
++ 3)(x
+i
+−5)
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202461 / 69
+
+L’opérateur sommeΣ
+A=
+∑
+4
+i=1
+n
+i
+(5x
+i
+−7)
+A=
+∑
+4
+i=1
+(5n
+i
+x
+i
+−7n
+i
+)
+A= 5(
+∑
+4
+i=1
+n
+i
+x
+i
+)−7(
+∑
+4
+i=1
+n
+i
+)
+A= 5×6−7×10 =-40
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202462 / 69
+
+L’opérateur sommeΣ
+B=
+∑
+4
+i=1
+n
+i
+(2x
+i
++ 3)
+2
+B=
+∑
+4
+i=1
+n
+i
+(4x
+2
+i
++ 12x
+i
++ 9)
+B= 4(
+∑
+4
+i=1
+n
+i
+x
+2
+i
+) + 12(
+∑
+4
+i=1
+n
+i
+x
+i
+) + 9(
+∑
+4
+i=1
+n
+i
+)
+B= 4×30 + 12×6 + 9×10 =282
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202463 / 69
+
+L’opérateur sommeΣ
+C=
+∑
+4
+i=1
+n
+i
+(2x
+i
++ 3)(x
+i
+−5)
+C=
+∑
+4
+i=1
+n
+i
+(2x
+2
+i
+−10x
+i
++ 3x
+i
+−15)
+C= 2(
+∑
+4
+i=1
+n
+i
+x
+2
+i
+)−10(
+∑
+4
+i=1
+n
+i
+x
+i
+) + 3(
+∑
+4
+i=1
+n
+i
+x
+i
+)−15(
+∑
+4
+i=1
+n
+i
+)
+C= 2×30−10×6 + 3×6−15×10 =-132
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202464 / 69
+
+Sommaire
+1
+Introduction
+2
+Notions statistiques et collecte des données
+3
+Les opérateurs somme et produit
+L’opérateur sommeΣ
+L’opérateur produit
+∏
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202465 / 69
+
+L’opérateur produit
+∏
+Soitx
+1
+, x
+2
+, x
+3
+, ..., x
+n
+∈Rune famille de nombres. Pour deux valeursk
+etpaveck≤p, on note :
+p
+∏
+i=k
+x
+i
+=x
+k
+×x
+k+1
+×...×x
+p
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202466 / 69
+
+L’opérateur produit
+∏
+On a les propriétés suivantes :
+Pouraréel:
+∏
+n
+i=1
+(ax
+i
+) =a
+n
+(
+∏
+n
+i=1
+x
+i
+)
+∏
+i
+(x
+i
+y
+i
+) = (
+∏
+i
+x
+i
+)(
+∏
+i
+y
+i
+)
+Pourx
+i
+>0etn
+i
+entier, on a :ln(
+∏
+i
+(x
+n
+i
+i
+)) =
+∑
+i
+n
+i
+lnx
+i
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202467 / 69
+
+L’opérateur produit
+∏
+Exercice :
+1
+Développer :
+∏
+3
+i=1
+i×x
+i
+2
+Calculer :
+∏
+2
+i=1
+(1 + 3i+i
+2
+)
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202468 / 69
+
+L’opérateur produit
+∏
+(solutions)
+1
+∏
+3
+i=1
+i×x
+i
+= (1×x
+1
+)
+︸︷︷︸
+i=1
+×(2×x
+2
+)
+︸︷︷︸
+i=2
+×(3×x
+3
+)
+︸︷︷︸
+i=3
+= 6x
+1
+x
+2
+x
+3
+2
+∏
+2
+i=1
+(1+3i+i
+2
+) = (1 + 3×1 + 1
+2
+)
+︸
+︷︷︸
+i=1
+×(1 + 3×2 + 2
+2
+)
+︸
+︷︷︸
+i=2
+= 5×11 = 55
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202469 / 69

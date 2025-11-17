@@ -1,0 +1,26 @@
+chapter: Analyse Éco > MI1 — Bases du raisonnement économique
+
+QCM || L’économie étudie principalement || V:l’allocation de ressources rares face à des besoins illimités|uniquement la production agricole|les loisirs sans contrainte|la psychologie individuelle pure || Définition champ économique || MI1, Bases, QCM
+QCM || Un besoin primaire est || V:s’habiller|collectionner des montres de luxe|afficher un statut social|acheter un 3e smartphone identique || Hiérarchie des besoins || MI1, Besoins, QCM
+QCM || La rareté implique || V:des arbitrages|abondance infinie|absence de choix|prix constants || Rareté → choix contraint || MI1, Rareté, QCM
+QCM || Un arbitrage est || V:un choix entre options avec contraintes|une simple comparaison de couleurs|une absence de préférence|un calcul automatique sans information || Notion clé arbitrage || MI1, Arbitrage, QCM
+QCM || Le coût d’opportunité correspond à || V:la valeur de la meilleure option abandonnée|le prix payé|le coût comptable total|la dépense future incertaine || Définition coût d’opportunité || MI1, Arbitrage, QCM
+QCM || Exemple de dépense incompressible || V:payer le loyer|acheter un 5e jeu vidéo|abonnement premium superflu|voyage exotique spontané || Priorisation budgétaire || MI1, Dépenses, QCM
+QCM || Ressource limitée: laquelle ? || V:temps|air respirable|désirs|imagination || Temps rare, désirs illimités || MI1, Ressources, QCM
+QCM || Modalités d’allocation évoquées (choisir vraies) || V:marché|V:organisation (État/firme)|V:réciprocité|ostentation pure || Trois formes clés || MI1, Allocation, QCM
+QCM || La réciprocité s’appuie sur || V:obligations mutuelles|un paiement immédiat de prix|absence de contrepartie future|monopole légal || Don / retour attendu || MI1, Réciprocité, QCM
+QCM || Wikipédia illustre || V:la réciprocité communautaire|un monopole|la fixation autoritaire des prix|l’absence de coopération || Communauté contributive || MI1, Réciprocité, QCM
+QCM || Différence micro vs macro || V:micro analyse unités individuelles|macro phénomènes agrégés|micro = uniquement politique publique|macro = décisions consommateurs spécifiques || Niveaux d’analyse || MI1, MicroMacro, QCM
+QCM || Exemple de phénomène macro || V:inflation nationale|choix d’un ménage d’épargne|prix d’un seul bien dans une boutique|préférence individuelle instantanée || Agrégation || MI1, Macro, QCM
+QCM || Discipline plurielle signifie || V:plusieurs approches coexistent|une seule théorie dominante éternelle|absence de méthode|rejet des données empiriques || Pluralité théorique || MI1, Méthodo, QCM
+QCM || Vérifiabilité d’une théorie signifie || V:possible test empirique|acceptation politique|popularité médiatique|ancienneté || Critère scientifique 1 || MI1, Science, QCM
+QCM || Confirmabilité implique || V:reproductibilité|secret de la méthode|unicité d’observation|non réfutabilité || Critère scientifique 2 || MI1, Science, QCM
+QCM || Réfutabilité implique || V:possibilité de contre-exemple|théorie éternelle|immunité à la critique|preuve unique suffisante || Critère scientifique 3 || MI1, Science, QCM
+QCM || Un modèle sert à || V:simplifier et relier variables|complexifier la réalité|supprimer la causalité|remplacer toute observation || Rôle du modèle || MI1, Modèle, QCM
+QCM || Les postulats servent à || V:simplifier en négligeant certains effets|ajouter tous les détails|garantir vérité absolue|éviter toute hypothèse || Rôle des postulats || MI1, Postulats, QCM
+QCM || Externalité parasite un indicateur quand || V:événement exceptionnel déforme la série|données parfaitement lisses|absence de saisonnalité|aucun choc exogène || Qualité données || MI1, Données, QCM
+QCM || Un indicateur mal interprété (PIB/hab Luxembourg) résulte surtout de || V:forte population frontalière|erreur de calcul systématique|absence de production|confusion avec dette publique || Limites indicateurs || MI1, Indicateurs, QCM
+QCM || Pourquoi rigueur accrue en sciences sociales ? || V:données bruyantes multi-causes|phénomènes parfaitement isolés|contrôle total en labo|un seul facteur explicatif universel || Complexité sociale || MI1, Méthodo, QCM
+QCM || Chaîne de construction scientifique (ordre) || V:observation → hypothèses → modèle → test → théorie|hypothèses → observation → théorie unique|théorie → modèle → observation sans test|modèle → théorie → hypothèses inversées || Démarche scientifique || MI1, Science, QCM
+QCM || Cause multiple d’un phénomène implique || V:analyses multifactorielle|refus de toute modélisation|abandon de la quantification|choix d’un seul facteur arbitraire || Multifactorialité || MI1, Méthodo, QCM
+QCM || Le coût psychologique de renonciation est || V:partie du coût d’opportunité|un coût comptable|une dépense fiscale|un prix d’équilibre || Subjectivité arbitrage || MI1, Arbitrage, QCM

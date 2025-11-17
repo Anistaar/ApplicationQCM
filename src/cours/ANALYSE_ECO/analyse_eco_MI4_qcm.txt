@@ -1,0 +1,27 @@
+chapter: Analyse Éco > MI4 — Offre, demande et marché
+
+QCM || Un marché est || V:lieu physique/virtuel où O et D se rencontrent|forcément une bourse financière|un monopole public|une file d'attente || Définition marché || MI4, Marché, QCM
+QCM || Loi de la demande: prix ↑ ⇒ || V:quantité demandée ↓ (ceteris paribus)|quantité demandée ↑|offre ↓ automatiquement|prix d'équilibre ↑ toujours || Relation inverse || MI4, Demande, QCM
+QCM || Loi de l’offre: prix ↑ ⇒ || V:quantité offerte ↑|quantité offerte ↓|demande ↑ toujours|salaires ↓ automatiquement || Relation directe || MI4, Offre, QCM
+QCM || Quantité demandée collective obtenue par || V:somme des quantités individuelles|moyenne pondérée des prix|prix × quantité individuelle|différence offre-demande || Agrégation demande || MI4, Demande, QCM
+QCM || Prix d’équilibre réalise || V:Qofferte = Qdemandée|profit maximal|coût minimal|prix administré || Équilibre || MI4, Équilibre, QCM
+QCM || Excès d’offre (surplus) implique || V:pression à la baisse sur le prix|hausse automatique du prix|quantité demandée > offerte|marché fermé || Ajustement || MI4, Déséquilibre, QCM
+QCM || Excès de demande implique || V:pression à la hausse sur le prix|baisse automatique du prix|offre > demande|surplus producteur nul || Ajustement || MI4, Déséquilibre, QCM
+QCM || Concurrence pure et parfaite (choisir vraies) || V:atomicité|V:homogénéité|V:transparence|barrières fortes à l'entrée || Hypothèses CPP || MI4, CPP, QCM
+QCM || Libre entrée/sortie signifie || V:absence de barrières artificielles|subventions obligatoires|monopole garanti|prix administrés || Entrée sortie || MI4, CPP, QCM
+QCM || Un oligopole se caractérise par || V:quelques offreurs nombreux demandeurs|un seul offreur|beaucoup d'offreurs et demandeurs|un seul demandeur || Structure marché || MI4, Structure, QCM
+QCM || Un monopsone est || V:un seul demandeur face à plusieurs offreurs|un seul offreur|quelques offreurs|multitude acheteurs/vendeurs || Structure spécifique || MI4, Structure, QCM
+QCM || Enchère descendante: le Commissaire-priseur || V:baisse le prix jusqu'au premier acheteur|montée de prix par surenchères|fixe prix unique fixe|attribue au hasard || Mécanisme prix || MI4, Enchères, QCM
+QCM || Marché régulé exemple || V:prix influencé par normes/syndicats|absence de normes|fixation purement aléatoire|abolition des contrats || Régulation || MI4, Régulation, QCM
+QCM || Élasticité-prix de la demande mesure || V:sensibilité Qd à variation de prix|variation prix à structure coût|profit marginal|coût d'opportunité relatif || Élasticité || MI4, Élasticité, QCM
+QCM || Demande inélastique signifie || V:faible variation Qd quand prix change|Qd varie fortement|prix constant|offre parfaitement élastique || Inélasticité || MI4, Élasticité, QCM
+QCM || Déplacement de la courbe de demande provoqué par || V:variation revenu|variation des préférences|variation prix des biens liés|changement du prix du bien (→ mouvement sur la courbe) || Shift vs mouvement || MI4, Demande, QCM
+QCM || Déplacement de l’offre induit par || V:variation coûts de production|progrès technique|taxes/subventions|changement du prix du bien (→ mouvement) || Shift offre || MI4, Offre, QCM
+QCM || Surplus du consommateur correspond à || V:différence entre disposition à payer et prix|recette totale|coût moyen|profit producteur || Surplus C || MI4, Surplus, QCM
+QCM || Surplus du producteur correspond à || V:différence entre prix de vente et coût marginal agrégé|prix × quantité|coût fixe|recettes - taxes uniquement || Surplus P || MI4, Surplus, QCM
+QCM || Intervention État: taxe spécifique entraîne (ceteris paribus) || V:hausse prix à l'achat, baisse prix reçu par producteur|baisse prix consommateur|hausse quantité|surplus total inchangé || Taxe effet || MI4, Politique, QCM
+QCM || Plafond de prix en dessous de l’équilibre génère || V:pénurie|surplus|équilibre identique|surplus producteur accru || Contrôle prix || MI4, Politique, QCM
+QCM || Plancher de prix au-dessus de l’équilibre génère || V:surplus d’offre|pénurie|équilibre identique|diminution coût marginal || Contrôle prix || MI4, Politique, QCM
+QCM || Transparence dans CPP implique || V:information parfaite sur prix/qualité|opacité volontaire|coût d'opportunité nul|absence de compétition || Hypothèse info || MI4, CPP, QCM
+QCM || Atomicité signifie || V:aucun agent n’influence seul le prix|un agent fixe le prix|quelques agents dominent|barrières à l'entrée || Atomicité || MI4, CPP, QCM
+QCM || Différence offre/demande utilisée pour trouver équilibre est || V:Qofferte - Qdemandée|prix - coût|Qofferte/Qdemandée|coût d'opportunité || Méthode tableau || MI4, Équilibre, QCM

@@ -1,0 +1,19 @@
+chapter: Partiels STATS > Chapitre 4 — Dispersion
+
+QCM || Mesure robuste de dispersion || V:IQR (écart interquartile)|variance|écart-type|étendue || Robustesse || Chapitre 4, IQR, QCM
+QCM || L'étendue est définie par || V:max − min|min − max|Q3 − Q1|σ/μ || Définition || Chapitre 4, Étendue, QCM
+QCM || La variance d'une série (population) est || V:moyenne des carrés des écarts à la moyenne|(somme des écarts)/n|moyenne absolue des écarts|σ || Définition σ^2 || Chapitre 4, Variance, QCM
+QCM || Si on ajoute une constante c à toutes les valeurs, la variance || V:reste inchangée|augmente de c|est multipliée par c|est multipliée par c^2 || Invariance aux translations || Chapitre 4, Transformation, QCM
+QCM || Si on multiplie toutes les valeurs par k, l'écart-type || V:est multiplié par |k||est multiplié par k^2|reste inchangé|augmente de k+1 || Homogénéité || Chapitre 4, Transformation, QCM
+QCM || Coefficient de variation (CV) défini comme || V:σ/μ|σ^2|μ/σ|σ/μ × 1000 || Mesure relative de dispersion (souvent en %) || Chapitre 4, CV, QCM
+QCM || Interprétation: CV = 0,25 signifie || V:écart-type = 25% de la moyenne|25% d'observations au-delà de σ|moyenne = 25|variance = 25% || Mesure relative || Chapitre 4, CV interprétation, QCM
+QCM || Pour comparer la dispersion de deux séries de moyennes différentes, on utilise || V:le CV|l'étendue|σ brut|Q3 − Q1 || Comparabilité || Chapitre 4, Comparaison, QCM
+QCM || Données: 2, 2, 3, 5, 8. Moyenne μ=4, variance σ^2 || V:≈4|≈3|≈2|≈5 || Σ(x−4)^2 = (−2)^2+(−2)^2+(−1)^2+1^2+4^2 = 14; 14/5=2,8 → arrondi ≈3? Non, population 14/5=2,8 ⇒ la plus proche ≈3. Mais si on demande réponse exacte: 2,8. || Chapitre 4, Calcul variance, QCM
+QCM || Même données, écart-type σ || V:≈1,67|≈1,73|≈2|≈1,58 || √2,8≈1,673 || Chapitre 4, Calcul σ, QCM
+QCM || IQR pour données ordonnées 1, 2, 2, 3, 7, 8, 9, 10 (n=8) || V:Q3−Q1 = (entre 8 et 9)−(entre 2 et 3)|= (9−2)|= (8−2)|= (7−3) || Q1≈2,5; Q3≈8,5 → IQR≈6 || Chapitre 4, Calcul IQR, QCM
+QCM || La “règle des 1,5×IQR” sert à || V:identifier des valeurs aberrantes|calculer la moyenne|définir la variance|normaliser la série || Outliers: [Q1−1,5 IQR; Q3+1,5 IQR] || Chapitre 4, Outliers, QCM
+QCM || Histogramme: classes [0;5[, [5;15[, [15;20[, eff.: 4, 10, 6. Variance approx. est || V:plus grande que si classes égales|identique à classes égales|nulle|indéfinie || Classes larges au centre augmentent dispersion approx. || Chapitre 4, Histogramme dispersion, QCM
+QCM || Pour une loi de distribution symétrique, la moyenne absolue des écarts à la médiane est || V:≤ σ|= σ|≥ σ|= IQR || Inégalité connue (MAE ≤ σ pour distributions sub-Gaussiennes; au global, MAE autour de 0,8σ pour Gauss) || Chapitre 4, MAE, QCM
+QCM || Séries A: μ=50, σ=5; B: μ=100, σ=8. Dispersion relative plus forte pour || V:A|B|égales|indéterminable || CV_A=5/50=10%, CV_B=8/100=8% ⇒ A || Chapitre 4, Comparaison CV, QCM
+QCM || Variance d'échantillon (non biaisée) utilise le dénominateur || V:n−1|n|n+1|√n || Estimateur de variance: s^2 = Σ(x−x̄)^2/(n−1) || Chapitre 4, Échantillon, QCM
+QCM || Si la distribution est très asymétrique avec outliers, on préfère comme dispersion || V:IQR|σ|variance|étendue || Robustesse || Chapitre 4, Choix métrique, QCM

@@ -1,0 +1,576 @@
+chapter: Chapitre 1 > Consommation
+
+CH 1 macroéconomie : la consommation
+
+
+
+Au sens strict, la consommation= destruction de biens ou de services par l’usage à des fins de satisfaction direct d’un besoin humain 
+
+
+
+En macro la consommation= bien et services achetés par les ménages 
+
+Sachant que les ménages consomment à la fois des biens et des services marchands mais également non marchands, produit notamment par les administrations publiques (domaine de l’enseignement, santé..).
+
+
+
+Ces services, s’ils sont totalement gratuits dans ce cas-là, ils n’entrent pas dans la consommation finale alors même qu’ils contribuent à augmenter le niveau de vie de la population, au même titre que des services marchands correspondant (ex : service gratuit= école primaire= pas pris en compte mais école pv si). Quand on les prend en compte, on arrive à la consommation élargis de la population.
+
+
+
+Consommation d’un pays= bien et services marchands soit acheté soit autoconsommé et également les services non marchands individualisable (qui sont payés partiellement prck dès qu’ils sont totalement gratuit on ne les prend pas en compte.)
+
+
+
+
+
+Structure de la consommation et le revenu 
+
+
+
+Il est nécessaire de spécifier de manière plus précise le revenu qui est considéré : 
+
+Est-ce qu’on parle du revenu national brut, revenu national ou est ce qu’on parle du revenu disponible des ménages ?
+
+Le plus parlant= le revenu disponible des ménages
+
+Au niveau des ménages, on va retrouver cet équilibre emploi= ressource 
+
+
+
+Dans les ressources il y a🡺 revenu de l’activité + revenu de son patrimoine =revenu primaire 
+
++ prestations sociales= prélèvements obligatoires = transferts nets de redistribution 
+
+
+
+Revenu disponible brut = Yd 
+
+Sert à 
+
+Emploi = Consommation finale + l’épargne
+
+
+
+Il existe des nomenclatures de consommation auxquels on associe des coefficients budgétaires : 
+
+
+
+Consommation par fonction= dépenses de consommation qui se distinguent selon la nature des besoins des ménages qu’elles satisfont
+
+
+
+On a des produits complémentaires = ils sont simultanément nécessaires pour satisfaire un unique besoin (ex : une voiture, du carburant) 
+
+Soit ce sont des biens substituables= je peux satisfaire mon besoin par deux biens différents (ex : alternative à la voiture)
+
+
+
+La consommation par la durabilité= biens regroupés selon leur durée d’utilisation, les biens qui sont durables distingués des biens fongibles (article d’équipement des ménages ou de loisirs), semi durable= dépense abimantes et tout ce qui est bien fongibles/non durable= aliments, énergie.
+
+
+
+Consommation par produit= décomposition faite selon l’optique de production qui retient comme critère la nature de l’objet consommé. Cette nomenclature est utilisée pour les études macro éco lorsqu’il y a nécessité de confronter la consommation et la production. 
+
+Lien avec le revenu= il existe des coefficients budgétaires b indice i = la part exprimée en pourcentage de la consommation d’un bien ou d’un service i sur l’ensemble de la consommation bi = Ci/C x100. Ces coefs permettent des comparaisons dans le temps et dans l’espace 
+
+         
+
+      Bi= Ci/C X100
+
+
+
+
+
+
+
+
+
+
+
+
+
+La structure de consommation des ménages pour un pays se déforme/change avec le temps de même pour une période fixée, la structure meme de la consommation est différente selon les pays. Même si tout n’est pas stable, il existe un lien entre le niveau de revenus des ménages et la structure de leur dépense de consommation. 
+
+
+
+L’économiste Ernest Engle en 1957, annonce les éléments suivants : 
+
+Les dépenses alimentaires augmentent moins rapidement que le revenu, les dépenses de logement et d’habillement suivent un rythme identique à celui du revenu et les autres dépenses (culture santé, transport…) augmentent à un rythme plus élevé.
+
+
+
+La sensibilité de la modification de la consommation à la variation du revenu se mesure à travers les élasticités. 
+
+
+
+L’élasticité de la consommation par rapport au revenu s’obtient en faisant le rapport entre la variation relative de la dépense et la variation relative du revenu 
+
+e = élasticité 
+
+e indice c/yd = élasticité de la consommation par rapport au revenu
+
+Variation de la consommation/ c/ variation du revenu disponible/yd
+
+
+
+
+
+
+
+Entouré= la part de la hausse du revenu qui est consacré a de la consommation supplémentaire. En économie on appelle ça la propension marginale à consommer.
+
+
+
+L’élasticité fait appel aux dérivées f(x)= f’(x) 
+
+La c’est la dérivée de c par rapport à yd et on aura la propension marginale à consommer.
+
+
+
+Les comportements de consommation et d’épargnes 
+
+
+
+L’origine de ces études est lié à la théorie générale de l’emploi, de l’intérêt et de la monnaie de Keynes en 1936.
+
+
+
+A la suite de la crise de 29, Keynes va faire évoluer la théorie d’un point de vue macro pour combattre le chômage. Il propose une relation générale entre revenu et consommation où l’épargne est la partie non consommée du revenu. Keynes qualifie l’épargne de résidu. (=néfaste car bloc des emplois, pas utilisé= pas besoin de la produire= moins d’emplois= chômage) 
+
+
+
+ Chez les classiques l’épargne n’est pas fonction du revenu mais c’est une fonction du taux d’interet. L’épargne est vu comme une consommation différée. Ma décision entre consommer ajd ou demain= en fonction du taux d’intérêt  
+
+
+
+La fonction de consommation keynésienne 
+
+
+
+Elle est basée sur la loi psychologique fondamental 
+
+
+
+« les Hommes tendent à accroitre leur consommation à mesure que le revenu croit mais non d’une quantité aussi grande que l’accroissement du revenu » 
+
+C’est basé sur : si mon revenu augmente de 1000 unités, je ne consacre pas 1000 unités à la consommation mais une partie
+
+
+
+De ce fait, la consommation est une fonction croissante du revenu mais sa croissance est moindre que celle du revenu ce qui se traduit d’un point de vue mathématique :
+
+
+
+
+
+
+
+
+
+Pm= propension marginale
+
+
+
+Si ces modifications sont infinités décimal, cela revient à utiliser la notion de dérivées des mathématiques. 
+
+
+
+Y= f(x)= f’(x)
+
+C= f(yd) = f’(yd) 
+
+PmC= dc/dyd
+
+
+
+
+
+Cette loi ne donne aucune indication sur la forme de la fonction et 3 formes sont compatibles avec celle-ci :
+
+
+
+La 1 choses compatibles est une fonction linéaire
+
+
+
+
+
+
+
+c= constante 
+
+PmC= PMC
+
+
+
+
+
+La propension Moyenne a consommé c’est la part du revenu disponible qui est consacré à la consommation
+
+
+
+Si on utilise la fonction linéaire, on a la propension marginal a consommé qui est égale a une propension moyenne a consommé, on a une stabilité au cours du temps
+
+
+
+
+
+La 2 chose compatible = fonction affine f(x)= ax+b 
+
+
+
+
+
+Co >0= consommation incompressible 
+
+PmC= c🡪 c étant la dérivée 
+
+
+
+
+
+
+
+
+
+
+
+La 3e fonction compatible est la fonction Concave. F (Yd) f’(yd) >0 dépendante de Yd Sa particularité est qu’elle admet un maximum. Sa dérivée première est positive et sa dérivée seconde est négative. 
+
+
+
+Selon Keynes, la propension marginale a consommé n’est pas la même quel que soit le niveau de revenu, elle tend à diminuer lorsque le revenu augmente. Dans ce cas la fonction concave est la plus approprié mais d’un point de vue pratique, on retient en général, la fonction affine comme fonction de consommation keynésienne. 
+
+On constate donc que la propension marginal est constante alors que la propension moyenne dépend du revenu disponible et est décroissante du revenu disponible.
+
+
+
+La part de consommation des revenus plus riches vont avoir une part de leur consommation plus faible que des revenus plus modestes qui auront une plus grande part de leur revenu consacré à la consommation.
+
+
+
+
+
+
+
+A partir de la fonction de consommation, on va pouvoir en retirer la fonction d’épargne. Le revenu disponible sert à épargner et à consommer
+
+
+
+S= résiduentorcaire
+
+
+
+
+
+
+
+La propension Moyenne a épargné est croissante avec le revenu disponible, donc plus le revenu disponible augmente, plus on va épargner 
+
+
+
+Les vérifications empiriques : 
+
+Càd qu’on confronte la théorie à la réalité en cherchant à savoir si c’est vérifié 
+
+Des études ont été mené sur des séries temporelles (= observer une variable sur plusieurs période ex : la consommation en 1987,2007, 2021) 
+
+
+
+A priori les estimations sont conformes à la théorie puisque on obtient bien une propension marginale qui est constante et inférieur à 1. Lorsqu’on utilise la période d’entre deux g et qu’on utilise la fonction de consommation keynésienne pour prévoir la consommation d’après-guerre, on obtient la sous-estimation de la consommation.
+
+
+
+La conclusion c’est de dire que les résultats ne sont pas satisfaisants avec la théorie keynésienne. Lorsqu’on utilise des séries plus longues (+ de 10ans), l’auteur Kuznets en 1946 estime sa fonction de la consommation des EU sur la période 19, il obtient le résultat : que la marginale PmC est égale à PMC, ce qui n’est pas conforme avec la fonction affine mais il met plutôt en évidence une relation linéaire et il trouve que c= 0,86.
+
+
+
+On a des contradictions entre séries courte et série longues.
+
+
+
+Il existe aussi des vérifications/ études menés sur des couts instantanées. Cela consiste à comparer à une date fixé les niveaux de consommation des individus qui ont été initialement classé par tranches de revenus. Ces études confirme la fonction de consommation keynésienne car on retrouve que la consommation augmente que proportionnellement que la hausse du revenu.
+
+
+
+Sur les études en courbe instantanée on peut faire une critique : on veut mettre en évidence un phénomène macroéconomique en s’appuyant sur le comportement de quelque agents 🡪 on résonne à un niveau microéconomique donc la méthode ne permet pas de valider la fonction de consommation keynésienne.
+
+
+
+A la suite de ces vérifications de nouvelles théories sont apparu 
+
+
+
+Les développement postkeynésiens
+
+
+
+- rôle des habitudes de consommation et l’introduction de retard
+
+
+
+L’effet de cliquet introduit par Duesenberry (1948)
+
+
+
+Son objectif à D est d’introduire une dynamique dans la fonction de consommation keynésienne statique. Il fait l’hypothèse d’une irréversibilité dans le temps des comportements de consommation = effet cliquet (ma consommation d’hier a un impact sur celle d’ajd)
+
+Pour lui, la consommation dépend du revenu courant mais aussi du revenu plus élevé atteint dans le passé 
+
+Ce revenu plus élevé permet d’introduire les habitudes de consommation ce qui permet d’expliquer pourquoi pendant les phases de récession, la consommation baisse moins vite que les variations du revenu.
+
+On introduit une force de rappel vers un niveau de consommation qui a été atteint et l’avantage de cette introduction est que ça permet de retrouver un résultat qui se voit dans les observations empiriques qui est que la PmC à court terme est inférieur à la PMC.  Et à long terme, il y a égalité entre les deux. Donc ça veut dire si le revenu diminue, la consommation diminue mais pas autant que ce qu’elle augmente lorsque le revenu augmente. 
+
+On a des agents économiques qui suivent leur habitudes de consommation en se référant au plus haut niveau de consommation qu’ils ont eu par le passé. 
+
+
+
+Une critique qui est apporté à cette vision : l’effet qui est mis en évidence entraine une modification trop radical du comportement de consommation. Il faut continuer à tenir compte du rôle des habitudes de consommation mais de manière moins brutale.
+
+
+
+Ceci a été introduit par l’effet d’inertie de la consommation : Brown (1952) 
+
+Pour faire intervenir le passé dans sa fonction de consommation, il va attribuer un rôle au niveau de consommation de la période précédente.
+
+Le fait d’introduire le niv de consommation à la période précédente et non le niv de consommation atteint avec son revenu le plus élevé permet de retrouver un résultat empirique qui est que : la PmC de court terme est inférieur de celle de long terme.
+
+
+
+L’effet de démonstration
+
+
+
+Relatif a ce qu’on appelle théorie du revenu relatif 🡪lié à Duesenberry en 1949.
+
+Duesenberry va supposer que la consommation d’un individu dépend de son revenu mais dépend également de la consommation des autres individus : je veux avoir un effet de démonstration/d’imitation. Cad qu’il existe de l’interdépendance des comportements de consommation (un indiv prend ses décisions en tenant compte des autres)
+
+
+
+La consommation ne s’explique pas par le revenu absolue du ménage mais par le rapport ou la différence qui existe entre son revenu et le revenu national moyen. Ce rapport= revenu relatif
+
+Si un ménage a un revenu plus faible que le reste de la population, il aura dans ce cas une propension moyenne à consommer qui va être plus élevé pour se rapprocher du standard de la consommation de la population.
+
+
+
+Cette hypothèses du revenu relatif permet de donner une explication aux observations empiriques qui est que les hauts revenus ont de manière générale un taux d’épargne plus important que les bas revenus 
+
+
+
+
+
+
+
+
+
+Les approches intertemporelles 
+
+
+
+Première approche : théorie du cycle de vie : lié à Brumberg et Modigliani en 1954 
+
+Seconde approche : approche du revenu permanent : Friedman (1957) 
+
+
+
+La principale différenciation concerne l’horizon temporelle. On a un horizon temporelle qui est fini pour le cycle de vie et un horizon infini pour l’approche de Friedmann :
+
+
+
+On est dans une lignée néo-classique avec prises en comptes de choix intertemporelles.
+
+
+
+Hypothèses concernant les comportements et durée de vie :
+
+°On suppose qu’il y a aucune incertitude 
+
+°On ne tient pas compte des éventuelles pbm d’héritages = non prises en compte de l’héritage 
+
+
+
+Ces 2 hypothèses se traduisent par : 
+
+Absence d’incertitude fait que l‘individu connait sa durée de vie et son objectif est d’avoir consommer intégralement l’entierté de ses revenus à la date de sa fin de vie puisqu’il la connait. Cela entraine que la PmC = PMC qui est égale à la moyenne qui est = 1 
+
+Moyenne = 1🡪 avoir consommé l’intégralité des revenus `
+
+
+
+On fait l’hypothèses que les individus veulent avoir un niv de consommation constante ou croissante. Pour faire ceci, l’épargne va permettre de lisser sa consommation tout au long de sa vie. 
+
+Donc qd je n’ai pas de revenu, je vais avoir recours à l’emprunt. Qd je travaille, je rembourse et à la retraite j’utilise le reste 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le comportement d’endettement et d’épargne depend de l’âge, autrement dit on réalise de l’épargne durant la période d’activité pour être transmise à la consommation durant les périodes de jeunesse et de retraite.
+
+Le fait d’accumuler du patrimoine permet de répondre aux besoins d’épargnes pour la retraite. Ce patrimoine passe par un maximum au moment du départ à la retraite et s’annule à la date du décès. On dit que le patrimoine suit une courbe en bosse qui est caractéristique de l’hypothèse du cycle de vie.
+
+
+
+L’épargne permet de lisser la consommation tout au long de la vie
+
+Le revenu global de l’individu que on pourrait appeler sa richesse totale est composé du revenu qu’il obtient de son travail mais également du patrimoine accumulé. 
+
+Cette théorie permet de comprendre que des ménages ayant un même niveau de revenu du travail peuvent avoir des niveaux de consommation différents car le patrimoine accumulé est différent. 
+
+
+
+Si on confronte cette théorie à la réalité/ empiriquement on observe que la baisse du patrimoine après le départ à la retraite est beaucoup moins marquée que ne le prédit la théorie.  En effet, le patrimoine est loin d’être intégralement consommé à la date du décès. Dans la version de base cette théorie suppose l’absence d’incertitude et dans la réalité la date du décès est inconnue ce qui fait que l’individu consomme plus lentement son patrimoine. Dans cette version de base il existe aussi l’absence d’héritage= on accumule du patrimoine pour soi-même or dans la réalité on accumule du patrimoine également pour ses descendants.
+
+
+
+2ème : théorie du revenu permanent 
+
+Friedman veut donner des fondements microéconomiques à la fonction de consommation, pour se faire, il étudie la fonction de consommation à partir des choix intertemporelles des consommateurs.
+
+Choix intertemporelles= décision de consommation sur 1 période, l’individu va s’intéresser à l’intégralité des revenus de sa vie= raisonnement sur diff période`
+
+Il va montrer que la consommation ne dépend pas que du revenu courant mais pour lui elle va dépendre du revenu permanent 
+
+
+
+Le problème ça va être de repartir de façon optimale sa consommation au cours du temps sous une contrainte budgétaire intertemporelle
+
+Pour faire ceci, l’individu connait tous ses revenus passés, présents et futurs. Il veut retirer le maximum d’utilité de la consommation (= avoir atteint le max de mes préférences) à chacune des périodes sous la contrainte suivante :
+
+
+
+La somme actualisé des consommations doit être égal à la richesse définit comme la somme actualisé des revenus présent et futures = je ne peux pas dépenser + que l’ensemble des revenus que je vais avoir. 
+
+
+
+Somme actualisé= qd on a 100 euros ajd, ces 100 euros je les places sur livret d’épargne taux d’intérêt 5% je les récupère demain à 105 euros. Ce qui intéresse l’individu c’est ce que vaut ajd ses sous 
+
+100 + 100x 5%= 105= capitalise = 100x (1+ 0,005)
+
+Opération inverse= actualisation = 100x 1/ 1+ 0,005
+
+
+
+La consommation de chaque période ne dépend plus uniquement du revenu de la période mais de l’ensemble des revenus anticipés pour les périodes futures. 
+
+
+
+
+
+
+
+1+r = actualisation
+
+Ci= toutes les consommations de périodes 
+
+La hausse du revenu modifiera la consommation uniquement si elle entraine une modification de la richesse W `
+
+
+
+
+
+Friedman n’exprime pas la consommation en fonction de la richesse mais il exprime en fonction du revenu permanent qui se définit comme la somme qu’un consommateur peut consommer en maintenant constante la valeur de son capital. Ce qui veut dire que si on est dans un horizon temporel qui est fini dans ce cas le revenu permanent est = à la richesse. Si cet horizon est infini, le revenu permanent est une partie de la richesse 
+
+
+
+Fini : Yp= W
+
+Infini : Yp= rW où r est le taux d’intérêt 
+
+
+
+Dans la théorie du revenu permanent il est nécessaire de faire des anticipations puisqu’on ne connait pas ses revenus futures. Jusqu’à la fin des années 70, on suppose que les anticipations des agents sont adaptatives (cad que à chaque périodes l’agent révise sa prévision en fonction de l’erreur qu’il a commis à la période précédente) 
+
+Faire des anticipations rationnelle= tenir compte de toute l’info à disposition 
+
+
+
+Pour évaluer son revenu permanent les agents économiques vont le faire par l’intermédiaire des revenus passés observer. En posant la chose suivante : + le passé est loin – je lui accorde de l’intérêt.
+
+Le fait de faire ceci permet de faire apparaitre un effet d’inertie comme cela existé dans la fonction de consommation de Brown qui disait que la fonction de consommation de ajd dépend de celle de hier. On retrouve le fait que la consommation d’hier à un impact sur la consommation de aujourd’hui. 
+
+
+
+Friedman estime sa fonction de consommation aux USA, il confronte sa théorie aux observations, sur la période 1897-1949, ses résultats confirme la fonction de consommation. En effet il obtient par sa théorie une PMC de 0,87 et empiriquement on observe qu’elle est égale à 0,86. Il trouve également le fait que la PmC est inférieur à la PMC à court terme. Donc de manière général la théorie du revenu permanent est vérifiée empiriquement.
+
+
+
+
+
+Les déterminants de l’épargne
+
+
+
+Les déterminants de court terme :
+
+Le pouvoir d’achat 
+
+Le ralentissement du pouvoir d’achat à un effet négatif sur l’épargne, ceci s’explique par l’effet d’inertie de la consommation càd que lorsque les revenus des ménages diminuent, on va puiser dans l’épargne pour ne pas modifier sa consommation. En cas de variation du revenu, l’ajustement se fait par l’épargne 
+
+
+
+Le taux de chômages : va jouer positivement sur l’épargne. Si l’avenir est incertain on va se constituer une épargne de précaution.
+
+
+
+L’inflation : peut avoir un effet ambigüe sur l’épargne. Deux cas possible :
+
+
+
+° une hausse des prix peut entrainer à court terme une baisse du taux d’épargne. On parle dans ce cas de fuite devant la monnaie. (Consommer tout de suite pour plus de chose). Les ménages augmentent leur consommations pour se débarrasser des liquidités dont le pouvoir d’achat diminue fortement 
+
+
+
+° Une hausse des prix peut entrainer à long terme une hausse de l’épargne= effet d’encaisses réelles cad que les ménages veulent maintenir la valeur réelle de leur actif en augmentant leur épargne 
+
+
+
+Le taux d’intérêt : 1er cas : le cas d’un taux d’intérêt débiteur concernant les ménages qui ont fait des emprunts. Dans ce cas la hausse du taux d’intérêt conduit à une baisse de l’épargne. 
+
+2ème cas : taux d’intérêt créditeur concerne les ménages qui ont fait des placement, la hausse du taux d’intérêt implique une hausse de l’épargne. 
+
+
+
+Les déterminants de long termes :
+
+
+
+Le vieillissement de la population : selon l’hypothèse du cycle de vie le vieillissement de la population va avoir un effet négatif sur l’épargne puisque le nombre de désépargnant augmente par rapport au nombre d’épargnant cad des actifs.
+
+
+
+Le système de retraite : 2 effet contradictoires sur l’épargne :
+
+° effet négatif= j’épargne de – en – car le système permet de s’assurer un certain montant lors du départ à la retraite
+
+
+
+° effet positif= avec le vieillissement de la population, on a un système de retraite par répartition qui est menacé. Pour se prévenir contre l’incertitude lié aux financements des retraites, les agents économiques augmentent leur épargne= épargne de précaution.
+
+QCM || Dans la fonction de consommation keynésienne C = C0 + cY || V:C0 est la consommation autonome|V:c est la propension marginale à consommer (0 < c < 1)|c représente le revenu|C0 dépend du revenu
+QCM || Selon Keynes, l'épargne est || V:Un résidu de la consommation|Une décision autonome|Indépendante du revenu|Toujours positive
+QCM || La "loi psychologique fondamentale" de Keynes montre que || V:La part épargnée augmente quand le revenu augmente|La consommation augmente plus vite que le revenu|L'épargne diminue avec le revenu|La consommation est constante
+QCM || Si PMC + PME = 1, alors || V:Tout le revenu est soit consommé soit épargné|Il y a une erreur de calcul|L'épargne est négative|La consommation dépasse le revenu
+QCM || La théorie du revenu relatif (Duesenberry) stipule que || V:La PMC dépend de la position dans l'échelle des revenus|Tous les ménages ont la même PMC|Le revenu absolu seul compte|V:Les ménages pauvres ont une PMC plus élevée
+QCM || Dans la théorie du cycle de vie (Modigliani) || V:L'objectif est de lisser la consommation sur la durée de vie|On épargne seulement en début de vie|V:Le patrimoine suit une courbe en bosse|L'héritage est l'objectif principal
+QCM || Les hypothèses de la théorie du cycle de vie incluent || V:Absence d'incertitude sur la durée de vie|V:Patrimoine nul à la date du décès|V:Consommation lissée|Épargne constante toute la vie
+QCM || La consommation selon le cycle de vie dépend de || V:C = αY^L + βA (revenu d'activité et patrimoine)|Du revenu courant uniquement|Du revenu futur uniquement|Des prix uniquement
+QCM || Dans la théorie de Friedman, le revenu se décompose en || V:Y = Yp + Yt (permanent + transitoire)|Revenu présent et futur|Revenu nominal et réel|Revenu brut et net
+QCM || Le revenu permanent Yp se définit comme || V:La somme qu'un consommateur peut consommer en maintenant constant son capital|Le revenu de la période courante|Le revenu moyen sur 10 ans|Le revenu maximal possible
+QCM || La consommation permanente selon Friedman || V:Cp = γYp avec 0 < γ ≤ 1|Dépend du revenu transitoire|Est indépendante du revenu|Varie aléatoirement
+QCM || L'effet d'inertie dans le modèle de Friedman provient || V:De la pondération des revenus passés dans le calcul de Yp|De la constance de la consommation|De l'absence d'anticipations|Du caractère permanent du revenu
+QCM || Les déterminants de court terme de l'épargne incluent || V:Le pouvoir d'achat (effet négatif si ralentissement)|V:Le taux de chômage (effet positif - épargne de précaution)|V:L'inflation (effet ambigu)|Le patrimoine uniquement
+QCM || Parmi les déterminants de long terme de l'épargne || V:Le vieillissement de la population (effet négatif)|V:Le système de retraite (effet ambigu)|L'âge n'a pas d'impact|V:L'incertitude sur les retraites (effet positif)
+QCM || L'effet du système de retraite par répartition sur l'épargne || V:Peut être négatif (assurance de percevoir une retraite)|V:Peut être positif (incertitude sur la pérennité)|Est toujours positif|N'a aucun effet
+QCM || Avec PMC = 0,8, le multiplicateur k vaut || 4|V:5|8|10

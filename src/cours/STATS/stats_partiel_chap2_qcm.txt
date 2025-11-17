@@ -1,0 +1,17 @@
+chapter: Partiels STATS > Chapitre 2 — Graphiques et visualisation
+
+QCM || Un histogramme avec classes de largeurs différentes doit || V:utiliser des hauteurs en densité (aire proportionnelle aux effectifs)|garder des hauteurs proportionnelles aux effectifs|forcément des classes égales|être remplacé par un camembert || Densités pour classes inégales || Chapitre 2, Histogramme, QCM
+QCM || Un graphique efficace doit || V:être clair, lisible, adapté, sans surcharge|multiplier les couleurs et polices|masquer les axes|omettre la source || Bonnes pratiques || Chapitre 2, Règles, QCM
+QCM || Une note de lecture || V:explique comment lire une info du graphique|remplace les unités|supprime la légende|est inutile si le titre est long || Contenu d'un graphique || Chapitre 2, Note de lecture, QCM
+QCM || Choix du graphique correct || V:barres pour qualitative nominale|V:histogramme pour quantitative continue|V:série chronologique pour évolution|camembert pour relations bivariées || Mapping variable → graphique || Chapitre 2, Choix, QCM
+QCM || Effet d'un axe Y tronqué (démarrage à 50) sur 52 vs 54 || V:amplifie visuellement l'écart|réduit l'écart|n'a aucun effet|améliore la précision sans biais || Biais visuel || Chapitre 2, Axe tronqué, QCM
+QCM || Sur 40 observations: A:16, B:8, C:16. Parts en % || V:40%, 20%, 40%|50%, 20%, 30%|45%, 15%, 40%|33%, 33%, 33% || Calcul p = n_i/n || Chapitre 2, Pourcentages, QCM
+QCM || Densités pour classes [0;5[, [5;15[, [15;20[ avec effectifs 4, 10, 6 || V:0,8; 1; 1,2|4; 10; 6|1; 2; 1,2|0,5; 1; 1,5 || densité = effectif/largeur → 4/5; 10/10; 6/5 || Chapitre 2, Densité, QCM
+QCM || Graphiques multiples: bonnes pratiques || V:axes comparables|V:légende claire|V:couleurs contrastées|supprimer la source || Communication || Chapitre 2, Multiples, QCM
+QCM || Un camembert est pertinent pour || V:parts d'un total à 100%|relations entre deux quanti|données bivariées continues|nuages de points || Usage typique || Chapitre 2, Secteurs, QCM
+QCM || Un nuage de points sert à || V:inspecter la relation entre deux variables quantitatives|comparer des catégories|montrer une distribution univariée|afficher des parts || Usage || Chapitre 2, Scatter, QCM
+QCM || Éviter la surcharge implique || V:filtrer l'information pertinente|multiplier les annotations|ajouter toutes les séries|doubler les légendes || Lisibilité || Chapitre 2, Design, QCM
+QCM || Les axes doivent || V:indiquer les unités|V:avoir graduations lisibles|V:être cohérents entre panneaux|être supprimés si la note de lecture existe || Bonnes pratiques || Chapitre 2, Axes, QCM
+QCM || En comparaison de distributions de tailles différentes, on || V:normalise (densité)|multiplie par n|tronque l'axe bas|utilise des camemberts || Comparabilité || Chapitre 2, Normalisation, QCM
+QCM || Une légende est utile pour || V:décoder séries/couleurs/symboles|remplacer la source|écrire les formules|supprimer les unités || Lisibilité || Chapitre 2, Légende, QCM
+QCM || Une “heatmap” convient à || V:fréquences bivariées sur grille|parts d'un total|évolution univariée|comparaison de catégories nominales simples || Graphique avancé || Chapitre 2, Heatmap, QCM

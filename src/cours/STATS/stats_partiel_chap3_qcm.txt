@@ -1,0 +1,20 @@
+chapter: Partiels STATS > Chapitre 3 — Tendance centrale
+
+QCM || Mesure robuste au(x) valeurs extrêmes || V:la médiane|la moyenne arithmétique|la moyenne géométrique|la moyenne harmonique || Robustesse || Chapitre 3, Médiane, QCM
+QCM || Quand utiliser la moyenne géométrique ? || V:taux de croissance multipliés|sommes de montants|durées additionnées|nombres négatifs || Produits et ratios, nécessite valeurs > 0 || Chapitre 3, Moyenne géo, QCM
+QCM || Quand utiliser la moyenne harmonique ? || V:moyennes de vitesses (km/h)|moyennes de prix|moyennes de salaires|moyennes d'âges || Moyenne de ratios avec même distance/quantité au dénominateur || Chapitre 3, Moyenne harmo, QCM
+QCM || La moyenne pondérée convient quand || V:les observations ont des poids effectifs|toutes les observations comptent pareil|données sont ordinales sans fréquences|variables qualitatives nominales || Pondération par effectifs/poids || Chapitre 3, Pondération, QCM
+QCM || Relation médiane et quartiles || V:Q2 = médiane|Q1 > Q2|Q2 = (Q1+Q3)/2|Q3 = médiane || Définitions || Chapitre 3, Quartiles, QCM
+QCM || Sur données asymétriques à droite, l'ordre typique est || V:mode < médiane < moyenne|moyenne < médiane < mode|médiane < moyenne < mode|mode = moyenne < médiane || Asymétrie positive tire la moyenne vers la droite || Chapitre 3, Asymétrie, QCM
+QCM || Mesure la plus appropriée pour salaires très dispersés || V:médiane|moyenne|moyenne géométrique|mode || Robustesse à outliers || Chapitre 3, Choix mesure, QCM
+QCM || Moyenne tronquée (10%) vise à || V:limiter l'effet des extrêmes|remplacer la médiane|augmenter la variance|supprimer les quartiles || Robuste par trimming || Chapitre 3, Moyenne tronquée, QCM
+QCM || Données: 2, 2, 3, 5, 8. Moyenne et médiane || V:3, 3|3, 3,5|4, 3|4, 4 || Calcul direct (somme/n, point central) || Chapitre 3, Calcul, QCM
+QCM || Données groupées: classes [0;10[, [10;20[, eff.: 6, 4. Centre des classes et moyenne approx. || V:5 et 15; moyenne ≈ 9|5 et 15; moyenne ≈ 10|5 et 15; moyenne ≈ 11|10 et 20; moyenne ≈ 13 || Moyenne ≈ (6*5 + 4*15)/10 = 9 || Chapitre 3, Groupées, QCM
+QCM || Mode défini pour || V:qualitatives et quantitatives|seulement qualitatives|seulement quantitatives|uniquement continues || Valeur la plus fréquente || Chapitre 3, Mode, QCM
+QCM || Si on ajoute une constante c à toutes les valeurs, la médiane || V:augmente de c|reste inchangée|est multipliée par c|devient 0 si c=−médiane || Invariance affine || Chapitre 3, Transformation, QCM
+QCM || Sur une série chronologique saisonnière, pour “tendance centrale” saison par saison on prend || V:médiane ou moyenne par saison|moyenne globale|mode global|moyenne harmonique || Tendance par sous-groupes || Chapitre 3, Saison, QCM
+QCM || La moyenne arithmétique est inappropriée pour || V:taux de croissance successifs|notes sur échelle ordinale|sommes d'effectifs|températures en °C || Croissances → géométrique; ordinale → médiane || Chapitre 3, Pièges, QCM
+QCM || Série: vitesses 60, 90 km/h pour même distance. Vitesse moyenne || V:72 km/h|75 km/h|78 km/h|80 km/h || Harmoniques: 2/(1/60+1/90)=72 || Chapitre 3, Harmo calcul, QCM
+QCM || Série: indices annuels × (1+r). r = 10%, −5%, 20%. Croissance moyenne annuelle g || V:≈7,8%|≈8,0%|≈6,7%|≈9,0% || Géométrique: ((1,1×0,95×1,2)^(1/3)−1)≈0,078 || Chapitre 3, Géo calcul, QCM
+QCM || Pour données fortement multimodales, la meilleure synthèse centrale est souvent || V:la médiane|la moyenne|le mode unique|la moyenne géométrique || Robustesse et représentativité || Chapitre 3, Multimodal, QCM
+QCM || Si on multiplie toutes les valeurs par k>0, la moyenne géométrique est || V:multipliée par k|inchangée|multipliée par k^2|augmentée de k || Homogénéité multiplicative || Chapitre 3, Transformation, QCM

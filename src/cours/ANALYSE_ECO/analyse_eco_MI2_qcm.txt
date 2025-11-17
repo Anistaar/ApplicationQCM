@@ -1,0 +1,26 @@
+chapter: Analyse Éco > MI2 — Postulats et comportement économique
+
+QCM || Principe 1 (arbitrages) signifie || V:les décisions confrontent options sous contrainte|toute décision est gratuite|pas de limites de ressources|choix aléatoire || Arbitrages partout || MI2, Principes, QCM
+QCM || Exemple d’arbitrage ménage || V:loyer vs loisirs|gravité vs masse|inflation vs chômage mondial|long terme cosmique || Choix consommation || MI2, Ménage, QCM
+QCM || Arbitrage entreprise typique || V:combinaison capital/travail|choix couleur mur|variabilité météo|rumeur virale || Facteurs de production || MI2, Entreprise, QCM
+QCM || Arbitrage État reflète tension || V:efficacité vs équité|rare vs abondant éternel|prix vs coût d’opportunité privé|stock vs flux physique || Budget public || MI2, État, QCM
+QCM || Coût d’opportunité inclut || V:gain subjectif abandonné|prix payé en caisse|TVA uniquement|dépréciation comptable || Définition coût opp. || MI2, Coûts, QCM
+QCM || Attendre longtemps en file illustre || V:coût d’opportunité temps|absence de contrainte|gratuité absolue|optimisation parfaite || Coût d’attente || MI2, Coûts, QCM
+QCM || Rationalité (orthodoxe) suppose || V:agents maximisent objectif sous contrainte|agents ignorent contraintes|objectifs aléatoires|absence de préférences || Définition rationalité || MI2, Rationalité, QCM
+QCM || Raisonnement marginal teste || V:effets d’une variation petite|changement total|suppression de contraintes|valeurs extrêmes uniquement || Marginalité || MI2, Marginal, QCM
+QCM || Utilité marginale décroissante: boire eau désert puis lac montre || V:valeur additionnelle baisse quand quantité disponible augmente|valeur augmente toujours|pas d’effet|utilité initiale nulle || Décroissance marginale || MI2, Utilité, QCM
+QCM || Profit marginal d’une option supplémentaire est || V:Δ profit total|profit total|coût fixe cumulé|coût variable seul || Décision production || MI2, Profit, QCM
+QCM || Incitation extrinsèque exemple || V:prime de performance|goût personnel|conviction morale|vision altruiste || Incitations externes || MI2, Incitations, QCM
+QCM || Motivation intrinsèque exemple || V:altruisme|bonus financier|taxe écologique|cadeau promotionnel || Motivation interne || MI2, Incitations, QCM
+QCM || Effet d’une prime mal calibrée peut || V:déformer comportement|garantir efficacité parfaite|supprimer arbitrages|augmenter coût d’opportunité nul || Risque incitation || MI2, Incitations, QCM
+QCM || Échanges augmentent bien-être car permettent || V:spécialisation et gains mutuels|uniformisation totale|suppression des préférences|absence de coûts || Avantages échanges || MI2, Échange, QCM
+QCM || Deux modalités d’échange étudiées || V:marchand et réciprocité|marchand et isolement|réciprocité et absence de liens|monopole et isolement || Types interaction || MI2, Échange, QCM
+QCM || Marché définit comme || V:lieu (réel/virtuel) confrontation offre et demande|simple liste de prix arbitraire|organisme public unique|dispositif sans prix || Définition marché || MI2, Marché, QCM
+QCM || Prix d’équilibre résulte de || V:égalité offre = demande|max coût d’opportunité|min coût de production absolu|intervention autoritaire systématique || Équilibre || MI2, Marché, QCM
+QCM || Concurrence pure et parfaite exige (choisir vraies) || V:atomicité|V:homogénéité produit|V:transparence|monopole public stable || Hypothèses CPP || MI2, CPP, QCM
+QCM || Libre entrée sortie implique || V:pas de barrières artificielles|coût fixe infini|monopole légal|absence totale de mobilité facteurs || Mobilité marché || MI2, CPP, QCM
+QCM || Rôle État pour marchés inclut || V:droit de propriété, correction externalités, redistribution|fixer prix arbitraires toujours|supprimer offre|imposer monopole privé universel || Fonctions État || MI2, État, QCM
+QCM || Externalité négative exemple || V:pollution|innovation|formation interne|diffusion connaissance || Externalités || MI2, Externalités, QCM
+QCM || Correction externalité possible via || V:taxe pigouvienne|ignorance volontaire|suppression de marché|confiscation aléatoire || Instruments || MI2, Politique, QCM
+QCM || Politique redistributive vise || V:équité|inefficacité délibérée|suppression arbitrages|maximisation seule des profits || Redistribution || MI2, État, QCM
+QCM || Limite modèle orthodoxe: diversité des comportements entraîne || V:écarts à rationalité stricte|rationalité parfaite universelle|absence de biais|unicité des préférences || Hétérogénéité || MI2, Limites, QCM

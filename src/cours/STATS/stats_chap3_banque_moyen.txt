@@ -1,0 +1,16 @@
+chapter: Chapitre 3 > Mesures de tendance centrale
+
+# Moyens (Diff: Moyen)
+VF || La moyenne géométrique convient pour des taux de croissance successifs || V || Produit des facteurs de croissance, puissance 1/n || Diff: Moyen, Chapitre 3, Moyenne géométrique
+VF || La moyenne harmonique est adaptée aux vitesses moyennes sur une même distance || V || Cas classique des allers-retours à distance identique || Diff: Moyen, Chapitre 3, Moyenne harmonique
+
+QR || Série: 2, 4, 6, 8. La moyenne arithmétique vaut || V:5|4|6 || (2+4+6+8)/4 = 5 || Diff: Moyen, Chapitre 3, Calcul
+QR || Série ordonnée: 1, 2, 3, 10. La médiane vaut || V:2,5|3|2 || Deux valeurs centrales 2 et 3 → médiane = (2+3)/2 || Diff: Moyen, Chapitre 3, Médiane
+QR || Une croissance de +10% puis -10% sur 100 donne || V:99|100|90 || 100×1,1×0,9 = 99 → moyenne géométrique pertinente || Diff: Moyen, Chapitre 3, Croissance
+
+QCM || Pour des données strictement positives et multiplicatives, on privilégie || V:La moyenne géométrique|La moyenne arithmétique systématiquement|La médiane|La moyenne harmonique pour tout || Géométrique adaptée aux ratios/taux || Diff: Moyen, Chapitre 3, Choix d'indicateur
+QCM || Vrai au sujet de la médiane || V:Robuste aux valeurs extrêmes|V:Se base sur l'ordre des données|Nécessite la même unité que la variance|Toujours égale au mode || Propriétés usuelles || Diff: Moyen, Chapitre 3, Médiane
+QCM || Pour une vitesse moyenne sur d trajets de même distance, on utilise || V:La moyenne harmonique|La moyenne arithmétique|La médiane|La géométrique || Règle classique des vitesses || Diff: Moyen, Chapitre 3, Harmonique
+
+DragMatch || Associe mesure et formule || Moyenne arithmétique: (Σx_i)/n, Moyenne géométrique: (∏x_i)^(1/n), Moyenne harmonique: n/(Σ(1/x_i)), Médiane:Position 50% || Rappels de formules || Diff: Moyen, Chapitre 3, Formules
+DragMatch || Associe contexte et mesure || Données avec outliers:Médiane, Croissances successives:Géométrique, Vitesses même distance:Harmonique, Centre global:Arithmétique || Lignes directrices || Diff: Moyen, Chapitre 3, Choix

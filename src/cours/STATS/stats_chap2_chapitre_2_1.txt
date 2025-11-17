@@ -1,0 +1,524 @@
+chapter: Statistiques > Chapitre 2 (1)
+
+
+
+Statistiques Descriptives
+L1 Économie
+Seynabou Gueye, Mehdi Guelmamen, Emilien Macault
+Faculté de Droit, Économie et Administration
+Université de Lorraine
+Chapitre 2 : Présentation graphique des données statistiques
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20241 / 40
+
+Sommaire
+1
+Conseils généraux
+Objectifs d’un graphique
+Les éléments d’un graphique
+Erreurs à ne pas faire
+2
+Variables qualitatives
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20242 / 40
+
+Sommaire
+1
+Conseils généraux
+Objectifs d’un graphique
+Les éléments d’un graphique
+Erreurs à ne pas faire
+2
+Variables qualitatives
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20243 / 40
+
+Pourquoi faire des graphiques?
+Une représentation graphique d’une variable statistique sert à présenter
+de façon synthétique les informations contenues dans cette variable.
+Un graphique sert donc à présenter visuellement des données, ce qui est
+plus lisible qu’un tableau:
+Plus rapide à lire et plus parlant qu’un tableau;
+Permet de comparer facilement des effectifs;
+Permet de mettre en valeur des particularités;
+Permet de faire figurer plusieurs types d’information
+simultanément.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20244 / 40
+
+Communiquer des informations
+Les résultats d’une étude statistique doivent êtrecommuniquéset la
+visualisation est un des outils à la disposition des économistes pour ce
+faire.
+Pour faire des visuels efficaces il faut donc suivre un certain nombre de
+règles - souvent de bon sens - pour s’assurer que le lecteur puisse bien
+comprendre l’information qui lui est présentée.
+On a vu au chapitre précédent des exemples de graphiques trompeurs
+→comment faire pour éviter ces erreurs?
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20245 / 40
+
+Règles générales
+Pour être efficace, un graphique doit:
+Être clair et explicite: le lecteur sait immédiatement de quoi il
+s’agit;
+Être agréable à lire: il faut faire preuve d’un minimum
+d’esthétique;
+Être adapté au type de variable présentée: selon les données
+qu’on présente, on adapte le type de graphique;
+Ne pas comporter trop d’information: il vaut mieux être
+minimaliste que de mettre trop d’informations, sélectionner ce qui
+est pertinent fait partie du travail de statisticien!
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20246 / 40
+
+Sommaire
+1
+Conseils généraux
+Objectifs d’un graphique
+Les éléments d’un graphique
+Erreurs à ne pas faire
+2
+Variables qualitatives
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20247 / 40
+
+Contenu d’un graphique
+Dans un graphique, il faut toujours:
+Un titreénonciatif: qu’est-ce qui est présenté?
+Des chiffres lisibles: attention aux arrondis;
+Des axesclairement explicités, notamment les unités;
+Une note de lecture: donner un exemple de comment lire
+l’information;
+La sourcedes données;
+Une légendesi besoin: code couleurs, acronymes, etc;
+Un commentaire: un graphique s’accompagne TOUJOURS d’un
+commentaire qui met en valeur les informations les plus
+importantes.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20248 / 40
+
+Sommaire
+1
+Conseils généraux
+Objectifs d’un graphique
+Les éléments d’un graphique
+Erreurs à ne pas faire
+2
+Variables qualitatives
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20249 / 40
+
+Éviter une mauvaise interprétation
+Il faut à tout prixéviter de laisser une incertitudesur la lecture ou
+l’interprétation de ce qu’on présente.
+Il faut partir du principe que s’il y a quoi que ce soit d’ambigu, le
+lecteur interprétera mal l’information.
+Par conséquent il fauttoujours se mettre à sa place:
+Va-t-il bien comprendre ce qui est présenté?
+Va-t-il voir pourquoi ces informations sont importantes?
+Va-t-il fuir devant un graphique horrible?
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202410 / 40
+
+Exemple : évolution du nombre de personnes privées
+d’emploi
+Régulièrement, l’évolution du nombre de personnes à la recherche d’un
+emploi est commentée. L’interprétation que l’on peut faire du nombre
+donné peut dépendre de la façon dont le graphique est présenté.
+L’échelle a donc une importanceprimordiale.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202411 / 40
+
+Sommaire
+1
+Conseils généraux
+2
+Variables qualitatives
+Diagrammes à bandes
+Diagrammes circulaires
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202412 / 40
+
+Représenter des variables qualitatives
+Les données d’une variable qualitative ne sont pas mesurables→ce
+qu’on peut représenter, ce sont les effectifs et les fréquences.
+On peut représenter les modalités d’une variable qualitative de deux
+façon:
+En bandess’il y a beaucoup de modalités
+En diagramme circulaires’il y en a peu.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 40
+
+Sommaire
+1
+Conseils généraux
+2
+Variables qualitatives
+Diagrammes à bandes
+Diagrammes circulaires
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202414 / 40
+
+Diagrammes à bandes
+On construit un diagrammes à bandes de la façon suivante:
+Abscisses: modalités
+Ordonnées: effectifs ou fréquences
+Les bandes doivent être demême largeuret les espaces entre les
+bandes doivent êtreégaux.
+Remarque
+Pour les variables qualitatives ordinales, il faut faire attention à
+l’ordre choisi dans les modalités.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202415 / 40
+
+Diagramme à bandes : exemple
+CSP (x
+i
+)Effectifn
+i
+Fréquence (f
+i
+)
+Cadres4010
+Agent de maitrise8020
+Employés10025
+Ouvriers spécialisés16040
+Autres205
+TotalN=400F=100%
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202416 / 40
+
+Diagramme à bandes : exemple
+Figure: Répartition des employés par CSP
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202417 / 40
+
+Sommaire
+1
+Conseils généraux
+2
+Variables qualitatives
+Diagrammes à bandes
+Diagrammes circulaires
+3
+Variables quantitatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202418 / 40
+
+Diagrammes circulaires
+Le diagramme circulaire (pie-chartou camembert) permet de
+représenter chaque modalité par unsecteur du disque.
+Les mesures d’angles sont proportionnelles aux effectifs ou
+fréquences associés à chaque modalité et sont calculées comme de
+sorte que l’effectif totalNou 100% de l’effectif correspond à 360
+degrés.
+Soitα
+i
+(en degrés) l’angle correspondant à la modalitéx
+i
+:
+α
+i
+=
+n
+i
+N
+×360
+◦
+=f
+i
+∗360
+◦
+Les modalités sont généralement présentées par fréquence
+décroissante.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202419 / 40
+
+Diagrammes circulaires
+Le tableau suivant donne les caractéristiques socioprofessionnelles
+des salariés d’une entreprise. On peut tracer le diagramme
+circulaire.
+CSP (x
+i
+)Effectifn
+i
+Fréquence (f
+i
+)
+Cadres4010
+Agent de maitrise8020
+Employés10025
+Ouvriers spécialisés16040
+Autres205
+TotalN=400F=100%
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202420 / 40
+
+Diagrammes circulaires
+Figure: Répartition des employés par CSP
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202421 / 40
+
+Sommaire
+1
+Conseils généraux
+2
+Variables qualitatives
+3
+Variables quantitatives
+Variables quantitatives discrètes
+Variable quantitative continue
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202422 / 40
+
+Sommaire
+1
+Conseils généraux
+2
+Variables qualitatives
+3
+Variables quantitatives
+Variables quantitatives discrètes
+Diagrammes en bâtons
+Les courbes cumulatives
+Variable quantitative continue
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202423 / 40
+
+Variables quantitatives discrètes
+Une variable quantitative discrète prenant un nombre limité de valeurs,
+on peut la représenter par undiagramme en bâtons, similaire aux
+diagrammes à bandes.
+Si la variable prend un trop grand nombre de valeurs, on les regroupe
+en classes.
+On peut également représenter les fréquences cumulées dans un
+diagramme en escalierqui donne alors la fonction de répartition de
+la variable.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202424 / 40
+
+Diagrammes en bâtons
+Un diagramme en bâtons est un graphique qui à chaque modalité,
+associe un bâton (segment) de hauteur proportionnelle à l’effectif
+correspondant.
+Exemple: la distribution suivante donne le nombre d’enfants en
+charge par foyer.
+Enfants à charge (x
+i
+)Effectifn
+i
+Fréquence (f
+i
+)
+04010
+18020
+210025
+316040
+4 et plus205
+TotalN=400F=100%
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202425 / 40
+
+Diagramme en bâtons
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+01234 et plus
+Effectif (ni)
+Nombre d'enfants à charge (xi)
+Nombre d'enfants à charge
+Figure: Diagramme en bâtons du nombre d’enfants à charge
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202426 / 40
+
+Diagramme en bâtons
+Remarque
+Après avoir construit le diagramme en bâtons, on peut définir le
+polygone des effectifs(ou fréquences) en joignant l’extrémité
+des bâtons. Le polygone des effectifs permet de voir l’évolution
+de ces derniers.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202427 / 40
+
+Diagramme en bâtons
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+01234 et plus
+Effectif (ni)
+Nombre d'enfants à charge (xi)
+Figure: Diagramme en bâtons avec polygone des effectifs du nombre d’enfants
+à charge
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202428 / 40
+
+Les courbes cumulatives
+Définition
+La courbe cumulative est une représentation graphique de la
+distribution des effectifs cumulés (ou fréquences cumulées). Elle
+est différente selon que l’on travaille avec une distribution
+observée ou avec une distribution groupée (classe)
+On peut représenter la distribution des effectifs ou fréquence
+cumulés dans le cas d’un caractère quantitatif discret. On parle de
+courbe cumulative des effectifs ou des fréquences.
+Elle peut être croissante (courbe cumulative croissante CCC) ou
+décroissante (courbe cumulative décroissante CCD).
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202429 / 40
+
+Les courbes cumulatives
+Remarque
+Les courbes cumulatives pour un caractère quantitatif discret
+sont encore appelées des courbesen escalier.
+Figure: Courbe cumulative (fréquences)
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202430 / 40
+
+Les courbes cumulatives
+Exemple: Le tableau suivant donne le nombre d’enfants à charge
+par ménage. Représenter les courbes cumulatives croissantes et
+décroissantes.
+Enfants à charge (x
+i
+)Effectif (n
+i
+)Fréquence (f
+i
+)ECCECDFCCFCD
+040104040010100
+180201203603090
+2100252202805570
+3160403801809545
+4 et +205400201005
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202431 / 40
+
+Les courbes cumulatives
+Figure: Courbes cumulées croissante et décroissante
+Que signifient les statistiques entourées?
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 40
+
+Les courbes cumulatives
+1
+A gauche, cela veut dire que 30% des individus ontau plus1
+enfant à charge (1 ou moins).
+2
+A droite, cela veut dire que 90% des individus ontau moins1
+enfant à charge.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202433 / 40
+
+Sommaire
+1
+Conseils généraux
+2
+Variables qualitatives
+3
+Variables quantitatives
+Variables quantitatives discrètes
+Variable quantitative continue
+Histogrammes
+Courbes cumulatives
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202434 / 40
+
+Variable quantitative continue
+Lorsque les modalités sont mesurables et en nombre infini, une
+variable estquantitative continue. Un regroupement en classes
+[a
+i
+;b
+i
+[est possible.
+Les effectifs (ou les fréquences) peuvent être représentés selon les
+modalités enhistogramme, encourbe cumulativeou en
+diagramme circulaire.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202435 / 40
+
+Histogrammes
+Définition
+Un histogramme est un ensemble de rectangles contigus.
+Chaque rectangle, associé à chaque classe[a
+i
+;b
+i
+[, a une surface
+proportionnelle à l’effectif de cette classe.
+Figure: Exemple d’histogramme: distribution des salaires d’une entreprise
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202436 / 40
+
+Histogrammes
+Remarque
+Cette définition est valable lors que les amplitudes sont égales.
+Dans le cas contraire, une correction s’impose impliquant
+l’utilisation de la densité (d
+i
+) des effectifs (ou fréquences) en
+ordonné.
+d
+i
+=
+{
+n
+i
+A
+i
+avecn
+i
+l’effectif
+f
+i
+A
+i
+avecf
+i
+la fréquence
+=
+effectif (ou fréquence %)
+amplitude de classe
+EtA
+i
+=b
+i
+−a
+i
+.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202437 / 40
+
+Densité
+Exemple:
+Poids (x
+i
+)Fréquencef
+i
+(%)b
+i
+−a
+i
+Densité
+[14; 21[2070,029
+[21;23[3020,15
+[23; 50[50270,019
+Total100
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202438 / 40
+
+Courbes cumulatives
+Dans le cas d’une variable quantitative continue, les courbes
+cumulatives sont des lignes polygonales. Elle peuvent être
+croissantes (CCC) ou décroissantes (CCD).
+Exemple: le tableau ci-dessous représente la distribution des notes
+obtenues en statistiques par 50 étudiants.
+Notesn
+i
+f
+i
+(%)F
+i
+↑(%)F
+i
+↓(%)
+[0; 5[488100
+[5;10[17344292
+[10; 15[26529458
+[15; 20[361006
+Total50100
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202439 / 40
+
+Courbes cumulatives
+Figure: Courbes cumulatives croissante et décroissante
+NB: la précision de ces deux graphiques n’est pas parfaite.
+Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202440 / 40

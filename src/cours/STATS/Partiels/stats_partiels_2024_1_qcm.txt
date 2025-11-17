@@ -1,0 +1,14 @@
+chapter: Partiels STATS > 2024 — Partiel 1 (Novembre)
+
+QCM || L’amplitude totale d’une série est || V:la différence entre la plus grande et la plus petite valeur|la somme des valeurs|la variance|l’étendue interquartile || Définition de l’étendue totale || Partiels 2024, Partiel 1, Chapitre 1, QCM
+QCM || Un caractère qualitatif ordinal est || V:un niveau de satisfaction (faible/moyen/élevé)|une plaque d’immatriculation|un code postal|une marque de téléphone || Ordinal: catégories avec ordre || Partiels 2024, Partiel 1, Chapitre 1, QCM
+QCM || Formule de Sturges pour choisir le nombre de classes k (n observations) || V:k = 1 + 3,3 log10(n)|k = √n|k = n/10|k = ln(n) || Choix de classes (Sturges) || Partiels 2024, Partiel 1, Chapitre 2, QCM
+QCM || Règle de Yule pour le nombre de classes k (n observations) || V:k ≈ √n|k = 1 + 3,3 log10(n)|k = ln(n)|k = 2√n || Règle empirique de Yule || Partiels 2024, Partiel 1, Chapitre 2, QCM
+QCM || Pour une distribution asymétrique à droite, on a typiquement || V:mode < médiane < moyenne|moyenne < médiane < mode|médiane < mode < moyenne|moyenne = médiane = mode || Effet de l’asymétrie positive || Partiels 2024, Partiel 1, Chapitre 3, QCM
+QCM || Mesure robuste aux valeurs extrêmes || V:la médiane|la moyenne|l’écart-type|la variance || Robustesse de tendance centrale || Partiels 2024, Partiel 1, Chapitre 3, QCM
+QCM || Histogramme avec classes de largeurs différentes: on doit || V:utiliser la densité (aire ∝ effectif)|utiliser la hauteur = effectif|forcer des classes égales|remplacer par un camembert || Densités pour classes inégales || Partiels 2024, Partiel 1, Chapitre 2, QCM
+QCM || Variable quantitative continue: graphique adapté || V:histogramme|diagramme en secteurs|diagramme en barres (catégories)|boîte à moustaches pour univarié || Choix de graphique || Partiels 2024, Partiel 1, Chapitre 2, QCM
+QCM || Échantillonnage aléatoire simple signifie || V:chaque individu a la même probabilité d’être tiré|tirer systématiquement 1 sur k|stratifier par groupes|faire du volontariat || Définition EAS || Partiels 2024, Partiel 1, Chapitre 1, QCM
+QCM || Coefficient de variation (CV) mesure || V:la dispersion relative (σ/μ)|la dispersion absolue (σ)|la tendance centrale|l’asymétrie || CV pour comparaisons à moyenne différente || Partiels 2024, Partiel 1, Chapitre 4, QCM
+QCM || Ajout d’une constante c à toutes les valeurs: la variance || V:reste inchangée|augmente de c|est multipliée par c|diminue || Invariance par translation || Partiels 2024, Partiel 1, Chapitre 4, QCM
+QCM || Multiplication de toutes les valeurs par k>0: l’écart-type || V:est multiplié par |k||reste inchangé|est multiplié par k^2|est augmenté de k+1 || Homogénéité || Partiels 2024, Partiel 1, Chapitre 4, QCM

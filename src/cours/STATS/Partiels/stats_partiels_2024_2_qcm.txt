@@ -1,0 +1,12 @@
+chapter: Partiels STATS > 2024 — Partiel 2 (Novembre)
+
+QCM || Fréquence cumulée croissante d’une classe Ck est || V:Σ_{i≤k} f_i|la somme de toutes les fréquences|l’effectif de Ck uniquement|Σ_{i≥k} f_i || Définition FCC || Partiels 2024, Partiel 2, Chapitre 1, QCM
+QCM || Pour un diagramme circulaire, l’angle d’une classe de fréquence f vaut || V:360° × f|180° × f|100° × f|90° × f || Conversion fréquence → angle || Partiels 2024, Partiel 2, Chapitre 2, QCM
+QCM || Série en pourcentage par classes [30;40[, [40;50[, …: graphique adapté || V:histogramme (densités)|camembert bivarié|nuage de points|boîte à moustaches || Choix graphique classes continues || Partiels 2024, Partiel 2, Chapitre 2, QCM
+QCM || Un graphique « axe Y tronqué » a pour effet principal || V:d’amplifier visuellement de petits écarts|de réduire le bruit|de neutraliser les outliers|de rendre l’aire proportionnelle || Biais de perception || Partiels 2024, Partiel 2, Chapitre 2, QCM
+QCM || Les « effectifs cumulés croissants » sont utiles pour || V:trouver la médiane/quantiles|calculer le CV|mesurer l’asymétrie|choisir k (Sturges) || Usage des cumulés || Partiels 2024, Partiel 2, Chapitre 3, QCM
+QCM || La part « 70% ou plus » est égale à || V:1 − F(70)|F(70)|f(70)|F(>70) − F(<70) || Relation avec la distribu. cumulée F(x) || Partiels 2024, Partiel 2, Chapitre 1, QCM
+QCM || Un « diagramme en secteurs » est pertinent pour || V:parts d’un total (catégories)|classes continues|relations bivariées|séries temporelles || Usage camembert || Partiels 2024, Partiel 2, Chapitre 2, QCM
+QCM || Si les classes ont des largeurs différentes, la « hauteur » correcte d’un histogramme est || V:la densité (effectif/largeur)|l’effectif brut|la fréquence en %|la moyenne de classe || Densités histogramme || Partiels 2024, Partiel 2, Chapitre 2, QCM
+QCM || Un graphique bien fait doit inclure || V:titre, axes avec unités, source, légende|uniquement des couleurs vives|des axes tronqués|une note de lecture inutile || Bonnes pratiques || Partiels 2024, Partiel 2, Chapitre 2, QCM
+QCM || Les fréquences doivent || V:se sommer à 1|se sommer à n|se sommer à 100|être strictement croissantes || Normalisation || Partiels 2024, Partiel 2, Chapitre 1, QCM

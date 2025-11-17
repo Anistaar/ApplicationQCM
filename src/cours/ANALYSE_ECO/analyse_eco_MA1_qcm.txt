@@ -1,0 +1,33 @@
+chapter: Analyse Éco > MA1 — Comptabilité nationale
+
+QCM || La comptabilité nationale (CN) fournit || V:représentation chiffrée simplifiée de l'économie|explication causale complète|prévisions automatiques|données brutes non harmonisées || Rôle CN || MA1, CN, QCM
+QCM || Flux vs stock: un flux est || V:grandeur sur une période|valeur à un instant|indice de prix|variation saisonnière uniquement || Flux/stock || MA1, Concepts, QCM
+QCM || Circuit économique relie || V:ménages, entreprises, administrations, finance, reste du monde|ménages seuls|entreprises seules|administrations seules || Pôles flux || MA1, Circuit, QCM
+QCM || Trois optiques du PIB incluent (choisir vraies) || V:production|V:demande|V:revenu|population || Optiques PIB || MA1, PIB, QCM
+QCM || Valeur ajoutée (VA) = || V:Production - Consommations intermédiaires|Production + CI|CI - Production|Production - Investissement || Définition VA || MA1, VA, QCM
+QCM || PIB (optique production) = Σ VA + || V:impôts sur produits - subventions|impôts + subventions|subventions - impôts|investissements nets || Formule production || MA1, PIB, QCM
+QCM || Consommations intermédiaires (CI) sont || V:inputs détruits dans le processus|stocks finaux|investissements|salaires || CI définition || MA1, CI, QCM
+QCM || PIB (optique demande) = || V:CF + FBCF + (X - M) + ΔS|CF + CI + X|CF + FBCF + RN|CF + FBCF + VA || Formule demande || MA1, PIB, QCM
+QCM || FBCF représente || V:investissement en capital fixe|consommation finale|variation prix|stock permanent || FBCF || MA1, Investissement, QCM
+QCM || (X - M) > 0 indique || V:excédent extérieur|déficit extérieur|équilibre extérieur|absence d'importations || Balance extérieure || MA1, Extérieur, QCM
+QCM || PIB (optique revenus) = rémunérations + EBE + || V:impôts production-importations - subventions|FBCF - CI|CI - impôts|subventions - impôts || Formule revenus || MA1, PIB, QCM
+QCM || EBE correspond à || V:excédent brut d'exploitation (profit)|épargne des ménages|impôts nets|consommation intermédiaire || Profits || MA1, Revenus, QCM
+QCM || Déflater le PIB revient à || V:retirer effet inflation (euros constants)|ajouter effet inflation|multiplier par indice de prix|diviser par VA || Déflateur || MA1, Prix, QCM
+QCM || PIB réel < PIB nominal quand || V:inflation positive|inflation nulle|déflation|productivité chute || Nominal vs réel || MA1, Prix, QCM
+QCM || Territoire économique inclut || V:metropole + DROM + enclaves nationales|seulement métropole|zones franches exclues|enclaves étrangères incluses || Champ territorial || MA1, Territoire, QCM
+QCM || Unité résidente critère principal || V:center d’intérêt ≥ 1 an|nationalité du dirigeant|forme juridique|taille chiffre d’affaires || Résidence || MA1, Résidence, QCM
+QCM || Secteurs institutionnels (SI) n’incluent PAS || V:entreprises informelles hors comptabilité|SNF|SF|AP || SI liste || MA1, SI, QCM
+QCM || Les cinq SI sont || V:SNF, SF, AP, ISBLSM, Ménages|SNF, AP, ISBLSM, Ménages, RNB|SF, AP, Ménages, PIB, ISBLSM|SNF, SF, AP, TVA, Ménages || Nomenclature SI || MA1, SI, QCM
+QCM || Ressources dans emplois-ressources incluent || V:P + M + T - SP|CF + FBCF + ΔS|CI + CF + FBCF|X + A + CI || Ressources || MA1, EmploisRessources, QCM
+QCM || Emplois incluent (choisir vraies) || V:CI|V:CF|V:FBCF|territoire économique || Emplois liste || MA1, EmploisRessources, QCM
+QCM || Équation emplois-ressources complète || V:P + M + T - SP = CI + CF + FBCF + ΔS + X + A|P + M = CF + FBCF|VA = CF + ΔS|VA + CI = CF + X || Équilibre macro || MA1, EmploisRessources, QCM
+QCM || RNB = PIB + revenus primaires reçus - || V:revenus primaires versés (± ajustements)|impôts nationaux|VA totale|FBCF - CI || RNB définition || MA1, RNB, QCM
+QCM || Revenus primaires reçus incluent || V:salaires, intérêts, dividendes|TVA|CI|variation de stocks || Revenus primaires || MA1, RNB, QCM
+QCM || Limite du PIB: il exclut || V:travail domestique non rémunéré|production déclarée|impôts|exportations || Limites PIB || MA1, Limites, QCM
+QCM || IDH ajoute dimensions || V:santé, éducation, revenu|VA, CI, FBCF|inflation, monnaie, dette|stocks, flux, excédent || IDH || MA1, Indicateurs, QCM
+QCM || Empreinte écologique mesure || V:surface nécessaire production + assimilation déchets|PIB/hab|revenu national net|solde migratoire || Environnement || MA1, Indicateurs, QCM
+QCM || Épargne nette ajustée (ENA) corrige l’épargne de || V:éducation + (-) dégradation ressources + pollution|seulement investissements|seulement inflation|variation des stocks seulement || ENA || MA1, Indicateurs, QCM
+QCM || TES (Tableau entrées-sorties) met en évidence || V:interdépendances branche par CI|flux financiers seulement|surplus consommateur|courbe IS-LM || TES rôle || MA1, TES, QCM
+QCM || Coefficient technique a_ij = || V:CI en produit i de branche j / Production j|Production j / CI i|CI totale / VA|VA branche / Production nationale || Coefs techniques || MA1, TES, QCM
+QCM || Somme des VA des branches = || V:PIB (avant ajustements impôts - subventions)|RNB|CI nationale|ENA || PIB relation || MA1, PIB, QCM
+QCM || Externalité négative ignorée par PIB classique || V:pollution|production industrielle|exportations|impôts sur produits || Externalités || MA1, Limites, QCM

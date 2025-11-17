@@ -1,0 +1,1268 @@
+chapter: Statistiques > Statistiques Descriptives Chap4 2023 2024
+
+
+
+Statistiques Descriptives
+L1 Économie
+Seynabou Gueye, Mehdi Guelmamen, Emilien Macault
+Faculté de Droit, Économie et Administration
+Université de Lorraine
+Chapitre 4 : Les caractéristiques de dispersion
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20241 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+3
+Dispersion autour de la moyenne
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20242 / 40
+
+Introduction
+Définition
+Les indicateurs de dispersion complètent les mesures de tendances
+centrales. La dispersion est la tendance qu’ont les valeurs de la
+distribution d’un caractère à s’écarter ou à se disperser, de part
+et d’autre d’une valeur centrale de référence (la médiane ou la
+moyenne). Elles permettent de comparer des séries statistiques
+de même nature.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20243 / 40
+
+Introduction
+Remarque
+On distingue la dispersionabsolue(mesurée dans l’unité de
+mesure du caractère) et la dispersionrelative(mesurée par un
+nombre sans dimension). Les indicateurs nous aident à déterminer
+si les données sont trop éloignées de la valeur centrale afin de voir
+si cette dernière est suffisante pour représenter la population à
+l’étude.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20244 / 40
+
+Introduction
+Exemple: au baccalauréat, les copies sont analysées après correction.
+Les moyennes sont examinées et il arrive qu’elles divergent fortement
+d’un enseignant à l’autre, dans une même discipline.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20245 / 40
+
+Introduction
+Exemple: au baccalauréat, les copies sont analysées après correction.
+Les moyennes sont examinées et il arrive qu’elles divergent fortement
+d’un enseignant à l’autre, dans une même discipline.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20245 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+Étendue
+Écarts interquantiles
+3
+Dispersion autour de la moyenne
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20246 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+Étendue
+Écarts interquantiles
+3
+Dispersion autour de la moyenne
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20247 / 40
+
+Dispersion par rapport à la médiane
+Les caractéristiques de dispersion par rapport à la médiane indiquent
+dans quelle mesure un échantillon s’écarte de la médiane. On appelle
+intervalle de variationl’intervalleI
+var
+tel que :
+I
+var
+= [X
+min
+;X
+max
+]
+avecX
+min
+la plus petite valeur etX
+max
+la plus grande valeur. L’intervalle
+de variation contient 100% des modalités de la série. DeI
+var
+nous pou-
+vons tirer l’étendue:
+E=X
+max
+−X
+min
+Remarque
+L’étendue sert de supplément à d’autres mesures, mais elle est
+rarement utilisée comme seule mesure de dispersion étant donné
+qu’elle est sensible aux valeurs extrêmes.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20248 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+Étendue
+Écarts interquantiles
+3
+Dispersion autour de la moyenne
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20249 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle interquartileest l’étendue de la distribution sur
+laquelle se trouvent concentrée la moitié des éléments dont les
+valeurs de X les plus proches de la médiane. Il contient 50% des
+modalités de la série. On exclut alors de la distribution les 25%
+des valeurs les plus basses et les 25% des valeurs les plus élevées
+de X.
+Cet intervalle s’écrit :
+I
+Q
+= [Q
+1
+;Q
+3
+]
+D’où l’on tire l’écart interquartile:
+e
+Q
+=Q
+3
+−Q
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle interquartileest l’étendue de la distribution sur
+laquelle se trouvent concentrée la moitié des éléments dont les
+valeurs de X les plus proches de la médiane. Il contient 50% des
+modalités de la série. On exclut alors de la distribution les 25%
+des valeurs les plus basses et les 25% des valeurs les plus élevées
+de X.
+Cet intervalle s’écrit :
+I
+Q
+= [Q
+1
+;Q
+3
+]
+D’où l’on tire l’écart interquartile:
+e
+Q
+=Q
+3
+−Q
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle interquartileest l’étendue de la distribution sur
+laquelle se trouvent concentrée la moitié des éléments dont les
+valeurs de X les plus proches de la médiane. Il contient 50% des
+modalités de la série. On exclut alors de la distribution les 25%
+des valeurs les plus basses et les 25% des valeurs les plus élevées
+de X.
+Cet intervalle s’écrit :
+I
+Q
+= [Q
+1
+;Q
+3
+]
+D’où l’on tire l’écart interquartile:
+e
+Q
+=Q
+3
+−Q
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 40
+
+Dispersion par rapport à la médiane
+Exemple : détermination graphique d’un intervalle et d’un écart
+interquartile.
+La courbe cumulative croissante suivante est associée à une
+distribution de salaires annuels exprimés en k€dans une
+population de salariés. On lit sur le graphique que
+[Q
+1
+;Q
+3
+] = [7; 11,5]. Soite
+Q
+= 4,5k€.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202411 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle interdécileest l’étendue de la distribution sur
+laquelle se trouvent concentrée 80% des éléments dont les valeurs
+de X sont les plus proches de la médiane. Intervalle interdécile
+contient 80% des modalités de la série. On exclut alors de la dis-
+tribution les 10% des valeurs les plus faibles et les 10% des valeurs
+les plus fortes de X
+Cet intervalle s’écrit :
+I
+D
+= [D
+1
+;D
+9
+]
+D’où l’on obtient l’écart interdécile:
+e
+D
+=D
+9
+−D
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle interdécileest l’étendue de la distribution sur
+laquelle se trouvent concentrée 80% des éléments dont les valeurs
+de X sont les plus proches de la médiane. Intervalle interdécile
+contient 80% des modalités de la série. On exclut alors de la dis-
+tribution les 10% des valeurs les plus faibles et les 10% des valeurs
+les plus fortes de X
+Cet intervalle s’écrit :
+I
+D
+= [D
+1
+;D
+9
+]
+D’où l’on obtient l’écart interdécile:
+e
+D
+=D
+9
+−D
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle interdécileest l’étendue de la distribution sur
+laquelle se trouvent concentrée 80% des éléments dont les valeurs
+de X sont les plus proches de la médiane. Intervalle interdécile
+contient 80% des modalités de la série. On exclut alors de la dis-
+tribution les 10% des valeurs les plus faibles et les 10% des valeurs
+les plus fortes de X
+Cet intervalle s’écrit :
+I
+D
+= [D
+1
+;D
+9
+]
+D’où l’on obtient l’écart interdécile:
+e
+D
+=D
+9
+−D
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 40
+
+Dispersion par rapport à la médiane
+Exemple : détermination d’un intervalle interdécile par interpolation
+linéaire.
+Soit la répartition de la population française par tranche d’âge, au
+recensement de 1990 (Source : Annuaire statistique de la France,
+INSEE, 1993) :
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202413 / 40
+
+Dispersion par rapport à la médiane
+Au niveau du tableau, la classe contenant le 1er décileD
+1
+est la
+classe[0; 15[. Elle permet de dépasser 10% des observations.
+DéterminonsD
+1
+etD
+9
+par interpolation linéaire:
+D
+1
+−0
+15−0
+=
+10−0
+19−0
+⇒D
+1
+= 15×
+10
+19
+⇒D
+1
+= 7,9ans
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202414 / 40
+
+Dispersion par rapport à la médiane
+Au niveau du tableau, la classe contenant le 9e décileD
+9
+est la
+classe[60; 100[. Elle permet de dépasser 90% des observations.
+D
+9
+−60
+90−80,1
+=
+100−60
+100−80,1
+⇒
+D
+9
+−60
+9,9
+=
+40
+19,9
+⇒D
+9
+= 9,9×2+60 = 79,9
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202415 / 40
+
+Dispersion par rapport à la médiane
+Interprétation
+Soit l’écart interdécile :e
+D
+= 79,9−7,9 = 72ans;
+Interprétation de l’intervalle interdéciles
+En 1990, 80% des français étaient âgés entre 7,9 ans et 79,9 ans.
+De plus, 10 % avaient moins de 7,9 ans ou plus 79,9 ans.
+Interprétation de l’écart interdéciles
+Le 10% ème individu le plus âgé est plus âgé de 72 ans du 10%
+ème individu le plus jeune.
+Calculons le rapport
+D
+9
+D
+1
+=
+79,9
+7,9
+= 10,1. Les 10% des plus âgés sont
+10 fois plus vieux que les 10% des plus jeunes. Ce rapport est
+souvent utilisé avec les revenus (T.Piketty notamment).
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle intercentileest l’étendue de la distribution sur
+laquelle se trouve concentrée 98% des éléments dont les valeurs
+de X sont les plus proches de la médiane. L’intervalle intercentile
+contient 98% des modalités de la série. On exclut alors de la dis-
+tribution les 1% des valeur les plus faibles et les 1% des valeurs
+les plus fortes de X.
+Cet intervalle s’écrit :
+I
+C
+= [C
+1
+;C
+99
+]
+D’où l’on tire l’écart intercentile:
+e
+C
+=C
+99
+−C
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle intercentileest l’étendue de la distribution sur
+laquelle se trouve concentrée 98% des éléments dont les valeurs
+de X sont les plus proches de la médiane. L’intervalle intercentile
+contient 98% des modalités de la série. On exclut alors de la dis-
+tribution les 1% des valeur les plus faibles et les 1% des valeurs
+les plus fortes de X.
+Cet intervalle s’écrit :
+I
+C
+= [C
+1
+;C
+99
+]
+D’où l’on tire l’écart intercentile:
+e
+C
+=C
+99
+−C
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 40
+
+Dispersion par rapport à la médiane
+Définition
+L’intervalle intercentileest l’étendue de la distribution sur
+laquelle se trouve concentrée 98% des éléments dont les valeurs
+de X sont les plus proches de la médiane. L’intervalle intercentile
+contient 98% des modalités de la série. On exclut alors de la dis-
+tribution les 1% des valeur les plus faibles et les 1% des valeurs
+les plus fortes de X.
+Cet intervalle s’écrit :
+I
+C
+= [C
+1
+;C
+99
+]
+D’où l’on tire l’écart intercentile:
+e
+C
+=C
+99
+−C
+1
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 40
+
+Dispersion autour de la médiane
+Illustration:
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202418 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+3
+Dispersion autour de la moyenne
+Variance
+Écart-type
+Coefficient de variation
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202419 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+3
+Dispersion autour de la moyenne
+Variance
+Écart-type
+Coefficient de variation
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202420 / 40
+
+Dispersion autour de la moyenne
+Lesmomentssont les outils les plus importants pour mesurer la forme
+d’une distribution. On appellemoment d’ordrer(r∈N)d’un
+caractèreXle nombre:
+m
+r
+(X) =
+∑
+p
+i=1
+n
+i
+x
+r
+i
+∑
+p
+i=1
+n
+i
+=
+p
+∑
+i=1
+f
+i
+x
+r
+i
+Cas particuliers
+m
+0
+= 1
+m
+1
+=x
+m
+2
+=Q
+2
+(moyenne quadratique au carré)
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 40
+
+Dispersion autour de la moyenne
+Lesmomentssont les outils les plus importants pour mesurer la forme
+d’une distribution. On appellemoment d’ordrer(r∈N)d’un
+caractèreXle nombre:
+m
+r
+(X) =
+∑
+p
+i=1
+n
+i
+x
+r
+i
+∑
+p
+i=1
+n
+i
+=
+p
+∑
+i=1
+f
+i
+x
+r
+i
+Cas particuliers
+m
+0
+= 1
+m
+1
+=x
+m
+2
+=Q
+2
+(moyenne quadratique au carré)
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 40
+
+Dispersion autour de la moyenne
+Lesmomentssont les outils les plus importants pour mesurer la forme
+d’une distribution. On appellemoment d’ordrer(r∈N)d’un
+caractèreXle nombre:
+m
+r
+(X) =
+∑
+p
+i=1
+n
+i
+x
+r
+i
+∑
+p
+i=1
+n
+i
+=
+p
+∑
+i=1
+f
+i
+x
+r
+i
+Cas particuliers
+m
+0
+= 1
+m
+1
+=x
+m
+2
+=Q
+2
+(moyenne quadratique au carré)
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 40
+
+Dispersion autour de la moyenne
+On appellemoment centré d’ordrer(r∈N)d’un caractèreXle
+nombre:
+μ
+r
+(X) =
+∑
+p
+i=1
+n
+i
+(x
+i
+−x)
+r
+∑
+p
+i=1
+n
+i
+=
+p
+∑
+i=1
+f
+i
+(x
+i
+−x)
+r
+Remarque
+D’une manière générale, les moments centrés d’ordre pair ren-
+seignent sur la dispersion des observations autour de la moyenne
+x, et les moments centrés d’ordre impair sur la dissymétrie de la
+distribution (que nous aborderons plus tard).
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202422 / 40
+
+Dispersion autour de la moyenne
+On appellemoment centré d’ordrer(r∈N)d’un caractèreXle
+nombre:
+μ
+r
+(X) =
+∑
+p
+i=1
+n
+i
+(x
+i
+−
+x)
+r
+∑
+p
+i=1
+n
+i
+=
+p
+∑
+i=1
+f
+i
+(x
+i
+−
+x)
+r
+Remarque
+D’une manière générale, les moments centrés d’ordre pair ren-
+seignent sur la dispersion des observations autour de la moyenne
+x, et les moments centrés d’ordre impair sur la dissymétrie de la
+distribution (que nous aborderons plus tard).
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202422 / 40
+
+Dispersion autour de la moyenne
+Définition
+On appellevarianced’une variableXson moment centré d’ordre
+2.  C’est la moyenne des carrés des écarts à la moyenne.  Elle
+mesure globalement la variation d’un caractère de part et d’autre
+de la moyenne arithmétique.
+Elle est donnée par:
+Var(X) =
+∑
+n
+i=1
+n
+i
+(x
+i
+−x)
+2
+∑
+n
+i=1
+n
+i
+=
+1
+N
+n
+∑
+i=1
+n
+i
+(x
+i
+−x)
+2
+Remarque
+La variance est parfois dénotéeσ
+2
+X
+ou simplementσ
+2
+lorsque le
+contexte est clair.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
+
+Dispersion autour de la moyenne
+Définition
+On appellevarianced’une variableXson moment centré d’ordre
+2.  C’est la moyenne des carrés des écarts à la moyenne.  Elle
+mesure globalement la variation d’un caractère de part et d’autre
+de la moyenne arithmétique.
+Elle est donnée par:
+Var(X) =
+∑
+n
+i=1
+n
+i
+(x
+i
+−x)
+2
+∑
+n
+i=1
+n
+i
+=
+1
+N
+n
+∑
+i=1
+n
+i
+(x
+i
+−
+x)
+2
+Remarque
+La variance est parfois dénotéeσ
+2
+X
+ou simplementσ
+2
+lorsque le
+contexte est clair.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
+
+Dispersion autour de la moyenne
+Définition
+On appellevarianced’une variableXson moment centré d’ordre
+2.  C’est la moyenne des carrés des écarts à la moyenne.  Elle
+mesure globalement la variation d’un caractère de part et d’autre
+de la moyenne arithmétique.
+Elle est donnée par:
+Var(X) =
+∑
+n
+i=1
+n
+i
+(x
+i
+−x)
+2
+∑
+n
+i=1
+n
+i
+=
+1
+N
+n
+∑
+i=1
+n
+i
+(x
+i
+−
+x)
+2
+Remarque
+La variance est parfois dénotéeσ
+2
+X
+ou simplementσ
+2
+lorsque le
+contexte est clair.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
+
+Dispersion autour de la moyenne
+Démonstration: on sait quevar(X) =
+1
+N
+∑
+n
+i=1
+n
+i
+(x
+i
+−x)
+2
+. On peut
+développer cette expression
+:
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202424 / 40
+
+Dispersion autour de la moyenne
+Démonstration: on sait quevar(X) =
+1
+N
+∑
+n
+i=1
+n
+i
+(x
+i
+−x)
+2
+. On peut
+développer cette expression
+:
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202424 / 40
+
+Dispersion autour de la moyenne
+Le théorème de König-Huygens nous permet de déterminer la variance
+d’une variable statistique à partir des moments d’ordres 1 et 2, sans
+utiliser les écarts.
+Théorème
+Var(X) =m
+2
+(X)−m
+2
+1
+(X) =
+∑
+n
+i=1
+n
+i
+x
+2
+i
+∑
+n
+i=1
+n
+i
+−
+[
+∑
+n
+i=1
+n
+i
+x
+i
+∑
+n
+i=1
+n
+i
+]
+2
+Avecm
+1
+la moyenne arithmétiquexetm
+2
+la moyenne quadratique au
+carréQ
+2
+.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202425 / 40
+
+Dispersion autour de la moyenne
+Soita∈Rune constante :
+Propriété 1
+Var(a) = 0
+Propriété 2
+Var(aX) =a
+2
+Var(X)
+Remarque: la variance esttoujours positive ou nullecar elle est
+une somme de carré.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202426 / 40
+
+Dispersion autour de la moyenne
+SoitX
+i
+etY
+i
+des séries statistiques définies parY
+i
+=aX
+i
++boùa
+etbsont deux réels (constants) même niveau.
+Propriété 3
+Var(Y) =Var(aX+b) =a
+2
+V ar(X)
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202427 / 40
+
+Dispersion autour de la moyenne
+Exemples:
+Var(2X+ 1) = 2
+2
+Var(X) = 4Var(X)
+Var(−X+ 2) =−1
+2
+Var(X) =Var(X)
+Var(4X−3) = 4
+2
+Var(X) = 16Var(X)
+Var(153 678 987 432) = 0
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202428 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+3
+Dispersion autour de la moyenne
+Variance
+Écart-type
+Coefficient de variation
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202429 / 40
+
+Dispersion autour de la moyenne
+Définition
+L’écart-type d’une série est la racine carrée la variance. Il est noté
+σ(X)et mesure la dispersion absolue, i.e. la dispersion absolue
+autour de la moyenne. Il s’exprime dans la même unité que les
+valeurs observées. Plus l’écart type est grand, plus la dispersion
+des observations autour de la moyenne est importante.
+Il est donné par :
+σ(X) =
+√
+Var(X)
+Remarque
+L’écart-typeσ(X)s’interprète également comme la moyenne
+quadratiqueQdes écarts à la moyenne arithmétiquex.  Vari-
+ance et écart-type sont des indicateurs très utilisés en finance de
+marché, puisqu’ils représentent lerisqueassocié à un actif.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 40
+
+Dispersion autour de la moyenne
+Définition
+L’écart-type d’une série est la racine carrée la variance. Il est noté
+σ(X)et mesure la dispersion absolue, i.e. la dispersion absolue
+autour de la moyenne. Il s’exprime dans la même unité que les
+valeurs observées. Plus l’écart type est grand, plus la dispersion
+des observations autour de la moyenne est importante.
+Il est donné par :
+σ(X) =
+√
+Var(X)
+Remarque
+L’écart-typeσ(X)s’interprète également comme la moyenne
+quadratiqueQdes écarts à la moyenne arithmétiquex.  Vari-
+ance et écart-type sont des indicateurs très utilisés en finance de
+marché, puisqu’ils représentent lerisqueassocié à un actif.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 40
+
+Dispersion autour de la moyenne
+Définition
+L’écart-type d’une série est la racine carrée la variance. Il est noté
+σ(X)et mesure la dispersion absolue, i.e. la dispersion absolue
+autour de la moyenne. Il s’exprime dans la même unité que les
+valeurs observées. Plus l’écart type est grand, plus la dispersion
+des observations autour de la moyenne est importante.
+Il est donné par :
+σ(X) =
+√
+Var(X)
+Remarque
+L’écart-typeσ(X)s’interprète également comme la moyenne
+quadratiqueQdes écarts à la moyenne arithmétique
+x.  Vari-
+ance et écart-type sont des indicateurs très utilisés en finance de
+marché, puisqu’ils représentent lerisqueassocié à un actif.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 40
+
+Dispersion autour de la moyenne
+Soitcune constante.
+Propriété 1
+σ(c) = 0
+Soitaetbdeux sont deux réels (constants) même niveau.
+Propriété 2
+σ(aX+b) =|a|σ(X)
+Remarque
+La seconde propriété rend l’écart-type plus naturel à manipuler
+que la variance.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202431 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+3
+Dispersion autour de la moyenne
+Variance
+Écart-type
+Coefficient de variation
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202432 / 40
+
+Dispersion autour de la moyenne
+Définition
+Lecoefficient de variationCVd’une variable statistique est le
+ratio entre l’écart-type et la moyenne exprimé sous la forme d’un
+pourcentage. Il s’agit d’une mesure de dispersionrelative, sans
+dimension et indépendant de l’unité de la série.
+CV=
+σ
+x
+×100
+C’est un indicateur de l’homogénéité de la population.  On considère
+qu’un coefficient de variation inférieur à 15% indique que la population
+est homogène, tandis qu’un coefficient supérieur à 15% indique que les
+valeurs sont relativement dispersées.  Plus il est proche de 0, plus les
+données sont homogènes.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202433 / 40
+
+Dispersion autour de la moyenne
+Définition
+Lecoefficient de variationCVd’une variable statistique est le
+ratio entre l’écart-type et la moyenne exprimé sous la forme d’un
+pourcentage. Il s’agit d’une mesure de dispersionrelative, sans
+dimension et indépendant de l’unité de la série.
+CV=
+σ
+x
+×100
+C’est un indicateur de l’homogénéité de la population.  On considère
+qu’un coefficient de variation inférieur à 15% indique que la population
+est homogène, tandis qu’un coefficient supérieur à 15% indique que les
+valeurs sont relativement dispersées.  Plus il est proche de 0, plus les
+données sont homogènes.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202433 / 40
+
+Dispersion autour de la moyenne
+Application:
+NotesEffectifs
+[0,5[4
+[5,10[17
+[10,15[26
+[15,20[3
+Total50
+Table: Distribution des notes obtenues à un devoir de Statistiques pour 50
+étudiants
+Calculer la moyenne arithmétiquex.
+Calculer l’écart-typeσ.
+Calculer le coefficient de variation de cette distribution.
+Interpréter.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202434 / 40
+
+Dispersion autour de la moyenne
+On dresse le tableau suivant:
+NotesCentre de classex
+i
+n
+i
+n
+i
+x
+i
+n
+i
+x
+2
+i
+[0,5[2,541025
+[5,10[7,517127,5956,25
+[10,15[12,5263254062,5
+[15,20[17,5352,5918,75
+Total/505155962,5
+Calcul de la moyenne :x=
+1
+N
+∑
+4
+i=1
+n
+i
+x
+i
+=
+515
+50
+= 10,3. La note
+moyenne est de 10,3.
+Calcul de l’écart-type :σ(x) =
+√
+Var(x) =
+[
+1
+N
+∑
+i
+n
+i
+x
+2
+i
+−
+x
+2
+]
+0,5
+=
+[
+1
+50
+×5962,5−(10,3
+2
+)
+]
+0,5
+= 3,63. La dispersion moyenne autour
+de 10,3 est égale à 3,63.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202435 / 40
+
+Dispersion autour de la moyenne
+Calcul du coefficient de variation:
+CV=
+σ(x)
+x
+=
+3,63
+10,3
+= 0,352
+Le coefficient de variationCVest de 35,2%>15%. La distribution des
+notes est hétérogène, elle est donc relativement dispersée.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202436 / 40
+
+Sommaire
+1
+Introduction
+2
+Dispersion par rapport à la médiane
+3
+Dispersion autour de la moyenne
+4
+Application
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202437 / 40
+
+Application
+Sur une population, on a dosé le taux de cholestérol, exprimé encg/L
+(x
+i
+) et on a obtenu les résultats suivants :
+Classes[84,96[[96,108[[108,120[[120,132[[132,144[[144,156[[156,168[
+Effectifsn
+i
+281619221
+1
+Quel est le caractère étudié?
+2
+Déterminer le mode.
+3
+Déterminer la médiane.
+4
+Déterminer les quartilesQ
+1
+etQ
+3
+.
+5
+Déterminer la moyenne arithmétique et l’écart-type.
+6
+Déterminer le coefficient de variation. Interpréter.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202438 / 40
+
+Correction
+1
+Caractère étudié : le taux de cholestérol. Tableau statistique :
+2
+Classe modale :Mo∈[120,132[. D’où l’on obtient le mode
+Mo= 120 + 12
+[
+(19−16)
+(19−16)+(19−2)
+]
+= 121,8
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202439 / 40
+
+Correction
+3
+N
+2
+= 25.Mo∈[108,120[. Par interpolation linéaire on trouve:
+M= 108 + (120−108)
+[
+25−10
+26−10
+]
+= 119,25
+4
+Q
+1
+=X
+N/4
+= 12,5⇒Q
+1
+∈[108,120[, alors
+Q
+1
+= 108 + (120−108)
+[
+12,5−10
+26−10
+]
+= 109,88
+5
+Moyenne arithmétique et variance :x=
+∑
+7
+i=1
+f
+i
+c
+i
+= 119,04
+6
+CV=
+σ
+x
+= 11,7%<15%. L’échantillon est bien homogène.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202440 / 40

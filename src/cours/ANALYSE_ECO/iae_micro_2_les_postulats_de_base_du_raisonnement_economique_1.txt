@@ -1,0 +1,299 @@
+Chapitre 2 : les postulats de bases du raisonnement économique
+
+
+
+
+
+Les sciences économiques reposent sur toute une série de postulats (cf :ch1) mais aussi de postulats qui peuvent relever de la vision du monde. On a donc des économistes qui peuvent se faire récompenser (prix Nobel…) et parfois en même temps (en 2010 par ex) 
+
+La firme existe car les cout de transaction peuvent être trop important= mieux vaut s’organiser ds une firme et avoir des contrat de travail à long terme = plus intéressant  
+
+Pbm= possibilité de comportement opportuniste mais hiérarchie vise à contrôler le travail de l’employé 
+
+A l’inverse le 2nd a une idée complètement différente / met en avant importance eco des biens communs 🡪 gestion de ces ressources communes par ex : un puit d’eau, des ressources en poisson.
+
+
+
+Les principes de bases de l’analyse économique du courants néoclassique/orthodoxe
+
+
+
+Ces principes de bases du raisonnement économique orthodoxe concerne 2 choses en particulier :
+
+Ces principes de base vont concerner les comportements humains/individuels (Simon mis en place théorie de la rationalité ; Samuelson s’y est aussi intéressé/ Daniel heikmann…)
+
+
+
+Ils vont porter sur les modalités d’interaction entre les individus  
+
+
+
+Économie orthodoxe/ néo classiques car c’est le courant qui a réussi à développer des principes clair et précis 
+
+Le problème des approches hétérodoxe =trop grandes diversité 
+
+Eco orthodoxe = économie qui s’intéresse au fonctionnement des institutions 
+
+Hétérodoxe= économie de régulation/innovation  🡪 insuffisance de l’éco marché et de l’entreprise 
+
+Quels sont les pères fondateurs de l’économie orthodoxe ? 
+
+Les classiques : Smith, Ricardo, Simon, Samuelson 
+
+
+
+
+
+Pq l’économie orthodoxe a réussi à mettre en avant un nombre de principes ? 
+
+
+
+On distingue 7 principes de bases qui sont partagés par tout économie dominante :
+
+
+
+Ces principes néo classiques ont constitué l’économie comme une science à partir de 1970 / date de parution du traité d’économie politique
+
+
+
+
+
+Les bases comportementales/ les postulats de bases en matière comportementale
+
+
+
+
+
+Principe 1 : les prises de decision sont consécutives à des arbitrages 
+
+
+
+Économie= la science qui vise à gérer des ressources presentes en qtités limités. C’est cette notion de limite qui va fonder l’arbitrage= choix opéré entre plusieurs options, chaque options ayant ses avantages et ses inconvénients. 
+
+Bcp d’inconvénients sont lié aux limites dans les ressources. 
+
+
+
+Ex : Quelques situations : Où se situe l’arbitrage ? 
+
+
+
+On a faim et on veut aller au restaurant ou Uber eat : critères qui détermine le choix= en fonction de nos gouts/ le cout/ si on a très faim ou pas 
+
+
+
+Entre acheter un Uber eat et faire à manger nous-mêmes : temps/ cout/ efforts à fournir/si on sait, aime faire la cuisine 
+
+
+
+Au supermarché et on doit choisir ce qu’on achète, ou se situe l’arbitrage : cout/ gouts, besoins
+
+
+
+Pq aller sur YouTube ou sur tiktok :   notre envie/temps
+
+
+
+L’arbitrage repose toujours sur le fait qu’il y a des contraintes dans les ressources ex : temps, argent… arbitrage= omniprésents dans le fonctionnement de l’économie et se situe à plusieurs niveau :
+
+
+
+Au niveau des ménages/consommateurs, objectif= répondre à comment on gère au mieux son revenu. 
+
+
+
+Au niveau des entreprises : la fonction d’une entreprise dans l’éco orthodoxe= produire des biens/services et pour se faire elle va mobiliser 2facteurs de productions : le capital et le travail. Arbitrage pour ces entreprises c’est comment faire en sorte de produire de la manière la + efficace possible/ puisse générer les niv de profits les + importants🡪 ça va dépendre de l’arbitrage effectués entre les facteurs de production 
+
+
+
+Au niveau des états : l’objectif de l’état = faire en sorte que l’état fonctionne de la best manière possible mtn/dans le futur 🡪 mécanismes d’allocations des ressources qu’on appelle la détermination des orientations budgétaires. On va allouer les fonctions éco auxquels l’état peut être intéresser (par ex discuter du budget de l’an prochain)
+
+Fonction régalienne de sécurité et de justice : budget alloué à l’état providence/ à la justice… 
+
+Ces arbitrages au niv national vont être reconditionné par des parti pris idéologiques. Les orientations budgétaires vont refletter un arbitrage entre 2 impératif économique svt difficilement compatibles : efficacité= capacité de l’éco à créer de la croissance et d’autre part l’équité qui va prendre la forme d’une politique de redistribution= imposer le revenu/capital pour réduire les inégalité mais le niv d’efficacité sera moindre 
+
+
+
+Principe 2 : un arbitrage implique nécessairement un cout d’opportunité 
+
+
+
+Cout d’opportunité= on doit revenir à la notion d’arbitrage= prise de décisions entre plusieurs options (gains + inconvénients) ces gains/couts peuvent être évaluer d’une première manière :
+
+Gain et couts en terme monétaire. On peut le modéliser comme un arbitrage entre consommation/loisirs cad que travailler nous permet d’avoir un revenu à consommer mais travailler et un temps qu’on ne peut pas consacrer aux loisirs. 
+
+
+
+Un cout d’opportunité= cout psychologique lié à la renonciation à un gain subjectif anticipé 
+
+
+
+Exemples : 
+
+Le cout d’opportunité= être étudiant= on renonce à la possibilité d’aller travailler et gagner de l’argent
+
+
+
+Un exemple bien étudié des cout d’opportunité = cout d’attente🡪 le temps d’attente dans les fils d’attente 
+
+
+
+Principe 3 : le raisonnement marginale
+
+
+
+Tout le comportement individuel se basent sur le principe de rationalité 
+
+
+
+Rationalité= mode de raisonnement des agents économiques qui cherchent à atteindre leurs objectifs (pour les ménages maximiser sa satisfaction, entrep= minimiser ses couts…) de manière délibéré et systématique tout en tenant compte de leur contrainte. Ces contraintes= de disponibilité des ressources (temps, physiques, monétaire) 
+
+Principe de base en éco= on a face à nous des agents rationnels= ne prennent pas les décisions au hasard
+
+
+
+Raisonnement marginal= modalité de mise en œuvre de la rationalité. L’idée du raisonnement marginal c’est de modifier légèrement son comportement et de voir ce qui se passe, quels sont les effets sur la situation d’agents vis-à-vis de leur objectifs. 
+
+
+
+Notion de décroissance d’utilité marginale : l’idée de l’utilisé marginale= + on dispose d’une chose - on en a besoin ex : on a notre gourde a moitié pleine, on est au milieu d’un désert on me propose un verre d’eau 🡪 grosse valeur 
+
+Ma gourde est à moitié pleine, on me propose un verre d’eau, je suis au milieu d’un lac avec de l’eau de bonne qualité🡪 le verre d’eau pas la même valeur car j’ai une qtité d’eau très importante.
+
+
+
+
+
+Réponse= 100 boites de conserves produites 
+
+
+
+
+
+
+
+
+
+
+
+Le profit : Pi = recette totale- couts totaux                                          
+
+Nombre de places vendu X le prix de vente= 108 000 – 100 000= 8000 
+
+
+
+Si la compagnie propose des billets a 300 euros= recette totale- cout totaux
+
+180 X 600 + 300X 10 – 100 000
+
+= 111 000
+
+= 11 000
+
+🡪 Profit marginal : 11 000 – 8000= 3 000
+
+
+
+
+
+Principe 4 : l’importance des incitations 
+
+
+
+Principe de base d’éco = on agit que si on a notre intérêt= nature de notre action va répondre à un intérêt/ une motivation 
+
+En économie on va dissocier entre 2 types d’intérêt à l’action économique et qui vont déterminer la nature de l’action :
+
+
+
+1er type de raison= un agent va agir parce que il a une motivation intrinsèque. Cette notion de motiv intrinsèque= mécanisme interne à la personne et qui va la pousser à l’action (ex : son altruisme, sa vision du monde, son intérêt pour un thème particulier). 
+
+Autre motivation intrinsèque= l’altruisme par ex : je donne une pièce à qlqn qui fait la manche parce que on est touché 
+
+
+
+2 les incitations extrinsèques= tous les mécanismes externe, en général récompenses externes mise en place pour pousser un agent économique à effectuer une certaine action. 
+
+(Exemple : le salaire a fortiori si il y a une composante variable qui va dependre du degré d’atteinte de l’objectif) 
+
+
+
+Exemples d’incitations extrinsèques : 
+
+°Bonus, malus pour favoriser les voitures peu émettrices 
+
+°Les programmes de fidélité : MacDo consommer +
+
+°Hausses de prix pour moins consommer : ex : tabac (prix inélastiques= variation du prix ne va pas influer sur la variation de la demande)
+
+
+
+
+
+Les modalités d’interaction 
+
+
+
+Principe 5 : les échanges améliorent globalement le bien être 🡪 Friedman
+
+
+
+Chacun se spécialise dans un service puis les agents échangent entre eux 
+
+Interaction = omniprésente dans notre société 
+
+
+
+On peut distinguer 2 modalités d’échanges :
+
+Par le marché/ échange marchand= le troc mais compliqué dans la vie de tous les jours🡪 donc introduction de la monnaie 
+
+
+
+La réciprocité= se base sur le fait que on va donner quelque chose mais on ne donne pas n’importe quoi, dans n’importe quel conditions, on donne parce que on s’attend que les personnes qui ont bénéficié de ce don vont se montrer reconnaissante, donner d’autre chose dans une communauté (cf : chap 1) ex : Wikipédia 
+
+
+
+Principe 6 : l’échange sur les marchés/ marchand est un mécanisme important d’organisation de l’activité économique 
+
+
+
+Échange marchand se distingue de la planification. 
+
+
+
+Économie planifié= éco communiste avec un objectif de production chaque année 🡪 domaine de l’organisation, de la firme 
+
+C’est aussi le domaine de la règlementation. (Dans les éco capitaliste on n’a pas d’Eco 100% basé sur la planification ou le marché.)
+
+Économie de marché la plus développé/dérégulation la moins importante/régulé = le chili 
+
+En France/Europe= bcp de planification 
+
+
+
+Marché= le lieu de confrontation entre une offre et une demande pour un bien ou un service donné et cette confrontation abouti à un prix et une quantité d’équilibre 
+
+Adam Smith a introduit la notion de main visible 
+
+
+
+
+
+Principe 7 : l’état permet de garantir le bon fonctionnement des marchés
+
+
+
+Il le fait de 3 manières/ 3 fonctions :
+
+
+
+En établissant et en faisant respecter un système de droit de propriété (droit de posséder, d’utiliser, épuiser des ressources) il va règlementer les droits de Prop.
+
+
+
+Garantir l’efficacité des marchés. D’une part en corrigeant les externalités (tous les effets des act économiques sur les tiers) ex : pollution. Ça peut être fait par le biais des mécanismes de correction des externalités. (Incitation/règlementation.) d’autre part avec la régulation des pouvoirs de marchés 
+
+
+
+S’assurer d’une équité économique. Par le biais d’une politique redistributive

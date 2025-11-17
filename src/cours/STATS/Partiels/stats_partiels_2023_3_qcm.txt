@@ -1,0 +1,12 @@
+chapter: Partiels STATS > 2023 — Partiel 3 (Novembre)
+
+QCM || La moyenne pondérée s’écrit (x_i, poids w_i) || V:(Σ w_i x_i)/(Σ w_i)|(Σ x_i)/n|(Σ x_i²)/n|Σ x_i / Σ w_i² || Définition || Partiels 2023, Partiel 3, Chapitre 3, QCM
+QCM || La moyenne géométrique est adaptée à || V:des taux de croissance successifs|des montants additionnés|des températures en °C|des nombres négatifs || Produit des facteurs >0 || Partiels 2023, Partiel 3, Chapitre 3, QCM
+QCM || La moyenne harmonique est adaptée à || V:des vitesses moyennes sur même distance|des salaires|des tailles|des prix moyens simples || Ratios avec même dénominateur || Partiels 2023, Partiel 3, Chapitre 3, QCM
+QCM || Pour séries très asymétriques avec outliers, mesure de dispersion à privilégier || V:IQR|σ|variance|étendue || Robustesse || Partiels 2023, Partiel 3, Chapitre 4, QCM
+QCM || La médiane est invariante par || V:translation (ajout d’une constante)|homothétie|élévation au carré|racine || Transformation || Partiels 2023, Partiel 3, Chapitre 3, QCM
+QCM || Sur données groupées, moyenne approximative utilise || V:centres de classes et effectifs|bornes inférieures|bornes supérieures|IQR || Approximation || Partiels 2023, Partiel 3, Chapitre 3, QCM
+QCM || Le CV permet de || V:comparer des dispersions à échelles différentes|mesurer une tendance centrale|trouver la médiane|détecter des outliers directement || Comparaison relative || Partiels 2023, Partiel 3, Chapitre 4, QCM
+QCM || Un histogramme mal construit avec classes inégales et hauteurs en effectifs || V:biaise les aires et l’interprétation|est acceptable si trié|n’influence pas les conclusions|est meilleur qu’un camembert || Bonnes pratiques || Partiels 2023, Partiel 3, Chapitre 2, QCM
+QCM || Un graphique clair doit inclure || V:source, unités, titre, légende|couleurs aléatoires|axes tronqués sans mention|notations illisibles || Communication || Partiels 2023, Partiel 3, Chapitre 2, QCM
+QCM || La “règle des 1,5×IQR” sert à || V:repérer des valeurs aberrantes|calculer la moyenne|définir σ|normaliser les données || Outliers || Partiels 2023, Partiel 3, Chapitre 4, QCM

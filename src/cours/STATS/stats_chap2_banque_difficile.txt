@@ -1,0 +1,16 @@
+chapter: Chapitre 2 > Présentation graphique des données statistiques
+
+# Difficiles (Diff: Difficile)
+VF || Dans un histogramme à classes d'amplitudes différentes, égaliser les hauteurs sans ajuster par la largeur est trompeur || V || Les aires doivent refléter les effectifs; sinon on biaise la lecture || Diff: Difficile, Chapitre 2, Histogrammes
+VF || L'usage d'une échelle logarithmique doit être explicitement signalé car il modifie la perception des écarts || V || Lisibilité et interprétation changent; transparence nécessaire || Diff: Difficile, Chapitre 2, Échelles
+
+QR || Histogramme: classes [0;5[, [5;15[, [15;20[, effectifs 5, 10, 5. Donne les hauteurs (densités) h1,h2,h3 || V:h1=1, h2=1, h3=1 || h=effectif/largeur → 5/5=1 ; 10/10=1 ; 5/5=1 || Diff: Difficile, Chapitre 2, Densités
+QR || On a 80 observations réparties en 4 catégories A,B,C,D avec parts 0,25; 0,35; 0,15; 0,25. Donne les effectifs || V:20, 28, 12, 20|25, 35, 10, 10|22, 26, 16, 16 || n×p: (20, 28, 12, 20) || Diff: Difficile, Chapitre 2, Effectifs
+QR || Un graphique tronqué démarre Y à 50 au lieu de 0 pour comparer deux séries 52 et 54. Quel est le risque ? || V:Amplification visuelle artificielle de l'écart|Aucun si on colorie différemment|Assure une meilleure précision toujours || Axe tronqué dramatise les différences || Diff: Difficile, Chapitre 2, Axe tronqué
+
+QCM || Pour comparer des distributions continues de tailles d'échantillon différentes || V:Utiliser densités (aires normalisées)|V:Même découpe de classes|V:Même échelle|Multiplier toutes les hauteurs par n || Normalisation par densités recommandée || Diff: Difficile, Chapitre 2, Comparaison
+QCM || Graphiques multiples dans un même visuel: bonnes pratiques || V:Couleurs contrastées|V:Légende claire|V:Axes communs comparables|Camoufler les sources pour gagner de l'espace || Recommandations de communication || Diff: Difficile, Chapitre 2, Multiples
+QCM || Choix d'un nuage de points pertinent || V:Deux variables quantitatives|V:Recherche de relation|V:Inspection d'outliers|Variables uniquement qualitatives || Cas d'usage || Diff: Difficile, Chapitre 2, Scatter
+
+DragMatch || Associe piège et correction || Axe tronqué:Afficher zéro ou signaler clairement, Classes inégales:Utiliser densité (aire), Trop d'infos:Filtrer et hiérarchiser, Code couleur ambigu:Légende explicite || Stratégies anti-biais visuel || Diff: Difficile, Chapitre 2, Corrections
+DragMatch || Associe graphique avancé et usage || Boxplot:Distribution et outliers, Violin plot:Densité lissée, Heatmap:Fréquence bivariée, Facets:Comparaison multi-sous-groupes || Choix avancés || Diff: Difficile, Chapitre 2, Avancé

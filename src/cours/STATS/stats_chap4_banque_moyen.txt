@@ -1,0 +1,16 @@
+chapter: Chapitre 4 > Caractéristiques de dispersion
+
+# Moyens (Diff: Moyen)
+VF || La variance d'une variable X multipliée par a et translatée par b vérifie Var(aX+b)=a^2 Var(X) || V || Dépend seulement de l'échelle a, pas du décalage b || Diff: Moyen, Chapitre 4, Propriétés
+VF || L'écart-type est la racine carrée de la variance || V || σ = √Var(X) || Diff: Moyen, Chapitre 4, Définition
+
+QR || Série: 2, 4, 4, 4, 8. La variance (population) vaut || V:4|2|3,2 || Var = [(2−4)^2+(4−4)^2+(4−4)^2+(4−4)^2+(8−4)^2]/5 = (4+0+0+0+16)/5 = 20/5 = 4 || Diff: Moyen, Chapitre 4, Variance
+QR || Série: 2, 4, 4, 4, 8. L'écart-type (population) vaut || V:2|1,6|√3,2 || σ = √4 = 2. || Diff: Moyen, Chapitre 4, Ecart-type
+QR || Données ordonnées: 1, 2, 3, 4, 9. L'IQR (Q3−Q1) avec quartiles empiriques simples vaut || V:3|4|2 || Q1≈2, Q3≈5 → IQR≈3 (méthode quartiles 25%/75%) || Diff: Moyen, Chapitre 4, IQR
+
+QCM || Comparer la dispersion de deux séries de moyenne différente, on utilise || V:Le coefficient de variation|La seule étendue|La variance brute|Le mode || CV = σ/μ (adimensionnel) || Diff: Moyen, Chapitre 4, Comparaison
+QCM || Propriétés vraies || V:Var(aX)=a^2 Var(X)|V:Var(X+c)=Var(X)|V:σ mesure l'écart moyen quadratique|Var(X) peut être 0 || Rappels de propriétés || Diff: Moyen, Chapitre 4, Propriétés
+QCM || Concernant l'IQR || V:Moins sensible aux extrêmes que σ|V:Basé sur Q1 et Q3|Toujours supérieur à l'étendue|Définit la boîte d'un boxplot || IQR <= Étendue; robustesse mentionnée || Diff: Moyen, Chapitre 4, IQR
+
+DragMatch || Associe indicateur et usage || Variance:Dispersion quadratique, Écart-type:Racine de la variance, IQR:Dispersion médiane, Coefficient de variation:Comparaison relative || Synthèse des repères || Diff: Moyen, Chapitre 4, Synthèse
+DragMatch || Associe transformation et effet sur la dispersion || X+c:Inchangé, aX:Multiplié par |a| pour σ, Multiplié par a^2 pour Var, Normalisation:Compare séries à échelles différentes || Propriétés de transformation || Diff: Moyen, Chapitre 4, Transformations

@@ -1,0 +1,1133 @@
+CM Analyse éco : partie macro 
+
+
+
+CH 1 Comptabilité nationale 
+
+
+
+CN est une technique qui cherche à donner de l’éco national une représentation simplifiée et chiffrée de son fonctionnement pendant une période donnée (comptabilité de flux) et de l’état de l’économie à un moment donnée (comptabilité de stocks)
+
+
+
+La CN est une représentation simplifié de l’économie national : notion de circuit économique
+
+
+
+Le circuit représente l’ensemble des pôles et des flux constitutifs d’un système économique donné. 
+
+La macroéco est l’analyse relative à l’étude des quantités globales (agrégats calculés à l’échelle du pays tout entier : PIB, revenu national, investissements, exportations)
+
+
+
+
+
+
+
+
+
+Keynes va analyser l’économie a partir des grandes quantité globales (agrégats calculés dans un pays entier par ex : PIB, le revenu national, importation🡪 circuit et macro influencé par keynes.
+
+
+
+
+
+1ère relation : entre ménage et entreprise
+
+Les ménages vont apporter du travail (physique ou intellectuel aux entrep) 
+
+En échange il y a un flux réel et un contre flux qui lui est monétaire. En échange donc les entreprises vont verser du salaire aux ménages.
+
+
+
+2ème : Les entrep et les administrations : les entrep vont verser des prélèvement obligatoires aux administrations (états) cad impôt, taxe et cotisation sociale et en contrepartie l’état va verser des subventions + services non marchands 
+
+
+
+Du coté des ménages : les administrations vont verser services non marchand et prestation sociale aux ménages : aides diverses et en contrepartie ménage versent taxe, impôt 
+
+
+
+3éme : Ménage/société financière= système financier font des prêt à l’état et des prêts aux ménages et elles vont faire payer un taux d’intérêt chaque fois qu’elle prête de l’argent
+
+Les entreprises viendront rembourser avec les ménages leur crédit et les entrep placent de l’argent et en contrepartie les sociétés financière vont verser des intérêts  
+
+
+
+Taux créditeur= on place de l’argent à la banque et elle nous verse ?
+
+
+
+Pas une économie fermé donc reste du monde 
+
+
+
+
+
+On va développer les points suivants :
+
+
+
+La CN= modèle macro éco et descriptif de l’économie
+
+ 
+
+Car on va avoir des comptes nationaux qui vont retracer l’équilibre atteint par une économie mais on n’aura pas l’explication de comment on a obtenu cet équilibre. On peut dire aussi que la CN elle va travailler énormément à partir de données statistiques et elle va mettre en ordre toutes ces données sous formes de tableau économique et statistique les données de l’économie 
+
+
+
+La CN est fondée sur une vision de l’éco en termes de circuit (voir ci-dessus)
+
+
+
+La CN est une représentation chiffré de l’économie nationale
+
+
+
+La CN= un système de compte articulé et on va avoir des comptes articulés avec des données en termes de flux et d’autre part des données en terme stocks.
+
+Flux= grandeur économique qui apparait au cours d’une année alors qu’une grandeur de stock c’est une mesure de l’éco a un moment donné 
+
+Flux et stock sont exprimé sous forme monétaire 
+
+
+
+L’utilisation de la CN
+
+
+
+C’est un instrument qui permet de rassembler de façon synthétique les données statistiques. La CN offre un cadre général et logique permettant de retrouver facilement les données économiques sous une forme cohérente et homogène avec des définitions et des nomenclatures (tableau) commune. Elle rassemble donc dans des tableaux les données sur les économies qui permet aux économistes d’avoir des données facilement repérable.
+
+
+
+La CN= aussi un instrument d’information sur le passé et le présent de l’économie. De ce fait, la CN permet d’effectuer des analyses comparatives dans le temps et dans l’espace les résultats de l’activité économique d’un pays (on peut comparer le PIB). On peut de ce fait suivre dans le temps, les périodes d’expansion économique, de récession et les périodes d’inflation (hausse des prix) ou les périodes de stabilité des prix. On peut aussi repérer les périodes de déficit ou d’excédent du commerce extérieur. La CN permet donc de faire des comparaisons internationales ce qui suppose que le calcul des agrégats soit normaliser. On a donc une normalisation des modes de calculs/représentation de l’éco au niveau européen et internationales.
+
+
+
+La CN est un outil d’aide à la décision économique
+
+
+
+Dès son origine la CN= destiné à éclairer les choix des politiques éco et pouvoirs publics. Elle permet également d’apprécier, de voir les conséquences des décision économiques que les responsables politiques comprend. Cela permet également d’établir le projet de loi de finance (vote du budget de l’état a L’AN) et pour ce projet de loi on a besoin de donnée sur la croissance éco actuel et à venir, sur les revenus… 
+
+Les agents économiques comme les consommateurs et chefs d’entreprises ont aussi besoin d’avoir des données chiffrés sur l’éco. 
+
+
+
+
+
+Les conventions fondamentales de la CN 
+
+
+
+Cela signifie que la CN va poser un certain nombre de règles, conventions qui vont permettre d’avoir une certaine rigueur dans les définitions et dans les concepts utilisés par la CN 
+
+
+
+Les différentes conventions
+
+
+
+La convention de temps
+
+
+
+Comme toute comptabilité, la CN établit les comptes sur une base annuelle cad l’année civile. Mais on va également avoir besoin d’information conjoncturelle et pour cela les comptables nationaux vont dresser des comptes trimestrielles. Ces comptes trimestrielles vont indiquer rapidement si la conjoncture s’améliore ou pas.
+
+
+
+La convention d’espace
+
+
+
+La CN, va décrire l’activité économique nationale et pour cela il faudra délimiter le champs de ces observations en précisant le territoire observé. La CN va définir l’économie nationale qui est constitué par les unités résidentes sur un territoire économique donné. 
+
+
+
+Le territoire économique 
+
+
+
+Il est formé par 5 critères :
+
+Le territoire géographique : DROM, métropole + Monaco 
+
+
+
++ enclaves territoriales française dans le reste du monde cad le territoire qui sont situés à l’étranger et qui sont utilisés en vertu de traités internationaux : ambassades, consulat, bases militaires et scientifiques. 
+
+
+
+- les enclaves extraterritoriales sur le territoire géographique français utilisé par les administrations publiques d’autres pays : bases militaires étrangères… sur le territoire français
+
+
+
++ l’espace aérien national et les eaux territoriales : espace qui va du sol a une certaine altitude et les eau= 200km des cotes 
+
+
+
+Les zones franches et les entrepôts sous contrôles douaniers 
+
+
+
+
+
+Une unité est considérée comme résidente si elle a un centre d’intérêt économique sur le territoire économique du pays.
+
+Centre d’intérêt éco= l’unité en question exerce des activités économiques sur ce territoire soit pour une durée indéterminé soit pour une durée déterminé d’au moins un an 
+
+
+
+Par ex si on prend les filiales des firmes multinationales étrangères installée sur le territoire éco fr et si elle exerce une act éco d’au moins un an elle sont considéré comme résidente. 
+
+Autre ex : les travailleurs étrangers en France sont considérés comme des unités résidentes de mm pour les travailleurs frontaliers ou saisonniers. 
+
+
+
+
+
+L’évaluation monétaire
+
+
+
+Les principes
+
+
+
+L’activité économique recouvre une multitude d’opération de nature très différentes : production, paiement d’intérêt, pour agréger toutes ces données économiques il faut une évaluation commune càd qu’il faut une évaluation monétaire 
+
+Cette évaluation monétaire va être déformer par l’inflation, cela vient réduire notre pvr d’achat. 
+
+Si salaire augmente de 5% et inflation de 6 on perd un point de pvr d’achat 
+
+Il faudra déflater cad enlever l’effet de l’inflation cad passer d’une évaluation monétaire en euro courant à une évaluation en euro constant. 
+
+
+
+La mesure 
+
+
+
+PIB réel= PIB en valeur/ indice des prix X 100
+
+Il est inférieur au PIB en valeur car on a enlevé les effets de l’inflation 
+
+
+
+On pourra calculer un PIB réel qui permettra de faire des comparaisons dans le temps et dans l’espace.
+
+
+
+Les secteurs institutionnels
+
+
+
+Les phénomènes économiques sont souvent complexes et svt de formes très variés et les économistes, les comptables nationaux doivent recenser les principales composants de l’économie dans des catégories homogène et aussi en nombre réduit afin de disposer d’une représentation intelligibles et opérationnels de l’activité économique. C’est pq on a créé la nomenclature des secteurs institutionnels
+
+
+
+A) les principes
+
+
+
+L’unité institutionnels est un centre élémentaire de décisions économiques et l’on parle ici d’unités résidentes institutionnelle et cette unité dispose d’une autonomie de décision dans l’exercice de sa fonction principale et elle dispose par ailleurs d’une comptabilité complète 
+
+
+
+Traditionnellement on distingue 5 secteurs institutionnels (SI) 
+
+
+
+
+
+B) Nomenclature des secteurs institutionnels 
+
+
+
+SNF= sociétés non financières
+
+SF= sociétés financières
+
+AP= administration publiques
+
+ISBLSM= institut sans but lucratif au service des ménages
+
+Ménages
+
+
+
+
+
+Les sociétés non financières (SNF)
+
+Regroupe des unités institutionnels qui sont des producteurs marchands dont la fonction principale consiste à produire des biens et des services non financiers. Ce sont les entreprises. Producteur marchand= vendent leur bien et services. A l’intérieur on a toute la gamme juridique des entreprises ; les entreprises artisanales, grandes entreprises, individuel, a responsabilité limité, publique/PV… 
+
+Les ressources principales= ventes de bien et de service
+
+
+
+Les sociétés financières (SF)
+
+Fonction principale= fournir des services d’intermédiation financière🡺 consiste à collecter des fonds auprès des agents ayant des excédents pour les transférer à d’autres, ils sont en besoin de moyen financiers. A l’intérieur on a :
+
+
+
+Les institutions financières 🡺 fonction principale= financer par l’intermédiaire de ce concept d’intermédiation. On a les banques centrales (caisse d’épargne et de dépôt), l’épargne commerciale, les organismes de crédit (CETLM) on aussi les CPC qui ont pour fonction de collecter des fonds et d’opérer des placements, c’est le cas de tout ce qui est fond commun de placement FCP. On a aussi des sociétés d’investissement à capital variable. Elles gèrent des actions et des obligations pour le compte de leur client. On a aussi les assurances qui gèrent aussi des produits financiers. Donc ajd act bancaire et act d’assurance souvent mélanger. Elles versent des indemnités sur les risques (demander cours) 
+
+
+
+Les fonds de pension🡺institutions qui sont svt assimiler à des caisses de retraites fonctionnant par capitalisation 
+
+En France on a un système de retraite par répartition : ce sont les actifs qui vont payer les retraités de l’année : 1 actifs pour 2 retraités solution : départ + tard à la retraite ou système par capitalisation (les actifs qui financent eux même leur retraite via les fonds de caisse privé) 
+
+Autre solution : cotisation sociale
+
+Ce sont des acteurs très important de la finance internationale. 
+
+
+
+
+
+Les administrations publiques (AP)
+
+A l’inverse des SF, leur fonction principale= produire des services non marchands cad délivré à titre gratuit ou quasi gratuit mais aussi d’effectuer des opérations de redistribution du revenu et des richesses nationales via les prélèvements obligatoires qui est redistribué sous forme de prestation sociale càd maladie, chômage, maternité et pauvreté. On distingue traditionnellement au sein de l’AP :
+
+Les administrations publiques centrales : APUC on y met tout ce qui est administrations centrales cad ministère, université, musée, recherches CNRS.
+
+Les administration publiques locales : APUL : on y met commune, département, régions, communauté de commune…
+
+Les administration de sécurité sociale : ASSO : les régimes de l’assurance sociale cad maladie, vieillesse, famille et chômage 
+
+
+
+Les institutions sans but lucratif au services des ménages
+
+Secteur institutionnels qui produits des biens / services non marchands au profit des ménages 
+
+Leur financement se fait par des contributions volontaires ou des financements. On y met tous les organismes de charités, asos de bienfaisance, tout ce qui est syndicat, parti politique, ce qui est religieux, toute les associations culturels et sportives et sociétés savantes 
+
+
+
+Les ménages
+
+Ils ont une particularité qui est d’inclure les entreprises individuelles. Si on est avocat, médecin = classé dans les ménages car patrimoine se confond avec l’activité.
+
+Fonction principale des ménages= consommer. On considère les ménages comme des personnes qui vivent sous le même toit et on y met les entrepreneurs individuelles qui ont une fonction de production de bien et services marchands. 
+
+
+
+On peut rajouter aussi le reste du monde : relations économique en termes d’importations et d’exportations 
+
+
+
+Les agrégats 
+
+
+
+Les agrégats sont des indicateurs synthétique qui mesure le résultat de l’activité de l’ensemble de l’économie. Ce sont les grandeurs de référence essentiels pour l’analyse macroéconomie. 
+
+Le plus connus c’est le PIB = richesse qui a été créer dans un pays au cours d’une année, c’est un indicateur de croissance (=augmentation de la richesse créer au cours d’une années). Le PIB représente l’activité productive des unités résidentes.
+
+
+
+Le PIB 
+
+
+
+Il peut être calculé du pdv de 3 optiques et ces 3 optiques correspondent au 3 temps de l’économie :
+
+
+
+Production qui créer les revenus = optique de revenus
+
+Revenus sont issus de la production 
+
+
+
+Les revenus créer la demande= optique de la demande 
+
+
+
+La demande suscite la production= optique de la production 
+
+(D de B&S ou d’investissement)
+
+Cf : circuit éco dans l’intro
+
+
+
+Le PIB dans une optique de production
+
+
+
+VAB des unités résidentes de production + impôt sur les produits – subventions sur les produits. 
+
+
+
+VAB= Production – les consommations intermédiaires.  La production est mesurée par le CA 
+
+
+
+CA=prix de vente d’un bien X le nombre de bien ou S vendus, (je soustrais à ce CA les CI)
+
+
+
+CI= tout ce qui va disparaitre dans le cycle de production cad des matières premières et énergie 
+
+La VAB mesure la richesse réellement crée au cours d’une certaine période (VAB est une approche du profit mais ne l’est pas) 
+
+
+
+Impôt sur les produits : TVA (taxe sur la valeur ajouté) 
+
+Subvention sur le produit : aide donné par l’État pour aider un secteur en difficulté (ex : agriculture) 
+
+On ajoute les impôts car c’est une ressource de l’État et on soustrait les subventions car ce sont des choses versés par l’E donc des dépenses. 
+
+
+
+
+
+Le PIB dans une optique de demande 
+
+
+
+PIB= CF + FBCF +X-M + variation de stocks
+
+
+
+CF= consommation des ménages et des administrations= ensemble de ce qui est directement détruit par M et Adm. La C° n’engendre donc rien.
+
+ 
+
+FBCF= investissement= acquisition des moyens de productions, machines, infrastructures..= dure dans le temps et permet de produire 
+
+
+
+X-M= équilibre de la balance des paiements= équilibre de l’extérieur. 
+
+
+
+Qd X=M 🡺 balance extérieur est à l‘équilibre
+
+Qd X>M🡺 excédant extérieur (bon pour l’éco, créer des emplois) 
+
+Qd M>X🡺 déficit extérieur (cas de la France car dispose pas d’énergie) 
+
+
+
+Variation des stocks (delta S) = stock initial – stock final  
+
+
+
+OG= DG 
+
+DG= CF+ FBCF+X-M+ variation des stocks
+
+
+
+
+
+Le PIB dans une optique de revenus 
+
+
+
+PIB= rémunération des salariés + EBE(=profit) + impôt sur la production et les importations – subventions🡪 Pib dans une optique de revenu national 
+
+
+
+Valeur ajouté et produit intérieur brut 
+
+
+
+!!! On peut dire que le PIB = la somme des valeurs ajoutés des unités résidentes des différentes branches de l’économie !!!
+
+
+
+Exercice : on a un exploitant forestier qui va vendre son bois pour la somme de 1000 euros à une scierie, celle-ci va transformer le bois en planche et ces planches vont etre vendues pour 2000 euros à un fabricant de meubles et ce fabricant de meubles va fabriquer des meubles pour 4000 euros
+
+Calculer la VA à chaque stade du processus de production et calculer la richesse totale crée :
+
+
+
+Acteurs
+
+Production
+
+CI
+
+VA
+
+E. Foret
+
+1000 
+
+0
+
+1000
+
+E scierie
+
+2000
+
+1000
+
+1000
+
+F meubles
+
+4000
+
+2000
+
+2000
+
+TOTAL
+
+7000
+
+3000
+
+4000
+
+
+
+La richesse réellement créer est de 4000 et non pas de 7000.
+
+
+
+Le RNB
+
+
+
+Qd on calcule PIB= PIB à partir des unités résidentes sans tenir compte du critère de la nationalité d’origine du secteur qui créer la valeur ajouté.
+
+Dans une éco ouverte, mondialisé, on va avoir des revenus qui vont être reçu du reste du monde et des revenus qu’on va verser au reste du monde donc : 
+
+
+
+RNB= PIB + revenus primaires reçus du reste du monde – revenus primaires versés au reste du monde + subventions reçues du reste du monde – impôts sur la production et les importations versés au reste du monde. 
+
+
+
+Revenus primaires= 3 CHOSES :
+
+Revenus du travail : salaires 
+
+Revenus de la propriété (dividendes ou intérêt perçus sur un K) 
+
+Revenus de l’entreprise individuelle : profit 
+
+
+
+Revenus primaires reçus du reste du monde. Ex : firmes multinational française installé à l’étranger comme Danone. Elle va rapatrier ses bénéfices en France. 
+
+Ex : travailleur qui rapatrie leur salaire en France 
+
+Subventions reçu du reste du monde pour favoriser ses habitants à l’étranger (ex : domaine culturel)
+
+
+
+Revenus primaires versés au reste du monde : Une MN étrangère installé en France (MacDo) qui va rapatrier ses revenus à l’étranger
+
+Travailleur étranger qui rapatrie salaire dans son pays 
+
+Taxe et importation versé au reste du monde qd on achète des produits tiers (japonais, américain)
+
+
+
+Les indicateurs de richesse
+
+
+
+Le PIB= indicateur traditionnelle de la croissance mais il est depuis longtemps remis en cause, discuté à la fois sur son mode de calcul et sur ses nombreuses limites. 
+
+Par contre de nombreux indicateurs ont vu le jour et sont svt confidentielle, utilisés que par des spécialistes et pas médiatisé. 
+
+
+
+Ces indicateurs sont apparus pour mieux mesurés la notion de richesse et de bien être des individus. Cette notion de richesse est polysémique (plusieurs sens) car elle n’est pas seulement éco mais aussi sociologique, culturel. L’indicateur le + connu qui se voulait être une alternative au PIB est l’IDH. Il est un peu plus médiatisé mais pas constamment utilisé. Par contre on a une autre notion assez médiatisé= la notion d’empreinte écologique.
+
+Notion pas du tout médiatisé pourtant utilisé par les éco= notion d’épargne net ajouté 
+
+
+
+Le PIB, un indicateur performant avec ses limites
+
+
+
+Tout au long des 30 glorieuses (fin GM jusqu’au 1er choc pétrolier) l’indicateur far de la croissance= PIB. Dans ce contexte d’après-guerre, la richesse est assimilée à une augmentation soutenu de la production industrielle et elle est aussi au centre de toute les préoccupations des responsables politiques. 
+
+Idée= + de croissance, mieux c’est pour tout : emploi.., bonheur
+
+
+
+C’est avec cette notion de PIB omniprésente qu’on a complètement évacué la manière dont on le calcul et ses limites.
+
+Le PIB ne prend en compte que la production qui résulte d’une activité rémunéré (économie formelle). Tout ce qui n’est pas payant= pas pris en compte dans le PIB :
+
+
+
+
+
+
+
+
+
+Le PIB ne comptabilise pas un certain nombre d’éléments :
+
+L’économie sous-terraine (travail, non déclaré)
+
+Activités illicites comme trafic de stups
+
+Activités hors marchés (entraides, bénévolat, autoproduction, autoconsommation), travail domestique (mais si jardinier là ça fait partie de la richesse)
+
+
+
+PIB= contradictoire car ajoute des productions qui normalement ne devraient pas être dans le calcul du PIB au contraire certaine productions devraient être enlevés du PIB.
+
+Ex : + la production d’automobile augmente et + PIB augmente.
+
+Mais+ production augmente=> hausse du CO2, construction d’autoroute… => détruit paysage🡺 effets négatifs sur indiv, environnement, accident donc devrait être déduit du PIB 
+
+
+
+Cette approche très productiviste du PIB a déjà été remise en cause dans les années 70 avec le rapport Meadows qui dit qu’on ne peut pas continuer à produire de la même façon.
+
+On voit donc que le PIB n’est pas un assez bon indicateur. On a donc mis en place l’IDH
+
+
+
+L’IDH
+
+
+
+Indicateur de développement humain, mis en place par l’économiste indien A. Sen.
+
+Le terme de développement (éco) = autre chose que la croissance 
+
+C’est de la croissance mais avec des préoccupations qualitatives (qualité de vie, santé, éducation, environnement) 
+
+Donc dvlpmt= croissance + bien etre 
+
+
+
+IDH= fondé sur 3 critères :
+
+
+
+Critère social par le biais de la santé à travers l’espérance de vie à la naissance (critère démographique quantitatif mais aussi très qualitatif). Si + d’espérance= mieux soigné+ progrès technique + qualité de la nourriture + niv de formation (modernité) 
+
+
+
+Critère culturel par le biais de l’éducation à travers les taux d’alphabétisation notamment des adultes. + taux de scolarisation (primaire, secondaire, supérieur). Richesse d’un pays = immatériel (matière grise) selon les éco + de taux de scolarisation= + de croissance donc investissement dans l’éduction génère des biens de productivités donc de la croissance
+
+
+
+Critère économique par le biais du PIB par hab. avec le pvr d’achat des habitants 
+
+IDH= indice qui va de 0 à 100 
+
+
+
+Pour avoir de l’IDH, il faut de la croissance donc PIB : + de PIB= + de IDH mais pas tjrs le cas
+
+
+
+Ex : Qatar situé dans les premiers pays les +riches du monde mais en terme d’IDH classé dans les 30ème car on a encore des taux de scolarisation, espérance de vie pas suffisante. Ce qui fait la diff= volonté politique 
+
+
+
+Ex : suède classé 9ème en termes de richesse mondiale et 7ème en IDH 
+
+
+
+Cependant l’IDH= pas non plus un indicateur absolue, il a aussi un certain nombre de limites :
+
+
+
+Les chiffres concernant l’IDH sont donnés de manière irrégulière + avec des retards
+
+Dans certains pays, les chiffres sont manipulés pour représenter le meilleur IDH possible (svt en éducation) 
+
+Absence d’indicateur environnementale dans l’IDH 
+
+
+
+MAIS : IDH= plus performant que le PIB
+
+
+
+Le développement durable 
+
+
+
+Anglo saxon utilise le terme soutenable.
+
+Défini en 1987 par le rapport Brundtland « c’est un dvlpmt qui répond aux besoins des générations du présent sans compromettre la capacité des générations futures à répondre aux leurs. » On a une solidarité entre les générations. On doit transmettre aux autres le même capital que nous avons reçu (raisonnement intergénérationnelle), il faut que la croissance soit compatible avec la sauvegarde de l’environnement cad préservé le patrimoine naturel mondial.
+
+
+
+Du coté indicateur, une tentative a été faite d’adapter le PIB et lui faire intégrer des couts écologiques (consommation des ressource naturelles et couts inhérent à la production) à travers ce qu’on a appelé le PIB vert. Celui-ci a bcp été conversé chez les spécialistes pour des problèmes de mesure (how intégrer les couts écologiques) il s’agit de soustraire un certain nombre d’éléments, pour les gouverneurs c’est compliqué. Problème technique de valorisation des stocks naturels.
+
+
+
+Cependant ont à deux autres indicateurs de soutenabilité :
+
+Épargne net ajouté = ENA 
+
+Empreinte écologique 
+
+
+
+
+
+1er indicateur ENA
+
+
+
+= calculé par la Banque Mondiale depuis 1999, c’est un indicateurs auxquels on va ajouter et retrancher un certain nombre de variable. On part de l’épargne national. (L’idée= d’avoir accumuler qlq chose qu’on n’a pas utilisé pour l’utiliser pour autre chose)
+
+On va y ajouter les dépenses d’éducation= valoriser le bien-être et on va retrancher les aspects négatifs donc la baisse des stocks de ressources naturels consommés (énergie, minerais, forets) et on y souscrit aussi les dommages causés par la pollution. Il est calculé en % de revenu national. 
+
+
+
+La aussi il y a des controverses, nécessite bcp de données et juste évaluation des dommages causés par la pollution.  Cout en termes de temps et rémunération.
+
+
+
+
+
+
+
+
+
+Autre indicateur= notion d’empreinte écologique 
+
+
+
+Elle a été imaginée dans les années 90 par des universitaires, le but est de mesuré l’impact d’une population donné selon la surface du sol et d’océan nécessaire pour la produire et pour assimiler les déchets qu’elle génère. Cette surface écologique est appelée biocapacité. 
+
+Ajd, l’empreinte dépasse la biocapacité cad que les capacité régénératrice de la planète sont dépassées. 
+
+Pour soutenir la croissance mondiale actuelle il faudrait 1,4 planète.
+
+Si tout le monde avait une croissance comme celle de l’Amérique il nous faudrait 5 planètes. 
+
+Il faut 2,5 planète compte tenu de la croissance et C° européenne. 
+
+
+
+Elle a aussi un autre inconvénient + tous indicateurs environnement qui de pas tenir compte des dimensions économique, sociologique et culturel de la richesse. Il faudrait un indicateur qui puisse assumer ces 3 variables.
+
+
+
+La commission Stiglitz
+
+
+
+Créer en 2008 sous l’impulsion de Sarkozy. Une commission a été créer sur la mesure des performances économique et du progrès social, elle a été présidée par Joseph Stiglitz (prix Nobel d’éco). 1ere fois qu’une tel réunion est organisé, on a voulu essayer de réfléchir à la manière de trouver un autre indicateur que le PIB.
+
+
+
+Le constat était de dire que les indicateurs de richesse ne permette plus d’évaluer de manière satisfaisante la situation globale d’une économie. On veut donc une approche qui ne soit plus trop quantitative ni trop comptable de l’éco. 
+
+
+
+Le but est de dire que le PIB ne peut constituer l’unique indicateur de la performance économique et du progrès sociale. Le PIB doit être perfectionné et complété. La qualité de vie dépend aussi de facteur non-économique, santé lien sociaux, culture, condition environnementale… donc il faut mesurer la performance économique mais aussi le progrès social sous l’angle de la soutenabilité càd au regard des générations futures. 
+
+
+
+On voit que cette commission n’a pas trouvé d’indicateurs alternatifs au PIB en terme économique, sociétale et environnementale. La commission préconise d’analyser a coté du PIB des indicateurs sociologique et environnementaux comme la santé, éducation, empreinte écologique, inégalité…
+
+
+
+Bonheur et croissance 
+
+
+
+Révolution d’introduire une notion comme le bonheur en éco 
+
+Bonheur= bien être 🡺 chez les économistes 
+
+
+
+On est parti de la constatation de l’économiste Easterlin en 1974= 1er éco à faire une étude sur le lien entre croissance éco à long terme et satisfaction de vie des individus. Il démontre que jusqu’à un certain points, on a bien une croissance éco qui va de pair avec le bien être des individus, augmentation parallèle. Mais à partir d’un certain seuil même si la croissance éco augmente, il n’y aura pas une plus grande satisfaction des individus= courbe d’Easterlin 
+
+
+
+
+
+
+
+
+
+PBM : Pq la croissance éco tant recherché par les gouvernements ne parvient-elle plus ajd au dela d’un certain seuil à augmenter le bien être des individus ?
+
+Plusieurs raisons à la fois éco et sociologique :
+
+
+
+On peut dire que toute richesse est relative 
+
+On a ce qu’on appelle l’effet d’habitude= un individu va comparer sa richesse matériel actuel à celle dont il disposé dans le passé. C’est vrai qu’on a un effet perte de pvr d’achat. Dans pays développé on veut tjrs plus. Décalage entre nos aspirations et le niv de richesse 
+
+
+
+La comparaison social : on se compare avec la classe au-dessus de la nôtre ce qui provoque un décalage entre nos aspirations et nos richesses : Marx : métaphore du quartier + la toupie de Mendras
+
+
+
+L’effet d’habitude et la comparaison social produise un relèvement constant des aspirations individuelle par rapport à son niveau de vie. Cette augmentation des aspirations est exacerbé par la publicité, marketing 🡪  utilisé sans cesse => obsolescence programmé 
+
+
+
+Si je veux vendre mes produits je dois créer une insatisfaction général🡺 entrep américaine
+
+
+
+On se rend compte que la richesse est relative mais n’est pas tout car on a trop voulu considérer l’homo economicus qui se contente de faire un rapport cout avantage et est rationnel. Or l’être humain est attaché à des valeurs.  L’indiv va prendre en compte d’autre variable non économique qui va influencer son bien-être, l’indiv est un « animal social » donc ces relations avec les autres sont importantes. Les parents n’ont jamais autant aidé leur enfant (affectif, revenu)
+
+
+
+Les inégalités réduisent le bien être car on en est touchés mais on peut aussi se poser des questions qu’en a la finalité de l’action publique. Le chômage est une variable importante du bien être : qd on se projette dans l’avenir, le questionner. Et enfin l’environnement : 80% des européens déclarent dans un sondage que l’environnement va influencer leur qualité de vue (ouragan, déforestation…) 
+
+
+
+CCL= la divergence entre le PIB (croissance éco) et (bonheur) le bien être trouve de nombreuses explications à la fois économique et sociologique. En effet toutes richesses est relatives et elle renvoie a de nombreux facteurs étrangers à la croissance comme l’environnement, le lien social, inégalités. + on a de croissance et plus nos aspirations sont poussées à l’avant
+
+On s’habitue à un certain niveau de vie et en plus nous nous comparons constamment à nos voisins, (tjrs par rapport à la catégorie supérieur).
+
+La croissance ne suffit pas pour le bien être, il y a d’autre facteurs qualitatifs qui sont corrélés négativement par rapport à la croissance : inégalité, condition de travail, lien social et surtout l’environnement.
+
+
+
+La notion d’équilibre emplois/ressources
+
+
+
+On a les ressources d’un côté et emploi de l’autre
+
+
+
+Principes
+
+
+
+Ressources= elles retracent l’origine des biens et des services disponibles sur le territoire économique au cours de l’année. Cette origine peut être national (déf dans CN : production des unités résidentes) ou étrangère (les importations en provenance des unités non-résidentes). La production correspond à l’O intérieur et les importations M correspondent à l’O extérieur.
+
+
+
+
+
+Emplois= décrivent l’utilisation des biens et des services au cours de l’année. Les utilisations peuvent être national (D intérieur) ou elles peuvent être étrangères (D extérieur) 
+
+
+
+
+
+
+
+Ressources 
+
+Emplois 
+
+(P) Production
+
+(M) importations
+
+(T) + impôts sur les produits
+
+      -subventions sur les produits (SP)
+
+
+
+
+
+
+
+TOTAL :  Offre globale 
+
+
+
+(CF) consommation finale
+
+(CI) consommation intermédiaire
+
+FBCF
+
+(delta S) variation des stocks
+
+(X) exportations
+
+(A) Objets de valeur 
+
+
+
+TOTAL : Demande globale
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les ressources : 
+
+
+
+La production= on y inclut les marges commerciales et les marges/frais de transports
+
+Marge= différence entre prix de vente > prix d’achat= ressources pour l’entrep
+
+
+
+Les M = valeur des biens et des services fournis par des unités non-résidentes à des unités résidentes.
+
+
+
+T= tva qui est collecté par les sociétés de service ou entrep, impôts sur les M et X, impôts spécifiques sur le tabac et alcool, taxe intérieur sur les produits pétroliers. 
+
+
+
+Subventions sur les produits= aide accordé par l’état à certain secteur économiques pour les aider, par ex : baisse de prix sur les marchés, aides spécifiques/temporaires, objectif=maintenir l’emploi. Ça peut être aussi des aides pour lutter contre la pollution 
+
+
+
+
+
+Les emplois :
+
+
+
+CF= l’acquisition de biens ou de services qui soient marchands ou non marchands utilisés pour la satisfaction direct des besoins individuelles ou des besoins collectifs. Cette C° n’engendre pas une autre C°
+
+
+
+CI= valeur des produits consommées dans les différents stades du processus productif (Energie, produit semi fini, matière première)
+
+
+
+FBCF= investissement = durable dans le temps 
+
+Une composante matériel= machines, bâtiments et de logements 
+
+Une composante immatériel= logiciel (produire, rendre travail plus efficace)
+
+
+
+Delta S= stock initial (SI) = stock final (SF)
+
+Composée de produits fini, semi-fini, des matières premières et des fournitures 
+
+
+
+A= métaux précieux, bijoux, objet d’or. Ne sont pas classé dans la FBCF car pas destiné à être utilisé dans un processus de production 
+
+
+
+X= valeur des biens et des services fournis par des unités résidentes à des unités non-résidentes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+L’équation de l’équilibre emplois ressources.
+
+
+
+Production (P) + M + T – SP = CI + CF + FBCF + variation des stocks + X + A
+
+
+
+On peut avoir des déséquilibres macroéco entre les X et les M. déséquilibre au niveau global : on peut avoir une OG > DG 🡺 prix baissent DG> OG 🡺 prix augmentent.
+
+Ces déséquilibres peuvent venir aussi d’une baisse de la C°. Les 2 grands moteur de la DG= C° finale + investissement 
+
+
+
+L’investissement joue un rôle dans la DG : 
+
+
+
+Hausse de l’investissement 🡺 hausse de la production🡺 hausse du revenu 🡺 hausse de la C° 🡺 hausse de la production🡪  hausse de l’emploi🡪 baisse du chômage🡺   hausse de l’investissement 
+
+
+
+
+
+Le TES (tableau entrées sorties) 
+
+
+
+Le TES permet d’analyser le processus productif d’une économie, il met en évidence les relations techniques qu’entretiennent les différentes branches de l’économie par le biais de leurs échanges de produits au titre des consommations intermédiaires, ainsi qu’une présentation synthétique des équilibres emplois/ressources pour chacun des produits.
+
+
+
+
+
+Présentation du TES 
+
+
+
+La notion de branche économique 
+
+
+
+Le TES décrit les opérations portant sur des biens et des services par produits (ligne) et par branches (colonne)
+
+
+
+Une branche regroupe des unités de production homogène. Traditionnellement on distingue la branche agricole, industrielle et la branche des services
+
+
+
+L’équilibre des ressources et des emplois de produits dans le TES
+
+
+
+On retrouve l’équilibre des ressources et des emplois, on va donc retrouver l’équation :
+
+P+M+I – SP = CI + CF + FBCF+ delta S + X + A
+
+Cette égalité emploi/ressource peut se décomposer dans le TES par produit et par branche.
+
+
+
+Ressource en produit= entrée intermédiaire + emploi final de produit 
+
+Ressource en produit= M + X + 
+
+
+
+Entrée intermédiaire= CI en diffèrent produit des diff branche + CF + FBCF + delta S + acquisition d’objet de valeurs + 
+
+
+
+
+
+Description du TES 
+
+
+
+Le TES va se présenter comme un ensemble articulé de diff tableau :
+
+
+
+Le TRP = tableau des ressources en produits : chaque lignes correspond à un produit (produit agricole, industrielle et service) et chaque colonne va correspondre à un type de ressource pour les diff produits 
+
+
+
+Le TEI= tableau des entrées intermédiaires= cœur du TES. Il va décrire les relations d’interdépendance entre les branches 
+
+
+
+Le TEF= tableau final de produits= ici les profits peuvent être utiliser au titre de la CF, servir à la FBCF, être stockés, être acquis ou cédés en tant qu’objet de valeur et être exportés
+
+
+
+Le CPPB= compte de production et d’exploitation des branches= va permettre de calculer la valeur ajouté brut de chaque branche : on fait VAB= production de la branche- CI de la branche 
+
+
+
+PIB sommes des VA des diff branches de l’éco 
+
+
+
+
+
+
+
+Utilisation du TES 
+
+
+
+Le TES = instrument de description du système productif par l’intermédiaire du tableau des entrées intermédiaires (tableau centrale). Ce tableau centrale met en évidence l’interdépendance des branches cad que certaines branches consomment bcp de CI donc elles sont interdépendantes par ex : branche agricole et industrielles via l’agroalimentaire.
+
+De fait, Si on est interdépendant on va avoir une branche motrice qui va être dépendante des autres branches et qui va jouer un rôle moteur (influencer les autres). 
+
+
+
+Inversement, il y a des branches qui ne sont pas dépendantes des autres branches (consomment peu de CI).
+
+
+
+Si le prix des CI augmentent et qu’on est fortement dépendant de CI, on va aussi être dépendant du prix des CI, donc cette hausse va se répercuter sur le prix de vente de la branche en question par ex : les branches qui consomment bcp d’énergie (automobile, agroalimentaire..)
+
+
+
+
+
+Le TES= instrument de prévision macroéco 
+
+Ca veut dire que si on fait l’hypothèse de la stabilité de la structure productive, on peut prévoir grâce au TES quelle sera la répercussion en chaine d’une augmentation de la production d’une branche sur l’activité des autres branches ou encore d’un accroissement de la CF sur l’ensemble du système productif (PIB).
+
+
+
+Pour prévoir la production d’une année n + 1 en fonction de la structure de la production de l’année n, on va élaborer ce que l’on appelle une matrice des coefficients techniques.
+
+
+
+La matrice des coef techniques se calcul à partir d’un coef technique. On l’appelle a indice i,j 
+
+aij= Cij / P (j)        CI en produit i de la branche j, divisé par la production de la branche j. 
+
+
+
+Cela représente la part 
+
+
+
+
+
+
+
+On divise le total de consommation de la branche divisé par la production : 20/200= 0,1= 10%
+
+
+
+
+
+
+
+CC sur la première partie : 
+
+
+
+La comptabilité nationale est établie sur la base de convention déterminé à la x par des chois théoriques (théorie keynésiennes : agrégats + circuit) et des contraintes statistiques 
+
+La CN ne peut pas tout décrire et ne peut pas tout mesurer et parfois elle mesure imparfaitement les phénomènes économiques. On peut penser aux critiques adressé au principal agrégat de la CN : le PIB.
+
+
+
+Nous avons vu que c’est un instrument qui reste insuffisant pour évaluer le bien-être d’une population. Un certain nombre de recommandations ont été faite a partir de la commission stiglitz et en particulier d’utiliser des agrégats plus qualitatifs comme l’IDH, indicateurs sociaux (sur inégalités, lien social) et environnementaux (empreinte écologique). Il faut intégrer la dimension humaine du dvlpmt dans la mesure du bien-être d’une population

@@ -1,0 +1,54 @@
+UNIVERSITE DE LORRAINE
+
+LS
+
+UFR DROIT ECONOMIE ET ADMINISTRATION - LICENCE 1 ECONOMIE
+
+L A
+
+STATISTIQUES DESCRIPTIVES
+
+M
+
+Novembre 2024
+
+QUESTIONS A CHOIX MULTIPLES (30 minutes)
+Consignes : L’épreuve comporte deux parties. Elle est notée sur 21 points.
+
+Partie 1 : questions de cours (5 points)
+Chaque réponse juste vaut 1 point, chaque mauvaise réponse vaut -0,5 point.
+
+1. Ilf-10xiv = A. 2x, +2x, +4
+(S n°a- I, xivi B. x +X%
+a: nl 1xL+a'nÿ=1Yi © 4x; — 4
+0—j 4 X1 Vj Dn
+ù E Parmi les exemples suivants, lequel est un
+caractère qualitatif ordinal ?
+2. Qu'est-ce que l’amplitude totale ? A. Lataille d'une personne (en centimètres)
+® La différence entre la plus grande et la plus B. Letype de voiture (berline, SUV, etc.)
+petite valeur de la série C. Le nombre d'enfants dans une famille
+La somme des valeurs . Le niveau de satisfaction d’un client
+L’ensemble d’éléments homogènes auxquels 5. La formule de Sturge pour déterminer le nombre
+on s'intéresse de classe d’une distribution est
+
+D. L’ensemble des individus de l’échantillon , ä k = 1 + [3,3 x log10(n)]
+‘[ v =— 2,5Vn
+
+4 In (n)
+L’extension de H ?,(2x; — 2) est égale à : Urg m C. k2S @)
+
+(axi-2) (Qai-t) - Qx,_ Ëî{4—‘17(A*q
+
+Partie 2 : exercice (16 points) = es ! $ (Q'63 -_—_ arL = ?q6 +61 = QX'( = c…(ﬂ —(1
+
+Une seule réponse est possible. Chaque réponse juste vaut 2 points, chaque mauvaise réponse vaut -1 point.
+
+Une étude recense les taux de remplissage pour 30 formations proposées par une université. Les valeurs obtenues après arrondi
+sont les suivantes :
+
+Note : log10(30) — 1,48 et 301* — 2,34
+
+6. Selon la règle de Yule, combien de classes
+faut-il pour regrouper la série ?
+11
+

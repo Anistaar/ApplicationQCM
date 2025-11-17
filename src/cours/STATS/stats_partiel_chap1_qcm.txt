@@ -1,0 +1,17 @@
+chapter: Partiels STATS > Chapitre 1 — Notions et collecte
+
+QCM || Une population statistique est || V:l'ensemble des unités sur lesquelles porte l'étude|le sous-ensemble observé|la liste des modalités|un échantillon probabiliste || Définitions de base || Chapitre 1, Définitions, QCM
+QCM || Une variable qualitative ordinale possède || V:un ordre naturel entre modalités|une échelle à intervalles constants|une origine absolue|une mesure en unités continues || Ordinale vs nominale/intervalle/rapport || Chapitre 1, Types, QCM
+QCM || On relève 5 notes: 8, 10, 12, 12, 18. La moyenne vaut || V:12|13|11,5|12,5 || (8+10+12+12+18)/5=60/5=12 || Chapitre 1, Calcul, QCM
+QCM || Sur 50 individus, A=15, B=10, C=25. La fréquence de C est || V:0,5|0,4|0,6|0,45 || 25/50=0,5 || Chapitre 1, Fréquences, QCM
+QCM || L'erreur d'échantillonnage diminue surtout avec || V:une taille d'échantillon plus grande|la simple suppression des biais de mesure|un questionnaire plus long|le tirage par convenance || Variance ↓ avec n ↑, pas les biais || Chapitre 1, Échantillonnage, QCM
+QCM || Une question orientée dans un questionnaire induit || V:un biais systématique|une variance plus faible seulement|une meilleure précision|un échantillon plus aléatoire || Biais de mesure (pas corrigé par n) || Chapitre 1, Biais, QCM
+QCM || Échelle « rapport »: exemple correct || V:revenu en euros|température en °C|rang dans une course|catégorie socio-professionnelle || Rapport: origine absolue et ratios interprétables || Chapitre 1, Échelles, QCM
+QCM || 30 réponses valides sur 40, 10 inexploitables. Le taux de réponse valide sur 50 envois est || V:60%|75%|50%|80% || 30/50=60% || Chapitre 1, Taux, QCM
+QCM || Une bonne pratique de collecte est || V:pré-test du questionnaire|bannir toute source|ignorer les non-réponses|tirer par convenance || Méthodologie d'enquête || Chapitre 1, Collecte, QCM
+QCM || On code une variable ordinale (1 à 5) et on calcule une moyenne. On doit || V:interpréter prudemment la moyenne|interdire le calcul|considérer des intervalles constants|remplacer par la médiane systématiquement || Limite de l'ordinale || Chapitre 1, Échelles, QCM
+QCM || Σx_i/n correspond || V:à la moyenne arithmétique|à la variance|au mode|au coefficient de variation || Rappel opérateur somme || Chapitre 1, Opérateurs, QCM
+QCM || On observe n=100, p(A)=0,3. L'effectif attendu de A est || V:30|70|3|33 || np = 30 || Chapitre 1, Effectif attendu, QCM
+QCM || Un échantillonnage stratifié proportionnel vise || V:à réduire la variance si les strates sont homogènes|à augmenter les biais|à ignorer les sous-populations|à maximiser la non-réponse || Stratification: homogénéité intra, hétérogénéité inter || Chapitre 1, Strates, QCM
+QCM || L'objectif de la statistique descriptive dans ce cours est || V:de synthétiser et visualiser l'information|de prouver la causalité|de modéliser la dynamique stochastique|de fixer les prix || Focus descriptif || Chapitre 1, Descriptive, QCM
+QCM || La source dans un graphique ou un tableau || V:doit être mentionnée|est facultative|remplace la note de lecture|se met seulement en annexe || Transparence des données || Chapitre 1, Communication, QCM

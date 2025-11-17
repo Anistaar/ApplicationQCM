@@ -51,6 +51,8 @@ const elsExtra = {
   planFilter: $('#plan-filter') as HTMLInputElement | null,
   folderStatsCard: $('#folder-stats-card') as HTMLDivElement | null,
   folderStats: $('#folder-stats') as HTMLDivElement | null,
+  courseStatsCard: $('#course-stats-card') as HTMLDivElement | null,
+  courseStats: $('#course-stats') as HTMLDivElement | null,
 };
 
 /* =========================
@@ -143,6 +145,7 @@ function populateMatiereAndCourseSelects() {
       populateCourseSelect(folder);
       renderPlanForFolder(folder);
       renderFolderStats(folder);
+      renderCourseStats(state.file);
     });
   }
 
@@ -193,6 +196,8 @@ els.multiCoursToggle?.addEventListener('change', () => {
     els.selectCours.style.display = 'block';
     els.multiCoursCheckboxes.style.display = 'none';
   }
+  // Rafraîchir la visibilité des stats du cours
+  renderCourseStats(state.file);
 });
 
 function createCoursCheckboxes() {
@@ -294,6 +299,9 @@ function populateCourseSelect(folderFilter: string) {
     els.selectCours.appendChild(opt);
     return;
   }
+  // Conserver la sélection précédente si elle appartient encore au filtrage
+  const previous = state.file;
+  let keepSelection = filtered.some(c => c.path === previous);
   for (const c of filtered) {
     const opt = document.createElement('option');
     // Use the full path as the value so it's unique across folders
@@ -301,10 +309,15 @@ function populateCourseSelect(folderFilter: string) {
     opt.textContent = `${c.label}${folderFilter ? '' : ` (${c.folder})`}`;
     els.selectCours.appendChild(opt);
   }
-  // sélection par défaut première entrée
-  els.selectCours.value = filtered[0].path;
-  state.file = filtered[0].path;
-  loadCourseForThemes(state.file);
+  if (keepSelection) {
+    els.selectCours.value = previous;
+  } else {
+    // sélection par défaut première entrée si l'ancien ne matche pas
+    els.selectCours.value = filtered[0].path;
+    state.file = filtered[0].path;
+  }
+  loadCourseForThemes(els.selectCours.value);
+  state.file = els.selectCours.value;
   
   // Si on est en mode multi, recréer les checkboxes avec les nouveaux cours
   if (els.multiCoursToggle?.checked) {
@@ -312,6 +325,8 @@ function populateCourseSelect(folderFilter: string) {
   }
   // Mettre à jour le plan
   renderPlanForFolder(folderFilter);
+  // Mettre à jour les stats du cours initial
+  renderCourseStats(state.file);
 }
 
 els.selectCours?.addEventListener('change', () => {
@@ -319,6 +334,7 @@ els.selectCours?.addEventListener('change', () => {
   loadCourseForThemes(state.file);
   // Sélection dans le plan: met en surbrillance l'élément correspondant
   highlightPlanSelection(state.file);
+  renderCourseStats(state.file);
 });
 
 function loadMultiCoursesForThemes() {
@@ -400,29 +416,21 @@ function renderPlanForFolder(folderFilter: string) {
     for (const c of list) {
       const title = c.chapterFull || c.label;
       if (query && !title.toLowerCase().includes(query)) continue;
+      // Count unique questions for this course
+      const qCount = (() => {
+        try { return dedupeQuestions(parseQuestions(c.content)).length; } catch { return 0; }
+      })();
       const item = document.createElement('div');
       item.style.border = '1px solid var(--brd)';
       item.style.borderRadius = '8px';
       item.style.padding = '8px';
       item.style.cursor = 'pointer';
       item.dataset.path = c.path;
-      const st = computeCourseStats(c);
-      const accPct = st ? Math.round((st.sumSeen>0?Math.min(1,Math.max(0, st.sumCorrect / st.sumSeen)):0)*100) : 0;
-      const seenPct = st && st.total>0 ? Math.round((st.seen / st.total) * 100) : 0;
-      const duePct = st && st.total>0 ? Math.round((st.due / st.total) * 100) : 0;
-      const avgTime = st && st.avgTimeMs ? `${Math.round(st.avgTimeMs/100)/10}s` : '—';
       item.innerHTML = `
         <div style="display:flex; justify-content:space-between; align-items:center; gap:8px">
           <div style="min-width:0">
             <div style="font-weight:600">${escapeHtml(title)}</div>
-            <div style="font-size:12px; color:var(--muted)">${escapeHtml(c.folder)} · ${escapeHtml(c.file.replace(/\.txt$/i, ''))}</div>
-          </div>
-          <div style="display:flex; gap:8px; row-gap:4px; align-items:center; justify-content:flex-end; flex-wrap:wrap; min-width:0">
-            <span class="badge" title="Questions">Q: ${st?.total ?? '—'}</span>
-            <span class="badge" title="Vu (historique global)">Vu: ${st?.seen ?? '—'} <small class="muted">(${seenPct}%)</small></span>
-            <span class="badge" title="Dues maintenant">Dues: ${st?.due ?? '—'} <small class="muted">(${duePct}%)</small></span>
-            <span class="badge" title="% de réussite (global)">${accPct}%</span>
-            <span class="badge" title="Temps moyen (global)">${avgTime}</span>
+            <div style="font-size:12px; color:var(--muted)">${escapeHtml(c.folder)} · ${escapeHtml(c.file.replace(/\.txt$/i, ''))} · ${qCount} question${qCount>1?'s':''}</div>
           </div>
         </div>
       `;
@@ -442,6 +450,7 @@ function renderPlanForFolder(folderFilter: string) {
           els.selectCours.value = c.path;
           loadCourseForThemes(c.path);
           highlightPlanSelection(c.path);
+          renderCourseStats(c.path);
         }
       });
 
@@ -519,56 +528,19 @@ function renderFolderStats(folder: string) {
   const card = elsExtra.folderStatsCard;
   const root = elsExtra.folderStats;
   if (!card || !root) return;
+  // Désactivé sur l'écran de sélection: masquer la carte systématiquement
+  card.style.display = 'none';
+  root.innerHTML = '';
+}
 
-  if (!folder) {
-    card.style.display = 'none';
-    root.innerHTML = '';
-    return;
-  }
-
-  const agg = computeFolderStats(folder);
-  if (!agg) { card.style.display = 'none'; root.innerHTML = ''; return; }
-
-  card.style.display = 'block';
-
-  const acc = agg.sumSeen > 0 ? Math.max(0, Math.min(1, agg.sumCorrect / agg.sumSeen)) : 0;
-  const accPct = Math.round(acc * 100);
-  const avgTime = (agg.avgTimeMs && agg.avgTimeMs > 0) ? `${Math.round(agg.avgTimeMs / 100) / 10}s` : '—';
-  const seenPct = agg.total > 0 ? Math.round((agg.seen / agg.total) * 100) : 0;
-  const duePct = agg.total > 0 ? Math.round((agg.due / agg.total) * 100) : 0;
-
-  const badge = (() => {
-    if (agg.total === 0) return '<span class="badge">Aucun contenu</span>';
-    if (accPct < 50 || duePct >= 40) return '<span class="badge danger">À prioriser</span>';
-    if (accPct < 70 || duePct >= 20) return '<span class="badge warn">À réviser</span>';
-    return '<span class="badge ok">Solide</span>';
-  })();
-
-  root.innerHTML = `
-    <div class="folder-stats-grid">
-      <div class="stat">
-        <div class="label">Questions</div>
-        <div class="value">${agg.total}</div>
-      </div>
-      <div class="stat">
-        <div class="label">Vu</div>
-        <div class="value">${agg.seen} <small class="muted">(${seenPct}%)</small></div>
-      </div>
-      <div class="stat">
-        <div class="label">Dues</div>
-        <div class="value">${agg.due} <small class="muted">(${duePct}%)</small></div>
-      </div>
-      <div class="stat">
-        <div class="label">Réussite</div>
-        <div class="value">${accPct}%</div>
-      </div>
-      <div class="stat">
-        <div class="label">Temps moyen</div>
-        <div class="value">${avgTime}</div>
-      </div>
-      <div class="stat" style="align-items:flex-end">${badge}</div>
-    </div>
-  `;
+// ---- Statistiques du cours sélectionné ----
+function renderCourseStats(filePath: string) {
+  const card = elsExtra.courseStatsCard;
+  const root = elsExtra.courseStats;
+  if (!card || !root) return;
+  // Désactivé sur l'écran de sélection: masquer la carte systématiquement
+  card.style.display = 'none';
+  root.innerHTML = '';
 }
 
 // ---- Statistiques par cours ----
@@ -715,8 +687,10 @@ function renderFilesGridForFolder(folder: string, list: typeof courses) {
       card.style.borderRadius = '6px';
       card.style.background = 'transparent';
       card.dataset.path = c.path;
+      const qCount = (() => { try { return dedupeQuestions(parseQuestions(c.content)).length; } catch { return 0; } })();
       card.innerHTML = `
         <div style="font-weight:600; margin-bottom:6px">${escapeHtml(c.label)}</div>
+        <div style="font-size:12px; color:var(--muted); margin-bottom:6px">${qCount} question${qCount>1?'s':''}</div>
         <div style="display:flex; gap:6px">
           <button class="secondary fb-view">Voir</button>
         </div>
@@ -1555,6 +1529,8 @@ function bindValidateAndNext(q: Question) {
       // Rafraîchir les stats de la matière sélectionnée en arrière-plan
       const folder = els.selectMatiere?.value || '';
       if (folder) renderFolderStats(folder);
+      // Rafraîchir les stats du cours sélectionné (si en mode simple)
+      renderCourseStats(state.file);
       state.corrige = true;
       render();
       mountFloatingNext(true);
@@ -1564,6 +1540,7 @@ function bindValidateAndNext(q: Question) {
       updateStatAfterAnswer(q, correct, sev, (ua as any).timeMs);
       const folder = els.selectMatiere?.value || '';
       if (folder) renderFolderStats(folder);
+      renderCourseStats(state.file);
       suivant();
     }
   });
@@ -1898,6 +1875,7 @@ function exitActiveMode() {
   // Mettre à jour les stats matière à la sortie
   const folder = els.selectMatiere?.value || '';
   if (folder) renderFolderStats(folder);
+  renderCourseStats(state.file);
 }
 
 // Sécurité: garantir que l'UI de sélection est visible au chargement initial

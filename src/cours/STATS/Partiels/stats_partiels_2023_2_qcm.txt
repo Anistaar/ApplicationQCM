@@ -1,0 +1,12 @@
+chapter: Partiels STATS > 2023 — Partiel 2 (Novembre)
+
+QCM || La proportion d’observations strictement supérieures à x est || V:1 − F(x)|F(x)|f(x)|F(x) − f(x) || Fonction de répartition || Partiels 2023, Partiel 2, Chapitre 1, QCM
+QCM || Les fréquences cumulées décroissantes à partir de la classe k sont || V:Σ_{i≥k} f_i|Σ_{i≤k} f_i|f_k|1 − f_k || FCC décroissante || Partiels 2023, Partiel 2, Chapitre 1, QCM
+QCM || La note médiane est celle qui || V:coupe la distribution en deux parts égales|maximise la densité|minimise la variance|est la plus fréquente || Définition médiane || Partiels 2023, Partiel 2, Chapitre 3, QCM
+QCM || L’étendue interquartile (IQR) est || V:Q3 − Q1|max − min|σ|σ² || Mesure robuste de dispersion || Partiels 2023, Partiel 2, Chapitre 4, QCM
+QCM || Si l’on multiplie toutes les valeurs par k>0, la variance devient || V:k² × variance|k × variance|variance + k|variance/k || Homogénéité || Partiels 2023, Partiel 2, Chapitre 4, QCM
+QCM || Diagramme adapté pour parts d’un total (catégories) || V:camembert|histogramme|nuage de points|boîte à moustaches || Choix graphique || Partiels 2023, Partiel 2, Chapitre 2, QCM
+QCM || Échelle ordinale: statistique recommandée pour position || V:médiane|moyenne arithmétique|moyenne géométrique|écart-type || Nature ordinale || Partiels 2023, Partiel 2, Chapitre 3, QCM
+QCM || Un échantillon aléatoire simple de taille n signifie || V:tirage équiprobable sans biais|tirage de commodité|quotas|volontariat || Échantillonnage || Partiels 2023, Partiel 2, Chapitre 1, QCM
+QCM || Fréquence d’une classe « 60 à 70% » notée f_{60-70} se calcule comme || V:effectif de la classe / n|effectif cumulés croissants|n/total|1 − F(70) || Définition || Partiels 2023, Partiel 2, Chapitre 1, QCM
+QCM || Densité d’une classe [a;b[ de largeur L=b−a est || V:effectif/L|effectif|fréquence|moyenne de classe || Histogramme (densité) || Partiels 2023, Partiel 2, Chapitre 2, QCM

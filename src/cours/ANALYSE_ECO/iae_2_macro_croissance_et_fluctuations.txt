@@ -1,0 +1,943 @@
+CH : 1 : croissance et fluctuations
+
+
+
+La croissance économique 
+
+
+
+Définitions, mesures et limites
+
+
+
+Définition de la croissance
+
+
+
+La croissance c’est « l’augmentation soutenue d’une ou plusieurs période longues d’un indicateur de dimension pour une nation, le produit global nette en terme réel » F. Perroux
+
+
+
+Ce qui marque la croissance c’est une forte croissance : le cas pdt les 30 glorieuses. Ne doit pas être un phéno conjoncturelle mais durée à LT mais ne peut pas durer tjs car il y a des périodes de crise donc éco= période de cycle 
+
+
+
+
+
+ la mesure 
+
+
+
+Le produit global en terme réel= PIB réel (enlevé effet de l’inflation)
+
+La mesure de la croissance= a partir du PIB qui est= sommes de VA des diff branches de l’éco  
+
+En sachant que VA= P - CI 
+
+On distingue PIB en valeur et PIB en volume 🡪 enlevé effet de l’inflation 
+
+
+
+Habituellement on fait la différence entre croissance extensive et croissance intensive :
+
+
+
+croissance extensive= Quand la production provient d’une hausse des facteurs de production (K et L) 
+
+
+
+Croissance intensive = Par contre quand la croissance provient d’une meilleure organisation du travail par ex : le taylorisme, le fordisme ou encore va se traduire par une augmentation des gains de productivités.
+
+
+
+
+
+Les limites 
+
+
+
++ de croissance éco ne veut pas dire forcément + de bien-être 
+
++ de croissance éco= + pollution et + pression sur matière premières et + réchauffement climatique🡪 + dérèglement climatique 
+
+
+
++ de CE ne veut pas dire + de richesse personnel, elle ne profite pas à tous les individus
+
+
+
+D’une part, le PIB ne mesure pas bien le bien-être, d’où la recherche d’indicateur alternatif comme l’IDH ou indice de bien-être
+
+Le PIB ne mesure une partie de la richesse : pas le travail domestique, évasion fiscales, p° illégale, effet externe négatif 
+
+
+
+
+
+
+
+Les grandes phases historiques de la croissance
+
+
+
+L’économiste Maddison a publié en 2001 une grande étude sur la CE mondiale. Il va distinguer 5 phases de croissance. Dans son intro, il montre que la richesse produite/hab. a été multiplié par 33 entre le début du XVème siècle et la fin du XXème :
+
+
+
+La croissance économique au XIXème
+
+
+
+1ère phase : 1820- 1870 : au centre de l’éco = empire britannique = moteur de l’éco européenne.
+
+A l’époque la croissance de l’éco européenne représentait plus de 60% de la croissance mondiale. Celle-ci est impulsé par la GB (inventait chemin de fer, métallurgie, textile + 1ère flotte mondiale de l’époque + « le soleil ne se couche pas sur l’empire britannique » + richesse provient de l’inde). On est dans un contexte de libre-échange, fin des taxes qui a favorisé la CE ntmt anglaise. Donc dvlpmt du Commerce internationale.
+
+
+
+2ème phase : 1870-1913 : l’apogée de l’Europe (entre 2 guerres (franco-Prus/GM) : période de prospérité éco). Cette prospérité est dû à 3 puissances européennes : GB, France, Allemagne + chemin de fer= facteur important de la CE. On aussi l’aspect puissance financière, en particulier les capitaux anglais vont irriguer l’éco mondiale : livre sterling= 1ère monnaie du monde.
+
+
+
+
+
+2) la croissance au XXème siècle 
+
+
+
+La période 1913-1950
+
+
+
+1913-1945 : conséquence de la 1GM qui va réduire les taux de croissance au niv mondiale mais aussi la crise de 1929 et ses conséquences. La puissance américaine s’explique par le progrès technique, innovation mais aussi par le développement de nouvelle technique de commercialisation (marketing, publicité) ajouté à ça la standardisation des produits qui est particulièrement net dans l‘automobile. C’est le taylorisme fordisme appliqué à l’industrie. On va passer d’une régulation concurrentiel (par les marchés) a une régulation fordiste cad c’est la production et consommation de masse et sur un état qui est maintenant interventionniste et la justification de cette intervention est une justification keynésienne. On a aussi le rôle des syndicats qui protège les salariés (augmentation des droits syndicales/salariaux, hausse des salaires, amélioration des conditions de travail) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La période de 1950-1973
+
+
+
+= période des trente glorieuses 🡪 qualifié ainsi par Jean Fourastié (éco français) 
+
+C’est un âge d’or économique sans précédent. 
+
+Par ex : EU augmentation substantielle. Le PIB croit mais à un niveau mondial 
+
+Les Américains mettent en place un nouveau SMI (système monétaire international) dès 44 avec les accords de Bretton Woods qui vont consacrer le dollar comme réserve/monnaie international.  On a aussi le GATT qui va favoriser le libre échange à partir de 1947. Période de changement d’institution qui vont promouvoir la coopération, croissance éco c’est aussi le premier traité européen, la CECA (charbon et acier européen) mais surtout le traité de Rome en 1957, le 25 mars, qui va créer la CEE (communauté économique européenne). 
+
+
+
+Ce sont les USA qui assument leur rôle de meneur politique économique et militaire, ils vont diffuser largement les dollars à travers le monde pour financer la reconstruction. Parallèlement, les politiques keynésienne sont mené dans tous les pays développés, on recherche a assuré le plein-emploi mais aussi a partagé les gains de productivité qui sont favorable aux salariés et donc à la demande 
+
+
+
+Se met en place, sous l’impulsion des idées keynésiennes, l’état providence (état qui vient au secours du citoyen, instauration d’une protection sociale : assurance maladie et chômage qui contribue à solvabiliser la D donc un des facteurs qui expliquent la croissance des 30 glorieuses)
+
+On a des perspectives favorables aux développement des investissement qui atteignent des niveaux record et qui sont financés grâce au développement bancaire = intermédiation bancaire et aux politiques de crédit (favorable a la C° et à l’I) 
+
+
+
+La période 1973- fin du XXème 
+
+
+
+Remise en question de l’économie. Après cette période de forte croissance, le premier choc pétrolier de 1973 va marquer un retournement de tendance. Ce choc va se traduire par une augmentation du prix du pétrole qui va se diffuser à l’ensemble de l’éco qui va se traduire aussi par de l’inflation🡺 accélération inflation🡺 baisse du pouvoir d’achat qui va plus pouvoir alimenter les moteurs de la croissance des 30 glorieuses 
+
+
+
+Le chômage commence à augmenter. Le plein-emploi et la croissance ne sont plus l’objectif majeur des Pol économiques qui vont se concentrer sur la lutte contre l’inflation 
+
+On va avoir une politique monétariste qui va réduire la croissance car on va augmenter les taux d’intérêt pour combattre inflation mais = moins de croissance 
+
+
+
+Dans les pays développé, le taux de chômage qui était de 2,4% en moyenne on passe après me premier choc. A un taux de chômage qui frôlent les 7%
+
+
+
+On a aussi un retournement des doctrines économiques : les idées keynésienne sont rejetés. En effet on a la fois le chômage et l’inflation = stagflation (idées keynésienne ne savent pas combattre les deux que sous-emploi, chômage) mais les thèses libérales vont reprendre le dessus pour combattre l’inflation. 
+
+
+
+On a aussi de grand chgmt politique= disparition du modèle soviétique et on va aboutir à la victoire de l’éco de marché à travers le monde même la chine populaire se convertit à « l’économie socialiste de marché » 
+
+
+
+On a eu le 2ème choc pétrolier en 1979 qui va encore accélérer la dégradation de la conjoncture économique et la crise de subprimes de 2007-2008 qui trouve son origine dans une économie financiarisé complètement incontrôlés 
+
+
+
+
+
+CCL : si on veut caractériser la fin du XX et début du XXI on doit insister sur des évolutions majeurs
+
+Mondialisation de l’économie ; les échanges internationaux se développent de manière spectaculaires. Ces échanges augmentent 2x plus rapidement que celle du PIB mondial 
+
+
+
+Les flux financier se développent 2x plus vite que les échanges de marchandises. On a la globalisation financière qui est le résultat de 30 ans de dérèglementation cad qu’on a favoriser la circulation des capitaux financiers et cette circulation est accéléré par les nouvelles technologies de l’info et de la com qui autorisent les transactions en temps réel. 
+
+
+
+Cette globalisation rend l’éco de + en + instable. La crise de 2008 en est la preuve 
+
+
+
+La montée des pays émergents qui contribue bcp à la croissance mondiale. Par ex en 2008, la chine connaissait des taux de croissance de 16 à 18%. On a aussi l’Inde et le Brésil.
+
+
+
+
+
+Les sources de la croissance
+
+
+
+La Croissance éco correspond à une augmentation à long terme du volume de la production. On peut s’interroger légitiment sur l’origine de cette augmentation de la prod°
+
+2 facteurs en sont à l’origine : facteur travail L et facteur capital K 
+
+
+
+Les facteurs travail et capital
+
+
+
+Le facteur travail 
+
+
+
+Si on reprend les éco classiques comme A Smith ou Ricardo voire Karl Marx. Ces éco considèrent que seul le travail est productif de richesse. A l’époque Marx distinguait le travail qui correspond aux quantité d’H passé dans l’entrep pour produire et l’autre qu’il appelle force de travail cad les capacités physiques et intellectuels que le travailleur mobilise dans son travail. Le salarié va louer sa force de travail contre un salaire. 
+
+
+
+Le capitalistes, ceux qui possède K= patron vont extraire à partir de ce travail une valeur supérieur à son cout c’est ce que Marx appelle la théorie de la plus-value 
+
+La plus-value= différence entre la valeur créer par le travailleur et le salaire qui lui est versés 
+
+
+
+Imaginons 15H de travail : seul 5H sont payés 🡺 10H= plus-value et 5H= salaire de subsistance 
+
+
+
+Au niveau macroéco : le facteur L correspond à la quantité de travail qui prend en compte le nombre de travailleurs mobilisés dans une activité rémunéré (travail payant). On parle de la population active occupé. 
+
+
+
+Dans une économie la quantité de travail est = nombre d’actif occupé X durée annuelle moyenne effective du travail 
+
+
+
+La population active occupé correspond à l’emploi global. Cette croissance de la pop active occupé va dépendre de multiple facteurs en particulier : 
+
+
+
+Facteurs démographiques : solde naturel (= diff entre naissance et décès) mais aussi le solde migratoire (diff entre immigration = partir de son territoire national pour aller à l’étranger) – émigration (venir de l’étranger et s’installer dans un autre pays) 
+
+
+
+D’autres facteurs vont influencer cette pop° active occupé : facteur démographique d’une part et facteur institutionnel d’autre part Ex : scolarité obligatoire + âge légal de la retraite 
+
+
+
+On a aussi le facteur socioéconomique : taux de chômage qui va influencer la pop° mais aussi les taux d’emploi par sexe et par age 
+
+
+
+Taux d’emploi diminue avec l’âge mais très important chez les femmes `
+
+Taux d’emploi= population active occupé/ pop° en âge de travailler X 100 
+
+
+
+
+
+Taux de chômage= nombre de chômeurs/ pop° active X 100 
+
+
+
+On sait que il va varier en fonction de l’âge. Touche en moyenne les + jeunes et + les femmes que les H. + élevés à des âges élevés et touchent + les gens moins qualifiés 
+
+
+
+Il y a aussi la durée légal du travail qui entre en compte = baisse de la durée moyenne du travail (40h au 35H) 
+
+La différence a été compensés par des gains de productivités= utilisations + intenses des machines 
+
+
+
+CCL : c’est l’augmentation de la qtité de travail qui explique en partie la croissance économique : + on augmente la qtité de travail + potentiellement on va produire +
+
+On peut mesurer la contribution de la qtité de travail à la croissance économique 
+
+On a bcp utiliser le facteur L au XIXème siècle, on était dans le cadre d’une croissance extensive = croissance augmente par utilisation de + de facteur 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le facteur capital K
+
+
+
+Le K en éco, comprend un certain nombre de terme qui lui sont associés : on fait plusieurs distinctions
+
+On a déjà le K physique ou technique = prend la forme d’un stock de bien servant à la production. Il comprend 2 sous capital : 
+
+
+
+Capital circulant : tout ce qui est détruit au cours de la production (les CI : matières premières et énergie) 
+
+
+
+Capital fixe : stock de bien d’équipement durable : les machines, bâtiments, infrastructures et logiciels 
+
+
+
+
+
+La notion d’investissement= K fixe mais caractérisé par un flux. C’est un flux de nouveau bien d’équipement, bâtiment logiciels qui viennent renouveler le stock de K fixe (cf : baignoire)
+
+On parle d’investissement technique PAS DE placement financier 
+
+
+
+La mesure de l’investissement au niveau macroéco= la FBCF = un agregats 
+
+FBCF= sommes de tous les investi au niveau de la notion (machines, bâtiments, logiciels) 
+
+
+
+La notion d’amortissent : perte de la valeur annuelle d’un investissement, d’un équipement. On tient compte de cette perte de valeur : elle peut être due à l’usure de la machine ou à l’obsolescence =dépassé technologiquement 
+
+
+
+On calcul un amortissement 
+
+
+
+Amortissement= valeur de l’I / durée de vie ex : 10000$/ 10 ans= 1000$
+
+
+
+L’accumulation du K est un facteur très important dans la contribution de la croissance 
+
+Forte corrélation entre accumulation du K fixe et rythme de la croissance 
+
+On a des effets accélérateur et des effets multiplicateur de l’investissement (v TD) 
+
+L’I reste un déterminant principaux de la croissance
+
+
+
+Si on regarde les effets macro de l’investi agit à la fois sur la D et sur l’O de B&S 
+
+
+
+Il agit d’abord sur la D et de 2 façons, tout d’abord il augmente la D de bien équipement adressés aux secteurs des machines-outils ou de la construction ce qui va accroitre la DG et donc à produire plus. 
+
+    La DG c’est la D de B&S mais aussi la D d’Investissement càd de machines 
+
+    Si il y a augmentation de la D d’I ça va permettre d’augmenter la production
+
+
+
+    Cette production nouvelle va se traduire par l’embauche de nouveau travailleur et on     va distribuer + de salaires, + de revenu et les salariés vont consommer +, il y aura + de     D a satisfaire et + de production en retour et donc + de croissance économique 
+
+
+
+
+
+Invest agit sur O de produit de plusieurs façons : 
+
+L’augmentation de l’investi va se traduire par une augmentation du stock de K fixe et donc potentiellement de produire +
+
+L’investissement va se traduire par l’achat de machine + performantes prck elles incorporent + de progrès technique, donc une productivité plus grande 
+
+On va avoir un stock de K plus jeune (+ efficace) et donc une production qui va augmenter 
+
+Schéma
+
+
+
+
+
+Les gains de productivités 
+
+
+
+La productivité c’est un rapport entre la production/ les facteurs de productions 
+
+Traditionnellement on distingue la productivité du travail W : P/W
+
+W= peut être H de W ou effectif 
+
+La productivité= mesure de l’efficacité de la production. Ce qui permet d’augmenter la productivité = progrès technique
+
+Productivité= mesure du progrès technique 
+
+
+
+La productivité du K : P/K
+
+De manière générale on calcul la productivité global des facteurs = PGF = production/facteurs W + facteur L   
+
+
+
+De nombreuses études empiriques, en particulier celle de Dubois Carré Malinvaud ont montré que l’essentiel de la croissance provenait de la PGF. 
+
+
+
+On peut dire que c’est bien l’efficacité de la combinaison productive, PGF qui va expliquer en grande partie la croissance éco. Cette hausse de la PGF a été parfois qualifié de résidu car on ne savait pas l’expliquer. C’est Robert Solow qui va donner l’origine de cette PGF qui est le progrès technique. 
+
+
+
+Les gains de productivités qui sont mesurés par la PGF permettent une accélération de la croissance. En effet, ils vont agir sur l’O de produit car ils permettent de produire plus avec autant sinon moins de travailleurs. Ils agissent aussi sur la D de produit car ils permettent de distribuer + de salaire et donc + de pouvoir d’achat. Ce qui va être favorable a la hause de la DG et hausse de la demande de production.
+
+
+
+Qd on produit de manière + efficace🡺 efficacité due a utilisation de machine + performante + meilleur organisation du L 
+
+Progrès technique= progrès organisationnelle= meilleur organisation du L 
+
+
+
+
+
+
+
+
+
+
+
+Le progrès technique 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Distinction entre inventions et innovations : 
+
+
+
+Invention= résultat d’une découverte ou d’une idée nouvelle. Souvent issu de la recherche fondamentale, (=recherche pur) pas mal d’invention n’aboutisse pas à l’innovation
+
+
+
+Innovation= application industrielle et commerciale d’une invention. L’entrepreneur est au centre, il prend un risque  
+
+
+
+Schumpeter, économiste distinguait 5 types d’innovation :
+
+
+
+Innovation de produit 
+
+Nouvelle méthode de production ou de vente (ex : découpe au lasers, vente sur internet) 
+
+Nouvelle organisation de l’entreprises (ex : sous-traitance) 
+
+Nouveau marché pour un produit existant (ex : marché de l’ADN) 
+
+Un nouveau composant intermédiaire pour un produit 
+
+
+
+Progrès technique= sommes des innovations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les inventions et les innovations sont le fruit de la recherche et cela s’exerce à 3 niveaux :
+
+
+
+La recherche fondamental : champs des connaissances scientifiques pur (en maths, physiques…recherche trou noir, ADN) 
+
+
+
+La recherche appliquée est lié à l’origine d’une invention cad d’un procédé technique brevetable. La découverte + recherches sur rayon laser a trouvé plusieurs applications commercial et industriel, en matière de chirurgie, découpe textile et de métal 
+
+
+
+Recherche développement : se fait au sein des entrep. On cherche à mettre au point un produit/procédé directement utilisable (un prototype). C’est souvent le cas en automobile (formule 1). Ca débouche sur un brevet et R&D financé par les entrep.
+
+
+
+On a deux grand types d’innovation :
+
+Innovation de produit : 2 sous parties de sous types :
+
+Innovation radicale= invention a vu d’œil de l’ordi, invention d’internet, repose sur qlq chose de nouveau par rapport à ce qui se faisait avant.
+
+Innovation incrémentale= innovation mineur qui améliore un produit existant par ex : appareil photo dans le portable/ frein ABS sur voiture
+
+Les innovations de produit augmente la D 
+
+
+
+Innovation de procédé 
+
+
+
+Permet une hausse de la productivité 
+
+
+
+En quoi les connaissances scientifiques, progrès technique vont favoriser les gains de productivité et donc la croissance ?
+
+
+
+En économie le progrès technique= accumulation du stock de connaissance
+
+
+
+On constate une corrélation positive entre la croissance des dépenses R&D et la croissance du PIB : + on investit dans la R&D et + on innove et + on a de la croissance donc du PIB 
+
+Tous les grand pays ayant une croissance élevé font de la R&D 
+
++ on fait de la R&D et + il y a croissance de la production (USA, Chine, Europe)
+
+
+
+Cette corrélation peut être lu dans les deux sens : la croissance en R&D a une influence positive sur la croissance de la production, en augmentant le nbr de produit vendu et en augmentant le nbr de produit nvx vendu (ex : portable) ou de nvx services.
+
+
+
+La croissance en R&D va avoir une influence sur les gains de productivité des facteurs de production, elle va les améliorer. On va retrouver ici ces 2 variables : augmentation de la D + hausse de la productivité ce qui permet d’augmenter la croissance éco.
+
+
+
+Dans un autres sens, la croissance de la production va permettre d’augmenter les sommes dispo pour financer R&D (r&d demande des sommes grandes et ce n’est pas rentable directement)
+
+
+
+Les innovations de procédés (organisationnelle) vont influencer favorablement les gains de productivités. Le taylorisme, fordisme, toyotisme.. Sont des organisations qui peuvent augmenter les gains de productivités par 3 facteurs :
+
+
+
+Reduction du temps de fabrication (temps mort) : se fait surtout qd on passe d’une opération à une autre 
+
+Utilisation de machines de + en + performantes : Mécanisation : machines vont + vite que la main de le H
+
+Effets d’apprentissages : anglosaxon appelle le Learning by (apprendre en pratiquant)
+
+
+
+Ces facteurs permettent + de productivité donc abaisser les cout de production et donc de faire + de profit et si + de profit= + de moyen d’investissement donc la R&D
+
+
+
+Progrès technique au centre de la croissance éco cependant le PT a une phase positive mais aussi une phase négative. Selon Schumpeter : « processus de destruction créatrice »
+
+PT créer du nv en détruisant l’ancien, détruisant des emplois anciens. 
+
+
+
+Les innovations par intermédiaire des gains de productivité= source de la croissance.
+
+
+
+On ne peut pas parler de progrès technique sans parler du capital humain :
+
+
+
+Capital humain= ensemble des capacités productives qu’un individu acquière par l’accumulation de ses connaissances ou encore de savoir-faire.
+
+Le CH d’un individu ce sont ses aptitudes, ses talents, ses qualifications et ses expériences accumulés par l’individu.
+
+
+
+On a trop tendance à voir le capital humain que du côté des qualifications et diplômes, c’est un savoir être et savoir-faire.
+
++ de capital humain dans une éco c’est + d’individu qui vont maitriser des systèmes complexes, des machines complexes, ça va contribuer à augmenter les gains de productivité 
+
+
+
+La théorie du capital humain a été mis en évidence par Garry Becker, ça a été repris aussi par les théoricien de la croissance endogène. Becker raisonne comme le fait un microéconomiste classique, pour lui les individus sont rationnelles et ils vont se livrer à ce qu’on appelle un calcul cout-avantage pour augmenter ou non leur capital humain.
+
+
+
+Le cout= cout de la formation= cout monétaire ; cout d’opportunité de continuer ses années d’une année de plus 
+
+Les recettes supplémentaire= retours sur investissement des études que l’on fait qu’on espère avoir par plus tard par un salaire + élevé (salaire corrélé avec un haut niv de format°)
+
+
+
+Donc pour Becker tant que le revenu espéré est supérieur au cout d’une année supplémentaire de formation, l’individu va poursuivre ses études et donc augmenter son capital humain.
+
+On a alors un dilemme bcp influencé par la politique éducative de l’état. 
+
+On se demande si les études supp doivent être gratuite ou pas.
+
+
+
+Pour les éco, Si ces universités sont payantes, l’univ aura bcp + de moyens et pourra attirer les meilleurs profs et étudiants. A l’inverse de l’univ française qui est + pauvre.
+
+Ajd on a des taux d’échecs très élevés, des amphis plein… 
+
+Faire payer uni= étudiants + motivé. On se dit que si on veut + de moyens, il faut augmenter les frais d’inscription. Mais contrepartie serait les bourses 
+
+Aux usa, une grande partie se fait sur les plateformes numériques et non en amphi, ce qui risque d’arriver dans les années à venir. 
+
+On peut dire que les entrep vont devenir parti prenantes de la formation des indiv : elles vont être au centre de la dispense des savoirs.
+
+
+
+Il existe de même une forte corrélation entre le niveau du capital humain et le niveau de PIB par tête. + le niv de richesse de la pop° est faible et + le niv de capital humain est faible et inversement. 
+
+Un pays qui est riche peut consacré + de ressource à l’éducation. 
+
+Ajd ce qui fait la richesse d’un pays c’est sa matière grise et sa jeunesse. 
+
++ de capital Humain🡺 + de richesse et D 🡺 de gains de prod🡺 + de croissance
+
+Les pays émergents ont tout misé sur la formation de l’éducation 
+
+
+
+Une personne plus formé, + éduquée est + productive 
+
+On a des externalités positives avec les connaissances 
+
+
+
+
+
+Le rôle des instituions 
+
+
+
+Leur rôle= tout ce qui est système financier, règle juridique et culture. 
+
+C’est D. North qui va être l’économiste des institutions. La thèse : la croissance ne relève pas seulement aux facteurs économiques mais ça relèvent également des institutions comme les règles juridiques et aussi l’aspect culturel. Il faut un certain état d’esprit pour se lancer dans l’innovation : valorisation du changement, de l’innovation, de la compétition…
+
+L’esprit d’entreprise= qlqn qui est rationnel 
+
+North, il va insister sur les règles et il dit que il y a 2 types de règles : 
+
+
+
+Règles informelles : sanctions, croyance, tradition 
+
+
+
+Règles formelle à suivre dans une société comme les droits et d de propriété. Ces droits vont être hyper important dans une économie développé. North dit que ce sont les sociétés qui ont réussi à mettre en place des institutions efficace qui vont permettre d’avoir des taux de croissance élevé. Pour lui, ce n’est pas par hasard que la révolution industrielle s’est produite en Europe. Pour cela, il faut des règles juridiques ; un droit commercial (éco contractuelle). Les relations éco sont encadrés par le droit ce qui permet la confiance
+
+
+
+C’est l’état qui instaure le droit et en particulier le droit de propriété. Pour que l’échange ait lieu, il faut être certain que la propriété du bien acheté ne sera pas contesté par une autre personne et que les droits du propriétaire soit reconnus. (Lutte contre la contrefaçon) 
+
+
+
+Droit de propriété protège de la spoliation et ça permet l’échange, et c’est bien un cadre règlementaire et un système judiciaire (tribunaux) qui permettent le respect des droits de propriétés. C’est le brevet qui protège l’innovateur sans brevet= pas d’incitation à innover. 
+
+
+
+Les institutions sont également favorable à la croissance. Pas de croissance sans lib politique. Croissance corrélé à la démocratie (participation des citoyens). Il faut aussi un système bancaire, financier. 
+
+
+
+
+
+Les théories de la croissance
+
+
+
+Les économistes classiques et la croissance : une vision pessimiste
+
+
+
+Les économistes classiques en particulier, Ricardo, à la fin du XVIIIème siècle ont proposé une vision pessimiste de l’économie. En effet, tôt ou tard la croissance éco va butter sur l’état stationnaire qui résulte de la loi des rendements décroissants. Cette loi= à l’époque de Ricardo, richesse vient de la terre et il faut déchiffrer et cultiver de nvlles terre qui sont de – en – fertiles 🡺 + de travailleur a l’agriculteur + prix du blé augmente. 
+
+Donc a un moment dans l’éco on arrive à un buttoir qui fait que le travail est de – en – efficace.
+
+
+
+Autre vision de l’éco= Malthus : si la pop° augmente + vite que les ressources, on va avoir – de ressource par habitant 🡺 niv de vie diminue🡺 hausse de la pauvreté 
+
+
+
+L’approche postkeynésienne 
+
+
+
+Le modèle Harrod (1900- 1978) Le modèle Domard (1914- 1997
+
+
+
+On appelle ce modèle le modèle Harrod-Domard : montre que on ne peut pas avoir de croissance équilibré (de long terme). En théorie la croissance n’est équilibré que si on a 2 effets équivalents. On a l’effet de demande qui va dépendre de la consommation et de l’épargne et on a d’autre part ce qu’il appelle l’effet sur l’offre qui dépend du rapport entre la production et le stock de capital.
+
+
+
+L’O et la D vont dépendre de variables exogène au système donc on ne pourra pas avoir égalité (équation équilibré) donc on aura une croissance pas équilibré car O et D dépendent de variables différentes 
+
+
+
+Le modèle néoclassique de la croissance : le modèle de Solow 
+
+
+
+= modèle qui date des années 50 et qui prend la forme du type : Y= f (K ; L). La croissance va dépendre du travail et du K. Solow part sur les hypothèses suivantes : 
+
+
+
+1ère condition : les facteurs de production sont substituables : on peut remplacer l’un par l’autre 
+
+2ème hypothèse : la productivité marginale du K est décroissante 
+
+3ème hypothèse : la totalité de l’épargne est investis 
+
+
+
+
+
+
+
+
+
+CCL du modèle : toute économie à long terme tend vers un état stationnaire. On a un épuisement de la croissance du a des rendements décroissants mais aussi à un épuisement naturelles des ressources. 
+
+
+
+Qu’est ce qui permet de dépasser les rendements décroissants ? le progrès technique
+
+
+
+Mais problème chez Solow= PT est exogène, à l’extérieur du système 
+
+A l’inverse chez les théoriciens de la croissance endogène le PT fait partie intégrante du système éco 
+
+
+
+Les théories de la croissance endogène
+
+
+
+3 économistes : P. Romer, R. Lucas, R. Barro
+
+
+
+1-Moteur de la croissance provient de l’accumulation des connaissances. = théorie de Romer 
+
+Ca veut dire que c’est en produisant qu’une économie accumule des connaissances et cette accumulation des connaissances à des effets externes positifs sur toute l’économie. 
+
+Si connaissances se diffuse🡺 éco + productive🡺 hausse des gains de productivités 
+
+PT est bien endogène au système éco 
+
+
+
+2- R Lucas : Le capital humain est représentatif du stock de connaissance. C’est aussi un facteur endogène de la croissance. On a aussi des effets externes positifs : éducation. Les dépenses publiques doivent être des dép. pour l’éducation
+
++ d’efforts de R&D🡺 + innovation 🡺 + de croissance
+
+Il faut donc investir dans la R&D 
+
+
+
+3-Pour Barro : souligne l’importance de l’investi publique : il faut que état investi bcp pour accroitre le capital humain (de maternelle à univ) mais aussi investir dans la R&D (recherche pv et public) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fluctuations et crises économiques `
+
+
+
+Fluctuations et cycles 
+
+
+
+On constate depuis le 19ème siècle que l’économie est marqué par des tendances longues. On voit apparaitre des périodes d’expansion (de croissance) mais aussi des périodes de stagnation et de replis de la croissance. 
+
+
+
+
+
+En ordonné= PIB 
+
+Trend= tendance : hausse de la croissance 
+
+
+
+Les cycles repérages et mesures 
+
+Distinction entre fluctuation et cycle 
+
+
+
+Fluctuation éco= mouvement d’accélération et de ralentissement du rythme de la croissance 
+
+
+
+Cycle= phase d’expansion suivis d’une phase de contraction puis de reprise qui débouche sur le cycle suivant. Répétitif dans le temps 
+
+Le cycle comprend 4 temps : l’essor, le retournement, la récession et la reprise 
+
+
+
+Les économistes ont distingués 3 grand types de cycles : 
+
+
+
+Les cycles courts/ cycles Kitchin : ils sont d’une durée de 36 à 48 mois mises en évidence dès les années 20 par J. Kitchin. Ces cycles s’expliquent principalement par des variations des stocks des entreprises. Cad que qd entrep ont trop de stock elles n’arrivent pas à vendre. 
+
+
+
+Les cycles majeurs/ Juglar : découvert en 62 par C. Juglar. Ce sont des cycles qui vont de 8 à 10 ans. Ils sont liés aux variations de l’investissement 
+
+
+
+Les cycles longs/ Kondratiev : du nom de l’économiste en 1928. Ont une durée de vie entre 48 ans et 55 ans. Ces cycles vont être réinterprété par Schumpeter 
+
+
+
+
+
+
+
+Les explications des cycles 
+
+
+
+Les explication endogène du cycle 
+
+
+
+On a de nombreuse variable : 
+
+
+
+ Ça peut aller de la variation des stocks. 
+
+Les cycles de crédit et de spéculation. A l’inverse dans les périodes de crise, on a un rationnement des crédits. 
+
+Les cycles de productivité
+
+Le PT placé au centre des cycles long de l’éco. Pour Schumpeter dans la période de croissance du cycle on a l’introduction d’une innovation majeur qui va déclencher toute une série d’innovation lié (grappe d’innovations) par ex : machine à vapeur, électricité… Dans la phase de crise on a un épuisement de la technologie par ex : vapeur remplacé par moteur à explosion 
+
+
+
+
+
+Les explications exogène du cycle 
+
+
+
+On va avoir les chocs externes sur l’économie. Les crises sont créés par des chocs externes. 
+
+
+
+Ca peut être un choc d’offres cad que l’O va changer brutalement. Par ex : choc pétroliers 73 et 79 : producteurs décident d’augmenter prix du pétroles 🡺 tous les prix augmentent 🡺 hausse des couts de production.  
+
+Le changement climatique est un choc d’offre : montée des eaux, hausse des températures🡺 influence négative sur l’économie
+
+
+
+On peut avoir aussi des chocs de demande 🡺 ca va modifier la D globale 
+
+La DG= C+I+ G+X
+
+On peut avoir un choc sur les exportations= - exporter car problème climatique, de guerre… qui vont peser sur nos exportations.
+
+
+
+
+
+Une succession de crises économiques
+
+
+
+Les grandes crises au cœur des mouvements longs
+
+
+
+Ca correspond au point de retournement du cycle économique.
+
+On constate que à l’origine on a les crises d’ancien régime cad les crises du 17-18ème siècle qui naissent dans l’agriculture. Souvent ce sont des crises dues aux aléas climatiques, à des causes exogène qui provoquent une mauvaise récolte alimentaire🡺 bcp de famine car prix élevé.
+
+On est passé à des crises industrielles au 19ème siècle, elles sont dues à la spéculation financière : on va spéculer sur les chemins de fer… 
+
+
+
+On a souvent un mélange des crises agricoles et industrielles : crise agricole 🡪  - de revenu (monde agricole qui achètent)🡺 achètent – de biens industriels 🡺 crise industrielle
+
+
+
+
+
+Les deux grandes crises du XXème 
+
+
+
+La crise des années 30
+
+
+
+Crise de 1929 aux usa= crise des crises
+
+Elle commence par une crise boursière : krach du 24 oct 1929. Celui-ci se transforme en panique boursière et il va être suivis de défaillance bancaires.
+
+Les entrep ont surproduit 🡪 O > D = crise industrielle 
+
+Spéculation a joué un rôle majeur (crise nait dans la finance). Ce qui a aggravé c’est que on pouvait spéculer en achetant des actions à crédit : crédit fournis par les banques 
+
+Crise passé de la finance à la banque.
+
+
+
+Comme on est dans une éco libéral (état n’intervient pas) ça va aggraver la crise.

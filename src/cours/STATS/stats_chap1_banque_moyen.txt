@@ -1,0 +1,16 @@
+chapter: Chapitre 1 > Notions statistiques et collecte des données
+
+# Moyens (Diff: Moyen)
+VF || Une variable qualitative ordinale possède un ordre naturel entre ses modalités || V || Exemple: taille de vêtements S<M<L<XL; ordre mais pas d'écart mesurable || Diff: Moyen, Chapitre 1, Types de variables
+VF || Un échantillon plus grand réduit systématiquement tous les biais de mesure || F || L'augmentation de n réduit l'aléa (erreur d'échantillonnage) mais pas les biais systématiques || Diff: Moyen, Chapitre 1, Biais vs variance
+
+QR || Une population statistique correspond à || V:L'ensemble des unités sur lesquelles porte l'étude|Le sous-ensemble observé|Uniquement les modalités de la variable || Définitions de base population vs échantillon || Diff: Moyen, Chapitre 1, Définitions
+QR || On relève les notes {8, 12, 12, 16}. La moyenne vaut || V:12|11|12,5 || (8+12+12+16)/4 = 12 || Diff: Moyen, Chapitre 1, Calcul simple
+QR || Sur 40 individus, 12 sont de modalité A, 8 de modalité B, le reste C. La fréquence de C est || V:0,5|0,4|0,3 || Restent 20 individus → 20/40=0,5 || Diff: Moyen, Chapitre 1, Fréquences
+
+QCM || Pour limiter la mauvaise interprétation, on recommande || V:Définitions précises|V:Procédures de collecte homogènes|V:Transparence sur les sources|Suppression des valeurs extrêmes sans justification || Bonnes pratiques de collecte/communication || Diff: Moyen, Chapitre 1, Bonnes pratiques
+QCM || Variable et échelle de mesure: associer correctement || V:Température en °C:Intervalle|V:Revenu:Rapport|V:Catégorie socio-pro.:Nominale|Âge en classes:Nominale || Échelles: nominale/ordinale/intervalle/rapport || Diff: Moyen, Chapitre 1, Échelles
+QCM || On veut une enquête représentative. On privilégie || V:Échantillonnage aléatoire|V:Taille suffisante|V:Questionnaire sans biais|Tirage par convenance uniquement || Principes généraux de représentativité || Diff: Moyen, Chapitre 1, Échantillonnage
+
+DragMatch || Associe le type de variable à un exemple || Nominale:Couleur des yeux, Ordinale:Niveaux de satisfaction, Discrète:Nombre d'enfants, Continue:Taille en cm || Catégorisation classique des variables || Diff: Moyen, Chapitre 1, Types
+DragMatch || Associe opération et objectif || Nettoyage:Traiter valeurs aberrantes, Codage:Passer du texte aux modalités, Saisie:Structurer le fichier, Documentation:Tracer sources et définitions || Composantes du pipeline de données || Diff: Moyen, Chapitre 1, Pipeline

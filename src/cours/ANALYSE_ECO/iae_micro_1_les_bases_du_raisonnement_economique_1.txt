@@ -1,0 +1,529 @@
+CM INTRODUCTION A L’ANALYSE ECONOMIQUE
+
+
+
+CH 1 : les bases du raisonnement économique
+
+
+
+Eval 3: 12-13oct qcm + ecrit TD + terminal qcm decembre 
+
+
+
+Qu’est ce que l’économie?
+
+
+
+Économie : provient du grec ancien et rassemble 2termes : Eco= maison/foyer et nomie renvoie à administrer. Sens premier de l’économie c’est l’administration du foyer.
+
+
+
+Quels sont les objectifs fondamentaux de l’économie ?
+
+
+
+L’obj fondamental se décline en 2 volets :
+
+
+
+Gérer des ressources qui sont rares, présentes en qtités limités pour répondre à des besoins illimités (ex : eau salubre= ressources naturelles mais aussi biens matériels ex : vêtements). La monnaie est aussi présente en quantité limitée. (+ notre attention par ex lorsqu’on écoute Spotify)
+
+
+
+Dans un objectif de satisfaction de besoin qui sont pour eux illimités. 
+
+
+
+On distingue 2 types de besoin : Besoins primaires (manger, boire, s’habiller, la santé) et Besoins secondaires (désire d’apprentissage, loisirs, détente). 
+
+Mais aussi les Besoins d’appartenance (ex : sociologie de Versailles : tous habillés de la même façon, famille traditionnelle catholique) Cela revient parfois à la consommation ostentatoire cad qu’on veut montrer qu’on vient d’un milieu socioéconomique particulier (svt les riches :(ostentation) avec l’achat de produit de luxe). La composante ostentatoire équivaut à environ 90% du prix par ex : botes en caoutchouc Channel.  
+
+
+
+De la vont émerger des choix de besoins prioritaires par rapport à d’autres besoins ex : privilégié les dépenses prioritaires comme manger/payer loyer par rapport aux jeux vidéo. 🡪 on parle alors de dépenses incompressibles. Les arbitrages vont se produire avec toutes les ressources.
+
+
+
+Ce problème d’arbitrage est fondamental en éco. Ils peuvent se dérouler à différents niveaux : consommateur, individuel, particulier :
+
+
+
+Acheter à manger VS un nvx jeux vidéo. Cet arbitrage se situe aux niveaux des consommateurs : niveau individuel 
+
+
+
+Cet arbitrage se situe aussi au niveau des firmes : Arbitrage au niveau des différents types de ressources qu’on va louer pour mener à bien son activité.
+
+Ex : ressource humaine + le personnel de caisse doit etre gérer car il faut que ça coute le – possible tt en réduisant le temps passé dans la file pour le client.  Car si trop d’attente 🡪 client part
+
+
+
+Il y a aussi des arbitrages au niveau agrégé :  au niveau du budget ex : l’état Fr reçoit toute une série de revenu (impôt, tva..) qui représente un budget et qu’il va devoir allouer entre diff ministère (ministère a portefeuille) (intérieur, santé, éducation, mais aussi Pol publique, ass santé, retraite, prestation sociale) 🡪 arbitrage qui est opéré et soumis a des partis pris et idéologiques. Ces décisions sont diff selon les parti politiques 
+
+
+
+Ces arbitrages qlq soit leur niveau vont avoir une allocation de ressources limités. Ces mécanismes d’allocation des ressources font tout l’objet de l’analyse éco. On distingue 3 mécanismes d’allocations des ressources : 
+
+
+
+1ère modalité : Modalité d’interaction marchande entre demandeur et détenteur de ressource prendre la forme de relations marchandes (achat)
+
+
+
+2ème modalité d’interaction : au travers des organisations, sous une forme organisationnelle dans un cadre public par ex : l’état 
+
+
+
+3ème Mécanisme de réciprocité : se distingue du marché, relation d’obligation mutuelle : obligé de payer des impots à l’état mais l’état propose des services= j’ai un comportement qui a une dimension collective, je contribue à une œuvre collective prck je m’attend à ce que les autres membres du collectif en face de même. Mécanismes très discutés jusqu’à il y a 10 ans (cf Adam Smith théorie des sentiments moraux) 
+
+Exemple de projet collaboratif= Wikipédia🡪 ce qui corrige etc... ne reçoive rien en échange mais les personnes qui le font s’attende a être reconnu et que leur travail bénéficie a qlq. Cette communauté repose sur les liens de réciprocités 
+
+
+
+L’analyse éco va s’intéressait à diff niveau :
+
+
+
+La macroéconomie qui va s’intéressait au niv national v international. Elle va regarder les phénomènes économiques globaux (analyse du chômage, de l’inflation) + s’intéresse à comment l’Eco fonctionne au niv national afin de pvr prévoir les conséquences des pol économiques et les anticiper. 
+
+
+
+On va aussi avoir l’éco qui va s’intéresser au comportement individuelle = domaine de la micro-économie : micro🡺 regarder l’éco à la plus petite échelle possible donc au niv des individus (entre les ménages et entre les firmes). On s’intéresse au mécanisme d’arbitrage entre ménages ou entre diff type de consommation. Pour les firmes se sont des décisions de production.
+
+
+
+En économie il existe des difficultés d’appareillage entre micro et macro :
+
+
+
+Le manque d’emploi dans 10 ans soulève des qst transversales de niveau. On peut se demander s’il faut une allocation universelle ? comment est-elle utilisée ?
+
+
+
+On peut regarder au niv micro quel seront les utilisations des prestations sociales (ex : allocation rentrée sera telle vrmt utiliser pour ou pour autre chose)
+
+
+
+A un niv macro on peut se demander si ça va stimuler la demande
+
+
+
+Réforme retraite + 2ans 🡪 effet envisagé – de dépenses pour la retraite mais plus de chômage (macro) + restructuration de la carrière à cause des 2années supp (micro) 
+
+
+
+L’éco= discipline plurielle, elle touche tous les domaines de l’act humaine. Sauf respirer
+
+Cela a bcp d’importance sur les thèmes de recherche et de l’analyse éco.
+
+Ex : l’écologie : forte chaleur mais si on arrête d’émettre du CO2 (transport, consommation énergétique) par ex : on arrête la voiture : vacances= slow tourisme🡪 vélo ou encore on arrête de se chauffer 🡪 Bcp d’impact sur notre consommation 
+
+On peut donc pas écarter une dimension économique dans le domaine écologique. 
+
+
+
+L’économie va aussi s’intéresser à des études sectorielles : ex : secteurs de services (par ex : google)
+
+Eco est une discipline plurielle en s’intéressant a plusieurs secteurs : donc une économie spécifique pour chaque secteur d’activité + grande diversité dans les approches et dans la manière dont un problème va être analyser par ex : certains économistes spécialisés dans les marchés financiers, certains dans l’éco des organisations (de la firme) d’autres à l’analyse d’innovations ou encore à l’analyse des pol publiques.
+
+
+
+L’analyse éco est partout ne peut pas être ignorer mm si a priori si (ex : dans le secteur agricole, streaming) 
+
+L’éco a de très nombreuses et en particulier la gestion en tant que discipline se fonde sur une analyse économique. Ex : en gestion des ressources humaines un des thèmes est la détermination des salaires. En marketing aussi, il y a des bases économiques + stratégies et finances de marché 
+
+
+
+Cette Pluridisciplinarité de l’éco est importante (on la retrouve par ex : éco et gestion, maths)
+
+
+
+
+
+Le statut scientifique de l’économie  
+
+
+
+La science est une j.
+
+Esther Duflo prix Nobel d’éco s’intéresse à l’extrême pauvreté dans les PMA notamment et a fait des expériences svt les mêmes qui sont utilisés en médecine et pharma. On retrouve donc cet aspect expérimental en éco. De + il existe des laboratoires expérimentaux.  
+
+
+
+Le degré de précision qualifie-t-il une science ? 
+
+La précision dépend de notre degré de sophisticité, des outils qui nous servent à expérimenter.
+
+La science ne va donc pas calculer le degré d’exactitude mais elle va qualifier une démarche scientifique qui doit répondre à 3 piliers : 
+
+
+
+La vérifiabilité : qualifie le fait qu’on puisse vérifier une théorie par une expérimentation, de manière empirique. Elle peut être instantané ou décalé dans le temps. Par ex la théorie de la relativité de einstein (1900-10) mais il était impossible de la vérifier et elle a été vérifié qu’a partir des années 60 grâce à du nvx matériel. Il existe d’autres théories prouvées des années plus tard grâce à de nvlle technologies. 
+
+
+
+La confirmabilité : elle est de 2types : 
+
+Validation interne
+
+Validité externe
+
+Une théorie doit être cohérente par rapport à d’autre théories précédentes déjà vérifiés.
+
+On doit être en mesure de reproduire l’expérimentation qui a pu vérifier la théorie (ex : physiciens coréens ont trouvés un matériau qui est supra conducteur mais personne n’a réussi a prouvé l’expérience donc découverte= non scientifique car incapacité à la prouver). Autre exemple théorie de la gravité qui peut être vérifié
+
+
+
+
+
+
+
+La réfutabilité renvoi au fait que toute théorie scientifique peut être réfutés, on peut dire qu’elle est fausse à partir du moment où on peut trouver un contre-exemple. Une théorie est considérée comme vrai aussi longtemps qu’on ne trouve pas de contre-exemple, d’anomalies. 
+
+
+
+Ce sont les 3 démarches pour une discipline avant d’être considéré comme une science. Les disciplines ne respectant pas ces piliers ne sont pas des sciences ex : horoscopes.
+
+
+
+Toute démarche scientifique va s’organiser entre un aller-retour théorie et expérimentation/observation. L’expérimentation va permettre de vérifier/confirmer la théorie et la théorie qui va permettre d’expliquer ou prévoir l’expérimentation.
+
+
+
+Les théories scientifiques suivent la même démarche, d’abord un phénomène inconnu qui engendre des hypothèses qui naissent à partir d’observation exploratoire, ces hypothèses régissent un modèle qui permettra par la suite de prouver/expliquer le phénomène qui donnera lieu à l’observatoire confirmatoire pour enfin émettre une théorie plus sophistiquée qui s’appliquera au phénomène. Cette théorie sera considérée vraie/prouvé jusqu’à ce qu’elle soit démentie. 
+
+
+
+Y= C+I+G en macroéconomie 🡪 cela vient de l’observatoire 
+
+PIB= consommation+ investissement PV des entreprises + dépenses publiques
+
+Cet équation est valable que pour une période 
+
+
+
+Le problème en éco= pas d’explication dominantes mais coexistence : plusieurs explication (théorie de Keynes et des néoclassiques) 
+
+ 🡪Par ex : deux prix Nobel ont été attribué en même temps Hayek ultra libéral et Myrdal= théoricien de l’état providence, la communauté scientifique a donc considéré que les deux théories étaient aussi justes l’une que l’autre bien qu’elle soient opposées dans leur conclusion théorique. Un même problème éco et social peut avoir des causes multiples.
+
+
+
+Dans l’économie et les sciences sociales plusieurs problèmes vont se poser :
+
+
+
+On va avoir à faire à des observations réelles, collecte de donnée qui peuvent être parasité par des artéfact, des problèmes non prévu, des éléments non contextuelles
+
+
+
+ ex : étude de l’évolution du PIB au cours du temps, si on intègre dans la série 2020 2021 ce n’est pas fiable à cause du covid. Covid= phénomène parasite 
+
+
+
+L’éco et sciences sociales demande une rigueur particulière pour bien connaitre ces données. Des méthodes existent (stat..) pour en tenir compte. 
+
+Ex : évolution des niveaux d’activités d’un secteur donné : tourisme 🡪 il va y avoir des périodes de pic et de baisse de l’activité (été/hiver) il faut en tenir compte et faire des travaux de dessainisation ? pour réussir à identifier la tendance tout en tenant compte du caractère saisonnier
+
+
+
+Il faut donc considérer donc toutes les sources de parasitages possible !
+
+
+
+
+
+Pour pouvoir avoir des données propres, on peut faire des expérimentations en labo comparée🡪 ouvert tout un champ de recherche= économie expérimentale. Pour vérifier des théories on prend des populations données 
+
+
+
+Pour observer un phénomène faut créer des indicateurs (pour mesurer) (ex : mètre, poids : newton, m…) qui sont unanimement accepté par la commu scientifique. Dans certains pays on n’a pas les mêmes unités mais elles sont facilement conversibles
+
+
+
+En économie la détermination de l’unité pertinente d’un phénomène fait l’objet d’un débat 
+
+Ex : le PIB en général est défini pour mesurer le niv de richesse du PIB 
+
+Autre indicateur de richesse : revenu annuel moyen en parité de pouvoir d’achat
+
+
+
+Cette comparaison montre que le niv de richesse d’un pays (mesurer avec le PIB) ne correspond pas au niveau de revenu (pouvoir d’achat) voir le cas de l’Irlande (qui est d’ailleurs un paradis fiscal🡪 taux de taxe très bas 🡪PIB haut ) :  
+
+
+
+
+
+
+
+Le PIB par hab. du Luxembourg est de très mauvaise qualité car énormément de frontaliers. Si on prend la pop que de lux ville un mardi= 250 000 personnes qui sont là et travaille et le weekend= 125 000 = grosse diff. Frontaliers contribuent donc au PIB.
+
+
+
+En économie, en science sociales= obligés d’être encore + rigoureux du fait de ces problèmes de données 
+
+
+
+4e cause : un phénomène peut avoir des causes multiples 
+
+Ex : le niv d’activité touristique dans les alpes. Première cause du niv d’act= tenir compte de la saisonnalité : hiver/été + les habitudes de consommation, tourisme de loisirs, le temps(météo), l’inflation (cette année le T dans les alpes a souffert)
+
+
+
+Une théorie peut être correct dans un contexte donné mais fausse dans un autre (ex : inflation 🡪 les causes font débat qui n’est pas neutre car conditionne les Pol publiques. Ex : inflation des années 70 causé par un excès de demande 
+
+Ex : dans les années 20 en Allemagne hyperinflation à cause de l’instabilité politique et monétaire 
+
+Ajd des économistes disent que l’inflation est dû aux prix énergétiques …
+
+
+
+Ex : la relation inflation/emploi matérialisé par la courbe de Philips qui dit qu’il y a un taux de chômage naturel /frictionnel= chômage minimum. Si on veut réduire le taux de chômage, il faut accepter un minimum d’inflation, qui a d’abord marché dans les années (fondée sur le fordisme) mais dans les années 70 (système qui remplace le fordisme et fondé sur l’innovation) = moins bien fonctionné
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deux théories différentes peuvent être juste pour expliquer un même phénomène (elles vont se compléter) 🡪 être rigoureux en économie par rapport au travail de théorisation.
+
+
+
+Tout constat d’un phénomène va nécessiter un travail de vérification par des méthodologies : 
+
+
+
+En macro, on va vérifier la théorie pour la France puis l’Allemagne, autre pays…. Et voire si la théorie est valable (ex) 
+
+Même méthodologies mais à des contextes différentes (au-dessus)
+
+
+
+On va appliquer des méthodologies de vérification différentes par ex en diversifiant les types de données. On peut vérifier un pheno avec des donné quantitatives ou qualitatives.
+
+Ces données ne sont pas mobilisées en même temps : 
+
+
+
+Les données qualitatives= mobilisés dans une phase exploratoire, premières étapes de constations exploratoire du phénomène permet une première modélisation. 
+
+
+
+Les données quantitatives interviennent plus tard dans une phase confirmatoire (donnés +pauvre mais échelle +grandes = millions de données)
+
+
+
+
+
+La modélisation 
+
+
+
+Qu’est-ce que la modélisation ?
+
+
+
+Def : un modèle= représentation simplifiée d’un système ou d’un phénomène
+
+Ex de modèle : y indice d= C+I+G
+
+
+
+Utilité du modèle= simplifié de la réalité de manière à établir des relations (de causalité, interdépendance…) 
+
+
+
+
+
+1er objectif d’un modèle= comprendre, expliquer le système ou le phénomène
+
+Ex : le mannequin en salle de svt= modèle de squelette pour comprendre comment est constitué le corps humain.  
+
+
+
+2ème objectif= de prévision ; prévoir l’évolution du système ou du phénomène à la suite de changement dans les paramètres du modèle 
+
+
+
+
+
+
+
+
+
+
+
+
+
+On a différents types de modèle : 
+
+Le modèle mathématisé (ex :E= mc^2)
+
+Le modèle théorique vont représenter des relations de causalité ou d’interdépendance entre des concepts ex : le modèle de la chaine de valeur de porter Modèle sous forme schématique ou littéraire (= bcp plus détaillé) 
+
+
+
+
+
+
+
+Activités principales= créatrices de valeur
+
+Activités de soutien= pas en lien direct avec act principales mais importantes car elles vont les soutenir 
+
+Chez porter si on est performant on va créer de la marge= produit va pouvoir être vendu plus cher que ce que les activités nous ont coutés
+
+
+
+    La méthode de modélisation, de construction des modèles :
+
+
+
+Elle consiste à rechercher, simplifier à l’extrême un phénomène ou un système afin de le rendre le plus intelligibles possible 
+
+Ceci impliquer donc de faire un tri, trier et éliminer des effets considérés comme peu important/négligeables 
+
+
+
+En ce qui concerne l’économie, le travail de modélisation ne se fait pas n’importe qd car c’est une science sociales donc on a très vite un problème car ce travail de tri entre les diff causes principales d’un phénomène va reposer sur des postulats. Toute la modélisation en économie va reposer sur des postulats. 
+
+
+
+Postulats= hypothèse sur le fait qu’un effet donné est considéré comme important ou negligeable 
+
+
+
+Les postulats en éco vont dépendre de plusieurs choses : 
+
+
+
+Du type de phénomène étudié 
+
+(ex : ds le cadre du commerce international : ce qui marche à l’échelle de 2pays va marcher pour l’échelle du monde) 
+
+
+
+De la temporalité : court terme ou long terme. A court terme on va supposer que les prix et les salaires sont fixes (pas le cas à long terme) 
+
+
+
+De l’échelle d’analyse càd qu’un modèle macro, on va supposer que la population est homogène alors qu’en microéconomie on va supposer l’hétérogénéité ds les caractéristiques
+
+
+
+
+
+Autre éléments fondamental en science social : les postulats vont aussi refléter les partis pris idéologiques 
+
+Par ex : pour un éco la meilleur organisation social= le marché = parti idéologiques
+
+
+
+Les postulats vont aussi dépendre des partis pris idéologiques 
+
+Ex : modèle du marché de concurrence pure et parfaite (homogénéité, mobilité des facteurs de production, atomicité, transparence, libre entrée et sortie du marché) 
+
+
+
+
+
+Exercice : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exemple 2 :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Combinaison= panier
+
+Panier c= inatteignable = dépasse le budget 
+
+Panier a, d, f= plus intéressant car tout le budget pas consommé = perdu = sature la contrainte.

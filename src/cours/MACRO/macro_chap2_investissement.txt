@@ -1,0 +1,748 @@
+chapter: Chapitre 2 > Investissement
+
+Chapitre 2 : l’investissement
+
+
+
+D’un pdv macro l’investissement= formation brut de capital fixe= FBCF 
+
+
+
+FBCF= valeur des biens durables qui sont acquis par les firmes pour être utilisés au moins pendant un an dans le processus de production. 
+
+
+
+Ça concerne les entrep et il existe une part plus petite qui concerne l’achat de bien immobilier
+
+
+
+Il est nécessaire d’y ajouter les variations de stock et au cœur de l’analyse macro c’est l’investissement productif des entreprises. On a 2 éléments qui concerne les entrep :
+
+
+
+Soit elles font de l’investissement de remplacement = je remplace qlq chose d’obsolète
+
+Notion d’investissement net : j’achète une machine supplémentaire 
+
+
+
+Investissement de remplacement est constitué par les dépenses en biens d’équipement nécessaire au maintien en l’état des capacités de production. Le rythme de remplacement va dépendre de l’usure technique des biens mais aussi de l’obsolescence.
+
+
+
+Investissement net cela concerne les dépenses liés au fait de vouloir augmenter les possibilités de production = investissement de capacités 
+
+
+
+Une discussion théorique mais fondamental sur le plan de l’analyse et dans les faits on a le progrès technique qui va rendre l’investissement de remplacement plus performant que le précédent (remplacer ma 10e machine mais cette nvlle va me permettre de produire mieux, + car progrès technique) 
+
+
+
+Il existe 3 éléments qui varient et qui permettent d’aborder les déterminants de l’investissement :
+
+
+
+Le type d’investissement considéré (invest de capacité/ de remplacement)
+
+
+
+Les caractéristiques de l’entreprise (sa taille, sa part de marché, son taux de croissance) (propre à l’entrep) 
+
+
+
+La situation conjoncturelle (investissement est sensible à la situation éco) (éléments généraux qui peuvent toucher toutes les entrep)
+
+
+
+La notion de revenu apparaissait tjrs dans la fonction de consommation alors que ici :
+
+
+
+Aucune variable explicative contrairement à la consommation et le revenu ne l’emporte, on peut donc schématiser l’influence de différente variables, différents éléments ayant un impact sur l’investissement.
+
+
+
+Impact sur l’investissement :  Taux d’intérêt / stock de capital existant/ innovation (progrès technique lié à vouloir produire de manière + écolo) / contrainte financière et Les politiques économiques (Pol en lien avec l’état : Pol budgétaires, si l’état décide de taxer + certains produits par ex )
+
++ Investissement génère du revenu global (verse du salaire aux ménages pour relancer le circuit, puis il lui reste des profits a l’entrep qu’elle peut réinvestir)
+
+
+
+=
+
+
+
+
+
+
+
+Parmi toutes ces variables, on va se concentrer ici essentiellement sur le taux d’intérêt et le revenu (variation du revenu) 
+
+
+
+
+
+Investissement et capacité de production : le principe d’accélérateur 
+
+
+
+L’investissement est une variable de flux autrement dit c’est un flux d’achat de bien d’équipement qui modifie chaque années le stock de capital productif existant (ex : ds ma nation, il existe qu’une seule entrep avec un stock soit on fait investissement de remplacement= pas de flux ou soit on fait un investissement) 
+
+
+
+Le principe de l’accélérateur repose sur des effets cycliques de l’articulation entre flux (d’investissement) et stock de capital.
+
+Ce mécanisme qui existe entre les deux a été mis en évidence dans sa version la + simple par Clark en 1917
+
+
+
+L’accélérateur simple 
+
+
+
+Dans cette vision simple, l’évolution de l’investissement est expliquée par l’évolution de la demande cad dès lors que les ménages vont demander + les entrep vont devoir investir et produire pour y faire face. Investissement= induit par les variations de la demande 
+
+Si hausse de la D= variations positive
+
+Si baisse= désinvestissement 
+
+
+
+🡪 Présentation du modèle 
+
+
+
+La fonction de production relie le volume ou la valeur de produit final obtenue (tout ce qui est produit dans la nation représenté par le PIB) autrement dit Y au combinaison de facteurs de production utilisé pour produire en quantité ou en valeur 
+
+On suppose qu’il existe 2 facteurs pour produire : le travail (L) et le capital (K) 
+
+Y= f (K ,L) 
+
+On va appeler v le rapport capital sur Y = v= K/Y = le coefficient du capital, on le suppose ici fixe cad que pour produire une unité supplémentaire, on utilise v unité supplémentaire de capital autrement dit de bien d’équipement. De ce fait, le stock de capital nécessaire est strictement proportionnel au volume de production qui est réalisé 
+
+
+
+Hypothèse qui est posé : hyp : v= fixe= K/Y 🡪 K= vY donc proportionnalité entre le PIB et le stock de capital présent
+
+
+
+Le modèle d’accélérateur simple suppose que l’investissement est une fonction linéaire des variations de la demande cad que si on suppose que la production suit la demande on peut écrire mathématiquement notre fonction de consommation sous cette forme :
+
+
+
+
+
+Beta= coefficient d’accélération, strictement supérieur à 1 
+
+
+
+Donc pour répondre à une augmentation de la demande adressé aux firmes et dès lors que la production suit la demande (notre hypothèse) le producteur doit investir afin d’augmenter son stock d’équipement de production 
+
+On suppose que la totalité de l’investissement est un investissement qui est induit par les variations de la demande et de ce fait on peut dire que le coefficient du capital v est= au coefficient d’accélération autrement dit beta= v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le modèle d’accélérateur simple va s’écrire It= v deltaYt : 
+
+
+
+
+
+
+
+🡪 Les hypothèse du modèle : 
+
+
+
+L’absence de capitaux oisif (non utilise) (si l’entrep a des capitaux non utilisé et que on lui demande des biens supplémentaires, elle a juste a puisé dans ces capitaux non utilisé) si l’entrep ne fonctionnait pas à pleine capacité, dans ce cas-là une augmentation de la demande peut être comblé par les stocks de capital existant au sein de l’entreprise et donc on n’aurait pas d’investissement
+
+
+
+Avoir un coefficient du capital qui est fixe càd qu’il existe une unique relation entre variation de Yt et It autrement dit entre les variations de la demande et l’investissement. Ca sous-entend que on a une fonction de production qui a un facteur complémentaire ou alors le fait d’avoir des rendements d’échelles qui sont constants 
+
+
+
+Cout relatifs des facteurs de production qui sont constants : L et K sont constants/identiques.  Ces conditions sont nécessaires au fonctionnement du modèle d’accélérateur simple 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🡪 La critique du modèle :
+
+
+
+Critique d’ordre théorique : 
+
+Ce modèle repose sur une vision trop mécanique de l’investissement cad que même si on est d’accord avec le fait que l’entreprise n’utilise pas tout son capital alors la hausse de la production ne nécessite pas tjrs le recours à l’investissement. En effet, pour l’entrep il peut être possible de rationaliser l’utilisation de son capital pour augmenter son volume de production sans faire d’investissement
+
+
+
+Il est rare que les entrep travaille de façon durable à 100% de ses capacités. Il peut exister des réserves involontaires (capitaux oisifs) mais ça peut aussi être volontaires (pdv technique, elle a certaine machine qui ne sont pas utiliser à certaines périodes) 
+
+
+
+Le fait que l’accélérateur simple suppose que l’investissement va agir immédiatement aux variations de la demande or dans la réalité on a des délais d’ajustement ce qui a nécessité d’introduire des notions de retard dans le processus d’accélérateur, ce qui donne naissance à l’accélérateur flexible.
+
+
+
+Cet accélérateur simple conduit à des variations trop brutale de l’investissement.
+
+
+
+Critiques d’un pdv empiriques : 
+
+
+
+En ce qui concerne les résultats empiriques, Tinbergen qui mène une étude sur diverses pays/secteur d’activité trouve que le principal déterminant de l’investissement c’est la variable de profit donc le principe d’accélérateur simple n’est pas vérifié. De plus, on trouve que le coefficient beta n’est pas = à v mais beta < v et qu’il n’est pas significatif.
+
+
+
+Ces résultats doivent être nuancés puisque a priori le principe d’accélérateur marche et met en avant des phénomène d’accélération mais celui-ci renvoi à la notion d’accélérateur flexible et non simple. Il faut donc introduire des notions de retards.
+
+
+
+
+
+Accélérateur flexible 
+
+
+
+🡪 Pour introduire cet accélérateur il faut faire la distinction entre investissement net et brut.
+
+Supposer que des biens de productions ayant une durée de vie n’est pas acceptable puisque ces biens de prod ont une durée de vie limité et en plus celle-ci peut être réduite du fait de l’accélération technique. La durabilité d’un bien de production est à la fois technique et économique. Utiliser un bien d’équipement conduit petit à petit à sa détérioration donc devient petit à petit moins efficace ce qui peut conduire à avoir des rendements et des qualités de produits qui peuvent diminuer. On peut aussi avoir une hausse des couts de maintenance et à terme elle peut être détruite d’un pdv de son usage (détruite on ne peut pas l’utiliser). Le capital connait une usure. 
+
+
+
+Tout bien de production va devenir progressivement obsolète du fait du progrès technique c’est une obsolescence qui peut être totale si un nvx bien apparait sur le marché qui est bcp plus performant d’un pdv technique mais qui apparait à un prix équivalent. 
+
+La totalité de la durée de vie physique potentielle d’un bien de production n’est donc pas tjrs atteinte cad qu’un bien en bon état peut être mis de côté donc nécessité de prendre en conte la durée de vie économique donc la durée d’utilisation de ce bien.
+
+
+
+Ainsi, il est nécessaire de tenir compte du fait que le matériel de production se déprécie chaque année et on va supposer que le taux moyen de dépréciation du capital K= delta 
+
+
+
+Ce qui fait qu’on peut écrire la valeur courante du capital productif de l’entreprise de la forme suivante : 
+
+
+
+
+
+
+
+Kt= valeur du capital à l’instant t 
+
+C’est la valeur déprécié du stock de capital à l’instant précédente 
+
+It= investissement réalisé par l’entrep à la période t 
+
+                                          
+
+
+
+
+
+
+
+
+
+
+
+L’écriture sous cette forme nous montre que l’investissement résulte d’un motif d’expansion des capacités de production par l’intermédiaire de Kt – Kt-1 et d’un motif de remplacement ou encore de renouvellement par l’intermédiaire de delta kt-1
+
+
+
+Investissement c’est la FBCF. La perte de valeur qui correspond à delta kt – 1 c’est ce qu’on appelle la consommation de capitale fixe. L’accroissement du stock qui résulte des flux respectif d’entrée et de sortis c’est ce qu’on appelle la formation net de capital fixe (équation entouré). 
+
+Le fait de tenir compte du motif de remplacement modifie le principe d’accélérateur à 2 niveau :
+
+
+
+Cette fois, le phénomène d’accélérateur n’est plus forcément symétrique à la hausse ou à la baisse. En cas de conjoncture difficile, le modèle présente un désinvestissement plus fort que le désinvestissement qui est effectivement réalisé car l’entrep ne va pas revendre les biens de production qu’elle ne désire plus car la conjoncture est difficile donc revente est difficile. Ces biens vont donc se dévaloriser, d’un pdv national si il y a revente cad qu’une autre entreprise achète. Donc au niv macro il y a tjrs le même nombre de machines qui existe au niv national. Ceci uniquement si c’est une entrep nationale qui rachète. De ce fait le désinvestissement effectif globale est limité par la perte de valeur
+
+
+
+La conservation des capitaux oisifs pendant une phase de récession retarde le processus d’investissement car lors de la reprise économique, les entrep vont pouvoir réutiliser ces capitaux dormants. 
+
+
+
+🡪 Le modèle
+
+
+
+Le modèle relie le stock de capital à une moyenne pondéré des niveaux de production antérieurs sachant que le poids qui est attribué à chaque années décroit au cours du temps. Ceci permet de dire que le passé le + lointain à un impact de – en – fort sur le présent. 
+
+
+
+
+
+
+
+Kt= stock de K à l’instant t
+
+Yt= niv de production à l’instant t 
+
+1-Lambda= usure du capital 
+
+v= coefficient de proportionnalité entre le capital et la production 
+
+
+
+A partir de cette équation, l’objectif est de montrer que l’investissement à la période t est en lien de manière proportionnelle au niveau de production de l’instant t mais aussi avec le stock de capital de la période précédente 
+
+
+
+
+
+
+
+Variation du capital= investissement 
+
+
+
+Le paramètre lambda représente la vitesse d’ajustement, l’hypothèse suivante a été posé : le niveau de capital désiré (kt) est proportionnel au volume de la demande (4eme ligne)
+
+
+
+L’équation 2 nous montre que l‘investissement dépend positivement du montant absolue de la demande Yt et non pas de la variation de celle-ci cf : (accélérateur simple où it dépend de la variation de yt) 🡪 Positivement car 1- lambda= positive
+
+
+
+L’équation 2 nous montre aussi que l’investissement dépend de manière négative des capacités de production de la période précédente 
+
+
+
+Il existe toujours un phénomène d’accélérateur, en effet en partant de l’équation 1 et en l’écrivant en variation, on obtient l’équation 3 :
+
+
+
+
+
+Variation de kt= investissement 
+
+
+
+On retrouve un principe d’accélérateur car on fait apparaitre que l’investissement dépend de la variation de la demande.
+
+
+
+L’effet d’accélérateur est atténué pour deux raisons : 
+
+Le coef d’accélération est plus faible car dans l’acc flexible (v(1-lambda) < v= simple)
+
+
+
+Il existe un effet d’inertie par l’intermédiaire du terme lambda it- 1 
+
+
+
+En posant le fait que la demande finale augmente à un rythme décroissant (= augmente de – en – forte), le principe d’accélérateur simple conduit à une baisse régulière de l’investissement.
+
+
+
+Dans le cas de l’accélérateur flexible dans un 1er temps l’investissement va augmenter jusqu’à ce que l’effet de freinage lié au stock de capital compense l’effet inverse lié à la progression de la demande. Le comportement progressif d’ajustement du stock de capital est possible grâce au fait de pouvoir stocker et déstocker des produits finis mais également le fait qu’on peut varier l’utilisation du capital.
+
+
+
+Globalement on remarque que les variations de l’investissement sont bcp – brutale que dans le principe de l’accélérateur simple cela étant en lien avec l’effet d’inertie qui dit que les fluctuations de l’investissement suite aux variations de la demande sont freiner par le stock de capital en t-1 
+
+
+
+Les résultats empirique vont vers l’acceptation de l’accélérateur flexible. 
+
+Par ex dans les années 80 ; 2 phases de l’investissement :
+
+Première moitié= une chute de l’invest et 2nd= hausse de l‘invest.
+
+Des auteurs montrent que ce principe d’accélérateur flexible explique à lui tout seul la chute de l’investissement.
+
+Des études sur les années 90 montre la validité de ce principe.
+
+
+
+Investissement et rentabilité 
+
+
+
+🡪On s’intéresse au rôle du taux d’intérêt 
+
+
+
+Une firme envisage d’investir uniquement si elle juge que cet investissement est rentable. L’agrégation de ces décisions individuelles permet de déterminer le montant de l’investissement national.
+
+
+
+Comment une firme mesure la rentabilité d’un investissement ?
+
+
+
+Procédure de choix d’investissement 
+
+
+
+Qd une firme envisage un Investissement elle va vouloir évaluer le supplément de profit que cet investissement va générer (savoir ce que va lui rapporter dans le futur). Il est donc nécessaire de prévoir, d’anticiper les rendements annuelles futures sur l’ensemble de la période d’utilisation ?
+
+Ces rendements se définissent comme la différence entre la valeur anticipé des ventes supplémentaire en lien avec l’investissement et les couts qui sont variables liés à cette production 
+
+
+
+Il n’y a aucune raison que ces rendements anticipés soient identiques sur l’ensemble de la période et ceci pour différentes raisons.
+
+
+
+La première raison : progrès technique : il va y avoir sur le marché des machines + performantes, éventuellement – couteuses qui va venir diminuer la compétitivité des anciens équipements.
+
+
+
+La deuxième raison= lié à l’incertitude du futur : il existe un risque ce qui fait qu’une entrep va accorder davantage d’importances aux prévisions des premières années qui suivent l’investissement plutôt qu’au + lointaines
+
+
+
+La 3ème raison : l’inflation ; si les prix futurs augmentent cela entraine une augmentation des rendements nominaux de ce fait l’achat d’un bien de production va représenter une certaine protection contre risque d’inflation car conserver la même somme sous forme de monnaie viendrait à ce qu’elle perde de la valeur 🡪 de ce fait on va avoir un effet positif sur l’investissement. En cas de déflation cela aura + tendance à déprimer l’investissement 
+
+
+
+Une décision prise ajd en ce qui concerne l’investissement conduit à générer des revenus dans le futures + ou – proche. Les sujets éco préfèrent généralement une satisfaction immédiate à une satisfaction à venir (pref pour le présent). Indépendamment de toutes dépréciations monétaires, un euro de suite est préféré à un euro futur d’où la nécessité d’actualiser les revenus futurs autrement dit de les ramener à une valeur actuelle.
+
+
+
+
+
+
+
+De la notion de capitalisation on va en déduire 
+
+
+
+A partir de là il existe 2 critères de choix qui permettent de mesurer les mérites comparés de diff projet d’investissement au regard de leur efficacité économique cad est ce qu’ils vont être rentable ou pas : 
+
+
+
+1er critère= valeur actuelle nette 
+
+
+
+Soit un projet d’investissement qui a un cout I, investir dans cette machine va permettre de générer une série des recettes annuelles (r1…r2…rn) mais aussi une série de couts annuelles (c1…Cn) 
+
+On note i le taux d’actualisation (taux d’intérêt) 
+
+La valeur actuelle net (VAN° du projet va s’écrire de la forme suivante :
+
+ 
+
+
+
+R1-C1= profit 
+
+
+
+La valeur de la VAN permet de decider de l’opportunité d’un investissement
+
+
+
+
+
+La décision d’investir sera justifié dès lors que la VAN sera positive 
+
+
+
+Avoir une VAN négative= projet d’investissement rapporte – que ce qu’il a couté 
+
+VAN= 0 = projet d’investissement coute aussi cher que ce qu’il va nous couter 🡪 on est indiffèrent au fait d’investir ou pas 
+
+
+
+Dès lors qu’une entrep ne peut pas réaliser la totalité des investissements qui présente une VAN positive, elle retient celui qui a la VAN la plus élevée.
+
+
+
+
+
+2nd critère : le taux de rendements interne (TRI/ l’efficacité marginale du capital) 
+
+
+
+Cette fois, au lieu de rechercher le bénéfice actualiser à l’aide d’un taux d’intérêt externe i, on cherche quel est le taux de rendement interne r qui rend la valeur présente de l’investissement et de ces revenus futures nets = à 0 
+
+Autrement dit : on cherche l’inconnue r qui nous donne une VAN= 0
+
+
+
+
+
+
+
+La détermination de r permet de le comparer au taux d’intérêt i :
+
+Si r est > i, l’investissement est réalisé 
+
+Si r < i, on ne réalise pas l’investissement 
+
+Si r = i, on est indifférent 
+
+Entre plusieurs projets d’investissement, elle va choisir celui qui a le taux de rentabilité le plus élevé.
+
+
+
+Dans la terminologie keynésienne, le taux de rendement interne est appelé « l’efficacité marginale du K » noté f. Keynes nous dit : 
+
+« C’est le taux d’escompte qui appliqué à la série d’annuité consistué par les rendements escompté de ce capital pendant son existence entière rend la valeur actuel des annuités égales au prix de l’offre de ce capital » Voir calcul ci-dessus
+
+f c’est le taux de rentabilité interne pour lequel l’opération d’investissement se solde sans perte ni profit 
+
+
+
+
+
+
+
+
+
+
+
+1ère remarque concerne le taux d’actualisation :
+
+
+
+Ce dernier a une influence sur la VAN, elle est décroissante du taux d’actualisation. Lorsque une entreprise doit arbitrer entre plusieurs projet d’investissement, toutes modifications du taux d’actualisation modifie sa structure optimale du taux d’investissement. Un taux d’actualisation faible favorise les grands investissements capitalistiques. Inversement pour les taux d’actualisation élevés. 
+
+
+
+Selon les 2 critères présentés, il est possible que les 2 critère puissent conduire à des résultats convergents.
+
+
+
+
+
+Efficacité marginale du capitale et fonction d’investissement
+
+
+
+
+
+Un entrepreneur, entrep met en place un investissement tant que l’efficacité marginale dépasse le taux d’intérêt auquel il peut emprunter les fonds nécessaires pour mettre en place son opération cad f>i 
+
+
+
+Cette analyse micro éco doit être étendue au plan global càd au plan macroéconomique
+
+
+
+
+
+
+
+La base correspondant à chaque projet d’investissement est variable autrement dit le montant investit selon les projets est différent, lorsque le taux d’actualisation est = i0 on réalise A B et C, lorsque le taux d’actualisation augmente et passe à i1 on réalise A et B cad + le taux d’actualisation est élevé + l’investissement va être faible.
+
+En additionnant toutes les demandes individuelles, il est possible de représenter pour l’ensemble des entreprises une courbe d’efficacité marginale de l’investissement qui va être continu et qu’on appelle fonction de demande d’investissement.
+
+
+
+Du pdv macro éco, il est envisageable que les firmes ont tendance à augmenter leur stock de capital tant que ceci permet d’augmenter les profits. Toute hausse du taux d’intérêt, toute chose étant égale par ailleurs (tout le reste, reste identique) entraine la non-réalisation de projet d’investissement alors que sa baisse donne naissance à plus de projet d’investissement. Donc on peut dire que la fonction d’investissement est une F° linéaire du taux d’intérêt ou encore de l’efficacité marginale du K. on a donc ce graphique :
+
+
+
+
+
+
+
+
+
+
+
+Par conséquent, a un niv macro, le volume d’investissement apparait comme une fonction lié de manière négative au taux d’intérêt cad que lorsque le taux d’intérêt diminue, le niv d’investissement augmente. On pourrait l’écrire : I= -e i + I0
+
+
+
+e=constante 
+
+i=taux d’interet
+
+Io= montant de l’investissement qui sera mis en œuvre si le taux d’intérêt est nul, on retrouve le fait que l’investissement ne dépend pas que du taux d’intérêt mais s’explique aussi par d’autres variables. 
+
+
+
+e est une constante qui traduit l’intensité de la réaction de l’investi du taux d’intérêt. C’est une variable qui est fondamentale puisque elle va permettre de mesurer si l’impact sur l’investissement est important lorsque le taux d’intérêt est modifié. En effet, selon les entreprises et les secteurs d’activités, une modification du taux d’intérêt peut avoir des effets différents sur la demande d’investissement. Dépendance de la pente de cette courbe (-e)
+
+
+
+La relation entre l’investissement et le taux d’intérêt souligne la forme de la courbe pour un état donné des efficacités marginales de divers projets d’investissement. 
+
+
+
+Au niveau macroéco, la fonction d’investissement est décroissante sur le taux d’intérêt
+
+
+
+Le rôle et les modalités de financement 
+
+
+
+Jusqu’à présent on a considéré le taux d’intérêt qui avait une unique valeur, à la fois en ce qui concerne le cout d’opportunité autrement dit, un taux créditeur que dans son aspect cout d’emprunt autrement dit taux débiteur. Il est possible de différencier le cout de financement d’un investissement selon les modalités choisis par l’entreprise.
+
+
+
+Une entreprise peut faire différent financement : 
+
+
+
+
+
+
+
+En ce qui concerne l’autofinancement, il nécessite que l’entrep a des bénéfices qui sont non redistribués (d’avoir les fonds pour le faire). Dans ce cas pas de problème de remboursement. Ce ne sont pas des fonds qui sont gratuit car le fait d’immobiliser ses ressources fait que l’entreprise renonce aux revenus qu’elle aurait pu en tirer en plaçant cette somme dans des actifs financiers pour une durée et un risque comparable. 
+
+
+
+Par l’augmentation du capital social= l’entreprise émet des actions. D’une part ça lui permet de ne pas avoir à rembourser les fonds obtenus, elle peut ajuster les couts, le fait de verser des dividendes aux actionnaires peut être ajuster aux variations conjoncturelles des résultats de l’entreprise. Le risque est que les actionnaires ne soient pas intéressés si les dividendes sont trop faibles.
+
+
+
+Le financement par endettement= va pouvoir se faire via différent types d’emprunts. Le risque= ne pas arriver à rembourser l’emprunt
+
+
+
+Le fait qu’il existe diffèrent possibilités de financement va avoir un impact sur le niveau d’investissement à travers l’effet levier = relation entre fond propre et endettement et à travers la théorie du ratio Q de Tobin qui est une relation entre l’investissement et le marché boursier.
+
+
+
+
+
+L’effet levier 
+
+
+
+L’entreprise va vouloir jouer sur la structure de financement de ses investissements pour espérer réaliser des profits + ou – important en misant sur l’effet levier 
+
+
+
+L’effet levier montre la structure financière sur la rentabilité des fonds propres
+
+I= investissement totale
+
+A= fond propre 
+
+E= capitaux que l’entrep à emprunter au taux r
+
+
+
+Investissement globale= fond propre + ensemble des sommes emprunté
+
+I= A + E
+
+Soit p(ro) l-= taux de rentabilité financière que l’on peut appeler le taux de rentabilité des fonds propres. Ce taux= ce qui intéresse les actionnaires cad propriétaires de l’entreprise.
+
+
+
+
+
+
+
+
+
+Rapport E/ A= rapport entre endettement et fond propre qui correspond au taux d’endettent 
+
+π= profits de l’entrep 
+
+Ro x I = ce que rapporte à l’entrep 
+
+-rE= je retire l’endettement 
+
+
+
+π/ a= taux de rentabilité financière= taux de rentabilité des fonds propres 
+
+Le taux de rentabilité financière π/A  augmente avec le taux d’endettement E/A tant que p> r cad tant que le taux de rentabilité de l’invest est supérieur au taux d’intérêt. Dans ce cas l’entrep a intérêt à s’endetter. On va avoir une hausse de l’investissement. Sinon l’entrep a intérêt à placer sur les marchés financiers.
+
+
+
+Le ratio Q de Tobin
+
+
+
+Date de 1969, il vise à montrer comment l’investissement productif est influencé par la conjoncture boursière. Pour augmenter ses capacités de production, l’entrep peut soit acheté des biens neufs (nvlles machines), dans ce cas ont dit qu’elle fait de la croissance interne. Soit acheté une ou des entreprises du même secteur autrement dit elle fait de la croissance externe ce qui revient à acheter des biens de production qui existe déjà 
+
+
+
+Le ratio q de Tobin représente l’alternative entre capital neuf et K d’occasion sachant que le K d’occasion le prix est fixé sur le marché boursier. Ce ratio Q c’est le rapport entre prix du K existant et le prix du K neuf qui lui provient des marchés des biens. 
+
+
+
+2 cas possibles :
+
+Si Q < 1= la valeur boursière (prix du K d’occasion) est inférieure à la valeur du K neuf. Ce ratio lui permet d’avoir une idée de la conjoncture future. Dans ce cas la firme n’est pas tentée d’investir car elle anticipe une baisse des cours boursiers ce qui diminue les perspectives de profit futures 
+
+
+
+Si Q > 1= l’occasion est supérieure au neuf et dans ce cas elle va être tenté d’investir car elle anticipe une augmentation des cours. 
+
+
+
+Donc qd on est dans un bon climat financier, ceci favorise les dépenses en bien d‘équipement des entreprises .
+
+QCM || Le rapport patrimoine/revenu (A/Y) || V:Est une fonction décroissante du taux de croissance g|Augmente avec g|Est constant|V:Est croissant avec le taux d'intérêt r
+QCM || L'investissement se compose de || V:Investissement de remplacement + investissement net|Investissement public + privé|Investissement financier + productif|Capital + travail
+QCM || L'investissement net a pour objectif || V:D'augmenter les capacités de production|De maintenir le capital|De réduire l'emploi|De diminuer la production
+QCM || L'accélérateur simple stipule que || V:It = v·ΔYt (investissement proportionnel à la variation de la demande)|It = v·Yt|It = constant|It = f(taux d'intérêt)
+QCM || Le coefficient de capital v dans l'accélérateur représente || V:v = K/Y (rapport capital/production)|Le taux d'intérêt|La productivité|V:Le nombre d'unités de capital pour produire une unité supplémentaire
+QCM || Les hypothèses de l'accélérateur simple incluent || V:Absence de capacités oisives|V:Coefficient de capital constant|V:Coûts relatifs des facteurs constants|V:Rendements constants
+QCM || L'accélérateur flexible diffère du simple car il || V:Introduit l'usure (dépréciation δ)|V:Prend en compte les délais d'ajustement|V:Considère les capacités oisives|Supprime le lien avec la demande
+QCM || La Valeur Actuelle Nette (VAN) d'un projet || VAN = -I + Σ(Rt-Ct)/(1+i)^t|Ignore les coûts|V:Si VAN > 0, réaliser l'investissement|V:Compare le projet à un placement alternatif
+QCM || Le Taux de Rendement Interne (TRI) || V:Est le taux qui annule la VAN|Est toujours égal au taux d'intérêt|V:Si TRI > i, réaliser l'investissement|N'a pas de rapport avec la rentabilité
+QCM || L'efficacité marginale du capital selon Keynes || V:Correspond au TRI|Est le taux d'intérêt du marché|V:Détermine la rentabilité d'un investissement|Est toujours constante
+QCM || La fonction d'investissement I = -ei + I0 montre que || V:L'investissement est décroissant du taux d'intérêt|L'investissement augmente avec i|V:e mesure la sensibilité au taux d'intérêt|I0 est l'investissement total
+QCM || Les modalités de financement de l'investissement sont || V:Autofinancement|V:Augmentation du capital social|V:Endettement|Subventions uniquement
+QCM || L'effet de levier montre que || V:Si P > r, l'endettement améliore la rentabilité des fonds propres|L'endettement est toujours défavorable|V:ΠI/A = P + (P-r)E/A|Le taux d'endettement n'a pas d'impact
+QCM || Le ratio q de Tobin compare || V:La valeur boursière du capital existant au prix du capital neuf|Les profits aux coûts|V:Si q > 1, favoriser l'investissement neuf|V:Si q < 1, favoriser les acquisitions
+QCM || Si le PIB passe de 1000 à 1100 et v = 2, l'investissement induit vaut || 100|V:200|50|150
+QCM || Une VAN de -50 signifie || Investir immédiatement|V:Ne pas investir|Projet rentable|V:Le placement financier est préférable
+QCM || L'investissement dépend principalement de || V:La demande anticipée|V:Le taux d'intérêt|V:La rentabilité des projets|V:Les modalités de financement
+QCM || Les limites de l'accélérateur simple incluent || V:Hypothèse de pleine utilisation des capacités|V:Ajustement instantané irréaliste|V:Symétrie parfaite hausse/baisse|Prise en compte des délais

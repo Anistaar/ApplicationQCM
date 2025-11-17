@@ -95,7 +95,18 @@ function main() {
 
   for (const p of plan) {
     fs.mkdirSync(path.dirname(p.to), { recursive: true });
-    fs.renameSync(p.from, p.to);
+    let target = p.to;
+    // Éviter les collisions si le fichier cible existe déjà
+    if (fs.existsSync(target)) {
+      const dir = path.dirname(target);
+      const base = path.basename(target, '.txt');
+      let i = 2;
+      while (fs.existsSync(path.join(dir, `${base}_${i}.txt`))) i++;
+      const alt = path.join(dir, `${base}_${i}.txt`);
+      console.warn(`Cible existe déjà, renommage alternatif: ${path.relative(ROOT, target)} -> ${path.relative(ROOT, alt)}`);
+      target = alt;
+    }
+    fs.renameSync(p.from, target);
     console.log('Renommé: ' + p.reason);
   }
   console.log('Terminé. Relance le build pour régénérer la liste des cours.');

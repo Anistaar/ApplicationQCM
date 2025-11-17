@@ -1,0 +1,671 @@
+chapter: Chapitre 4 > Modèle keynésien
+
+Chapitre 4 : le modèle keynésien
+
+I- Généralités
+
+En quoi l’analyse keynésienne est en rupture avec l’analyse classique ?                   Modèle classique =modèle d’offre                                       Modèle keynésienne =modèle de demande (avec comme variable essentielle la variable effective)
+
+1. Caractéristiques et principaux thèmes de l’analyse générale de Keynes
+
+Keynes crée une rupture avec le modèle classique qui se fait au niveau des hypothèses mais aussi du fonctionnement de l’économie : on parle de révolution keynésienne. Celle-ci fait référence à une économie monétaire de production et de l’emploi. Elle étudie les flux monétaires dans une économie de production en lien avec les flux de main d’œuvre et de rendements décroissants. Il existe des anticipations de la part des agents économiques, celles-ci sont en lien avec le fait qu’il existe des incertitudes dans l’environnement dans lequel les agents évoluent.
+
+Il mène une analyse en courte période. L’étude des équilibres est conçue au travers de l’ajustement des valeurs monétaires globales cherchant à interpréter les différentes situations d’équilibre.
+
+Au niveau méthodologique, la théorie générale proposée par Keynes repose sur des relations de causalité entre les variables alors que chez les classiques, l’analyse est fondée sur des relations d’interdépendance.
+
+Chez Keynes : changement de problématique et analyse positive. Sa problématique repose sur une détermination à CT des niveaux d’activité économique et de l’emploi. Il propose une analyse positive du fonctionnement et du mouvement des économies. Son objectif est d’expliquer le sous-emploi des années 30, caractéristique d’un chômage involontaire.
+
+Ici, contrairement au modèle classique, on n’est pas sur une économie réelle d’échange, mais sur une économie monétaire de production, ce qui fait qu’on a une forte implication (au moins d’un point de vue théorique) ???
+
+De plus, sa théorie repose sur une analyse économique qui connaît une instabilité fondamentale dans lequel le niveau d’activité à CT correspond de façon exceptionnelle au plein-emploi. Selon lui, on aboutit souvent à une situation de déséquilibre entre offre et demande, ????? et en particulier du facteur travail, d’où l’existence de chômage involontaire.
+
+Keynes veut donc démontrer qu’il peut exister du chômage involontaire sur le marché du travail même si les salaires sont flexibles, alors que cette flexibilité conduit logiquement à un ajustement automatique entre l’offre et la demande de travail chez les classiques.
+
+L’économie est un circuit de flux monétaires. Elle est vue comme un tout par l’intermédiaire d’agrégats qui sont reliés entre eux par des relations de causalité.
+
+L’offre de travail n’a pas d’impact sur le niveau d’emploi et elle résulte des décisions unilatérales de la part des agents éco (et non pas de la confrontation entre les deux).
+
+L’analyse keynésienne est une analyse de CT qui est dynamique en partie. Elle est dynamique car elle prend en compte les anticipations et prévisions des agents qui sont regroupés selon leur fonction économique. Le futur est inconnu, il n’est pas probabilisable (contrairement au modèle classique), cela induit que les agents procèdent par anticipations. Keynes n’explique cependant pas la formation de ces anticipations.
+
+Pour Keynes il existe des délais d’ajustement qui peuvent provenir des modifications des agents économiques. Il suppose que le niveau de production économique est donné, autrement dit il en fait une analyse par la demande : l’activité dépend du travail utilisé et du degré de capital technique.
+
+En période de sous-emploi, l’ajustement se fait par les quantités. On est sur une analyse monétaire. Ici, la monnaie joue un rôle dans l’économie ce qui veut dire qu’on a des phénomènes réels et monétaires qui sont liés de manière inévitable. La monnaie peut être vue comme un moyen de détenir sa richesse, ce qui va permettre car c’est un bien particulièrement liquide. La monnaie est un lien entre le présent et le futur, et elle peut permettre de faire face aux aléas, càd à l’incertitude qui caractérise le futur. On peut donc demander de la monnaie pour elle-même, ce qui fait qu’elle peut être un facteur essentiel d’une instabilité de l’activité économique, et donc de l’emploi.
+
+C’est une analyse qui prône l’intervention de l’Etat dans une économie de sous-emploi. Selon Keynes, il n’existe pas de mécanisme endogène qui permet d’atteindre un équilibre de plein-emploi. Ainsi, si l’économie est dans une situation de sous-emploi, seul l’Etat peut contribuer à résorber le chômage.
+
+
+
+2. La critique de la vision macroéconomique classique et principes fondamentaux de la vision macroéconomique keynésienne :
+
+ Invalidation de la loi des débouchés :
+
+Modèle basé sur la demande donc il rejette le fait que toute offre crée une demande égale/toute offre crée sa propre demande. Selon Keynes, l’offre correspondant au plein-emploi ne peut pas être mise en œuvre car rien ne garantit qu’on va pouvoir écouler cette offre de plein-emploi. Une situation où les entreprises n’augmentent pas leur demande de travail alors même que les salariés accepteraient des salaires plus faibles se conçoit uniquement s’ils ne sont pas certains de trouver des débouchés. C’est à cette condition que le désir de maximisation du produit des entreprises ne les pousse pas à augmenter leur emploi.
+
+Keynes critique ouvertement les classiques par rapport à loi des débouchés : pour qu’il y ait il suffit qu’il y ait égalité entre productivité du travail et salaire réel (classique).
+
+
+
+
+
+Lorsque le salaire diminue en tain d’un excès d’offre, les entreprises rationnelles doivent augmenter leur emploi, cad augmenter leur demande de travail, et ceci jusqu’à ce que le chômage involontaire soit résorbé, autrement dit jusqu’à ce que les salaires réels ne baissent plus.
+
+Pour comprendre l’argumentation de Keynes, il faut admettre l’idée que les entreprises ne trouvent pas forcément de débouchés à leur production, ce qui signifie que lorsqu’elles augmentent l’emploi, elles augmentent leur prod sans savoir si celle-ci va trouver preneur.
+
+Il résulte une situation de chômage involontaire malgré une flexibilité des salaires réels. Dès lors que l’on remet en cause la loi des débouchés, on remet en cause la théorie quantitative de la monnaie, et donc la neutralité de la monnaie, mais aussi du marché des capitaux qui déterminaient le taux d’intérêt d’équilibre et la répartition entre consommation et investissement. La vision keynésienne renvoie à des activités de prod càd que l’activité éco s’organise autour de la mise en œuvre par les entreprises de la production. Cela signifie que seules les entreprises déterminent le niveau de production et d’emploi, et notamment par les anticipations que se font les entreprises sur la quantité de B&S produits qu’elles espèrent écouler.  Ainsi, les anticipations jouent un rôle essentiel sachant qu’elles sont qualifiées de volatiles (=changeantes). Ce qui va engendrer une instabilité du système économique.
+
+Le fait que les niveaux de production et d’emploi reposent uniquement sur le anticipations des entreprises nous amène à définir la notion de demande effective, soit la quantité de B&S que les entreprises espèrent écouler. Pour prendre les décisions, les entreprises vont estimer les recettes attendues en lien avec un certain nombre de B&S produits et les coûts certains que cette production nécessite. Le traitement des coûts se fait selon ce que Keynes appelle le prix de l’offre globale, soit le niveau minimal de recette exigé par les entreprises pour chaque volume de production, et donc d’emploi, qui garantit un profit minimal étant donné ce niveau de coût. Le niveau de profit minimal est le niveau de profit en dessous duquel les entreprises ne prennent pas le risque de produire.
+
+Les recettes attendues permettent aux entreprises de définir le prix de la demande globale, c’est une prévision de ce qu’ils pensent pouvoir réaliser au niveau des recettes en termes de B&S.
+
+Les recettes attendues de consommation reposent sur la loi psychologique fondamentale. Le rapport entre la variation de la consommation et la variation du revenu est la PmC. Ces deux grandeurs que sont le prix de l’offre et de la demande globales vont être d’autant plus élevées que le niveau d’emploi augmente, car derrière découle l’ensemble des revenus. Elles sont égales en un seul point, Keynes appelle ce point le niveau de demande effective : c’est le point où l’espoir de profit des entreprises est porté à son maximum. 
+
+Pour résumer les recettes attendues (prix de la D globale) et les coûts certains (prix de l’offre globale) sont des prévisions sur la recette minimum et la recette totale. Ces 2 prévisions ne sont jamais égales sauf en un point qui constitue la demande effective. Ceci est le socle de l’analyse éco : principe de la demande effective.
+
+
+
+      Alfa= la marge
+
+Dans ce graphique, toutes les grandeurs sont exprimées en quantités d’emploi càd déflater par le taux de salaire nominal. Il est possible de les exprimer également d’un pdv monétaire. 
+
+! Le point de départ de l’analyse keynésienne= principe de D effective ! 
+
+La détermination du prix de l’O globale que l’on va appeler Z représente les couts de mises en œuvre d’un certain volumes d’emploi. Ces couts qui sont essentiellement de la masse salariale et de la masse des profits exigées pour ce volume de production. 
+
+Donc le prix de l0 est déterminé par les couts salariaux et par les profits que souhaitent faire les entrep Z= N.w+ Pi 
+
+W= masse des salaires nominaux 
+
+Pi= masse de profit 
+
+N= niveau d’emploi 
+
+w=taux de salaire 
+
+Alpha= marge de profit sur les couts considérer 
+
+Z= N.w + pi
+
+Z= N.w + alpha (N.W)
+
+Z=N.w(1+ alpha) 
+
+Si on souhaite exprimer le prix de l’O globale non plus en unité monétaire mais en quantité d’emploi, il suffit de diviser de part et d’autre de l’équation par le taux de salaire w :                     P= Z/w= N(1+alpha)
+
+Si on connait la valeur de alpha, il est possible de représenter la droite du prix de l’O globale, celle-ci s’écarte de la 1ère bissectrice en fonction de l’angle défini par alpha. 
+
+On voit dans ce cas que le prix de l’O globale est croissant avec le niveau d’emploi et s’écarte tjrs davantage de la 1ere bissectrice. Cad lorsque l’emploi augmente, la masse des profits augmente.
+
+Prix de la D globale représente les recettes attendues par les firmes, c’est la somme attendues des recettes à la x d’investissement et de consommation :
+
+Les recettes d’investi sont certaines : en effet, ce sont des dépenses faites par des entrep à d’autres entrep et c’est indépendant du niveau d’emploi courant (c p.q c représenter par la droite horizontale n°3) 
+
+
+
+Les recettes de consommation sont liées aux dépenses de C° faites par les ménages via les salaires (on suppose ici que les profits ne sont pas consommés, slmnt les salaires). Ces dépenses de C° obéissent à la loi psychologique. Il est de ce fait possible d’écrire la F° de C° keynésienne avec des grandeurs exprimés en qtité d’emploi :
+
+        C/W= c’. wN/w = c’N         C’= Pmc
+
+Graphiquement elle est représenté par une courbe qui va s’écarter de la 1ère bissectrice à hauteur de c’ (vers le bas car elle est positive)
+
+Donc l’équilibre globale est donné au point DE où le prix de la D globale, autrement dit, les recettes attendues de la mise en œuvre d’une certaine quantité d’emploi est = au prix de l’O globale autrement dit les couts de la mise en œuvre d’une certaine quantité d’emploi.
+
+La demande effective est la valeur de l’O de la période qui correspond à un niveau d’emploi donné.
+
+ Les anticipations des entrep vont être/pas être validé, réalisé. 
+
+Si les anticipations sont validées : dans ce cas la valeur de la D effective et le volume de l’emploi sont inchangés pour la période suivante
+
+
+
+Si les anticipation sont invalidés : dans ce cas l’évaluation de la D effective va être modifié, il existera des problèmes au niv de l’économie et au niveau de la main d’œuvre(travail) 
+
+
+
+Il y a de ce fait aucune raison que le niveau d’emploi soit celui de plein emploi car a aucun moment l’O de travail n’est intervenu dans le processus.
+
+Le sous-emploi involontaire est provoqué par le fait que les anticipations de la D globale soit à un niveau insuffisant. L’ajustement de l’O et ma D globale est réalisé lorsque les anticipations contenues dans la D effective sont confirmées par le comportement des agents. On peut donc avoir un niveau de sous-emploi qui peut persister de manière chronique d’où le terme : hystérésis du taux de chômage. 
+
+La remise en cause de la théorie quantitative de la monnaie : une préférence pour la liquidité 
+
+Le principe de la D effective fait que le niveau d’emploi et de l’activité dépend du niveau d’investissement et de ses variations  
+
+3 variables peuvent influencer :
+
+Le niveau de consommation anticipée qui dépend principalement de la PmC, tel qu’elle est perçue par les entreprises. Or dans la pbm keynésienne ce paramètre est supposé être stable dans le temps et elle dépend essentiellement du comportement psychologique qui ne se modifie pas à court terme 
+
+
+
+C’est la marge minimale du profit exigé par les entrep (alpha) : + celle-ci est importante, + le prix de l’O globale est élevé et moins le niveau d’emploi sera élevé🡺 ici encore il s’agit d’un élément stable à CT et qui est difficilement influençable par les autorités 
+
+
+
+C’est le niveau d’investissement : seule cette dernière variable est susceptible de varier à CT et peut être également influencer par les autorités car le gvt pourrait mettre en place des subventions, ne pas avoir à payer des taxes.. 
+
+
+
+En résumé, selon ce principe, l’insuffisance de l’emploi est majoritairement attribuée à l’investissement. 
+
+On sait que l’investissement résulte de la comparaison de 2 taux :  entre taux d’intérêt et l’efficacité marginale du K.
+
+On a de ce fait une vision différente des classiques puisque le taux d’intérêt va avoir un rôle dans la détermination des grandeurs macroéconomiques. Selon Keynes, le taux d’intérêt n’est pas le prix de la renonciation à la consommation. Chez Keynes renoncer à la consommation c’est néfaste pour l’économie. Selon Keynes le niveau d’activité et d’emploi sont d’autant plus élevé que le niveau de consommation est important. Chez lui, le comportement des ménages entre la consommation et l’épargne ne dépend pas du taux d’intérêt mais découle simplement de la loi psychologique.  Cf : c      s=1-c 
+
+
+
+Le taux d’intérêt n’est pas une variable d’ajustement sur le marché des capitaux entre l’O (épargne) et la D (investissement). En effet, le taux d’intérêt n’est pas un argument à la décision d’épargner. (Épargne indépendante du taux d’intérêt). De plus, au niveau macroéco, l’épargne disponible ne constitue pas une contrainte sur la décision d’investissement, cela résulte uniquement de la comparaison entre les recettes nettes attendues et un cout immédiat. L’investissement qui permet de dégager un certain niveau de revenu constituera l’épargne nécessaire pour le financer expost (invest par octroie de crédit : création monétaire). 
+
+Ce qui veut dire l’égalité épargne/investissement dans la conception keynésienne ne se réalise pas par l’intermédiaire du taux d’intérêt mais par celle du revenu globale. C’est une relation d’équilibre qui exprime d’une certaine manière l’équilibre macroéconomique entre O globale et D globale. 
+
+
+
+Pour Keynes, le taux d’intérêt= le prix de la renonciation à la liquidité.
+
+2 décision vis-à-vis du temps :
+
+Partage entre consommation et épargne (repose sur la loi psychologique) 
+
+Une fois, la C° posé, ce qui reste c’est l’épargne et c’est à ce moment-là que entre la 2ème décision càd :
+
+
+
+Sous qu’elle forme est détenu cette épargne : sois sous forme liquide (thésaurisation), soit sous forme de titre financier (-liquide) 
+
+Qd on est dans une éco monétaire, les agents ont une préférence pour la liquidité, Keynes dit qu’il faut insister les agents économiques à détenir leur épargne sous forme de titre et cette incitation passe par le taux d’intérêt puisque ça va constituer une rémunération de l’épargne d’où le fait que le TI est le prix de la renonciation à la liquidité.
+
+Le taux d’intérêt = la variable monétaire qui ajuste la préférence pour la liquidité avec la quantité de monnaie disponible sachant que cette quantité de monnaie dispo est en lien avec la Pol faite par la Banque centrale. 
+
+
+
+Selon Keynes, on détient la monnaie pour 3 motifs :
+
+Motif de transaction : monnaie permet de réaliser les échanges
+
+
+
+Motif de précaution : se prémunir contre des imprévus
+
+
+
+Motif de spéculation : fait de vouloir réaliser des opérations financières rentables (fait de renoncer à de la liquidité par l’intermédiaire du taux d’intérêt) 
+
+
+
+Dans la théorie générale de Keynes, on introduit en amont du processus la détermination des grandeurs économiques, ce qui a conduit Keynes à définir qu’une situation d’équilibre de sous-emploi peut exister en dépit de la flexibilité du salaire réel. 
+
+Cela conduit Keynes à réfuter l’ensemble des principes fondamentaux de l’analyse classique macroéco à savoir : 
+
+La loi des débouchés
+
+La représentation classique du marché du K
+
+Théorie quantitative de la monnaie 
+
+Selon lui, le niveau d’emploi n’est pas déterminé sur le marché du travail, le niveau d’investi n’est pas déterminé sur le marché du k et le marché des biens n’est pas un marché au sens traditionnelle puisque le prix ne joue pas un rôle d’ajustement entre l’O et la D globale 
+
+On a une vision complétement alternative qui met en avant la nécessité de l’intervention de l’état puisque en aucun cas, l’équilibre de plein emploi ne peut être atteint par une variation des prix. L’atteinte du plein emploi peut arriver uniquement si l’état vient en soutien à la demande.
+
+Chez Keynes le sous-emploi est lié uniquement à une insuffisance de la D globale anticipé. Chez Keynes il faut recentralisé, autrement dit l’état doit apporter les réponses aux déséquilibres 
+
+
+
+II) les composantes de la D globale 
+
+Comme pour les classiques, les biens et les services ont deux types d’utilisation diff : ils peuvent satisfaire les besoins des ménages soit sous forme marchande (achète des biens= consommation) soit sous forme de B&S collectif.                                La seconde affectation possible c’est l’investissement. Donc C° et investi sont essentiel au circuit économique. Ce sont les composantes fondamentales de la D globale (on raisonne dans une éco fermé). L’analyse macro éco va s’intéresser à la formation des dépenses de C° et d’investissement et Keynes a une démarche de construction de ces fonctions à un niveau macro.
+
+
+
+La fonction de consommation
+
+La F° de C° macroéco classique est fondée sur les comportements individuelles cad micro éco et répondent à la question : comment un revenu donné, un agent représentatif choisit parmi les différents biens qui lui sont offerts sur le marché. Cette analyse repose sur l’égalité entre utilité marginale = cout marginale (théorie du consommateur analyse micro) 
+
+Dans cette logique, l’épargne ne reflète que le choix entre consommation présente et C° future : repose sur le taux d’intérêt. 
+
+La logique keynésienne= différente car s’intéresse directement à la C° agrégé de l’ensemble des ménages. La variable déterminante de cette f°= le revenu
+
+L’épargne= pas volonté de transférer de la C° dans le futur autrement dit la PmE n’est pas en lien avec le taux d’intérêt et ça constitue une fuite dans le circuit éco 
+
+L’excès d’épargne est selon Keynes, un facteur principal d’une faible croissance à l’inverse consommation= moteur de croissance 
+
+
+
+
+
+L’investissement (cf ch2)
+
+Chez les classiques et Keynes, on retrouvera l’égalité I= S mais chez les classiques elle est en lien avec le marché de K de prêt et donc le taux d’intérêt alors que chez Keynes, elle va découler de l’équilibre macroéconomique.
+
+
+
+III) les équilibres et les déséquilibres macroéconomique 
+
+L’équilibre= situation de cohérence de l’ensemble du système économique dans laquelle les décision des groupes (agents éco) qui s’exprime sur diff marché sont compatibles en prêt.
+
+Chez les classiques, on sait que l’équilibre est qualifié d’équilibre général car il y a égalité entre O et D de manière simultanés sur tous les marchés. C’est un équilibre de plein emploi, l’ajustement se fait par les prix, on se base sur les comportements individuels.
+
+
+
+Chez Keynes, on parle d’équilibre global, avec des caractéristiques général qui diffère de l’équilibre général des classiques. C’est l’interaction des fonctions macroéco : consommation, investissement, D de monnaie, importations et exportations si on est en économie ouverte. On a rigidité des prix qui fait que l’ajustement se réalise par les quantités. La monnaie joue un rôle dans la détermination du revenu national, on a un équilibre global, qui est un équilibre de sous-emploi cad que l’O > à la D et les équipements ne sont pas pleinement utilisés. Donc l’éco chez Keynes est dans une situation : sous optimale 
+
+Le terme même d’équilibre dans la vision keynésienne est assez ambiguë puisque s’il existe un équilibre sur le marché des biens et services et sur le marché de la monnaie, cela s’accompagne d’un déséquilibre sur le marché du travail qui fait apparaitre du chômage involontaire.
+
+Pour comprendre l’analyse keynésiennes, il faut s’intéresser aux marchés des biens/services qui va nous donner les caractéristiques d’équilibre de sous-emploi. Ce qui permet de justifier l’intervention de l’état. 
+
+On s’intéresse ensuite au rôle de la monnaie cad au marché de la monnaie puisque la préférence pour la liquidité va avoir des impacts sur les variables réelles de l’économie (dichotomie chez les classiques) 
+
+Ceci se résume dans le modèle de Hicks-Hansen à travers la construction de deux courbes : la première IS (invest saving) et la seconde LM (liquidity money). Sachant que ce modèle est un modèle en économie fermé, autrement dit, il n’existe pas de relation avec le reste du monde. 
+
+
+
+
+
+
+
+
+
+La fidélité de ce modèle a la pensée keynésienne fait débat auprès de la communauté des économistes. Il est possible de faire une description plus général du modèle en intégrant les échanges avec l’extérieur, on parle dans ce cas d’analyse en économie ouverte. C’est le modèle de Mundell-Flemming ou on vient ajouter une 3ème relation qui retrace les échanges de B&S mais aussi les échanges financiers qui existent avec le reste du monde.
+
+
+
+Le modèle revenu-dépense et le principe du multiplicateur 
+
+Toute économie fonctionne selon 3 dimensions : 
+
+La production
+
+La demande
+
+La répartition des revenus 
+
+Au sein d’une économie capitaliste, dans la vision keynésienne, les décisions de production et d’embauche sont totalement décentralisé. Chaque producteur choisit ses quantités produites et donc sa quantité d’emploi nécessaire, ceci dans un univers risqué car le producteur va avancer des productions qu’il va récupérer par l’intermédiaire de ses recettes futurs dans un univers qui est incertain. 
+
+Donc les anticipations des entreprises sont essentiels, c’est le cœur de la mise en route du processus économique (ceci se résume sous la D effective). 
+
+L’augmentation d’investissement entraine un accroissement plus important via un effet de multiplication de la production, de l’activité et donc de l’emploi. On veut expliquer ce phénomène de X°. 
+
+Autrement dit pq qd investissement augmente il va y avoir un effet multiplicatif ?
+
+Il est nécessaire pour décrire cela de poser des hypothèses :
+
+Quand la D augmente, les entreprises peuvent réagir de différente manière : soit augmenter sa prod° soit augmenter les prix soit combinaison de hausse de production et de prix. Dans l’analyse keynésienne les deux proposition (hausse des prix et combinaison des facteurs) sont exclues, cad on ne peut pas venir augmenter les prix. En période de sous-emploi, tant que le niveau de production est inférieur à certain seuil caractérisé par le plein emploi Ype, le système productif répond aux variations de la D sans augmenter les prix. C’est que qd le revenu atteint celui de plein emploi que les prix vont augmenter pour faire face à une hausse de la D 
+
+
+
+La force de travail disponible est constante= pas d’accroissement de la population ce qui veut dire que niveau de plein emploi= constant. On est donc bien dans une analyse de courte période, on considère uniquement les capacités de production existantes. On peut donc dire que toute variation de la production va avoir un impact immédiat et proportionnel sur le niveau d’emploi. 
+
+Qd le niveau de production est inferieur à celui de plein emploi on a les capacités de productions, de ce fait l’ajustement se fait par les quantités. Si on a un accroissement de la D, les entreprises font du déstockage et si on est en diminution, elles augmentent les stocks. 
+
+L’équilibre s’entend comme une situation dans laquelle l’O globale (d’où équilibre globale) est = à la D globale. On fait une abstraction sur les délais d’ajustement qui peuvent exister pour une entreprise pour faire face aux variations de la D.
+
+L’équilibre concerne l’équilibre sur le marché des B&S ce qui veut dire que cette équilibre globale ne signifie pas qu’il y a équilibre sur le marché du travail.
+
+
+
+En économie fermé, lorsqu’on dit offre globale= D globale cela signifie que Y= C+I 
+
+La C° chez Keynes dépend du revenu et investissement dépend du taux d’intérêt : 
+
+Y-C= I    S=I   S(Y) = I(r)
+
+Par rapport à l’approche classique :
+
+L’égalité entre épargne et investissement est maintenu mais chez eux, l’épargne et investissement s’ajustait de manière automatique par l’intermédiaire du taux d’intérêt 
+
+Chez les keynésiens, l’épargne et l’investissement dépendent de variable différente et reflète le comportement de deux types d’agents éco qui sont non-coordonnées. 
+
+Il n’y a aucune raison a priori que l’épargne des ménages soit égale à l’investissement des entreprises, l’équilibre économique n’est donc plus garanti. La condition d’équilibre sur le marché de bien & services (OG=DG) nous amène : 
+
+Y= cY+Co + I  🡪 (1-c) Y= Co+ I  🡪 Y= 1/1-c (Co+I) 
+
+Toute opération de production donne lieu à des revenus, on sait que le revenu se réparti entre C° et épargne d’où le fait de retrouver notre égalité I=S 
+
+Quand on est en éco fermé, une perturbation va amener notre économie vers un nouvel équilibre et on va comparer la situation initial et la situation finale, autrement dit on va faire de la statique comparative sans envisager d’expliquer le passage d’un équilibre à un autre. 
+
+Le multiplicateur d’investissement c’est le coefficient qui compare l’ampleur de la modification subit à l’ampleur de la perturbation initial. Il permet de connaitre quel est l’effet d’une modification de l’investi sur l’activité Y.
+
+Quand on est dans une éco en sous-emploi avec un équilibre sur le marché des biens et services, cela veut dire qu’il y a une insuffisance de la D effective. Tous les biens produits sont écoulés mais cet équilibre ne garantit pas le plein emploi cad qu’il existe du chômage. La solution c’est de relancer la D tant que Y est inférieur à Y de plein emploi.
+
+
+
+
+
+On voit que il y a un effet multiplicateur DG= C+ I dans sa version la + simple
+
+A prouver : Si on investit plus on va pouvoir créer de la croissance et donc demander + de travail 
+
+Hypothèse : l’investissement est pour le moment exogène (= à une constante) cad je le pose indépendant à la fois du revenu et du taux d’intérêt. 
+
+I= I0             Y= C + I 🡺 Y= cY + C0 + I0
+
+Cette équation nous montre les conditions d’équilibre initial sur le marché des biens et services. Cet équilibre est modifié dès lors qu’il existe une variation de l’investissement. 
+
+On imagine que les entrep augmente l’investi : IO + dI (=les investi en t) :
+
+Notre équilibre devient Y= C(Y) + I0 + dI dans un premier temps sauf que le fait que les entrep augmentent leur investi ca a des répercussions sur le revenu global de l’économie et aussi sur la consommation des ménages 
+
+Notre équilibre devient donc :   dY + Y = C(Y) + dC + Io + dI
+
+Ce qui a changé c’est dY et a droite dc + dI : dy= dc + dI = ce qui a été modifié 
+
+Donc le multiplicateur d’investi c’est le rapport de l’accroissement du niveau de production (dY) ou de revenu à l’accroissement initial de l’investissement (dI) 
+
+De l’équation dy= dc + di on obtient : dI= dy – dc
+
+Donc X°🡺 k= dy/dI
+
+= dy/ dy -dc
+
+= 1/ dy-dc/dy
+
+= 1/ 1- dc/dy
+
+= 1/ 1- c
+
+= -1/ 1-c
+
+= 1= PmS
+
+= 1/ 1-PmC
+
+0<1-c< 10 < 1-c < 1        0 < s< 1
+
+
+
+L’augmentation de l’investi entraine une augmentation équivalente du revenu qui a son tour va venir augmenter dans une proportion moindre la consommation qui va venir à son tour alimenter le revenu et donc de nouveau alimenter la consommation 
+
+Y= C+I            Y+ dY = C+ dc + Io+ dI
+
+Augmentation de I 🡺 augmentation de Y 🡪 Augmentation de la consommation à hauteur de c 🡺 augmentation de Y 🡺 hausse de C 
+
+
+
+
+
+
+
+c= 0,8 
+
+Hausse de l’I= 100
+
+Hausse du revenu = 100
+
+Hausse de la C° = 0,8 X 100
+
+Donc étape suivante le revenu augmente de 80
+
+La consommation elle de 0,8 X 80= 64
+
+Puis Y de 64 et C° de 0,8 X 64
+
+= 0,8 X 0,8 X 0,8 X 100 = 0,8 exposant cube (100) 
+
+
+
+A chaque étape l’impact de la consommation est de plus en plus faible, ceci est lié au fait que la PmC est comprise entre 0 et 1. Ce qui montre bien que l’épargne est une fuite car on ne va pas intégralement consommer le revenu créer supplémentaire. Qd on est en éco fermé, on retrouve toujours notre X° d’investissement qui est donné par 1/1-C 
+
+
+
+Si on est en éco ouverte on sait que consommation et investi représente la D intérieur. Dans une éco ouverte il suffit d’y ajouter les exportations cad la D extérieure qui dépend du niveau des prix sachant que les prix sont fixes à court terme et ça dépend également de la situation économique des pays étrangers. On peut donc supposer que les exportations sont exogènes par rapport à l’équilibre économique national 
+
+On sait que la D extérieur net= différence entre export et import et donc contrairement aux exportations, les importations sont directement en lien avec le revenu national.            On pose l’hypothèse que les importations sont une fonction croissante du revenu national : M= mY                                                          0 < m < 1 🡺 m= propension marginale à importer
+
+Ce qui veut dire que la D extérieur net c’est la différence entre les exportations et les importations cad X-M = X-mY
+
+En éco ouverte : Y= C + I + (X-M)
+
+Y= C+I+X-mY
+
+Y= cY + Co + I+ X – my
+
+Situation initiale
+
+
+
+si les entrep décident d’augmenter l’investi :
+
+Y + dY= c (Y+ dY) + Co + Io+ dI + X-m(Y +dY)
+
+dY= cdY+ dI-mdY
+
+(1-c+m)dY= dI
+
+dY/ dI= 1/ 1-c +m🡪 éco ouverte
+
+dy / dI = 1/ 1-c 🡪 éco fermé
+
+
+
+On trouve que le X° d’investi est plus faible en économie ouverte qu’en économie fermé 
+
+Dans ce cas en éco ouverte on a l’effet de la hausse de l’I qui est freiné par rapport à l’éco fermé puisque les ménages peuvent trouver des B&S ou consommer des biens venu de l’extérieur qui sont représenté par nos importations.
+
+On a un X° qui est d’autant plus élevé que la PmC est élevé et la propension marginale a importer est faible (années 80) 
+
+
+
+On va mtn s’intéresser au X° des dépenses publiques
+
+On s’y intéresse pour faire apparaitre les effets de la politique budgétaire, il faut donc faire apparaitre les dépenses publiques dans l’équation d’équilibre 0=D
+
+En éco fermé :
+
+G= dépenses publiques.  T= impôts forfaitaires    F= prestation sociale/transfert forfaitaires
+
+Y= C+ I+ G 
+
+Les ménages consomment en fonction de leur revenu disponible 🡺 Y- T + F
+
+🡪 Y= Co + c(Y-T+F) + I + G 
+
+(1-c)Y= Co + cF -cT+ I + G 
+
+
+
+Le X° = dy/dG = 1/1-c
+
+Des lors que le gouv décide d’augmenter ses dépenses publiques, dans ce cas le revenu augmente à hauteur de 1/1-c, on retrouve notre effet multiplicatif 
+
+Hausse des dep publique🡺 hausse de Y ds les meme proportions 🡺 alimenter la C° 🡺 alimente le revenu🡺 hausse de la C°
+
+Notons qu’il Il est possible de déterminer le X° des impôts forfaitaires, quel est l’effet de la modification des impôts sur le revenu 
+
+dY/ dT = -c/ 1-c = effet négatif 
+
+
+
+il est possibles de calculer le X° des transferts forfaitaires :
+
+Quel est l’effet d’une modification des transferts forfaitaires sur le revenu : dY/dF = c/1-c
+
+si le Gouv décide d’augmenter les prestations sociales🡪 revenu dispo des ménages + important🡺 + consommation 🡺 + de richesse
+
+
+
+le X° d’équilibre budgétaires : la hausse des dépenses publiques est financé par une augmentation des impôts 
+
+On pose l’hypothèse : dG= dT 
+
+Dans ce cas le X° de budget est = à 1 
+
+Ce qui veut dire que l’accroissement du revenu est = à l’accroissement des dépenses publiques 
+
+
+
+Ce résultat est connu sous le théorème de Haavelmo : le budget de l’état n’est pas neutre. En effet il existe un effet stimulant même si il y a un financement intégrale par impôts 
+
+On a les impôts qui bloque l’effet X° en réduisant le revenu disponible du montant des dépenses publiques mais l’effet initial de ces dépense sur la production est maintenu.
+
+
+
+Le modèle ISLM en économie fermé 
+
+
+
+L’équilibre sur le marché des biens & services
+
+Y= C+I sachant que le revenu sert à consommer et épargner d’où Y= C+S donc I=S
+
+On sait que l’épargne est une grandeur résiduelle de la consommation. Contrairement aux classiques, l’épargne ne dépend plus du taux d’intérêt. Selon Keynes le rôle du taux d’intérêt dans l’épargne est incertain. De plus, pour lui il suppose que le taux d’intérêt a un rôle très faible à jouer ce qui fait qu’on néglige la dépendance de l’épargne au taux d’intérêt dans la vision keynésienne. 
+
+D’un autre coté : l’investissement est une fonction décroissante du taux d’intérêt. La décision d’investir résulte de la comparaison entre taux d’intérêt et efficacité marginal du K
+
+Notre condition d’équilibre est réalisée ssi l’épargne est = à l’investissement 
+
+I= S
+
+I(r) = Y-C(Y) 
+
+I(r) = Y-cY-co
+
+I(r)= (1-c)Y – Co 
+
+Cette relation montre qu’il existe un revenue d’équilibre Y pour chaque niveau de taux d’intérêt. 
+
+Ici, l’investissement est autonome par rapport au revenu puisqu’il dépend du taux d’intérêt. Cette égalité à l’équilibre suppose qu’il existe pour chaque taux d’intérêt un niveau de revenu qui égalise investissement et épargne. Ceci passe par le principe du X°. En effet, toute baisse du taux d’intérêt, se traduit par une augmentation de l’investissement. Cette hausse pour que l’équilibre (I=S) demeure doit correspondre à une augmentation de l’épargne. Ce qui suppose une augmentation du niveau d’emploi et donc du revenu. 
+
+Étant donné le principe du X° d’investissement, le revenu augmente jusqu’à ce que l’épargne soit = à l’investissement et ceci passe par le revenu. Il existe une relation indirect entre taux d’intérêt et revenu. Cette relation se représente par la courbe IS qui représente tous les points d’équilibres entre S et I. La courbe nous donne l’ensemble de couple (Y ; R) pour lesquels I= S 
+
+Cette relation ne détermine pas le niveau de Y et de R, il s’agit simplement d’une relation implicite. 
+
+L’objectif c’est d’établir une relation clair entre les comportements de consommation donc d’épargne des ménages et les comportements d’investissement des entreprises.
+
+
+
+
+
+Le graphique A : représente la fonction d’investissement pour laquelle on sait que l’investissement est une fonction décroissante du taux d’intérêt 
+
+Le B représente l’égalité entre I et S. 
+
+
+
+Le cadran c représente la fonction d’épargne sachant que l’épargne = (1-c)Y -Co 
+
+Le D se déduit des cadran a, b et c, cela représente l’ensemble des conditions d’équilibres du marché des B&S, tout point qui appartient à IS est un point ou le marché des B&S est à l’équilibre. 
+
+Il existe bien un lien entre le revenu national (y) et le taux d’intérêt (r) sachant que le taux d’intérêt est une variable monétaire, il y a bien de ce fait abandon de la dichotomie de la sphère réel et la sphère monétaire (classiques). Le marché des B&S est influencé par le marché de la monnaie et inversement également.
+
+Cette relation IS va pouvoir se déplacer graphiquement pour diverse raison :
+
+Soit prck les entreprises modifient leur comportement en matière d’investissent. Ca peut aussi se déplacer par rapport au comportement d’épargne des ménages (la pente du cadran c + ou - forte).
+
+ Ca peut être modifier aussi si l’état met en place une politique, si il décide d’augmenter par ex les dépenses publiques, on a vu qu’il existe un X° des dépenses publiques donc ça aura un impact direct sur notre relation IS. 
+
+L’état peut aussi mettre en place des mesures incitant les entreprises à investir 
+
+
+
+Le marché de la monnaie :
+
+La fonction de D de monnaie :
+
+Selon Keynes on demande de la monnaie pour 3 motifs :
+
+Transaction
+
+Précaution 
+
+Spéculation
+
+
+
+Il existe une relation inverse entre le taux d’intérêt et le prix des actifs financiers. (l2) 
+
+La D de monnaie pour motif de transaction et précaution sont relativement stable à court terme sachant que on se situe dans un modèle à court terme. Ces 2 motifs sont dépendant du revenu.
+
+En ce qui concerne le motif de spéculation, l’objectif est de chercher à maximiser les gains en capital et à minimiser les pertes. La variable clé dans le motif de spéculation= taux d’intérêt.
+
+Transaction – précaution 
+
+L1 (Y) = t. Y
+
+La part du revenu conservé par les agents pour satisfaire leur besoin de transaction et de précaution 
+
+Spéculation 
+
+L2 (r) = lo = lr 
+
+lo= qtité de monnaie que les agents souhaitent gradé pour maintenir leur richesse 
+
+lr= demande de monnaie qui est proprement spéculative 
+
+L= fonction de préférence pour la liquidité = L= L1(Y) + L2(r) = DG
+
+En réalité chez Keynes il existe un taux d’intérêt maximum, cad que dans ce cas les spéculateurs ne peuvent prévoir qu’une baisse de celui-ci et donc une hausse du prix des titres. Pour ce taux, les spéculateurs ne demandent plus de monnaie mais uniquement des titres. On parle de ce cas de préférence absolue pour les titres.
+
+D’une manière général si les taux d’intérêt sont très élevés, donc les agents vont prévoir une baisse de ce taux donc une hausse des prix des titres donc la D de monnaie pour motif de spéculation va diminuer.
+
+Il existe aussi pour Keynes, un taux d’intérêt minimum, pour ce taux les agents vont transformer tous leurs avoirs en liquidités (préférence absolue pour la liquidités). On parle de situation de trappe à liquidité. 
+
+
+
+
+
+
+
+
+
+A= transaction, précaution 
+
+B= demande de monnaie pour spéculation a partir du taux d’intérêt max, la courbe se confond avec l’axe des ordonnées (pref absolue pour les titres).                    Dans la zone intermédiaire la courbe est une fonction décroissante du taux d’intérêt et pour le taux d’intérêt minimum, les prix des actifs ne peuvent que baisser (pref pour la liquidité) situation de trappe à la liquidité 
+
+C= synthèse des 3 motifs, largement influencé par le comportement des spéculateurs. Qd on a des taux d’intérêt max, dans ce cas la D de monnaie se résume aux motifs de précaution et de transaction autrement dit elle est parallèle à l’axe des ordonnées. Dans la partie intermédiaire la D de monnaie est davantage due aux comportements spéculatifs et enfin dans la dernière partie, les agents ne demande pas de la monnaie pour spéculer ni pour effectuer des transactions et donc toute hausse de la quantité de monnaie sera vouer ou destiné à des encaisses oisives.
+
+Le taux d’intérêt influence uniquement la façon de détenir son épargne
+
+
+
+L’offre de monnaie :
+
+Elle est supposé être exogène : c’est une variable qui est déterminé par la banque centrale. Elle détermine le niv de la masse monétaire. L’hyp forte et simplificatrice puisque elle permet d’affirmer que bien que ces marchés soit monopolistique, son équilibre se détermine par la rencontre entre l’O et la D
+
+Qd O= D ça nous permet de déterminer le taux d’intérêt d’équilibre.
+
+Lorsque la qtité de monnaie offerte se situe dans la zone intermédiaire, si la banque centrale décide de diminuer son O de monnaie ceci va se traduire par une hausse du taux d’intérêt 
+
+Notons que la baisse de l’O de monnaie connait une limite= partie verticale. En effet, si le taux d’intérêt augmente dans ce cas il n’y a plus suffisamment de liquidité dans l’éco puisque on est dans la zone de préférence absolue pour les titres 
+
+Si on a une hausse de l’O de monnaie on voit que ça conduit à une baisse des taux d’intérêt sachant qu’elle connait aussi une limite qui est la situation de trappe à liquidité ou on va avoir un excèdent de monnaie dans l’économie 
+
+Dans le modèle ISLM en éco fermé, on va se situer dans la partie intermédiaire, cad l’O de monnaie va permettre de déterminer le niveau de taux d’intérêt 
+
+On va pouvoir construire notre relation LM. C’est une équation d’équilibre sur le marché de la monnaie afin de déterminer la quantité de monnaie disponible dans l’économie en fonction des valeurs du revenu et du taux d’intérêt. Ca se construit par l’intermédiaire de 4 graphique 
+
+
+
+A= demande de monnaie pour motif de transaction et précaution, fonction croissante 
+
+B= illustre égalité entre D et 0 de monnaie 
+
+
+
+C= demande de monnaie pour motif de spéculation en lien direct avec taux d’intérêt              D= équilibre sur le marché monétaire 
+
+
+
+
+
+
+
+La forme de la courbe LM : 
+
+La partie gauche horizontale : on est avec des taux d’intérêt a leur minimum donc on a préférence pour la liquidité 
+
+La partie intermédiaire : revenu global augmente simultanément avec le taux d’intérêt. En effet, l’O de monnaie étant considéré comme constante, toute hausse du taux d’intérêt entraine une baisse de la D de monnaie pour motif de spéculation. Il va s’en suivre une hausse de la D de monnaie pour motif de transaction et précaution ce qui correspond à une hausse du revenu global  
+
+La partie verticale : préférence absolue pour les titres 
+
+Donc équilibre sur IS et LM une croissante, l’autre décroissante 
+
+On a équilibre simultané ISLM a la fois du pdv réel et monétaire. Il suffit de superposer les 2 courbes :
+
+
+
+Cet équilibre E est caractérisé par un couple (YE ; RE) qui assure à la fois l’équilibre sur le marché des B&S et sur le marché de la monnaie. On retrouve un système de 2 équations qui sont ISLM qui ont chacune deux inconnus Y et R. 
+
+Au point E la masse monétaire en circulation détermine un taux d’intérêt assez bas et un niveau d’investissement assez élevé pour susciter un niveau d’équilibre YE.
+
+Ce revenu d’équilibre caractérise une situation qui correspond à une f° de C°, une efficacité marginale du K, une préférence pour la liquidité et une qtité de monnaie (offerte par la BCE) qui reflète le comportement de la BCE. Lorsque les prix sont constants et que l’investi dépend du taux d’intérêt dans ce cas-là la D de B&S gouverne le niveau de production (principe de D effective). Ce niveau de prod° n’est pas forcément celui de plein emploi. Ce modèle permet aussi de montrer que l’investi est indirectement relié à la prod° puisque une trop grande activité par rapport à la qtité de monnaie disponible dans l’économie aurait pour effet de demander d’avantage de monnaie pour motif de transaction et par conséquent réduirait la quantité de monnaie disponible pour le motif de spéculation.
+
+On aurait à la suite une hausse du taux d’intérêt qui aurait pour conséquence de ralentir l’activité du pays. Dans la mesure ou masse monétaire et prix sont constant il existe de ce fait un mécanisme d’ajustement de l’investi et de l’activité et la variable fondamentale qui permet l’interaction entre les 2 marchés c’est le taux d’intérêt.
+
+QCM || Le multiplicateur keynésien k = 1/(1-c) implique que || V:Une hausse de l'investissement a un effet amplifié sur le revenu|L'effet est toujours égal à 1|Plus c est faible, plus l'effet est fort|V:Plus c est élevé, plus l'effet multiplicateur est important

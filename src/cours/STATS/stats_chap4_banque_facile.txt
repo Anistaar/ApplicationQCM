@@ -1,0 +1,17 @@
+chapter: Chapitre 4 > Caractéristiques de dispersion
+
+# Faciles (Diff: Facile)
+VF || Les caractéristiques de dispersion complètent les tendances centrales en mesurant l'écart aux valeurs de référence || V || Définition rappelée en introduction du chapitre || Diff: Facile, Chapitre 4, Définition
+VF || L'étendue est égale à X_max − X_min || V || L'intervalle de variation I_var = [X_min; X_max] conduit à l'étendue E = X_max − X_min || Diff: Facile, Chapitre 4, Étendue
+VF || L'étendue est très robuste aux valeurs extrêmes || F || Elle est sensible aux extrêmes, d'où son usage comme indicateur complémentaire || Diff: Facile, Chapitre 4, Étendue
+
+QR || Les indicateurs de dispersion relatifs sont || V:Sans dimension (adimensionnels)|Toujours exprimés en unités monétaires|Toujours égaux à 1 || Le cours distingue dispersion absolue (avec unité) et relative (sans dimension) || Diff: Facile, Chapitre 4, Relative vs absolue
+QR || Les écarts interquartiles mesurent || V:La dispersion autour de la médiane|La dispersion autour de la moyenne|Uniquement la plus petite valeur || Le sommaire et le texte citent les écarts interquartiles autour de la médiane || Diff: Facile, Chapitre 4, Interquartiles
+QR || La variance mesure || V:La dispersion autour de la moyenne|La position médiane|La modalité la plus fréquente || La variance/écart-type sont des dispersions autour de la moyenne || Diff: Facile, Chapitre 4, Variance
+
+QCM || Les indicateurs de dispersion incluent || V:Étendue|V:Écarts interquartiles|V:Variance/Écart-type|Mode || Le mode est une tendance centrale, pas une dispersion || Diff: Facile, Chapitre 4, Liste
+QCM || À propos de la dispersion || V:Elle aide à juger si une valeur centrale représente bien la population|V:On distingue absolue et relative|V:Elle permet de comparer des séries de même nature|Elle remplace l'analyse des tendances centrales || Les deux familles sont mentionnées; la dispersion complète les tendances || Diff: Facile, Chapitre 4, Rôle
+QCM || Concernant l'étendue || V:Basée sur X_min et X_max|V:Indicateur très sensible aux extrêmes|Doit être utilisée seule|Indépendante de l'échelle || Elle se combine avec d'autres mesures || Diff: Facile, Chapitre 4, Étendue
+
+DragMatch || Associe l'indicateur à la référence || Étendue:Basée sur min et max, Écarts interquartiles:Référence médiane, Variance/Écart-type:Référence moyenne, Coefficient de variation:Dispersion relative || Associations usuelles rappelées dans le chapitre || Diff: Facile, Chapitre 4, Repères
+DragMatch || Associe situation et indicateur adapté || Valeurs extrêmes présentes:Écarts interquartiles, Séries comparées avec échelles différentes:Coefficient de variation, Besoin d'un indicateur simple:Étendue, Autour de la moyenne:Variance/Écart-type || Choix guidé par la nature des données || Diff: Facile, Chapitre 4, Choix pratique

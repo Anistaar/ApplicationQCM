@@ -1,0 +1,16 @@
+chapter: Chapitre 3 > Mesures de tendance centrale
+
+# Difficiles (Diff: Difficile)
+VF || La médiane d'une distribution groupée en classes peut être interpolée linéairement dans la classe médiane || V || Méthode usuelle: médiane = L + ((n/2 − F_{préc})/f_m)×h || Diff: Difficile, Chapitre 3, Groupées
+VF || Si on ajoute une constante c à toutes les observations, la moyenne augmente de c mais la médiane aussi de c || V || Les deux sont translation-invariantes || Diff: Difficile, Chapitre 3, Transformation
+
+QR || Série pondérée: valeurs 10, 20, 30 avec poids 1, 2, 3. La moyenne pondérée vaut || V:23,33|22|25 || (10×1+20×2+30×3)/(1+2+3)=(10+40+90)/6=140/6≈23,33 || Diff: Difficile, Chapitre 3, Pondérée
+QR || Deux croissances successives +20% puis +25% vers 100. La valeur finale vaut || V:150|145|148 || 100×1,20×1,25=150 → moyenne géométrique ≈ √(1,2×1,25) || Diff: Difficile, Chapitre 3, Géométrique
+QR || Vitesse aller 60 km/h, retour 40 km/h (même distance). La vitesse moyenne vaut || V:48|50|49,5 || Moyenne harmonique: V=2/(1/60+1/40)=2/(1/24)=48 || Diff: Difficile, Chapitre 3, Harmonique
+
+QCM || Concernant les moyennes || V:Arithmétique ≥ Géométrique ≥ Harmonique (données positives)|V:La moyenne arithmétique est sensible aux outliers|V:La médiane est robuste|La géométrique convient aux valeurs nulles || Inégalité AM≥GM≥HM; géométrique non définie si 0 || Diff: Difficile, Chapitre 3, Inégalités
+QCM || Médiane groupée: éléments requis || V:Classe médiane|V:Effectif cumulé précédant|V:Largeur de classe|Centre de la classe seulement || Interpolation linéaire nécessite ces éléments || Diff: Difficile, Chapitre 3, Médiane groupée
+QCM || Mode pour classes continues || V:Classe modale|V:Peut être estimé par interpolation|V:Dépend des effectifs voisins|Toujours égal à la moyenne || Mode groupé via formule de Czuber (ou interpol.) || Diff: Difficile, Chapitre 3, Mode groupé
+
+DragMatch || Associe moyenne et contexte délicat || Croissances multipliées:Géométrique, Vitesse même distance:Harmonique, Données avec extrêmes:Médiane, Distribution symétrique:Arithmétique || Rappel des choix avancés || Diff: Difficile, Chapitre 3, Choix avancé
+DragMatch || Associe formule et nom || AM≥GM≥HM:Inégalité des moyennes, Médiane groupée:Interpolation linéaire, Mode groupé:Formule avec voisins, Moyenne pondérée:Σw_i x_i / Σw_i || Synthèse des outils || Diff: Difficile, Chapitre 3, Formules

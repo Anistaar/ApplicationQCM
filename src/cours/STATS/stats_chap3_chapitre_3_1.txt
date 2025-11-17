@@ -1,0 +1,1384 @@
+chapter: Statistiques > Chapitre 3 (1)
+
+
+
+Statistiques Descriptives
+L1 Économie
+Seynabou Gueye, Mehdi Guelmamen, Emilien Macault
+Faculté de Droit, Économie et Administration
+Université de Lorraine
+Chapitre 3: Les mesures de tendance centrale
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20241 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20242 / 72
+
+Définition
+Lesindicateurs de tendance centralesont un ensemble de mesures
+faites sur une série statistique permettant de résumer l’information
+de toute une série à l’aide d’une seule valeur.
+Elles permettent d’avoir une première idée de l’aspect de la distri-
+bution d’une série (ou distribution) statistique.
+On distingue plusieurs mesures de tendance différentes, chacune
+ayant sesavantageset sesinconvénients.
+Une étude descriptive d’une variable nécessitera donc souvent de
+calculerplusieursde ces mesures et de lescomparer.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20243 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+Variables qualitatives ou quantitatives discrètes
+Variables quantitatives continues
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20244 / 72
+
+Définition
+Soit une série statistiqueX=x
+1
+,...,x
+n
+.
+Le mode
+Le mode, noté Mo, est la modalitéx
+i
+la plus fréquente dans
+les valeurs deX.  C’est la valeur du caractère qui correspond
+à l’effectifle plus grand, ou la fréquence la plus importante.Il
+s’exprime dans la même unité que la variableXétudiée.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20245 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+Variables qualitatives ou quantitatives discrètes
+Variables quantitatives continues
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20246 / 72
+
+Variables qualitatives ou quantitatives discrètes
+Dans le cas de variables qualitatives ou quantitatives discrètes, le mode
+est la modalité associée à l’effectif le plus élevé (ou la fréquence la plus
+élevée).
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20247 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+Variables qualitatives ou quantitatives discrètes
+Variables quantitatives continues
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20248 / 72
+
+Variables quantitatives continues
+Pour une variable continue, le mode n’est pas toujours facilement
+observable, en particulier lorsque la variable est regroupée en classes.
+Détermination graphique du mode: on repère laclsse modale,
+i.e. la classe[a
+i
+;b
+i
+[associée à l’effectif le plus élevé. On trace les
+diagonales comme indiqué sur la figure. Lemode Moest l’abscisse
+du point d’intersection des diagonales.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20249 / 72
+
+Variables quantitatives continues
+Pour une variable continue, le mode n’est pas toujours facilement
+observable, en particulier lorsque la variable est regroupée en classes.
+Détermination graphique du mode: on repère laclsse modale,
+i.e. la classe[a
+i
+;b
+i
+[associée à l’effectif le plus élevé. On trace les
+diagonales comme indiqué sur la figure. Lemode Moest l’abscisse
+du point d’intersection des diagonales.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20249 / 72
+
+Variables quantitatives continues
+Exemple : On s’intéresse à la taille des candidats dans un concours
+D’après ce graphique, la taille la plus fréquente est173cm
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 72
+
+Variables quantitatives continues
+Exemple : On s’intéresse à la taille des candidats dans un concours
+D’après ce graphique, la taille la plus fréquente est173cm
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 72
+
+Variables quantitatives continues
+On peut également déterminer le mode par le calcul :
+Mo=x
+m
++a
+[
+(n
+m
+−n
+m−1
+)
+((n
+m
+−n
+m−1
+) + (n
+m
+−n
+m+1
+))
+]
+Avec :
+x
+m
+: borne inférieure de la classe modale
+a: amplitude de la classe modale
+(n
+m
+−n
+m−1
+): différence entre la fréquence de la classe modale et
+la fréquence de la classe précédente
+(n
+m
+−n
+m+1
+): différence entre la fréquence de la classe modale et
+la fréquence de la classe suivante
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202411 / 72
+
+Avantages et inconvénients
+Le mode représente la valeurla plus fréquented’une série statistique :
+il permet de faire ressortir une modalité majoritaire ou la valeur la plus
+probable d’une série.
+Le mode est peu sensible aux observations parasites et aux valeurs ex-
+trêmes. Par exemple : en ville, la majorité des automobilistes roulent à
+50km/h, peu importe les excès de vitesse.
+Le mode n’est pas nécessairement unique, on distingue donc :
+Les variablesunimodalesqui n’ont qu’un seul mode;
+Les variablesmultimodalesqui en ont plusieurs (effectifs iden-
+tiques).
+Dans le cas multimodal, on peut choisir un des modes, mais il est mieux
+d’utiliser d’autres mesures plus précises.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+Définition
+Détermination graphique de la médiane
+Détermination de la médiane par le calcul
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202413 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+Définition
+Détermination graphique de la médiane
+Détermination de la médiane par le calcul
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202414 / 72
+
+La médiane
+La médiane, notéeMé, est la modalitéx
+i
+du caractère partageant
+lesNobservations, classées dans l’ordre croissant, en deux groupes
+de même taille.
+Remarques
+Les modalités d’un caractère qualitatif non-ordinal n’étant
+pas classables dans l’ordre croissant, il n’y a pas de médiane
+dans ce cas.
+La médianeMése détermine dans tous les cas l’aide des
+E.C.C ou des f.c.c (%)
+La médianeMés’exprime dans la même unité que la variable
+xétudiée.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202415 / 72
+
+La médiane
+La médiane coupant l’effectif total en deux parties égales, on a deux
+cas à distinguer :
+1
+1e cas:l’effectif total N est impair:N= 2p+ 1avecp, un entier
+naturel. SiN= 2p+ 1, la médiane est la modalitéx
+i
+associée à la
+p+ 1ème observation. On a :
+2
+2e cas:l’effectif total N est pair :N= 2pavecpun entier naturel
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 72
+
+La médiane
+La médiane coupant l’effectif total en deux parties égales, on a deux
+cas à distinguer :
+1
+1e cas:l’effectif total N est impair:N= 2p+ 1avecp, un entier
+naturel. SiN= 2p+ 1, la médiane est la modalitéx
+i
+associée à la
+p+ 1ème observation. On a :
+2
+2e cas:l’effectif total N est pair :N= 2pavecpun entier naturel
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 72
+
+La médiane
+La médiane coupant l’effectif total en deux parties égales, on a deux
+cas à distinguer :
+1
+1e cas:l’effectif total N est impair:N= 2p+ 1avecp, un entier
+naturel. SiN= 2p+ 1, la médiane est la modalitéx
+i
+associée à la
+p+ 1ème observation. On a :
+2
+2e cas:l’effectif total N est pair :N= 2pavecpun entier naturel
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 72
+
+La médiane
+Si cela a un sens, la médiane Mé est lecentre de l’intervalle
+médian. La médiane n’est pas forcément une modalité observée,
+mais peut être une modalité observable.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 72
+
+La médiane
+Exemple 1 :
+Le caractère étant quantitatif discret,N= 120est pair etp= 60.
+On déterminel’intervalle médian:[valp
+e
+obs;valp+ 1
+e
+obs].
+On obtient[2; 2[.  Le centre de l’intervalle médian est de 2, donc
+Mé=2. Il s’agit d’une modalité observée.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202418 / 72
+
+La médiane
+Exemple 2 :
+N= 180est pair, avecp= 90.
+On détermine l’intervalle médian :[valp
+e
+obs;valp+ 1
+e
+obs].
+On obtient donc[val90
+e
+obs;val91
+e
+obs], donc[2; 3[.
+Le centre de l’intervalle médian est de 2,5 enfants par ménage. La
+modalité n’est ni observée, ni observable. La médiane n’est donc pas
+définie.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202419 / 72
+
+La médiane
+Exemple 3 :
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202420 / 72
+
+La médiane
+La variable est quantitative discrète etN= 223est impair, avec
+N= 2p+ 1. Doncp= 111.
+La médiane est la valeur ou modalité de la(p+ 1)ème observation,
+qui est l’observation centrale.
+Alors : Mé = valeur de la 112ème observation. Donc Mé = 2,5
+parts fiscales.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+Définition
+Détermination graphique de la médiane
+Détermination de la médiane par le calcul
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202422 / 72
+
+Détermination graphique de la médiane
+On reprend la courbe cumulative croissante et on cherche la valeur qui
+correspond à laN/2ème observation.
+Remarque
+La médiane Mé est l’abscisse du point d’intersection entre la
+courbe des ECC (ou FCC) et la courbey=N/2(ouy= 50%).
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+Définition
+Détermination graphique de la médiane
+Détermination de la médiane par le calcul
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202424 / 72
+
+Détermination de la médiane par le calcul
+En règle générale, on ne peut pas calculer une valeur exacte de la
+médiane d’une série continue, même quand elle n’est pas regroupée en
+classes, car on n’observe qu’un nombre limité d’individus.
+Pour déterminer unevaleur approchée, on utilise l’interpolation
+linéaire:
+On classe les individus parvaleur croissantede la série;
+On fait l’hypothèse qu’entre deux individusietj, ou au sein de
+chaque classe, la série est unefonction affine, c’est-à-dire du type:
+f(x) =ax+b
+oùaetbsont deux valeurs fixes;
+On peut donc approcher la valeur de la série pour un individuj
+compris entre deux autres individusietkpar
+x
+j
+=aj+b=a(j−i+i) +b=ai+b+a(j−i) =x
+i
++a(j−i)
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202425 / 72
+
+Détermination de la médiane par le calcul
+L’interpolation linéairerepose sur le théorème de Thalès.
+D’après le théorème de Thalès on a :
+AC
+AB
+=
+x
+C
+−x
+A
+x
+B
+−x
+A
+=
+y
+C
+−y
+A
+y
+B
+−y
+A
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202426 / 72
+
+Détermination de la médiane par le calcul
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202427 / 72
+
+Détermination de la médiane par le calcul
+On identifie la classe médiane et on utilise l’interpolation linéaire pour
+trouver la médiane:
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202428 / 72
+
+Détermination de la médiane par le calcul
+Exemple 1 :
+50% des salariés ont un salaire inférieur (ou supérieur) à 2,6k euros.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202429 / 72
+
+Détermination de la médiane par le calcul
+Exemple 2:
+On a N=240, donc la (1/2)*Nème observation = 120.
+x
+C
+−x
+A
+x
+B
+−x
+A
+=
+y
+C
+−y
+A
+y
+B
+−y
+A
+⇔
+Me−1400
+1600−1400
+⇔
+Me−1400
+200
+⇔Me= 1533,3euros
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 72
+
+Détermination de la médiane par le calcul
+On peut également utiliser la formule suivante :
+Me=x
+m
++a
+[
+(
+N
+2
+−N
+m−1
+)
+(N
+m
+−N
+m−1
+)
+]
+Avec :
+x
+m
+la borne inférieure de l’intervalle médian[x
+m
+;x
+m+1
+].
+al’amplitude de l’intervalle médian.
+Nl’effectif total tel queN=
+∑
+i
+n
+i
+.
+N
+m−1
+l’ECC associé à la classeprécédantla classe modale.
+N
+m
+l’ECC associé à la classe modale.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202431 / 72
+
+Détermination de la médiane par le calcul
+Dans notre cas, on a donc :
+Me=x
+m
++a
+[
+(
+N
+2
+−N
+m−1
+)
+(N
+m
+−N
+m−1
+)
+]
+= 1400+200
+[
+(
+240
+2
+−80)
+(140−80)
+]
+= 1533,33euros
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202432 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+Les quantiles
+Quartiles
+Déciles
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202433 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+Les quantiles
+Quartiles
+Déciles
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202434 / 72
+
+Généralisation de la médiane
+Définition
+Le quantile d’ordreα(0< α <1)est la modalitéx
+α
+telle qu’une
+proportionαdes modalités observées soient inférieures àx
+α
+:
+F(x
+α
+) =α
+Remarque
+Les quantiles d’ordreα, comme la médiane Mé, se déterminent à
+l’aide des E.C.C et des F.c.c (%) par interpolation linéaire.
+→La médiane correspond au quantile d’ordreα= 0,5.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202435 / 72
+
+Définition
+La médiane permet de savoir autour de quelle valeur se répartissent les
+observations en proportions 50/50.
+De façon équivalent, c’est la valeur d’une variable qui permet de découper
+l’échantillon en deux parties de mêmes effectifs.
+Il peut être informatif de mesurer la même chose mais pour une réparti-
+tion différente: 10/90, 75/20, etc.
+On généralise la notion de médiane grâce auxquantiles.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202436 / 72
+
+Quantiles d’ordreα
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202437 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+Les quantiles
+Quartiles
+Déciles
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202438 / 72
+
+Les quartiles
+Définition
+Les3 quartilesX
+0,25
+,X
+0,5
+,X
+0,75
+notésQ
+1
+,Q
+2
+,Q
+3
+(Q
+2
+= Mé)
+sont les modalités d’une variable qui séparent l’effectif totalN
+en 4 parties égales.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202439 / 72
+
+Les quartiles
+Graphiquement:
+Remarque
+L’intervalle interquartileI
+Q
+= [Q
+1
+;Q
+3
+]contient 50% des valeurs
+"centrales" du caractèrex.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202440 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+Les quantiles
+Quartiles
+Déciles
+5
+Les différentes moyennes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202441 / 72
+
+Les déciles
+Définition
+Les 9 décilesX
+0,1
+,X
+0,2
+,...,X
+0,9
+notésD
+1
+,D
+2
+,...,D
+10
+(D
+5
+=Mé)
+sont les modalités du caractère qui séparent l’effectif total N en
+10 parties égales.
+Remarque
+L’intervalle interdécileI
+D
+= [D
+1
+;D
+9
+]contient 80% des valeurs
+"centrales" du caractèrex.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202442 / 72
+
+Les quantiles : exemples
+Exemple 1 : déterminez le 2ème décile et le 3ème quartile
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202443 / 72
+
+Les quantiles : exemples
+Exemple 2 : déterminez le 1e quartile et le 7ème décile
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202444 / 72
+
+Les quantiles : exemples
+1e quartile :
+Q
+1
+−15
+20−15
+=
+25−19
+26,5−19
+⇔
+Q
+1
+−15
+5
+= 0,8⇔Q
+1
+= 19ans
+19 correspond à la FCC associée à la classeprécédentla classe
+contenantQ
+1
+.
+26,5 correspond à la FCC associée à la classe contenantQ
+1
+.
+15 correspond à la borne inférieure de l’intervalle contenantQ
+1
+.
+20 correspond à la borne supérieure de l’intervalle contenantQ
+1
+.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202445 / 72
+
+Les quantiles: exemples
+7e décile :
+69,7 correspond à la FCC associée à la classeprécédentla classe
+contenantD
+7
+.
+80,1 correspond à la FCC associée à la classe contenantD
+7
+.
+50 correspond à la borne inférieure de l’intervalle contenantD
+7
+.
+60 correspond à la borne supérieure de l’intervalle contenantD
+7
+.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202446 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Moyenne arithmétique
+Moyenne quadratique
+Moyenne d’ordrer
+Moyenne harmonique
+Moyenne géométrique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202447 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Moyenne arithmétique
+Moyenne quadratique
+Moyenne d’ordrer
+Moyenne harmonique
+Moyenne géométrique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202448 / 72
+
+Moyenne arithmétique
+Lamoyenne arithmétiquede la variablexest donnée par :
+x=
+1
+N
+(
+∑
+i
+n
+i
+x
+i
+)
+Remarques:
+On a :Nx=
+∑
+i
+n
+i
+x
+i
+→silesNindividusprenaienttouslammevaleur,celle−ciseraitx
+C’est la moyennela plus utiliséeet la plus naturelle.
+Propriétés:
+On a :
+∑
+i
+n
+i
+(x
+i
+−a) = 0ssia=x
+La somme
+∑
+i
+n
+i
+(x
+i
+−a)
+2
+est minimale ssia=x
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202449 / 72
+
+Moyenne arithmétique
+Exemple 1:
+Quel est le nombre moyen d’enfants par ménage?
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202450 / 72
+
+Moyenne arithmétique
+Exemple 2:
+Quel est le salaire mensuel moyen dans cette entreprise?
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202451 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Moyenne arithmétique
+Moyenne quadratique
+Moyenne d’ordrer
+Moyenne harmonique
+Moyenne géométrique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202452 / 72
+
+Moyenne quadratique
+Définition
+La moyenne quadratique d’une série statistique positivex
+i
+, avec
+i= 1,2,...,n, est la racine carrée de la moyenne arithmétique des
+carrés des valeurs observées. On la noteQ.
+Q=
+√
+√
+√
+√
+1
+N
+n
+∑
+i=1
+n
+i
+x
+2
+i
+La moyenne quadratique pondérée de la variablex:
+Q=
+[
+1
+N
+(
+∑
+i
+n
+i
+x
+2
+i
+)]
+1
+2
+=
+√
+√
+√
+√
+1
+N
+n
+∑
+i=1
+n
+i
+x
+2
+i
+Par exemple : l’écart-type dans une population est la moyenne
+quadratique des distances à la moyenne.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202453 / 72
+
+Moyenne quadratique
+Remarque
+En général, le caractèrexdésigne un écart avec un nombre donné
+a. On l’emploie pour calculer la moyenne des écarts à une valeur
+afin de ne pas avoir à manipuler de valeurs négatives.
+Calculez la moyenne quadratique des écarts à 10 des 20 notes suivantes
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202454 / 72
+
+Moyenne quadratique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202455 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Moyenne arithmétique
+Moyenne quadratique
+Moyenne d’ordrer
+Moyenne harmonique
+Moyenne géométrique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202456 / 72
+
+Moyenne d’ordrer
+Soit(x
+i
+;n
+i
+)une série statistique associée au caractère quantitatifxavec
+x
+i
+modalités. On pose, pourr6= 0:
+m
+r
+=
+[
+1
+N
+(
+∑
+i
+n
+i
+x
+r
+i
+)
+]
+1
+r
+Pourr= 1, on retrouve la moyenne arithmétique et pourr= 2on
+retrouve la moyenne quadratique.
+Remarque
+Lamoyenne d’ordrer, oumoyenne de Hölder, s’exprime
+dans la même unité que la variablexmais n’est pas
+obligatoirement une modalité observée ou même observable de la
+variablex.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202457 / 72
+
+Moyenne d’ordrer
+On définitm
+r
+pourr= 0en posant :m
+0
+= lim
+r→0
+m
+r
+(prolongement par continuité);
+De même, on définitm
++∞
+= lim
+r→+∞
+m
+r
+= max
+i
+x
+i
+;
+Similairement,m
+−∞
+= lim
+r→−∞
+m
+r
+= min
+i
+x
+i
+Cas particuliers: lorsqu’on dispose de fréquences (%) au lieu d’effectifs,
+on a :
+m
+r
+=
+[
+1
+100
+(
+∑
+i
+f
+i
+x
+r
+i
+)
+]
+1
+r
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202458 / 72
+
+Moyenne d’ordrer
+Propriétés:
+On ax
+min
+≤m
+r
+≤x
+max
+avecx
+min
+la plus petite modalité dexet
+x
+max
+la plus grande
+L’applicationr→m
+r
+est croissante telle que:r < r
+′
+⇔m
+r
+< m
+r
+′
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202459 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Moyenne arithmétique
+Moyenne quadratique
+Moyenne d’ordrer
+Moyenne harmonique
+Moyenne géométrique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202460 / 72
+
+Moyenne harmonique
+Lamoyenne harmoniqueest l’inverse de la moyenne
+arithmétique des inverses des valeurs d’une série.
+Elle permet de réduire l’influence des observations les plus grandes
+et d’augmenter celle des plus petites observations d’un ensemble de
+données.
+Elle est particulièrement utile lorsqu’on raisonne sur des rapports
+de proportions (p.ex. taux de change).
+Il s’agit de la moyenne d’ordrer=−1.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202461 / 72
+
+Moyenne harmonique
+Remarques:
+Pour pouvoir calculer la moyenne harmoniqueH, il faut supposer
+que∀i,x
+i
+6= 0
+La moyenne harmonique est l’inverse de la moyenne arithmétique
+des inverses:
+H=
+1
+1
+n
+∑
+n
+i=1
+1
+x
+i
+=
+N
+∑
+n
+i=1
+1
+x
+i
+=m
+−1
+Lorsque chaque modalitéx
+i
+est associée à un effectifn
+i
+, alors :
+H=
+N
+∑
+n
+i=1
+n
+i
+x
+i
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202462 / 72
+
+Moyenne harmonique
+Exemple 1:
+Quel est le cours moyen de l’EUR en DH?
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202463 / 72
+
+Moyenne harmonique
+Indépendamment des tableaux :
+Cours moyen de l’EUR en DH=
+Nombre total de DH
+Nombre total d’EUR
+On peut traduire cette relation à l’aide des notationsx
+i
+,n
+i
+etN:
+Tableau 1:
+Cours moyen de l’EUR en DH=
+∑
+i
+n
+i
+x
+i
+N
+=x=
+9940
+1000
+= 9,94DH/EUR
+Tableau 2:
+Cours moyen de l’EUR en DH=
+N
+∑
+i
+n
+i
+x
+i
+=H=
+15360
+1600
+= 9,60DH/EUR
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202464 / 72
+
+Moyenne harmonique
+Tableau 1: le cours moyen de l’EUR en DH est la moyenne
+arithmétiquexdes coursx
+i
+de l’EUR en DH pondérés par les
+nombresn
+i
+d’euros.
+Tableau 2: le cours moyen de l’EUR en DH est la moyenne
+harmoniqueHdes coursx
+i
+de l’EUR en DH pondérés par les
+nombresn
+i
+de dirhams.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202465 / 72
+
+Sommaire
+1
+Introduction
+2
+Le mode
+3
+La médiane
+4
+Généralisation de la médiane
+5
+Les différentes moyennes
+Moyenne arithmétique
+Moyenne quadratique
+Moyenne d’ordrer
+Moyenne harmonique
+Moyenne géométrique
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202466 / 72
+
+Moyenne géométrique
+Définition
+La moyenne géométrique d’une série statistique positivex
+i
+avec
+i= 1,2,...,nest la racine n-ième du produit desx
+i
+. On la note
+généralementG
+On a donc :
+G=
+[
+n
+∏
+i=1
+x
+n
+i
+i
+]
+1
+∑
+n
+i=1
+n
+i
+=
+[
+n
+∏
+i=1
+x
+n
+i
+i
+]
+1
+N
+Le calcul deGpeut s’effectuer grâce à la relation:
+lnG=
+∑
+n
+i=1
+n
+i
+lnx
+i
+∑
+n
+i=1
+n
+i
+=
+1
+N
+n
+∑
+i=1
+n
+i
+lnx
+i
+,∀i= 1,2,...,nsix
+i
+>0
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202467 / 72
+
+Moyenne géométrique
+Remarques:
+On a toujoursx
+min
+≤H≤G≤x≤Q≤x
+max
+Pour pouvoir calculer la moyenneG, il faut supposer que∀i,x
+i
+>0
+Elle permet de calculer la moyenne de pourcentages consécutifs
+(taux de croissance moyen, rendement moyen d’un placement...)
+Rappel: le coefficient multiplicateur associé à un taux de croissance
+t
+i
+estc
+i
+= 1 +t
+i
+Exemples:
+t
+1
+= +15%⇒c
+1
+= 1 + 0,15 (>1)
+t
+2
+=−7%⇒c
+2
+= 1−0,07 = 0,93 (<1)
+c
+3
+= 1,035⇒t
+3
+= +3,5%
+c
+4
+= 0,96⇒t
+4
+=−4%
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202468 / 72
+
+Moyenne géométrique: le TCAM
+Définition
+Letaux de croissance annuel moyen(TCAM) correspond au
+taux de croissance annualisé sur une période de temps donnée.
+Il permet une comparaison avec d’autres périodes qui peuvent
+être plus courtes ou plus longues. Mathématiquement, c’estune
+moyenne géométrique des différents taux de croissance
+de la période étudiée.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202469 / 72
+
+Moyenne géométrique: le TCAM
+Soit une durée totaleN= 3ans, une durée d’applicationn
+1
+du tauxt
+1
+de 2 ans et une durée d’applicationn
+2
+du tauxt
+2
+d’un an. On peut
+écrire:
+(1 +TCAM)
+N
+= (1 +t
+1
+)
+n
+1
+(1 +t
+2
+)
+n
+2
+(1 +TCAM)
+N
+=
+∏
+i
+(1 +t
+i
+)
+n
+i
+(1 +TCAM) =
+[
+∏
+i
+(1 +t
+i
+)
+n
+i
+]
+1
+N
+=G
+Le coefficient multiplicateur du TCAM est la moyenne géométrique des
+coefficients multiplicateurs des tauxt
+i
+pondérés par leur durée
+d’applicationn
+i
+.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202470 / 72
+
+Moyenne géométrique: le TCAM
+Exemple: le chiffre d’affaires d’une entreprise a augmenté de 5% par an
+pendant 2 ans, puis de 7% par an pendant 3 ans. Il a diminué de 2%
+par an pendant 4 ans. Calculez le TCAM sur cette période de 9 ans du
+chiffre d’affaires de cette entreprise.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202471 / 72
+
+Moyenne géométrique: le TCAM
+Correction:
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202472 / 72

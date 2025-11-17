@@ -1,0 +1,413 @@
+Chapitre 4 : l’offre, la demande et le marché 
+
+
+
+
+
+🡪 On s’intéresse à la confrontation de l’O et la D dans le marché
+
+
+
+Le marché de la concurrence 
+
+
+
+Les interactions marchandes= omniprésentes dans nos vies mais pas tjrs été le cas et pas le cas pour tout le monde. Cette omniprésence du marché remonte au siècle des lumières (16-17ème siècle) 
+
+
+
+Avant l’échelle de vie= le village, la tribu donc modalités d’interaction préféré= modalités d’interaction basé sur la réciprocité mais celle-ci ne fonctionne que à des niv très faible 
+
+
+
+Avantage du marché= modalité d’interaction économique qui peut s’inscrire à des niveaux bcp plus élevé (plusieurs M° de personnes) 
+
+
+
+Un marché= « un lieu » physique (ex : marché de fruit) ou « un lieu » virtuelle, un lieu de rencontre en une offre constitué de vendeurs et une demande constitués d’acheteurs. 
+
+Cette notion peut aussi bien englober un marché primaire et marché secondaire.
+
+
+
+De cette confrontation entre O et D va en découler un équilibre qui sera représenté par un prix et une quantité. 
+
+
+
+Les marchés peuvent se différencier selon plusieurs dimensions :
+
+
+
+1ère dimension : Le type de partis prenantes 
+
+ On va avoir des marchés qui vont impliquer uniquement des professionnels, (marché ou bien intermédiaire)
+
+
+
+A l’inverse, on peut avoir des marchés (O et D) uniquement constitués de consommateur, de particuliers (par ex : eBay ou n’importe qui peut vendre des biens d’occasions + dans les vides greniers) 
+
+
+
+Des marchés constitués de consommateurs et professionnels : offreur= professionnel et demandeur= consommateur 
+
+
+
+
+
+2ème dimensions= la modalité de détermination du prix. On peut distinguer entre diff modalités :
+
+
+
+La proposition d’un prix par l’offreur 
+
+
+
+Par le biais d’enchères : 2 types : enchères montantes et enchère descendantes : vendeur va décréter un prix min inconnu des acheteurs. 
+
+Différence entre les 2= au niv de l’interaction entre les acheteurs :
+
+°Montantes= acheteurs qui annoncent les prix`
+
+°Enchères descendantes= le commissaire-priseur va commencer à un prix de départ puis sans cesse réévaluer ce prix à la baisse. L’enchère s’arrête dès que le premier acheteur se signale et si le prix proposé par l’acheteur est supérieur au prix min transaction ce fait= enchères au cadran 
+
+
+
+
+
+3ème dimensions : le niveau d’organisation de régulation du marché 
+
+
+
+On peut avoir des marchés qui sont très encadrés car encadrement lié aux normes sanitaires, encadrement des prix qui peut émanés de diff types d’acteurs mais souvent il est déterminé au niv des syndicats, des interprofessions d’offreurs (par ex : le prix du pétrole : acteur majeur= OPEP)
+
+
+
+On a des marchés bcp – régulé comme les marchés financiers c
+
+À la suite de la crise des Subprimes on a commencé a régulé les marché financiers : banques mettent en place des système prudentielle
+
+
+
+On a des marchés qui ne sont pas du tout encadrés : marché des cryptomonnaies / marchés noirs. 
+
+
+
+4ème dimensions : marchés qui sont différencier suivant les niveaux de concurrence (entre offreur et entre demandeur)  
+
+
+
+D’un côté on a des marchés très concurrentiels car il y aura beaucoup d’offreur et beaucoup de demandeur (marché financiers/ de matières premières) 
+
+
+
+On peut avoir des marchés très peu concurrentiels : soit très peu d’offreur et bcp de demandeur soit l’inverse : 
+
+1ère situation = Marché monopolistique= un seul offreur bcp de demandeur 
+
+2ème situation= Marché oligopole= quelques offreur, bcp de demandeur (par ex : grande distribution🡪 centrales d’achats : Leclerc, carrefour, Auchan et cora) (téléphonie mobile : orange Bouygues, SFR et free) 
+
+
+
+Autre cas : les oligopoles à franges : situation où il y a ¾ acteurs dominants sur le M et on a tout un tas d’acteurs autour (industrie musicale= essentiel du CA🡪 Sony, Universal)
+
+
+
+4ème cas : Un très faible nombre d’acheteurs par rapport au offreur= monopsone 
+
+Oligopsone : ex grande distribution vis-à-vis des fournisseurs des industriels de l’agroalimentaire 
+
+
+
+Marché monopolistique= recherche sur internet : google. Il a un pvr exorbitant car ttes recherches vont dépendre de l’algorithme de google 
+
+
+
+
+
+
+
+
+
+Un oligopsone : qlq demandeur contre plein d’offreurs 
+
+
+
+
+
+La demande 
+
+
+
+La demande sur les marchés est exprimée par des acheteurs potentielles. Ces acheteurs peuvent être des consommateurs ou des firmes. Ces demandeurs vont exprimer une quantité demandé (= quantité que les acheteurs désirent achetés pour un prix donné, elle va varier en fonction du prix) 
+
+La qtité demandé peut s’exprimer à un niveau individuel pour un prix donné ou elle peut s’exprimer à un niveau collectif (qtité demandé cumulé des acheteurs pour 1 prix donné)
+
+
+
+C’est ce qu’on appelle la loi de la demande= pour la plupart des biens et des services, les quantités demandées vont augmenter à mesure que le prix baisse tout chose égale par ailleurs.
+
+
+
+
+
+
+
+
+
+Les qtités demandés collectivement seront obtenu en additionnant les qtités demandés individuelle. 
+
+
+
+Prix : 0,01 euros🡪 21 + 15 = 36= qtité collective 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prix
+
+QPierre
+
+QMarie
+
+Qcollective
+
+0,01
+
+21                               +
+
+15
+
+36
+
+0,04
+
+13
+
+8
+
+21
+
+0,07
+
+8
+
+4
+
+12
+
+0,10
+
+4
+
+1
+
+5
+
+0,13
+
+1
+
+0
+
+1
+
+0,16
+
+0
+
+0
+
+0
+
+
+
+
+
+L’offre
+
+
+
+L’offre exprimé sur les marchés par les vendeurs potentiels cad des firmes ou par des consommateurs. Les quantités offertes sont les quantités que les vendeurs désirent vendre pour chaque prix données. Les quantités offertes peuvent s’exprimer sur un niveau individuel ou collectif. La loi de l’O dit que toutes choses égales par ailleurs, + le prix de vente sera élevé, + la quantité offertes sera élevé. Les quantités offertes sont croissante avec le prix.
+
+
+
+
+
+
+
+
+
+
+
+Prix (euro)
+
+Qtruc
+
+Qmachin
+
+Qcollective
+
+0,01
+
+2
+
+0
+
+2
+
+0,04
+
+5
+
+1
+
+6
+
+0,07
+
+8
+
+4
+
+12
+
+0,10
+
+11
+
+8
+
+19
+
+0,13
+
+14
+
+13
+
+27
+
+0,16
+
+19
+
+19
+
+38
+
+
+
+
+
+
+
+
+
+
+
+
+
+L’équilibre sur le marché 
+
+
+
+Il est atteint lorsque pour un prix donné, les quantités offertes sont égales aux quantités demandées.
+
+Prix euro
+
+Qtruc
+
+Qmachin
+
+Qofferte collective
+
+Qdemandée collective 
+
+Difference Qofferte et Qdemandée
+
+0,01
+
+2
+
+0
+
+2
+
+36
+
+34
+
+0,04
+
+5
+
+1
+
+6
+
+21
+
+15
+
+Équilibre🡪 0,07
+
+8
+
+4
+
+12
+
+12
+
+0
+
+0,10
+
+11
+
+8
+
+19
+
+5
+
+14
+
+0,13
+
+14
+
+13
+
+27
+
+1
+
+26
+
+0,16
+
+19
+
+19
+
+38
+
+0
+
+38
+
+
+
+Pour déterminer le prix d’équilibre il faut faire la différence à chaque fois des quantités offerte et demander.

@@ -1,0 +1,17 @@
+chapter: Chapitre 3 > Mesures de tendance centrale
+
+# Faciles (Diff: Facile)
+VF || Les mesures de tendance centrale résument une série statistique par une seule valeur représentative || V || Définition donnée en introduction du chapitre || Diff: Facile, Chapitre 3, Définition
+VF || Le mode est la valeur (ou classe) la plus fréquente || V || C'est l'effectif (ou la fréquence) maximal(e) || Diff: Facile, Chapitre 3, Mode
+VF || La médiane est la moyenne arithmétique de toutes les valeurs || F || La médiane est la valeur centrale (50% en dessous/au-dessus) || Diff: Facile, Chapitre 3, Médiane
+
+QR || Le mode pour une série qualitative est || V:La modalité associée à l'effectif le plus élevé|Toujours impossible à définir|Toujours égal à la médiane || Pour qualitatif/discret, on prend la modalité la plus fréquente || Diff: Facile, Chapitre 3, Mode
+QR || Pour une variable continue regroupée en classes, on détermine le mode en || V:Repérant la classe modale puis en utilisant une construction graphique|Calculant forcément la moyenne|Prenant la plus petite classe || Le cours mentionne la détermination via la classe modale et diagonales || Diff: Facile, Chapitre 3, Mode continu
+QR || La médiane d'une série ordonnée est || V:La valeur telle que 50% des observations lui sont inférieures|La même chose que la moyenne harmonique|Toujours égale au mode || Définition standard de la médiane || Diff: Facile, Chapitre 3, Médiane
+
+QCM || On calcule souvent plusieurs mesures de tendance car || V:Chaque mesure a ses avantages|V:Comparaison utile entre indicateurs|V:Une seule valeur peut être trompeuse|Elles donnent toujours exactement le même résultat || Le chapitre insiste sur avantages/inconvénients et comparaison || Diff: Facile, Chapitre 3, Choix de mesure
+QCM || La moyenne arithmétique est || V:La somme des valeurs divisée par l'effectif|V:Exprime la "centre de gravité" des données|Systématiquement plus robuste que la médiane|Toujours égale à la moyenne géométrique || La robustesse dépend des valeurs extrêmes || Diff: Facile, Chapitre 3, Moyenne
+QCM || Parmi ces indicateurs, lesquels sont des tendances centrales ? || V:Moyenne|V:Médiane|V:Mode|Variance || La variance est une dispersion, pas une tendance centrale || Diff: Facile, Chapitre 3, Indicateurs
+
+DragMatch || Associe mesure et définition courte || Mode:Valeur la plus fréquente, Médiane:Position 50%, Moyenne arithmétique:Somme/Effectif, Moyenne géométrique:Produit des valeurs à la puissance 1/n || Définitions directes des indicateurs de base || Diff: Facile, Chapitre 3, Définitions
+DragMatch || Associe contexte à l'indicateur approprié || Distribution asymétrique avec valeurs extrêmes:Médiane privilégiée, Données strictement positives multiplicatives:Moyenne géométrique, Série discrète avec répétitions marquées:Mode utile, Mesurer un "centre de gravité":Moyenne arithmétique || Lignes directrices usuelles || Diff: Facile, Chapitre 3, Choix pratique

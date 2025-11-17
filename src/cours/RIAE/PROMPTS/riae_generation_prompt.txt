@@ -1,0 +1,54 @@
+Contexte:
+Tu dois générer des banques de questions pour la matière RIAE (Renforcement à l'introduction à l'analyse économique) en respectant strictement le format Text2Quiz:
+
+TYPE || Question || Réponses || Explication || Thèmes
+
+Types supportés: VF, QR, QCM, DragMatch.
+
+Contraintes de sortie:
+- Une seule ligne par question, colonnes séparées par ` || `.
+- Chaque question a une Explication (colonne 4).
+- La colonne 5 contient des thèmes, incluant toujours `Diff: Facile|Moyen|Difficile` + des tags de chapitre (ex: "Chapitre 2", "Élasticités").
+- Français uniquement. Pas de texte hors des blocs de questions.
+
+Objectif de couverture:
+- Couvrir TOUTES les notions des chapitres (plan ci-dessous) avec des questions Faciles, Moyennes et Difficiles.
+- Diversifier les types (VF/QR/QCM + ≥2 DragMatch pertinents par chapitre).
+- Inclure des calculs:
+  - Moyen: calculs simples (pourcentage, élasticité simple, surplus basique)
+  - Difficile: enchaînements ou cas limites (incidence fiscale, surplus avec pièces, élasticités au point)
+
+Plan (adapter les titres si besoin):
+1) Bases de l'analyse économique (micro) — préférences, contraintes, choix
+2) Offre, demande et équilibre — chocs, élasticités, surplus
+3) Interventions publiques — prix plafonds/planchers, taxes, subventions, pertes sèches
+4) Échecs de marché — externalités, biens publics, information asymétrique
+5) Panorama macro de base — agrégats, inflation/chômage (optionnel selon programme)
+
+Sortie demandée:
+- Un fichier par chapitre, première ligne:
+  chapter: Chapitre X > <Titre>
+- Puis toutes les questions au format Text2Quiz.
+- Exemple (gabarit à répéter/compléter):
+
+[DEBUT-CHAPITRE 2]
+chapter: Chapitre 2 > Offre, demande et équilibre
+
+# Faciles (Diff: Facile)
+VF || Au prix d'équilibre, la quantité offerte est égale à la quantité demandée || V || Définition de l'équilibre concurrentiel || Diff: Facile, Chapitre 2, Équilibre
+QR || Si la demande augmente (décalage à droite) et l'offre est inchangée, alors || V:Le prix et la quantité d'équilibre augmentent|Le prix baisse et la quantité augmente|Le prix augmente et la quantité baisse || Mouvement standard en offre-demande || Diff: Facile, Chapitre 2, Chocs
+QCM || Les élasticités prix de la demande mesurent || V:La sensibilité des quantités demandées au prix|V:La variation en % des quantités par variation en % du prix|La pente de la droite d'offre uniquement || Définitions usuelles || Diff: Facile, Chapitre 2, Élasticités
+DragMatch || Associe concept et définition || Surplus du consommateur:Diff. entre disposition à payer et prix, Surplus du producteur:Diff. entre prix et coût marginal, Perte sèche:Perte de bien-être due à une distorsion || Définitions de base || Diff: Facile, Chapitre 2, Surplus
+
+# Moyens (Diff: Moyen)
+QR || Une taxe spécifique t déplace || V:La courbe d'offre vers le haut d'un montant t|La demande vers le bas|L'équilibre sans changer les courbes || Incidence via offre || Diff: Moyen, Chapitre 3, Taxes
+QR || Élasticité simple: le prix augmente de 10% et la quantité diminue de 5%. L'élasticité prix de la demande vaut || V:−0,5|−2|0,5 || Définition E = (%ΔQ)/(%ΔP) || Diff: Moyen, Chapitre 2, Élasticités, Calcul
+QCM || Après une subvention à l'unité || V:Le prix payé par le consommateur diminue|V:La quantité d'équilibre augmente|V:Le surplus total peut augmenter|La perte sèche est certaine || Effets classiques d'une subvention || Diff: Moyen, Chapitre 3, Subventions
+
+# Difficiles (Diff: Difficile)
+QR || Demande Qd=100−2P, Offre Qs=−10+3P. Trouver P*,Q* || V:P*=22, Q*=56|P*=20, Q*=60|P*=18, Q*=64 || Égaliser 100−2P=−10+3P → 5P=110 → P*=22 ; Q*=56 || Diff: Difficile, Chapitre 2, Équilibre, Calcul
+QCM || Taxe t=5 sur l'offre précédente (linéaire). Incidence relative ? || V:Dépend des élasticités|V:Plus inélastique supporte davantage|V:Le prix côté acheteurs augmente moins que t en général|Toujours exactement 5 pour tous || Incidence répartie selon élasticités relatives || Diff: Difficile, Chapitre 3, Incidence
+DragMatch || Associe situation et outil || Taxe spécifique:Décalage vertical de l'offre, Prix plafond inférieur à l'équilibre:Pénurie, Externalité négative:Taxe pigouvienne, Élasticité nulle:Support total d'un côté || Choix de l'outil selon le contexte || Diff: Difficile, Chapitre 2-4, Synthèse
+[FIN-CHAPITRE 2]
+
+À partir de mes notes RIAE que je vais coller après ce prompt, génère les fichiers `.txt` un par chapitre, uniquement avec des lignes de questions (pas de texte hors questions), en respectant toutes les contraintes ci-dessus.

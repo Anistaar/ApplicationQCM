@@ -1,0 +1,14 @@
+chapter: HPE > Méthodologie et plan de lecture
+
+# QCM couvrant méthode, définitions et fils conducteurs de la fiche
+
+QCM || Le lien Analyse → Théorie → Histoire signifie que || V:l'analyse nourrit la théorie et l'histoire restructure/éclaire les théories|la théorie remplace l'observation|l'histoire est indépendante des modèles|l'analyse est purement normative || Relation réflexive soulignée en introduction || HPE, Méthodo
+QCM || Dans la fiche, l'analyse économique est définie comme || V:une décomposition des faits en relations élémentaires formalisables en théories|un jugement moral sur la richesse|une simple collecte de données sans modèle|une spéculation sur les prix || Définition Universalis reprise dans la fiche || HPE, Méthodo
+QCM || Le terme « analyse » (Larousse/CNRTL) renvoie à || V:décomposer un tout en éléments pour en saisir les rapports|synthétiser des résultats|produire un récit historique|fixer un prix juste || Rappels de définitions mentionnés || HPE, Méthodo
+QCM || Les « trois approches » proposées pour lire l'HPE (Potier, 2008) sont || V:par auteurs, discontinuitiste, relativiste/environnementaliste|monétariste, keynésienne, classique|réaliste, nominaliste, idéaliste|marxiste, néoclassique, autrichienne || Mention explicite dans la fiche || HPE, Méthodo
+QCM || L'idée directrice de la fiche est que || V:l'analyse → théorie → histoire forment un cycle d'enrichissement mutuel|la théorie est figée|les faits n'affectent pas les modèles|l'histoire s'oppose à l'analyse || Idée directrice explicitée || HPE, Méthodo
+QCM || Une conséquence méthodologique est que || V:les théories s'inscrivent dans des contextes historiques et changent avec les faits stylisés|les théories sont ahistoriques|la monnaie rend les modèles inutiles|les préférences sont toujours fixes || Dimension historique des cadres théoriques || HPE, Méthodo
+QCM || Le « préambule HPE » est utile car || V:il situe présupposés, limites et continuités des théories|il remplace la micro|il évite de lire les textes|il prouve l'exactitude des modèles || Raison d'être du préambule || HPE, Méthodo
+QCM || Dans la fiche, la finalité de l'analyse est de || V:comprendre production, échanges, répartition via modèles explicatifs|prescrire des morales économiques|décrire sans théoriser|fixer administrativement les prix || Objectif posé en ouverture || HPE, Méthodo
+QCM || Lire l'HPE « par auteurs » implique || V:suivre les contributions majeures (Aristote → Keynes…) et leurs contextes|étudier uniquement les équations|ignorer les débats|se limiter à l'économie contemporaine || Approche de lecture || HPE, Méthodo
+QCM || L'approche « discontinuitiste » met l'accent sur || V:les ruptures conceptuelles majeures (marginaliste, keynésienne, etc.)|la continuité parfaite|la neutralité des institutions|les biographies des auteurs || Définition dans la fiche || HPE, Méthodo

@@ -1,0 +1,16 @@
+chapter: Chapitre 4 > Caractéristiques de dispersion
+
+# Difficiles (Diff: Difficile)
+VF || Le coefficient de variation (CV = σ/μ) permet de comparer des dispersions pour des échelles différentes || V || Indicateur adimensionnel, pertinent pour comparaisons relatives || Diff: Difficile, Chapitre 4, CV
+VF || La variance d'une somme de variables indépendantes est la somme des variances || V || Var(X+Y)=Var(X)+Var(Y) si indépendance || Diff: Difficile, Chapitre 4, Variance somme
+
+QR || Série: 1, 1, 2, 3, 9. Calcule: moyenne, variance (population), CV (en %) || V:μ=3,2; Var=8,96; CV≈93,6%|μ=3,2; Var=7,76; CV≈87,1%|μ=3,0; Var=8,00; CV≈94,3% || μ=3,2; Var=44,8/5=8,96; σ≈2,993; CV=σ/μ≈0,935 → 93,6% || Diff: Difficile, Chapitre 4, Calcul CV
+QR || Deux séries A(μ=50, σ=5) et B(μ=100, σ=8). Lequel a la dispersion relative la plus forte ? || V:A|B|Identiques || CV_A=5/50=0,10; CV_B=8/100=0,08 → A est plus dispersée relativement || Diff: Difficile, Chapitre 4, CV comparaison
+QR || On transforme X en Y=3X−10. Si Var(X)=4, alors Var(Y)= || V:36|12|4 || Var(Y)=3^2 Var(X)=9×4=36 || Diff: Difficile, Chapitre 4, Transformation
+
+QCM || Pour des données groupées en classes de largeur h, la variance approchée utilise || V:Centres de classes|V:Effectifs par classe|V:Moyenne approchée|La médiane de chaque classe || Approximation standard groupée || Diff: Difficile, Chapitre 4, Groupées
+QCM || Propriétés utiles || V:Var(aX+b)=a^2 Var(X)|V:σ≥0|V:Var(X)=0 ⇔ X constant|CV défini si μ≠0 || Rappels clés || Diff: Difficile, Chapitre 4, Propriétés
+QCM || Comparaison de dispersion entre groupes || V:Utiliser CV|V:Comparer IQR pour robustesse|V:Vérifier unités/échelles|Toujours comparer les variances brutes || Bonnes pratiques || Diff: Difficile, Chapitre 4, Comparaison
+
+DragMatch || Associe situation et indicateur adapté || Échelles différentes:CV, Outliers nombreux:IQR, Addition de risques indépendants:Somme des variances, Transformation affine:Var(aX+b)=a^2 Var(X) || Choix d'indicateur/calcul || Diff: Difficile, Chapitre 4, Choix
+DragMatch || Associe calcul et résultat || Serie avec μ et σ:CV=σ/μ, Données groupées:Var≈Σf_i(c_i−μ)^2/n, Fusion d'échantillons:mélanger moyennes/variances avec poids, Standardisation:Z=(X−μ)/σ || Outils de dispersion avancés || Diff: Difficile, Chapitre 4, Calculs avancés

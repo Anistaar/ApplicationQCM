@@ -1,0 +1,36 @@
+chapter: Analyse Éco > MA2 — Croissance et fluctuations
+
+QCM || Croissance économique selon Perroux est || V:augmentation soutenue du produit réel|hausse ponctuelle trimestrielle|augmentation des prix|réduction du chômage seule || Définition croissance || MA2, Croissance, QCM
+QCM || Différence croissance extensive vs intensive || V:extensive = ↑ facteurs K,L; intensive = ↑ productivité|intensive = ↑ facteurs|extensive = gains de productivité|aucune distinction || Types croissance || MA2, Types, QCM
+QCM || Limite du PIB croissance pour bien-être || V:ignore externalités négatives|compte travail domestique|mesure bonheur|intègre pollution négative || Limites bien-être || MA2, Limites, QCM
+QCM || Phase 1820-1870 marquée par || V:leadership Royaume-Uni libre-échange|dominance Chine|isolement financier|absence d'innovation || Histoire croissance || MA2, Histoire, QCM
+QCM || Trente Glorieuses (1950-1973) caractérisées par || V:forte croissance + plein-emploi + gains productivité|stagflation|chômage massif|baisse innovation || 30 Glorieuses || MA2, Histoire, QCM
+QCM || Chocs pétroliers 1973/1979 ont provoqué || V:inflation + ralentissement + chômage|réduction prix énergie|hausse pouvoir d'achat|disparition cycles || Chocs offre || MA2, Crises, QCM
+QCM || Stagflation combine || V:inflation + chômage élevé|inflation + plein-emploi|déflation + chômage|croissance + baisse prix || Stagflation || MA2, Crises, QCM
+QCM || Facteurs fondamentaux de croissance (modèle Solow) || V:K, L, progrès technique|seulement K|seulement L|monnaie, taux de change || Solow facteurs || MA2, Solow, QCM
+QCM || Productivité globale des facteurs (PGF) mesure || V:efficacité combinaison K,L|quantité travail|quantité capital|inflation sectorielle || PGF || MA2, Productivité, QCM
+QCM || Progrès technique chez Solow est || V:exogène|endogène|identique à capital humain|monétaire || Solow PT || MA2, Solow, QCM
+QCM || Croissance endogène: moteur principal || V:accumulation connaissances / capital humain|seule exploitation ressources|épargne constante|démographie uniquement || Endogène || MA2, Théories, QCM
+QCM || Rôle du capital humain selon Becker/Lucas || V:augmente productivité & croissance|ralentit innovation|ne joue aucun rôle macro|réduit efficience || Capital humain || MA2, CapitalHumain, QCM
+QCM || Externalité positive de la connaissance signifie || V:bénéfice diffus pour autres agents|coût privé uniquement|secret parfait|impact négatif sur productivité || Diffusion savoir || MA2, Connaissance, QCM
+QCM || Invention vs innovation: innovation est || V:application économique de l'invention|idée scientifique pure|brevet automatique|recherche fondamentale || Différence || MA2, Innovation, QCM
+QCM || Types d'innovation (Schumpeter) incluent (choisir vraies) || V:produit|V:procédé|V:organisation|diffusion passive || Schumpeter || MA2, Innovation, QCM
+QCM || Innovation radicale vs incrémentale: radicale est || V:rupture majeure|petite amélioration|adaptation mineure|diminution qualité || Radical || MA2, Innovation, QCM
+QCM || Destruction créatrice implique || V:remplacement ancien par nouveau|conservation intégrale|stabilité totale|absence de substitution || Schumpeter processus || MA2, Schumpeter, QCM
+QCM || Accumulation capital fixe agit sur croissance via || V:↑ capacité productive & intégration PT|↓ capacité productive|neutralité|réduction PGF || Capital fixe || MA2, Capital, QCM
+QCM || Effet multiplicateur investissement: investissement ↑ ⇒ || V:production ↑ revenu ↑ consommation ↑|production ↓|revenu stable|chômage ↑ immédiatement || Multiplicateur || MA2, Investissement, QCM
+QCM || Cycle économique comporte (ordre) || V:essor → retournement → récession → reprise|récession → essor → reprise → retournement|essor → récession → retournement|reprise → essor → récession → retournement || Phases cycle || MA2, Cycle, QCM
+QCM || Cycle Kitchin typiquement lié à || V:variations de stocks|innovations majeures|accumulation capital humain|chocs pétroliers || Cycles courts || MA2, Cycle, QCM
+QCM || Cycle Juglar lié à || V:variations investissement|stocks quotidiens|politique monétaire uniquement|inégalités sociales || Cycles moyens || MA2, Cycle, QCM
+QCM || Cycle Kondratiev associé à || V:grappes d'innovations majeures|rotation saisonnière|taux change|chômage frictionnel || Cycles longs || MA2, Cycle, QCM
+QCM || Explication endogène cycle inclut || V:productivité & crédit & stocks|chocs météorologiques seul|guerre uniquement|politique fiscale seule || Endogène cycles || MA2, Cycle, QCM
+QCM || Choc d’offre négatif typique || V:hausse brutale prix énergie|hausse productivité|baisse taxes|amélioration capital humain || Choc offre || MA2, Chocs, QCM
+QCM || Choc de demande négatif peut provenir de || V:baisse consommation ou investissement|hausse exportations|baisse prix importés|augmentation revenu disponible || Choc demande || MA2, Chocs, QCM
+QCM || Plus-value selon Marx = || V:valeur créée - salaire versé|salaire - valeur créée|profit - taxes|CI - VA || Plus-value || MA2, Classiques, QCM
+QCM || Rendements décroissants classiques impliquent || V:efficacité marginale du facteur baisse|efficacité augmente|constante|illimitée || Rendements || MA2, Classiques, QCM
+QCM || Stagnation (état stationnaire) chez classiques due à || V:rendements décroissants / limites terre|accumulation infinie|innovation illimitée|demande illimitée || Stationnaire || MA2, Classiques, QCM
+QCM || Capital circulant correspond à || V:CI détruites dans production|machines durables|logiciels|brevets || Capital circulant || MA2, Capital, QCM
+QCM || Capital fixe comprend || V:machines, bâtiments, logiciels|énergie consommée|CI détruites|salaires || Capital fixe || MA2, Capital, QCM
+QCM || Amortissement annuel = || V:valeur investissement / durée vie|CI / durée vie|VA / durée vie|prix / quantité || Amortissement || MA2, Capital, QCM
+QCM || Apprentissage (learning by doing) accroît || V:productivité|coûts fixes|obsolescence|inflation immédiatement || Learning || MA2, Productivité, QCM
+QCM || Capital humain inclut || V:compétences, savoir-faire, expériences|stocks physiques|terrains|brevets seulement || Capital humain || MA2, CapitalHumain, QCM

@@ -1,0 +1,299 @@
+CHAPITRE 3 : LES INTERDEPENDANCES ET LES ECHANGES
+
+
+
+On va s’intéresser à la notion d’échange (échange marchand) 
+
+
+
+3 mécanismes d’interactions/ 3 de coordination :
+
+Marchande
+
+Organisation (planification)
+
+Sous forme réciprocitaire (+ marginale) 
+
+
+
+Admettons qu’on est seul sur terre, on veut manger de la baguette (4 ingrédients de bases), comment faire ? 
+
+Farine= vient du blé 🡪 cultiver 🡪 des semences🡪 travailler la terre ….
+
+Eau= eau courante🡪 besoin d’infrastructures 
+
+Sel= aller le chercher 
+
+Donc vivre seul en otarie= Compliqué 
+
+🡪 Chaine de valeur basés sur des échanges marchands entre acteurs économiques
+
+
+
+Objectif : Voir les avantages des échanges marchands comme forme d’organisation des économies modernes 
+
+Échange marchand= base de l’organisation économique 
+
+
+
+L’échange : la base des économie moderne
+
+
+
+Nous sommes sans cesse inclut dans un réseau complexe de transaction économique, échange marchand 
+
+Par ex : si on va manger= échange marchand= monnaie contre nourriture 
+
+Toute nos sociétés mettre a contribution des réseaux complexes de transactions marchandes 
+
+
+
+Pour comprendre l’intérêt de la relation marchande par rapport à une relation d’autarcie : il y a un modèle de base : 
+
+
+
+Modèle de Ricardo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Un seul facteur= travail= facteur limitant
+
+Facteur pas limitant= terre 
+
+
+
+On suppose que il y a 8H de travail dans la journée
+
+Quel est la qtité qui peut être produite par le maraicher/éleveur au cours de cette journée
+
+
+
+Éleveur : 20min par kg de viande= intensité de facteur= 1/ sur la productivité de facteur donc 1/3, 3kg de viande/h= productivité du facteur 
+
+Pour 8h consacré à la production de viande= 8X 3= 24kg de viande (si que viande)
+
+
+
+Éleveur : 10min par kg de pomme de terre= 1/6 h🡺 productivité = 6kg de patate/h 🡪 8 X6= 48kg de patates (si que patate) 
+
+
+
+
+
+
+
+On fait la même chose pour le maraicher 
+
+
+
+
+
+Dans ces graphiques, on est dans une situation sans échanges 
+
+
+
+Échanges= Admettons maintenant que le maraicher donne 15kg de pomme de terre contre 5kg de viande sachant que en situation d’échanges les deux acteurs vont s’entendre (chacun se spécialise dans une production) éleveur que de la viande/maraicher que pomme de terre 
+
+
+
+
+
+
+
+
+
+
+
+En échangeant on peut produire + que si chacun faisait lui-même mais Ricardo va aussi déterminer des conditions d’échanges
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le modèle de Ricardo 
+
+
+
+L’idée de base du modèle de Ricardo c’est d’étudier le rôle des différences relatives entre les conditions de production de biens sur les échanges. 
+
+Diff absolue= efficacité supérieur 
+
+Diff relative de Ricardo= comparé les couts de production pour chacun des 2 bines pour chacun des 2 producteurs. Et comparer les ratios de cout de production. Rapports entre cout de production= cout d’opportunité
+
+
+
+Pour Ricardo : mécanique assez simple : on part de condition de production différente qui aboutissent à des couts d’opportunités relatifs différents et de ces couts va aboutir spécialisation et échange 
+
+
+
+Chaque agents se spécialise dans la production de bien pour lequel son cout d’opportunité est le plus faible 
+
+ 
+
+
+
+Ricardo ne raisonne pas en terme absolue mais en terme relatif : c’est le rapport de cout entre le pain et les légumes par ex pour le maraicher et le comparer à celui du boulanger.
+
+
+
+
+
+
+
+Formalisation en autarcie (sans échanges) 
+
+
+
+On va s’intéresser au maraicher :
+
+Maraicher 🡪 produit 2 biens 🡪 pain et légumes 
+
+🡪 1 facteur de production : travail : (quantité : W)
+
+
+
+
+
+Quantités 
+
+Couts de production unitaires 
+
+pain
+
+Qp
+
+Awp
+
+Légumes 
+
+Ql
+
+Awl
+
+Awp d’heures de travail pour un kg de pain 
+
+
+
+🡺 Quantités de facteur mobilisé :
+
+Pour le pain : awp X Qp 
+
+Pour les légumes : awl X Ql 
+
+
+
+🡺 Contrainte de production : 
+
+
+
+
+
+
+
+-Awl/awp= cout d’opportunité de la production de légumes en termes de pain 
+
+Quantité de pain qu’on est prêt à sacrifier pour produire un kilo de légume en plus 
+
+
+
+Voir graphique 2.1 arche 
+
+Triangle = ensemble des possibilités de production 
+
+
+
+
+
+
+
+
+
+Maintenant on va introduire les prix :
+
+Prix 🡪 pain : Pp
+
+            Légumes : Pl 
+
+
+
+Salaires : on va supposer que les paye vont être une fonction du prix de vente et la productivité
+
+
+
+Pour le secteur du pain : le salaire horaire sera donné par : Pp/awp 
+
+Pour les légumes : PL/awl
+
+
+
+Cout de production unitaire : Awp : 20min (=1/3h) 
+
+🡪 1/awp= 1/1/3=3 🡪 productivité horaire 
+
+
+
+Pp= 4euros 
+
+Chiffre d’affaires horaire = 4X3 =12euros 
+
+ 
+
+
+
+Hypothèse : Ricardo suppose que le maraicher va se spécialiser dans le secteur qui offre le meilleur salaire 
+
+
+
+Spécialisation : 
+
+
+
+
+
+
+
+
+
+Formalisation en situation d’échange 
+
+
+
+Maraicher🡪 W, awl, awp 
+
+Boulanger🡪 W*, awl*, awp*
+
+On suppose que pour le maraicher :
+
+Awl/awp < awl*/awp* 
+
+
+
+Il sera relativement moins cher / sacrifier – de pain pour augmenter sa production de légume que le boulanger 
+
+
+
+Pour Ricardo, condition pour que l’échange se produise va porter sur le prix relatif et les couts d’opportunités

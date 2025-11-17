@@ -1,0 +1,38 @@
+[
+  {
+    "originalFilename": "Macro intro (6).docx",
+    "originalPath": "src/cours/MACRO/Macro intro (6).docx",
+    "proposedFilename": "macro_chap0_intro.txt",
+    "targetDir": "src/cours/MACRO"
+  },
+  {
+    "originalFilename": "Macro 1 La consommation (3).docx",
+    "originalPath": "src/cours/MACRO/Macro 1 La consommation (3).docx",
+    "proposedFilename": "macro_chap1_consommation.txt",
+    "targetDir": "src/cours/MACRO"
+  },
+  {
+    "originalFilename": "Macro 2 L'investissement (2).docx",
+    "originalPath": "src/cours/MACRO/Macro 2 L'investissement (2).docx",
+    "proposedFilename": "macro_chap2_investissement.txt",
+    "targetDir": "src/cours/MACRO"
+  },
+  {
+    "originalFilename": "Macro 3 Une vision macroéconomique du modèle classique (2).docx",
+    "originalPath": "src/cours/MACRO/Macro 3 Une vision macroéconomique du modèle classique (2).docx",
+    "proposedFilename": "macro_chap3_modele_classique_reel.txt",
+    "targetDir": "src/cours/MACRO"
+  },
+  {
+    "originalFilename": "Macro 3.2 (2).docx",
+    "originalPath": "src/cours/MACRO/Macro 3.2 (2).docx",
+    "proposedFilename": "macro_chap3_theorie_quantitative_monnaie.txt",
+    "targetDir": "src/cours/MACRO"
+  },
+  {
+    "originalFilename": "Macro 4 Le modèle Keynesien (2).docx",
+    "originalPath": "src/cours/MACRO/Macro 4 Le modèle Keynesien (2).docx",
+    "proposedFilename": "macro_chap4_modele_keynesien.txt",
+    "targetDir": "src/cours/MACRO"
+  }
+]

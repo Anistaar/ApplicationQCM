@@ -27,6 +27,16 @@ The script:
 Environment overrides:
 - `BRANCH=main REPO_DIR=/opt/text2quiz WWW_BASE=/var/www/text2quiz NGINX_SERVICE=nginx`
 
+Notes:
+- The deploy script now auto-detects the repo root based on its own path. If your repo is nested (e.g. `/opt/text2quiz/Text2QuizVIP`), it will find it automatically.
+- If needed once, you can force the repo path: `sudo REPO_DIR=/opt/text2quiz/Text2QuizVIP bash scripts/deploy-server.sh`.
+
+Troubleshooting symlink:
+- If `/var/www/text2quiz/current` is a directory (not a symlink), older systems may refuse to swap it. Remove or move it aside once, then let the script recreate the symlink:
+	- `sudo mv /var/www/text2quiz/current /var/www/text2quiz/current.bak.$(date +%s)`
+	- `sudo ln -sfnT /var/www/text2quiz/releases/<latest> /var/www/text2quiz/current`
+	- From now on, the script uses `ln -sfnT` to safely replace the target.
+
 ## Local release from Windows
 
 Use the helper PowerShell script:

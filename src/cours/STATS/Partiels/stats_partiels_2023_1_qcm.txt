@@ -1,0 +1,12 @@
+chapter: Partiels STATS > 2023 — Partiel 1 (Novembre)
+
+QCM || La population statistique d’une étude est || V:l’ensemble des unités auxquelles on s’intéresse|l’échantillon observé|la variable mesurée|la moyenne de l’échantillon || Définition population || Partiels 2023, Partiel 1, Chapitre 1, QCM
+QCM || Un caractère quantitatif discret est || V:le nombre d’enfants par ménage|la taille en cm|un niveau de satisfaction|une filière d’étude || Types de variables || Partiels 2023, Partiel 1, Chapitre 1, QCM
+QCM || Effectifs cumulés croissants jusqu’à une classe servent à || V:repérer les quantiles|calculer la variance|mesurer l’étendue|faire un nuage de points || Usage FCC || Partiels 2023, Partiel 1, Chapitre 1, QCM
+QCM || Fréquence d’une classe est || V:effectif de la classe / effectif total|effectif cumulés croissants|1 − F(x)|effectif total / effectif de la classe || Définition f_i || Partiels 2023, Partiel 1, Chapitre 1, QCM
+QCM || Pour classes continues de largeurs différentes, on utilise || V:densité = effectif/largeur|hauteur = effectif|classement ordinal|diagramme circulaire || Histogramme avec densités || Partiels 2023, Partiel 1, Chapitre 2, QCM
+QCM || Mesure robuste de tendance centrale || V:médiane|moyenne arithmétique|moyenne géométrique|moyenne harmonique || Robustesse || Partiels 2023, Partiel 1, Chapitre 3, QCM
+QCM || Pour comparer dispersion de deux séries (moyennes différentes), on utilise || V:CV = σ/μ|σ brut|IQR seul|étendue seule || Dispersion relative || Partiels 2023, Partiel 1, Chapitre 4, QCM
+QCM || Ajout d’une constante c à toutes les valeurs: l’écart-type || V:reste inchangé|augmente de c|est multiplié par c|devient 0 || Invariance σ || Partiels 2023, Partiel 1, Chapitre 4, QCM
+QCM || Séries groupées: centre de classe [a;b[ est || V:(a+b)/2|a|b|b−a || Approximation pour moyennes groupées || Partiels 2023, Partiel 1, Chapitre 3, QCM
+QCM || Choix du nombre de classes (n observations) — Sturges || V:1 + 3,3 log10(n)|√n|n/10|2√n || Heuristique courante || Partiels 2023, Partiel 1, Chapitre 2, QCM

@@ -1,0 +1,243 @@
+chapter: Statistiques > fiche hpe l1 (2)
+
+
+
+Fiche de synthèse RIAE (Partie I)
+TD de renforcement à l’analyse économique — Licence 1
+Cette fiche de synthèse s’appuie sur le support « Feuilleton HPE » du Pr. Potier (ENS Lyon),
+adapté et condensé pour ce cours.
+1  Analyse, théorie, histoire : le lien réflexif et méthodologique
+Analyse → Théorie → Histoire (et retour)
+Analyse économique : démarche d’observation, de décomposition et de modélisation des
+faits (comportements, marchés, institutions).
+Théorie : construction logique (modèle) qui formalise des mécanismes (TMS, équilibre,
+multiplicateur) et produit des hypothèses testables.
+Histoire de la pensée : étude des conditions d’émergence, des ruptures et continuités des
+théories (contextes, méthodes, idées).
+Idée directrice : l’analyse nourrit la théorie ; la théorie se transforme au fil de l’histoire
+(nouvelles questions, outils, faits stylisés), et l’histoire éclaire les limites des théories et leurs
+présupposés.
+L’analyse économique est l’étude des faits, des comportements et des dynamiques économiques,
+dans le but de comprendre comment les ressources sont produites, échangées et réparties. Elle s’ap-
+puie sur des théories, en tant que constructions conceptuelles, qui formalisent ces observations en
+modèles explicatifs et en mécanismes. Ces théories s’inscrivent dans l’histoire de la pensée écono-
+mique, où chaque époque a produit ses propres cadres d’interprétation, en dialogue ou en rupture
+avec ceux du passé.
+Analyse = Opération intellectuelle consistant à décomposer un tout en ses éléments pour en
+saisir les rapports. (Larousse)
+Méthode de connaissance consistant à décomposer un objet ou un phénomène en ses éléments
+constitutifs. (CNRTL)
+Analyse économique = L’analyse économique vise à comprendre le fonctionnement de l’écono-
+mie en décomposant les faits en relations élémentaires, susceptibles d’être formalisées en théories
+et en modèles. (Encyclopædia Universalis)
+=> Démarche scientifique qui décompose les faits économiques en éléments observables et
+cherche à en dégager des régularités à l’aide de théories et de modèles (d’où la nécessité de réaliser
+un préambule sur l’HPE)
+Trois approches pour analyser l’HPE : par les auteurs, discontinuitiste, relativiste ou environ-
+nementaliste (Potier J.P., 2008)
+1
+
+2  Antiquité et scolastique : une économie normative
+Aristote (384–322 av. J.-C.)
+Politique, Éthique à Nicomaque. Distinction oikonomia (besoins réels) vs chrématistique
+(accumulation illimitée). Monnaie utile comme mesure et échange, dangereuse si spéculative.
+Scolastique (XIIe–XIIIe s.) : Thomas d’Aquin
+Somme théologique. Juste prix (équité, cohésion), condamnation de l’usure (argent stérile).
+Primat de la justice sur l’efficacité.
+Points phares de l’Antiquité et de la Scolastique
+– Économie intégrée à la morale : la production et l’échange sont jugés selon leur
+conformité au bien commun, non à leur efficacité.
+– Aristote : distinction entre oikonomia (usage raisonnable des ressources) et chrema-
+tistikè (quête du profit). Condamnation de l’usure et du commerce spéculatif.
+– Pensée chrétienne : l’activité économique doit respecter la charité et la justice.
+L’accumulation pour elle-même est suspecte.
+– Thomas d’Aquin (XIIIe s.) : théorie du juste prix, interdiction de l’usure, légitimité
+conditionnelle du profit commercial.
+– Économie morale : hiérarchie des valeurs (vertu > richesse), importance du bien
+commun et du devoir social.
+– Héritage : introduction des notions de valeur, prix, intérêt et travail ; mais absence
+de formalisation scientifique. Transition vers les doctrines modernes (Mercantilistes).
+Auteurs clés : Platon, La République (IVe s. av. J.-C.) ; Aristote, Politique, Éthique à
+Nicomaque (IVe s. av. J.-C.) ; Saint Augustin, La Cité de Dieu (Ve s.) ; Thomas d’Aquin,
+Somme théologique (XIIIe s.) ; École de Salamanque (XVIe s.).
+3  Mercantilisme et pré-classiques : richesse nationale et premiers
+modèles
+Mercantilisme (XVIe–XVIIe s.)
+Bodin (quantité de monnaie → prix), Mun (balance excédentaire), Montchrétien (1615,
+Traicté d’Œconomie politique). Rôle stratégique de l’État et du commerce extérieur.
+Pré-classiques (XVIIe–XVIIIe s.)
+Boisguilbert : richesse réelle = production et circulation (critique de l’or).
+Cantillon (Essai, c. 1730–1755) : circuit économique, formation des prix, rôle de la terre et des
+revenus différenciés (préfigure Quesnay).
+2
+
+Points phares des Mercantilistes et Pré-classiques
+– Contexte : construction des États-nations et essor du commerce international
+(XVIe–XVIIIe siècle).
+– Mercantilisme : richesse assimilée aux métaux précieux ; politique d’exportations et
+d’intervention étatique (Colbert, Mun).
+– Objectif : accroître la puissance du souverain et la balance commerciale.
+– Pré-classiques : rupture progressive avec le mercantilisme ; apparition de la valeur-
+travail et de la notion de circuit économique.
+– Auteurs clés : – Petty (1662), Political Arithmetick : mesure économique, valeur
+travail-terre ; – Boisguilbert (1707), Le Détail de la France : liberté du commerce,
+critique du dirigisme ; – Cantillon (1730), Essai sur la nature du commerce en général :
+rôle de l’entrepreneur et des prix de marché.
+– Héritage : les Pré-classiques ouvrent la voie aux Physiocrates (production agricole)
+et aux Classiques (valeur-travail, libéralisme économique).
+4  Physiocrates : premier système cohérent (milieu XVIIIe)
+Quesnay (1758) : Tableau économique
+Trois classes (productive, propriétaire, stérile), produit net agricole, ordre naturel & liberté
+du commerce (grains).
+Turgot : capital, rendements décroissants, prix libres, réforme fiscale (impôt unique).
+Points phares des Physiocrates
+– Richesse et agriculture : seule la production agricole crée un produit net ; l’industrie
+et le commerce ne font que transformer la richesse existante.
+– Ordre naturel : existence de lois économiques naturelles qu’il faut respecter (vision
+rationaliste et naturaliste).
+– Tableau économique (Quesnay, 1758) : première modélisation du circuit écono-
+mique global, entre trois classes (productive, stérile, propriétaire).
+– Classes sociales : la richesse circule entre producteurs, propriétaires et artisans ; seule
+la classe productive génère un surplus.
+– Laissez-faire, laissez-passer : défense d’un libéralisme économique fondé sur la
+liberté du commerce et la propriété.
+– Impôt unique : prélevé sur la rente foncière, considéré comme la seule richesse “vraie”.
+– Héritage : influence directe sur Smith et la tradition classique ; préfiguration de la
+comptabilité nationale et du concept de produit global.
+Ouvrages clés : Quesnay (1758), Tableau économique ; Turgot (1766), Réflexions sur la
+formation et la distribution des richesses ; Mirabeau (1756), L’Ami des hommes ; Dupont de
+Nemours (1767), Physiocratie.
+3
+
+5  Classiques : Smith, Ricardo, Malthus, Say, Mill
+Smith (1776) — An Inquiry into the Nature and Causes of the Wealth of Nations
+(Recherches sur la nature et les causes de la richesse des nations)
+Division du travail (productivité, innovation), main invisible (coordination décentralisée),
+rôle de l’État (justice, infrastructures, défense).
+Ricardo (1817) — On the Principles of Political Economy and Taxation (Des prin-
+cipes de l’économie politique et de l’impôt)
+Valeur-travail, rendements décroissants en agriculture (rente foncière), avantage com-
+paratif (commerce : coûts relatifs). Débats sur les Corn Laws (lois sur les céréales).
+Malthus (1798) — Essai sur le principe de population
+Croissance démographique > croissance des subsistances ⇒ pression sur salaires, pauvreté.
+Say (1803) — Traité d’économie politique
+Loi des débouchés : « l’offre crée sa propre demande » (à long terme). Importance de
+l’entrepreneur et des marchés.
+J. S. Mill (1848) - Principles of Political Economy with Some of Their Applications
+to Social Philosophy (Principes d’économie politique)
+Synthèse libérale nuancée : institutions, justice sociale, liberté individuelle.
+Points phares de l’école classique
+– Économie comme ordre naturel : marché autorégulateur, “main invisible” (Smith,
+1776).
+– Valeur-travail : la valeur d’échange d’un bien dépend de la quantité de travail incor-
+porée (Ricardo, 1817).
+– Répartition entre classes : salaires (travailleurs), profits (capitalistes), rentes (pro-
+priétaires fonciers).
+– Croissance et rendements décroissants : division du travail (Smith) → accumu-
+lation, mais tendance stationnaire (Ricardo, Malthus).
+– Loi de Say (1803) : “l’offre crée sa propre demande” → impossibilité de crise générale
+durable.
+– Limites : vision de long terme, absence de prise en compte des crises globales, du
+conflit social et de la monnaie.
+4
+
+6  Marx : critique du capitalisme (1867, Le Capital / Grundrisse
+der Kritik der politischen Ökonomie, rédigés 1857-1858)
+Plus-value (pl), classes sociales, accumulation. Taux de profit :
+r =
+pl
+c + v
+avec c (capital constant), v (capital variable). Baisse tendancielle de r si c/v ↑ (composition
+organique du capital), d’où crises récurrentes (suraccumulation, dévalorisation).
+Points phares sur Marx
+– Critique de l’économie politique classique : Marx reprend les concepts de valeur
+et de travail pour en montrer les contradictions. L’économie n’est pas neutre : elle
+exprime des rapports sociaux.
+– Théorie de la valeur et de la plus-value : la valeur vient du travail socialement
+nécessaire ; la plus-value (pl = e× v) est du travail non payé, capté sous forme de
+profit.
+– Dynamique du capital et baisse tendancielle du taux de profit :
+r =
+pl
+c + v
+avec   c/v ↑⇒ r ↓
+Accumulation technique ⇒ pression sur le profit ⇒ crises endogènes.
+– Caractère historique et dialectique du capitalisme : le système engendre ses
+propres contradictions (accumulation, exploitation, crises) et prépare sa transforma-
+tion.
+– Héritage : Marx inspire les approches macro-historiques et institutionnalistes (néo-
+marxistes, régulation, sociologie économique, etc.).
+5
+
+7  Révolution marginaliste (1870–1890) : utilité et équilibre
+Jevons, Menger, Walras
+Utilité marginale décroissante, valeur subjective, équilibre général walrasien (système
+d’équations interdépendantes).
+Tâtonnement walrasien : ajustement itératif des prix par un « commissaire-priseur » ;
+échanges au prix d’équilibre (hypothèse forte).
+Points phares
+– Les marginalistes réalisent une révolution conceptuelle en introduisant la notion d’uti-
+lité marginale et la logique d’équilibre.
+– Pas encore de distinction formelle entre utilité ordinale et cardinale ;
+– Glissement de valeur-travail vers valeur-utilité.
+– Ils posent les fondements logiques de la micro (choix individuels, maximisation, utilité
+marginale décroissante, interdépendance des marchés), mais pas encore sa formalisa-
+tion telle que nous la connaissons (microéconomie contemporaine). C’est avec Pareto
+(1906), Edgeworth (1881) et Marshall (1890) que naît la micro au sens moderne.
+8  Keynes (1936) : macroéconomie et demande effective
+Contexte : Grande Dépression, chômage massif. Demande effective comme moteur de la
+production (Y déterminé par C + I + G). Préférence pour la liquidité (rôle de la monnaie et
+des anticipations), investissement instable.
+Contexte et rupture
+– Crise de 1929 → chômage massif, effondrement de la production → échec de la loi de
+Say.
+– Rejet du postulat classique de plein-emploi automatique : les marchés peuvent rester
+durablement déséquilibrés.
+– Naissance de la macroéconomie moderne : étude agrégée du revenu, de l’emploi et
+de la demande globale.
+Concepts et mécanismes clés
+– Demande effective : la production et l’emploi dépendent du niveau anticipé de la
+dépense globale :
+D = C + I + G + (X − M)
+– Fonction de consommation : C = C
+0
++ cY où C
+0
+est la consommation incompres-
+sible et c la propension marginale à consommer.
+– Épargne et investissement : déséquilibre possible entre S et I → chômage involon-
+taire.
+– Efficacité marginale du capital (EMC) : investissement dépend de la rentabilité
+anticipée et du taux d’intérêt.
+6
+
+– Préférence pour la liquidité : la monnaie n’est pas neutre, elle influence le taux
+d’intérêt et l’investissement.
+– Multiplicateur keynésien : effet amplificateur des dépenses publiques :
+k =
+1
+1− c
+Ex. : si c = 0,8, alors k = 5 → 1€ de dépense publique crée 5€ de revenu.
+Principaux apports théoriques
+– Renversement de la loi de Say : c’est la demande qui crée l’offre (et non l’inverse).
+– Chômage involontaire : dû à l’insuffisance de la demande effective, non à des salaires
+trop élevés.
+– Monnaie active : la politique monétaire agit sur la demande via le taux d’intérêt.
+– Rôle de l’État : stabilisation conjoncturelle par des politiques budgétaires et moné-
+taires (relance, régulation, investissements publics).
+– Court terme : priorité à l’activité et à l’emploi (“À long terme, nous serons tous
+morts.”)
+Politiques économiques keynésiennes
+– Politique budgétaire : relance de la demande par la dépense publique, effet multi-
+plicateur.
+– Politique monétaire : baisse des taux d’intérêt pour stimuler l’investissement (sauf
+trappe à liquidité).
+– État stabilisateur : amortit les cycles économiques (automatiques : stabilisateurs
+fiscaux,
+À ne pas confondre
+– Main invisible (Smith)̸= « laisser faire absolu » : Smith reconnaît des fonctions essentielles
+de l’État.
+– Loi de Say (long terme) ̸= équilibre permanent : Keynes montre le sous-emploi durable à
+court/moyen terme.
+– Équilibre walrasien (construct théorique) ̸= processus réel d’ajustement instantané.
+7

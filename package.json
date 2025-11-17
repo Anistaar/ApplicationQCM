@@ -10,13 +10,26 @@
     "build:tests": "tsc -p tsconfig.test.json",
     "test": "npm run build:tests && node --experimental-specifier-resolution=node tests/run-tests.js",
     "rename:courses": "node scripts/rename-courses.mjs",
+    "convert:macro": "node scripts/convert-docx-to-txt.mjs scripts/rename-mapping-macro.json",
+    "convert:stats": "node scripts/convert-pdf-to-txt.mjs src/cours/STATS",
+    "convert:riae:pdf": "node scripts/convert-pdf-to-txt.mjs src/cours/RIAE/SOURCES",
+    "convert:riae:docx": "node scripts/convert-docx-dir.mjs src/cours/RIAE/SOURCES src/cours/RIAE",
+    "classify:macro-bank": "node scripts/classify-macro-bank.mjs",
+    "ocr:stats:partiels": "node scripts/ocr-partiels-stats.mjs",
+  "ocr:analyse-eco:partiels": "node scripts/ocr-partiels-analyse-eco.mjs",
     "release": "powershell -ExecutionPolicy Bypass -File ./scripts/release.ps1",
     "commit": "powershell -ExecutionPolicy Bypass -File ./scripts/quick-commit.ps1"
   },
   "devDependencies": {
+    "@types/node": "20.11.30",
+    "mammoth": "^1.6.0",
+    "pdf-parse": "^1.1.1",
+    "ts-node": "10.9.2",
     "typescript": "5.5.4",
     "vite": "5.4.8",
-    "ts-node": "10.9.2",
-    "@types/node": "20.11.30"
+    "tesseract.js": "4.1.1"
+  },
+  "dependencies": {
+    "tesseract.js": "^4.1.1"
   }
 }

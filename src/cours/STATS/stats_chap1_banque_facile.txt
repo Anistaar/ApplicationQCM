@@ -1,0 +1,18 @@
+chapter: Chapitre 1 > Notions statistiques et collecte des données
+
+# Faciles (Diff: Facile)
+VF || La statistique est à la fois un ensemble de techniques et l'étude scientifique de ces techniques || V || Le cours précise que la statistique est un champ des mathématiques appliquées, à la fois méthodes et étude de ces méthodes || Diff: Facile, Chapitre 1, Introduction
+VF || Les trois fonctions majeures de la statistique sont: décrire, expliquer, prédire || V || Le cours présente explicitement ces trois fonctions comme axes de la statistique || Diff: Facile, Chapitre 1, Fonctions
+VF || La statistique descriptive vise surtout à prédire l'inconnu à partir d'un modèle probabiliste || F || Prédire relève de l'inférentielle; la descriptive synthétise/visualise l'information observée || Diff: Facile, Chapitre 1, Descriptive vs Inférentielle
+
+QR || À quoi sert principalement la statistique descriptive dans ce cours ? || V:Synthétiser et visualiser l'information contenue dans les données|Collecter des données expérimentales|Établir des relations causales || Le chapitre rappelle que l'objet du cours est surtout la partie descriptive: décrire/synthétiser || Diff: Facile, Chapitre 1, Descriptive
+QR || Dans l'histoire du mot "statistique", il est lié à l'État car || V:Historiquement associé aux outils des personnes d'État|Il désigne à l'origine la théorie des nombres|Il renvoie aux statistiques sportives || Le texte rappelle l'étymologie (statista) et l'usage par les personnes d'État || Diff: Facile, Chapitre 1, Historique
+QR || Parmi les objets d'usage de la statistique, lequel est cité ? || V:Enquêtes démographiques|Fabrication de semi-conducteurs|Cryptographie quantique || Le support cite enquêtes sociologiques/démographiques, météo, finance, etc. || Diff: Facile, Chapitre 1, Applications
+
+QCM || Les trois fonctions de la statistique sont || V:Décrire|V:Expliquer|V:Prédire|Classer || Les diapositives listent exactement ces trois fonctions || Diff: Facile, Chapitre 1, Fonctions
+QCM || Dans ce cours, on se concentre surtout sur || V:La statistique descriptive|La statistique inférentielle|L'apprentissage profond|L'économétrie structurelle || Le chapitre annonce le focus sur la partie descriptive || Diff: Facile, Chapitre 1, Périmètre
+QCM || Les usages typiques de la statistique incluent || V:Collecter des données|V:Décrire des données|V:Prendre des décisions|Assurer la véracité absolue d'un phénomène || Le cours liste collecte, description, prévision/décision; la certitude n'est pas garantie || Diff: Facile, Chapitre 1, Applications
+QCM || Les catégories de la statistique associées aux trois fonctions sont || V:Descriptive (décrire)|V:Inférentielle (prédire)|V:Inférence causale (expliquer)|Mathématiques pures || Le texte associe chaque fonction à un champ d'étude || Diff: Facile, Chapitre 1, Champs
+
+DragMatch || Associe la fonction statistique à sa description || Décrire:Résumer et visualiser l'information, Expliquer:Identifier des relations causales, Prédire:Anticiper des valeurs non observées || Les trois fonctions sont définies et reliées à des tâches spécifiques || Diff: Facile, Chapitre 1, Fonctions
+DragMatch || Associe chaque champ à sa fonction || Statistique descriptive:Décrire, Statistique inférentielle:Prédire, Inférence causale:Expliquer || Alignement direct avec le plan du cours || Diff: Facile, Chapitre 1, Champs
