@@ -1,0 +1,11 @@
+chapter: Test OpenQ > Questions Ouvertes — Macro Investissement
+
+OpenQ || Que signifie FBCF en macroéconomie ? || fbcf,formation brute capital fixe || La FBCF correspond à la formation brute de capital fixe || Abréviation fondamentale en comptabilité nationale
+
+OpenQ || Citez deux composantes incluses dans la FBCF || biens production durables,variations stocks || La FBCF inclut les acquisitions de biens de production durables et les variations de stocks || Périmètre exact de la FBCF
+
+OpenQ || Pourquoi l'investissement est-il considéré comme volatil ? || volatil,anticipations demande,taux intérêt || L'investissement est volatil car il dépend des anticipations de demande et du coût du capital (taux d'intérêt) || Comprendre la volatilité explique les cycles économiques
+
+OpenQ || Comment le taux d'intérêt influence-t-il les décisions d'investissement ? || taux intérêt,coût capital,rentabilité || Le coût du capital (taux d'intérêt) modifie la rentabilité attendue des projets d'investissement || Mécanisme de transmission de la politique monétaire
+
+OpenQ || Expliquez le principe de l'accélérateur selon Clark || accélérateur,clark,demande,proportionnelle,investissement || Le principe de l'accélérateur (Clark 1917) stipule qu'une hausse de la demande entraîne une hausse plus que proportionnelle de l'investissement || Mécanisme d'amplification des cycles économiques

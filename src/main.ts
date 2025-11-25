@@ -1183,6 +1183,7 @@ function render() {
   else if (q.type === 'QCM') (window as any).renderQCM ? (window as any).renderQCM(head, q) : renderQCM(head, q);
   else if (q.type === 'VF') renderVF(head, q);
   else if (q.type === 'DragMatch') renderDragMatch(head, q);
+  else if (q.type === 'OpenQ') renderOpenQ(head, q);
 }
 
 function helperText(q: Question): string {
@@ -1190,6 +1191,7 @@ function helperText(q: Question): string {
   if (q.type === 'VF') text = 'Choisis Vrai ou Faux.';
   else if (q.type === 'DragMatch') text = 'Glisse les réponses dans les bonnes cases.';
   else if (q.type === 'QR') text = 'Sélectionne la bonne réponse.';
+  else if (q.type === 'OpenQ') text = 'Rédige ta réponse (minimum 10 caractères).';
   else if (q.type === 'QCM') {
     const nb = countCorrect(q);
     text = nb > 1 ? 'Plusieurs réponses possibles — coche toutes les bonnes.' : 'Une ou plusieurs réponses possibles.';
@@ -1371,6 +1373,147 @@ function renderDragMatch(head: string, q: Question) {
   bindValidateAndNext(q);
   updateButtonsFromDOM();
   document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* ---------- OpenQ (Question Ouverte) ---------- */
+function renderOpenQ(head: string, q: Question) {
+  if (q.type !== 'OpenQ') return;
+  
+  const userAnswer = state.userAnswers[state.index] as any;
+  const userText = userAnswer?.text ?? '';
+  const isCorrect = userAnswer?.isCorrect ?? false;
+  
+  const feedbackHtml = state.corrige ? `
+    <div class="openq-feedback ${isCorrect ? 'openq-feedback-correct' : 'openq-feedback-incorrect'}">
+      <div class="feedback-header">
+        ${isCorrect ? '✅ <strong>Correct !</strong>' : '❌ <strong>Incomplet</strong>'}
+      </div>
+      ${!isCorrect && q.expectedKeywords ? `
+        <div class="missing-keywords">
+          🔑 Mots-clés attendus : <strong>${q.expectedKeywords.join(', ')}</strong>
+        </div>
+      ` : ''}
+      ${q.referenceCourse ? `
+        <details class="reference-course" open>
+          <summary>📖 Référence cours</summary>
+          <p>${escapeHtml(q.referenceCourse)}</p>
+        </details>
+      ` : ''}
+      ${q.explication ? `
+        <div class="explanation">
+          💡 <em>${escapeHtml(q.explication)}</em>
+        </div>
+      ` : ''}
+    </div>
+  ` : '';
+  
+  els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">Rédige ta réponse (minimum 10 caractères).</small></div>
+      
+      <div class="openq-container">
+        <textarea 
+          id="openq-textarea" 
+          rows="8" 
+          placeholder="Développez votre réponse ici..."
+          aria-describedby="char-count"
+          ${state.corrige ? 'disabled' : ''}
+        >${escapeHtml(userText)}</textarea>
+        <div id="char-count" class="char-counter">${userText.length} caractères</div>
+      </div>
+      
+      ${feedbackHtml}
+      
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+  
+  // Setup textarea counter
+  const textarea = document.getElementById('openq-textarea') as HTMLTextAreaElement | null;
+  if (textarea && !state.corrige) {
+    textarea.addEventListener('input', () => {
+      const counter = document.getElementById('char-count');
+      if (counter) {
+        counter.textContent = `${textarea.value.length} caractères`;
+      }
+      updateButtonsFromDOM();
+    });
+  }
+  
+  bindValidateAndNext(q);
+  updateButtonsFromDOM();
+  document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function validateOpenAnswer(userText: string, expectedKeywords: string[]): boolean {
+  if (!expectedKeywords || expectedKeywords.length === 0) return true;
+  
+  // Tokenize user text
+  const userTokens = userText
+    .toLowerCase()
+    .replace(/[.,!?;:'"()]/g, ' ')
+    .split(/\s+/)
+    .map(t => t.trim())
+    .filter(t => t.length > 2);
+  
+  // Check all keywords present (exact or fuzzy)
+  return expectedKeywords.every(keyword => {
+    const kwLower = keyword.toLowerCase().trim();
+    return userTokens.some(token => {
+      if (token === kwLower) return true;
+      if (token.includes(kwLower) || kwLower.includes(token)) return true;
+      return levenshteinDistance(token, kwLower) <= 2;
+    });
+  });
+}
+
+function levenshteinDistance(a: string, b: string): number {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  
+  const matrix: number[][] = [];
+  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+  
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b.charAt(i - 1) === a.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        );
+      }
+    }
+  }
+  return matrix[b.length][a.length];
+}
+
+function playSuccessSound() {
+  try {
+    const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+    const oscillator = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    
+    oscillator.frequency.value = 800; // Hz (note élevée = succès)
+    oscillator.type = 'sine';
+    
+    gainNode.gain.setValueAtTime(0.3, audioCtx.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+    
+    oscillator.start(audioCtx.currentTime);
+    oscillator.stop(audioCtx.currentTime + 0.3);
+  } catch (e) {
+    // Silent fail if Web Audio API not supported
+  }
 }
 
 function setupKeyboardDragMatch(q: Question) {
@@ -1825,6 +1968,18 @@ function bindValidateAndNext(q: Question) {
   btn?.addEventListener('click', () => {
     const { ok, ua } = getDOMAnswer(q);
     if (!ok || !ua) return;
+    
+    // OpenQ : Valider et stocker résultat
+    if (q.type === 'OpenQ' && ua.kind === 'OpenQ') {
+      const isCorrect = validateOpenAnswer(ua.text, q.expectedKeywords ?? []);
+      (ua as any).isCorrect = isCorrect;
+      
+      // Play success sound only if correct
+      if (isCorrect) {
+        playSuccessSound();
+      }
+    }
+    
     // mesurer le temps passé sur la question (ms)
     const start = state.questionStart ?? (performance.now ? performance.now() : Date.now());
     const elapsedMs = Math.max(0, Math.round((performance.now ? performance.now() : Date.now()) - start));
@@ -2125,6 +2280,11 @@ function getDOMAnswer(q: Question): { ok: boolean; ua: UserAnswer | null } {
     const hasAny = Object.keys(matches).length > 0;
     // Autoriser la validation dès qu'au moins une association est faite (meilleure UX)
     return hasAny ? { ok: true, ua: { kind: 'DragMatch', matches } } : { ok: false, ua: null };
+  }
+  if (q.type === 'OpenQ') {
+    const textarea = document.getElementById('openq-textarea') as HTMLTextAreaElement | null;
+    const text = textarea?.value.trim() ?? '';
+    return text.length >= 10 ? { ok: true, ua: { kind: 'OpenQ', text } } : { ok: false, ua: null };
   }
   return { ok: false, ua: null };
 }

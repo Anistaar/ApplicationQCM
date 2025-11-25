@@ -177,6 +177,30 @@ export function parseQuestions(content: string): Question[] {
       continue;
     }
 
+    // ----- OpenQ (question ouverte) -----
+    if (kind === 'OPENQ' && cols.length >= 3) {
+      const question = clean(cols[1]);
+      const keywordsRaw = clean(cols[2]);
+      const referenceCourse = clean(cols[3]);
+      const explication = clean(cols[4]);
+      const topics = uniq([
+        ...currentThemes,
+        ...parseTopicList(cols[5]),
+        ...extractInlineTags(question)
+      ]);
+      
+      // Parse keywords: "keyword1,keyword2,keyword3"
+      const expectedKeywords = keywordsRaw
+        .split(/[,;]/)
+        .map((k) => k.trim().toLowerCase())
+        .filter(Boolean);
+      
+      if (expectedKeywords.length > 0) {
+        out.push({ type: 'OpenQ', question, expectedKeywords, referenceCourse, explication, topics });
+      }
+      continue;
+    }
+
     // autres types ignorés
   }
 
@@ -185,7 +209,7 @@ export function parseQuestions(content: string): Question[] {
 
 /* ===== Correction & aides ===== */
 
-export function isCorrect(q: Question, ua: { value?: any; values?: string[]; matches?: Record<string, string> }): boolean {
+export function isCorrect(q: Question, ua: { value?: any; values?: string[]; matches?: Record<string, string>; text?: string; isCorrect?: boolean }): boolean {
   if (q.type === 'VF') return ua.value === q.vf;
 
   if (q.type === 'QR') {
@@ -207,6 +231,10 @@ export function isCorrect(q: Question, ua: { value?: any; values?: string[]; mat
     const userMatches = ua.matches ?? {};
     return q.pairs.every((pair) => userMatches[pair.item] === pair.match);
   }
+  
+  if (q.type === 'OpenQ') {
+    return ua.isCorrect ?? false;
+  }
 
   return false;
 }
@@ -216,6 +244,7 @@ export function correctText(q: Question): string {
   if (q.type === 'QR') return q.answers.find((a) => a.correct)?.text ?? '';
   if (q.type === 'QCM') return q.answers.filter((a) => a.correct).map((a) => a.text).join(' | ');
   if (q.type === 'DragMatch') return q.pairs.map((p) => `${p.item} → ${p.match}`).join(', ');
+  if (q.type === 'OpenQ') return q.expectedKeywords?.join(', ') ?? 'Réponse attendue';
   return '';
 }
 
@@ -224,5 +253,6 @@ export function countCorrect(q: Question): number {
   if (q.type === 'QR') return 1;
   if (q.type === 'QCM') return q.answers.filter((a) => a.correct).length;
   if (q.type === 'DragMatch') return q.pairs.length;
+  if (q.type === 'OpenQ') return q.expectedKeywords?.length ?? 1;
   return 0;
 }

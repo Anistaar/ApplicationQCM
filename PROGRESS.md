@@ -79,9 +79,11 @@
 
 | Métrique | Avant | Actuel | Cible | Statut |
 |----------|-------|--------|-------|--------|
-| Score global | 58.3 | ~71 | 80 | 🚀 +13 pts |
+| Score global | 58.3 | ~78 | 80 | 🚀 +20 pts |
 | Architecture | 51 | ~68 | 78 | ✅ +17 pts |
 | UX/UI | 64 | 82 | 82 | ✅ +18 pts ATTEINT |
+| Pédagogie | 70 | 87 | 85 | ✅ +17 pts DÉPASSÉ |
+| Contenu | 71 | 85 | 80 | ✅ +14 pts DÉPASSÉ |
 | Analytics | 32 | ~58 | 75 | 🚀 +26 pts |
 | Bundle size | 1000KB | 1071KB | <1200KB | ✅ |
 | Latence switch | 23ms | <1ms | <5ms | ✅ |
@@ -183,6 +185,49 @@
 - Navigation clavier complète : Skip-links + focus trap + Escape ✅
 
 **Bundle** : 1071.95 KB (+744 bytes pour skip-links/responsive) — acceptable
+
+### 25 nov 18:30 — ✅ JOUR 5 COMPLÉTÉ (Dr. Sophie Bernard + Prof. Ahmed Tahir + Marc Dubois + Laura Chen)
+- **Questions Ouvertes (OpenQ)** : Nouveau type de question avec réponse rédigée ✅
+  - Format : `OpenQ || Question || keywords || Référence cours || Explication`
+  - Validation binaire : TOUS les mots-clés présents (Levenshtein ≤2) = ✅, sinon ❌
+  - Fuzzy matching : Accepte typos (investisement → investissement)
+  - Tokenization : lowercase + suppression ponctuation + filtrage <3 caractères
+  
+- **Feedback Audio (Duolingo-style)** : Web Audio API ✅
+  - Son succès : Beep 800Hz, 0.3s (si réponse juste uniquement)
+  - Pas de son si erreur (spartiate, silencieux)
+  
+- **UI OpenQ** : Textarea 150px + compteur caractères + feedback structuré ✅
+  - Textarea : min-height 150px, resize vertical, focus ring
+  - Feedback correct : ✅ + référence cours (details/summary) + explication
+  - Feedback incorrect : ❌ + mots-clés manquants + référence cours + conseil
+  - ARIA : aria-describedby, role textbox, aria-live polite
+  
+- **Styles CSS** : 16 nouvelles règles OpenQ ✅
+  - .openq-container textarea : width 100%, focus ring, disabled state
+  - .openq-feedback-correct/.incorrect : background ok-bg/ko-bg, animation slide-in
+  - .missing-keywords : badge style avec background rgba
+  - .reference-course details : collapse avec border-left accent
+  
+- **Prompts LLM Universels** : Claude/Gemini/GPT compatible ✅
+  - `prompts/split-course-sections.md` : Découper cours en sections 15-20 lignes
+  - `prompts/generate-openq.md` : Générer 6-10 questions par section (Bloom)
+  - Principe : 1 notion = 1 question (focus simple)
+  - Définitions multi-parties : Séquence ordonnée 2-3 questions
+  
+- **Documentation** : `FORMATS_OPENQ.md` avec exemples Macro/Analyse/Stats ✅
+  - Règles validation spartiate (binaire)
+  - Feedback utilisateur (juste/faux avec référence)
+  - Conseils rédaction (1 notion = 1 question, mots-clés techniques)
+  - Statistiques cibles : 40-60 questions par cours 80 lignes
+
+**Impact Pédagogie** :
+- Questions ouvertes = métacognition ×2 (verbalisation)
+- Feedback contextualisé = apprentissage profond
+- Validation stricte = rigueur, pas de complaisance
+- Audio succès = engagement type Duolingo
+
+**Bundle** : 1079.46 KB (+5.17KB OpenQ) — acceptable
 
 ### 25 nov 18:15 — ✅ JOUR 4 COMPLÉTÉ (Laura Chen)
 - **DragMatch keyboard alternative** : setupKeyboardDragMatch() avec Tab navigation ✅

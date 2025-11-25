@@ -190,6 +190,56 @@ details.feedback > summary:focus-visible{
 
 @keyframes pulse-kb{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
 
+/* OpenQ (Questions Ouvertes) styles */
+.openq-container{margin:var(--space-4) 0}
+.openq-container textarea{
+  width:100%;padding:var(--space-3);border:1px solid var(--brd);
+  border-radius:var(--radius-md);background:transparent;color:var(--fg);
+  font-family:inherit;font-size:var(--font-base);resize:vertical;
+  min-height:150px;line-height:1.6;transition:.15s
+}
+.openq-container textarea:focus{
+  outline:none;border-color:var(--accent);box-shadow:var(--focus-ring)
+}
+.openq-container textarea:disabled{opacity:.6;cursor:not-allowed}
+.char-counter{
+  text-align:right;font-size:var(--font-sm);color:var(--muted);margin-top:4px
+}
+.openq-feedback{
+  margin-top:var(--space-4);padding:var(--space-4);
+  border-radius:var(--radius-md);border:1px solid var(--brd);
+  animation:slide-in-down .3s ease-out
+}
+.openq-feedback-correct{background:var(--ok-bg);border-color:var(--ok-brd)}
+.openq-feedback-incorrect{background:var(--ko-bg);border-color:var(--ko-brd)}
+.openq-feedback .feedback-header{
+  font-size:var(--font-md);margin-bottom:var(--space-3)
+}
+.openq-feedback .missing-keywords{
+  padding:var(--space-2) var(--space-3);
+  background:rgba(255,255,255,.05);
+  border-radius:var(--radius-sm);
+  margin-bottom:var(--space-3);
+  font-size:var(--font-sm)
+}
+.openq-feedback .reference-course{margin-top:var(--space-3)}
+.openq-feedback .reference-course summary{
+  cursor:pointer;font-weight:600;color:var(--accent);
+  user-select:none;padding:var(--space-2) 0;
+  transition:.15s color
+}
+.openq-feedback .reference-course summary:hover{filter:brightness(1.2)}
+.openq-feedback .reference-course p{
+  margin-top:var(--space-2);padding:var(--space-3);
+  background:rgba(255,255,255,.02);border-radius:var(--radius-sm);
+  font-size:var(--font-sm);line-height:1.7;
+  border-left:3px solid var(--accent)
+}
+.openq-feedback .explanation{
+  margin-top:var(--space-3);font-size:var(--font-sm);
+  color:var(--muted);font-style:italic
+}
+
 /* Micro-interactions animations */
 @keyframes pulse-success{
   0%{transform:scale(1);opacity:1}
