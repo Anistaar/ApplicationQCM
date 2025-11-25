@@ -1366,10 +1366,150 @@ function renderDragMatch(head: string, q: Question) {
   
   if (!state.corrige) {
     setupDragAndDrop(q);
+    setupKeyboardDragMatch(q);
   }
   bindValidateAndNext(q);
   updateButtonsFromDOM();
   document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function setupKeyboardDragMatch(q: Question) {
+  if (q.type !== 'DragMatch') return;
+
+  let selectedChip: HTMLElement | null = null;
+  let selectedZone: HTMLElement | null = null;
+
+  // Make chips focusable and keyboard accessible
+  $$('.drag-match-chip[draggable="true"]').forEach(chip => {
+    chip.setAttribute('tabindex', '0');
+    chip.setAttribute('role', 'button');
+    chip.setAttribute('aria-label', `Glisser ${chip.textContent}`);
+
+    chip.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        if (selectedChip === chip) {
+          // Deselect
+          chip.classList.remove('kb-selected');
+          selectedChip = null;
+          chip.setAttribute('aria-pressed', 'false');
+        } else {
+          // Deselect previous
+          selectedChip?.classList.remove('kb-selected');
+          selectedChip?.setAttribute('aria-pressed', 'false');
+          // Select this
+          chip.classList.add('kb-selected');
+          selectedChip = chip as HTMLElement;
+          chip.setAttribute('aria-pressed', 'true');
+          chip.focus();
+        }
+      } else if (e.key === 'Escape' && selectedChip === chip) {
+        chip.classList.remove('kb-selected');
+        selectedChip = null;
+        chip.setAttribute('aria-pressed', 'false');
+      }
+    });
+  });
+
+  // Make drop zones keyboard accessible
+  $$('.drag-drop-zone').forEach(zone => {
+    zone.setAttribute('tabindex', '0');
+    zone.setAttribute('role', 'button');
+    const itemName = zone.getAttribute('data-item');
+    zone.setAttribute('aria-label', `Zone de dépôt pour ${itemName}`);
+
+    zone.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && selectedChip) {
+        e.preventDefault();
+        // Simulate drop behavior
+        const matchValue = selectedChip.getAttribute('data-match');
+        
+        if (matchValue && itemName) {
+          // Update state
+          const userAnswer = state.userAnswers[state.index] as any;
+          if (!userAnswer) {
+            state.userAnswers[state.index] = { kind: 'DragMatch', matches: {} };
+          }
+          const matches = (state.userAnswers[state.index] as any).matches || {};
+          
+          // Remove from other items
+          for (const key in matches) {
+            if (matches[key] === matchValue) {
+              delete matches[key];
+            }
+          }
+          
+          // Add to this item
+          matches[itemName] = matchValue;
+          (state.userAnswers[state.index] as any).matches = matches;
+          
+          // Update visually
+          zone.innerHTML = `<div class="drag-match-chip" draggable="true" data-match="${escapeHtml(matchValue)}">${escapeHtml(matchValue)}</div>`;
+          
+          // Re-setup drag/keyboard for new chip
+          const newChip = zone.querySelector('.drag-match-chip') as HTMLElement;
+          if (newChip) {
+            newChip.setAttribute('tabindex', '0');
+            newChip.setAttribute('role', 'button');
+            newChip.setAttribute('aria-label', `Retirer ${matchValue}`);
+            
+            newChip.addEventListener('dragstart', (e) => {
+              newChip.classList.add('dragging');
+              if (e.dataTransfer) {
+                e.dataTransfer.effectAllowed = 'move';
+                e.dataTransfer.setData('text/plain', matchValue);
+              }
+              const userAnswer = state.userAnswers[state.index] as any;
+              if (userAnswer?.matches && itemName) {
+                delete userAnswer.matches[itemName];
+              }
+            });
+            
+            newChip.addEventListener('dragend', () => {
+              newChip.classList.remove('dragging');
+            });
+            
+            // Keyboard remove from zone
+            newChip.addEventListener('keydown', (e) => {
+              if (e.key === 'Backspace' || e.key === 'Delete') {
+                e.preventDefault();
+                const userAnswer = state.userAnswers[state.index] as any;
+                if (userAnswer?.matches && itemName) {
+                  delete userAnswer.matches[itemName];
+                }
+                zone.innerHTML = '<span class="placeholder">Glisser ici</span>';
+                // Show chip back in pool
+                const poolChips = $$('.drag-matches .drag-match-chip');
+                poolChips.forEach(chip => {
+                  if (chip.getAttribute('data-match') === matchValue) {
+                    chip.classList.remove('used');
+                  }
+                });
+                updateButtonsFromDOM();
+                zone.focus();
+              }
+            });
+          }
+          
+          // Hide used chip from pool
+          const poolChips = $$('.drag-matches .drag-match-chip');
+          poolChips.forEach(chip => {
+            if (chip.getAttribute('data-match') === matchValue) {
+              chip.classList.add('used');
+            }
+          });
+          
+          // Deselect
+          selectedChip.classList.remove('kb-selected');
+          selectedChip.setAttribute('aria-pressed', 'false');
+          selectedChip = null;
+          
+          updateButtonsFromDOM();
+          zone.focus();
+        }
+      }
+    });
+  });
 }
 
 function setupDragAndDrop(q: Question) {
