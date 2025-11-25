@@ -528,9 +528,55 @@ function renderFolderStats(folder: string) {
   const card = elsExtra.folderStatsCard;
   const root = elsExtra.folderStats;
   if (!card || !root) return;
-  // Désactivé sur l'écran de sélection: masquer la carte systématiquement
-  card.style.display = 'none';
-  root.innerHTML = '';
+  
+  if (!folder) {
+    card.style.display = 'none';
+    root.innerHTML = '';
+    return;
+  }
+  
+  const stats = computeFolderStats(folder);
+  if (!stats) {
+    card.style.display = 'none';
+    return;
+  }
+  
+  // Calculs KPIs
+  const mastery = stats.total > 0 ? (stats.seen / stats.total) * 100 : 0;
+  const precision = stats.sumSeen > 0 ? (stats.sumCorrect / stats.sumSeen) * 100 : 0;
+  const avgTimeSec = stats.avgTimeMs ? (stats.avgTimeMs / 1000).toFixed(1) : 'N/A';
+  
+  // Classe couleur selon maîtrise
+  const masteryClass = mastery >= 75 ? 'ok' : mastery >= 50 ? 'warn' : 'danger';
+  const precisionClass = precision >= 75 ? 'ok' : precision >= 50 ? 'warn' : 'danger';
+  const dueClass = stats.due > 10 ? 'danger' : stats.due > 0 ? 'warn' : 'ok';
+  
+  root.innerHTML = `
+    <div class="folder-stats-grid">
+      <div class="stat">
+        <span class="label">Maîtrise globale</span>
+        <span class="value ${masteryClass}">${mastery.toFixed(0)}%</span>
+        <small class="muted">${stats.seen} / ${stats.total} vues</small>
+      </div>
+      <div class="stat">
+        <span class="label">Précision</span>
+        <span class="value ${precisionClass}">${precision.toFixed(0)}%</span>
+        <small class="muted">${stats.sumCorrect.toFixed(0)} / ${stats.sumSeen} tentatives</small>
+      </div>
+      <div class="stat">
+        <span class="label">À réviser</span>
+        <span class="value ${dueClass}">${stats.due}</span>
+        <small class="muted">questions dues</small>
+      </div>
+      <div class="stat">
+        <span class="label">Temps moyen</span>
+        <span class="value">${avgTimeSec}s</span>
+        <small class="muted">par question</small>
+      </div>
+    </div>
+  `;
+  
+  card.style.display = 'block';
 }
 
 // ---- Statistiques du cours sélectionné ----
@@ -538,9 +584,61 @@ function renderCourseStats(filePath: string) {
   const card = elsExtra.courseStatsCard;
   const root = elsExtra.courseStats;
   if (!card || !root) return;
-  // Désactivé sur l'écran de sélection: masquer la carte systématiquement
-  card.style.display = 'none';
-  root.innerHTML = '';
+  
+  if (!filePath) {
+    card.style.display = 'none';
+    root.innerHTML = '';
+    return;
+  }
+  
+  const course = courses.find((c) => c.path === filePath);
+  if (!course) {
+    card.style.display = 'none';
+    return;
+  }
+  
+  const stats = computeCourseStats(course);
+  if (!stats) {
+    card.style.display = 'none';
+    return;
+  }
+  
+  // Calculs KPIs
+  const mastery = stats.total > 0 ? (stats.seen / stats.total) * 100 : 0;
+  const precision = stats.sumSeen > 0 ? (stats.sumCorrect / stats.sumSeen) * 100 : 0;
+  const avgTimeSec = stats.avgTimeMs ? (stats.avgTimeMs / 1000).toFixed(1) : 'N/A';
+  
+  // Classe couleur
+  const masteryClass = mastery >= 75 ? 'ok' : mastery >= 50 ? 'warn' : 'danger';
+  const precisionClass = precision >= 75 ? 'ok' : precision >= 50 ? 'warn' : 'danger';
+  const dueClass = stats.due > 10 ? 'danger' : stats.due > 0 ? 'warn' : 'ok';
+  
+  root.innerHTML = `
+    <div class="folder-stats-grid">
+      <div class="stat">
+        <span class="label">Maîtrise cours</span>
+        <span class="value ${masteryClass}">${mastery.toFixed(0)}%</span>
+        <small class="muted">${stats.seen} / ${stats.total} questions</small>
+      </div>
+      <div class="stat">
+        <span class="label">Précision</span>
+        <span class="value ${precisionClass}">${precision.toFixed(0)}%</span>
+        <small class="muted">${stats.sumCorrect.toFixed(0)} / ${stats.sumSeen} réponses</small>
+      </div>
+      <div class="stat">
+        <span class="label">À réviser</span>
+        <span class="value ${dueClass}">${stats.due}</span>
+        <small class="muted">dues maintenant</small>
+      </div>
+      <div class="stat">
+        <span class="label">Temps moyen</span>
+        <span class="value">${avgTimeSec}s</span>
+        <small class="muted">réponse</small>
+      </div>
+    </div>
+  `;
+  
+  card.style.display = 'block';
 }
 
 // ---- Statistiques par cours ----

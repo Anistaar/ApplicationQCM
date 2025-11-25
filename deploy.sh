@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Zero-downtime deploy script for Text2Quiz on Fedora + Nginx
-# - Pulls latest from git
-# - Installs deps and builds (vite)
-# - Publishes to /var/www/text2quiz/current via timestamped releases
-# Usage (on server): sudo /opt/text2quiz/deploy.sh  OR  bash deploy-server.sh
+# Zero-downtime deploy entrypoint (placed at repo root)
+# Usage on the server:
+#   bash /opt/text2quiz/deploy.sh
+# or with overrides
+#   BRANCH=main REPO_DIR=/opt/text2quiz bash /opt/text2quiz/deploy.sh
 
 set -euo pipefail
 
@@ -11,7 +11,6 @@ set -euo pipefail
 BRANCH="${BRANCH:-main}"
 REPO_DIR="${REPO_DIR:-/opt/text2quiz}"
 ALT_REPO_DIR="${ALT_REPO_DIR:-/opt/Text2QuizVIP}"
-# Common nested location when repo is inside /opt/text2quiz/Text2QuizVIP
 NESTED_REPO_DIR="${NESTED_REPO_DIR:-/opt/text2quiz/Text2QuizVIP}"
 WWW_BASE="${WWW_BASE:-/var/www/text2quiz}"
 RELEASES_DIR="$WWW_BASE/releases"
@@ -19,7 +18,6 @@ CURRENT_LINK="$WWW_BASE/current"
 NGINX_SERVICE="${NGINX_SERVICE:-nginx}"
 
 # ---- Auto-detect repo from this script's path if possible ----
-# Resolves symlinks and finds the git top-level if this script lives inside the repo
 _SELF_PATH="${BASH_SOURCE[0]:-$0}"
 _SELF_DIR=$(cd "$(dirname "$(readlink -f "$_SELF_PATH" 2>/dev/null || echo "$_SELF_PATH")")" && pwd)
 if git -C "$_SELF_DIR" rev-parse --show-toplevel >/dev/null 2>&1; then
@@ -49,12 +47,9 @@ cd "$REPO_DIR"
 echo "[*] Fetching..."
 git fetch --all --prune
 echo "[*] Resetting working tree to origin/$BRANCH"
-# Discard local changes to tracked files
 git reset --hard "origin/$BRANCH" || true
-# Remove untracked files/dirs that might block checkout (keep deploy.sh)
 echo "[*] Cleaning untracked files (preserve deploy.sh)"
 git clean -fd -e deploy.sh || true
-# Ensure branch exists locally and tracks remote
 echo "[*] Switching to $BRANCH"
 git checkout -B "$BRANCH" "origin/$BRANCH"
 
@@ -76,7 +71,6 @@ sudo mkdir -p "$DEST"
 sudo rsync -a --delete "dist/" "$DEST/"
 
 echo "[*] Switching current symlink"
-# Use -T so DEST is treated as a normal file, replacing an existing directory
 sudo ln -sfnT "$DEST" "$CURRENT_LINK"
 
 # ---- SELinux contexts (safe even if Permissive) ----

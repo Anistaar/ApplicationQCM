@@ -198,21 +198,21 @@
       <header class="topbar">
         <h1>Text2Quiz (Vite + TS)</h1>
         <div style="display:flex; gap:12px; align-items:center">
-          <button id="btn-explorer" class="secondary">Explorer les fichiers</button>
-          <label class="theme-toggle" title="Basculer clair/sombre">
-          <input id="theme-toggle" type="checkbox" />
-          <span>🌙</span>
+          <button id="btn-explorer" class="secondary" aria-haspopup="dialog" aria-expanded="false" aria-label="Explorer les fichiers de cours">Explorer les fichiers</button>
+          <label class="theme-toggle" title="Basculer entre thème clair et sombre">
+          <input id="theme-toggle" type="checkbox" aria-label="Basculer thème sombre" />
+          <span aria-hidden="true">🌙</span>
           </label>
         </div>
       </header>
 
       <!-- Barre active en mode entraînement/examen/flash/match -->
-      <div id="active-toolbar" class="active-toolbar" style="display:none">
+      <div id="active-toolbar" class="active-toolbar" style="display:none" role="region" aria-label="Barre d'outils session active">
         <div class="left">
           <span class="crumb" id="active-title">Mode</span>
         </div>
         <div class="right">
-          <button id="btn-exit-mode" class="secondary" title="Quitter la session">Quitter</button>
+          <button id="btn-exit-mode" class="secondary" title="Quitter la session" aria-label="Quitter la session en cours">Quitter</button>
         </div>
       </div>
 
@@ -311,18 +311,18 @@
   <div id="quiz-root"></div>
     
     <!-- File browser modal (Windows-like explorer) -->
-    <div id="file-browser" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:80;">
+    <div id="file-browser" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:80;" role="dialog" aria-modal="true" aria-labelledby="fb-title">
       <div style="max-width:1000px; height:70vh; margin:40px auto; background:var(--bg); padding:8px; border-radius:8px; border:1px solid var(--brd); display:flex;">
         <div style="width:260px; border-right:1px solid var(--brd); padding:8px; overflow:auto">
-          <h4 style="margin:6px 0">Matières</h4>
-          <div id="fb-folders"></div>
+          <h4 style="margin:6px 0" id="fb-title">Matières</h4>
+          <div id="fb-folders" role="list" aria-label="Liste des matières"></div>
         </div>
         <div style="flex:1; padding:8px; overflow:auto; display:flex; flex-direction:column">
           <div style="display:flex; justify-content:space-between; align-items:center">
             <h4 style="margin:6px 0">Cours</h4>
-            <div><button id="fb-close" class="secondary">Fermer</button></div>
+            <div><button id="fb-close" class="secondary" aria-label="Fermer l'explorateur de fichiers">Fermer</button></div>
           </div>
-          <div id="fb-files" style="margin-top:8px; display:grid; gap:8px;"></div>
+          <div id="fb-files" style="margin-top:8px; display:grid; gap:8px;" role="list" aria-label="Liste des cours"></div>
         </div>
       </div>
     </div>

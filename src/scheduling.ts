@@ -1,6 +1,7 @@
 import type { Question, UserAnswer } from './types';
 // Explicit .js extension for Node ESM resolution after compilation
 import { keyForQuestion as _keyForQuestion } from './utils.js';
+import { statsManager, type QStatExtended } from './stats/StatsManager';
 
 export type QStat = {
   box: number;
@@ -20,11 +21,21 @@ const LS_KEY = 't2q_stats_v2';
 function clamp(v: number, a = 0, b = 1) { return Math.max(a, Math.min(b, v)); }
 const BASE_INTERVALS_DAYS = [0, 1, 3, 7, 14, 30];
 
+// ===== LEGACY SYNC API (backward compat) =====
+// Will be deprecated in favor of async statsManager
 export function loadStats(): Record<string, QStat> {
   try { return JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch { return {}; }
 }
 export function saveStats(stats: Record<string, QStat>) {
   localStorage.setItem(LS_KEY, JSON.stringify(stats));
+}
+
+// ===== NEW ASYNC API (preferred) =====
+export async function loadStatsAsync(): Promise<Record<string, QStatExtended>> {
+  return await statsManager.loadStats();
+}
+export async function saveStatsAsync(stats: Record<string, QStatExtended>): Promise<void> {
+  await statsManager.saveStats(stats);
 }
 
 function scheduleNext(qstat: QStat): number {
@@ -91,6 +102,7 @@ function isValueEqual(val: string | null | undefined, q: Question) {
   return false;
 }
 
+// ===== LEGACY SYNC VERSION (backward compat) =====
 export function updateStatAfterAnswer(q: Question, correct: boolean, severity: number, timeMs?: number) {
   const id = _keyForQuestion(q);
   const stats = loadStats();
@@ -132,9 +144,28 @@ export function updateStatAfterAnswer(q: Question, correct: boolean, severity: n
   cur.next = scheduleNext(cur);
   stats[id] = cur;
   saveStats(stats);
+  
+  // Also update async store (fire-and-forget)
+  statsManager.updateStatAfterAnswer(q, correct, severity, timeMs).catch(err => {
+    console.warn('[Scheduling] Async stats update failed:', err);
+  });
+}
+
+// ===== NEW ASYNC VERSION (preferred) =====
+export async function updateStatAfterAnswerAsync(
+  q: Question, 
+  correct: boolean, 
+  severity: number, 
+  timeMs?: number
+): Promise<void> {
+  await statsManager.updateStatAfterAnswer(q, correct, severity, timeMs);
 }
 
 export function isDue(q: Question): boolean {
   const st = loadStats()[_keyForQuestion(q)];
   return !st || st.next <= Date.now();
+}
+
+export async function isDueAsync(q: Question): Promise<boolean> {
+  return await statsManager.isDue(q);
 }

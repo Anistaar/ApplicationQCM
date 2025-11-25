@@ -1,5 +1,7 @@
 import { parseQuestions } from './parser';
 import { dedupeQuestions, toTitleCase } from './utils';
+import { parserCache } from './cache/ParserCache';
+
 export type CourseItem = {
   path: string;
   file: string;
@@ -41,12 +43,28 @@ export const courses: CourseItem[] = Object.entries(COURSE_RAW)
   })
   .sort((a, b) => a.label.localeCompare(b.label));
 
-export function getThemesForCourse(path: string): string[] {
+/**
+ * Get parsed questions for a course (with caching)
+ */
+export function getQuestionsForCourse(path: string) {
   const course = courses.find(c => c.path === path || c.file === path);
   if (!course) return [];
-  const parsed = parseQuestions(course.content);
-  const unique = dedupeQuestions(parsed);
+  return parserCache.getParsedQuestions(course.path, course.content);
+}
+
+/**
+ * Get themes for a course (with caching)
+ */
+export function getThemesForCourse(path: string): string[] {
+  const questions = getQuestionsForCourse(path);
   const set = new Set<string>();
-  unique.forEach(q => (q.tags ?? []).forEach(t => set.add(t)));
+  questions.forEach(q => (q.tags ?? []).forEach(t => set.add(t)));
   return Array.from(set).sort((a, b) => a.localeCompare(b));
+}
+
+/**
+ * Preload all courses in background (optional performance boost)
+ */
+export function preloadAllCourses() {
+  parserCache.preloadCourses(courses);
 }
