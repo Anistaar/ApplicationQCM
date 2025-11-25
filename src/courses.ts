@@ -15,7 +15,7 @@ export type CourseItem = {
 };
 
 // discover courses from filesystem via Vite import.meta.glob
-const COURSE_RAW = (import.meta as any).glob('./cours/**/*.txt', {
+const COURSE_RAW = (import.meta as any).glob('./questions/**/*.txt', {
   query: '?raw', import: 'default', eager: true
 }) as Record<string, string>;
 

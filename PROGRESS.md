@@ -186,6 +186,25 @@
 
 **Bundle** : 1071.95 KB (+744 bytes pour skip-links/responsive) — acceptable
 
+### 25 nov 18:45 — 🗂️ RÉORGANISATION ARCHITECTURE (Marc Dubois)
+- **Séparation cours/questions** : Structure plus claire ✅
+  - `src/cours/` : Sources originaux (PDF, DOCX, transcriptions) — non importés
+  - `src/questions/` : Banques de questions (123 fichiers .txt) — importés par app
+  - Migration automatique complète (0 fichiers perdus)
+  
+- **Documentation dossiers** : README.md dans cours/ et questions/ ✅
+  - `src/cours/README.md` : Workflow conversion (PDF→TXT, DOCX→TXT, LLM)
+  - `src/questions/README.md` : Formats, naming convention, génération auto
+  
+- **Import ajusté** : courses.ts glob `./questions/**/*.txt` ✅
+  - Build passing : 1079.95 KB (stable)
+  - 123 fichiers détectés (ANALYSE_ECO, DROIT, HPE, INSTIT, MACRO, RIAE, STATS)
+
+**Impact Organisation** :
+- Clarté architecture : Sources vs Questions séparées
+- Scalabilité : Facilite ajout nouveaux cours
+- Maintenabilité : Documentation inline (README.md)
+
 ### 25 nov 18:30 — ✅ JOUR 5 COMPLÉTÉ (Dr. Sophie Bernard + Prof. Ahmed Tahir + Marc Dubois + Laura Chen)
 - **Questions Ouvertes (OpenQ)** : Nouveau type de question avec réponse rédigée ✅
   - Format : `OpenQ || Question || keywords || Référence cours || Explication`
