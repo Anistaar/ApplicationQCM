@@ -262,6 +262,42 @@ class StatsManager {
     localStorage.removeItem(LS_KEY);
   }
 
+  /**
+   * Compute total time spent answering questions (from logs)
+   */
+  async getTotalTimeSpent(): Promise<number> {
+    const stats = await this.loadStats();
+    let totalMs = 0;
+
+    Object.values(stats).forEach(stat => {
+      if (stat.logs && stat.logs.length > 0) {
+        // Sum all time from logs
+        totalMs += stat.logs.reduce((sum, log) => sum + (log.t || 0), 0);
+      }
+    });
+
+    return totalMs;
+  }
+
+  /**
+   * Format time duration (ms → human readable)
+   */
+  formatDuration(ms: number): string {
+    const seconds = Math.floor(ms / 1000);
+    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+
+    if (hours > 0) {
+      const m = minutes % 60;
+      return `${hours}h${m > 0 ? ` ${m}min` : ''}`;
+    }
+    if (minutes > 0) {
+      const s = seconds % 60;
+      return `${minutes}min${s > 0 ? ` ${s}s` : ''}`;
+    }
+    return `${seconds}s`;
+  }
+
   // ----- Private helpers -----
 
   private loadStatsFromLocalStorage(): Record<string, QStatExtended> {

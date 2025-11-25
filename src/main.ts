@@ -9,6 +9,7 @@ import type { Mode, Question, UserAnswer, DragPair } from './types';
 import { toTitleCase, norm, keyForQuestion, dedupeQuestions } from './utils';
 import { courses, getThemesForCourse } from './courses';
 import { loadStats, saveStats, updateStatAfterAnswer, computeSeverity, isDue } from './scheduling';
+import { statsManager, type QStatExtended } from './stats/StatsManager';
 
 const $ = (sel: string, root: Document | HTMLElement = document) =>
   root.querySelector(sel) as HTMLElement | null;
@@ -156,6 +157,9 @@ function populateMatiereAndCourseSelects() {
   }
   renderPlanForFolder('');
   renderFolderStats('');
+  
+  // Statistiques globales au chargement
+  renderGlobalStats().catch(err => console.error('[init] renderGlobalStats failed:', err));
 }
 
 // Simple/avancé: masque/affiche les options
@@ -522,6 +526,70 @@ function computeFolderStats(folder: string): FolderStats | null {
 
   const avgTimeMs = timeCount > 0 ? Math.round(timeSum / timeCount) : undefined;
   return { folder, total, seen, due, sumSeen, sumCorrect, avgTimeMs };
+}
+
+// ---- Statistiques globales (tous cours confondus) ----
+async function renderGlobalStats() {
+  const card = $('#global-stats-card');
+  const root = $('#global-stats');
+  if (!card || !root) return;
+
+  try {
+    const totalTimeMs = await statsManager.getTotalTimeSpent();
+    const totalTimeFormatted = statsManager.formatDuration(totalTimeMs);
+    
+    // Calculer stats globales
+    const allStats = await statsManager.loadStats();
+    const totalQuestions = Object.keys(allStats).length;
+    let totalAttempts = 0;
+    let totalCorrect = 0;
+    
+    Object.values(allStats).forEach((stat: QStatExtended) => {
+      totalAttempts += stat.seen || 0;
+      totalCorrect += stat.correct || 0;
+    });
+    
+    const globalPrecision = totalAttempts > 0 ? (totalCorrect / totalAttempts) * 100 : 0;
+    const precisionClass = globalPrecision >= 75 ? 'ok' : globalPrecision >= 50 ? 'warn' : 'danger';
+    
+    root.innerHTML = `
+      <div class="folder-stats-grid">
+        <div class="stat">
+          <span class="label">⏱️ Temps total</span>
+          <span class="value ok">${totalTimeFormatted}</span>
+          <small class="muted">toutes sessions</small>
+        </div>
+        <div class="stat">
+          <span class="label">📚 Questions traitées</span>
+          <span class="value">${totalQuestions}</span>
+          <small class="muted">uniques</small>
+        </div>
+        <div class="stat">
+          <span class="label">📊 Tentatives totales</span>
+          <span class="value">${totalAttempts}</span>
+          <small class="muted">réponses données</small>
+        </div>
+        <div class="stat">
+          <span class="label">🎯 Précision globale</span>
+          <span class="value ${precisionClass}">${globalPrecision.toFixed(0)}%</span>
+          <small class="muted">${totalCorrect.toFixed(0)} correctes</small>
+        </div>
+      </div>
+    `;
+    
+    // Mise à jour badge header
+    const badge = $('#total-time-badge');
+    const badgeValue = $('#total-time-value');
+    if (badge && badgeValue && totalTimeMs > 0) {
+      badgeValue.textContent = totalTimeFormatted;
+      badge.style.display = 'inline-flex';
+    }
+    
+    card.style.display = 'block';
+  } catch (error) {
+    console.error('[renderGlobalStats] Error:', error);
+    card.style.display = 'none';
+  }
 }
 
 function renderFolderStats(folder: string) {
