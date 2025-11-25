@@ -23,6 +23,16 @@ html[data-theme="light"]{
   --accent:#2563eb;
 }
 
+/* -------- Skip links accessibility -------- */
+.skip-link:focus {
+  position: fixed !important;
+  left: 8px !important;
+  top: 8px !important;
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  box-shadow: var(--shadow-lg);
+}
+
 /* -------- Layout global compact -------- */
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -161,4 +171,19 @@ details.feedback > summary:focus-visible{
   .match-grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
   .drag-item-row{grid-template-columns:1fr 1fr}
   .flashcard{min-height:140px;padding:12px}
+  .card--q{max-height:none} /* Remove height constraint on mobile */
+  .options{grid-template-columns:1fr} /* Single column on mobile */
+  .folder-stats-grid{grid-template-columns:repeat(2,1fr)} /* 2 cols for stats */
+}
+
+/* Extra small mobile (iPhone SE 375px) */
+@media (max-width:400px){
+  .wrap{padding:0 8px 16px}
+  .topbar{flex-wrap:wrap;gap:8px}
+  h1{font-size:18px}
+  .card{padding:var(--space-3)}
+  .btn{padding:6px 10px;font-size:13px}
+  .flash-actions{flex-direction:column;gap:8px}
+  .flash-actions .btn{width:100%}
+  .folder-stats-grid{grid-template-columns:1fr} /* Single column stats on tiny screens */
 }

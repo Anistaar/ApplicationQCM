@@ -686,6 +686,10 @@ function highlightPlanSelection(path: string) {
 elsExtra.planFilter?.addEventListener('input', () => renderPlanForFolder(els.selectMatiere?.value || ''));
 
 // ---- File browser modal ----
+let focusTrapActive = false;
+let firstFocusableElement: HTMLElement | null = null;
+let lastFocusableElement: HTMLElement | null = null;
+
 function openFileBrowser() {
   if (!elsExtra.fileBrowser || !elsExtra.fbFiles || !elsExtra.fbFolders) return;
   elsExtra.fbFiles.innerHTML = '';
@@ -721,8 +725,79 @@ function openFileBrowser() {
     elsExtra.fbFolders.appendChild(f);
   }
   elsExtra.fileBrowser.style.display = 'block';
+  
+  // Focus trap setup
+  setupFocusTrap();
+  
+  // Update aria-expanded
+  if (elsExtra.btnExplorer) {
+    elsExtra.btnExplorer.setAttribute('aria-expanded', 'true');
+  }
 }
-function closeFileBrowser() { if (elsExtra.fileBrowser) elsExtra.fileBrowser.style.display = 'none'; }
+
+function closeFileBrowser() { 
+  if (elsExtra.fileBrowser) {
+    elsExtra.fileBrowser.style.display = 'none';
+    focusTrapActive = false;
+    
+    // Update aria-expanded
+    if (elsExtra.btnExplorer) {
+      elsExtra.btnExplorer.setAttribute('aria-expanded', 'false');
+      elsExtra.btnExplorer.focus(); // Return focus to trigger
+    }
+  }
+}
+
+function setupFocusTrap() {
+  if (!elsExtra.fileBrowser) return;
+  
+  // Get all focusable elements within modal
+  const focusableSelectors = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+  const focusableElements = Array.from(elsExtra.fileBrowser.querySelectorAll(focusableSelectors)) as HTMLElement[];
+  
+  if (focusableElements.length === 0) return;
+  
+  firstFocusableElement = focusableElements[0];
+  lastFocusableElement = focusableElements[focusableElements.length - 1];
+  
+  // Focus first element
+  firstFocusableElement?.focus();
+  
+  // Trap focus
+  focusTrapActive = true;
+  
+  // Keydown handler for trap
+  const trapHandler = (e: KeyboardEvent) => {
+    if (!focusTrapActive) {
+      document.removeEventListener('keydown', trapHandler);
+      return;
+    }
+    
+    if (e.key === 'Escape') {
+      closeFileBrowser();
+      return;
+    }
+    
+    if (e.key === 'Tab') {
+      if (e.shiftKey) {
+        // Shift+Tab
+        if (document.activeElement === firstFocusableElement) {
+          e.preventDefault();
+          lastFocusableElement?.focus();
+        }
+      } else {
+        // Tab
+        if (document.activeElement === lastFocusableElement) {
+          e.preventDefault();
+          firstFocusableElement?.focus();
+        }
+      }
+    }
+  };
+  
+  document.addEventListener('keydown', trapHandler);
+}
+
 elsExtra.btnExplorer?.addEventListener('click', openFileBrowser);
 elsExtra.fbClose?.addEventListener('click', closeFileBrowser);
 // Télécharger le cours sélectionné dans le select
