@@ -6,3 +6,4 @@ QCM || Confusion fréquente : laquelle est FAUSSE ? || V:Les institutions sont t
 QCM || Rodrik (2005) — associer || V:Création → droits de propriété|V:Régulation → autorités de concurrence/BC|Stabilisation → politiques monétaires/budgétaires|Légitimation → protection sociale
 QCM || Indice de gouvernance/IPC et croissance : lequel est exact ? || V:Meilleure qualité institutionnelle ↔ PIB/habitant plus élevé (corrélation)|Aucune relation|Qualité ↓ entraîne inflation ⬇ automatiquement|Corrélation négative systématique
 QCM || Acemoglu & Robinson — rôle des institutions économiques || Organiser seules le commerce mondial|V:Réguler les interactions et les incitations|Éliminer toutes les asymétries d’info|Supprimer les coûts de transaction
+|| PIB, DragMatch

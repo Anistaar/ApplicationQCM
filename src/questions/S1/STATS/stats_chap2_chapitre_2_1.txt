@@ -1,6 +1,5 @@
 chapter: Chapitre 2 — Complément
-
-
+|| Chapitre 2, Stats, QR
 
 Statistiques Descriptives
 L1 Économie
@@ -9,6 +8,7 @@ Faculté de Droit, Économie et Administration
 Université de Lorraine
 Chapitre 2 : Présentation graphique des données statistiques
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20241 / 40
+|| Chapitre 2, Stats, QCM
 
 Sommaire
 1
@@ -21,6 +21,7 @@ Variables qualitatives
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20242 / 40
+|| Chapitre 2, Stats, QCM
 
 Sommaire
 1
@@ -33,6 +34,7 @@ Variables qualitatives
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20243 / 40
+|| Chapitre 2, Stats, QCM
 
 Pourquoi faire des graphiques?
 Une représentation graphique d’une variable statistique sert à présenter
@@ -45,6 +47,7 @@ Permet de mettre en valeur des particularités;
 Permet de faire figurer plusieurs types d’information
 simultanément.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20244 / 40
+|| Chapitre 2, Stats, QCM
 
 Communiquer des informations
 Les résultats d’une étude statistique doivent êtrecommuniquéset la
@@ -56,6 +59,7 @@ comprendre l’information qui lui est présentée.
 On a vu au chapitre précédent des exemples de graphiques trompeurs
 →comment faire pour éviter ces erreurs?
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20245 / 40
+|| Chapitre 2, Stats, QCM
 
 Règles générales
 Pour être efficace, un graphique doit:
@@ -69,6 +73,7 @@ Ne pas comporter trop d’information: il vaut mieux être
 minimaliste que de mettre trop d’informations, sélectionner ce qui
 est pertinent fait partie du travail de statisticien!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20246 / 40
+|| Chapitre 2, Stats, DragMatch
 
 Sommaire
 1
@@ -81,6 +86,7 @@ Variables qualitatives
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20247 / 40
+|| Chapitre 2, Stats, QCM
 
 Contenu d’un graphique
 Dans un graphique, il faut toujours:
@@ -95,6 +101,7 @@ Un commentaire: un graphique s’accompagne TOUJOURS d’un
 commentaire qui met en valeur les informations les plus
 importantes.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20248 / 40
+|| Chapitre 2, Stats, DragMatch
 
 Sommaire
 1
@@ -107,6 +114,7 @@ Variables qualitatives
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20249 / 40
+|| Chapitre 2, Stats, QCM
 
 Éviter une mauvaise interprétation
 Il faut à tout prixéviter de laisser une incertitudesur la lecture ou
@@ -118,6 +126,7 @@ Va-t-il bien comprendre ce qui est présenté?
 Va-t-il voir pourquoi ces informations sont importantes?
 Va-t-il fuir devant un graphique horrible?
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202410 / 40
+|| Chapitre 2, Stats, Prix, QCM
 
 Exemple : évolution du nombre de personnes privées
 d’emploi
@@ -126,6 +135,7 @@ emploi est commentée. L’interprétation que l’on peut faire du nombre
 donné peut dépendre de la façon dont le graphique est présenté.
 L’échelle a donc une importanceprimordiale.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202411 / 40
+|| Chapitre 2, Stats, QCM
 
 Sommaire
 1
@@ -137,6 +147,7 @@ Diagrammes circulaires
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202412 / 40
+|| Chapitre 2, Stats, QCM
 
 Représenter des variables qualitatives
 Les données d’une variable qualitative ne sont pas mesurables→ce
@@ -146,6 +157,7 @@ façon:
 En bandess’il y a beaucoup de modalités
 En diagramme circulaires’il y en a peu.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 40
+|| Chapitre 2, Stats, QCM
 
 Sommaire
 1
@@ -157,6 +169,7 @@ Diagrammes circulaires
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202414 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagrammes à bandes
 On construit un diagrammes à bandes de la façon suivante:
@@ -168,6 +181,7 @@ Remarque
 Pour les variables qualitatives ordinales, il faut faire attention à
 l’ordre choisi dans les modalités.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202415 / 40
+|| Chapitre 2, Stats, DragMatch
 
 Diagramme à bandes : exemple
 CSP (x
@@ -184,10 +198,12 @@ Ouvriers spécialisés16040
 Autres205
 TotalN=400F=100%
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202416 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagramme à bandes : exemple
 Figure: Répartition des employés par CSP
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202417 / 40
+|| Chapitre 2, Stats, QR
 
 Sommaire
 1
@@ -199,6 +215,7 @@ Diagrammes circulaires
 3
 Variables quantitatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202418 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagrammes circulaires
 Le diagramme circulaire (pie-chartou camembert) permet de
@@ -227,6 +244,7 @@ i
 Les modalités sont généralement présentées par fréquence
 décroissante.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202419 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagrammes circulaires
 Le tableau suivant donne les caractéristiques socioprofessionnelles
@@ -246,10 +264,12 @@ Ouvriers spécialisés16040
 Autres205
 TotalN=400F=100%
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202420 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagrammes circulaires
 Figure: Répartition des employés par CSP
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202421 / 40
+|| Chapitre 2, Stats, QR
 
 Sommaire
 1
@@ -261,6 +281,7 @@ Variables quantitatives
 Variables quantitatives discrètes
 Variable quantitative continue
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202422 / 40
+|| Chapitre 2, Stats, QCM
 
 Sommaire
 1
@@ -274,6 +295,7 @@ Diagrammes en bâtons
 Les courbes cumulatives
 Variable quantitative continue
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202423 / 40
+|| Chapitre 2, Stats, QCM
 
 Variables quantitatives discrètes
 Une variable quantitative discrète prenant un nombre limité de valeurs,
@@ -285,6 +307,7 @@ On peut également représenter les fréquences cumulées dans un
 diagramme en escalierqui donne alors la fonction de répartition de
 la variable.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202424 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagrammes en bâtons
 Un diagramme en bâtons est un graphique qui à chaque modalité,
@@ -306,6 +329,7 @@ i
 4 et plus205
 TotalN=400F=100%
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202425 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagramme en bâtons
 0
@@ -324,6 +348,7 @@ Nombre d'enfants à charge (xi)
 Nombre d'enfants à charge
 Figure: Diagramme en bâtons du nombre d’enfants à charge
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202426 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagramme en bâtons
 Remarque
@@ -332,6 +357,7 @@ polygone des effectifs(ou fréquences) en joignant l’extrémité
 des bâtons. Le polygone des effectifs permet de voir l’évolution
 de ces derniers.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202427 / 40
+|| Chapitre 2, Stats, QCM
 
 Diagramme en bâtons
 0
@@ -350,6 +376,7 @@ Nombre d'enfants à charge (xi)
 Figure: Diagramme en bâtons avec polygone des effectifs du nombre d’enfants
 à charge
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202428 / 40
+|| Chapitre 2, Stats, QCM
 
 Les courbes cumulatives
 Définition
@@ -363,6 +390,7 @@ courbe cumulative des effectifs ou des fréquences.
 Elle peut être croissante (courbe cumulative croissante CCC) ou
 décroissante (courbe cumulative décroissante CCD).
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202429 / 40
+|| Chapitre 2, Stats, QCM
 
 Les courbes cumulatives
 Remarque
@@ -370,6 +398,7 @@ Les courbes cumulatives pour un caractère quantitatif discret
 sont encore appelées des courbesen escalier.
 Figure: Courbe cumulative (fréquences)
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202430 / 40
+|| Chapitre 2, Stats, QCM
 
 Les courbes cumulatives
 Exemple: Le tableau suivant donne le nombre d’enfants à charge
@@ -388,11 +417,13 @@ i
 3160403801809545
 4 et +205400201005
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202431 / 40
+|| Chapitre 2, Stats, QCM
 
 Les courbes cumulatives
 Figure: Courbes cumulées croissante et décroissante
 Que signifient les statistiques entourées?
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 40
+|| Chapitre 2, Stats, QR
 
 Les courbes cumulatives
 1
@@ -402,6 +433,7 @@ enfant à charge (1 ou moins).
 A droite, cela veut dire que 90% des individus ontau moins1
 enfant à charge.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202433 / 40
+|| Chapitre 2, Stats, QCM
 
 Sommaire
 1
@@ -415,6 +447,7 @@ Variable quantitative continue
 Histogrammes
 Courbes cumulatives
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202434 / 40
+|| Chapitre 2, Stats, QCM
 
 Variable quantitative continue
 Lorsque les modalités sont mesurables et en nombre infini, une
@@ -428,6 +461,7 @@ Les effectifs (ou les fréquences) peuvent être représentés selon les
 modalités enhistogramme, encourbe cumulativeou en
 diagramme circulaire.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202435 / 40
+|| Chapitre 2, Stats, QCM
 
 Histogrammes
 Définition
@@ -440,6 +474,7 @@ i
 proportionnelle à l’effectif de cette classe.
 Figure: Exemple d’histogramme: distribution des salaires d’une entreprise
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202436 / 40
+|| Chapitre 2, Stats, QCM
 
 Histogrammes
 Remarque
@@ -478,6 +513,7 @@ i
 i
 .
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202437 / 40
+|| Chapitre 2, Stats, QCM
 
 Densité
 Exemple:
@@ -495,6 +531,7 @@ Densité
 [23; 50[50270,019
 Total100
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202438 / 40
+|| Chapitre 2, Stats, QCM
 
 Courbes cumulatives
 Dans le cas d’une variable quantitative continue, les courbes
@@ -517,8 +554,10 @@ i
 [15; 20[361006
 Total50100
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202439 / 40
+|| Chapitre 2, Stats, QCM
 
 Courbes cumulatives
 Figure: Courbes cumulatives croissante et décroissante
 NB: la précision de ces deux graphiques n’est pas parfaite.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202440 / 40
+|| Chapitre 2, Stats, QR

@@ -15,3 +15,4 @@ QCM || Pour éviter une mauvaise interprétation, il faut || V:Éviter toute amb
 
 DragMatch || Associe l'élément du graphique à son rôle || Titre:Énonce ce qui est présenté, Axes:Portent unités et graduations, Note de lecture:Explique comment lire, Source:Donne l'origine des données, Légende:Décodage visuel, Commentaire:Mise en valeur des points clés || Les éléments listés figurent dans le cours || Diff: Facile, Chapitre 2, Contenu d'un graphique
 DragMatch || Associe règle générale et principe || Clarté:Compréhension immédiate, Esthétique:Lecture agréable, Adaptation:Type de graphique selon variable, Sélection:Éviter surcharge d'information || Reprise des règles générales || Diff: Facile, Chapitre 2, Règles générales
+|| Chapitre 2, Stats, Facile, DragMatch

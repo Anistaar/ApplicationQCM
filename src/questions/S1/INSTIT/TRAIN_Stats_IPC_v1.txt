@@ -6,3 +6,4 @@ QCM || IPC — notions à ne pas confondre || V:« Shrinkflation » = quantité 
 QCM || Indépendance/coordination || V:Autorité de la statistique publique (2008)|CNIL = organisme de l’INSEE|V:SSP coordonné par l’INSEE|Indice des loyers commerciaux existe
 QCM || Eurostat — histoire brève || V:CECA → CEE → renforcement pour l’euro|Création 2010|Rôle inchangé depuis 1952|Sans lien avec indicateurs européens
 QCM || INSEE à Metz ? || V:Oui, déménagement partiel de services|Non, jamais|Exclusivement à Lyon|Uniquement à Bercy
+|| PIB, Prix, DragMatch

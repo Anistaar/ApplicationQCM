@@ -14,3 +14,4 @@ QCM || Pour une vitesse moyenne sur d trajets de même distance, on utilise || V
 
 DragMatch || Associe mesure et formule || Moyenne arithmétique: (Σx_i)/n, Moyenne géométrique: (∏x_i)^(1/n), Moyenne harmonique: n/(Σ(1/x_i)), Médiane:Position 50% || Rappels de formules || Diff: Moyen, Chapitre 3, Formules
 DragMatch || Associe contexte et mesure || Données avec outliers:Médiane, Croissances successives:Géométrique, Vitesses même distance:Harmonique, Centre global:Arithmétique || Lignes directrices || Diff: Moyen, Chapitre 3, Choix
+|| Chapitre 3, Stats, Moyen, DragMatch

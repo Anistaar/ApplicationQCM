@@ -527,3 +527,4 @@ Combinaison= panier
 Panier c= inatteignable = dépasse le budget 
 
 Panier a, d, f= plus intéressant car tout le budget pas consommé = perdu = sature la contrainte.
+|| Micro, CH1, Smith, Keynes, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

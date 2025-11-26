@@ -30,3 +30,4 @@ QCM || Compare Keynes et Kuznets : || V:Keynes → PmC < PMC à long terme|V:Kuz
 TrousRC || Donne deux critiques de la fonction de consommation keynésienne. || Sous-estimation de la consommation d’après-guerre|Contradictions entre séries courtes et longues
 Flashcard || Réflexion : Pourquoi l’effet de cliquet est-il utile pour comprendre les récessions ? || Car la consommation baisse moins vite que le revenu, soutenant la demande malgré la crise.
 Flashcard || Réflexion : Quelles différences entre PmC et PMC ? || PmC = variation conso/revenu (court terme). PMC = part du revenu total consacré à la consommation (long terme).
+|| Macro, Keynes, Consommation, Investissement, Offre-Demande, DragMatch

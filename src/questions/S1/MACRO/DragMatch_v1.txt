@@ -17,3 +17,4 @@ DragMatch || Associe modes de financement || Autofinancement:Bénéfices non dis
 # Modèle classique
 DragMatch || Associe notions classiques || Loi de Say:L’offre crée sa demande, Dichotomie:Séparation réel/monétaire, Monnaie voile:Instrument d’échange neutre (LT), Chômage:Volontaire en CPP
 DragMatch || Associe marché du travail || Demande de travail:décroissante en W/P, Offre de travail:croissante en W/P, Salaire réel d’équilibre:W/P*, Productivité marginale = salaire réel:Condition d’optimum
+|| Keynes, Consommation, Investissement, Offre-Demande, DragMatch

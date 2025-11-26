@@ -12,3 +12,4 @@ QCM || Échantillonnage aléatoire simple signifie || V:chaque individu a la mê
 QCM || Coefficient de variation (CV) mesure || V:la dispersion relative (σ/μ)|la dispersion absolue (σ)|la tendance centrale|l’asymétrie || CV pour comparaisons à moyenne différente || Partiels 2024, Partiel 1, Chapitre 4, QCM
 QCM || Ajout d’une constante c à toutes les valeurs: la variance || V:reste inchangée|augmente de c|est multipliée par c|diminue || Invariance par translation || Partiels 2024, Partiel 1, Chapitre 4, QCM
 QCM || Multiplication de toutes les valeurs par k>0: l’écart-type || V:est multiplié par |k||reste inchangé|est multiplié par k^2|est augmenté de k+1 || Homogénéité || Partiels 2024, Partiel 1, Chapitre 4, QCM
+|| Stats, Partiel, DragMatch

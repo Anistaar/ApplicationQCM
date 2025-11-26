@@ -61,3 +61,4 @@ FormulaBuilder || Production totale spécialisée > ? || Σ|autarcies || Σ(auta
 FormulaBuilder || Revenu sectoriel = ? || Productivité|Prix|× || Productivité × Prix || Recette horaire dans un secteur || MI3, RevenuSect, Formule
 
 FormulaBuilder || IDH combine ? || Santé|Éducation|Revenu|+ || Santé + Éducation + Revenu || Indice Développement Humain (3 dimensions) || MA1, IDH, Formule
+|| Analyse Éco, MI1, MA1, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

@@ -12,3 +12,4 @@ QCM || Le « préambule HPE » est utile car || V:il situe présupposés, limite
 QCM || Dans la fiche, la finalité de l'analyse est de || V:comprendre production, échanges, répartition via modèles explicatifs|prescrire des morales économiques|décrire sans théoriser|fixer administrativement les prix || Objectif posé en ouverture || HPE, Méthodo
 QCM || Lire l'HPE « par auteurs » implique || V:suivre les contributions majeures (Aristote → Keynes…) et leurs contextes|étudier uniquement les équations|ignorer les débats|se limiter à l'économie contemporaine || Approche de lecture || HPE, Méthodo
 QCM || L'approche « discontinuitiste » met l'accent sur || V:les ruptures conceptuelles majeures (marginaliste, keynésienne, etc.)|la continuité parfaite|la neutralité des institutions|les biographies des auteurs || Définition dans la fiche || HPE, Méthodo
+|| HPE, RIAE, Keynes, Prix, DragMatch

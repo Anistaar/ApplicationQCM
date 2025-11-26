@@ -33,6 +33,7 @@ QCM || OMC : éléments de gouvernance || V:Conférence ministérielle organe su
 QCM || FMI : missions || V:Stabilité du SMI, prêts en crise, surveillance|Fixer les droits de l’Homme|V:Assistance technique/statistiques|Gérer la BCE || Mandat FMI.
 QCM || Banque mondiale : instruments || V:Prêts, crédits concessionnels (AID), garanties|Création de monnaie nationale|V:SFI pour secteur privé|Fixe les taux de change || Instruments BM.
 QCM || Think tanks & lobbying : définitions || V:Production d’idées/rapports d’influence|Contrôle juridictionnel des traités|V:Processus d’influence auprès d’institutions|Vote des lois à la place des parlements || Rôles.
+|| Prix, DragMatch
 
 ### QCM Pièges & comparatifs
 QCM || Laquelle est fausse ? (institutions/organisations) || V:Une institution est forcément une entité juridique dotée de salariés|Les institutions incluent règles formelles et informelles|Les organisations poursuivent des objectifs communs|Institutions et organisations co‑évoluent || Le piège = confusion institution/organisation.
@@ -43,5 +44,7 @@ QCM || Biens communs : proposition piégeuse || V:Les biens communs sont non‑r
 QCM || IFRS vs modèle continental : repérer l’assertion fausse || Continental : prudence/patrimonialité|Anglo‑saxon/IFRS : décision investisseur|V:IFRS orientées d’abord vers État et créanciers|Harmonisation et comparabilité recherchées || Orientation investisseurs.
 QCM || OMC/FMI/BM : qui fait quoi ? || V:OMC = commerce & différends|V:FMI = stabilité SMI & prêts en crise|Banque mondiale = lutte contre pauvreté/projets|V:BM = AID & SFI || Attribution correcte.
 QCM || Think tanks & lobbying : énoncé faux || Think tank = idées/analyses|Lobbying = influence (formelle/informelle)|V:Lobbying réservé aux entreprises privées|Registres/encadrement existent (UE) || Pas réservé aux seules entreprises.
+|| INST QCM Complet v, DragMatch
 
 ### Questions tombées en examen (2022, 2023, 2024)
+|| INST QCM Complet v, QR

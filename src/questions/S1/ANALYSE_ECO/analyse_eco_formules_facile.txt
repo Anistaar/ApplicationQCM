@@ -23,3 +23,4 @@ FormulaBuilder || Recette fiscale = ? || t|Q*|× || t × Q* || Revenu de la taxe
 FormulaBuilder || Offre avec taxe : Qs = ? || P|t|− || Qs(P - t) || Producteur reçoit prix net de taxe || MI4, Taxe, Facile
 
 FormulaBuilder || Prix avec taxe : Pc = ? || Pp|t|+ || Pp + t || Prix consommateur = Prix producteur + Taxe || MI4, PrixTaxe, Facile
+|| Analyse Éco, Facile, MI1, MA1, PIB, Prix, Offre-Demande, DragMatch

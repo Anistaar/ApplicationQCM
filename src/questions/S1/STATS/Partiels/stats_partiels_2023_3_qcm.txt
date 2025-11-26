@@ -10,3 +10,4 @@ QCM || Le CV permet de || V:comparer des dispersions à échelles différentes|m
 QCM || Un histogramme mal construit avec classes inégales et hauteurs en effectifs || V:biaise les aires et l’interprétation|est acceptable si trié|n’influence pas les conclusions|est meilleur qu’un camembert || Bonnes pratiques || Partiels 2023, Partiel 3, Chapitre 2, QCM
 QCM || Un graphique clair doit inclure || V:source, unités, titre, légende|couleurs aléatoires|axes tronqués sans mention|notations illisibles || Communication || Partiels 2023, Partiel 3, Chapitre 2, QCM
 QCM || La “règle des 1,5×IQR” sert à || V:repérer des valeurs aberrantes|calculer la moyenne|définir σ|normaliser les données || Outliers || Partiels 2023, Partiel 3, Chapitre 4, QCM
+|| Stats, Partiel, Prix, DragMatch

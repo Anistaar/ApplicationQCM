@@ -14,3 +14,4 @@ QCM || Codage et qualité || V:Détecter valeurs hors domaine|V:Traiter les non-
 
 DragMatch || Associe méthode et situation || Aléatoire simple:Population homogène, Stratifié:Strates naturelles connues, Systématique:Cadre ordonné, Grappes:Coûts de collecte élevés || Choix d'échantillonnage avancé || Diff: Difficile, Chapitre 1, Méthodes
 DragMatch || Associe problème et remède || Biais d'acquiescement:Formuler items inversés, Non-réponse:Relances/pondérations, Effet interviewer:Auto-administration, Mesure imprécise:Standardisation || Solutions de réduction des biais || Diff: Difficile, Chapitre 1, Biais et solutions
+|| Chapitre 1, Stats, Difficile, DragMatch

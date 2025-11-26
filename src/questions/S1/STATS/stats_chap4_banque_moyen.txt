@@ -14,3 +14,4 @@ QCM || Concernant l'IQR || V:Moins sensible aux extrêmes que σ|V:Basé sur Q1 
 
 DragMatch || Associe indicateur et usage || Variance:Dispersion quadratique, Écart-type:Racine de la variance, IQR:Dispersion médiane, Coefficient de variation:Comparaison relative || Synthèse des repères || Diff: Moyen, Chapitre 4, Synthèse
 DragMatch || Associe transformation et effet sur la dispersion || X+c:Inchangé, aX:Multiplié par |a| pour σ, Multiplié par a^2 pour Var, Normalisation:Compare séries à échelles différentes || Propriétés de transformation || Diff: Moyen, Chapitre 4, Transformations
+|| Chapitre 4, Stats, Moyen, DragMatch

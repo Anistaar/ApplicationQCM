@@ -37,3 +37,4 @@ QCM || Un phénomène qui ↑ 30 % (an 1), ↑ 30 % (an 2), puis ↓ 30 % (an 3)
 — PIB (rappels)
 • PIB réel = PIB nominal / (Déflateur/100)
 • Prix courants = nominal ; prix constants = réel
+|| Investissement, PIB, Prix, DragMatch

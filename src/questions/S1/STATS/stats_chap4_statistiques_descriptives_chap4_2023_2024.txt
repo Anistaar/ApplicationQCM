@@ -1,6 +1,5 @@
 chapter: Chapitre 4 — Statistiques descriptives 2023-2024
-
-
+|| Chapitre 4, Stats, QR
 
 Statistiques Descriptives
 L1 Économie
@@ -9,6 +8,7 @@ Faculté de Droit, Économie et Administration
 Université de Lorraine
 Chapitre 4 : Les caractéristiques de dispersion
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20241 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -20,6 +20,7 @@ Dispersion autour de la moyenne
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20242 / 40
+|| Chapitre 4, Stats, QCM
 
 Introduction
 Définition
@@ -30,6 +31,7 @@ et d’autre d’une valeur centrale de référence (la médiane ou la
 moyenne). Elles permettent de comparer des séries statistiques
 de même nature.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20243 / 40
+|| Chapitre 4, Stats, QCM
 
 Introduction
 Remarque
@@ -40,18 +42,21 @@ si les données sont trop éloignées de la valeur centrale afin de voir
 si cette dernière est suffisante pour représenter la population à
 l’étude.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20244 / 40
+|| Chapitre 4, Stats, QCM
 
 Introduction
 Exemple: au baccalauréat, les copies sont analysées après correction.
 Les moyennes sont examinées et il arrive qu’elles divergent fortement
 d’un enseignant à l’autre, dans une même discipline.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20245 / 40
+|| Chapitre 4, Stats, QCM
 
 Introduction
 Exemple: au baccalauréat, les copies sont analysées après correction.
 Les moyennes sont examinées et il arrive qu’elles divergent fortement
 d’un enseignant à l’autre, dans une même discipline.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20245 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -65,6 +70,7 @@ Dispersion autour de la moyenne
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20246 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -78,6 +84,7 @@ Dispersion autour de la moyenne
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20247 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Les caractéristiques de dispersion par rapport à la médiane indiquent
@@ -110,6 +117,7 @@ L’étendue sert de supplément à d’autres mesures, mais elle est
 rarement utilisée comme seule mesure de dispersion étant donné
 qu’elle est sensible aux valeurs extrêmes.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20248 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -123,6 +131,7 @@ Dispersion autour de la moyenne
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20249 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -148,6 +157,7 @@ Q
 −Q
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -173,6 +183,7 @@ Q
 −Q
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -198,6 +209,7 @@ Q
 −Q
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Exemple : détermination graphique d’un intervalle et d’un écart
@@ -213,6 +225,7 @@ population de salariés. On lit sur le graphique que
 Q
 = 4,5k€.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202411 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -238,6 +251,7 @@ D
 −D
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -263,6 +277,7 @@ D
 −D
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -288,6 +303,7 @@ D
 −D
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Exemple : détermination d’un intervalle interdécile par interpolation
@@ -296,6 +312,7 @@ Soit la répartition de la population française par tranche d’âge, au
 recensement de 1990 (Source : Annuaire statistique de la France,
 INSEE, 1993) :
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202413 / 40
+|| Chapitre 4, Stats, DragMatch
 
 Dispersion par rapport à la médiane
 Au niveau du tableau, la classe contenant le 1er décileD
@@ -323,6 +340,7 @@ D
 1
 = 7,9ans
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202414 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Au niveau du tableau, la classe contenant le 9e décileD
@@ -348,6 +366,7 @@ D
 9
 = 9,9×2+60 = 79,9
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202415 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Interprétation
@@ -372,6 +391,7 @@ D
 10 fois plus vieux que les 10% des plus jeunes. Ce rapport est
 souvent utilisé avec les revenus (T.Piketty notamment).
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -397,6 +417,7 @@ C
 −C
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -422,6 +443,7 @@ C
 −C
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion par rapport à la médiane
 Définition
@@ -447,10 +469,12 @@ C
 −C
 1
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la médiane
 Illustration:
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202418 / 40
+|| Chapitre 4, Stats, QR
 
 Sommaire
 1
@@ -465,6 +489,7 @@ Coefficient de variation
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202419 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -479,6 +504,7 @@ Coefficient de variation
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202420 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Lesmomentssont les outils les plus importants pour mesurer la forme
@@ -522,6 +548,7 @@ m
 2
 (moyenne quadratique au carré)
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Lesmomentssont les outils les plus importants pour mesurer la forme
@@ -565,6 +592,7 @@ m
 2
 (moyenne quadratique au carré)
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Lesmomentssont les outils les plus importants pour mesurer la forme
@@ -608,6 +636,7 @@ m
 2
 (moyenne quadratique au carré)
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 On appellemoment centré d’ordrer(r∈N)d’un caractèreXle
@@ -645,6 +674,7 @@ seignent sur la dispersion des observations autour de la moyenne
 x, et les moments centrés d’ordre impair sur la dissymétrie de la
 distribution (que nous aborderons plus tard).
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202422 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 On appellemoment centré d’ordrer(r∈N)d’un caractèreXle
@@ -684,6 +714,7 @@ seignent sur la dispersion des observations autour de la moyenne
 x, et les moments centrés d’ordre impair sur la dissymétrie de la
 distribution (que nous aborderons plus tard).
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202422 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -728,51 +759,7 @@ ou simplementσ
 lorsque le
 contexte est clair.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
-
-Dispersion autour de la moyenne
-Définition
-On appellevarianced’une variableXson moment centré d’ordre
-2.  C’est la moyenne des carrés des écarts à la moyenne.  Elle
-mesure globalement la variation d’un caractère de part et d’autre
-de la moyenne arithmétique.
-Elle est donnée par:
-Var(X) =
-∑
-n
-i=1
-n
-i
-(x
-i
-−x)
-2
-∑
-n
-i=1
-n
-i
-=
-1
-N
-n
-∑
-i=1
-n
-i
-(x
-i
-−
-x)
-2
-Remarque
-La variance est parfois dénotéeσ
-2
-X
-ou simplementσ
-2
-lorsque le
-contexte est clair.
-Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -818,6 +805,53 @@ ou simplementσ
 lorsque le
 contexte est clair.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
+|| Chapitre 4, Stats, QCM
+
+Dispersion autour de la moyenne
+Définition
+On appellevarianced’une variableXson moment centré d’ordre
+2.  C’est la moyenne des carrés des écarts à la moyenne.  Elle
+mesure globalement la variation d’un caractère de part et d’autre
+de la moyenne arithmétique.
+Elle est donnée par:
+Var(X) =
+∑
+n
+i=1
+n
+i
+(x
+i
+−x)
+2
+∑
+n
+i=1
+n
+i
+=
+1
+N
+n
+∑
+i=1
+n
+i
+(x
+i
+−
+x)
+2
+Remarque
+La variance est parfois dénotéeσ
+2
+X
+ou simplementσ
+2
+lorsque le
+contexte est clair.
+Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Démonstration: on sait quevar(X) =
@@ -836,6 +870,7 @@ i
 développer cette expression
 :
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202424 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Démonstration: on sait quevar(X) =
@@ -854,6 +889,7 @@ i
 développer cette expression
 :
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202424 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Le théorème de König-Huygens nous permet de déterminer la variance
@@ -904,6 +940,7 @@ carréQ
 2
 .
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202425 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Soita∈Rune constante :
@@ -916,6 +953,7 @@ Var(X)
 Remarque: la variance esttoujours positive ou nullecar elle est
 une somme de carré.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202426 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 SoitX
@@ -933,6 +971,7 @@ Var(Y) =Var(aX+b) =a
 2
 V ar(X)
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202427 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Exemples:
@@ -947,6 +986,7 @@ Var(4X−3) = 4
 Var(X) = 16Var(X)
 Var(153 678 987 432) = 0
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202428 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -961,6 +1001,7 @@ Coefficient de variation
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202429 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -979,6 +1020,7 @@ quadratiqueQdes écarts à la moyenne arithmétiquex.  Vari-
 ance et écart-type sont des indicateurs très utilisés en finance de
 marché, puisqu’ils représentent lerisqueassocié à un actif.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -997,6 +1039,7 @@ quadratiqueQdes écarts à la moyenne arithmétiquex.  Vari-
 ance et écart-type sont des indicateurs très utilisés en finance de
 marché, puisqu’ils représentent lerisqueassocié à un actif.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -1016,6 +1059,7 @@ x.  Vari-
 ance et écart-type sont des indicateurs très utilisés en finance de
 marché, puisqu’ils représentent lerisqueassocié à un actif.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Soitcune constante.
@@ -1028,6 +1072,7 @@ Remarque
 La seconde propriété rend l’écart-type plus naturel à manipuler
 que la variance.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202431 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -1042,6 +1087,7 @@ Coefficient de variation
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202432 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -1059,6 +1105,7 @@ est homogène, tandis qu’un coefficient supérieur à 15% indique que les
 valeurs sont relativement dispersées.  Plus il est proche de 0, plus les
 données sont homogènes.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202433 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Définition
@@ -1076,6 +1123,7 @@ est homogène, tandis qu’un coefficient supérieur à 15% indique que les
 valeurs sont relativement dispersées.  Plus il est proche de 0, plus les
 données sont homogènes.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202433 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 Application:
@@ -1092,6 +1140,7 @@ Calculer l’écart-typeσ.
 Calculer le coefficient de variation de cette distribution.
 Interpréter.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202434 / 40
+|| Chapitre 4, Stats, QCM
 
 Dispersion autour de la moyenne
 On dresse le tableau suivant:
@@ -1158,6 +1207,7 @@ x
 = 3,63. La dispersion moyenne autour
 de 10,3 est égale à 3,63.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202435 / 40
+|| Chapitre 4, Stats, DragMatch
 
 Dispersion autour de la moyenne
 Calcul du coefficient de variation:
@@ -1171,6 +1221,7 @@ x
 Le coefficient de variationCVest de 35,2%>15%. La distribution des
 notes est hétérogène, elle est donc relativement dispersée.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202436 / 40
+|| Chapitre 4, Stats, QCM
 
 Sommaire
 1
@@ -1182,6 +1233,7 @@ Dispersion autour de la moyenne
 4
 Application
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202437 / 40
+|| Chapitre 4, Stats, QCM
 
 Application
 Sur une population, on a dosé le taux de cholestérol, exprimé encg/L
@@ -1209,6 +1261,7 @@ Déterminer la moyenne arithmétique et l’écart-type.
 6
 Déterminer le coefficient de variation. Interpréter.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202438 / 40
+|| Chapitre 4, Stats, QCM
 
 Correction
 1
@@ -1222,6 +1275,7 @@ Mo= 120 + 12
 ]
 = 121,8
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202439 / 40
+|| Chapitre 4, Stats, QCM
 
 Correction
 3
@@ -1266,3 +1320,4 @@ CV=
 x
 = 11,7%<15%. L’échantillon est bien homogène.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202440 / 40
+|| Chapitre 4, Stats, QCM

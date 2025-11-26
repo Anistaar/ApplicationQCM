@@ -9,3 +9,4 @@ OpenQ || Pourquoi l'investissement est-il considéré comme volatil ? || volatil
 OpenQ || Comment le taux d'intérêt influence-t-il les décisions d'investissement ? || taux intérêt,coût capital,rentabilité || Le coût du capital (taux d'intérêt) modifie la rentabilité attendue des projets d'investissement || Mécanisme de transmission de la politique monétaire
 
 OpenQ || Expliquez le principe de l'accélérateur selon Clark || accélérateur,clark,demande,proportionnelle,investissement || Le principe de l'accélérateur (Clark 1917) stipule qu'une hausse de la demande entraîne une hausse plus que proportionnelle de l'investissement || Mécanisme d'amplification des cycles économiques
+|| Investissement, Offre-Demande, QCM

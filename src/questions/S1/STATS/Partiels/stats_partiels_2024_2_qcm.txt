@@ -10,3 +10,4 @@ QCM || Un « diagramme en secteurs » est pertinent pour || V:parts d’un total
 QCM || Si les classes ont des largeurs différentes, la « hauteur » correcte d’un histogramme est || V:la densité (effectif/largeur)|l’effectif brut|la fréquence en %|la moyenne de classe || Densités histogramme || Partiels 2024, Partiel 2, Chapitre 2, QCM
 QCM || Un graphique bien fait doit inclure || V:titre, axes avec unités, source, légende|uniquement des couleurs vives|des axes tronqués|une note de lecture inutile || Bonnes pratiques || Partiels 2024, Partiel 2, Chapitre 2, QCM
 QCM || Les fréquences doivent || V:se sommer à 1|se sommer à n|se sommer à 100|être strictement croissantes || Normalisation || Partiels 2024, Partiel 2, Chapitre 1, QCM
+|| Stats, Partiel, DragMatch

@@ -6,3 +6,4 @@ QR || Qu'est-ce qu'un test ? || V:Un scénario pour vérifier une fonctionnalit�
 DragMatch || Associe les termes aux définitions || Chapitre:Subdivision d'un cours, Matière:Dossier principal, Question:Élément d'évaluation
 
 VF || Les tests servent à vérifier que le plan s'affiche correctement || V
+|| Intro, DragMatch

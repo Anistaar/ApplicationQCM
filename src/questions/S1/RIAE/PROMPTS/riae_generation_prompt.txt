@@ -52,3 +52,4 @@ DragMatch || Associe situation et outil || Taxe spécifique:Décalage vertical d
 [FIN-CHAPITRE 2]
 
 À partir de mes notes RIAE que je vais coller après ce prompt, génère les fichiers `.txt` un par chapitre, uniquement avec des lignes de questions (pas de texte hors questions), en respectant toutes les contraintes ci-dessus.
+|| RIAE, Prix, Offre-Demande, DragMatch

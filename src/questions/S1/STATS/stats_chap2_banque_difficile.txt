@@ -14,3 +14,4 @@ QCM || Choix d'un nuage de points pertinent || V:Deux variables quantitatives|V:
 
 DragMatch || Associe piège et correction || Axe tronqué:Afficher zéro ou signaler clairement, Classes inégales:Utiliser densité (aire), Trop d'infos:Filtrer et hiérarchiser, Code couleur ambigu:Légende explicite || Stratégies anti-biais visuel || Diff: Difficile, Chapitre 2, Corrections
 DragMatch || Associe graphique avancé et usage || Boxplot:Distribution et outliers, Violin plot:Densité lissée, Heatmap:Fréquence bivariée, Facets:Comparaison multi-sous-groupes || Choix avancés || Diff: Difficile, Chapitre 2, Avancé
+|| Chapitre 2, Stats, Difficile, DragMatch

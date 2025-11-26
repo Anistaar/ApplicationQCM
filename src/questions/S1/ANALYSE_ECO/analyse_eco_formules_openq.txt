@@ -29,3 +29,4 @@ OpenQ || Quelle est la condition d'équilibre de marché ? || Qd = Qs || MI4, É
 OpenQ || Comment calcule-t-on l'élasticité-prix de la demande ? || ε = (dQ/dP) × (P/Q) || MI4, Élasticité || Variation % quantité / variation % prix
 OpenQ || Quelle est la formule du surplus du consommateur (cas linéaire) ? || SC = (1/2) × (P_max - P*) × Q* || MI4, Surplus consommateur || Aire du triangle entre demande et prix d'équilibre
 OpenQ || Comment se déplace l'offre avec une taxe unitaire t ? || Nouvelle offre : Qs(P-t) || MI4, Taxe || Producteur reçoit P-t donc exige prix plus élevé
+|| Analyse Éco, MI1, MA1, Consommation, Investissement, PIB, Prix, Offre-Demande, QCM

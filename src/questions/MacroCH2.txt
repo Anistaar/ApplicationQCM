@@ -1,4 +1,5 @@
 # CH2 : L’Investissement - Banque de questions Text2Quiz
+|| CH2, Investissement, QR
 
 ### Définitions et concepts de base
 QR || En macroéconomie, l’investissement correspond à : || V:La formation brute de capital fixe (FBCF)|L’achat de titres financiers|La consommation des ménages|Les exportations nettes
@@ -21,6 +22,7 @@ VF || Le taux d’intérêt influence l’investissement car il modifie le coût
 Trous || Le principe de l’accélérateur stipule que l’investissement dépend des {{V:variations de la demande|variations des prix}}.
 Flashcard || Principe de l’accélérateur (Clark, 1917) || Une hausse de la demande entraîne une hausse plus que proportionnelle de l’investissement.
 Flashcard || Théorie du q de Tobin || Investir tant que la valeur boursière de l’entreprise > coût de remplacement du capital.
+|| Investissement, Prix, Offre-Demande, QCM
 
 ### Théories économiques
 Flashcard || Keynes et l’investissement || Dépend de l’efficacité marginale du capital et du taux d’intérêt.
@@ -33,9 +35,11 @@ QCM || L’investissement joue un rôle central car il influence : || V:La deman
 VF || L’investissement est une composante volatile de la demande globale. || V
 Trous || L’investissement a un double rôle : {{V:demande à court terme|épargne à long terme}} et {{V:offre future|consommation présente}}.
 Flashcard || Multiplicateur de l’investissement || Un investissement initial entraîne une variation plus que proportionnelle du revenu national.
+|| Consommation, Investissement, Offre-Demande, QCM
 
 ### Réflexion (type examen)
 QR || Pourquoi l’investissement est-il considéré comme un facteur de croissance économique à long terme ? || V:Car il augmente le stock de capital et favorise le progrès technique|Car il réduit toujours la consommation|Car il accroît le chômage|Car il supprime les gains de productivité
 QRC || Cite deux limites au principe de l’accélérateur. || La demande peut être instable|Les entreprises peuvent anticiper et lisser leurs investissements
 Flashcard || Réflexion : Quel est l’impact d’un taux d’intérêt très élevé sur l’investissement ? || Il décourage l’investissement car le coût du capital augmente et la rentabilité attendue diminue.
 Flashcard || Réflexion : En quoi l’investissement immatériel est-il crucial aujourd’hui ? || Il favorise l’innovation, la compétitivité et la croissance durable.
+|| Consommation, Investissement, Offre-Demande, DragMatch

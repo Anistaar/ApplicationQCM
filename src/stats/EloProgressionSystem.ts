@@ -51,7 +51,7 @@ export interface UserProgress {
 
 // ===== CONSTANTES =====
 
-const STARTING_ELO = 1500;
+export const STARTING_ELO = 1500;
 const K_FACTOR = 32;           // Volatilité ELO standard
 const K_FACTOR_NEW = 40;       // Plus volatile pour les nouveaux joueurs/questions
 const NEW_PLAYER_THRESHOLD = 20; // Considéré "nouveau" jusqu'à 20 parties
@@ -109,12 +109,19 @@ class EloProgressionSystem {
    * Extraire les thèmes d'une question
    */
   extractThemes(q: Question): string[] {
+    const themes = new Set<string>();
+
     // Méthode 1: Tags explicites dans Question.tags
     if (q.tags && q.tags.length > 0) {
-      return q.tags;
+      q.tags.forEach(t => themes.add(t));
     }
 
-    // Méthode 2: Parser explication (dernière ligne avec tags)
+    // Méthode 2: Topics (alias parser)
+    if (q.topics && q.topics.length > 0) {
+      q.topics.forEach(t => themes.add(t));
+    }
+
+    // Méthode 3: Parser explication (dernière ligne avec tags)
     // Format: "... || MI3, Ricardo, Calculs, QCM"
     if (q.explication) {
       const lines = q.explication.split('\n');
@@ -122,19 +129,31 @@ class EloProgressionSystem {
       
       // Détecter si c'est une ligne de tags (contient des virgules)
       if (lastLine.includes(',')) {
-        const tags = lastLine
-          .split('||')
-          .pop()
-          ?.split(',')
-          .map(t => t.trim())
-          .filter(t => t && t !== 'QCM' && t !== 'QR' && t !== 'VF') || [];
+        const parts = lastLine.split('||');
+        const tagsPart = parts[parts.length - 1];
         
-        if (tags.length > 0) return tags;
+        tagsPart
+          .split(',')
+          .map(t => t.trim())
+          .filter(t => t && !['QCM', 'QR', 'VF', 'DragMatch', 'OpenQ', 'FormulaBuilder'].includes(t))
+          .forEach(t => themes.add(t));
       }
     }
 
-    // Méthode 3: Type de question par défaut
-    return [q.type];
+    // Méthode 4: Parser depuis la question elle-même (mots-clés)
+    // Extraire le premier mot significatif (ex: "MI3", "MA1", etc.)
+    const questionText = q.question || '';
+    const firstWord = questionText.split(/\s+/)[0];
+    if (firstWord && /^(MI|MA|CH)\d+/i.test(firstWord)) {
+      themes.add(firstWord);
+    }
+
+    // Si aucun thème trouvé, utiliser type de question par défaut
+    if (themes.size === 0) {
+      themes.add(q.type);
+    }
+
+    return Array.from(themes);
   }
 
   /**

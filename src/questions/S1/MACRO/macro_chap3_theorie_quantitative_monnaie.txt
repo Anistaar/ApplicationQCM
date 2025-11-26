@@ -1,145 +1,146 @@
 chapter: Chapitre 3bis > Théorie quantitative de la monnaie
+|| Chapitre 3, Macro, QR
 
 Au niveau de la sphère réelle, les grandeurs étaient déterminées par l’interaction entre le marché du travail et le marché des fonds prêtables.                           Le marché du travail permet de déterminer le niveau réel du salaire d’équilibre (niveau de production, technologie de production).                                            Le marché de capital de prêts permet de déterminer le taux d’intérêt réel d’équilibre, le montant de capitaux échangés, ce qui nous donne la répartition du produit global entre consommation finale des ménages et investissement des entreprises.  D’où la nécessité de s’intéresser au rôle de la monnaie, qui, dans cette vision libérale, a une fonction unique de permettre de déterminer les grandeurs nominales et par la suite, le niveau des prix.
+|| Chapitre 3, Macro, Consommation, Investissement, Prix, QR
 
 On remarque que le modèle libéral est bien un modèle dichotomique puisqu’on a la monnaie neutre (pas d’interaction directe entre sphère réelle et monétaire) et ??
+|| Chapitre 3, Macro, QR
 
 L’approche des libéraux concernant le marché de la monnaie et de son rôle repose sur la théorie quantitative de la monnaie.
-
-
+|| Chapitre 3, Macro, QR
 
 1. Le postulat sur la théorie quantitative de la monnaie
+|| Chapitre 3, Macro, QR
 
 Elle exprime le fait qu’il existe un lien direct entre la quantité de monnaie en circulation d’une économie sur une période donnée et le niveau général des prix. L’idée est que : plus il y a de monnaie en circulation, plus le niveau général des prix est élevé.
+|| Chapitre 3, Macro, Prix, QR
 
 Controverse de Bodin : l’afflux de métaux précieux conduit à l’inflation
+|| Chapitre 3, Macro, QR
 
 Théorie quantitative de la monnaie = interprétation moderne de la controverse de Bodin
-
-
+|| Chapitre 3, Macro, QR
 
 C’est Fisher en 1911 dans « Le pouvoir d’achat de la monnaie » qui va en fournir les premiers fondements. Son point de départ est l’existence d’une identité comptable entre une valeur totale nominale des biens échangés dans une économie pour une période définie, et la dépense totale en monnaie.
+|| Chapitre 3, Macro, QR
 
 PxY=Mxv
+|| Chapitre 3, Macro, QR
 
 Avec :
+|| Chapitre 3, Macro, QR
 
 - P=niveau général des prix
+|| Chapitre 3, Macro, Prix, QR
 
 - Y=niveau de production totale (réel)
+|| Chapitre 3, Macro, QR
 
 - M=stock de monnaie disponible dans l’éco
+|| Chapitre 3, Macro, QR
 
 - v=vitesse de circulation de la monnaie, nombre de fois où une unité monétaire est échangée sur une période définie
+|| Chapitre 3, Macro, QR
 
 Mxv=dépense totale
+|| Chapitre 3, Macro, QR
 
 Pxv= ??
+|| Chapitre 3, Macro, QR
 
 Selon les libéraux, cette égalité est tjr vérifiée. Il existe une relation causale de la détermination du niveau général des prix par la ??? , autrement dit ce sera la quantité des prix qui va déterminer prix.
+|| Chapitre 3, Macro, Prix, QR
 
 Deux hypothèses sont nécessaires :
+|| Chapitre 3, Macro, QR
 
 - La vitesse v est constante.
+|| Chapitre 3, Macro, QR
 
 - Le volume V (=production) est insensible par rapport aux échanges monétaires.
+|| Chapitre 3, Macro, QR
 
 Avec ces 2 hypothèses Y et v sont fixées et constantes, donc dans cette équation P et Y sont constantes, c’est M qui définit variation des prix : P. Y= Mv
+|| Chapitre 3, Macro, Prix, QR
 
 Cette théorie quantitative implique que :
+|| Chapitre 3, Macro, QR
 
 - La monnaie est un simple intermédiaire des échanges, on ne la demande jamais pour elle-même mais uniquement pour réaliser des transactions. C’est une condition nécessaire à la validité de la loi des débouchés. La vitesse de circulation est constante. Puisqu’on demande de la monnaie que pour faire des échanges, il n’y a aucune raison que cette vitesse varie à CT.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 - La monnaie n’est qu’un voile posé sur des grandeurs réelles. Donc la théorie quantitative, d’après le modèle classique dit que les variations de la masse monétaire n’ont aucun impact sur le volume de production mais uniquement sur le niveau général des prix. Cela signifie que si la BCE met en place une politique monétaire, cela ne perturbe pas la sphère réelle, cela créera seulement une inflation/déflation.
+|| Chapitre 3, Macro, Prix, QR
 
 Cette théorie P. Y=M.v renvoie à 3 visions :
+|| Chapitre 3, Macro, QR
 
-- La plus simple évoquée par Fisher : les variations du niveau général des prix =P sont de ce fait expliquées uniquement par l’offre de monnaie qui est une variable exogène dans la tradition classique. On a une interprétation simple : toute modification de l’offre de monnaie n’a aucun effet sur les grandeurs macroéconomiques déterminées dans la sphère réelle de l’économie, cela influence uniquement le niveau général des prix.    
-
-
+- La plus simple évoquée par Fisher : les variations du niveau général des prix =P sont de ce fait expliquées uniquement par l’offre de monnaie qui est une variable exogène dans la tradition classique. On a une interprétation simple : toute modification de l’offre de monnaie n’a aucun effet sur les grandeurs macroéconomiques déterminées dans la sphère réelle de l’économie, cela influence uniquement le niveau général des prix.
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
 - Marshall et Pigou : L’objectif n’est plus de déterminer le niveau général des prix mais de déterminer le niveau de demande de monnaie pour motif d’échange, = demande d’encaissés monétaires.            La seule différence avec Fisher est qu’on ne prend pas directement en compte la vitesse de circulation de monnaie v, mais les auteurs raisonnent sur un coefficient k (=constant, =inverse de la vitesse de circulation k=1/v) qui mesure la part de la richesse qui doit être conservée sous forme monétaire pour réaliser des transactions.
-
-
-
-
-
-
-
-
-
-
-
-
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
 L’équation de Cambridge :
+|| Chapitre 3, Macro, QR
 
 - Friedman : l’objectif est de déterminer la demande de monnaie également. Il propose de lever l’hypothèse de constance de v et de k. Dans ces conditions, ces paramètres expriment les comportements de demande de monnaie dont on veut montrer la stabilité. L’équation de Friedman exprime l’égalité entre O et D telle que :
-
-
-
-
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 2. La détermination du niveau général des prix
+|| Chapitre 3, Macro, Prix, QR
 
 On sait que l’offre de monnaie est exogène ce qui signifie qu’elle est sous contrôle exclusif des autorités monétaires, càd Banque Centrale. Sur le marché de la monnaie à l’équilibre, on va avoir une confrontation entre offre et demande sachant que l’offre est exogène.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 Équation de Cambridge :
-
-
+|| Chapitre 3, Macro, QR
 
 Selon Keynes, la seule variable endogène déterminée sur le marché de la monnaie est le niveau général des prix.
-
-
+|| Chapitre 3, Macro, Keynes, Prix, QR
 
 IV. Résolution globale du modèle
+|| Chapitre 3, Macro, QR
 
 Le marché du travail détermine le taux d’emploi et le taux de salaire réel d’équilibre et le produit global offert par l’intermédiaire de la fonction de ???, ceci indépendamment du niveau de la demande faite par les ménages auprès des entreprises. Cela indique qu’on est bien dans un modèle d’offre. Le marché des titres détermine le taux d’intérêt réel et le montant de capital échangé et par conséquent, la répartition entre les biens de consommation et les biens d’investissement.
+|| Chapitre 3, Macro, Consommation, Investissement, Offre-Demande, QR
 
 Enfin, le marché de la monnaie détermine le niveau général des prix pour un ???? ce qui fait qu’on a bien un modèle dichotomique.
-
-
-
-
+|| Chapitre 3, Macro, Prix, QR
 
 V. Conclusion
+|| Chapitre 3, Macro, QR
 
 On a 3 principes majeurs de la théorie néoclassique :
+|| Chapitre 3, Macro, QR
 
 - On mène une analyse des économies contemporaines comme des économies de marché, tout fonctionne comme des éco de marché au sens de la main invisible d’Adam Smith (=capacité spontanée à s’auto-réguler).
+|| Chapitre 3, Macro, Smith, QR
 
 - Loi des débouchés : absence de crise de surproduction, loi associée à la flexibilité des prix qui fait que l’ajustement des marchés garantit un niveau d’activité maximal. L’économie capitaliste, définie comme une éco de marché, satisfait spontanément à ce que Valras appelait la condition d’abondance. Cette loi, c’est la vision classique de l’équilibre, et cela repose sur le rôle attribué à la monnaie (=voile, =neutre)
+|| Chapitre 3, Macro, Prix, QR
 
 - Théorie quantitative de la monnaie : on ne demande pas de la monnaie pour elle-même, on a une vitesse de circulation de la monnaie qui est constante donc il n’y a pas d’effet réel.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
-
-
-
-
-
-
-
-
-
-
-
-
- Les économistes classiques donnent 3 qualificatifs à nos économies :
+Les économistes classiques donnent 3 qualificatifs à nos économies :
+|| Chapitre 3, Macro, QR
 
 - Economies d’échanges : Toute activité éco peut être vue comme une société marchande. On a une coordination des activités éco. On a une conciliation entre intérêts individuels et optimum social qui se fait sur les marchés (=lieux de transactions mais aussi d’ajustement = lieux de cohérence devant décisions éco). Les décisions éco de chaque agent dépendent uniquement du système de prix, donc les ajustements de prix vont permettre de rendre cohérent l’ensemble des décisions prises à titre individuel.
-
-
+|| Chapitre 3, Macro, Prix, QR
 
 - Économies réelles : La monnaie n’est qu’un instrument d’échange, =voile monétaire, sa neutralité (plus simple que le troc). On dit que les agents ne sont pas victimes d’illusions monétaires, ils sont rationnels, autrement dit, ce qui les intéresse (ménages comme entreprises) c’est la quantité de biens qu’ils peuvent se procurer ou offrir.
-
-
+|| Chapitre 3, Macro, QR
 
 - Économies certaines : On n’a aucune incertitude exogène qui ne peut être probabilisé. Le futur est certes inconnu, mais probabilisable. On n’a aucune incertitude endogène car les références individuelles sont intégralement révélées sur les marchés et également diffusées (transparence). On parle donc d’équilibre général ???
-
-
+|| Chapitre 3, Macro, QR
 
 D’une manière générale, ce modèle amène que toute intervention politique est inutile puisque l’autorégulation des marchés conduit à éliminer tout éventuel déséquilibre via l’ajustement par les prix.
+|| Chapitre 3, Macro, Prix, QR
 
 Ainsi, les politiques budgétaires et monétaires sont inefficaces et elles pourraient même créer du déséquilibre. C’est sur ce point que Keynes va développer sa critique à la théorie classique.
+|| Chapitre 3, Macro, Keynes, QR
 
 QCM || L'effet de l'inflation sur l'épargne peut être || V:Négatif (fuite devant la monnaie)|V:Positif (effet d'encaisses réelles)|Toujours négatif|Toujours positif
+|| Chapitre 3, Macro, QCM

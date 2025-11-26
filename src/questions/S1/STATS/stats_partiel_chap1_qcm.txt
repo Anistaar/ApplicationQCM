@@ -15,3 +15,4 @@ QCM || On observe n=100, p(A)=0,3. L'effectif attendu de A est || V:30|70|3|33 |
 QCM || Un échantillonnage stratifié proportionnel vise || V:à réduire la variance si les strates sont homogènes|à augmenter les biais|à ignorer les sous-populations|à maximiser la non-réponse || Stratification: homogénéité intra, hétérogénéité inter || Chapitre 1, Strates, QCM
 QCM || L'objectif de la statistique descriptive dans ce cours est || V:de synthétiser et visualiser l'information|de prouver la causalité|de modéliser la dynamique stochastique|de fixer les prix || Focus descriptif || Chapitre 1, Descriptive, QCM
 QCM || La source dans un graphique ou un tableau || V:doit être mentionnée|est facultative|remplace la note de lecture|se met seulement en annexe || Transparence des données || Chapitre 1, Communication, QCM
+|| Chapitre 1, Stats, Partiel, Prix, DragMatch

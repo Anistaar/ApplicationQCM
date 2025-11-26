@@ -1,16 +1,24 @@
 . Identifiez la population, le caractère étudié et son type.
+|| , QR
 
 . Complétez le tableau statistique en calculant les effectifs cumulés crois-
+|| , QR
 
 sants et décroissants.
+|| , QR
 
 . Complétez le tableau statistique en calculant les fréquences, les fréquences
+|| , QR
 
 cumulées croissantes et décroissantes.
+|| , QR
 
 - Combien d’étudiants ont eu une '_110'æ înférieuré à 13 ?
+|| , QR
 
 . Quelle proportion Œétudia)ﬁÿâ a eu une note supérieure à 10 ?
+|| , QR
 
 5
+|| , QR
 

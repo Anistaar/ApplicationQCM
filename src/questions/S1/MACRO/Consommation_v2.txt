@@ -40,3 +40,4 @@ QCM || La « loi psychologique fondamentale » montre que : || part décroissant
 
 — Friedman
 • Y = Yp + Yt ; C = γ·Yp ;  Yp ≈ (1−λ)·(Y_t + λY_{t−1} + …)
+|| Keynes, Consommation, DragMatch

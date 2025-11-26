@@ -41,4 +41,4 @@ Le consommateur
 a. La productivité du travail
 b. La productivité du capital
 © La productivité du travail et du capital
-
+|| , DragMatch

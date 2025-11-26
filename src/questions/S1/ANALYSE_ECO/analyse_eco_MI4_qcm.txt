@@ -44,3 +44,4 @@ QCM || Taxe spécifique t augmente prix conso. de ΔP^C et réduit prix prod. de
 QCM || Choc d’offre positif (baisse coûts) déplace || V:offre vers la droite (⇧Qs)|demande vers la droite|offre vers la gauche|demande vers la gauche || Shift || Partiels 2024, MI4, Série A, QCM
 QCM || Biens complémentaires: hausse prix du bien A entraîne || V:baisse demande du bien B|hausse offre de B|hausse demande de B|aucun effet || Complémentarité || Partiels 2022, MI4, Série C, QCM
 QCM || Surplus du consommateur (linéaire) est l’aire || V:du triangle sous la courbe de demande au-dessus de P|sous la courbe d’offre|de tout le rectangle P×Q|entre coût marginal et prix reçu || Définition || Partiels 2023, MI4, Série B, QCM
+|| Analyse Éco, MI4, Prix, Offre-Demande, DragMatch

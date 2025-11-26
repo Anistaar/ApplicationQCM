@@ -103,3 +103,4 @@ DragMatch || Reconstruisez la variation de surplus total après taxe (ΔST = ?) 
 DragMatch || Reconstruisez les gains de spécialisation (Production totale spécialisée vs autarcie) :
 Gains≂(XA_spec + XB_spec + YA_spec + YB_spec) - (XA_aut + XB_aut + YA_aut + YB_aut)
  || Différence production avec et sans spécialisation || MI3, Reconstruction Expert, DragMatch
+|| Analyse Éco, MI4, MA1, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

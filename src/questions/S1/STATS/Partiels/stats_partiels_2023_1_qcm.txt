@@ -10,3 +10,4 @@ QCM || Pour comparer dispersion de deux séries (moyennes différentes), on util
 QCM || Ajout d’une constante c à toutes les valeurs: l’écart-type || V:reste inchangé|augmente de c|est multiplié par c|devient 0 || Invariance σ || Partiels 2023, Partiel 1, Chapitre 4, QCM
 QCM || Séries groupées: centre de classe [a;b[ est || V:(a+b)/2|a|b|b−a || Approximation pour moyennes groupées || Partiels 2023, Partiel 1, Chapitre 3, QCM
 QCM || Choix du nombre de classes (n observations) — Sturges || V:1 + 3,3 log10(n)|√n|n/10|2√n || Heuristique courante || Partiels 2023, Partiel 1, Chapitre 2, QCM
+|| Stats, Partiel, DragMatch

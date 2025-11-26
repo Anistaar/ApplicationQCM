@@ -37,3 +37,4 @@ QCM || Une limite classique soulignée dans la fiche est || V:l'absence d'explic
 QCM || Chez Malthus, la pression démographique entraîne || V:une pression à la baisse sur les salaires|une hausse de l'intérêt naturel|une disparition de la rente|un excédent commercial automatique || L'offre de travail augmente plus vite que les subsistances || HPE, Classiques
 QCM || La « valeur » pour Smith et Ricardo renvoie prioritairement à || V:la quantité de travail|l'utilité cardinale|le taux d'intérêt|la quantité de monnaie || Valeur-travail avant la révolution marginaliste || HPE, Classiques
 QCM || La transition vers les classiques passe par || V:les pré-classiques et les physiocrates|la synthèse néo-keynésienne|le monétarisme|la théorie des jeux || Filiation expliquée dans la fiche || HPE, Transition
+|| HPE, RIAE, Ricardo, Smith, Marx, Consommation, Investissement, Prix, Offre-Demande, DragMatch

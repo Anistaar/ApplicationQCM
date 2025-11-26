@@ -14,3 +14,4 @@ QCM || On veut une enquête représentative. On privilégie || V:Échantillonnag
 
 DragMatch || Associe le type de variable à un exemple || Nominale:Couleur des yeux, Ordinale:Niveaux de satisfaction, Discrète:Nombre d'enfants, Continue:Taille en cm || Catégorisation classique des variables || Diff: Moyen, Chapitre 1, Types
 DragMatch || Associe opération et objectif || Nettoyage:Traiter valeurs aberrantes, Codage:Passer du texte aux modalités, Saisie:Structurer le fichier, Documentation:Tracer sources et définitions || Composantes du pipeline de données || Diff: Moyen, Chapitre 1, Pipeline
+|| Chapitre 1, Stats, Moyen, DragMatch

@@ -1,3 +1,4 @@
 chapter: Chapitre 5 > Panorama macro de base (RIAE)
 
 # Notes: agrégats (PIB, inflation, chômage), idées clés (demande/offre globale), liens micro-macro (optionnel selon programme)
+|| Chapitre 5, Macro, RIAE, PIB, Offre-Demande, QR

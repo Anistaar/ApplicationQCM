@@ -2,3 +2,4 @@ chapter: Chapitre 0 > Introduction au cours (RIAE)
 
 # Collez ici vos notes d'introduction. Le parser ignorera ces lignes tant qu'elles ne suivent pas le format question.
 # Ajoutez les banques de questions dans des fichiers séparés (voir gabarits PROMPTS) ou directement ci-dessous en respectant le format.
+|| Chapitre 0, RIAE, QR

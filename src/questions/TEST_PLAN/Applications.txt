@@ -4,3 +4,4 @@ chapter: Grand II > Applications
 VF || Un DragMatch permet d'associer des paires || V
 
 DragMatch || Associe les abréviations || PI:Produit, Q:Quantité, P:Prix
+|| Prix, QCM

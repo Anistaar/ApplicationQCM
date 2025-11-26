@@ -57,3 +57,4 @@ VF || ENA = Épargne + Éducation − Dégradation − Pollution || V || Formule
 QCM || Épargne=200, Éducation=+20, Dégradation=−15, Pollution=−10. ENA = ? || V:195|200|215|175 || ENA = 200 + 20 − 15 − 10 = 195 || Partiels 2023, MA1, Série B, QCM
 VF || Déflateur PIB = (PIB nominal / PIB réel) × 100 || V || Mesure niveau général des prix vs année de référence || MA1, Déflateur, Principe
 QCM || PIB nominal=1 400, PIB réel=1 300. Déflateur = ? || V:≈107,7|≈93,0|≈100,0|≈110,0 || Déflateur = (1 400 / 1 300) × 100 ≈ 107,7 || Partiels 2022, MA1, Série C, QCM
+|| Analyse Éco, MA1, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

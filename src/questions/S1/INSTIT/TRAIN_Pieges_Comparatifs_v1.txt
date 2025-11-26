@@ -6,3 +6,4 @@ QCM || OMC/FMI/BM — qui fait quoi ? || V:OMC = règles du commerce & différen
 QCM || Gouvernance — lequel n’appartient pas ? || Efficacité|Transparence|Responsabilisation|V:Opacité
 QCM || IPC — énoncé FAUX || Laspeyres chaîné|Pondérations MAJ|V:Crédits immobiliers inclus|Ajustements hédoniques possibles
 QCM || TCE — lequel est FAUX ? || Spécificité ↑ ⇒ intégration plus probable|Opportunisme pris en compte|V:Contrats inutiles|Arbitrage marché/hiérarchie/hybride
+|| TRAIN Pieges Comparatifs v, DragMatch

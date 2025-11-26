@@ -1,498 +1,415 @@
 chapter: Chapitre 3 > Modèle classique (réel)
+|| Chapitre 3, Macro, QR
 
 CH 3 : une version macroéconomique du modèle classique
+|| Chapitre 3, Macro, CH3, QR
 
-
-
-
-
-On se fait une représentation macro éco proposé par l’analyse néoclassique. 
+On se fait une représentation macro éco proposé par l’analyse néoclassique.
+|| Chapitre 3, Macro, QR
 
 De manière assez simple, on peut résumer cela en disant qu’il s’agit de considérer une économie ou tout s’autorégule sur les marchés. Le courant opposé à ceci= courant keynésiens qui renvoie à une économie de marché mais dans laquelle il peut exister des déséquilibres. Dans le modèle néo-classique les déséquilibres n’existe pas.
+|| Chapitre 3, Macro, QR
 
-
-
-
-
-La présentation du modèle 
-
-
+La présentation du modèle
+|| Chapitre 3, Macro, QR
 
 Les notions du modèle macroéconomique classique
-
-
+|| Chapitre 3, Macro, QR
 
 Il existe un certain nombres de divergences qui sont davantage des nuances entre les différents auteurs des écoles classiques, néoclassique, monétaristes ou encore le
+|| Chapitre 3, Macro, QR
 
-Mais de manière générale il existe un certain nombre d’idée centrale qui sont identiques entre eux. 
+Mais de manière générale il existe un certain nombre d’idée centrale qui sont identiques entre eux.
+|| Chapitre 3, Macro, QR
 
-
-
-Notamment : l’équilibre simultanés sur tous les marchés. L’idée repose sur le fait qu’il y a possibilité d’avoir un plein emploi des facteurs de production (K et L). Cette proposition conduit au fait que il y a la possibilité d’avoir le plein emploi sur le marché du travail cad que si il y a du chômage il est qualifié de chômage volontaire. 
-
-
+Notamment : l’équilibre simultanés sur tous les marchés. L’idée repose sur le fait qu’il y a possibilité d’avoir un plein emploi des facteurs de production (K et L). Cette proposition conduit au fait que il y a la possibilité d’avoir le plein emploi sur le marché du travail cad que si il y a du chômage il est qualifié de chômage volontaire.
+|| Chapitre 3, Macro, QR
 
 Autre idée= absence de crises de surproduction lié à jean baptise Say avec la loi des débouchés mais aussi Ricardo avec l’état stationnaire. Selon le courant libéral, l’ajustement se fait par les prix et de manière automatique. Ça veut dire que les entreprises peuvent toujours écouler leur production.
+|| Chapitre 3, Macro, Ricardo, Prix, QR
 
-
-
-Autre= Il existe une dichotomie entre la sphère réelle et la sphère monétaire 
+Autre= Il existe une dichotomie entre la sphère réelle et la sphère monétaire
+|| Chapitre 3, Macro, QR
 
 Sphère réelle/ secteur réel= le marché des biens et services cad le marché sur lequel va se déterminer la qtité de richesse produite à l’équilibre en fonction de l’offre et de la demande. La sphère monétaire, ce qui touche à la monnaie.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
-Selon ces auteurs, un accroissement de la monnaie en circulation dans l’économie n’aura aucun impact sur les variables réels de l’économie autrement dit aucun impact sur la production et l’emploi. La monnaie est qualifiée comme un « voile sur l’économie » Say 
+Selon ces auteurs, un accroissement de la monnaie en circulation dans l’économie n’aura aucun impact sur les variables réels de l’économie autrement dit aucun impact sur la production et l’emploi. La monnaie est qualifiée comme un « voile sur l’économie » Say
+|| Chapitre 3, Macro, QR
 
+Les généralités du modèle
+|| Chapitre 3, Macro, QR
 
-
-Les généralités du modèle 
-
-
-
-Il existe un débat entre l’analyse keynésienne et l’analyse libérale en ce qui concerne l’intervention de l’état. 
+Il existe un débat entre l’analyse keynésienne et l’analyse libérale en ce qui concerne l’intervention de l’état.
+|| Chapitre 3, Macro, QR
 
 Selon les libéraux, l’état n’a pas ou peu de rôle à jouer et selon eux, l’intervention de l’état peut engendrer des déséquilibres. Le rôle de l’état se limite à un rôle de gendarme.
+|| Chapitre 3, Macro, QR
 
-Selon les keynésiens, le rôle de l’état est important 🡪 pour son intervention 
-
-
-
-
+Selon les keynésiens, le rôle de l’état est important 🡪 pour son intervention
+|| Chapitre 3, Macro, QR
 
 L’objectif du modèle classique= s’intéresser à l’équilibre des marchés. On s’intéresse au marché des biens/services, du travail qui vont représenter la sphère réel de l’économie et on va s’intéresser au marché monétaire qui constitue la sphère monétaire. On s’intéresse aux relations/ interactions entre ces marchés. Ce qui va nous permettre de déterminer le revenu global, l’emploi, le taux d’intérêt et le niveau des prix au sein de l’économie.
+|| Chapitre 3, Macro, Prix, QR
 
+Ce modèle est basé sur plusieurs hypothèse :
+|| Chapitre 3, Macro, QR
 
+Absence de crise de surproduction de ce fait un ajustement du modèle par l’intermédiaire des variations du prix.
+|| Chapitre 3, Macro, Prix, QR
 
-Ce modèle est basé sur plusieurs hypothèse : 
+Le fait de retenir la loi des débouchés fait que le modèle classique repose sur l’offre (modèle d’O). Cad que l’O de biens et services est le point de départ de l’analyse et on dira que tout offre créer sa propre demande.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
+Alors que chez Keynes on verra que c’est la D qui va engendrer l’O
+|| Chapitre 3, Macro, Keynes, QR
 
+On est dans un cadre de CPP
+|| Chapitre 3, Macro, QR
 
-Absence de crise de surproduction de ce fait un ajustement du modèle par l’intermédiaire des variations du prix. 
+Le secteur réel de l’économie
+|| Chapitre 3, Macro, QR
 
-Le fait de retenir la loi des débouchés fait que le modèle classique repose sur l’offre (modèle d’O). Cad que l’O de biens et services est le point de départ de l’analyse et on dira que tout offre créer sa propre demande. 
+Le marché des produits (bien et services)
+|| Chapitre 3, Macro, QR
 
-Alors que chez Keynes on verra que c’est la D qui va engendrer l’O 
-
-
-
-On est dans un cadre de CPP 
-
-
-
-
-
-Le secteur réel de l’économie 
-
-
-
-Le marché des produits (bien et services) 
-
-
-
-On part de la loi des débouchés avec l’idée qui a été développée par Say qui nous dit que l’origine de la production réside dans l’offre et à partir du moment ou un bien est offert, il trouvera prôneur, cad il y a absence de crise de surproduction. Pour établir son résultat Say va se baser sur le rôle accorder à la monnaie et dans son esprit la monnaie n’est qu’une intermédiaire des échanges cad qu’on ne la demande jamais pour elle-même. La monnaie est donc demandée pour les biens qu’on souhaite se procurer. 
-
-
+On part de la loi des débouchés avec l’idée qui a été développée par Say qui nous dit que l’origine de la production réside dans l’offre et à partir du moment ou un bien est offert, il trouvera prôneur, cad il y a absence de crise de surproduction. Pour établir son résultat Say va se baser sur le rôle accorder à la monnaie et dans son esprit la monnaie n’est qu’une intermédiaire des échanges cad qu’on ne la demande jamais pour elle-même. La monnaie est donc demandée pour les biens qu’on souhaite se procurer.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 Quand un bien est produit par une entreprise A, on a des producteurs qui ont payés les ouvriers et ces derniers vont acheter grâce à l’argent de leur travail (salaire) des biens par ex de l’entreprise B et la réciproque peut être vraie. Ce qui veut dire que toute la monnaie qui est dispo dans l’économie est dépensés et les crises de surproduction généralisés ne peuvent pas existés. La monnaie = « voile sur l’économie ». Elle n’a aucune influence sur la sphère réelle.
+|| Chapitre 3, Macro, QR
 
+Le marché du travail
+|| Chapitre 3, Macro, QR
 
-
-Le marché du travail 
-
-
-
-A partir de ce marché du L on va pouvoir déterminer le salaire réel, le niv d’emploi et production 
+A partir de ce marché du L on va pouvoir déterminer le salaire réel, le niv d’emploi et production
+|| Chapitre 3, Macro, QR
 
 Les entreprises offrent des B et services car c’est elles qui produisent et sont de ce fait demandeur de K et de L.
-
-
+|| Chapitre 3, Macro, QR
 
 Les ménages, eux, demandent des bien et services pour pouvoir les demander, ils ont besoin d’un revenu disponible soit par l’intermédiaire d’un salaire. Pour l’obtenir les ménages doivent offrir leur travail.
+|| Chapitre 3, Macro, QR
 
+Ce qui fait qu’on peut appliquer sur le marché du travail comme sur n’importe quel marché de biens la loi de l’O et la D :
+|| Chapitre 3, Macro, QR
 
+Offre est une fonction croissante du prix et la demande décroissante du prix
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
-Ce qui fait qu’on peut appliquer sur le marché du travail comme sur n’importe quel marché de biens la loi de l’O et la D : 
+La demande globale de travail c’est la somme des demandes individuelles des entreprises. La demande individuelle du travail d’une entreprise c’est la quantité du travail qui est demandé à chaque taux de salaire possible pour un employeur qui s’adresse à l’ensemble des offreurs cad à l’ensemble des travailleurs. La demande collective de travail c’est la somme des demandes individuelles (def qu’on vient de donner mais qui s’applique à tous les travailleurs) la D de travail diminue en fonction du prix du travail cad en fonction du salaire.
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
-Offre est une fonction croissante du prix et la demande décroissante du prix 
+L’offre globale de travail= sommes des offres individuelles de chaque ménages, individus.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
+L’o de travail d’un individu= quantité de travail offerte pour un individu à chaque taux de salaire possible. On abrège au niveau collectif ce qui veut dire que l’O de travail augmente avec le prix du travail autrement dit avec le salaire.
+|| Chapitre 3, Macro, Prix, QR
 
++ un bien est cher – on le demande mais + on va vouloir l’offrir.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
-La demande globale de travail c’est la somme des demandes individuelles des entreprises. La demande individuelle du travail d’une entreprise c’est la quantité du travail qui est demandé à chaque taux de salaire possible pour un employeur qui s’adresse à l’ensemble des offreurs cad à l’ensemble des travailleurs. La demande collective de travail c’est la somme des demandes individuelles (def qu’on vient de donner mais qui s’applique à tous les travailleurs) la D de travail diminue en fonction du prix du travail cad en fonction du salaire. 
-
-
-
-L’offre globale de travail= sommes des offres individuelles de chaque ménages, individus. 
-
-L’o de travail d’un individu= quantité de travail offerte pour un individu à chaque taux de salaire possible. On abrège au niveau collectif ce qui veut dire que l’O de travail augmente avec le prix du travail autrement dit avec le salaire. 
-
-+ un bien est cher – on le demande mais + on va vouloir l’offrir. 
-
-
-
-Comme il existe une O et une D de travail respectivement croissant et décroissant du salaire, celle-ci vont se rencontrer sur un marché sous-entendu sur le marché du travail. La rencontre de cette O et D de déterminer le prix d’équilibre sur ce marché autrement dit le salaire d’équilibre. Cad que sur le marché du travail il existe un couple « prix-quantité » qui assure l’équilibre entre l’O et la D. 
-
-
+Comme il existe une O et une D de travail respectivement croissant et décroissant du salaire, celle-ci vont se rencontrer sur un marché sous-entendu sur le marché du travail. La rencontre de cette O et D de déterminer le prix d’équilibre sur ce marché autrement dit le salaire d’équilibre. Cad que sur le marché du travail il existe un couple « prix-quantité » qui assure l’équilibre entre l’O et la D.
+|| Chapitre 3, Macro, Prix, QR
 
 La fonction de production
-
-
+|| Chapitre 3, Macro, QR
 
 La f° de production de court terme (CT) dépend uniquement du travail cad qu’on considère que le K est fixe.
+|| Chapitre 3, Macro, QR
 
-La f° de production de CT est de la forme suivante :  Y= ƒ(N), ƒ’>0 ; ƒ’’<0 
+La f° de production de CT est de la forme suivante :  Y= ƒ(N), ƒ’>0 ; ƒ’’<0
+|| Chapitre 3, Macro, QR
 
+A court terme, on a une relation univoque qui est croissante entre le niveau d’emploi et le niveau de production. On suppose que le marché des produits est un marché concurrentiels : (les entrep utilisent du travail pour produire des biens) cad que le prix des biens s’imposent aux entreprises (réf. à la CPP cad une entrep ne peut pas dominer le marché et fixer les prix)
+|| Chapitre 3, Macro, Prix, QR
 
-
-A court terme, on a une relation univoque qui est croissante entre le niveau d’emploi et le niveau de production. On suppose que le marché des produits est un marché concurrentiels : (les entrep utilisent du travail pour produire des biens) cad que le prix des biens s’imposent aux entreprises (réf. à la CPP cad une entrep ne peut pas dominer le marché et fixer les prix) 
-
-
-
-La fonction de demande de travail 
-
-
+La fonction de demande de travail
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 Elle se déduit du comportement de maximisation de profit des entreprises (cf : CPP : individus (comportement)rationnels= maximisation de mon utilité). Ce comportement conduit à égaliser à la marge le bénéfice attendue à l’embauche d’un travailleur supplémentaire avec le cout marginal que cette embauche induit.
-
-
-
-
+|| Chapitre 3, Macro, QR
 
 p= niveau des prix`
+|| Chapitre 3, Macro, Prix, QR
 
 y= fonction de production/production
+|| Chapitre 3, Macro, QR
 
-W= salaire nominal 
+W= salaire nominal
+|| Chapitre 3, Macro, QR
 
 N= niveau d’emploi = qtité de salariés, h de travail
+|| Chapitre 3, Macro, QR
 
-Pm= productivité marginale du travail 
-
-
+Pm= productivité marginale du travail
+|| Chapitre 3, Macro, QR
 
 Ce qui revient à ce que la productivité marginale physique du travail soit égale au taux de salaire réel.
-
-
+|| Chapitre 3, Macro, QR
 
 En supposant que la fonction de production est une fonction inversible, il est possible de noter que la fonction de demande de travail est une fonction inverse du salaire réelle. C’est une fonction décroissante du fait de la décroissance de la productivité marginale du facteur variable qui est le travail.
-
-
-
-
-
-
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 W/p= salaire réel car p/W ne veut rien dire en éco
-
-
+|| Chapitre 3, Macro, QR
 
 La fonction d’offre de travail (des ménages)
-
-
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 Elle résulte de l’arbitrage de la part des ménages entre la consommation (et donc le travail) et les loisirs. Ce qui intéresse les ménages c’est le salaire réel puisque ces ménages portent un intérêt sur leur pvr d’achat.
+|| Chapitre 3, Macro, Consommation, QR
 
+Si il y a hausse du salaire réel, le cout d’opportunité du loisirs est plus élevés, chaque h passé à ne pas travailler devient plus couteuse. Cela conduit à substituer du travail aux loisirs autrement dit à augmenter l’O de travail. On parle d’effet de substitution.
+|| Chapitre 3, Macro, QR
 
-
-Si il y a hausse du salaire réel, le cout d’opportunité du loisirs est plus élevés, chaque h passé à ne pas travailler devient plus couteuse. Cela conduit à substituer du travail aux loisirs autrement dit à augmenter l’O de travail. On parle d’effet de substitution. 
-
-
-
-Il peut exister un effet contraire qui va venir se conjuguer 🡪 effet revenu 
+Il peut exister un effet contraire qui va venir se conjuguer 🡪 effet revenu
+|| Chapitre 3, Macro, QR
 
 En effet l’augmentation du salaire réel rémunère mieux les heures qui sont déjà travaillé donc on va cette fois accorder + de temps aux loisirs. La théorie néo-classique privilégie de manière générale la dominance de l’effet de substitution par rapport à l’effet de revenu ce qui permet de dire que l’O de travail est une fonction croissante du salaire réel.
+|| Chapitre 3, Macro, QR
 
-
-
-L’équilibre sur le marché du travail 
-
-
-
-
-
-
-
-
-
-
+L’équilibre sur le marché du travail
+|| Chapitre 3, Macro, QR
 
 A partir du salaire d’équilibre, il est possible de déterminer le niv d’emploi d’équilibre. Une fois le niv d’emploi déterminé, il est possible de déterminé le niv de production d’équilibre car on sait que la production est donnée par y= f(N)
+|| Chapitre 3, Macro, QR
 
-
-
-Il est possible de représenter graphiquement l’équilibre sur le marché du travail, en lien avec le niveau de production : 
-
-
-
-
-
-
+Il est possible de représenter graphiquement l’équilibre sur le marché du travail, en lien avec le niveau de production :
+|| Chapitre 3, Macro, QR
 
 Nd= demande
+|| Chapitre 3, Macro, Offre-Demande, QR
 
-N^0= offre de travail 
+N^0= offre de travail
+|| Chapitre 3, Macro, Offre-Demande, QR
 
-No=niveau d’équilibre 
+No=niveau d’équilibre
+|| Chapitre 3, Macro, QR
 
 Yo= niv de production d’équilibre
-
-
+|| Chapitre 3, Macro, QR
 
 Cet équilibre nous permet de déterminer, de façon simultané le niveau de l’emploi noté No et le taux de salaire réel noté w0. Si on ajoute le graphique représentant la fonction de production, on peut de déterminer le niveau de production d’équilibre correspondant au niveau d’emploi d’équilibre autrement dit on peut déterminer Y0
-
-
+|| Chapitre 3, Macro, QR
 
 Que se passe-t-il si on est sur un taux de salaire plus faible ou élevé que le salaire d’équilibre ?
+|| Chapitre 3, Macro, QR
 
+1 ère situation= si le taux de salaire effectif est inférieur au taux de salaire réel d’équilibre W1 < W0. Si taux de salaire réel = w1🡪 ND >NO. On a un excès de la demande de travail.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
-
-1 ère situation= si le taux de salaire effectif est inférieur au taux de salaire réel d’équilibre W1 < W0. Si taux de salaire réel = w1🡪 ND >NO. On a un excès de la demande de travail. 
-
-
-
-Les salaires monétaires (nominal) vont sous les faits de la concurrence et de la pression qui va être exercer par les ménages augmenter. On a des entrep qui demande + de travail que ce qu’il est offert donc concurrence. 
+Les salaires monétaires (nominal) vont sous les faits de la concurrence et de la pression qui va être exercer par les ménages augmenter. On a des entrep qui demande + de travail que ce qu’il est offert donc concurrence.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 Le niveau des prix étant inchangé, les salaires nominaux augmentent ce qui fait que W/P (salaire réel) va augmenter aussi ce qui réduit la demande de travail et augmente l’offre de travail. Le processus se poursuit jusqu’à ce que le taux de salaire d’équilibre soit retrouver.
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
  
 
-Un raisonnement similaire existe dans une situation ou W2 > W0 autrement dit si le taux de salaire réel w2 est supérieur à celui d’équilibre, on va avoir un ajustement à la baisse des salaires monétaires (nominaux) et le processus va se poursuivre jusqu’à ce qu’on retrouve l’équilibre, le niveau W. 
+Un raisonnement similaire existe dans une situation ou W2 > W0 autrement dit si le taux de salaire réel w2 est supérieur à celui d’équilibre, on va avoir un ajustement à la baisse des salaires monétaires (nominaux) et le processus va se poursuivre jusqu’à ce qu’on retrouve l’équilibre, le niveau W.
+|| Chapitre 3, Macro, QR
 
+Sous ces hypothèses de CPP, le niveau d’emploi obtenu est qualifié de niveau de pleine emploi autrement dit tout ceux qui désirent travailler au taux de salaire réel en vigueur peuvent le faire, cad il n’y a pas de rationnement.
+|| Chapitre 3, Macro, QR
 
+Le niveau d’équilibre de l’emploi n’est pas influencé par le salaire nominal W, ni par le niveau général des prix P mais par le salaire réel autrement dit ce qui intéresse entreprise et ménage c’est le pouvoir d’achat.
+|| Chapitre 3, Macro, Prix, QR
 
-Sous ces hypothèses de CPP, le niveau d’emploi obtenu est qualifié de niveau de pleine emploi autrement dit tout ceux qui désirent travailler au taux de salaire réel en vigueur peuvent le faire, cad il n’y a pas de rationnement.  
+L’équilibre ne seraient en aucun cas affecté si il y avait une variation des prix. Pour comprendre ceci il faut poser que les entrep demandent du travail en fonction du cout réel de la main d’œuvre et les ménages offrent leur travail en se préoccupant de la quantité de bien qu’ils vont pouvoir achetés avec leur salaire.
+|| Chapitre 3, Macro, Prix, QR
 
+Ce qui veut dire que si prix et salaire nominaux sont multiplié par 3 par ex dans ce cas le comportement des ménages sera inchangés de même que le comportement des entreprises parce que le salaire réel reste inchangé.
+|| Chapitre 3, Macro, Prix, QR
 
+Si le salaire nominal triple, les ménages sont prêts à offrir la même quantité de travail alors même que les prix ont été multiplié par 3. Les entreprises sont prêtes également à demander la même quantité de travail alors même que les salaires sont multipliés par 3 car les prix ont été X° par 3 fait que la productivité marginale du travail reste = au cout marginal du travail (salaire réel)
+|| Chapitre 3, Macro, Prix, QR
 
-Le niveau d’équilibre de l’emploi n’est pas influencé par le salaire nominal W, ni par le niveau général des prix P mais par le salaire réel autrement dit ce qui intéresse entreprise et ménage c’est le pouvoir d’achat. 
-
-L’équilibre ne seraient en aucun cas affecté si il y avait une variation des prix. Pour comprendre ceci il faut poser que les entrep demandent du travail en fonction du cout réel de la main d’œuvre et les ménages offrent leur travail en se préoccupant de la quantité de bien qu’ils vont pouvoir achetés avec leur salaire. 
-
-
-
-Ce qui veut dire que si prix et salaire nominaux sont multiplié par 3 par ex dans ce cas le comportement des ménages sera inchangés de même que le comportement des entreprises parce que le salaire réel reste inchangé. 
-
-
-
-Si le salaire nominal triple, les ménages sont prêts à offrir la même quantité de travail alors même que les prix ont été multiplié par 3. Les entreprises sont prêtes également à demander la même quantité de travail alors même que les salaires sont multipliés par 3 car les prix ont été X° par 3 fait que la productivité marginale du travail reste = au cout marginal du travail (salaire réel) 
-
-
-
-Rq= Cette analyse est valide sans problèmes ce qui peut présenter une certaine limite mais l’analyse pourrait être complexifié si par ex on venait inclure des impôts indexés ou encore si on tenait compte des effets d’encaisse réel. 
-
-
-
-
-
-
+Rq= Cette analyse est valide sans problèmes ce qui peut présenter une certaine limite mais l’analyse pourrait être complexifié si par ex on venait inclure des impôts indexés ou encore si on tenait compte des effets d’encaisse réel.
+|| Chapitre 3, Macro, QR
 
 2ème l : On suppose que le niveau des prix est multiplié par une constante positive que on va appeler lambda et donc la D de travail des entrep tend à augmenter puisque le salaire réel diminue et dans le même temps, la baisse du salaire réel fait que les ménages vont offrir moins de travail, ce qui veut dire que l’équilibre sur le marché du travail est perturbé.
+|| Chapitre 3, Macro, Prix, QR
 
+Cette perturbation va être résolu ssi les salaires nominaux W augmentent dans les mêmes proportion (si en haut et en bas 🡺 multiplié par lambda)
+|| Chapitre 3, Macro, QR
 
-
-
-
-
-
-Cette perturbation va être résolu ssi les salaires nominaux W augmentent dans les mêmes proportion (si en haut et en bas 🡺 multiplié par lambda) 
-
-
-
-
-
-
-
-
-
-Le graphique du bas représente le marché du travail 
+Le graphique du bas représente le marché du travail
+|| Chapitre 3, Macro, QR
 
 Si modification des prix, on va voir que O et D vont réagir (déplacement) donc ajustement par les salaires nominaux, et la conséquence de ceci= graphique du haut
-
-
-
-
-
-
+|| Chapitre 3, Macro, Prix, QR
 
 Graphique Haut= qlq soit le niveau des prix = on se retrouve avec un produit offert qui est le même et un niveau d’emploi qui est le même.
+|| Chapitre 3, Macro, Prix, QR
 
-
-
-Soit un niveau de prix donné P0, autrement dit le niveau initial de prix 
+Soit un niveau de prix donné P0, autrement dit le niveau initial de prix
+|| Chapitre 3, Macro, Prix, QR
 
 Pour un niveau de prix = P0, les ménages sont prêts à offrir la quantité de travail N0
+|| Chapitre 3, Macro, Prix, QR
 
-Pour un niveau de salaires W0, les ménages sont prêts à offrir N0 quantité de travail 
-
-
+Pour un niveau de salaires W0, les ménages sont prêts à offrir N0 quantité de travail
+|| Chapitre 3, Macro, QR
 
 Raisonnement hausse prix : Supposons que le niveau des prix passe à P1 avec P1 > P0 🡪 WO/P0 > W0/P1
+|| Chapitre 3, Macro, Prix, QR
 
 La première conséquence immédiate= baisse du salaire réel 🡪 Puisque le salaire réel diminue, les ménages vont offrir moins de travail donc l’0 de travail va se déplacer graphiquement vers le haut, gauche par rapport à la situation initial.
+|| Chapitre 3, Macro, QR
 
 🡺Dans ces conditions, cela signifie que les ménages exigent un salaire nominal, monétaire plus élevé pour continuer à offrir la même quantité de travail N0.
+|| Chapitre 3, Macro, QR
 
-Ce niveau de salaire W est = à W1 et donc le niveau de salaire réel devient W1/ P1 
+Ce niveau de salaire W est = à W1 et donc le niveau de salaire réel devient W1/ P1
+|| Chapitre 3, Macro, QR
 
+Raisonnement baisse prix : Si à l’inverse le niveau des prix diminue on passe de P0 à P2
+|| Chapitre 3, Macro, Prix, QR
 
+La conséquence immédiate = une augmentation de l’O de travail de la part des ménages et donc un déplacement de l’O de travail vers le bas ou vers la droite. Ce qui veut dire que les ménages sont prêts à offrir la même quantité de travail N0 dès lors que (salaire nominal)
+|| Chapitre 3, Macro, QR
 
-Raisonnement baisse prix : Si à l’inverse le niveau des prix diminue on passe de P0 à P2 
-
-La conséquence immédiate = une augmentation de l’O de travail de la part des ménages et donc un déplacement de l’O de travail vers le bas ou vers la droite. Ce qui veut dire que les ménages sont prêts à offrir la même quantité de travail N0 dès lors que (salaire nominal)   
-
- w = W2 
+w = W2
+|| Chapitre 3, Macro, QR
 
 Si on a une hausse du prix de la out put (bien final produit vs input=bien de prod°) dans ce cas l’o de travail des ménages se déplace vers la gauche ou vers le haut autrement dit une augmentation du prix de la output fait baisser l’O de travail des ménages.
+|| Chapitre 3, Macro, Prix, QR
 
 Si c’est une augmentation du prix= déplacement vers le bas ou vers la droite autrement dit cela conduit à une hausse de l’o de travail de la part des ménages.
-
-
+|| Chapitre 3, Macro, Prix, QR
 
 Du côté de la D de travail, si prix diminue= passe de P0 a P2, c’est dans ce cas hausse du salaire réel (conséquence immédiate) et donc les entreprises demandent moins de travail d’où un déplacement de la D de travail vers le bas ou vers la gauche par rapport à sa situation initiale.
-
-
+|| Chapitre 3, Macro, Prix, QR
 
 De manière similaire si le niveau des prix est plus élevé autrement dit on est en P1, la conséquence immédiate est la baisse du W réel, les entreprises demandent plus de travail, la D de L se déplace vers la droite.
+|| Chapitre 3, Macro, Prix, QR
 
+Quand on synthétise ce qui se passe à la fois du côté de l’O et la D, on s’aperçoit que quel que soit le niveau des prix, la quantité produite restera identique du fait que le niveau d’emploi va rester identique.
+|| Chapitre 3, Macro, Prix, QR
 
-
-Quand on synthétise ce qui se passe à la fois du côté de l’O et la D, on s’aperçoit que quel que soit le niveau des prix, la quantité produite restera identique du fait que le niveau d’emploi va rester identique. 
-
-
-
-🡪Lorsque on passe de Po a P1 l’O et la D de travail se sont déplacé toutes les 2 vers le haut, de plus le déplacement en termes de distance est le même si bien que le nouvel équilibre suite à la modification du niveau des prix se situe exactement à la verticale de l’équilibre initiale. Par conséquent le niveau d’emploi reste inchangé, il est toujours égal à N0 mais les salaires nominaux sont passé de W0 à W1. Le salaire réel lui est inchangé puisque le salaire nominal à augmenter dans les même proportions que la hausse des prix. 
+🡪Lorsque on passe de Po a P1 l’O et la D de travail se sont déplacé toutes les 2 vers le haut, de plus le déplacement en termes de distance est le même si bien que le nouvel équilibre suite à la modification du niveau des prix se situe exactement à la verticale de l’équilibre initiale. Par conséquent le niveau d’emploi reste inchangé, il est toujours égal à N0 mais les salaires nominaux sont passé de W0 à W1. Le salaire réel lui est inchangé puisque le salaire nominal à augmenter dans les même proportions que la hausse des prix.
+|| Chapitre 3, Macro, Prix, QR
 
 Puisque le salaire réel est inchangé, les entreprises tout comme les ménages sont disposés à échanger une quantité de travail identique. Ce qui fait que on arrive à W1/ P1= W0/P0.
-
-
+|| Chapitre 3, Macro, QR
 
 Le raisonnement similaire peut être fait si on passe de P0 à P2. On peut donc dire que le niveau des prix n’a aucune influence sur la quantité de travail échangé. Le fait que la quantité de travail soit inchangé conduit au fait que la production globale est également inchangée. Ce qui veut dire que une modification des prix n'a pas d’influence sur le PIB. (voile de la monnaie dans l’éco)
+|| Chapitre 3, Macro, PIB, Prix, QR
 
+La ligne NN montre que l’équilibre sur le marché du travail implique une valeur unique de la production globale qui est compatible avec n’importe quel niveau des prix P (verticale qq soit p).
+|| Chapitre 3, Macro, Prix, QR
 
-
-La ligne NN montre que l’équilibre sur le marché du travail implique une valeur unique de la production globale qui est compatible avec n’importe quel niveau des prix P (verticale qq soit p). 
-
-Pour résumer le marché du travail fixe le niveau d’emplois et de salaire réel mais à aucun moment il ne fixe w et p séparément donc le niveau de production. On comprend de ce fait que le niveau d’emploi sera N0 si seulement les entrep sont sûre d’écouler leur production qu’ils réalisent avec cette quantité de travail. La conception classique de la détermination de niveau d’emploi vaut uniquement si on accepte la loi des débouchés de Jean Baptise Say qui supprime toute crises de surproduction. 
-
-
+Pour résumer le marché du travail fixe le niveau d’emplois et de salaire réel mais à aucun moment il ne fixe w et p séparément donc le niveau de production. On comprend de ce fait que le niveau d’emploi sera N0 si seulement les entrep sont sûre d’écouler leur production qu’ils réalisent avec cette quantité de travail. La conception classique de la détermination de niveau d’emploi vaut uniquement si on accepte la loi des débouchés de Jean Baptise Say qui supprime toute crises de surproduction.
+|| Chapitre 3, Macro, QR
 
 On va s’intéresser à la variation des prix quantité de travail et impact sur la production
+|| Chapitre 3, Macro, Prix, QR
 
+La ligne NN indique la quantité de bien agrégé = la production globale qui est offerte par les entreprises = l’O globale.
+|| Chapitre 3, Macro, QR
 
+Celle-ci dépend des comportement sur le marché du travail et notamment de la quantité de travail qui est échangés sur ce marché qui à son tour dépend elle-même du salaire réel :
+|| Chapitre 3, Macro, QR
 
-La ligne NN indique la quantité de bien agrégé = la production globale qui est offerte par les entreprises = l’O globale. 
-
-Celle-ci dépend des comportement sur le marché du travail et notamment de la quantité de travail qui est échangés sur ce marché qui à son tour dépend elle-même du salaire réel : 
-
-n^d (w)=n^2 (w) 
+n^d (w)=n^2 (w)
+|| Chapitre 3, Macro, QR
 
 Une fois le salaire réel trouvé par cette égalité on peut calculer le niv de production globale soit à partir de l’O soit a parti de la D de travail : N=n^d(w)
+|| Chapitre 3, Macro, QR
 
 En se servant de cette dernière équation on va pouvoir réécrire la fonction de production de la manière suivante :
+|| Chapitre 3, Macro, QR
 
-
-
-
-
-On sait que : Y= f(n) 
-
-
+On sait que : Y= f(n)
+|| Chapitre 3, Macro, QR
 
 La production est une fonction décroissante du salaire réel ce qui veut dire que si le salaire réel diminue, la quantité de travail diminue sur le marché du travail et donc la production diminue. Ainsi, pour un salaire nominal donné, la production est croissante avec le niveau des prix.
-
-
+|| Chapitre 3, Macro, Prix, QR
 
 (La courbe en gras doit passer par l’intersection W0 N0)
+|| Chapitre 3, Macro, QR
 
+Comme indiqué dans le graphique, pour un niveau général des prix= à P1 et un salaire nominal = à W0, les entreprises seraient prêtes à demander, à utiliser une quantité de travail= à N1 et donc de produire la quantité Y1.
+|| Chapitre 3, Macro, Prix, QR
 
+Cependant, une augmentation des prix entraine de façon inévitable une augmentation dans les même proportion du salaire nominal (vu précédemment).
+|| Chapitre 3, Macro, Prix, QR
 
-Comme indiqué dans le graphique, pour un niveau général des prix= à P1 et un salaire nominal = à W0, les entreprises seraient prêtes à demander, à utiliser une quantité de travail= à N1 et donc de produire la quantité Y1. 
-
-
-
-Cependant, une augmentation des prix entraine de façon inévitable une augmentation dans les même proportion du salaire nominal (vu précédemment). 
-
-Dans ces conditions, l’O globale (graphique du haut) se déplace vers la gauche ou le haut suite à l’augmentation des couts salariaux si bien qu’au final la quantité offerte en bien agrégé n’est pas modifié. 
-
-
+Dans ces conditions, l’O globale (graphique du haut) se déplace vers la gauche ou le haut suite à l’augmentation des couts salariaux si bien qu’au final la quantité offerte en bien agrégé n’est pas modifié.
+|| Chapitre 3, Macro, QR
 
 On comprend que si le taux de salaire réel effectif < taux de salaire réel d’équilibre, dans ce cas, il y a un excès de demande de travail de la part des firmes et les salaires monétaires vont sous l’effet de la concurrence mais aussi sous l’effet de la pression des ménages augmenter. Le niveau général des prix étant inchangé, les salaires réels vont augmenter ce qui réduit la D de travail et augmente l’O de travail.
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
 Le processus se poursuit jusqu’à ce qu’on retrouve l’équilibre, il en est de même si on était dans le cas inverse.
+|| Chapitre 3, Macro, QR
 
+Sous ces hypothèses de CPP, le niveau d’emploi est celui de plein emploi. Dans le cadre du modèle classique, le chômage involontaire n’est pas concevable. En effet, il existe des mécanismes de marché qui fait que dès lors que le marché du travail est perturbé, si il existe du chômage involontaire, celui-ci va être résorber de manière automatique par une baisse de salaire réel. Ce qui fait que à l’équilibre, le seul chômage qui existe est le chômage volontaire cad les ménages qui ont fait le choix d’arbitrer en faveur du loisirs plutôt que du travail.
+|| Chapitre 3, Macro, QR
 
-
-Sous ces hypothèses de CPP, le niveau d’emploi est celui de plein emploi. Dans le cadre du modèle classique, le chômage involontaire n’est pas concevable. En effet, il existe des mécanismes de marché qui fait que dès lors que le marché du travail est perturbé, si il existe du chômage involontaire, celui-ci va être résorber de manière automatique par une baisse de salaire réel. Ce qui fait que à l’équilibre, le seul chômage qui existe est le chômage volontaire cad les ménages qui ont fait le choix d’arbitrer en faveur du loisirs plutôt que du travail. 
-
-Si jamais ce chômage ne se résorbe pas, cela peut être lié au fait que les salaires sont rigides = proposition des libéraux face au chômage qui sont favorable à une plus grande flexibilité du marché du travail notamment en ce qui concerne la rémunération du travail. 
-
-
+Si jamais ce chômage ne se résorbe pas, cela peut être lié au fait que les salaires sont rigides = proposition des libéraux face au chômage qui sont favorable à une plus grande flexibilité du marché du travail notamment en ce qui concerne la rémunération du travail.
+|| Chapitre 3, Macro, QR
 
 Le fait que le niveau d’emploi se détermine uniquement à partir du marché du travail nécessite qu’en cas de chômage involontaire (sous-emploi), il faut chercher les causes et les remèdes sur ces marchés.
-
-
+|| Chapitre 3, Macro, QR
 
 Pour les classiques, le marché du L fixe le niveau d’emploi et le salaire réel et donc la production. Il est donc nécessaire que les firmes soient assurées d’écouler leur production qui est le résultat de la quantité de travail déterminé sur le marché du travail d’où la nécessité d’accepter le fait que la loi des débouchés soit vérifié.
+|| Chapitre 3, Macro, QR
 
+Le marché du capital de prêt = marché des fonds prêtables.
+|| Chapitre 3, Macro, QR
 
-
-
-
-Le marché du capital de prêt = marché des fonds prêtables. 
-
-
-
-Sur ce marché on a la mise en relation des épargnants qui vont vouloir placer leurs fonds (épargne) et on a des entreprises qui vont vouloir emprunter prck elles veulent faire des investissements mais également l’état (adm publiques) car il va devoir financer son déficit budgétaires. 
+Sur ce marché on a la mise en relation des épargnants qui vont vouloir placer leurs fonds (épargne) et on a des entreprises qui vont vouloir emprunter prck elles veulent faire des investissements mais également l’état (adm publiques) car il va devoir financer son déficit budgétaires.
+|| Chapitre 3, Macro, QR
 
 Ce marché va se rencontrer/ajuster entre agent en capacité de financement (ménages) et les agents en besoin de financement (pour investir/financer leur déficit)
+|| Chapitre 3, Macro, QR
 
-En réalité on peut considérer ce marché comme un marché des titres (titres financiers) sur lequel il va y avoir une offre pour utiliser une capacité de financement et une demande de fond cad qui vont chercher à combler un besoin de financement. Ce marché permet de dégager une quantité échangé et un prix d’équilibre et sur ce marché, le prix d’équilibre c’est ce qu’on va appeler le taux d’intérêt réel d’équilibre. 
-
-
+En réalité on peut considérer ce marché comme un marché des titres (titres financiers) sur lequel il va y avoir une offre pour utiliser une capacité de financement et une demande de fond cad qui vont chercher à combler un besoin de financement. Ce marché permet de dégager une quantité échangé et un prix d’équilibre et sur ce marché, le prix d’équilibre c’est ce qu’on va appeler le taux d’intérêt réel d’équilibre.
+|| Chapitre 3, Macro, Prix, Offre-Demande, QR
 
 L’O de K de prêt= (demande de titre des ménages) est issu d’une règle de comportement que les classiques supposent aussi être individuel.
+|| Chapitre 3, Macro, Offre-Demande, QR
 
 Cad que l’O global de K de prêt cad la D de titre global résulte d’une optimisation intertemporelle entre consommer ajd et consommer demain. Car ils reçoivent un salaire soit qu’ils consomment intégralement, soit qu’ils placent sur un marché financier pour une conso future.
+|| Chapitre 3, Macro, QR
 
 On peut donner l’interprétation au taux d’intérêt qui va être une récompense issue d’une renonciation à une consommation dans le présent.
+|| Chapitre 3, Macro, Consommation, QR
 
-+ le taux d’intérêt réel est élevé et + les ménages (=les épargnants) vont être incités à placer leur fonds dans des actifs financiers. 
++ le taux d’intérêt réel est élevé et + les ménages (=les épargnants) vont être incités à placer leur fonds dans des actifs financiers.
+|| Chapitre 3, Macro, QR
 
-
-
-On retrouve l’effet de substituions qui nous dit que « si le taux d’intérêt augmente, les individus sont incités à substituer leur épargne à la consommation courante. » 
+On retrouve l’effet de substituions qui nous dit que « si le taux d’intérêt augmente, les individus sont incités à substituer leur épargne à la consommation courante. »
+|| Chapitre 3, Macro, Consommation, QR
 
 Selon l’effet revenu, si les taux d’intérêt augmente, les ménages vont augmenter leur consommation courante prck l’épargne est mieux rémunéré. Chez les classiques, l’effet de substitution prédomine l’effet de revenu donc bilan= la fonction d’O de K de prêt est une fonction croissante du taux d’intérêt.
+|| Chapitre 3, Macro, Consommation, QR
 
+Du côté de la demande de K de prêt ou encore l’O de titre, on va distinguer le comportement des :
+|| Chapitre 3, Macro, Offre-Demande, QR
 
+Des administrations publiques. En effet, en ce qui concerne l’état, il a l’obligation de financer son déficit budgétaires cad qu’on peut poser l’hypothèse que la D de K de prêt de l’état cad l’O de titre de l’état est indépendante du taux d’intérêt, on dit encore qu’elle est inélastique.
+|| Chapitre 3, Macro, QR
 
+Des entreprises= elles ont un comportement qui est en relation direct avec leur décision d’investissement. On sait que l’investissement est une fonction décroissante du taux d’intérêt donc l’O de titre de la part des entreprises autrement dit la D de K de prêt de la part des entreprises va être une fonction décroissante du taux d’intérêt.
+|| Chapitre 3, Macro, Investissement, QR
 
-
-Du côté de la demande de K de prêt ou encore l’O de titre, on va distinguer le comportement des : 
-
-Des administrations publiques. En effet, en ce qui concerne l’état, il a l’obligation de financer son déficit budgétaires cad qu’on peut poser l’hypothèse que la D de K de prêt de l’état cad l’O de titre de l’état est indépendante du taux d’intérêt, on dit encore qu’elle est inélastique. 
-
-
-
-Des entreprises= elles ont un comportement qui est en relation direct avec leur décision d’investissement. On sait que l’investissement est une fonction décroissante du taux d’intérêt donc l’O de titre de la part des entreprises autrement dit la D de K de prêt de la part des entreprises va être une fonction décroissante du taux d’intérêt. 
-
-
-
-On retrouve le fait que le cout marginal du facteur de production qui est ici le K physique est déterminé par le taux d’intérêt réel. Donc la maximisation de l’utilité conduit à ce que la productivité marginale du facteur de production capital physique soit = au taux d’intérêt 
-
-
+On retrouve le fait que le cout marginal du facteur de production qui est ici le K physique est déterminé par le taux d’intérêt réel. Donc la maximisation de l’utilité conduit à ce que la productivité marginale du facteur de production capital physique soit = au taux d’intérêt
+|| Chapitre 3, Macro, QR
 
 Ce marché du K de prêt n’a aucune influence sur le niveau de production globale. Cependant, il a un impact sur la répartition du produit global cad la répartition entre consommation et investissement.
+|| Chapitre 3, Macro, Consommation, Investissement, QR
 
-
-
-Cela résulte de l’hypothèse faite au départ, on est à court terme, le stock de K est fixe donc les décisions en termes d’épargne et d’investissement ont une influence simplement à court terme sur la composition de la demande qui s’adresse aux firmes et n’influence pas le niveaux de production qui lui dépend du facteur travail cad de ce qui se passe sur le marché du travail. 
-
-
+Cela résulte de l’hypothèse faite au départ, on est à court terme, le stock de K est fixe donc les décisions en termes d’épargne et d’investissement ont une influence simplement à court terme sur la composition de la demande qui s’adresse aux firmes et n’influence pas le niveaux de production qui lui dépend du facteur travail cad de ce qui se passe sur le marché du travail.
+|| Chapitre 3, Macro, Investissement, Offre-Demande, QR
 
 A long terme (évolution du K physique) les décisions d’investissement vont modifier le niveau de K de l’entreprise donc cela va avoir un impact sur la fonction de production et par conséquent sur le niveau de produit global offert par les entreprises. En effet, a + long terme, l’augmentation des capacités de production via l’introduction du progrès technique vient modifier la technologie de l’offre.
-
-
+|| Chapitre 3, Macro, Investissement, Offre-Demande, QR
 
 La détermination du niveau général des prix : le marché de la monnaie
+|| Chapitre 3, Macro, Prix, QR
 
 QCM || Les idées centrales du modèle classique incluent || V:Possibilité de plein emploi des facteurs|V:Absence de crises de surproduction|V:Dichotomie réel/monétaire|Intervention nécessaire de l'État
 QCM || La loi de Say stipule que || V:L'offre crée sa propre demande|La demande crée l'offre|V:Tout bien produit trouve un acheteur|Les crises sont inévitables
@@ -503,3 +420,4 @@ QCM || L'équilibre sur le marché du travail détermine || V:Le salaire réel d
 QCM || Si W/P < (W/P)*, alors || V:Demande de travail > Offre de travail|Chômage involontaire|V:Les salaires nominaux tendent à augmenter|Équilibre automatique
 QCM || Dans le modèle classique, le chômage éventuel est || V:Volontaire (choix des agents)|Involontaire|V:Dû aux rigidités temporaires|Structurel permanent
 QCM || La principale différence entre approches keynésienne et classique || V:Keynes privilégie la demande, les classiques l'offre|Aucune différence fondamentale|V:Possibilité de sous-emploi chez Keynes vs plein emploi classique|Les classiques ignorent le marché du travail
+|| Chapitre 3, Macro, Keynes, Prix, Offre-Demande, DragMatch

@@ -45,3 +45,4 @@ QCM || Coûts d’opportunité identiques entre deux pays impliquent || V:dispar
 QCM || Avec coûts de transaction t>0, l’intervalle de prix mutuellement avantageux || V:se rétrécit|s’élargit|reste identique|s’inverse || Les frictions rognent la zone de gains || Partiels 2024, MI3, Série A, QCM
 QCM || Une hausse du prix relatif du pain (en fromage) déplace la frontière des possibilités de consommation (FPC) en autarcie || V:ne change pas la FPP mais réduit la consommation optimale de pain|élargit la FPP|déplace la FPP vers l’extérieur|supprime l’arbitrage || Prix change choix, pas technologie (FPP) || Partiels 2023, MI3, Série B, QCM
 QCM || Dans un modèle à une ressource « travail » limitée, la spécialisation modifie || V:l’allocation du travail entre secteurs|la technologie|les préférences|la dotation totale en travail || Organisation productive || Partiels 2022, MI3, Série C, QCM
+|| Analyse Éco, MI3, Ricardo, Consommation, Prix, DragMatch

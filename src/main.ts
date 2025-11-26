@@ -783,6 +783,156 @@ async function showProgressionDashboard() {
 
   // Scroll to top
   window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // Écouter événement de démarrage de quiz de placement
+  window.addEventListener('startPlacementQuiz', ((e: CustomEvent) => handlePlacementQuizStart(e)) as unknown as EventListener);
+}
+
+/**
+ * Gérer le démarrage d'un quiz de placement
+ */
+async function handlePlacementQuizStart(e: CustomEvent) {
+  const { session } = e.detail;
+  if (!session || !session.questions || session.questions.length === 0) {
+    alert('Erreur: impossible de démarrer le quiz de placement.');
+    return;
+  }
+
+  // Importer PlacementQuiz dynamiquement
+  const { placementQuiz } = await import('./stats/PlacementQuiz');
+
+  // Masquer le dashboard
+  const dashboardContainer = $('#progression-dashboard-container') as HTMLDivElement | null;
+  if (dashboardContainer) {
+    dashboardContainer.style.display = 'none';
+  }
+
+  // Créer interface de quiz
+  const quizContainer = document.createElement('div');
+  quizContainer.id = 'placement-quiz-container';
+  quizContainer.className = 'placement-quiz-active';
+  els.root.innerHTML = '';
+  els.root.appendChild(quizContainer);
+
+  let currentQuestionIndex = 0;
+
+  const renderPlacementQuestion = async () => {
+    if (currentQuestionIndex >= session.questions.length) {
+      // Terminer le quiz
+      const result = await placementQuiz.finalizePlacement(session);
+      const { eloSystem } = await import('./stats/EloProgressionSystem');
+      const rank = eloSystem.getRank(result.estimatedElo);
+      const accuracy = (result.correctAnswers / result.questionsAnswered) * 100;
+      
+      quizContainer.innerHTML = `
+        <div class="card">
+          <h2>🎯 Quiz de placement terminé !</h2>
+          <div style="text-align: center; margin: 30px 0;">
+            <div class="rank-badge" style="display: inline-block;">
+              <div class="rank-icon">${rank.icon}</div>
+              <div class="rank-name">${rank.name}</div>
+            </div>
+          </div>
+          <p><strong>ELO calibré :</strong> ${Math.round(result.estimatedElo)}</p>
+          <p><strong>Thème :</strong> ${result.theme}</p>
+          <p><strong>Précision :</strong> ${Math.round(accuracy)}%</p>
+          <p><strong>Confiance :</strong> ${Math.round(result.confidence * 100)}%</p>
+          <button id="btn-back-to-dashboard" class="primary">Retour au dashboard</button>
+        </div>
+      `;
+
+      const backBtn = $('#btn-back-to-dashboard') as HTMLButtonElement | null;
+      backBtn?.addEventListener('click', () => {
+        quizContainer.remove();
+        if (dashboardContainer) {
+          dashboardContainer.style.display = 'block';
+        }
+        // Rafraîchir le dashboard pour montrer le nouvel ELO
+        showProgressionDashboard();
+      });
+
+      return;
+    }
+
+    const question = session.questions[currentQuestionIndex];
+    const progress = `${currentQuestionIndex + 1} / ${session.questions.length}`;
+
+    quizContainer.innerHTML = `
+      <div class="card">
+        <div class="placement-progress">
+          <span class="muted">Quiz de placement - ${session.theme}</span>
+          <span class="badge">${progress}</span>
+        </div>
+        <h3>${escapeHtml(question.question)}</h3>
+        <div id="placement-answers"></div>
+        ${question.explication ? `<div class="block muted" style="margin-top: 20px;"><small>${escapeHtml(question.explication)}</small></div>` : ''}
+      </div>
+    `;
+
+    const answersDiv = $('#placement-answers') as HTMLDivElement | null;
+    if (!answersDiv) return;
+
+    // Rendre les réponses selon le type de question
+    if (question.type === 'QCM') {
+      question.reponses.forEach((rep: string, idx: number) => {
+        const btn = document.createElement('button');
+        btn.className = 'answer-option';
+        btn.textContent = rep;
+        btn.addEventListener('click', () => handlePlacementAnswer(question, [idx]));
+        answersDiv.appendChild(btn);
+      });
+    } else if (question.type === 'VF') {
+      const btnVrai = document.createElement('button');
+      btnVrai.className = 'answer-option';
+      btnVrai.textContent = 'Vrai';
+      btnVrai.addEventListener('click', () => handlePlacementAnswer(question, 'V'));
+      
+      const btnFaux = document.createElement('button');
+      btnFaux.className = 'answer-option';
+      btnFaux.textContent = 'Faux';
+      btnFaux.addEventListener('click', () => handlePlacementAnswer(question, 'F'));
+      
+      answersDiv.appendChild(btnVrai);
+      answersDiv.appendChild(btnFaux);
+    } else if (question.type === 'QR') {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.placeholder = 'Votre réponse...';
+      
+      const btnSubmit = document.createElement('button');
+      btnSubmit.className = 'primary';
+      btnSubmit.textContent = 'Valider';
+      btnSubmit.addEventListener('click', () => {
+        handlePlacementAnswer(question, input.value.trim());
+      });
+      
+      answersDiv.appendChild(input);
+      answersDiv.appendChild(btnSubmit);
+    }
+  };
+
+  const handlePlacementAnswer = async (question: Question, userAnswer: any) => {
+    // Vérifier si la réponse est correcte
+    let correct = false;
+    
+    if (question.type === 'QCM') {
+      correct = isCorrect(question, { values: userAnswer });
+    } else if (question.type === 'VF') {
+      correct = isCorrect(question, { value: userAnswer });
+    } else if (question.type === 'QR') {
+      correct = isCorrect(question, { value: userAnswer });
+    }
+
+    // Enregistrer la réponse
+    placementQuiz.recordAnswer(session, correct);
+    
+    // Passer à la question suivante
+    currentQuestionIndex++;
+    await renderPlacementQuestion();
+  };
+
+  // Démarrer le quiz
+  await renderPlacementQuestion();
 }
 
 function openFileBrowser() {

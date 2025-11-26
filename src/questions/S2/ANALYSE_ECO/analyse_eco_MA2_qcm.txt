@@ -52,3 +52,4 @@ QCM || Cycle Juglar (7–11 ans) lié à || V:l'investissement|les stocks|les in
 QCM || Décomposition croissance comptable: ΔY/Y = ΔA/A + α ΔK/K + (1−α) ΔL/L signifie || V:PGF capte progrès non expliqués par K,L|PGF = simple résidu statistique sans sens|K,L n’affectent pas Y|α constant inutile || Comptabilité croissance || Partiels 2022, MA2, Série C, QCM
 QCM || Capital humain ↑ → effets attendus sur croissance de long terme || V:↑ PGF et externalités positives|↓ PGF|neutre|uniquement sur K mesuré || Externalités connaissances || Partiels 2024, MA2, Série A, QCM
 QCM || Si production stagne (g_Y=0) alors que K et L augmentent, cela indique || V:chute de PGF (efficacité baisse)|stabilité PGF|hausse PGF|mesure impossible || PGF négative compense la hausse des facteurs || Partiels 2023, MA2, Série B, QCM
+|| Analyse Éco, MA2, Marx, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

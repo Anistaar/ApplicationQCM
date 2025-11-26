@@ -6,5 +6,7 @@ QCM || Pêcheries : leviers efficaces || V:Quotas individuels transférables|V:L
 QCM || OPEP — risque de déviation : pourquoi ? || V:Incitation à surproduire quand prix ↑|Absence de coordination|Ressource infinie|Inexistence des coûts de contrôle
 QCM || Piège : définition des biens communs || Excluables & rivaux|Non‑excluables & non‑rivaux|V:Non‑excluables & rivaux|Excluables & non‑rivaux
 QCM || Propriété publique mondiale (idée) : objectifs || V:Stabilité des prix|V:Réinvestissement dans alternatives|Spéculation libre|Suppression des quotas
+|| Investissement, Prix, DragMatch
 
 QCM || Cas pratique : forêt communale — que mettre en place d’abord ? || V:Règles d’accès + suivi|Rien|Subvention sans contrôle|Quota collectif sans sanction
+|| TRAIN DroitsPropriete Communs v, QCM

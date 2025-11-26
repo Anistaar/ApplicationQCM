@@ -17,3 +17,4 @@ QCM || Pour une loi de distribution symétrique, la moyenne absolue des écarts 
 QCM || Séries A: μ=50, σ=5; B: μ=100, σ=8. Dispersion relative plus forte pour || V:A|B|égales|indéterminable || CV_A=5/50=10%, CV_B=8/100=8% ⇒ A || Chapitre 4, Comparaison CV, QCM
 QCM || Variance d'échantillon (non biaisée) utilise le dénominateur || V:n−1|n|n+1|√n || Estimateur de variance: s^2 = Σ(x−x̄)^2/(n−1) || Chapitre 4, Échantillon, QCM
 QCM || Si la distribution est très asymétrique avec outliers, on préfère comme dispersion || V:IQR|σ|variance|étendue || Robustesse || Chapitre 4, Choix métrique, QCM
+|| Chapitre 4, Stats, Partiel, Offre-Demande, DragMatch

@@ -15,3 +15,4 @@ QCM || Concernant l'étendue || V:Basée sur X_min et X_max|V:Indicateur très s
 
 DragMatch || Associe l'indicateur à la référence || Étendue:Basée sur min et max, Écarts interquartiles:Référence médiane, Variance/Écart-type:Référence moyenne, Coefficient de variation:Dispersion relative || Associations usuelles rappelées dans le chapitre || Diff: Facile, Chapitre 4, Repères
 DragMatch || Associe situation et indicateur adapté || Valeurs extrêmes présentes:Écarts interquartiles, Séries comparées avec échelles différentes:Coefficient de variation, Besoin d'un indicateur simple:Étendue, Autour de la moyenne:Variance/Écart-type || Choix guidé par la nature des données || Diff: Facile, Chapitre 4, Choix pratique
+|| Chapitre 4, Stats, Facile, DragMatch

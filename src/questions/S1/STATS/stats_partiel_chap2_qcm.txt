@@ -15,3 +15,4 @@ QCM || Les axes doivent || V:indiquer les unités|V:avoir graduations lisibles|V
 QCM || En comparaison de distributions de tailles différentes, on || V:normalise (densité)|multiplie par n|tronque l'axe bas|utilise des camemberts || Comparabilité || Chapitre 2, Normalisation, QCM
 QCM || Une légende est utile pour || V:décoder séries/couleurs/symboles|remplacer la source|écrire les formules|supprimer les unités || Lisibilité || Chapitre 2, Légende, QCM
 QCM || Une “heatmap” convient à || V:fréquences bivariées sur grille|parts d'un total|évolution univariée|comparaison de catégories nominales simples || Graphique avancé || Chapitre 2, Heatmap, QCM
+|| Chapitre 2, Stats, Partiel, DragMatch

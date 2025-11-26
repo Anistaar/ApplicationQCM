@@ -411,3 +411,4 @@ Difference Qofferte et Qdemandée
 
 
 Pour déterminer le prix d’équilibre il faut faire la différence à chaque fois des quantités offerte et demander.
+|| Micro, Prix, Offre-Demande, DragMatch

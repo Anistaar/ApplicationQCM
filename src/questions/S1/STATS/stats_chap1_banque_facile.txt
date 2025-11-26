@@ -16,3 +16,4 @@ QCM || Les catégories de la statistique associées aux trois fonctions sont || 
 
 DragMatch || Associe la fonction statistique à sa description || Décrire:Résumer et visualiser l'information, Expliquer:Identifier des relations causales, Prédire:Anticiper des valeurs non observées || Les trois fonctions sont définies et reliées à des tâches spécifiques || Diff: Facile, Chapitre 1, Fonctions
 DragMatch || Associe chaque champ à sa fonction || Statistique descriptive:Décrire, Statistique inférentielle:Prédire, Inférence causale:Expliquer || Alignement direct avec le plan du cours || Diff: Facile, Chapitre 1, Champs
+|| Chapitre 1, Stats, Facile, DragMatch

@@ -1,8 +1,11 @@
 ### Version examen réaliste
+|| INSTIT Examen, QR
 
 ### Version complète
+|| INSTIT Examen, QR
 
 ### QCM Pièges & comparatifs
+|| INSTIT Examen, QR
 
 ### Questions tombées en examen (2024)
 QCM || Selon Douglas North, qu'est-ce qu'une institution ? || Un groupe d’individus poursuivant un but commun|V:Un ensemble de règles de jeu structurant les interactions humaines|Une organisation internationale|Un acteur économique clé
@@ -25,3 +28,4 @@ QCM || Quelles sont les quatre caractéristiques qualitatives des états financi
 QCM || Quel est le rôle principal du FMI ? || Promouvoir le commerce international|V:Fournir des prêts pour stabiliser les économies en difficulté|Gérer les normes comptables internationales|
 QCM || Quelle est la mission principale de l’OMC ? || Réguler les flux migratoires|V:Promouvoir un commerce ouvert et équitable|Superviser les systèmes monétaires|Harmoniser les systèmes fiscaux nationaux
 QCM || Quel accord de l’OMC traite des droits de propriété intellectuelle ? || Accord de Doha|V:Accord sur les ADPIC|Accord sur l’agriculture|Accord général sur les tarifs douaniers
+|| Prix, DragMatch

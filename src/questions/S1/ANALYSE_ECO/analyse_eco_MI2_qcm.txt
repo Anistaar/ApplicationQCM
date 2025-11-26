@@ -42,3 +42,4 @@ QCM || Une subvention de 20€ par vélo vendu crée || V:incitation extrinsèqu
 QCM || Altruisme (bénévolat) illustre || V:motivation intrinsèque|incitation extrinsèque|contrainte budgétaire|efficience de prix || Intrinsèque || Partiels 2024, MI2, Série A, QCM
 QCM || « Sunk cost fallacy » consiste à || V:continuer un projet car coûts passés élevés|arrêter dès que CM > BM|ignorer coûts irrécupérables|maximiser utilité marginale || Erreur de décision || Partiels 2023, MI2, Série B, QCM
 QCM || Règle optimale: choisir quantité q telle que || V:BM(q) = CM(q)|BM total = CM total|BM(q) > CM(q) strictement toujours|CM(q) minimal absolu || Condition de premier ordre || Partiels 2022, MI2, Série C, QCM
+|| Analyse Éco, MI2, Consommation, Prix, Offre-Demande, DragMatch

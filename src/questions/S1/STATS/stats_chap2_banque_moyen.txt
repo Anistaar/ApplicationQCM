@@ -15,3 +15,4 @@ QCM || Erreurs à éviter || V:Échelles trompeuses|V:Tronquer l'axe sans averti
 
 DragMatch || Associe type de graphique et usage || Barres:Comparaison de catégories, Histogramme:Distribution continue, Nuage de points:Relation entre deux quanti., Secteurs:Part d'un total || Usages standards || Diff: Moyen, Chapitre 2, Usages
 DragMatch || Associe élément et vérification || Axe Y:Unité/échelle, Axe X:Libellés lisibles, Légende:Décodage des séries, Source:Origine fiable, Commentaire:Synthèse des points clés || Contenu d'un graphique || Diff: Moyen, Chapitre 2, Contrôle
+|| Chapitre 2, Stats, Moyen, DragMatch

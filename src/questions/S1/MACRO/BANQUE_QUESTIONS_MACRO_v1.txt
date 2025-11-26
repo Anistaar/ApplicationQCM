@@ -93,3 +93,4 @@ QCM || Une VAN de -50 signifie || Investir immédiatement|V:Ne pas investir|Proj
 QCM || La principale différence entre approches keynésienne et classique || V:Keynes privilégie la demande, les classiques l'offre|Aucune différence fondamentale|V:Possibilité de sous-emploi chez Keynes vs plein emploi classique|Les classiques ignorent le marché du travail
 QCM || L'investissement dépend principalement de || V:La demande anticipée|V:Le taux d'intérêt|V:La rentabilité des projets|V:Les modalités de financement
 QCM || Les limites de l'accélérateur simple incluent || V:Hypothèse de pleine utilisation des capacités|V:Ajustement instantané irréaliste|V:Symétrie parfaite hausse/baisse|Prise en compte des délais
+|| Keynes, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

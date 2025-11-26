@@ -1,6 +1,5 @@
 chapter: Chapitre 1 — Partie 2
-
-
+|| Chapitre 1, Stats, QR
 
 Statistiques Descriptives
 L1 Économie
@@ -9,6 +8,7 @@ Faculté de Droit, Économie et Administration
 Université de Lorraine
 Chapitre 1 : Notions statistiques et collecte des données
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20241 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -21,6 +21,7 @@ Notions statistiques et collecte des données
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20242 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -33,6 +34,7 @@ Notions statistiques et collecte des données
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20243 / 69
+|| Chapitre 1, Stats, QCM
 
 Modalités pratiques
 Ce cours mélangera cours magistraux et applications en classe→
@@ -46,6 +48,7 @@ La participation en classe est valorisée!
 L’évaluation comprend une "colle" d’1h30 en cours de semestre (lors
 d’une séance) et un examen final.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20244 / 69
+|| Chapitre 1, Stats, QCM
 
 Références bibliographiques
 Anderson, D. et al. (2015). Statistiques pour l’économie et la
@@ -55,6 +58,7 @@ l’économie: cours, méthodes, exercices corrigés. Bréal.
 Bailly, P. et al. (2007). Statistiques Descriptives : Exercices.
 Presses Universitaires de Grenoble.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20245 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -67,6 +71,7 @@ Notions statistiques et collecte des données
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20246 / 69
+|| Chapitre 1, Stats, QCM
 
 Introduction
 Le mot "statistique" a été inventé au 18è siècle par l’économiste G.
@@ -78,6 +83,7 @@ analyser et prédire le comportement dephénomènes observés.
 La statistique est un champ desmathématiques appliquées: c’est à
 la fois un ensemble de techniques et l’étude scientifique de celles-ci.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20247 / 69
+|| Chapitre 1, Stats, QCM
 
 Introduction
 Les statistiques servent à :
@@ -95,12 +101,14 @@ Marketing, finance, assurance;
 Expériences médicales, prédiction de pathologies;
 Mais aussi archéologie, géosciences, informatique, etc.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20248 / 69
+|| Chapitre 1, Stats, QCM
 
 Les trois fonctions de la statistique
 Décrire
 Expliquer
 Prédire
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-20249 / 69
+|| Chapitre 1, Stats, QCM
 
 Introduction
 L’idée fondamentale de la statistique est qu’en observant unmême
@@ -113,6 +121,7 @@ Expliquer→inférence causale.
 Dans ce cours, on se concentrera sur la partie descriptive: comment
 synthétiser et visualiser l’information contenue par des observations ?
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202410 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -125,6 +134,7 @@ Notions statistiques et collecte des données
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202411 / 69
+|| Chapitre 1, Stats, QCM
 
 Introduction
 Question:comment ne pas dire n’importe quoi en généralisant ce
@@ -140,6 +150,7 @@ statistique mettant en avant que dans une ville donnée, le nombre
 de meurtres a augmenté de 100% entre 2021 et 2022 ?
 Il faut donc faire attention tout au long du processus.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202412 / 69
+|| Chapitre 1, Stats, Offre-Demande, DragMatch
 
 Exemples de biais
 Une application vous dit "Si vous appréciez notre service,
@@ -156,6 +167,7 @@ Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
 représentatifs car ils sont indirectement sélectionnés selon des critères
 précis.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Exemples de biais
 Une application vous dit "Si vous appréciez notre service,
@@ -173,6 +185,7 @@ Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
 représentatifs car ils sont indirectement sélectionnés selon des critères
 précis.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Exemples de biais
 Une application vous dit "Si vous appréciez notre service,
@@ -191,6 +204,7 @@ Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
 représentatifs car ils sont indirectement sélectionnés selon des critères
 précis.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Exemples de biais
 Une application vous dit "Si vous appréciez notre service,
@@ -209,30 +223,36 @@ Ce sont desbiais de sélection: les individus qu’on observe ne sont pas
 représentatifs car ils sont indirectement sélectionnés selon des critères
 précis.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202413 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Le biais du survivant
 Seconde Guerre mondiale: où renforcer le blindage des avions de l’US
 Air Force pour limiter les pertes?
 Réponse : là où il y a le moins d’impacts!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202414 / 69
+|| Chapitre 1, Stats, QCM
 
 Le biais du survivant
 Seconde Guerre mondiale: où renforcer le blindage des avions de l’US
 Air Force pour limiter les pertes?
 Réponse : là où il y a le moins d’impacts!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202414 / 69
+|| Chapitre 1, Stats, QCM
 
 Piège récurrent: la corrélation fallacieuse
 Source: Le Monde
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202415 / 69
+|| Chapitre 1, Stats, QR
 
 Piège récurrent: la corrélation fallacieuse
 Source: Le Monde. Coefficient de corrélation de 90,1%
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202416 / 69
+|| Chapitre 1, Stats, QR
 
 Piège récurrent: la corrélation fallacieuse
 Source: Le Monde
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202417 / 69
+|| Chapitre 1, Stats, QR
 
 Piège récurrent: la corrélation fallacieuse
 On dit que deux phénomènes sontcorréléss’ils évoluent
@@ -244,6 +264,7 @@ en bonne santé il vaut mieux éviter les hôpitaux.
 Une corrélation peut être le fruit du hasard, d’une cause commune (ici,
 la maladie), etc.→corrélation n’implique pas causalité!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202418 / 69
+|| Chapitre 1, Stats, QCM
 
 Visualiser des données
 On peut aussi induire des personnes en erreur en présentant mal
@@ -256,15 +277,19 @@ En mettant trop d’informations pour "noyer le poisson";
 En manipulant les données pour exclure des individus, changer des
 valeurs, etc.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202419 / 69
+|| Chapitre 1, Stats, QCM
 
 Visualiser des données
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202420 / 69
+|| Chapitre 1, Stats, QR
 
 Visualiser des données
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202421 / 69
+|| Chapitre 1, Stats, QR
 
 Visualiser des données
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202422 / 69
+|| Chapitre 1, Stats, QR
 
 Conclusion
 Appréhender les statistiques – que ce soit pour en produire ou en lire –
@@ -275,6 +300,7 @@ Objectifdans la présentation des résultats;
 Synthétiquedans la quantité d’information présentée.
 Bref, faire des statistiques, ça s’apprend!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202423 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -288,6 +314,7 @@ Les regroupements en classes
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202424 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -301,6 +328,7 @@ Les regroupements en classes
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202425 / 69
+|| Chapitre 1, Stats, QCM
 
 La population
 En statistiques, unepopulationreprésente l’ensemble des individus
@@ -315,10 +343,12 @@ On note Card(O)ounl’effectif(le nombre d’individus) deO. On
 appelleeffectif cumulél’effectif deΩ. Exemple :
 Ω ={a, b, c, d}Card(Ω) = 4, doncn=4
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202426 / 69
+|| Chapitre 1, Stats, DragMatch
 
 La population
 Figure: Illustration de la notion de population
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202427 / 69
+|| Chapitre 1, Stats, QR
 
 La population
 Pour récolter des données, deux méthodes sont généralement utilisées:
@@ -334,6 +364,7 @@ exemple, les communes de moins de 10 000 habitants réalisent une
 fois tous les cinq ans une enquête de recensement portant sur toute
 la population, à raison d’une commune sur cinq chaque année.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202428 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -350,6 +381,7 @@ Les regroupements en classes
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202429 / 69
+|| Chapitre 1, Stats, QCM
 
 Variables et modalités
 Lors d’études statistiques, on étudie descaractères– ouvariables
@@ -366,6 +398,7 @@ Pour chaque variables, on peut définir des modalités différentes
 selon les situations: notes avec demi-points, note supérieure ou
 inférieure à 10, etc.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202430 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Variables et modalités
 Toutes les modalités d’un même caractère respectent 2 propriétés:
@@ -377,6 +410,7 @@ incompatibles.
 Exhaustives: chaque individu doit appartenir à une modalité.
 Sinon, un ou plusieurs individus ne sont pas considérés.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202431 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Variables et modalités
 Exercice:
@@ -394,6 +428,7 @@ A partir de cette enquête, peut-on en déduire que la situation
 conjugale de l’ensemble des salariés suit la même répartition?→A
 priori non!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Variables et modalités
 Exercice:
@@ -412,6 +447,7 @@ conjugale de l’ensemble des salariés suit la même répartition?
 →A
 priori non!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Variables et modalités
 Exercice:
@@ -430,6 +466,7 @@ conjugale de l’ensemble des salariés suit la même répartition?
 →A
 priori non!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202432 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Variables qualitatives
 Une variableXestqualitativelorsque ses modalités ne sont pas des
@@ -441,6 +478,7 @@ Lorsque ce n’est pas le cas elle est ditenominale: par exemple
 département de résidence, catégories socio-professionnelles, nom
 des journaux, signes astrologiques.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202433 / 69
+|| Chapitre 1, Stats, QCM
 
 Ensembles discrets et continus
 On dit qu’un ensemble de nombres est
@@ -452,6 +490,7 @@ une infinité de valeurs :0,105,0,100001, etc.
 ATTENTION:un ensemble contenant un nombre fini de nombres est
 toujours discret, mais l’inverse n’est pas vrai!
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202434 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Variables quantitatives
 Une variableXestquantitativelorsqu’elle représente une quantité
@@ -468,6 +507,7 @@ le PIB d’un pays.
 On peut transformer une variable continue en variable discrète en la
 regroupant en classes: par exemple le PIB arrondi au million d’euros.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202435 / 69
+|| Chapitre 1, Stats, PIB, DragMatch
 
 Exercice
 Exercice:Indiquer si les variables suivantes sont qualitatives
@@ -480,6 +520,7 @@ Nombre de parts fiscales par foyer: quantitatif discret.
 Nombre de fautes par ligne: quantitatif discret.
 Niveau de satisfaction: qualitatif ordinal.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202436 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Exercice
 Exercice:Indiquer si les variables suivantes sont qualitatives
@@ -492,6 +533,7 @@ Nombre de parts fiscales par foyer: quantitatif discret.
 Nombre de fautes par ligne: quantitatif discret.
 Niveau de satisfaction: qualitatif ordinal.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202436 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Les effectifs
 L’effectifn
@@ -510,6 +552,7 @@ célibataires, des marié(e)s ou des veuf(ve)s.
 Dans l’exemple des notes, on peut calculer l’effectif des élèves ayant eu
 moins de 10 et de ceux ayant eu 10 ou plus.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202437 / 69
+|| Chapitre 1, Stats, QCM
 
 Les effectifs
 L’effectifcumuléest la somme deskeffectifs partiels. Il peut être
@@ -555,6 +598,7 @@ n
 1
 .
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202438 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Les effectifs
 Remarque :
@@ -562,6 +606,7 @@ Calculer des effectifs cumulés n’a de sens uniquement si l’on
 traite de variables ordinales. De tels calculs pour une variable
 nominale n’a aucun sens.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202439 / 69
+|| Chapitre 1, Stats, QCM
 
 Les effectifs
 Exercice: Soit les notes de 30 étudiants sur 5. Calculer les effectifs
@@ -573,6 +618,7 @@ Effectifn
 i
 467742
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202440 / 69
+|| Chapitre 1, Stats, QCM
 
 Les effectifs (correction)
 Notex
@@ -592,6 +638,7 @@ Comment interpréter le chiffre 17?
 Comment interpréter le chiffre 13?
 13 étudiants ont eu au moins 3 ou plus.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202441 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -607,6 +654,7 @@ Les regroupements en classes
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202442 / 69
+|| Chapitre 1, Stats, QCM
 
 La fréquence simple
 Lafréquencef
@@ -650,6 +698,7 @@ N
 N
 = 1
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202443 / 69
+|| Chapitre 1, Stats, QCM
 
 La fréquence cumulée
 Lafréquence cumuléeest obtenue en cumulant les fréquences
@@ -664,6 +713,7 @@ Calculer des fréquences cumulées n’a de sens uniquement si l’on
 traite de variables ordinales. De tels calculs pour une variable
 nominale n’a aucun sens.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202444 / 69
+|| Chapitre 1, Stats, QCM
 
 La fréquence cumulée
 Exercice :dans un ensemble de 20 individus, on a 5 personnes qui ont
@@ -671,6 +721,7 @@ un salaire compris entre 1000€et 1500€, 5 entre 1500€et 2000€, et 10
 au-dessus de 2000€. Calculez la fréquence simple ainsi que les
 fréquences cumulées croissantes et décroissantes.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202445 / 69
+|| Chapitre 1, Stats, QCM
 
 La fréquence cumulée
 Correction:
@@ -688,6 +739,7 @@ Cela veut dire que 25% des individus gagnent 1500€ou moins.
 Que veut dire le 75% dans la colonneFCD?
 Cela veut dire que 75% des individus gagnent 1500€ou plus.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202446 / 69
+|| Chapitre 1, Stats, QCM
 
 La fréquence cumulée
 Correction:
@@ -705,6 +757,7 @@ Cela veut dire que 25% des individus gagnent 1500€ou moins.
 Que veut dire le 75% dans la colonneFCD?
 Cela veut dire que 75% des individus gagnent 1500€ou plus.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202446 / 69
+|| Chapitre 1, Stats, QCM
 
 La fréquence cumulée
 Correction:
@@ -722,6 +775,7 @@ Cela veut dire que 25% des individus gagnent 1500€ou moins.
 Que veut dire le 75% dans la colonneFCD?
 Cela veut dire que 75% des individus gagnent 1500€ou plus.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202446 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -739,6 +793,7 @@ Les regroupements en classes
 3
 Les opérateurs somme et produit
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202447 / 69
+|| Chapitre 1, Stats, QCM
 
 Classes de valeurs
 Il est possible de construire une nouvelle modalité appeléeclasseen
@@ -769,6 +824,7 @@ Les nouvelles modalités de la variableXsont( ̃x, x
 4
 ).
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202448 / 69
+|| Chapitre 1, Stats, QCM
 
 Amplitude et centre de classe
 Lorsque les classes sont des intervalles,l’amplitudeAd’une classe se
@@ -785,6 +841,7 @@ a+b
 (3)
 Pour la classeX∈[1000; 1500[,C= 1250.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202449 / 69
+|| Chapitre 1, Stats, QCM
 
 Les regroupements en classes
 Dans un échantillon, il existe des règles pour établir les classes ainsi que
@@ -815,6 +872,7 @@ N= 2,5×N
 1
 4
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202450 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Exemple
 Pour déterminer l’amplitude des classes, on utilise la formule suivante:
@@ -837,6 +895,7 @@ classes.
 31494526263939444534
 14263936362651491826
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202451 / 69
+|| Chapitre 1, Stats, QCM
 
 Exemple
 On commence pardéterminer le nombre de classes. On sait que
@@ -860,6 +919,7 @@ L’amplitude est donnée par:
 6
 ≈6,83≈7
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202452 / 69
+|| Chapitre 1, Stats, DragMatch
 
 Exemple
 On obtient le tableau suivant :
@@ -874,6 +934,7 @@ i
 49≥X≥565
 TotalN= 40
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202453 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -886,6 +947,7 @@ L’opérateur sommeΣ
 L’opérateur produit
 ∏
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202454 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -898,6 +960,7 @@ L’opérateur sommeΣ
 L’opérateur produit
 ∏
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202455 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur sommeΣ
 Soitx
@@ -940,6 +1003,7 @@ La somme dekàpdesx
 i
 contient doncp−k+ 1termes.
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202456 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur sommeΣ
 On a les propriétés suivantes :
@@ -1026,6 +1090,7 @@ i
 +nb
 2
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202457 / 69
+|| Chapitre 1, Stats, DragMatch
 
 L’opérateur sommeΣ
 On a :
@@ -1111,6 +1176,7 @@ i
 +nb
 2
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202458 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur sommeΣ
 Exercice :
@@ -1147,6 +1213,7 @@ etz
 +z
 6
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202459 / 69
+|| Chapitre 1, Stats, DragMatch
 
 L’opérateur sommeΣ
 Solutions :
@@ -1224,6 +1291,7 @@ p=0
 z
 2p
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202460 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur sommeΣ
 Exercice :
@@ -1283,6 +1351,7 @@ i
 i
 −5)
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202461 / 69
+|| Chapitre 1, Stats, DragMatch
 
 L’opérateur sommeΣ
 A=
@@ -1322,6 +1391,7 @@ i
 )
 A= 5×6−7×10 =-40
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202462 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur sommeΣ
 B=
@@ -1372,6 +1442,7 @@ i
 )
 B= 4×30 + 12×6 + 9×10 =282
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202463 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur sommeΣ
 C=
@@ -1433,6 +1504,7 @@ i
 )
 C= 2×30−10×6 + 3×6−15×10 =-132
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202464 / 69
+|| Chapitre 1, Stats, QCM
 
 Sommaire
 1
@@ -1445,6 +1517,7 @@ L’opérateur sommeΣ
 L’opérateur produit
 ∏
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202465 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur produit
 ∏
@@ -1470,6 +1543,7 @@ k+1
 ×...×x
 p
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202466 / 69
+|| Chapitre 1, Stats, QCM
 
 L’opérateur produit
 ∏
@@ -1525,6 +1599,7 @@ i
 lnx
 i
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202467 / 69
+|| Chapitre 1, Stats, DragMatch
 
 L’opérateur produit
 ∏
@@ -1545,6 +1620,7 @@ i=1
 2
 )
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202468 / 69
+|| Chapitre 1, Stats, DragMatch
 
 L’opérateur produit
 ∏
@@ -1596,3 +1672,4 @@ i=1
 i=2
 = 5×11 = 55
 Gueye, Guelmamen, MacaultStatistiques Descriptives2023-202469 / 69
+|| Chapitre 1, Stats, QCM

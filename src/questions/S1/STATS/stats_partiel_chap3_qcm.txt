@@ -18,3 +18,4 @@ QCM || Série: vitesses 60, 90 km/h pour même distance. Vitesse moyenne || V:72
 QCM || Série: indices annuels × (1+r). r = 10%, −5%, 20%. Croissance moyenne annuelle g || V:≈7,8%|≈8,0%|≈6,7%|≈9,0% || Géométrique: ((1,1×0,95×1,2)^(1/3)−1)≈0,078 || Chapitre 3, Géo calcul, QCM
 QCM || Pour données fortement multimodales, la meilleure synthèse centrale est souvent || V:la médiane|la moyenne|le mode unique|la moyenne géométrique || Robustesse et représentativité || Chapitre 3, Multimodal, QCM
 QCM || Si on multiplie toutes les valeurs par k>0, la moyenne géométrique est || V:multipliée par k|inchangée|multipliée par k^2|augmentée de k || Homogénéité multiplicative || Chapitre 3, Transformation, QCM
+|| Chapitre 3, Stats, Partiel, Prix, DragMatch

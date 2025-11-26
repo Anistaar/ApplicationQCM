@@ -43,3 +43,4 @@ QCM || Dans une communauté open-source (Wikipédia), la coordination repose sur
 QCM || Exemple d'arbitrage État: subvention aux transports en commun augmente équité mais implique un coût en || V:efficacité budgétaire (ressources limitées)|suppression CO2 immédiate|annulation congestion instantanée|remplacement de toute régulation || Tension efficacité/équité : gain social vs coût fiscal || Partiels 2024, MI1, Série A, QCM
 QCM || Une donnée aberrante (outlier) dans une série d’indicateurs trimestriels doit être || V:analysée (contexte) avant exclusion|toujours supprimée|toujours conservée|remplacée par la moyenne || Esprit critique des données || Partiels 2023, MI1, Série B, QCM
 QCM || Une affirmation non réfutable empiriquement est || V:non scientifique au sens poppérien|scientifique|confirmée|normative forcément || Réfutabilité || Partiels 2022, MI1, Série C, QCM
+|| Analyse Éco, MI1, Consommation, PIB, Prix, DragMatch

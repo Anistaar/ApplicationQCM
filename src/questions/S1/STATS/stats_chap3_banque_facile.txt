@@ -15,3 +15,4 @@ QCM || Parmi ces indicateurs, lesquels sont des tendances centrales ? || V:Moyen
 
 DragMatch || Associe mesure et définition courte || Mode:Valeur la plus fréquente, Médiane:Position 50%, Moyenne arithmétique:Somme/Effectif, Moyenne géométrique:Produit des valeurs à la puissance 1/n || Définitions directes des indicateurs de base || Diff: Facile, Chapitre 3, Définitions
 DragMatch || Associe contexte à l'indicateur approprié || Distribution asymétrique avec valeurs extrêmes:Médiane privilégiée, Données strictement positives multiplicatives:Moyenne géométrique, Série discrète avec répétitions marquées:Mode utile, Mesurer un "centre de gravité":Moyenne arithmétique || Lignes directrices usuelles || Diff: Facile, Chapitre 3, Choix pratique
+|| Chapitre 3, Stats, Facile, DragMatch

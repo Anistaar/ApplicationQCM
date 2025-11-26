@@ -22,3 +22,4 @@ QCM || i ↑ implique : || V:moins de projets rentables (r < i)|plus de projets 
 QCM || Remplacement vs capacité : || V:remplacement = compenser usure ; capacité = accroître K|identiques|remplacement = baisser K|capacité = déprécier K
 
 ### Questions tombées en examen (2022, 2023, 2024)
+|| Keynes, Investissement, Offre-Demande, DragMatch

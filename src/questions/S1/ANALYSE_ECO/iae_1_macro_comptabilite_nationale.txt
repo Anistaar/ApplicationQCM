@@ -1131,3 +1131,4 @@ La CN ne peut pas tout décrire et ne peut pas tout mesurer et parfois elle mesu
 
 
 Nous avons vu que c’est un instrument qui reste insuffisant pour évaluer le bien-être d’une population. Un certain nombre de recommandations ont été faite a partir de la commission stiglitz et en particulier d’utiliser des agrégats plus qualitatifs comme l’IDH, indicateurs sociaux (sur inégalités, lien social) et environnementaux (empreinte écologique). Il faut intégrer la dimension humaine du dvlpmt dans la mesure du bien-être d’une population
+|| Macro, CH1, Marx, Keynes, Consommation, Investissement, PIB, Prix, Offre-Demande, DragMatch

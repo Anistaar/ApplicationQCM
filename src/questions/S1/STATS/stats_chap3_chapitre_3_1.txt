@@ -1,6 +1,5 @@
 chapter: Chapitre 3 — Complément
-
-
+|| Chapitre 3, Stats, QR
 
 Statistiques Descriptives
 L1 Économie
@@ -9,6 +8,7 @@ Faculté de Droit, Économie et Administration
 Université de Lorraine
 Chapitre 3: Les mesures de tendance centrale
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20241 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -22,6 +22,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20242 / 72
+|| Chapitre 3, Stats, QCM
 
 Définition
 Lesindicateurs de tendance centralesont un ensemble de mesures
@@ -34,6 +35,7 @@ ayant sesavantageset sesinconvénients.
 Une étude descriptive d’une variable nécessitera donc souvent de
 calculerplusieursde ces mesures et de lescomparer.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20243 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -49,6 +51,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20244 / 72
+|| Chapitre 3, Stats, QCM
 
 Définition
 Soit une série statistiqueX=x
@@ -64,6 +67,7 @@ les valeurs deX.  C’est la valeur du caractère qui correspond
 à l’effectifle plus grand, ou la fréquence la plus importante.Il
 s’exprime dans la même unité que la variableXétudiée.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20245 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -79,12 +83,14 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20246 / 72
+|| Chapitre 3, Stats, QCM
 
 Variables qualitatives ou quantitatives discrètes
 Dans le cas de variables qualitatives ou quantitatives discrètes, le mode
 est la modalité associée à l’effectif le plus élevé (ou la fréquence la plus
 élevée).
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20247 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -100,6 +106,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20248 / 72
+|| Chapitre 3, Stats, QCM
 
 Variables quantitatives continues
 Pour une variable continue, le mode n’est pas toujours facilement
@@ -113,6 +120,7 @@ i
 diagonales comme indiqué sur la figure. Lemode Moest l’abscisse
 du point d’intersection des diagonales.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20249 / 72
+|| Chapitre 3, Stats, QCM
 
 Variables quantitatives continues
 Pour une variable continue, le mode n’est pas toujours facilement
@@ -126,16 +134,19 @@ i
 diagonales comme indiqué sur la figure. Lemode Moest l’abscisse
 du point d’intersection des diagonales.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-20249 / 72
+|| Chapitre 3, Stats, QCM
 
 Variables quantitatives continues
 Exemple : On s’intéresse à la taille des candidats dans un concours
 D’après ce graphique, la taille la plus fréquente est173cm
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 72
+|| Chapitre 3, Stats, QR
 
 Variables quantitatives continues
 Exemple : On s’intéresse à la taille des candidats dans un concours
 D’après ce graphique, la taille la plus fréquente est173cm
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202410 / 72
+|| Chapitre 3, Stats, QR
 
 Variables quantitatives continues
 On peut également déterminer le mode par le calcul :
@@ -176,6 +187,7 @@ m+1
 ): différence entre la fréquence de la classe modale et
 la fréquence de la classe suivante
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202411 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Avantages et inconvénients
 Le mode représente la valeurla plus fréquented’une série statistique :
@@ -191,6 +203,7 @@ tiques).
 Dans le cas multimodal, on peut choisir un des modes, mais il est mieux
 d’utiliser d’autres mesures plus précises.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202412 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Sommaire
 1
@@ -207,6 +220,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202413 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -223,6 +237,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202414 / 72
+|| Chapitre 3, Stats, QCM
 
 La médiane
 La médiane, notéeMé, est la modalitéx
@@ -239,6 +254,7 @@ E.C.C ou des f.c.c (%)
 La médianeMés’exprime dans la même unité que la variable
 xétudiée.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202415 / 72
+|| Chapitre 3, Stats, QCM
 
 La médiane
 La médiane coupant l’effectif total en deux parties égales, on a deux
@@ -252,6 +268,7 @@ p+ 1ème observation. On a :
 2
 2e cas:l’effectif total N est pair :N= 2pavecpun entier naturel
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 72
+|| Chapitre 3, Stats, DragMatch
 
 La médiane
 La médiane coupant l’effectif total en deux parties égales, on a deux
@@ -265,6 +282,7 @@ p+ 1ème observation. On a :
 2
 2e cas:l’effectif total N est pair :N= 2pavecpun entier naturel
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 72
+|| Chapitre 3, Stats, DragMatch
 
 La médiane
 La médiane coupant l’effectif total en deux parties égales, on a deux
@@ -278,12 +296,14 @@ p+ 1ème observation. On a :
 2
 2e cas:l’effectif total N est pair :N= 2pavecpun entier naturel
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202416 / 72
+|| Chapitre 3, Stats, DragMatch
 
 La médiane
 Si cela a un sens, la médiane Mé est lecentre de l’intervalle
 médian. La médiane n’est pas forcément une modalité observée,
 mais peut être une modalité observable.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202417 / 72
+|| Chapitre 3, Stats, QCM
 
 La médiane
 Exemple 1 :
@@ -296,6 +316,7 @@ obs].
 On obtient[2; 2[.  Le centre de l’intervalle médian est de 2, donc
 Mé=2. Il s’agit d’une modalité observée.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202418 / 72
+|| Chapitre 3, Stats, QCM
 
 La médiane
 Exemple 2 :
@@ -314,10 +335,12 @@ Le centre de l’intervalle médian est de 2,5 enfants par ménage. La
 modalité n’est ni observée, ni observable. La médiane n’est donc pas
 définie.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202419 / 72
+|| Chapitre 3, Stats, QCM
 
 La médiane
 Exemple 3 :
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202420 / 72
+|| Chapitre 3, Stats, QR
 
 La médiane
 La variable est quantitative discrète etN= 223est impair, avec
@@ -327,6 +350,7 @@ qui est l’observation centrale.
 Alors : Mé = valeur de la 112ème observation. Donc Mé = 2,5
 parts fiscales.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202421 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -343,6 +367,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202422 / 72
+|| Chapitre 3, Stats, QCM
 
 Détermination graphique de la médiane
 On reprend la courbe cumulative croissante et on cherche la valeur qui
@@ -351,6 +376,7 @@ Remarque
 La médiane Mé est l’abscisse du point d’intersection entre la
 courbe des ECC (ou FCC) et la courbey=N/2(ouy= 50%).
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202423 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -367,6 +393,7 @@ Généralisation de la médiane
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202424 / 72
+|| Chapitre 3, Stats, QCM
 
 Détermination de la médiane par le calcul
 En règle générale, on ne peut pas calculer une valeur exacte de la
@@ -387,6 +414,7 @@ j
 i
 +a(j−i)
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202425 / 72
+|| Chapitre 3, Stats, QCM
 
 Détermination de la médiane par le calcul
 L’interpolation linéairerepose sur le théorème de Thalès.
@@ -412,19 +440,23 @@ B
 −y
 A
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202426 / 72
+|| Chapitre 3, Stats, QCM
 
 Détermination de la médiane par le calcul
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202427 / 72
+|| Chapitre 3, Stats, QR
 
 Détermination de la médiane par le calcul
 On identifie la classe médiane et on utilise l’interpolation linéaire pour
 trouver la médiane:
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202428 / 72
+|| Chapitre 3, Stats, QR
 
 Détermination de la médiane par le calcul
 Exemple 1 :
 50% des salariés ont un salaire inférieur (ou supérieur) à 2,6k euros.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202429 / 72
+|| Chapitre 3, Stats, QR
 
 Détermination de la médiane par le calcul
 Exemple 2:
@@ -454,6 +486,7 @@ Me−1400
 200
 ⇔Me= 1533,3euros
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202430 / 72
+|| Chapitre 3, Stats, QCM
 
 Détermination de la médiane par le calcul
 On peut également utiliser la formule suivante :
@@ -495,6 +528,7 @@ N
 m
 l’ECC associé à la classe modale.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202431 / 72
+|| Chapitre 3, Stats, QCM
 
 Détermination de la médiane par le calcul
 Dans notre cas, on a donc :
@@ -524,6 +558,7 @@ m−1
 ]
 = 1533,33euros
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202432 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -540,6 +575,7 @@ Déciles
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202433 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -556,6 +592,7 @@ Déciles
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202434 / 72
+|| Chapitre 3, Stats, QCM
 
 Généralisation de la médiane
 Définition
@@ -573,6 +610,7 @@ Les quantiles d’ordreα, comme la médiane Mé, se déterminent à
 l’aide des E.C.C et des F.c.c (%) par interpolation linéaire.
 →La médiane correspond au quantile d’ordreα= 0,5.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202435 / 72
+|| Chapitre 3, Stats, QCM
 
 Définition
 La médiane permet de savoir autour de quelle valeur se répartissent les
@@ -583,9 +621,11 @@ Il peut être informatif de mesurer la même chose mais pour une réparti-
 tion différente: 10/90, 75/20, etc.
 On généralise la notion de médiane grâce auxquantiles.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202436 / 72
+|| Chapitre 3, Stats, QCM
 
 Quantiles d’ordreα
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202437 / 72
+|| Chapitre 3, Stats, QR
 
 Sommaire
 1
@@ -602,6 +642,7 @@ Déciles
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202438 / 72
+|| Chapitre 3, Stats, QCM
 
 Les quartiles
 Définition
@@ -623,6 +664,7 @@ notésQ
 sont les modalités d’une variable qui séparent l’effectif totalN
 en 4 parties égales.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202439 / 72
+|| Chapitre 3, Stats, QCM
 
 Les quartiles
 Graphiquement:
@@ -636,6 +678,7 @@ Q
 ]contient 50% des valeurs
 "centrales" du caractèrex.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202440 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -652,6 +695,7 @@ Déciles
 5
 Les différentes moyennes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202441 / 72
+|| Chapitre 3, Stats, QCM
 
 Les déciles
 Définition
@@ -682,14 +726,17 @@ D
 ]contient 80% des valeurs
 "centrales" du caractèrex.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202442 / 72
+|| Chapitre 3, Stats, QCM
 
 Les quantiles : exemples
 Exemple 1 : déterminez le 2ème décile et le 3ème quartile
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202443 / 72
+|| Chapitre 3, Stats, QR
 
 Les quantiles : exemples
 Exemple 2 : déterminez le 1e quartile et le 7ème décile
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202444 / 72
+|| Chapitre 3, Stats, QR
 
 Les quantiles : exemples
 1e quartile :
@@ -722,6 +769,7 @@ contenantQ
 1
 .
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202445 / 72
+|| Chapitre 3, Stats, QCM
 
 Les quantiles: exemples
 7e décile :
@@ -739,6 +787,7 @@ contenantD
 7
 .
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202446 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -757,6 +806,7 @@ Moyenne d’ordrer
 Moyenne harmonique
 Moyenne géométrique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202447 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -775,6 +825,7 @@ Moyenne d’ordrer
 Moyenne harmonique
 Moyenne géométrique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202448 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne arithmétique
 Lamoyenne arithmétiquede la variablexest donnée par :
@@ -819,16 +870,19 @@ i
 2
 est minimale ssia=x
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202449 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Moyenne arithmétique
 Exemple 1:
 Quel est le nombre moyen d’enfants par ménage?
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202450 / 72
+|| Chapitre 3, Stats, QR
 
 Moyenne arithmétique
 Exemple 2:
 Quel est le salaire mensuel moyen dans cette entreprise?
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202451 / 72
+|| Chapitre 3, Stats, QR
 
 Sommaire
 1
@@ -847,6 +901,7 @@ Moyenne d’ordrer
 Moyenne harmonique
 Moyenne géométrique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202452 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne quadratique
 Définition
@@ -904,6 +959,7 @@ i
 Par exemple : l’écart-type dans une population est la moyenne
 quadratique des distances à la moyenne.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202453 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne quadratique
 Remarque
@@ -912,9 +968,11 @@ a. On l’emploie pour calculer la moyenne des écarts à une valeur
 afin de ne pas avoir à manipuler de valeurs négatives.
 Calculez la moyenne quadratique des écarts à 10 des 20 notes suivantes
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202454 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne quadratique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202455 / 72
+|| Chapitre 3, Stats, QR
 
 Sommaire
 1
@@ -933,6 +991,7 @@ Moyenne d’ordrer
 Moyenne harmonique
 Moyenne géométrique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202456 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne d’ordrer
 Soit(x
@@ -969,6 +1028,7 @@ dans la même unité que la variablexmais n’est pas
 obligatoirement une modalité observée ou même observable de la
 variablex.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202457 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne d’ordrer
 On définitm
@@ -1022,6 +1082,7 @@ i
 1
 r
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202458 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Moyenne d’ordrer
 Propriétés:
@@ -1047,6 +1108,7 @@ r
 r
 ′
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202459 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -1065,6 +1127,7 @@ Moyenne d’ordrer
 Moyenne harmonique
 Moyenne géométrique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202460 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne harmonique
 Lamoyenne harmoniqueest l’inverse de la moyenne
@@ -1076,6 +1139,7 @@ Elle est particulièrement utile lorsqu’on raisonne sur des rapports
 de proportions (p.ex. taux de change).
 Il s’agit de la moyenne d’ordrer=−1.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202461 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne harmonique
 Remarques:
@@ -1120,11 +1184,13 @@ i
 x
 i
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202462 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Moyenne harmonique
 Exemple 1:
 Quel est le cours moyen de l’EUR en DH?
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202463 / 72
+|| Chapitre 3, Stats, QR
 
 Moyenne harmonique
 Indépendamment des tableaux :
@@ -1163,6 +1229,7 @@ i
 1600
 = 9,60DH/EUR
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202464 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Moyenne harmonique
 Tableau 1: le cours moyen de l’EUR en DH est la moyenne
@@ -1180,6 +1247,7 @@ nombresn
 i
 de dirhams.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202465 / 72
+|| Chapitre 3, Stats, QCM
 
 Sommaire
 1
@@ -1198,6 +1266,7 @@ Moyenne d’ordrer
 Moyenne harmonique
 Moyenne géométrique
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202466 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne géométrique
 Définition
@@ -1265,6 +1334,7 @@ i
 i
 >0
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202467 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne géométrique
 Remarques:
@@ -1306,6 +1376,7 @@ c
 4
 =−4%
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202468 / 72
+|| Chapitre 3, Stats, DragMatch
 
 Moyenne géométrique: le TCAM
 Définition
@@ -1316,6 +1387,7 @@ Il permet une comparaison avec d’autres périodes qui peuvent
 moyenne géométrique des différents taux de croissance
 de la période étudiée.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202469 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne géométrique: le TCAM
 Soit une durée totaleN= 3ans, une durée d’applicationn
@@ -1371,6 +1443,7 @@ d’applicationn
 i
 .
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202470 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne géométrique: le TCAM
 Exemple: le chiffre d’affaires d’une entreprise a augmenté de 5% par an
@@ -1378,7 +1451,9 @@ pendant 2 ans, puis de 7% par an pendant 3 ans. Il a diminué de 2%
 par an pendant 4 ans. Calculez le TCAM sur cette période de 9 ans du
 chiffre d’affaires de cette entreprise.
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202471 / 72
+|| Chapitre 3, Stats, QCM
 
 Moyenne géométrique: le TCAM
 Correction:
 Gueye, Guelmamen & MacaultStatistiques Descriptives2023-202472 / 72
+|| Chapitre 3, Stats, QR

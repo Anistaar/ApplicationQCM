@@ -43,3 +43,4 @@ QCM || Travail simple et travail complexe : || V:le travail complexe compte comm
 QCM || Marchandise chez Marx : || V:un bien produit pour l’échange, porteur de valeur d’usage et de valeur|tout bien rare|un service public|un bien non reproductible
 QCM || Salaire réel vs salaire nominal : || V:réel = pouvoir d’achat (W/P)|nominal = W/P|réel = W|réel = W×P
 QCM || Rôle du progrès technique : || V:augmente C/V et tend à faire baisser le taux de profit|réduit le capital constant et augmente le taux de profit|n’a aucun effet sur la valeur|supprime la plus-value
+|| Marx, Consommation, Investissement, Prix, Offre-Demande, DragMatch

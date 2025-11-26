@@ -14,3 +14,4 @@ QCM || Comparaison de dispersion entre groupes || V:Utiliser CV|V:Comparer IQR p
 
 DragMatch || Associe situation et indicateur adapté || Échelles différentes:CV, Outliers nombreux:IQR, Addition de risques indépendants:Somme des variances, Transformation affine:Var(aX+b)=a^2 Var(X) || Choix d'indicateur/calcul || Diff: Difficile, Chapitre 4, Choix
 DragMatch || Associe calcul et résultat || Serie avec μ et σ:CV=σ/μ, Données groupées:Var≈Σf_i(c_i−μ)^2/n, Fusion d'échantillons:mélanger moyennes/variances avec poids, Standardisation:Z=(X−μ)/σ || Outils de dispersion avancés || Diff: Difficile, Chapitre 4, Calculs avancés
+|| Chapitre 4, Stats, Difficile, DragMatch

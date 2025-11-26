@@ -9,3 +9,4 @@ FormulaBuilder || Part capital dans croissance = ? || α|g_K|× || α · g_K || 
 FormulaBuilder || Part travail dans croissance = ? || 1|α|g_L|−|×|(|) || (1-α) · g_L || Contribution du travail à la croissance || MA2, PartL, Difficile
 
 FormulaBuilder || Production totale spécialisée > ? || Σ|autarcies || Σ(autarcies) || Gains de spécialisation : production totale supérieure || MI3, GainsSpec, Difficile
+|| Analyse Éco, Difficile, MI3, MA2, DragMatch

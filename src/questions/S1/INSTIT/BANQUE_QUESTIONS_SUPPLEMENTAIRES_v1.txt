@@ -77,3 +77,4 @@ QCM || La théorie des contrats incomplets explique || V:Pourquoi tous les conti
 QCM || Quel lien existe entre institutions et inégalités ? || V:Les institutions peuvent réduire ou amplifier les inégalités|Aucun lien|Les institutions augmentent toujours les inégalités|V:Certaines institutions redistributives
 QCM || Le concept de "institutional complementarity" suggère que || V:Les institutions se renforcent mutuellement|Chaque institution fonctionne isolément|La concurrence entre institutions|L'uniformité institutionnelle
 QCM || Comment mesurer l'efficacité d'une réforme institutionnelle ? || V:Impact sur les comportements économiques|V:Coûts de mise en œuvre|V:Acceptabilité sociale|Critère unique de PIB
+|| PIB, Prix, DragMatch

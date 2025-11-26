@@ -10,3 +10,4 @@ QCM || Échelle ordinale: statistique recommandée pour position || V:médiane|m
 QCM || Un échantillon aléatoire simple de taille n signifie || V:tirage équiprobable sans biais|tirage de commodité|quotas|volontariat || Échantillonnage || Partiels 2023, Partiel 2, Chapitre 1, QCM
 QCM || Fréquence d’une classe « 60 à 70% » notée f_{60-70} se calcule comme || V:effectif de la classe / n|effectif cumulés croissants|n/total|1 − F(70) || Définition || Partiels 2023, Partiel 2, Chapitre 1, QCM
 QCM || Densité d’une classe [a;b[ de largeur L=b−a est || V:effectif/L|effectif|fréquence|moyenne de classe || Histogramme (densité) || Partiels 2023, Partiel 2, Chapitre 2, QCM
+|| Stats, Partiel, DragMatch

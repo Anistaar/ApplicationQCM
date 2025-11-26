@@ -22,3 +22,4 @@ QCM || Une confusion à éviter d'après la fiche est || V:main invisible ≠ la
 QCM || En keynésianisme, S et I || V:peuvent diverger à court terme, générant sous-emploi|sont égaux instantanément par prix|sont imposés par l'État|ne dépendent pas des anticipations || Divergence via comportements d'épargne et I instable || HPE, Keynes
 QCM || La monnaie influence l'activité parce qu'elle || V:affecte le taux d'intérêt et l'investissement|fixe directement la productivité|détermine la valeur-travail|supprime les anticipations || Monnaie active par la préférence pour la liquidité || HPE, Keynes
 QCM || Le rôle de l'État chez Keynes est || V:stabilisateur conjoncturel par politiques budgétaire/monétaire|strictement minimal|limité à la justice et défense|uniquement redistributif || Stabilisation de l'activité et de l'emploi || HPE, Politiques
+|| HPE, RIAE, Smith, Keynes, Consommation, Investissement, Prix, Offre-Demande, DragMatch

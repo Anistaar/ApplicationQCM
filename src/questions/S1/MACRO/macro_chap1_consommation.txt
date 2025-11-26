@@ -1,562 +1,451 @@
 chapter: Chapitre 1 > Consommation
+|| Chapitre 1, Macro, Consommation, QR
 
 CH 1 macroéconomie : la consommation
+|| Chapitre 1, Macro, CH1, Consommation, QR
 
+Au sens strict, la consommation= destruction de biens ou de services par l’usage à des fins de satisfaction direct d’un besoin humain
+|| Chapitre 1, Macro, Consommation, QR
 
-
-Au sens strict, la consommation= destruction de biens ou de services par l’usage à des fins de satisfaction direct d’un besoin humain 
-
-
-
-En macro la consommation= bien et services achetés par les ménages 
+En macro la consommation= bien et services achetés par les ménages
+|| Chapitre 1, Macro, Consommation, QR
 
 Sachant que les ménages consomment à la fois des biens et des services marchands mais également non marchands, produit notamment par les administrations publiques (domaine de l’enseignement, santé..).
-
-
+|| Chapitre 1, Macro, QR
 
 Ces services, s’ils sont totalement gratuits dans ce cas-là, ils n’entrent pas dans la consommation finale alors même qu’ils contribuent à augmenter le niveau de vie de la population, au même titre que des services marchands correspondant (ex : service gratuit= école primaire= pas pris en compte mais école pv si). Quand on les prend en compte, on arrive à la consommation élargis de la population.
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 Consommation d’un pays= bien et services marchands soit acheté soit autoconsommé et également les services non marchands individualisable (qui sont payés partiellement prck dès qu’ils sont totalement gratuit on ne les prend pas en compte.)
+|| Chapitre 1, Macro, Consommation, QR
 
+Structure de la consommation et le revenu
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-
-Structure de la consommation et le revenu 
-
-
-
-Il est nécessaire de spécifier de manière plus précise le revenu qui est considéré : 
+Il est nécessaire de spécifier de manière plus précise le revenu qui est considéré :
+|| Chapitre 1, Macro, QR
 
 Est-ce qu’on parle du revenu national brut, revenu national ou est ce qu’on parle du revenu disponible des ménages ?
+|| Chapitre 1, Macro, QR
 
 Le plus parlant= le revenu disponible des ménages
+|| Chapitre 1, Macro, QR
 
-Au niveau des ménages, on va retrouver cet équilibre emploi= ressource 
+Au niveau des ménages, on va retrouver cet équilibre emploi= ressource
+|| Chapitre 1, Macro, QR
 
+Dans les ressources il y a🡺 revenu de l’activité + revenu de son patrimoine =revenu primaire
+|| Chapitre 1, Macro, QR
 
++ prestations sociales= prélèvements obligatoires = transferts nets de redistribution
+|| Chapitre 1, Macro, QR
 
-Dans les ressources il y a🡺 revenu de l’activité + revenu de son patrimoine =revenu primaire 
+Revenu disponible brut = Yd
+|| Chapitre 1, Macro, QR
 
-+ prestations sociales= prélèvements obligatoires = transferts nets de redistribution 
-
-
-
-Revenu disponible brut = Yd 
-
-Sert à 
+Sert à
+|| Chapitre 1, Macro, QR
 
 Emploi = Consommation finale + l’épargne
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-Il existe des nomenclatures de consommation auxquels on associe des coefficients budgétaires : 
-
-
+Il existe des nomenclatures de consommation auxquels on associe des coefficients budgétaires :
+|| Chapitre 1, Macro, Consommation, QR
 
 Consommation par fonction= dépenses de consommation qui se distinguent selon la nature des besoins des ménages qu’elles satisfont
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-On a des produits complémentaires = ils sont simultanément nécessaires pour satisfaire un unique besoin (ex : une voiture, du carburant) 
+On a des produits complémentaires = ils sont simultanément nécessaires pour satisfaire un unique besoin (ex : une voiture, du carburant)
+|| Chapitre 1, Macro, QR
 
 Soit ce sont des biens substituables= je peux satisfaire mon besoin par deux biens différents (ex : alternative à la voiture)
-
-
+|| Chapitre 1, Macro, QR
 
 La consommation par la durabilité= biens regroupés selon leur durée d’utilisation, les biens qui sont durables distingués des biens fongibles (article d’équipement des ménages ou de loisirs), semi durable= dépense abimantes et tout ce qui est bien fongibles/non durable= aliments, énergie.
+|| Chapitre 1, Macro, Consommation, QR
 
+Consommation par produit= décomposition faite selon l’optique de production qui retient comme critère la nature de l’objet consommé. Cette nomenclature est utilisée pour les études macro éco lorsqu’il y a nécessité de confronter la consommation et la production.
+|| Chapitre 1, Macro, Consommation, QR
 
-
-Consommation par produit= décomposition faite selon l’optique de production qui retient comme critère la nature de l’objet consommé. Cette nomenclature est utilisée pour les études macro éco lorsqu’il y a nécessité de confronter la consommation et la production. 
-
-Lien avec le revenu= il existe des coefficients budgétaires b indice i = la part exprimée en pourcentage de la consommation d’un bien ou d’un service i sur l’ensemble de la consommation bi = Ci/C x100. Ces coefs permettent des comparaisons dans le temps et dans l’espace 
+Lien avec le revenu= il existe des coefficients budgétaires b indice i = la part exprimée en pourcentage de la consommation d’un bien ou d’un service i sur l’ensemble de la consommation bi = Ci/C x100. Ces coefs permettent des comparaisons dans le temps et dans l’espace
+|| Chapitre 1, Macro, Consommation, QR
 
          
 
-      Bi= Ci/C X100
+Bi= Ci/C X100
+|| Chapitre 1, Macro, QR
 
+La structure de consommation des ménages pour un pays se déforme/change avec le temps de même pour une période fixée, la structure meme de la consommation est différente selon les pays. Même si tout n’est pas stable, il existe un lien entre le niveau de revenus des ménages et la structure de leur dépense de consommation.
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-
-
-
-
-
-
-
-
-
-La structure de consommation des ménages pour un pays se déforme/change avec le temps de même pour une période fixée, la structure meme de la consommation est différente selon les pays. Même si tout n’est pas stable, il existe un lien entre le niveau de revenus des ménages et la structure de leur dépense de consommation. 
-
-
-
-L’économiste Ernest Engle en 1957, annonce les éléments suivants : 
+L’économiste Ernest Engle en 1957, annonce les éléments suivants :
+|| Chapitre 1, Macro, QR
 
 Les dépenses alimentaires augmentent moins rapidement que le revenu, les dépenses de logement et d’habillement suivent un rythme identique à celui du revenu et les autres dépenses (culture santé, transport…) augmentent à un rythme plus élevé.
+|| Chapitre 1, Macro, QR
 
+La sensibilité de la modification de la consommation à la variation du revenu se mesure à travers les élasticités.
+|| Chapitre 1, Macro, Consommation, QR
 
+L’élasticité de la consommation par rapport au revenu s’obtient en faisant le rapport entre la variation relative de la dépense et la variation relative du revenu
+|| Chapitre 1, Macro, Consommation, QR
 
-La sensibilité de la modification de la consommation à la variation du revenu se mesure à travers les élasticités. 
-
-
-
-L’élasticité de la consommation par rapport au revenu s’obtient en faisant le rapport entre la variation relative de la dépense et la variation relative du revenu 
-
-e = élasticité 
+e = élasticité
+|| Chapitre 1, Macro, QR
 
 e indice c/yd = élasticité de la consommation par rapport au revenu
+|| Chapitre 1, Macro, Consommation, QR
 
 Variation de la consommation/ c/ variation du revenu disponible/yd
-
-
-
-
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 Entouré= la part de la hausse du revenu qui est consacré a de la consommation supplémentaire. En économie on appelle ça la propension marginale à consommer.
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-L’élasticité fait appel aux dérivées f(x)= f’(x) 
+L’élasticité fait appel aux dérivées f(x)= f’(x)
+|| Chapitre 1, Macro, QR
 
 La c’est la dérivée de c par rapport à yd et on aura la propension marginale à consommer.
+|| Chapitre 1, Macro, QR
 
-
-
-Les comportements de consommation et d’épargnes 
-
-
+Les comportements de consommation et d’épargnes
+|| Chapitre 1, Macro, Consommation, QR
 
 L’origine de ces études est lié à la théorie générale de l’emploi, de l’intérêt et de la monnaie de Keynes en 1936.
+|| Chapitre 1, Macro, Keynes, QR
 
+A la suite de la crise de 29, Keynes va faire évoluer la théorie d’un point de vue macro pour combattre le chômage. Il propose une relation générale entre revenu et consommation où l’épargne est la partie non consommée du revenu. Keynes qualifie l’épargne de résidu. (=néfaste car bloc des emplois, pas utilisé= pas besoin de la produire= moins d’emplois= chômage)
+|| Chapitre 1, Macro, Keynes, Consommation, QR
 
+Chez les classiques l’épargne n’est pas fonction du revenu mais c’est une fonction du taux d’interet. L’épargne est vu comme une consommation différée. Ma décision entre consommer ajd ou demain= en fonction du taux d’intérêt
+|| Chapitre 1, Macro, Consommation, QR
 
-A la suite de la crise de 29, Keynes va faire évoluer la théorie d’un point de vue macro pour combattre le chômage. Il propose une relation générale entre revenu et consommation où l’épargne est la partie non consommée du revenu. Keynes qualifie l’épargne de résidu. (=néfaste car bloc des emplois, pas utilisé= pas besoin de la produire= moins d’emplois= chômage) 
+La fonction de consommation keynésienne
+|| Chapitre 1, Macro, Consommation, QR
 
+Elle est basée sur la loi psychologique fondamental
+|| Chapitre 1, Macro, QR
 
-
- Chez les classiques l’épargne n’est pas fonction du revenu mais c’est une fonction du taux d’interet. L’épargne est vu comme une consommation différée. Ma décision entre consommer ajd ou demain= en fonction du taux d’intérêt  
-
-
-
-La fonction de consommation keynésienne 
-
-
-
-Elle est basée sur la loi psychologique fondamental 
-
-
-
-« les Hommes tendent à accroitre leur consommation à mesure que le revenu croit mais non d’une quantité aussi grande que l’accroissement du revenu » 
+« les Hommes tendent à accroitre leur consommation à mesure que le revenu croit mais non d’une quantité aussi grande que l’accroissement du revenu »
+|| Chapitre 1, Macro, Consommation, QR
 
 C’est basé sur : si mon revenu augmente de 1000 unités, je ne consacre pas 1000 unités à la consommation mais une partie
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 De ce fait, la consommation est une fonction croissante du revenu mais sa croissance est moindre que celle du revenu ce qui se traduit d’un point de vue mathématique :
-
-
-
-
-
-
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 Pm= propension marginale
+|| Chapitre 1, Macro, QR
 
-
-
-Si ces modifications sont infinités décimal, cela revient à utiliser la notion de dérivées des mathématiques. 
-
-
+Si ces modifications sont infinités décimal, cela revient à utiliser la notion de dérivées des mathématiques.
+|| Chapitre 1, Macro, QR
 
 Y= f(x)= f’(x)
+|| Chapitre 1, Macro, QR
 
-C= f(yd) = f’(yd) 
+C= f(yd) = f’(yd)
+|| Chapitre 1, Macro, QR
 
 PmC= dc/dyd
-
-
-
-
+|| Chapitre 1, Macro, QR
 
 Cette loi ne donne aucune indication sur la forme de la fonction et 3 formes sont compatibles avec celle-ci :
-
-
+|| Chapitre 1, Macro, QR
 
 La 1 choses compatibles est une fonction linéaire
+|| Chapitre 1, Macro, QR
 
-
-
-
-
-
-
-c= constante 
+c= constante
+|| Chapitre 1, Macro, QR
 
 PmC= PMC
-
-
-
-
+|| Chapitre 1, Macro, QR
 
 La propension Moyenne a consommé c’est la part du revenu disponible qui est consacré à la consommation
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 Si on utilise la fonction linéaire, on a la propension marginal a consommé qui est égale a une propension moyenne a consommé, on a une stabilité au cours du temps
+|| Chapitre 1, Macro, QR
 
+La 2 chose compatible = fonction affine f(x)= ax+b
+|| Chapitre 1, Macro, QR
 
+Co >0= consommation incompressible
+|| Chapitre 1, Macro, Consommation, QR
 
+PmC= c🡪 c étant la dérivée
+|| Chapitre 1, Macro, QR
 
+La 3e fonction compatible est la fonction Concave. F (Yd) f’(yd) >0 dépendante de Yd Sa particularité est qu’elle admet un maximum. Sa dérivée première est positive et sa dérivée seconde est négative.
+|| Chapitre 1, Macro, QR
 
-La 2 chose compatible = fonction affine f(x)= ax+b 
-
-
-
-
-
-Co >0= consommation incompressible 
-
-PmC= c🡪 c étant la dérivée 
-
-
-
-
-
-
-
-
-
-
-
-La 3e fonction compatible est la fonction Concave. F (Yd) f’(yd) >0 dépendante de Yd Sa particularité est qu’elle admet un maximum. Sa dérivée première est positive et sa dérivée seconde est négative. 
-
-
-
-Selon Keynes, la propension marginale a consommé n’est pas la même quel que soit le niveau de revenu, elle tend à diminuer lorsque le revenu augmente. Dans ce cas la fonction concave est la plus approprié mais d’un point de vue pratique, on retient en général, la fonction affine comme fonction de consommation keynésienne. 
+Selon Keynes, la propension marginale a consommé n’est pas la même quel que soit le niveau de revenu, elle tend à diminuer lorsque le revenu augmente. Dans ce cas la fonction concave est la plus approprié mais d’un point de vue pratique, on retient en général, la fonction affine comme fonction de consommation keynésienne.
+|| Chapitre 1, Macro, Keynes, Consommation, QR
 
 On constate donc que la propension marginal est constante alors que la propension moyenne dépend du revenu disponible et est décroissante du revenu disponible.
-
-
+|| Chapitre 1, Macro, QR
 
 La part de consommation des revenus plus riches vont avoir une part de leur consommation plus faible que des revenus plus modestes qui auront une plus grande part de leur revenu consacré à la consommation.
-
-
-
-
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 A partir de la fonction de consommation, on va pouvoir en retirer la fonction d’épargne. Le revenu disponible sert à épargner et à consommer
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 S= résiduentorcaire
+|| Chapitre 1, Macro, QR
 
+La propension Moyenne a épargné est croissante avec le revenu disponible, donc plus le revenu disponible augmente, plus on va épargner
+|| Chapitre 1, Macro, QR
 
+Les vérifications empiriques :
+|| Chapitre 1, Macro, QR
 
+Càd qu’on confronte la théorie à la réalité en cherchant à savoir si c’est vérifié
+|| Chapitre 1, Macro, QR
 
-
-
-
-La propension Moyenne a épargné est croissante avec le revenu disponible, donc plus le revenu disponible augmente, plus on va épargner 
-
-
-
-Les vérifications empiriques : 
-
-Càd qu’on confronte la théorie à la réalité en cherchant à savoir si c’est vérifié 
-
-Des études ont été mené sur des séries temporelles (= observer une variable sur plusieurs période ex : la consommation en 1987,2007, 2021) 
-
-
+Des études ont été mené sur des séries temporelles (= observer une variable sur plusieurs période ex : la consommation en 1987,2007, 2021)
+|| Chapitre 1, Macro, Consommation, QR
 
 A priori les estimations sont conformes à la théorie puisque on obtient bien une propension marginale qui est constante et inférieur à 1. Lorsqu’on utilise la période d’entre deux g et qu’on utilise la fonction de consommation keynésienne pour prévoir la consommation d’après-guerre, on obtient la sous-estimation de la consommation.
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 La conclusion c’est de dire que les résultats ne sont pas satisfaisants avec la théorie keynésienne. Lorsqu’on utilise des séries plus longues (+ de 10ans), l’auteur Kuznets en 1946 estime sa fonction de la consommation des EU sur la période 19, il obtient le résultat : que la marginale PmC est égale à PMC, ce qui n’est pas conforme avec la fonction affine mais il met plutôt en évidence une relation linéaire et il trouve que c= 0,86.
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 On a des contradictions entre séries courte et série longues.
-
-
+|| Chapitre 1, Macro, QR
 
 Il existe aussi des vérifications/ études menés sur des couts instantanées. Cela consiste à comparer à une date fixé les niveaux de consommation des individus qui ont été initialement classé par tranches de revenus. Ces études confirme la fonction de consommation keynésienne car on retrouve que la consommation augmente que proportionnellement que la hausse du revenu.
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 Sur les études en courbe instantanée on peut faire une critique : on veut mettre en évidence un phénomène macroéconomique en s’appuyant sur le comportement de quelque agents 🡪 on résonne à un niveau microéconomique donc la méthode ne permet pas de valider la fonction de consommation keynésienne.
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-A la suite de ces vérifications de nouvelles théories sont apparu 
-
-
+A la suite de ces vérifications de nouvelles théories sont apparu
+|| Chapitre 1, Macro, QR
 
 Les développement postkeynésiens
-
-
+|| Chapitre 1, Macro, QR
 
 - rôle des habitudes de consommation et l’introduction de retard
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 L’effet de cliquet introduit par Duesenberry (1948)
-
-
+|| Chapitre 1, Macro, QR
 
 Son objectif à D est d’introduire une dynamique dans la fonction de consommation keynésienne statique. Il fait l’hypothèse d’une irréversibilité dans le temps des comportements de consommation = effet cliquet (ma consommation d’hier a un impact sur celle d’ajd)
+|| Chapitre 1, Macro, Consommation, QR
 
-Pour lui, la consommation dépend du revenu courant mais aussi du revenu plus élevé atteint dans le passé 
+Pour lui, la consommation dépend du revenu courant mais aussi du revenu plus élevé atteint dans le passé
+|| Chapitre 1, Macro, Consommation, QR
 
 Ce revenu plus élevé permet d’introduire les habitudes de consommation ce qui permet d’expliquer pourquoi pendant les phases de récession, la consommation baisse moins vite que les variations du revenu.
+|| Chapitre 1, Macro, Consommation, QR
 
-On introduit une force de rappel vers un niveau de consommation qui a été atteint et l’avantage de cette introduction est que ça permet de retrouver un résultat qui se voit dans les observations empiriques qui est que la PmC à court terme est inférieur à la PMC.  Et à long terme, il y a égalité entre les deux. Donc ça veut dire si le revenu diminue, la consommation diminue mais pas autant que ce qu’elle augmente lorsque le revenu augmente. 
+On introduit une force de rappel vers un niveau de consommation qui a été atteint et l’avantage de cette introduction est que ça permet de retrouver un résultat qui se voit dans les observations empiriques qui est que la PmC à court terme est inférieur à la PMC.  Et à long terme, il y a égalité entre les deux. Donc ça veut dire si le revenu diminue, la consommation diminue mais pas autant que ce qu’elle augmente lorsque le revenu augmente.
+|| Chapitre 1, Macro, Consommation, QR
 
-On a des agents économiques qui suivent leur habitudes de consommation en se référant au plus haut niveau de consommation qu’ils ont eu par le passé. 
-
-
+On a des agents économiques qui suivent leur habitudes de consommation en se référant au plus haut niveau de consommation qu’ils ont eu par le passé.
+|| Chapitre 1, Macro, Consommation, QR
 
 Une critique qui est apporté à cette vision : l’effet qui est mis en évidence entraine une modification trop radical du comportement de consommation. Il faut continuer à tenir compte du rôle des habitudes de consommation mais de manière moins brutale.
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-Ceci a été introduit par l’effet d’inertie de la consommation : Brown (1952) 
+Ceci a été introduit par l’effet d’inertie de la consommation : Brown (1952)
+|| Chapitre 1, Macro, Consommation, QR
 
 Pour faire intervenir le passé dans sa fonction de consommation, il va attribuer un rôle au niveau de consommation de la période précédente.
+|| Chapitre 1, Macro, Consommation, QR
 
 Le fait d’introduire le niv de consommation à la période précédente et non le niv de consommation atteint avec son revenu le plus élevé permet de retrouver un résultat empirique qui est que : la PmC de court terme est inférieur de celle de long terme.
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 L’effet de démonstration
-
-
+|| Chapitre 1, Macro, QR
 
 Relatif a ce qu’on appelle théorie du revenu relatif 🡪lié à Duesenberry en 1949.
+|| Chapitre 1, Macro, QR
 
 Duesenberry va supposer que la consommation d’un individu dépend de son revenu mais dépend également de la consommation des autres individus : je veux avoir un effet de démonstration/d’imitation. Cad qu’il existe de l’interdépendance des comportements de consommation (un indiv prend ses décisions en tenant compte des autres)
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 La consommation ne s’explique pas par le revenu absolue du ménage mais par le rapport ou la différence qui existe entre son revenu et le revenu national moyen. Ce rapport= revenu relatif
+|| Chapitre 1, Macro, Consommation, QR
 
 Si un ménage a un revenu plus faible que le reste de la population, il aura dans ce cas une propension moyenne à consommer qui va être plus élevé pour se rapprocher du standard de la consommation de la population.
+|| Chapitre 1, Macro, Consommation, QR
 
+Cette hypothèses du revenu relatif permet de donner une explication aux observations empiriques qui est que les hauts revenus ont de manière générale un taux d’épargne plus important que les bas revenus
+|| Chapitre 1, Macro, QR
 
+Les approches intertemporelles
+|| Chapitre 1, Macro, QR
 
-Cette hypothèses du revenu relatif permet de donner une explication aux observations empiriques qui est que les hauts revenus ont de manière générale un taux d’épargne plus important que les bas revenus 
+Première approche : théorie du cycle de vie : lié à Brumberg et Modigliani en 1954
+|| Chapitre 1, Macro, QR
 
-
-
-
-
-
-
-
-
-Les approches intertemporelles 
-
-
-
-Première approche : théorie du cycle de vie : lié à Brumberg et Modigliani en 1954 
-
-Seconde approche : approche du revenu permanent : Friedman (1957) 
-
-
+Seconde approche : approche du revenu permanent : Friedman (1957)
+|| Chapitre 1, Macro, QR
 
 La principale différenciation concerne l’horizon temporelle. On a un horizon temporelle qui est fini pour le cycle de vie et un horizon infini pour l’approche de Friedmann :
-
-
+|| Chapitre 1, Macro, QR
 
 On est dans une lignée néo-classique avec prises en comptes de choix intertemporelles.
-
-
+|| Chapitre 1, Macro, QR
 
 Hypothèses concernant les comportements et durée de vie :
+|| Chapitre 1, Macro, QR
 
-°On suppose qu’il y a aucune incertitude 
+°On suppose qu’il y a aucune incertitude
+|| Chapitre 1, Macro, QR
 
-°On ne tient pas compte des éventuelles pbm d’héritages = non prises en compte de l’héritage 
+°On ne tient pas compte des éventuelles pbm d’héritages = non prises en compte de l’héritage
+|| Chapitre 1, Macro, QR
 
+Ces 2 hypothèses se traduisent par :
+|| Chapitre 1, Macro, QR
 
-
-Ces 2 hypothèses se traduisent par : 
-
-Absence d’incertitude fait que l‘individu connait sa durée de vie et son objectif est d’avoir consommer intégralement l’entierté de ses revenus à la date de sa fin de vie puisqu’il la connait. Cela entraine que la PmC = PMC qui est égale à la moyenne qui est = 1 
+Absence d’incertitude fait que l‘individu connait sa durée de vie et son objectif est d’avoir consommer intégralement l’entierté de ses revenus à la date de sa fin de vie puisqu’il la connait. Cela entraine que la PmC = PMC qui est égale à la moyenne qui est = 1
+|| Chapitre 1, Macro, QR
 
 Moyenne = 1🡪 avoir consommé l’intégralité des revenus `
+|| Chapitre 1, Macro, QR
 
+On fait l’hypothèses que les individus veulent avoir un niv de consommation constante ou croissante. Pour faire ceci, l’épargne va permettre de lisser sa consommation tout au long de sa vie.
+|| Chapitre 1, Macro, Consommation, QR
 
-
-On fait l’hypothèses que les individus veulent avoir un niv de consommation constante ou croissante. Pour faire ceci, l’épargne va permettre de lisser sa consommation tout au long de sa vie. 
-
-Donc qd je n’ai pas de revenu, je vais avoir recours à l’emprunt. Qd je travaille, je rembourse et à la retraite j’utilise le reste 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Donc qd je n’ai pas de revenu, je vais avoir recours à l’emprunt. Qd je travaille, je rembourse et à la retraite j’utilise le reste
+|| Chapitre 1, Macro, QR
 
 Le comportement d’endettement et d’épargne depend de l’âge, autrement dit on réalise de l’épargne durant la période d’activité pour être transmise à la consommation durant les périodes de jeunesse et de retraite.
+|| Chapitre 1, Macro, Consommation, QR
 
 Le fait d’accumuler du patrimoine permet de répondre aux besoins d’épargnes pour la retraite. Ce patrimoine passe par un maximum au moment du départ à la retraite et s’annule à la date du décès. On dit que le patrimoine suit une courbe en bosse qui est caractéristique de l’hypothèse du cycle de vie.
-
-
+|| Chapitre 1, Macro, QR
 
 L’épargne permet de lisser la consommation tout au long de la vie
+|| Chapitre 1, Macro, Consommation, QR
 
-Le revenu global de l’individu que on pourrait appeler sa richesse totale est composé du revenu qu’il obtient de son travail mais également du patrimoine accumulé. 
+Le revenu global de l’individu que on pourrait appeler sa richesse totale est composé du revenu qu’il obtient de son travail mais également du patrimoine accumulé.
+|| Chapitre 1, Macro, QR
 
-Cette théorie permet de comprendre que des ménages ayant un même niveau de revenu du travail peuvent avoir des niveaux de consommation différents car le patrimoine accumulé est différent. 
-
-
+Cette théorie permet de comprendre que des ménages ayant un même niveau de revenu du travail peuvent avoir des niveaux de consommation différents car le patrimoine accumulé est différent.
+|| Chapitre 1, Macro, Consommation, QR
 
 Si on confronte cette théorie à la réalité/ empiriquement on observe que la baisse du patrimoine après le départ à la retraite est beaucoup moins marquée que ne le prédit la théorie.  En effet, le patrimoine est loin d’être intégralement consommé à la date du décès. Dans la version de base cette théorie suppose l’absence d’incertitude et dans la réalité la date du décès est inconnue ce qui fait que l’individu consomme plus lentement son patrimoine. Dans cette version de base il existe aussi l’absence d’héritage= on accumule du patrimoine pour soi-même or dans la réalité on accumule du patrimoine également pour ses descendants.
+|| Chapitre 1, Macro, QR
 
-
-
-2ème : théorie du revenu permanent 
+2ème : théorie du revenu permanent
+|| Chapitre 1, Macro, QR
 
 Friedman veut donner des fondements microéconomiques à la fonction de consommation, pour se faire, il étudie la fonction de consommation à partir des choix intertemporelles des consommateurs.
+|| Chapitre 1, Macro, Consommation, QR
 
 Choix intertemporelles= décision de consommation sur 1 période, l’individu va s’intéresser à l’intégralité des revenus de sa vie= raisonnement sur diff période`
+|| Chapitre 1, Macro, Consommation, QR
 
-Il va montrer que la consommation ne dépend pas que du revenu courant mais pour lui elle va dépendre du revenu permanent 
-
-
+Il va montrer que la consommation ne dépend pas que du revenu courant mais pour lui elle va dépendre du revenu permanent
+|| Chapitre 1, Macro, Consommation, QR
 
 Le problème ça va être de repartir de façon optimale sa consommation au cours du temps sous une contrainte budgétaire intertemporelle
+|| Chapitre 1, Macro, Consommation, QR
 
 Pour faire ceci, l’individu connait tous ses revenus passés, présents et futurs. Il veut retirer le maximum d’utilité de la consommation (= avoir atteint le max de mes préférences) à chacune des périodes sous la contrainte suivante :
+|| Chapitre 1, Macro, Consommation, QR
 
+La somme actualisé des consommations doit être égal à la richesse définit comme la somme actualisé des revenus présent et futures = je ne peux pas dépenser + que l’ensemble des revenus que je vais avoir.
+|| Chapitre 1, Macro, QR
 
-
-La somme actualisé des consommations doit être égal à la richesse définit comme la somme actualisé des revenus présent et futures = je ne peux pas dépenser + que l’ensemble des revenus que je vais avoir. 
-
-
-
-Somme actualisé= qd on a 100 euros ajd, ces 100 euros je les places sur livret d’épargne taux d’intérêt 5% je les récupère demain à 105 euros. Ce qui intéresse l’individu c’est ce que vaut ajd ses sous 
+Somme actualisé= qd on a 100 euros ajd, ces 100 euros je les places sur livret d’épargne taux d’intérêt 5% je les récupère demain à 105 euros. Ce qui intéresse l’individu c’est ce que vaut ajd ses sous
+|| Chapitre 1, Macro, QR
 
 100 + 100x 5%= 105= capitalise = 100x (1+ 0,005)
+|| Chapitre 1, Macro, QR
 
 Opération inverse= actualisation = 100x 1/ 1+ 0,005
+|| Chapitre 1, Macro, QR
 
-
-
-La consommation de chaque période ne dépend plus uniquement du revenu de la période mais de l’ensemble des revenus anticipés pour les périodes futures. 
-
-
-
-
-
-
+La consommation de chaque période ne dépend plus uniquement du revenu de la période mais de l’ensemble des revenus anticipés pour les périodes futures.
+|| Chapitre 1, Macro, Consommation, QR
 
 1+r = actualisation
+|| Chapitre 1, Macro, QR
 
-Ci= toutes les consommations de périodes 
+Ci= toutes les consommations de périodes
+|| Chapitre 1, Macro, QR
 
 La hausse du revenu modifiera la consommation uniquement si elle entraine une modification de la richesse W `
+|| Chapitre 1, Macro, Consommation, QR
 
-
-
-
-
-Friedman n’exprime pas la consommation en fonction de la richesse mais il exprime en fonction du revenu permanent qui se définit comme la somme qu’un consommateur peut consommer en maintenant constante la valeur de son capital. Ce qui veut dire que si on est dans un horizon temporel qui est fini dans ce cas le revenu permanent est = à la richesse. Si cet horizon est infini, le revenu permanent est une partie de la richesse 
-
-
+Friedman n’exprime pas la consommation en fonction de la richesse mais il exprime en fonction du revenu permanent qui se définit comme la somme qu’un consommateur peut consommer en maintenant constante la valeur de son capital. Ce qui veut dire que si on est dans un horizon temporel qui est fini dans ce cas le revenu permanent est = à la richesse. Si cet horizon est infini, le revenu permanent est une partie de la richesse
+|| Chapitre 1, Macro, Consommation, QR
 
 Fini : Yp= W
+|| Chapitre 1, Macro, QR
 
-Infini : Yp= rW où r est le taux d’intérêt 
+Infini : Yp= rW où r est le taux d’intérêt
+|| Chapitre 1, Macro, QR
 
+Dans la théorie du revenu permanent il est nécessaire de faire des anticipations puisqu’on ne connait pas ses revenus futures. Jusqu’à la fin des années 70, on suppose que les anticipations des agents sont adaptatives (cad que à chaque périodes l’agent révise sa prévision en fonction de l’erreur qu’il a commis à la période précédente)
+|| Chapitre 1, Macro, QR
 
-
-Dans la théorie du revenu permanent il est nécessaire de faire des anticipations puisqu’on ne connait pas ses revenus futures. Jusqu’à la fin des années 70, on suppose que les anticipations des agents sont adaptatives (cad que à chaque périodes l’agent révise sa prévision en fonction de l’erreur qu’il a commis à la période précédente) 
-
-Faire des anticipations rationnelle= tenir compte de toute l’info à disposition 
-
-
+Faire des anticipations rationnelle= tenir compte de toute l’info à disposition
+|| Chapitre 1, Macro, QR
 
 Pour évaluer son revenu permanent les agents économiques vont le faire par l’intermédiaire des revenus passés observer. En posant la chose suivante : + le passé est loin – je lui accorde de l’intérêt.
+|| Chapitre 1, Macro, QR
 
-Le fait de faire ceci permet de faire apparaitre un effet d’inertie comme cela existé dans la fonction de consommation de Brown qui disait que la fonction de consommation de ajd dépend de celle de hier. On retrouve le fait que la consommation d’hier à un impact sur la consommation de aujourd’hui. 
-
-
+Le fait de faire ceci permet de faire apparaitre un effet d’inertie comme cela existé dans la fonction de consommation de Brown qui disait que la fonction de consommation de ajd dépend de celle de hier. On retrouve le fait que la consommation d’hier à un impact sur la consommation de aujourd’hui.
+|| Chapitre 1, Macro, Consommation, QR
 
 Friedman estime sa fonction de consommation aux USA, il confronte sa théorie aux observations, sur la période 1897-1949, ses résultats confirme la fonction de consommation. En effet il obtient par sa théorie une PMC de 0,87 et empiriquement on observe qu’elle est égale à 0,86. Il trouve également le fait que la PmC est inférieur à la PMC à court terme. Donc de manière général la théorie du revenu permanent est vérifiée empiriquement.
-
-
-
-
+|| Chapitre 1, Macro, Consommation, QR
 
 Les déterminants de l’épargne
-
-
+|| Chapitre 1, Macro, QR
 
 Les déterminants de court terme :
+|| Chapitre 1, Macro, QR
 
-Le pouvoir d’achat 
+Le pouvoir d’achat
+|| Chapitre 1, Macro, QR
 
-Le ralentissement du pouvoir d’achat à un effet négatif sur l’épargne, ceci s’explique par l’effet d’inertie de la consommation càd que lorsque les revenus des ménages diminuent, on va puiser dans l’épargne pour ne pas modifier sa consommation. En cas de variation du revenu, l’ajustement se fait par l’épargne 
-
-
+Le ralentissement du pouvoir d’achat à un effet négatif sur l’épargne, ceci s’explique par l’effet d’inertie de la consommation càd que lorsque les revenus des ménages diminuent, on va puiser dans l’épargne pour ne pas modifier sa consommation. En cas de variation du revenu, l’ajustement se fait par l’épargne
+|| Chapitre 1, Macro, Consommation, QR
 
 Le taux de chômages : va jouer positivement sur l’épargne. Si l’avenir est incertain on va se constituer une épargne de précaution.
-
-
+|| Chapitre 1, Macro, QR
 
 L’inflation : peut avoir un effet ambigüe sur l’épargne. Deux cas possible :
+|| Chapitre 1, Macro, QR
 
+° une hausse des prix peut entrainer à court terme une baisse du taux d’épargne. On parle dans ce cas de fuite devant la monnaie. (Consommer tout de suite pour plus de chose). Les ménages augmentent leur consommations pour se débarrasser des liquidités dont le pouvoir d’achat diminue fortement
+|| Chapitre 1, Macro, Prix, QR
 
+° Une hausse des prix peut entrainer à long terme une hausse de l’épargne= effet d’encaisses réelles cad que les ménages veulent maintenir la valeur réelle de leur actif en augmentant leur épargne
+|| Chapitre 1, Macro, Prix, QR
 
-° une hausse des prix peut entrainer à court terme une baisse du taux d’épargne. On parle dans ce cas de fuite devant la monnaie. (Consommer tout de suite pour plus de chose). Les ménages augmentent leur consommations pour se débarrasser des liquidités dont le pouvoir d’achat diminue fortement 
+Le taux d’intérêt : 1er cas : le cas d’un taux d’intérêt débiteur concernant les ménages qui ont fait des emprunts. Dans ce cas la hausse du taux d’intérêt conduit à une baisse de l’épargne.
+|| Chapitre 1, Macro, QR
 
-
-
-° Une hausse des prix peut entrainer à long terme une hausse de l’épargne= effet d’encaisses réelles cad que les ménages veulent maintenir la valeur réelle de leur actif en augmentant leur épargne 
-
-
-
-Le taux d’intérêt : 1er cas : le cas d’un taux d’intérêt débiteur concernant les ménages qui ont fait des emprunts. Dans ce cas la hausse du taux d’intérêt conduit à une baisse de l’épargne. 
-
-2ème cas : taux d’intérêt créditeur concerne les ménages qui ont fait des placement, la hausse du taux d’intérêt implique une hausse de l’épargne. 
-
-
+2ème cas : taux d’intérêt créditeur concerne les ménages qui ont fait des placement, la hausse du taux d’intérêt implique une hausse de l’épargne.
+|| Chapitre 1, Macro, QR
 
 Les déterminants de long termes :
-
-
+|| Chapitre 1, Macro, QR
 
 Le vieillissement de la population : selon l’hypothèse du cycle de vie le vieillissement de la population va avoir un effet négatif sur l’épargne puisque le nombre de désépargnant augmente par rapport au nombre d’épargnant cad des actifs.
-
-
+|| Chapitre 1, Macro, QR
 
 Le système de retraite : 2 effet contradictoires sur l’épargne :
+|| Chapitre 1, Macro, QR
 
 ° effet négatif= j’épargne de – en – car le système permet de s’assurer un certain montant lors du départ à la retraite
-
-
+|| Chapitre 1, Macro, QR
 
 ° effet positif= avec le vieillissement de la population, on a un système de retraite par répartition qui est menacé. Pour se prévenir contre l’incertitude lié aux financements des retraites, les agents économiques augmentent leur épargne= épargne de précaution.
+|| Chapitre 1, Macro, QR
 
 QCM || Dans la fonction de consommation keynésienne C = C0 + cY || V:C0 est la consommation autonome|V:c est la propension marginale à consommer (0 < c < 1)|c représente le revenu|C0 dépend du revenu
 QCM || Selon Keynes, l'épargne est || V:Un résidu de la consommation|Une décision autonome|Indépendante du revenu|Toujours positive
@@ -574,3 +463,4 @@ QCM || Les déterminants de court terme de l'épargne incluent || V:Le pouvoir d
 QCM || Parmi les déterminants de long terme de l'épargne || V:Le vieillissement de la population (effet négatif)|V:Le système de retraite (effet ambigu)|L'âge n'a pas d'impact|V:L'incertitude sur les retraites (effet positif)
 QCM || L'effet du système de retraite par répartition sur l'épargne || V:Peut être négatif (assurance de percevoir une retraite)|V:Peut être positif (incertitude sur la pérennité)|Est toujours positif|N'a aucun effet
 QCM || Avec PMC = 0,8, le multiplicateur k vaut || 4|V:5|8|10
+|| Chapitre 1, Macro, Keynes, Consommation, Prix, DragMatch

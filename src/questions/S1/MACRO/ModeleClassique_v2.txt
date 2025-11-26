@@ -28,3 +28,4 @@ QCM || Variable réelle déterminée par : || V:secteur réel (technologie, pré
 — Neutralité monétaire (LT)
 • Variables réelles (Y, N, MPL) : technologie/préférences
 • Sphère monétaire : P ∝ M à LT ; réel inchangé (dichotomie)
+|| Prix, Offre-Demande, DragMatch

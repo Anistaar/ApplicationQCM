@@ -57,4 +57,4 @@ Q) Aboutit à l’identification par l’agent du comportement optimal
 ; Rend compte des gains associés aux petites économies effectuées par l’agent
 
 $ ï c— économique
-
+|| Prix, DragMatch

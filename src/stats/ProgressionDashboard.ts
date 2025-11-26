@@ -10,6 +10,7 @@
  */
 
 import { eloSystem, ELO_RANKS, type ThemeElo, type UserProgress } from './EloProgressionSystem';
+import { placementQuiz } from './PlacementQuiz';
 import type { Question } from '../types';
 
 export class ProgressionDashboard {
@@ -45,6 +46,10 @@ export class ProgressionDashboard {
     // Achievements
     const achievementsSection = this.renderAchievements(progress);
     container.appendChild(achievementsSection);
+
+    // Quiz de placement
+    const placementSection = await this.renderPlacementQuiz(allQuestions);
+    container.appendChild(placementSection);
 
     // Recommandations
     const recoSection = await this.renderRecommendations(progress, allQuestions);
@@ -265,6 +270,73 @@ export class ProgressionDashboard {
     `;
 
     return section;
+  }
+
+  /**
+   * Quiz de placement recommandés
+   */
+  private async renderPlacementQuiz(allQuestions: Question[]): Promise<HTMLElement> {
+    const section = document.createElement('div');
+    section.className = 'placement-section';
+
+    const recommended = await placementQuiz.getRecommendedThemes(allQuestions);
+
+    if (recommended.length === 0) {
+      section.innerHTML = `
+        <h3>🎯 Quiz de placement</h3>
+        <p class="empty-state">Aucun quiz de placement recommandé pour le moment. Continuez à jouer !</p>
+      `;
+      return section;
+    }
+
+    section.innerHTML = `
+      <h3>🎯 Quiz de placement recommandés</h3>
+      <p class="placement-intro">
+        Passez un quiz de placement pour calibrer précisément votre niveau initial sur ces thèmes.
+        10 questions adaptatives pour un résultat optimal.
+      </p>
+      <div class="placement-list">
+        ${recommended.slice(0, 3).map(theme => `
+          <div class="placement-card">
+            <div class="placement-icon">🎓</div>
+            <div class="placement-content">
+              <h4>${theme}</h4>
+              <p>10 questions • Durée estimée: 5 min</p>
+              <button class="btn-start-placement" data-theme="${theme}">
+                Démarrer le placement
+              </button>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+
+    // Ajouter event listeners
+    section.querySelectorAll('.btn-start-placement').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const theme = (e.target as HTMLElement).dataset.theme;
+        this.startPlacementQuiz(theme!, allQuestions);
+      });
+    });
+
+    return section;
+  }
+
+  /**
+   * Lancer un quiz de placement
+   */
+  private async startPlacementQuiz(theme: string, allQuestions: Question[]): Promise<void> {
+    const session = await placementQuiz.startPlacement(theme, allQuestions);
+    
+    if (!session) {
+      alert(`Pas assez de questions disponibles pour un quiz de placement sur "${theme}".`);
+      return;
+    }
+
+    // Déclencher l'événement pour lancer le quiz
+    window.dispatchEvent(new CustomEvent('startPlacementQuiz', {
+      detail: { session }
+    }));
   }
 
   /**

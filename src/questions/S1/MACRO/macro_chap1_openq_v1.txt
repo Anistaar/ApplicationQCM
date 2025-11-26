@@ -41,3 +41,4 @@ OpenQ || Que devient l'épargne une fois les emprunts remboursés ? || Positive 
 OpenQ || Que se passe-t-il en retraite selon le cycle de vie ? || On consomme le patrimoine jusqu'à 0 || Une fois en retraite les revenus diminuent et on consomme le patrimoine jusqu'à 0 || Désépargne
 
 OpenQ || Pourquoi le patrimoine arrive à zéro au décès ? || Car on consomme tout (pas d'héritage dans le modèle) || On arrive à 0 car aucune question d'héritage (hypothèse du modèle) || Simplification théorique
+|| Chapitre 1, Macro, Consommation, DragMatch

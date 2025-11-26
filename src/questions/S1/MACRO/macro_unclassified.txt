@@ -1,2 +1,3 @@
 QCM || Yp = (1-λ)(Yt + λYt-1 + λ²Yt-2 + ...) montre que || V:Plus le passé est lointain, moins il a d'influence (0 < λ < 1)|Tous les revenus passés ont le même poids|Seul le revenu courant compte|λ doit être supérieur à 1
 QCM || Si C0 = 100, c = 0,75 et I0 = 50, le revenu d'équilibre Y* vaut || 450|500|V:600|750
+|| Macro, QCM

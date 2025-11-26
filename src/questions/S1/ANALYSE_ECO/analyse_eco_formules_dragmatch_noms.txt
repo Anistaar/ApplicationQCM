@@ -65,3 +65,4 @@ Gains de spécialisation≂Production totale > Σ autarcies
 Prix d'échange équitable≂Entre les deux coûts d'opportunité
 Termes de l'échange≂Prix relatif bien X en unités de Y
  || Commerce international || MI3, Formules, DragMatch
+|| Analyse Éco, MI1, MA1, Investissement, PIB, Prix, Offre-Demande, DragMatch

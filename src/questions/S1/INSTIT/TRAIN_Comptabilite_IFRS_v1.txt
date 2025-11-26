@@ -6,3 +6,4 @@ QCM || États financiers — finalité IFRS || Informer l’État|Informer les c
 QCM || Critique fréquente des IFRS || V:Prise en compte insuffisante des risques climatiques|Pas de comparabilité|Absence d’audit|Interdiction de la juste valeur
 QCM || Juste valeur — notion || V:Valeur d’échange/flux actualisés lorsque pas de marché actif|Coût historique identique|Toujours le prix d’achat|Interdite en IFRS
 QCM || Piège : laquelle est FAUSSE ? || IFRS pour comptes consolidés cotés|ANC = autorité publique|IASC 1973|V:Eurostat édicte les IFRS
+|| Prix, DragMatch

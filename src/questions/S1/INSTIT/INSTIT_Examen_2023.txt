@@ -1,4 +1,3 @@
-
 QCM || Le Fond Monétaire International : || a été créé en juillet 1954|V:regroupe 189 pays|assure la croissance économique mondiale|V:conditionne l’obtention de ses prêts économiques à des garanties financières
 QCM || Les ressources du Fond Monétaire Internationale || comprennent de panier de devises|financent des projets de développement économiques|V:comprennent les quotes-parts des pays membres|sont constituées de stock d’or et de bronze
 QCM || La banque mondiale : || V:est une institution internationale créée le 27 décembre 1944|est un groupe qui réunit six autres institutions|a son siège à New York|V:a pour rôle principal de lutter contre la pauvreté
@@ -14,3 +13,4 @@ QCM || Les normes IFRS : || V:s’appliquent aux sociétés cotées pour leurs c
 QCM || Les principes de la comptabilité française reposent : || le coût marginal|la fréquence des méthodes|V:image sincère|V:indépendance des exercices
 QCM || Les normes comptables internationales IFRS reposent sur les principes suivants : || V:pertinence|rationalité|prévisibilité|intégrité
 QCM || L’Organisation mondiale du commerce a pour mission : || de servir de cadre aux négociations politiques|de veiller à la mise en œuvre des accords de Paris|V:d’administrer les procédures de règlement des différends des conflits commerciaux|de coopérer avec l’ONU
+|| INSTIT Examen, DragMatch

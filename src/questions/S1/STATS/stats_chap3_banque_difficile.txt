@@ -14,3 +14,4 @@ QCM || Mode pour classes continues || V:Classe modale|V:Peut être estimé par i
 
 DragMatch || Associe moyenne et contexte délicat || Croissances multipliées:Géométrique, Vitesse même distance:Harmonique, Données avec extrêmes:Médiane, Distribution symétrique:Arithmétique || Rappel des choix avancés || Diff: Difficile, Chapitre 3, Choix avancé
 DragMatch || Associe formule et nom || AM≥GM≥HM:Inégalité des moyennes, Médiane groupée:Interpolation linéaire, Mode groupé:Formule avec voisins, Moyenne pondérée:Σw_i x_i / Σw_i || Synthèse des outils || Diff: Difficile, Chapitre 3, Formules
+|| Chapitre 3, Stats, Difficile, DragMatch

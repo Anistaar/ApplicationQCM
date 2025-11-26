@@ -1,6 +1,5 @@
 chapter: Statistiques > fiche hpe l1 (2)
-
-
+|| Chapitre 1, Stats, HPE, QR
 
 Fiche de synthèse RIAE (Partie I)
 TD de renforcement à l’analyse économique — Licence 1
@@ -36,6 +35,7 @@ un préambule sur l’HPE)
 Trois approches pour analyser l’HPE : par les auteurs, discontinuitiste, relativiste ou environ-
 nementaliste (Potier J.P., 2008)
 1
+|| Chapitre 1, Stats, HPE, DragMatch
 
 2  Antiquité et scolastique : une économie normative
 Aristote (384–322 av. J.-C.)
@@ -70,6 +70,7 @@ Boisguilbert : richesse réelle = production et circulation (critique de l’or)
 Cantillon (Essai, c. 1730–1755) : circuit économique, formation des prix, rôle de la terre et des
 revenus différenciés (préfigure Quesnay).
 2
+|| Chapitre 1, Stats, HPE, Prix, DragMatch
 
 Points phares des Mercantilistes et Pré-classiques
 – Contexte : construction des États-nations et essor du commerce international
@@ -108,6 +109,7 @@ Ouvrages clés : Quesnay (1758), Tableau économique ; Turgot (1766), Réflexion
 formation et la distribution des richesses ; Mirabeau (1756), L’Ami des hommes ; Dupont de
 Nemours (1767), Physiocratie.
 3
+|| Chapitre 1, Stats, HPE, Smith, Prix, DragMatch
 
 5  Classiques : Smith, Ricardo, Malthus, Say, Mill
 Smith (1776) — An Inquiry into the Nature and Causes of the Wealth of Nations
@@ -140,6 +142,7 @@ durable.
 – Limites : vision de long terme, absence de prise en compte des crises globales, du
 conflit social et de la monnaie.
 4
+|| Chapitre 1, Stats, HPE, Ricardo, Smith, Offre-Demande, DragMatch
 
 6  Marx : critique du capitalisme (1867, Le Capital / Grundrisse
 der Kritik der politischen Ökonomie, rédigés 1857-1858)
@@ -168,6 +171,7 @@ tion.
 – Héritage : Marx inspire les approches macro-historiques et institutionnalistes (néo-
 marxistes, régulation, sociologie économique, etc.).
 5
+|| Chapitre 1, Stats, HPE, Marx, DragMatch
 
 7  Révolution marginaliste (1870–1890) : utilité et équilibre
 Jevons, Menger, Walras
@@ -210,6 +214,7 @@ taire.
 – Efficacité marginale du capital (EMC) : investissement dépend de la rentabilité
 anticipée et du taux d’intérêt.
 6
+|| Chapitre 1, Stats, HPE, Keynes, Consommation, Investissement, Prix, Offre-Demande, DragMatch
 
 – Préférence pour la liquidité : la monnaie n’est pas neutre, elle influence le taux
 d’intérêt et l’investissement.
@@ -241,3 +246,4 @@ de l’État.
 court/moyen terme.
 – Équilibre walrasien (construct théorique) ̸= processus réel d’ajustement instantané.
 7
+|| Chapitre 1, Stats, HPE, Smith, Keynes, Investissement, Offre-Demande, DragMatch
