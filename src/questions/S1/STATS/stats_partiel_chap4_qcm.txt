@@ -1,4 +1,4 @@
-chapter: Partiels STATS > Chapitre 4 — Dispersion
+chapter: Partiels — Chapitre 4 (Dispersion)
 
 QCM || Mesure robuste de dispersion || V:IQR (écart interquartile)|variance|écart-type|étendue || Robustesse || Chapitre 4, IQR, QCM
 QCM || L'étendue est définie par || V:max − min|min − max|Q3 − Q1|σ/μ || Définition || Chapitre 4, Étendue, QCM

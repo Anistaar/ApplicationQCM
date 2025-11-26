@@ -1,4 +1,4 @@
-chapter: Analyse Éco > MA1 — Comptabilité nationale
+chapter: MA1 — Comptabilité nationale
 
 QCM || La comptabilité nationale (CN) fournit || V:représentation chiffrée simplifiée de l'économie|explication causale complète|prévisions automatiques|données brutes non harmonisées || Rôle CN || MA1, CN, QCM
 QCM || Flux vs stock: un flux est || V:grandeur sur une période|valeur à un instant|indice de prix|variation saisonnière uniquement || Flux/stock || MA1, Concepts, QCM

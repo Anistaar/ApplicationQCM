@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules — Association Nom ↔ Formule
+chapter: Formules — Association Nom ↔ Formule
 
 ## Mode 1 : Associer le nom de la formule à sa notation mathématique
 

@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules — Constructeur Interactif
+chapter: Formules — Constructeur Interactif
 
 ## Mode FormulaBuilder : Reconstruire les formules par drag & drop
 

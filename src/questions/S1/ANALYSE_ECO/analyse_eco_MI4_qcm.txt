@@ -1,4 +1,4 @@
-chapter: Analyse Éco > MI4 — Offre, demande et marché
+chapter: MI4 — Offre, demande et marché
 
 QCM || Un marché est || V:lieu physique/virtuel où O et D se rencontrent|forcément une bourse financière|un monopole public|une file d'attente || Définition marché || MI4, Marché, QCM
 QCM || Loi de la demande: prix ↑ ⇒ || V:quantité demandée ↓ (ceteris paribus)|quantité demandée ↑|offre ↓ automatiquement|prix d'équilibre ↑ toujours || Relation inverse || MI4, Demande, QCM

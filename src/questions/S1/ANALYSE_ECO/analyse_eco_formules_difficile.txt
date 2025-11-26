@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules Difficiles
+chapter: Formules — Niveau Difficile
 
 FormulaBuilder || g_Y = ? || g_A|α|g_K|g_L|1|+|−|×|(|) || g_A + α·g_K + (1-α)·g_L || Décomposition de Solow : Croissance = PGF + Contributions facteurs || MA2, Solow, Difficile
 

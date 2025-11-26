@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules Moyennes
+chapter: Formules — Niveau Moyen
 
 FormulaBuilder || PIB = ? || CF|FBCF|ΔS|X|M|+|−|(|) || CF + FBCF + ΔS + (X - M) || PIB optique demande = Consommation + Investissement + Stocks + Solde extérieur || MA1, PIB, Moyen
 

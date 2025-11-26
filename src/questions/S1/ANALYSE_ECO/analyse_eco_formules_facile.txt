@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules Faciles
+chapter: Formules — Niveau Facile
 
 FormulaBuilder || VA = ? || Production|CI|−|+ || Production - CI || Valeur Ajoutée = Production - Consommations Intermédiaires || MA1, VA, Facile
 

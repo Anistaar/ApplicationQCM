@@ -1,4 +1,4 @@
-chapter: Analyse Éco > MI2 — Postulats et comportement économique
+chapter: MI2 — Postulats et comportement économique
 
 QCM || Principe 1 (arbitrages) signifie || V:les décisions confrontent options sous contrainte|toute décision est gratuite|pas de limites de ressources|choix aléatoire || Arbitrages partout || MI2, Principes, QCM
 QCM || Exemple d’arbitrage ménage || V:loyer vs loisirs|gravité vs masse|inflation vs chômage mondial|long terme cosmique || Choix consommation || MI2, Ménage, QCM

@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules — Questions ouvertes
+chapter: Formules — Questions ouvertes
 
 ## Comptabilité nationale (MA1)
 OpenQ || Quelle est la formule de la valeur ajoutée (VA) ? || VA = Production - Consommations intermédiaires || MA1, Formule VA || Mesure la richesse créée par l'entreprise

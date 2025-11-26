@@ -1,4 +1,4 @@
-chapter: Partiels STATS > Chapitre 1 — Notions et collecte
+chapter: Partiels — Chapitre 1 (Notions et collecte)
 
 QCM || Une population statistique est || V:l'ensemble des unités sur lesquelles porte l'étude|le sous-ensemble observé|la liste des modalités|un échantillon probabiliste || Définitions de base || Chapitre 1, Définitions, QCM
 QCM || Une variable qualitative ordinale possède || V:un ordre naturel entre modalités|une échelle à intervalles constants|une origine absolue|une mesure en unités continues || Ordinale vs nominale/intervalle/rapport || Chapitre 1, Types, QCM

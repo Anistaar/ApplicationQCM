@@ -1,4 +1,4 @@
-chapter: Partiels STATS > Chapitre 3 — Tendance centrale
+chapter: Partiels — Chapitre 3 (Tendance centrale)
 
 QCM || Mesure robuste au(x) valeurs extrêmes || V:la médiane|la moyenne arithmétique|la moyenne géométrique|la moyenne harmonique || Robustesse || Chapitre 3, Médiane, QCM
 QCM || Quand utiliser la moyenne géométrique ? || V:taux de croissance multipliés|sommes de montants|durées additionnées|nombres négatifs || Produits et ratios, nécessite valeurs > 0 || Chapitre 3, Moyenne géo, QCM

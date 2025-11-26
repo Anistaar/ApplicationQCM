@@ -1,4 +1,4 @@
-chapter: Partiels STATS > Chapitre 2 — Graphiques et visualisation
+chapter: Partiels — Chapitre 2 (Graphiques)
 
 QCM || Un histogramme avec classes de largeurs différentes doit || V:utiliser des hauteurs en densité (aire proportionnelle aux effectifs)|garder des hauteurs proportionnelles aux effectifs|forcément des classes égales|être remplacé par un camembert || Densités pour classes inégales || Chapitre 2, Histogramme, QCM
 QCM || Un graphique efficace doit || V:être clair, lisible, adapté, sans surcharge|multiplier les couleurs et polices|masquer les axes|omettre la source || Bonnes pratiques || Chapitre 2, Règles, QCM

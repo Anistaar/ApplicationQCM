@@ -1,4 +1,4 @@
-chapter: Analyse Éco > Formules — Reconstruction (Niveau Expert)
+chapter: Formules — Reconstruction Expert
 
 ## Mode 2 : Reconstruire la formule en plaçant les bons paramètres dans le bon ordre
 

@@ -1,4 +1,4 @@
-chapter: Analyse Éco > MI3 — Interdépendances et échanges
+chapter: MI3 — Interdépendances et échanges
 
 QCM || Un échange marchand implique || V:transaction contre monnaie|absence de contrepartie|don sans attente|contrainte administrative obligatoire || Définition échange || MI3, Échange, QCM
 QCM || Formes de coordination économiques (choisir vraies) || V:marché|V:organisation|V:réciprocité|autarcie comme optimum systématique || Trois mécanismes || MI3, Coordination, QCM
