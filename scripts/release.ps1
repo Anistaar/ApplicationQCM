@@ -47,19 +47,18 @@ Exec "git push origin $Branch"
 # 4) Trigger remote deploy
 $remote = "$ServerUser@$ServerHost"
 Write-Host "Triggering remote deploy on $remote" -ForegroundColor Green
-# Build env exports (branch + optional repo dir)
-$exports = @()
-if ($Branch) { $exports += "BRANCH=$Branch" }
-if ($RemoteRepoDir) { $exports += "REPO_DIR=$RemoteRepoDir" }
-$exportLine = $exports -join ' '
-if ([string]::IsNullOrWhiteSpace($exportLine)) { $exportLine = '' }
 
-# Run the remote deploy script explicitly via bash to avoid execute-bit issues
-if ($exportLine) {
-  ssh $remote "bash -lc '$exportLine bash $RemoteDeployPath'"
-} else {
-  ssh $remote "bash -lc 'bash $RemoteDeployPath'"
+# Commandes simples sans sudo
+$repoDir = if ($RemoteRepoDir) { $RemoteRepoDir } else { "/opt/text2quiz" }
+$commands = "cd $repoDir && git config --global --add safe.directory $repoDir 2>/dev/null; git fetch origin && git reset --hard origin/$Branch && git pull origin $Branch && npm ci && npm run build"
+
+Write-Host "Executing: $commands" -ForegroundColor Cyan
+ssh $remote $commands
+
+if ($LASTEXITCODE -ne 0) { 
+  Write-Host "Remote deploy failed - you may need to run commands manually with sudo" -ForegroundColor Red
+  Write-Host "SSH to server and run: cd $repoDir && sudo bash deploy.sh" -ForegroundColor Yellow
+  exit 1
 }
-if ($LASTEXITCODE -ne 0) { throw "Remote deploy failed" }
 
 Write-Host "Deploy done." -ForegroundColor Green

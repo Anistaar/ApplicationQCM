@@ -1586,16 +1586,14 @@ function playSuccessSound() {
   }
 }
 
-/* ---------- FormulaBuilder (Construction de formule) ---------- */
+/* ---------- FormulaBuilder (Réécriture de formule) ---------- */
 function renderFormulaBuilder(head: string, q: Question) {
   if (q.type !== 'FormulaBuilder' || !q.formulaData) return;
 
-  const { variable, availableTokens, correctFormula } = q.formulaData;
+  const { variable, correctFormula } = q.formulaData;
   const currentAnswer = state.userAnswers[state.index];
   const userFormula = currentAnswer?.kind === 'FormulaBuilder' ? currentAnswer.formula : '';
   const isCorrect = currentAnswer?.kind === 'FormulaBuilder' ? currentAnswer.isCorrect : false;
-
-  const shuffled = [...availableTokens].sort(() => Math.random() - 0.5);
 
   const feedback = state.corrige ? `
     <div class="formula-feedback ${isCorrect ? 'correct' : 'incorrect'}">
@@ -1612,51 +1610,25 @@ function renderFormulaBuilder(head: string, q: Question) {
   els.root.innerHTML = `
     ${head}
     <div class="card--q" id="qcard">
-      <div class="qtitle">Question ${state.index + 1} — Constructeur de Formule</div>
+      <div class="qtitle">Question ${state.index + 1} — Formule à reconstruire</div>
       <div class="block">${escapeHtml(q.question)}</div>
-      <div class="hint"><small class="muted">💡 Clique sur les jetons pour construire la formule. Utilise "Indice" si tu bloques !</small></div>
+      <div class="hint"><small class="muted">Écris la formule complète (les espaces sont ignorés)</small></div>
       ${feedback}
       
       <div class="formula-builder-container">
-        <div class="formula-result-display">
-          <div class="formula-label">Résultat :</div>
-          <div class="formula-equation">
-            <span class="formula-var">${escapeHtml(variable.replace('?', ''))}</span>
-            <div class="formula-construction" id="formula-construction">
-              <span class="formula-placeholder" id="formula-placeholder">Clique sur les jetons ci-dessous</span>
-            </div>
-          </div>
+        <div class="formula-prompt">
+          <label class="formula-label">${escapeHtml(variable)}</label>
         </div>
-        
-        <div class="formula-progress" id="formula-progress">
-          <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
-        </div>
-        
-        <div class="formula-tokens-section">
-          <div class="tokens-label">Jetons disponibles :</div>
-          <div class="formula-tokens" id="formula-tokens">
-            ${shuffled.map((token, i) => `
-              <button class="formula-token" data-token="${escapeAttr(token)}" data-index="${i}">
-                ${escapeHtml(token)}
-              </button>
-            `).join('')}
-          </div>
-        </div>
-        
-        <div class="formula-controls">
-          <button class="btn-formula-action btn-hint" id="btn-hint" title="Ajoute le prochain token correct">
-            💡 Indice
-          </button>
-          <button class="btn-formula-action btn-space" id="btn-space" title="Ajoute un espace">
-            ␣ Espace
-          </button>
-          <button class="btn-formula-action btn-undo" id="btn-undo" title="Annule le dernier token">
-            ↶ Annuler
-          </button>
-          <button class="btn-formula-action btn-clear" id="btn-clear-formula" title="Efface tout">
-            🗑️ Tout effacer
-          </button>
-        </div>
+        <input 
+          type="text" 
+          id="formula-input" 
+          class="formula-input"
+          placeholder="Écris la formule ici..."
+          value="${escapeAttr(userFormula)}"
+          ${state.corrige ? 'disabled' : ''}
+          autocomplete="off"
+          spellcheck="false"
+        />
       </div>
       
       <div class="block actions">${renderActionButtons(q)}</div>
@@ -1674,171 +1646,26 @@ function renderFormulaBuilder(head: string, q: Question) {
 function setupFormulaBuilder(q: Question) {
   if (q.type !== 'FormulaBuilder' || !q.formulaData) return;
 
-  const construction = document.getElementById('formula-construction');
-  const placeholder = document.getElementById('formula-placeholder');
-  const tokensContainer = document.getElementById('formula-tokens');
-  const btnClear = document.getElementById('btn-clear-formula');
-  const btnHint = document.getElementById('btn-hint');
-  const btnSpace = document.getElementById('btn-space');
-  const btnUndo = document.getElementById('btn-undo');
-  const progressBar = document.getElementById('progress-bar');
-  
-  if (!construction || !tokensContainer) return;
+  const input = document.getElementById('formula-input') as HTMLInputElement;
+  if (!input) return;
 
-  let currentTokens: string[] = [];
-  let hintsUsed = 0;
+  const correctFormula = q.formulaData.correctFormula;
 
-  // Charge l'état existant
-  const currentAnswer = state.userAnswers[state.index];
-  if (currentAnswer?.kind === 'FormulaBuilder' && currentAnswer.formula) {
-    currentTokens = currentAnswer.formula.split('').map(char => {
-      // Reconstruction des tokens depuis la formule
-      return char;
-    });
-  }
-
-  // Click sur un token
-  tokensContainer.addEventListener('click', (e) => {
-    const target = e.target as HTMLElement;
-    if (target.classList.contains('formula-token') && !target.classList.contains('used')) {
-      const token = target.dataset.token || '';
-      addToken(token);
-      target.classList.add('used');
-      setTimeout(() => target.classList.remove('used'), 300);
-    }
-  });
-
-  // Bouton Hint
-  btnHint?.addEventListener('click', () => {
-    const correctFormula = q.formulaData!.correctFormula;
-    const currentFormula = currentTokens.join('');
-    
-    // Trouve le prochain caractère correct
-    if (currentFormula.length < correctFormula.length) {
-      const nextChar = correctFormula[currentFormula.length];
-      
-      // Cherche dans les tokens disponibles
-      const availableTokens = q.formulaData!.availableTokens;
-      let tokenToAdd = nextChar;
-      
-      // Si c'est un espace
-      if (nextChar === ' ') {
-        addToken(' ');
-        hintsUsed++;
-        showHintFeedback('✓ Espace ajouté');
-        return;
-      }
-      
-      // Cherche le token qui commence par ce caractère
-      for (const token of availableTokens) {
-        if (correctFormula.substring(currentFormula.length).startsWith(token)) {
-          tokenToAdd = token;
-          break;
-        }
-      }
-      
-      addToken(tokenToAdd);
-      hintsUsed++;
-      showHintFeedback(`💡 Indice ${hintsUsed} : "${tokenToAdd}" ajouté`);
-    } else {
-      showHintFeedback('✓ Formule complète !');
-    }
-  });
-
-  // Bouton Espace
-  btnSpace?.addEventListener('click', () => {
-    addToken(' ');
-  });
-
-  // Bouton Undo
-  btnUndo?.addEventListener('click', () => {
-    if (currentTokens.length > 0) {
-      currentTokens.pop();
-      updateDisplay();
-    }
-  });
-
-  // Bouton Clear
-  btnClear?.addEventListener('click', () => {
-    currentTokens = [];
-    hintsUsed = 0;
-    updateDisplay();
-  });
-
-  function addToken(token: string) {
-    currentTokens.push(token);
-    updateDisplay();
-  }
-
-  function showHintFeedback(message: string) {
-    const feedback = document.createElement('div');
-    feedback.className = 'hint-feedback';
-    feedback.textContent = message;
-    construction?.appendChild(feedback);
-    setTimeout(() => feedback.remove(), 2000);
-  }
-
-  function updateDisplay() {
-    if (!construction || !placeholder || !progressBar) return;
-    
-    const formula = currentTokens.join('');
-    const correctFormula = q.formulaData!.correctFormula;
-    
-    // Mise à jour de l'affichage
-    if (!formula) {
-      placeholder.style.display = 'block';
-      construction.querySelectorAll('.token-chip').forEach(el => el.remove());
-    } else {
-      placeholder.style.display = 'none';
-      
-      // Affichage des tokens comme chips
-      construction.querySelectorAll('.token-chip').forEach(el => el.remove());
-      
-      let tempFormula = formula;
-      let htmlChips = '';
-      
-      // Reconstruit l'affichage token par token
-      for (const token of currentTokens) {
-        if (token === ' ') {
-          htmlChips += '<span class="token-chip space-chip">␣</span>';
-        } else {
-          htmlChips += `<span class="token-chip">${escapeHtml(token)}</span>`;
-        }
-      }
-      
-      const wrapper = document.createElement('div');
-      wrapper.className = 'tokens-wrapper';
-      wrapper.innerHTML = htmlChips;
-      construction.appendChild(wrapper);
-    }
-    
-    // Mise à jour de la barre de progression
-    const progress = Math.min(100, (formula.replace(/\s/g, '').length / correctFormula.replace(/\s/g, '').length) * 100);
-    progressBar.style.width = `${progress}%`;
-    
-    // Validation
-    const normalizedUser = formula.replace(/\s+/g, '');
-    const normalizedCorrect = correctFormula.replace(/\s+/g, '');
-    
-    const isCorrect = normalizedUser === normalizedCorrect;
-    
-    // Feedback visuel si correct
-    if (isCorrect && formula.length > 0) {
-      construction.classList.add('correct-formula');
-      progressBar.classList.add('complete');
-    } else {
-      construction.classList.remove('correct-formula');
-      progressBar.classList.remove('complete');
-    }
+  function updateAnswer() {
+    const userFormula = input.value;
+    const normalizedUser = userFormula.replace(/\s+/g, '').toLowerCase();
+    const normalizedCorrect = correctFormula.replace(/\s+/g, '').toLowerCase();
     
     state.userAnswers[state.index] = {
       kind: 'FormulaBuilder',
-      formula,
-      isCorrect
+      formula: userFormula,
+      isCorrect: normalizedUser === normalizedCorrect
     };
   }
 
-  updateDisplay();
+  input.addEventListener('input', updateAnswer);
+  input.addEventListener('blur', updateAnswer);
+  input.focus();
 }
 
 function setupKeyboardDragMatch(q: Question) {
