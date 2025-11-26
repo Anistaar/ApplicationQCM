@@ -1,0 +1,25 @@
+chapter: Analyse Éco > Formules Faciles
+
+FormulaBuilder || VA = ? || Production|CI|−|+ || Production - CI || Valeur Ajoutée = Production - Consommations Intermédiaires || MA1, VA, Facile
+
+FormulaBuilder || RNB = ? || PIB|RPR|RPV|+|− || PIB + RPR - RPV || Revenu National Brut = PIB + Revenus reçus - Revenus versés || MA1, RNB, Facile
+
+FormulaBuilder || Déflateur = ? || PIB nominal|PIB réel|/|×|100 || (PIB nominal / PIB réel) × 100 || Indice de prix implicite || MA1, Déflateur, Facile
+
+FormulaBuilder || Années = ? || 70|g|/ || 70 / g || Règle des 70 pour estimer le doublement || MA2, Règle70, Facile
+
+FormulaBuilder || Amortissement = ? || Valeur|Durée vie|/ || Valeur / Durée vie || Dépréciation linéaire annuelle du capital fixe || MA2, Amortissement, Facile
+
+FormulaBuilder || Optimal si ? || BM|CM|≥ || BM ≥ CM || Continuer si Bénéfice marginal ≥ Coût marginal || MI1-MI2, Optimisation, Facile
+
+FormulaBuilder || Arrêt si ? || BM|CM|= || BM = CM || S'arrêter quand Bénéfice marginal = Coût marginal || MI2, Arrêt, Facile
+
+FormulaBuilder || Coût_opp(X) = ? || Temps_X|Temps_Y|/ || Temps_X / Temps_Y || Coût opportunité du bien X en termes de bien Y || MI3, CoutOpp, Facile
+
+FormulaBuilder || Équilibre si ? || Qd|Qs|= || Qd = Qs || Condition d'équilibre : Quantité demandée = Quantité offerte || MI4, Equilibre, Facile
+
+FormulaBuilder || Recette fiscale = ? || t|Q*|× || t × Q* || Revenu de la taxe = Taxe unitaire × Quantité échangée || MI4, Recette, Facile
+
+FormulaBuilder || Offre avec taxe : Qs = ? || P|t|− || Qs(P - t) || Producteur reçoit prix net de taxe || MI4, Taxe, Facile
+
+FormulaBuilder || Prix avec taxe : Pc = ? || Pp|t|+ || Pp + t || Prix consommateur = Prix producteur + Taxe || MI4, PrixTaxe, Facile

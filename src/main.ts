@@ -425,18 +425,11 @@ function renderPlanForFolder(folderFilter: string) {
         try { return dedupeQuestions(parseQuestions(c.content)).length; } catch { return 0; }
       })();
       const item = document.createElement('div');
-      item.style.border = '1px solid var(--brd)';
-      item.style.borderRadius = '8px';
-      item.style.padding = '8px';
-      item.style.cursor = 'pointer';
+      item.className = 'course-card';
       item.dataset.path = c.path;
       item.innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px">
-          <div style="min-width:0">
-            <div style="font-weight:600">${escapeHtml(title)}</div>
-            <div style="font-size:12px; color:var(--muted)">${escapeHtml(c.folder)} · ${escapeHtml(c.file.replace(/\.txt$/i, ''))} · ${qCount} question${qCount>1?'s':''}</div>
-          </div>
-        </div>
+        <div class="course-card-title">${escapeHtml(title)}</div>
+        <div class="course-card-meta">${qCount} question${qCount>1?'s':''}</div>
       `;
 
       // Sélection simple: clic sur la carte sélectionne le cours
@@ -457,14 +450,6 @@ function renderPlanForFolder(folderFilter: string) {
           renderCourseStats(c.path);
         }
       });
-
-      // Actions additionnelles: Voir / Télécharger
-  const actions = document.createElement('div');
-  actions.style.display = 'flex'; actions.style.gap = '6px'; actions.style.marginTop = '8px';
-  const btnVoir = document.createElement('button'); btnVoir.className = 'secondary'; btnVoir.textContent = 'Voir';
-  btnVoir.addEventListener('click', (ev) => { ev.stopPropagation(); openCoursePreview(c.path); });
-  actions.appendChild(btnVoir);
-  item.appendChild(actions);
 
       grid.appendChild(item);
     }

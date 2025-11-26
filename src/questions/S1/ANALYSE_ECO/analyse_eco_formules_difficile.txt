@@ -1,0 +1,11 @@
+chapter: Analyse Éco > Formules Difficiles
+
+FormulaBuilder || g_Y = ? || g_A|α|g_K|g_L|1|+|−|×|(|) || g_A + α·g_K + (1-α)·g_L || Décomposition de Solow : Croissance = PGF + Contributions facteurs || MA2, Solow, Difficile
+
+FormulaBuilder || g_A = ? || g_Y|α|g_K|g_L|1|−|×|(|) || g_Y - α·g_K - (1-α)·g_L || PGF = Résidu de croissance non expliqué par K et L || MA2, PGF, Difficile
+
+FormulaBuilder || Part capital dans croissance = ? || α|g_K|× || α · g_K || Contribution du capital à la croissance || MA2, PartK, Difficile
+
+FormulaBuilder || Part travail dans croissance = ? || 1|α|g_L|−|×|(|) || (1-α) · g_L || Contribution du travail à la croissance || MA2, PartL, Difficile
+
+FormulaBuilder || Production totale spécialisée > ? || Σ|autarcies || Σ(autarcies) || Gains de spécialisation : production totale supérieure || MI3, GainsSpec, Difficile

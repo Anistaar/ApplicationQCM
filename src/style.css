@@ -190,6 +190,12 @@ details.feedback > summary:focus-visible{
 
 @keyframes pulse-kb{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
 
+/* Course cards épurées */
+.course-card{border:1px solid var(--brd);border-radius:var(--radius-md);padding:var(--space-4);cursor:pointer;transition:.2s;background:rgba(255,255,255,.01)}
+.course-card:hover{border-color:var(--accent);background:rgba(132,204,22,.05);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.course-card-title{font-weight:600;font-size:var(--font-md);margin-bottom:var(--space-2);color:var(--fg)}
+.course-card-meta{font-size:var(--font-xs);color:var(--muted)}
+
 /* FormulaBuilder styles (input texte) */
 .formula-builder-container{margin:var(--space-5) 0}
 .formula-prompt{margin-bottom:var(--space-3)}

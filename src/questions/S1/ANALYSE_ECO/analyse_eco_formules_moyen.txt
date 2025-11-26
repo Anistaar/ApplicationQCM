@@ -1,0 +1,27 @@
+chapter: Analyse Éco > Formules Moyennes
+
+FormulaBuilder || PIB = ? || CF|FBCF|ΔS|X|M|+|−|(|) || CF + FBCF + ΔS + (X - M) || PIB optique demande = Consommation + Investissement + Stocks + Solde extérieur || MA1, PIB, Moyen
+
+FormulaBuilder || a_ij = ? || CI|i|j|Production|/|(|) || CI(i,j) / Production(j) || Coefficient technique = CI produit i par branche j / Production branche j || MA1, TES, Moyen
+
+FormulaBuilder || TCAM = ? || Vf|Vi|n|1|^|/|−|×|100|(|)|[|] || [(Vf/Vi)^(1/n) - 1] × 100 || Taux de croissance annuel moyen || MA2, TCAM, Moyen
+
+FormulaBuilder || Y = ? || A|K|L|α|1|×|^|−|(|) || A × K^α × L^(1-α) || Fonction de production Cobb-Douglas || MA2, CobbDouglas, Moyen
+
+FormulaBuilder || ε = ? || dQ|dP|P|Q|×|(|)|/ || (dQ/dP) × (P/Q) || Élasticité-prix de la demande || MI4, Elasticite, Moyen
+
+FormulaBuilder || SC = ? || 1|2|Pmax|P*|Q*|×|−|(|)|/ || (1/2) × (Pmax - P*) × Q* || Surplus du consommateur (cas linéaire) || MI4, Surplus, Moyen
+
+FormulaBuilder || SP = ? || 1|2|P*|Pmin|Q*|×|−|(|)|/ || (1/2) × (P* - Pmin) × Q* || Surplus du producteur (cas linéaire) || MI4, SurplusProd, Moyen
+
+FormulaBuilder || Perte sèche = ? || 1|2|t|ΔQ|×|(|)|/ || (1/2) × t × ΔQ || Perte d'efficience due à la taxe (triangle) || MI4, PerteSèche, Moyen
+
+FormulaBuilder || ENA = ? || Épargne|Éducation|Dégradation|Pollution|+|− || Épargne + Éducation - Dégradation - Pollution || Épargne nette ajustée pour soutenabilité || MA1, ENA, Moyen
+
+FormulaBuilder || PIB_prod = ? || VA|Impôts|Subventions|Σ|+|−|(|) || Σ(VA) + (Impôts - Subventions) || PIB optique production = Somme VA + Ajustement fiscal || MA1, PIBprod, Moyen
+
+FormulaBuilder || Intervalle gains d'échange : ? || Coût_opp_A|Coût_opp_B|<|Prix|< || Coût_opp_A < Prix < Coût_opp_B || Zone de gains mutuels à l'échange || MI3, Intervalle, Moyen
+
+FormulaBuilder || Revenu sectoriel = ? || Productivité|Prix|× || Productivité × Prix || Recette horaire dans un secteur || MI3, RevenuSect, Moyen
+
+FormulaBuilder || IDH combine ? || Santé|Éducation|Revenu|+ || Santé + Éducation + Revenu || Indice Développement Humain (3 dimensions) || MA1, IDH, Moyen
