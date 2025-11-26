@@ -21,7 +21,8 @@ export type Question = {
   referenceCourse?: string;     // OpenQ : extrait cours référence
   formulaData?: FormulaData;    // FormulaBuilder
   explication?: string | null;
-  tags?: string[];      // <-- nouveau
+  tags?: string[];      // Tags/thèmes pour système ELO
+  topics?: string[];    // Alias pour tags (compatibilité parser)
 };
 
 export type UserAnswer =

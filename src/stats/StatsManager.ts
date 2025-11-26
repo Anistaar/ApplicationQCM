@@ -14,6 +14,7 @@ import {
 } from '../scheduling';
 import { keyForQuestion } from '../utils';
 import { idbAdapter } from './IndexedDBAdapter';
+import { eloSystem } from './EloProgressionSystem';
 
 /**
  * Extended QStat with attempt logs
@@ -186,6 +187,20 @@ class StatsManager {
 
     // Save
     await this.saveStat(id, cur);
+
+    // Mettre à jour le système ELO en parallèle
+    try {
+      const eloResult = await eloSystem.updateAfterAnswer(q, correct, timeMs || 0);
+      
+      // Afficher notification de rank-up si changement de rang
+      if (eloResult.rankChange && typeof window !== 'undefined') {
+        // Import dynamique pour éviter cycle
+        const { ProgressionDashboard } = await import('./ProgressionDashboard');
+        ProgressionDashboard.showRankUpNotification(eloResult.rankChange.from, eloResult.rankChange.to);
+      }
+    } catch (error) {
+      console.warn('[StatsManager] ELO update failed:', error);
+    }
   }
 
   /**

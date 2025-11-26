@@ -1,0 +1,55 @@
+chapter: Analyse Éco > MI3 — Interdépendances et échanges
+
+QCM || Un échange marchand implique || V:transaction contre monnaie|absence de contrepartie|don sans attente|contrainte administrative obligatoire || Définition échange || MI3, Échange, QCM
+QCM || Formes de coordination économiques (choisir vraies) || V:marché|V:organisation|V:réciprocité|autarcie comme optimum systématique || Trois mécanismes || MI3, Coordination, QCM
+QCM || Avantage du commerce vs autarcie selon Ricardo || V:spécialisation selon coûts relatifs|spécialisation selon coûts absolus seulement|élimination des coûts d’opportunité|suppression du travail || Avantages comparatifs || MI3, Ricardo, QCM
+QCM || Le coût d’opportunité d’un kilo de légumes est || V:quantité de pain abandonnée|prix du pain|salaire horaire|quantité totale produite || Coût relatif || MI3, Ricardo, QCM
+QCM || Condition d’échange mutuellement bénéfique (Ricardo) || V:prix relatif entre coûts d’opportunité des deux|prix égal au coût absolu minimal|prix fixé unilatéralement|absence de différence de productivité || Intervalle de prix relatifs || MI3, Ricardo, QCM
+QCM || Spécialisation recommandée quand || V:coût d’opportunité plus faible pour ce bien|coût absolu identique|salaires identiques|pas de différence relative || Avantage comparatif || MI3, Spécialisation, QCM
+QCM || Productivité horaire calculée comme || V:1/temps unitaire|temps unitaire|salaire × prix|coût d’opportunité × prix || Temps vs output || MI3, Productivité, QCM
+QCM || Effet global de la spécialisation + échange || V:production totale accrue|production totale réduite|neutralité parfaite|disparition du travail || Gains d’échange || MI3, Gains, QCM
+QCM || Différence absolue vs différence relative || V:absolue = niveau productivité; relative = ratio coûts|relative = niveau productivité; absolue = ratio|absolue = préférences; relative = salaire|relative = prix marché; absolue = salaire || Distinction clé || MI3, Concepts, QCM
+QCM || Chaîne de valeur illustrée par || V:succession acteurs (farine, eau, sel, cuisson)|consommateur unique|absence de transaction|un seul facteur terre || Interdépendances || MI3, Valeur, QCM
+QCM || Réseau de transactions modernes est || V:complexe et multi-acteurs|simple à deux agents|sans monnaie|sans coordination || Complexité || MI3, Réseau, QCM
+QCM || Limite de l’autarcie principale || V:inefficience multi-biens|coût d’opportunité nul|spécialisation instantanée|absence de préférence || Autarcie vs échange || MI3, Autarcie, QCM
+QCM || Salaire horaire sectoriel (Ricardo simplifié) dépend de || V:prix × productivité|prix – coût d’opportunité|coût absolu seul|temps total × prix || Rémunération || MI3, Salaire, QCM
+QCM || Condition de spécialisation maraîcher (exemple) || V:ratio coûts inférieur à celui de l’autre|ratio coûts supérieur|coûts identiques|prix relatif hors intervalle || Décision spéciale || MI3, Spécialisation, QCM
+QCM || Ajout des prix dans modèle permet || V:détermination des salaires sectoriels|suppression des coûts|égalité automatique|inversion des productivités || Prix relatifs || MI3, Prix, QCM
+QCM || Gains d’échange disparaissent si || V:coûts d’opportunité identiques|différences relatives présentes|productivités diffèrent|prix flottants || Condition neutralité || MI3, Gains, QCM
+QCM || Nature du travail dans modèle simplifié || V:facteur limitant|facteur illimité|non productif|substituable à terre parfaitement || Hypothèse travail || MI3, Hypothèses, QCM
+QCM || Terres souvent considérées comme || V:facteur non limitant (ex simplifié)|facteur principal unique|producteur de salaire|substitut parfait travail || Hypothèse terre || MI3, Hypothèses, QCM
+QCM || Rôle du coût d’opportunité dans spécialisation || V:oriente vers activité avec coût relatif faible|maximise coût absolu|ignore productivité|remplace prix || Mécanisme comparatif || MI3, Mécanisme, QCM
+QCM || Échanges accroissent bien-être car || V:accès à combinaison hors frontière de production|réduit toutes productivités|supprime arbitrages|fixe prix administrés || PPF étendue || MI3, PPF, QCM
+QCM || Intervalle de prix relatifs doit || V:être compris entre coûts d’opportunité des deux|être inférieur aux deux coûts|être supérieur aux deux|être égal aux coûts absolus || Prix d’échange || MI3, Ricardo, QCM
+QCM || Spécialisation modifie || V:allocation du temps de production|préférences|technologie|définition du salaire réel || Organisation production || MI3, Organisation, QCM
+QCM || Marché vs réciprocité: marché permet || V:coordination à grande échelle|coordination locale seulement|exclusion de la monnaie|gratuité systématique || Scalabilité || MI3, Coordination, QCM
+QCM || Si coûts de transaction élevés, échange marchandise est || V:empêché ou limité|accéléré|génère coûts opportunité nuls|toujours effectué || Frictions || MI3, Transaction, QCM
+
+# Série Partiel — Cas chiffrés (MI3)
+VF || Avantage comparatif: coût d'opportunité fromage = temps fromage / temps pain || V || Formule coût relatif || Partiels 2024, MI3, Série A, VF
+QR || Pays A: temps fromage = 1h, temps pain = 2h. Coût opp. fromage (en pains) ? || 1/2 = 0,5 pain || Partiels 2024, MI3, Série A, QR
+QR || Pays B: temps fromage = 0,5h, temps pain = 3h. Coût opp. fromage (en pains) ? || 0,5/3 ≈ 0,167 pain || Partiels 2024, MI3, Série A, QR
+QCM || Avantage comparatif en fromage (coût opp. plus faible) ? || V:B (0,167 < 0,5)|A|aucun|les deux || Le plus faible coût d'opportunité ⇒ avantage || Partiels 2024, MI3, Série A, QCM
+VF || Intervalle de prix mutuellement avantageux: entre coûts d'opportunité du pain des deux pays || V || Prix relatif doit favoriser les deux || Partiels 2024, MI3, Série A, VF
+QR || Pays A: coût opp. pain = temps pain / temps fromage = 2/1 = ? fromages || 2 fromages/pain || Partiels 2024, MI3, Série A, QR
+QR || Pays B: coût opp. pain = 3/0,5 = ? fromages || 6 fromages/pain || Partiels 2024, MI3, Série A, QR
+QCM || Intervalle de prix d'échange (1 pain en fromages) compatible aux gains mutuels || V:entre 2 et 6|< 0,167|> 8|= 1 exactement || Prix entre coûts d'opportunité ⇒ gains pour les deux || Partiels 2024, MI3, Série A, QCM
+VF || Production avec spécialisation: chaque producteur consacre toutes ses heures à son avantage comparatif || V || A→pain, B→fromage || Partiels 2024, MI3, Série A, VF
+QR || Producteur A: 8h disponibles, spécialisation pain (2h/unité). Production pain ? || 8/2 = 4 pains || Partiels 2024, MI3, Série A, QR
+QR || Producteur B: 8h disponibles, spécialisation fromage (0,5h/unité). Production fromage ? || 8/0,5 = 16 fromages || Partiels 2024, MI3, Série A, QR
+QCM || Production totale après spécialisation (A→pain, B→fromage) || V:4 pains et 16 fromages|8 pains et 8 fromages|3 pains et 12 fromages|2 pains et 10 fromages || Somme des productions spécialisées || Partiels 2024, MI3, Série A, QCM
+VF || Échange mutuellement avantageux: prix d'échange entre coûts d'opportunité || V || Les deux gagnent si prix dans intervalle || Partiels 2023, MI3, Série B, VF
+QR || Maraîcher M: 0,5h/kg légumes, 1h/pain si faisait. Coût opp. pain en légumes ? || 1/0,5 = 2 kg || Temps pain / temps légumes || Partiels 2023, MI3, Série B, QR
+QR || Boulanger B: 1h/pain, 0,5h/kg si faisait. Coût opp. pain en légumes ? || 1/0,5 = 2 kg || Même valeur ⇒ besoin autre info || Partiels 2023, MI3, Série B, QR
+QR || Prix d'échange: 1 pain = 1,5 kg. M obtient pain contre 1,5 kg vs produire coûterait 2h ⇒ 4 kg. Avantage ? || Oui (1,5 < 4) || M économise en achetant pain || Partiels 2023, MI3, Série B, QR
+QCM || Qui gagne à échanger (prix = 1,5 kg/pain) ? || V:les deux|seul M|seul B|aucun || Prix dans intervalle ⇒ gains mutuels || Partiels 2023, MI3, Série B, QCM
+VF || Salaire horaire sectoriel = Prix × Productivité horaire || V || Recette potentielle par heure || Partiels 2024, MI3, Série A, VF
+QR || Secteur pain: prix=5€, productivité A=0,5 u/h. Recette/h = ? || 0,5 × 5 = 2,5€ || Partiels 2024, MI3, Série A, QR
+QR || Secteur fromage: prix=10€, productivité A=0,25 u/h. Recette/h = ? || 0,25 × 10 = 2,5€ || Partiels 2024, MI3, Série A, QR
+QCM || Salaire horaire potentiel d'A est max dans quel secteur ? || V:indifférent (2,5€ = 2,5€)|le pain|le fromage|aucun || Égalité des recettes horaires ⇒ indifférent || Partiels 2024, MI3, Série A, QCM
+QCM || Si B a recettes/h: pain=3€ et fromage=4€, et que les salaires s’alignent sur recettes/h, alors B se spécialisera en || V:fromage|pain|aucun|les deux || Choix sectoriel selon rémunération relative max || Partiels 2024, MI3, Série A, QCM
+QCM || Deux pays A (Coût opp. pain=2 from.), B (Coût opp. pain=5 from.). Un prix d’échange 1 pain = 4 from. implique || V:avantage à exporter pain pour A|avantage à exporter fromage pour A|pas d’échange pour A|prix défavorable à A || 4 est entre 2 et 5 ⇒ A vend pain, B vend fromage || Partiels 2023, MI3, Série B, QCM
+QCM || Coûts d’opportunité identiques entre deux pays impliquent || V:disparition des gains à l’échange|gains maximaux|spécialisation extrême|prix relatif indéterminable || Sans différentiel relatif, pas de gains comparatifs || Partiels 2022, MI3, Série C, QCM
+QCM || Avec coûts de transaction t>0, l’intervalle de prix mutuellement avantageux || V:se rétrécit|s’élargit|reste identique|s’inverse || Les frictions rognent la zone de gains || Partiels 2024, MI3, Série A, QCM
+QCM || Une hausse du prix relatif du pain (en fromage) déplace la frontière des possibilités de consommation (FPC) en autarcie || V:ne change pas la FPP mais réduit la consommation optimale de pain|élargit la FPP|déplace la FPP vers l’extérieur|supprime l’arbitrage || Prix change choix, pas technologie (FPP) || Partiels 2023, MI3, Série B, QCM
+QCM || Dans un modèle à une ressource « travail » limitée, la spécialisation modifie || V:l’allocation du travail entre secteurs|la technologie|les préférences|la dotation totale en travail || Organisation productive || Partiels 2022, MI3, Série C, QCM

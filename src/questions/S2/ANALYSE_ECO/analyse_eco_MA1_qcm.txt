@@ -1,0 +1,59 @@
+chapter: Analyse Éco > MA1 — Comptabilité nationale
+
+QCM || La comptabilité nationale (CN) fournit || V:représentation chiffrée simplifiée de l'économie|explication causale complète|prévisions automatiques|données brutes non harmonisées || Rôle CN || MA1, CN, QCM
+QCM || Flux vs stock: un flux est || V:grandeur sur une période|valeur à un instant|indice de prix|variation saisonnière uniquement || Flux/stock || MA1, Concepts, QCM
+QCM || Circuit économique relie || V:ménages, entreprises, administrations, finance, reste du monde|ménages seuls|entreprises seules|administrations seules || Pôles flux || MA1, Circuit, QCM
+QCM || Trois optiques du PIB incluent (choisir vraies) || V:production|V:demande|V:revenu|population || Optiques PIB || MA1, PIB, QCM
+QCM || Valeur ajoutée (VA) = || V:Production - Consommations intermédiaires|Production + CI|CI - Production|Production - Investissement || Définition VA || MA1, VA, QCM
+QCM || PIB (optique production) = Σ VA + || V:impôts sur produits - subventions|impôts + subventions|subventions - impôts|investissements nets || Formule production || MA1, PIB, QCM
+QCM || Consommations intermédiaires (CI) sont || V:inputs détruits dans le processus|stocks finaux|investissements|salaires || CI définition || MA1, CI, QCM
+QCM || PIB (optique demande) = || V:CF + FBCF + (X - M) + ΔS|CF + CI + X|CF + FBCF + RN|CF + FBCF + VA || Formule demande || MA1, PIB, QCM
+QCM || FBCF représente || V:investissement en capital fixe|consommation finale|variation prix|stock permanent || Formation Brute de Capital Fixe = investissement productif durable || MA1, Investissement, QCM
+QCM || (X - M) > 0 indique || V:excédent extérieur|déficit extérieur|équilibre extérieur|absence d'importations || Balance extérieure || MA1, Extérieur, QCM
+QCM || PIB (optique revenus) = rémunérations + EBE + || V:impôts production-importations - subventions|FBCF - CI|CI - impôts|subventions - impôts || Formule revenus || MA1, PIB, QCM
+QCM || EBE correspond à || V:excédent brut d'exploitation (profit)|épargne des ménages|impôts nets|consommation intermédiaire || Profits || MA1, Revenus, QCM
+QCM || Déflater le PIB revient à || V:retirer effet inflation (euros constants)|ajouter effet inflation|multiplier par indice de prix|diviser par VA || Déflateur || MA1, Prix, QCM
+QCM || PIB réel < PIB nominal quand || V:inflation positive|inflation nulle|déflation|productivité chute || Nominal vs réel || MA1, Prix, QCM
+QCM || Territoire économique inclut || V:metropole + DROM + enclaves nationales|seulement métropole|zones franches exclues|enclaves étrangères incluses || Champ territorial || MA1, Territoire, QCM
+QCM || Unité résidente critère principal || V:center d’intérêt ≥ 1 an|nationalité du dirigeant|forme juridique|taille chiffre d’affaires || Résidence || MA1, Résidence, QCM
+QCM || Secteurs institutionnels (SI) n’incluent PAS || V:entreprises informelles hors comptabilité|SNF|SF|AP || SI liste || MA1, SI, QCM
+QCM || Les cinq SI sont || V:SNF, SF, AP, ISBLSM, Ménages|SNF, AP, ISBLSM, Ménages, RNB|SF, AP, Ménages, PIB, ISBLSM|SNF, SF, AP, TVA, Ménages || Nomenclature SI || MA1, SI, QCM
+QCM || Ressources dans emplois-ressources incluent || V:P + M + T - SP|CF + FBCF + ΔS|CI + CF + FBCF|X + A + CI || Ressources || MA1, EmploisRessources, QCM
+QCM || Emplois incluent (choisir vraies) || V:CI|V:CF|V:FBCF|territoire économique || Emplois liste || MA1, EmploisRessources, QCM
+QCM || Équation emplois-ressources complète || V:P + M + T - SP = CI + CF + FBCF + ΔS + X + A|P + M = CF + FBCF|VA = CF + ΔS|VA + CI = CF + X || Équilibre macro || MA1, EmploisRessources, QCM
+QCM || RNB = PIB + revenus primaires reçus - || V:revenus primaires versés (± ajustements)|impôts nationaux|VA totale|FBCF - CI || RNB définition || MA1, RNB, QCM
+QCM || Revenus primaires reçus incluent || V:salaires, intérêts, dividendes|TVA|CI|variation de stocks || Revenus primaires || MA1, RNB, QCM
+QCM || Limite du PIB: il exclut || V:travail domestique non rémunéré|production déclarée|impôts|exportations || Limites PIB || MA1, Limites, QCM
+QCM || IDH ajoute dimensions || V:santé, éducation, revenu|VA, CI, FBCF|inflation, monnaie, dette|stocks, flux, excédent || Indice Développement Humain intègre 3 dimensions vs PIB seul || MA1, Indicateurs, QCM
+QCM || Empreinte écologique mesure || V:surface nécessaire production + assimilation déchets|PIB/hab|revenu national net|solde migratoire || Environnement || MA1, Indicateurs, QCM
+QCM || Épargne nette ajustée (ENA) corrige l'épargne de || V:éducation + (-) dégradation ressources + pollution|seulement investissements|seulement inflation|variation des stocks seulement || ENA ajuste épargne pour capital naturel et humain (développement durable) || MA1, Indicateurs, QCM
+QCM || TES (Tableau entrées-sorties) met en évidence || V:interdépendances branche par CI|flux financiers seulement|surplus consommateur|courbe IS-LM || TES rôle || MA1, TES, QCM
+QCM || Coefficient technique a_ij = || V:CI en produit i de branche j / Production j|Production j / CI i|CI totale / VA|VA branche / Production nationale || Coefs techniques || MA1, TES, QCM
+QCM || Somme des VA des branches = || V:PIB (avant ajustements impôts - subventions)|RNB|CI nationale|ENA || PIB relation || MA1, PIB, QCM
+QCM || Externalité négative ignorée par PIB classique || V:pollution|production industrielle|exportations|impôts sur produits || Externalités || MA1, Limites, QCM
+
+# Série Partiel — Tableaux chiffrés & identités (MA1)
+VF || Pour calculer la VA, on fait Production moins CI || V || Formule: VA = Production − Consommations Intermédiaires || MA1, VA, Principe
+QCM || Entreprise unique: Production P=1 000, CI=400. VA=? || V:600|1 400|400|1 000 || VA = P − CI = 1000 − 400 = 600 || Partiels 2024, MA1, Série A, QCM
+VF || PIB optique production = Somme des VA + Impôts nets || V || Formule: PIB = ΣVA + (Impôts produits − Subventions) || MA1, PIB, Principe
+QCM || Économie à 2 branches: ΣVA=1 200; Impôts sur produits − Subventions = 100. PIB (optique production) = || V:1 300|1 100|1 200|1 400 || PIB = 1 200 + 100 = 1 300 || Partiels 2024, MA1, Série A, QCM
+VF || PIB optique demande inclut CF, FBCF, variations stocks et solde extérieur || V || Formule: PIB = CF + FBCF + ΔS + (X − M) || MA1, PIB, Principe
+QR || Avec CF=900, FBCF=300, ΔS=50, X=250, M=200, quel est le solde extérieur X−M ? || V:50|−50|450|250 || X − M = 250 − 200 = 50 || MA1, PIB, Étape1
+QCM || Données: CF=900, FBCF=300, ΔS=50, solde extérieur=50. PIB = || V:1 300|1 250|1 200|1 500 || PIB = 900 + 300 + 50 + 50 = 1 300 || Partiels 2023, MA1, Série B, QCM
+VF || PIB optique revenus = Somme des rémunérations + EBE + Impôts nets || V || Formule: PIB = Salaires + Profits + (Impôts − Subventions) || MA1, PIB, Principe
+QCM || Rémunérations=700, EBE=400, Impôts nets=150. PIB = || V:1 250|1 100|1 200|1 300 || PIB = 700 + 400 + 150 = 1 250 || Partiels 2022, MA1, Série C, QCM
+VF || Dans un TES, les CI d'une branche sont la somme de ses inputs || V || CI branche = Somme colonnes (ce que la branche consomme) || MA1, TES, Principe
+QR || Branche A consomme 100 de A + 50 de B. CI totales de A = ? || V:150|100|50|200 || CI_A = 100 + 50 = 150 || MA1, TES, Calcul1
+QR || Branche B consomme 80 de A + 20 de B. CI totales de B = ? || V:100|80|20|180 || CI_B = 80 + 20 = 100 || MA1, TES, Calcul2
+VF || Coefficient technique a_ij = CI du produit i utilisé par branche j / Production de j || V || Formule: a_ij = CI(i→j) / Production_j || MA1, TES, Principe
+QCM || CI(A par B)=80 et Production B=400. Coefficient a_AB = ? || V:0,20|0,80|0,50|0,02 || a = 80 / 400 = 0,20 || Partiels 2023, MA1, Série B, QCM
+VF || Dans l'équilibre emplois-ressources, Total Ressources = Total Emplois || V || Principe comptable: P+M+(T−SP) = CI+CF+FBCF+ΔS+X+A || MA1, Équilibre, Principe
+QR || Ressources: P=1 500, M=400, T−SP=100. Total Ressources = ? || V:2 000|1 900|2 100|1 500 || 1 500 + 400 + 100 = 2 000 || MA1, Équilibre, Étape1
+QR || Emplois: CI=800, CF=900, FBCF=200, ΔS=−50, X=150 (sans A). Total = ? || V:2 000|2 050|1 950|2 100 || 800 + 900 + 200 − 50 + 150 = 2 000 || MA1, Équilibre, Étape2
+QCM || Si Ressources=2 000 et Emplois (sans A)=2 000, alors A = ? || V:0|100|−100|200 || A = 2 000 − 2 000 = 0 (équilibre parfait) || Partiels 2022, MA1, Série C, QCM
+VF || RNB = PIB + Revenus primaires reçus − Revenus primaires versés || V || Formule: RNB = PIB + RPR − RPV || MA1, RNB, Principe
+QCM || PIB=1 300, RPR=30, RPV=60. RNB = ? || V:1 270|1 330|1 360|1 240 || RNB = 1 300 + 30 − 60 = 1 270 || Partiels 2024, MA1, Série A, QCM
+VF || ENA = Épargne + Éducation − Dégradation − Pollution || V || Formule: ENA = Épargne brute + Investissement humain − Déplétion capitale naturel || MA1, ENA, Principe
+QCM || Épargne=200, Éducation=+20, Dégradation=−15, Pollution=−10. ENA = ? || V:195|200|215|175 || ENA = 200 + 20 − 15 − 10 = 195 || Partiels 2023, MA1, Série B, QCM
+VF || Déflateur PIB = (PIB nominal / PIB réel) × 100 || V || Mesure niveau général des prix vs année de référence || MA1, Déflateur, Principe
+QCM || PIB nominal=1 400, PIB réel=1 300. Déflateur = ? || V:≈107,7|≈93,0|≈100,0|≈110,0 || Déflateur = (1 400 / 1 300) × 100 ≈ 107,7 || Partiels 2022, MA1, Série C, QCM

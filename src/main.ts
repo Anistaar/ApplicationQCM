@@ -10,6 +10,8 @@ import { toTitleCase, norm, keyForQuestion, dedupeQuestions } from './utils';
 import { courses, getThemesForCourse } from './courses';
 import { loadStats, saveStats, updateStatAfterAnswer, computeSeverity, isDue } from './scheduling';
 import { statsManager, type QStatExtended } from './stats/StatsManager';
+import { ProgressionDashboard } from './stats/ProgressionDashboard';
+import { eloSystem } from './stats/EloProgressionSystem';
 
 const $ = (sel: string, root: Document | HTMLElement = document) =>
   root.querySelector(sel) as HTMLElement | null;
@@ -41,6 +43,7 @@ const els = {
   activeQuit: $('#btn-exit-mode') as HTMLButtonElement | null,
 };
 const elsExtra = {
+  btnProgression: $('#btn-progression') as HTMLButtonElement | null,
   btnExplorer: $('#btn-explorer') as HTMLButtonElement | null,
   fileBrowser: $('#file-browser') as HTMLDivElement | null,
   fbFolders: $('#fb-folders') as HTMLDivElement | null,
@@ -743,6 +746,45 @@ let focusTrapActive = false;
 let firstFocusableElement: HTMLElement | null = null;
 let lastFocusableElement: HTMLElement | null = null;
 
+/**
+ * Afficher le dashboard de progression ELO
+ */
+async function showProgressionDashboard() {
+  // Masquer zone de sélection si active
+  if (els.selectionArea) {
+    els.selectionArea.style.display = 'none';
+  }
+
+  // Créer container dashboard
+  let dashboardContainer = $('#progression-dashboard-container') as HTMLDivElement | null;
+  if (!dashboardContainer) {
+    dashboardContainer = document.createElement('div');
+    dashboardContainer.id = 'progression-dashboard-container';
+    dashboardContainer.style.marginTop = '20px';
+    els.root.parentElement?.insertBefore(dashboardContainer, els.root);
+  }
+
+  // Rendre le dashboard
+  const dashboard = new ProgressionDashboard();
+  await dashboard.render(dashboardContainer, state.allPool || []);
+
+  // Ajouter bouton retour
+  const backBtn = document.createElement('button');
+  backBtn.className = 'secondary';
+  backBtn.textContent = '← Retour';
+  backBtn.style.marginTop = '20px';
+  backBtn.addEventListener('click', () => {
+    dashboardContainer!.remove();
+    if (els.selectionArea) {
+      els.selectionArea.style.display = 'block';
+    }
+  });
+  dashboardContainer.appendChild(backBtn);
+
+  // Scroll to top
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function openFileBrowser() {
   if (!elsExtra.fileBrowser || !elsExtra.fbFiles || !elsExtra.fbFolders) return;
   elsExtra.fbFiles.innerHTML = '';
@@ -851,6 +893,7 @@ function setupFocusTrap() {
   document.addEventListener('keydown', trapHandler);
 }
 
+elsExtra.btnProgression?.addEventListener('click', showProgressionDashboard);
 elsExtra.btnExplorer?.addEventListener('click', openFileBrowser);
 elsExtra.fbClose?.addEventListener('click', closeFileBrowser);
 // Télécharger le cours sélectionné dans le select

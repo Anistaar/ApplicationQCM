@@ -1,0 +1,54 @@
+chapter: Analyse Éco > MA2 — Croissance et fluctuations
+
+QCM || Croissance économique selon Perroux est || V:augmentation soutenue du produit réel|hausse ponctuelle trimestrielle|augmentation des prix|réduction du chômage seule || Définition croissance || MA2, Croissance, QCM
+QCM || Différence croissance extensive vs intensive || V:extensive = ↑ facteurs K,L; intensive = ↑ productivité|intensive = ↑ facteurs|extensive = gains de productivité|aucune distinction || Types croissance || MA2, Types, QCM
+QCM || Limite du PIB croissance pour bien-être || V:ignore externalités négatives|compte travail domestique|mesure bonheur|intègre pollution négative || Limites bien-être || MA2, Limites, QCM
+QCM || Phase 1820-1870 marquée par || V:leadership Royaume-Uni libre-échange|dominance Chine|isolement financier|absence d'innovation || Révolution industrielle + expansion britannique || MA2, Histoire, QCM
+QCM || Trente Glorieuses (1950-1973) caractérisées par || V:forte croissance + plein-emploi + gains productivité|stagflation|chômage massif|baisse innovation || Période exceptionnelle de prospérité en France || MA2, Histoire, QCM
+QCM || Chocs pétroliers 1973/1979 ont provoqué || V:inflation + ralentissement + chômage|réduction prix énergie|hausse pouvoir d'achat|disparition cycles || Stagflation = crise d'offre majeure || MA2, Crises, QCM
+QCM || Stagflation combine || V:inflation + chômage élevé|inflation + plein-emploi|déflation + chômage|croissance + baisse prix || Stagflation || MA2, Crises, QCM
+QCM || Facteurs fondamentaux de croissance (modèle Solow) || V:K, L, progrès technique|seulement K|seulement L|monnaie, taux de change || Solow facteurs || MA2, Solow, QCM
+QCM || Productivité globale des facteurs (PGF) mesure || V:efficacité combinaison K,L|quantité travail|quantité capital|inflation sectorielle || PGF capte le progrès technique et l'organisation productive || MA2, Productivité, QCM
+QCM || Progrès technique chez Solow est || V:exogène|endogène|identique à capital humain|monétaire || Solow PT || MA2, Solow, QCM
+QCM || Croissance endogène: moteur principal || V:accumulation connaissances / capital humain|seule exploitation ressources|épargne constante|démographie uniquement || Endogène || MA2, Théories, QCM
+QCM || Rôle du capital humain selon Becker/Lucas || V:augmente productivité & croissance|ralentit innovation|ne joue aucun rôle macro|réduit efficience || Capital humain || MA2, CapitalHumain, QCM
+QCM || Externalité positive de la connaissance signifie || V:bénéfice diffus pour autres agents|coût privé uniquement|secret parfait|impact négatif sur productivité || Diffusion savoir || MA2, Connaissance, QCM
+QCM || Invention vs innovation: innovation est || V:application économique de l'invention|idée scientifique pure|brevet automatique|recherche fondamentale || Différence || MA2, Innovation, QCM
+QCM || Types d'innovation (Schumpeter) incluent (choisir vraies) || V:produit|V:procédé|V:organisation|diffusion passive || Schumpeter || MA2, Innovation, QCM
+QCM || Innovation radicale vs incrémentale: radicale est || V:rupture majeure|petite amélioration|adaptation mineure|diminution qualité || Radical || MA2, Innovation, QCM
+QCM || Destruction créatrice implique || V:remplacement ancien par nouveau|conservation intégrale|stabilité totale|absence de substitution || Schumpeter processus || MA2, Schumpeter, QCM
+QCM || Accumulation capital fixe agit sur croissance via || V:↑ capacité productive & intégration PT|↓ capacité productive|neutralité|réduction PGF || Capital fixe || MA2, Capital, QCM
+QCM || Effet multiplicateur investissement: investissement ↑ ⇒ || V:production ↑ revenu ↑ consommation ↑|production ↓|revenu stable|chômage ↑ immédiatement || Multiplicateur || MA2, Investissement, QCM
+QCM || Cycle économique comporte (ordre) || V:essor → retournement → récession → reprise|récession → essor → reprise → retournement|essor → récession → retournement|reprise → essor → récession → retournement || Phases cycle || MA2, Cycle, QCM
+QCM || Cycle Kitchin typiquement lié à || V:variations de stocks|innovations majeures|accumulation capital humain|chocs pétroliers || Cycles courts || MA2, Cycle, QCM
+QCM || Cycle Juglar lié à || V:variations investissement|stocks quotidiens|politique monétaire uniquement|inégalités sociales || Cycles moyens || MA2, Cycle, QCM
+QCM || Cycle Kondratiev associé à || V:grappes d'innovations majeures|rotation saisonnière|taux change|chômage frictionnel || Cycles longs || MA2, Cycle, QCM
+QCM || Explication endogène cycle inclut || V:productivité & crédit & stocks|chocs météorologiques seul|guerre uniquement|politique fiscale seule || Endogène cycles || MA2, Cycle, QCM
+QCM || Choc d’offre négatif typique || V:hausse brutale prix énergie|hausse productivité|baisse taxes|amélioration capital humain || Choc offre || MA2, Chocs, QCM
+QCM || Choc de demande négatif provient typiquement de || V:baisse consommation ou investissement|hausse exportations|baisse prix importés|augmentation revenu disponible || Choc négatif = réduction dépenses globales || MA2, Chocs, QCM
+QCM || Plus-value selon Marx = || V:valeur créée - salaire versé|salaire - valeur créée|profit - taxes|CI - VA || Plus-value || MA2, Classiques, QCM
+QCM || Rendements décroissants classiques impliquent || V:efficacité marginale du facteur baisse|efficacité augmente|constante|illimitée || Rendements || MA2, Classiques, QCM
+QCM || Stagnation (état stationnaire) chez classiques due à || V:rendements décroissants / limites terre|accumulation infinie|innovation illimitée|demande illimitée || Stationnaire || MA2, Classiques, QCM
+QCM || Capital circulant correspond à || V:CI détruites dans production|machines durables|logiciels|brevets || Capital circulant || MA2, Capital, QCM
+QCM || Capital fixe comprend || V:machines, bâtiments, logiciels|énergie consommée|CI détruites|salaires || Capital fixe || MA2, Capital, QCM
+QCM || Amortissement annuel = || V:valeur investissement / durée vie|CI / durée vie|VA / durée vie|prix / quantité || Amortissement || MA2, Capital, QCM
+QCM || Apprentissage (learning by doing) accroît || V:productivité|coûts fixes|obsolescence|inflation immédiatement || Learning || MA2, Productivité, QCM
+QCM || Capital humain inclut || V:compétences, savoir-faire, expériences|stocks physiques|terrains|brevets seulement || Capital humain || MA2, CapitalHumain, QCM
+
+# Série Partiel — Calculs de croissance, PGF et cycles (MA2)
+VF || TCAM se calcule avec la formule (Valeur finale/Valeur initiale)^(1/nombre années) − 1 || V || Taux de croissance annuel moyen géométrique || MA2, TCAM, Principe
+QCM || Indice 100 → 121 en 2 ans. TCAM ≈ ? || V:≈10%|≈21%|≈9%|≈11% || (121/100)^(1/2) − 1 = 1,1 − 1 = 0,10 = 10% || Partiels 2024, MA2, Série A, QCM
+VF || PGF se calcule: g_A = g_Y − α×g_K − (1−α)×g_L || V || Formule comptabilité croissance (résidu de Solow) || MA2, PGF, Principe
+QR || Si α=0,4 et g_K=2%, combien contribue K ? || V:0,8%|0,4%|2%|1,6% || Contribution K = α × g_K = 0,4 × 2% = 0,8% || MA2, PGF, Étape1
+QR || Si (1−α)=0,6 et g_L=1%, combien contribue L ? || V:0,6%|1%|0,4%|1,6% || Contribution L = 0,6 × 1% = 0,6% || MA2, PGF, Étape2
+QCM || g_Y=3%, contribution K=0,8%, contribution L=0,6%. PGF = ? || V:1,6%|2,0%|1,0%|0,6% || PGF = 3 − 0,8 − 0,6 = 1,6% || Partiels 2024, MA2, Série A, QCM
+VF || Sans PT, g_Y = α×g_K + (1−α)×g_L || V || Croissance = somme pondérée des facteurs || MA2, Croissance, Principe
+QR || g_K=5%, g_L=1%, g_Y=3%. Simplifiez: 3 = 5α + (1−α) donne ? || V:3 = 5α + 1 − α|3 = 6α|3 = 4α|3 = 5α || Développement: 3 = 5α + 1 − α = 4α + 1 || MA2, Étape1
+QCM || Si 3 = 4α + 1, alors α = ? || V:0,5|0,33|0,67|0,4 || 4α = 2 donc α = 0,5 || Partiels 2023, MA2, Série B, QCM
+VF || Règle des 70: Années pour doubler ≈ 70 / Taux croissance (en %) || V || Approximation rapide pour croissance exponentielle || MA2, Règle70, Principe
+QCM || À g=2%/an, doublement en combien d'années ? || V:35 ans|70 ans|50 ans|25 ans || 70 / 2 = 35 ans || Partiels 2022, MA2, Série C, QCM
+QCM || Choc pétrolier (− offre) entraîne à court terme || V:inflation + baisse production|déflation + hausse production|inflation + hausse production|déflation + baisse production || Stagflation || Partiels 2024, MA2, Série A, QCM
+QCM || Cycle Juglar (7–11 ans) lié à || V:l'investissement|les stocks|les innovations majeures|les récoltes || Cycle moyen d'investissement des entreprises || Partiels 2023, MA2, Série B, QCM
+QCM || Décomposition croissance comptable: ΔY/Y = ΔA/A + α ΔK/K + (1−α) ΔL/L signifie || V:PGF capte progrès non expliqués par K,L|PGF = simple résidu statistique sans sens|K,L n’affectent pas Y|α constant inutile || Comptabilité croissance || Partiels 2022, MA2, Série C, QCM
+QCM || Capital humain ↑ → effets attendus sur croissance de long terme || V:↑ PGF et externalités positives|↓ PGF|neutre|uniquement sur K mesuré || Externalités connaissances || Partiels 2024, MA2, Série A, QCM
+QCM || Si production stagne (g_Y=0) alors que K et L augmentent, cela indique || V:chute de PGF (efficacité baisse)|stabilité PGF|hausse PGF|mesure impossible || PGF négative compense la hausse des facteurs || Partiels 2023, MA2, Série B, QCM

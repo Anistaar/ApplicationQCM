@@ -1,0 +1,53 @@
+chapter: Analyse Éco > MI4 — Offre, demande et marché
+
+QCM || Un marché est || V:lieu physique/virtuel où O et D se rencontrent|forcément une bourse financière|un monopole public|une file d'attente || Définition marché || MI4, Marché, QCM
+QCM || Loi de la demande: prix ↑ ⇒ || V:quantité demandée ↓ (ceteris paribus)|quantité demandée ↑|offre ↓ automatiquement|prix d'équilibre ↑ toujours || Relation inverse || MI4, Demande, QCM
+QCM || Loi de l’offre: prix ↑ ⇒ || V:quantité offerte ↑|quantité offerte ↓|demande ↑ toujours|salaires ↓ automatiquement || Relation directe || MI4, Offre, QCM
+QCM || Quantité demandée collective obtenue par || V:somme des quantités individuelles|moyenne pondérée des prix|prix × quantité individuelle|différence offre-demande || Agrégation demande || MI4, Demande, QCM
+QCM || Prix d’équilibre réalise || V:Qofferte = Qdemandée|profit maximal|coût minimal|prix administré || Équilibre || MI4, Équilibre, QCM
+QCM || Excès d’offre (surplus) implique || V:pression à la baisse sur le prix|hausse automatique du prix|quantité demandée > offerte|marché fermé || Ajustement || MI4, Déséquilibre, QCM
+QCM || Excès de demande implique || V:pression à la hausse sur le prix|baisse automatique du prix|offre > demande|surplus producteur nul || Ajustement || MI4, Déséquilibre, QCM
+QCM || Concurrence pure et parfaite (choisir vraies) || V:atomicité|V:homogénéité|V:transparence|barrières fortes à l'entrée || Hypothèses CPP || MI4, CPP, QCM
+QCM || Libre entrée/sortie signifie || V:absence de barrières artificielles|subventions obligatoires|monopole garanti|prix administrés || Entrée sortie || MI4, CPP, QCM
+QCM || Un oligopole se caractérise par || V:quelques offreurs nombreux demandeurs|un seul offreur|beaucoup d'offreurs et demandeurs|un seul demandeur || Structure marché || MI4, Structure, QCM
+QCM || Un monopsone est || V:un seul demandeur face à plusieurs offreurs|un seul offreur|quelques offreurs|multitude acheteurs/vendeurs || Structure spécifique || MI4, Structure, QCM
+QCM || Enchère descendante: le Commissaire-priseur || V:baisse le prix jusqu'au premier acheteur|montée de prix par surenchères|fixe prix unique fixe|attribue au hasard || Mécanisme prix || MI4, Enchères, QCM
+QCM || Marché régulé exemple || V:prix influencé par normes/syndicats|absence de normes|fixation purement aléatoire|abolition des contrats || Régulation || MI4, Régulation, QCM
+QCM || Élasticité-prix de la demande mesure || V:sensibilité Qd à variation de prix|variation prix à structure coût|profit marginal|coût d'opportunité relatif || Élasticité || MI4, Élasticité, QCM
+QCM || Demande inélastique signifie || V:faible variation Qd quand prix change|Qd varie fortement|prix constant|offre parfaitement élastique || Inélasticité || MI4, Élasticité, QCM
+QCM || Déplacement de la courbe de demande provoqué par || V:variation revenu|variation des préférences|variation prix des biens liés|changement du prix du bien (→ mouvement sur la courbe) || Shift vs mouvement || MI4, Demande, QCM
+QCM || Déplacement de l’offre induit par || V:variation coûts de production|progrès technique|taxes/subventions|changement du prix du bien (→ mouvement) || Shift offre || MI4, Offre, QCM
+QCM || Surplus du consommateur correspond à || V:différence entre disposition à payer et prix|recette totale|coût moyen|profit producteur || Surplus C || MI4, Surplus, QCM
+QCM || Surplus du producteur correspond à || V:différence entre prix de vente et coût marginal agrégé|prix × quantité|coût fixe|recettes - taxes uniquement || Surplus P || MI4, Surplus, QCM
+QCM || Intervention État: taxe spécifique entraîne (ceteris paribus) || V:hausse prix à l'achat, baisse prix reçu par producteur|baisse prix consommateur|hausse quantité|surplus total inchangé || Taxe effet || MI4, Politique, QCM
+QCM || Plafond de prix en dessous de l’équilibre génère || V:pénurie|surplus|équilibre identique|surplus producteur accru || Contrôle prix || MI4, Politique, QCM
+QCM || Plancher de prix au-dessus de l’équilibre génère || V:surplus d’offre|pénurie|équilibre identique|diminution coût marginal || Contrôle prix || MI4, Politique, QCM
+QCM || Transparence dans CPP implique || V:information parfaite sur prix/qualité|opacité volontaire|coût d'opportunité nul|absence de compétition || Hypothèse info || MI4, CPP, QCM
+QCM || Atomicité signifie || V:aucun agent n’influence seul le prix|un agent fixe le prix|quelques agents dominent|barrières à l'entrée || Atomicité || MI4, CPP, QCM
+QCM || Différence offre/demande utilisée pour trouver équilibre est || V:Qofferte - Qdemandée|prix - coût|Qofferte/Qdemandée|coût d'opportunité || Méthode tableau || MI4, Équilibre, QCM
+
+# Série Partiel — Numérique O/D, élasticités et politiques (MI4)
+VF || Équilibre: Qd = Qs (offre = demande) || V || Condition d'équilibre || Partiels 2024, MI4, Série A, VF
+QR || Qd = 100 − 2P; Qs = −20 + 3P. Égaliser: 100 − 2P = −20 + 3P ⇒ 100 + 20 = ? || 120 = 5P || Réarrangement || Partiels 2024, MI4, Série A, QR
+QR || 120 = 5P ⇒ P* = ? || 24 || Partiels 2024, MI4, Série A, QR
+QCM || Q* = 100 − 2(24) = 100 − 48 = ? || V:52|60|50|40 || Quantité d'équilibre || Partiels 2024, MI4, Série A, QCM
+VF || Taxe spécifique t: offre devient Qs = −20 + 3(P − t) || V || Producteur reçoit P − t || Partiels 2024, MI4, Série A, VF
+QR || t=10€. Offre: −20 + 3(P − 10) = −20 + 3P − ? || 30 || Partiels 2024, MI4, Série A, QR
+QR || Égaliser demande et offre: 100 − 2P = −20 + 3P − 30 ⇒ 100 − 2P = 3P − ? || 50 || Simplification || Partiels 2024, MI4, Série A, QR
+QR || 100 + 50 = 5P ⇒ 150 = 5P ⇒ P* = ? || 30 || Partiels 2024, MI4, Série A, QR
+QCM || Nouveau prix payé par consommateur après taxe t=10€ || V:30€|24€|34€|28€ || Hausse de 24€ à 30€ (conso supporte 6€) || Partiels 2024, MI4, Série A, QCM
+VF || Subvention s: offre devient Qs = −20 + 3(P + s) || V || Producteur reçoit P + s || Partiels 2023, MI4, Série B, VF
+QR || s=5€. Offre: −20 + 3(P + 5) = −20 + 3P + ? || 15 || Partiels 2023, MI4, Série B, QR
+QR || Simplifier offre: −20 + 3P + 15 = 3P − ? || 5 || Partiels 2023, MI4, Série B, QR
+QR || Égaliser: 100 − 2P = 3P − 5 ⇒ 100 + 5 = 5P ⇒ P* = ? || 21 || Partiels 2023, MI4, Série B, QR
+QCM || Nouveau prix payé par consommateur après subvention s=5€ || V:21€|24€|22€|26€ || Baisse de 24€ à 21€ || Partiels 2023, MI4, Série B, QCM
+VF || Élasticité-prix demande: ε = (dQ/dP)(P/Q) || V || Formule ponctuelle || Partiels 2024, MI4, Série A, VF
+QR || Qd = 100 − 2P. Dérivée dQ/dP = ? || −2 || Pente de la demande || Partiels 2024, MI4, Série A, QR
+QR || P=24 ⇒ Q = 100 − 2(24) = ? || 52 || Quantité au point d'évaluation || Partiels 2024, MI4, Série A, QR
+QR || Rapport P/Q = 24/52 ≈ ? || 0,46 || Partiels 2024, MI4, Série A, QR
+QCM || ε = (−2)(24/52) = (−2)(0,46) ≈ ? || V:−0,92|−2,0|−0,5|−1,5 || Élasticité demande inélastique |ε| < 1 || Partiels 2024, MI4, Série A, QCM
+QCM || Plafond de prix Pc=20 (< P*). Résultat || V:pénurie|surplus|pas d’effet|surplus producteur || Pc < P* ⇒ Qd > Qs ⇒ pénurie || Partiels 2022, MI4, Série C, QCM
+QCM || Taxe spécifique t augmente prix payé par conso. de ΔP^C et réduit prix reçu par prod. de ΔP^P. Incidence plus forte sur || V:côté le plus inélastique|côté le plus élastique|toujours consommateurs|toujours producteurs || Incidence fiscale || Partiels 2023, MI4, Série B, QCM
+QCM || Choc d’offre positif (baisse coûts) déplace || V:offre vers la droite (⇧Qs)|demande vers la droite|offre vers la gauche|demande vers la gauche || Shift || Partiels 2024, MI4, Série A, QCM
+QCM || Biens complémentaires: hausse prix du bien A entraîne || V:baisse demande du bien B|hausse offre de B|hausse demande de B|aucun effet || Complémentarité || Partiels 2022, MI4, Série C, QCM
+QCM || Surplus du consommateur (linéaire) est l’aire || V:du triangle sous la courbe de demande au-dessus de P|sous la courbe d’offre|de tout le rectangle P×Q|entre coût marginal et prix reçu || Définition || Partiels 2023, MI4, Série B, QCM

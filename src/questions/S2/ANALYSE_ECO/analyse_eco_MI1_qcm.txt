@@ -1,0 +1,42 @@
+chapter: Analyse Éco > MI1 — Bases du raisonnement économique
+
+QCM || L’économie étudie principalement || V:l’allocation de ressources rares face à des besoins illimités|uniquement la production agricole|les loisirs sans contrainte|la psychologie individuelle pure || Définition champ économique || MI1, Bases, QCM
+QCM || Un besoin primaire est || V:s’habiller|collectionner des montres de luxe|afficher un statut social|acheter un 3e smartphone identique || Hiérarchie des besoins || MI1, Besoins, QCM
+QCM || La rareté implique || V:des arbitrages|abondance infinie|absence de choix|prix constants || Rareté → choix contraint || MI1, Rareté, QCM
+QCM || Un arbitrage est || V:un choix entre options avec contraintes|une simple comparaison de couleurs|une absence de préférence|un calcul automatique sans information || Notion clé arbitrage || MI1, Arbitrage, QCM
+QCM || Le coût d’opportunité correspond à || V:la valeur de la meilleure option abandonnée|le prix payé|le coût comptable total|la dépense future incertaine || Définition coût d’opportunité || MI1, Arbitrage, QCM
+QCM || Exemple de dépense incompressible || V:payer le loyer|acheter un 5e jeu vidéo|abonnement premium superflu|voyage exotique spontané || Priorisation budgétaire || MI1, Dépenses, QCM
+QCM || Ressource limitée: laquelle ? || V:temps|air respirable|désirs|imagination || Temps rare, désirs illimités || MI1, Ressources, QCM
+QCM || Modalités d’allocation évoquées (choisir vraies) || V:marché|V:organisation (État/firme)|V:réciprocité|ostentation pure || Trois formes clés || MI1, Allocation, QCM
+QCM || La réciprocité s’appuie sur || V:obligations mutuelles|un paiement immédiat de prix|absence de contrepartie future|monopole légal || Don / retour attendu || MI1, Réciprocité, QCM
+QCM || Wikipédia illustre || V:la réciprocité communautaire|un monopole|la fixation autoritaire des prix|l’absence de coopération || Communauté contributive || MI1, Réciprocité, QCM
+QCM || Différence micro vs macro || V:micro analyse unités individuelles|macro phénomènes agrégés|micro = uniquement politique publique|macro = décisions consommateurs spécifiques || Niveaux d’analyse || MI1, MicroMacro, QCM
+QCM || Exemple de phénomène macro || V:inflation nationale|choix d’un ménage d’épargne|prix d’un seul bien dans une boutique|préférence individuelle instantanée || Agrégation || MI1, Macro, QCM
+QCM || Discipline plurielle signifie || V:plusieurs approches coexistent|une seule théorie dominante éternelle|absence de méthode|rejet des données empiriques || Pluralité théorique || MI1, Méthodo, QCM
+QCM || Vérifiabilité d’une théorie signifie || V:possible test empirique|acceptation politique|popularité médiatique|ancienneté || Critère scientifique 1 || MI1, Science, QCM
+QCM || Confirmabilité implique || V:reproductibilité|secret de la méthode|unicité d’observation|non réfutabilité || Critère scientifique 2 || MI1, Science, QCM
+QCM || Réfutabilité implique || V:possibilité de contre-exemple|théorie éternelle|immunité à la critique|preuve unique suffisante || Critère scientifique 3 || MI1, Science, QCM
+QCM || Un modèle sert à || V:simplifier et relier variables|complexifier la réalité|supprimer la causalité|remplacer toute observation || Rôle du modèle || MI1, Modèle, QCM
+QCM || Les postulats servent à || V:simplifier en négligeant certains effets|ajouter tous les détails|garantir vérité absolue|éviter toute hypothèse || Rôle des postulats || MI1, Postulats, QCM
+QCM || Externalité parasite un indicateur quand || V:événement exceptionnel déforme la série|données parfaitement lisses|absence de saisonnalité|aucun choc exogène || Qualité données || MI1, Données, QCM
+QCM || Un indicateur mal interprété (PIB/hab Luxembourg) résulte surtout de || V:forte population frontalière|erreur de calcul systématique|absence de production|confusion avec dette publique || Limites indicateurs || MI1, Indicateurs, QCM
+QCM || Pourquoi rigueur accrue en sciences sociales ? || V:données bruyantes multi-causes|phénomènes parfaitement isolés|contrôle total en labo|un seul facteur explicatif universel || Complexité sociale || MI1, Méthodo, QCM
+QCM || Chaîne de construction scientifique (ordre) || V:observation → hypothèses → modèle → test → théorie|hypothèses → observation → théorie unique|théorie → modèle → observation sans test|modèle → théorie → hypothèses inversées || Démarche scientifique || MI1, Science, QCM
+QCM || Cause multiple d’un phénomène implique || V:analyses multifactorielle|refus de toute modélisation|abandon de la quantification|choix d’un seul facteur arbitraire || Multifactorialité || MI1, Méthodo, QCM
+QCM || Le coût psychologique de renonciation est || V:partie du coût d’opportunité|un coût comptable|une dépense fiscale|un prix d’équilibre || Subjectivité arbitrage || MI1, Arbitrage, QCM
+
+# Série Partiel — Cas pratiques (MI1)
+VF || Coût opportunité = Manque à gagner + Dépense réelle || V || Somme de ce qu'on perd ET de ce qu'on dépense || MI1, CoûtOpport, Principe
+QR || Job à 12€/h, cinéma 2h. Manque à gagner = ? || V:24€|12€|9€|33€ || 2h × 12€/h = 24€ de salaire non perçu || MI1, Étape1
+QR || Billet cinéma coûte 9€. Dépense = ? || V:9€|12€|24€|0€ || Dépense directe = 9€ || MI1, Étape2
+QCM || Manque à gagner 24€ + Dépense 9€. Coût total = ? || V:33€|24€|9€|15€ || Coût opportunité = 24 + 9 = 33€ || Partiels 2024, MI1, Série A, QCM
+VF || Coût opportunité d'un choix = Valeur de la meilleure alternative abandonnée || V || On perd la deuxième meilleure option || MI1, Coût, Principe
+QCM || Options: Cours (8), Sport (7), Série (5). Choisir Cours, coût opportunité = ? || V:7|8|5|13 || Meilleure option abandonnée = Sport (7) || Partiels 2023, MI1, Série B, QCM
+QCM || Budget de 100€. Deux biens: Livre (20€), Restaurant (25€). Panier (3 Livres, 1 Restaurant) est || V:feasible|infeasible|sur-budget de 5€ acceptable|optimal par définition || Coût = 3×20 + 25 = 85 < 100 ⇒ faisable. || Partiels 2024, MI1, Série A, QCM
+QCM || Temps rare: 24h/j. Dormir 8h, étudier 6h, travailler 7h, loisirs 3h. Si travail ↑ à 8h, coût d’opportunité marginal d’1h est || V:1h de loisirs|1h d’étude|0|1h de sommeil || On suppose loisirs ajustables en dernier recours || Partiels 2022, MI1, Série C, QCM
+QCM || Une carte de transport déjà payée (non remboursable) est || V:coût irrécupérable (sunk cost)|coût d’opportunité|coût marginal|coût variable || Les sunk costs ne doivent pas guider la décision marginale || Partiels 2023, MI1, Série B, QCM
+QCM || Choix rationnel marginal: continuer un projet si || V:Bénéfice marginal ≥ Coût marginal|Bénéfice total ≥ Coût total|Coût fixe déjà engagé élevé|Objectif initial choisi || Règle de décision || Partiels 2024, MI1, Série A, QCM
+QCM || Dans une communauté open-source (Wikipédia), la coordination repose sur || V:réciprocité et normes|prix de marché|contrainte légale uniquement|hiérarchie stricte || Allocation par réciprocité || Partiels 2022, MI1, Série C, QCM
+QCM || Subvention aux transports en commun augmente équité mais génère || V:coût budgétaire (trade-off efficacité/équité)|suppression CO2 immédiate|annulation congestion routière instantanée|remplacement toute régulation || Arbitrage classique équité vs efficacité || Partiels 2024, MI1, Série A, QCM
+QCM || Une donnée aberrante (outlier) dans une série d’indicateurs trimestriels doit être || V:analysée (contexte) avant exclusion|toujours supprimée|toujours conservée|remplacée par la moyenne || Esprit critique des données || Partiels 2023, MI1, Série B, QCM
+QCM || Une affirmation non réfutable empiriquement est || V:non scientifique au sens poppérien|scientifique|confirmée|normative forcément || Réfutabilité || Partiels 2022, MI1, Série C, QCM
