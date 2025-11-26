@@ -17,15 +17,23 @@ QCM || Condition de spécialisation maraîcher (exemple) || V:ratio coûts infé
 QCM || Ajout des prix dans modèle permet || V:détermination des salaires sectoriels|suppression des coûts|égalité automatique|inversion des productivités || Prix relatifs || MI3, Prix, QCM
 QCM || Gains d’échange disparaissent si || V:coûts d’opportunité identiques|différences relatives présentes|productivités diffèrent|prix flottants || Condition neutralité || MI3, Gains, QCM
 QCM || Nature du travail dans modèle simplifié || V:facteur limitant|facteur illimité|non productif|substituable à terre parfaitement || Hypothèse travail || MI3, Hypothèses, QCM
-QCM || Terres souvent considérées comme || V:facteur non limitant (ex simplifié)|facteur principal unique|producteur de salaire|substitut parfait travail || Hypothèse terre || MI3, Hypothèses, QCM
+QCM || Terres dans modèle simplifié Ricardo considérées comme || V:facteur non limitant (hypothèse simplificatrice)|facteur principal unique|producteur de salaire|substitut parfait travail || Hypothèse terre : pour isoler effet travail, on suppose terre abondante || MI3, Hypothèses, QCM
 QCM || Rôle du coût d’opportunité dans spécialisation || V:oriente vers activité avec coût relatif faible|maximise coût absolu|ignore productivité|remplace prix || Mécanisme comparatif || MI3, Mécanisme, QCM
 QCM || Échanges accroissent bien-être car || V:accès à combinaison hors frontière de production|réduit toutes productivités|supprime arbitrages|fixe prix administrés || PPF étendue || MI3, PPF, QCM
 QCM || Intervalle de prix relatifs doit || V:être compris entre coûts d’opportunité des deux|être inférieur aux deux coûts|être supérieur aux deux|être égal aux coûts absolus || Prix d’échange || MI3, Ricardo, QCM
 QCM || Spécialisation modifie || V:allocation du temps de production|préférences|technologie|définition du salaire réel || Organisation production || MI3, Organisation, QCM
 QCM || Marché vs réciprocité: marché permet || V:coordination à grande échelle|coordination locale seulement|exclusion de la monnaie|gratuité systématique || Scalabilité || MI3, Coordination, QCM
-QCM || Si coûts de transaction élevés, échange marchandise peut || V:être empêché|accéléré|générer coûts opportunité nuls|toujours se produire || Frictions || MI3, Transaction, QCM
+QCM || Si coûts de transaction > gains d'échange potentiels, l'échange marchandise || V:sera empêché (non rentable)|sera accéléré|générera coûts opportunité nuls|se produira toujours || Frictions : coûts transaction peuvent annuler bénéfices théoriques || MI3, Transaction, QCM
 
 # Série Partiel — Cas chiffrés (MI3)
+## Rappels conceptuels (comprendre avant calculer)
+VF || L'avantage comparatif repose sur le coût d'opportunité relatif, pas sur la productivité absolue || V || Même moins productif partout, un pays a avantage comparatif où son désavantage est moindre || MI3, Ricardo, Concept, VF
+VF || Le coût d'opportunité d'un bien = quantité de l'autre bien sacrifiée pour le produire || V || Mesure le sacrifice en termes relatifs : combien d'Y pour obtenir 1 unité de X || MI3, Opportunité, Concept, VF
+VF || Pour qu'un échange soit mutuellement avantageux, le prix d'échange doit se situer entre les coûts d'opportunité des deux partenaires || V || Intervalle de gains mutuels : chacun obtient le bien à coût < production propre || MI3, Prix, Concept, VF
+VF || La spécialisation selon l'avantage comparatif augmente la production totale disponible || V || Chacun produit ce qu'il fait relativement mieux → output global supérieur à autarcie || MI3, Spécialisation, Concept, VF
+VF || Si les coûts d'opportunité sont identiques entre deux pays, il n'y a pas de gains à l'échange || V || Sans différentiel relatif, aucun avantage comparatif → échange neutre || MI3, Gains, Concept, VF
+
+## Applications chiffrées
 QCM || Deux pays A et B. Temps unitaire (h/unité): A: pain=2h, fromage=1h; B: pain=3h, fromage=0,5h. Avantage comparatif en fromage ? || V:B|A|aucun|les deux || B a coût d'opportunité du fromage = 3/0,5 = 6 pains/h? Attention: coût d'opportunité fromage (en pain) = temps fromage / temps pain → A: 1/2=0,5 pain; B: 0,5/3≈0,167 pain. Le plus faible (B) ⇒ fromage || Partiels 2024, MI3, Série A, QCM
 QCM || Même données. Intervalle de prix relatifs d’échange (1 pain exprimé en kg de fromage) compatible aux gains mutuels || V:entre 2 et 6|< 0,167|> 8|= 1 exactement || Coûts d’opportunité du pain: A: 2/1=2 from./pain; B: 3/0,5=6 from./pain ⇒ prix d’échange entre 2 et 6. || Partiels 2024, MI3, Série A, QCM
 QCM || Deux producteurs (heures disponibles = 8). A: pain=2h/u, fromage=1h/u; B: pain=3h/u, fromage=0,5h/u. Spécialisation (A→pain, B→fromage) entraîne production totale de || V:4 pains et 16 fromages|8 pains et 8 fromages|3 pains et 12 fromages|2 pains et 10 fromages || A consacre 8h au pain → 8/2=4 pains; B consacre 8h au fromage → 8/0,5=16 fromages || Partiels 2024, MI3, Série A, QCM

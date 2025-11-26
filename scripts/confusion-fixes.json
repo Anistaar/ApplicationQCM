@@ -1,0 +1,170 @@
+[
+  {
+    "file": "INST_QCM_Complet_v2.txt",
+    "line": 38,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? (institutions/organisations) || V:Une institution est forcément une entité juridique dotée de salariés|Les institutions incluent règles formelles et informelles|Les organisations poursuivent des objectifs communs|Institutions et organisations co‑évoluent || Le piège = confusion institution/organisation.",
+    "suggested": [
+      "VF || Une institution est forcément une entité juridique dotée de salariés || F || Dérivé de: Laquelle est fausse ? (institutions/organisations)",
+      "VF || institutions incluent règles formelles et informelles || V || Dérivé de: Laquelle est fausse ? (institutions/organisations)",
+      "VF || organisations poursuivent des objectifs communs || V || Dérivé de: Laquelle est fausse ? (institutions/organisations)",
+      "VF || Institutions et organisations co‑évoluent || V || Dérivé de: Laquelle est fausse ? (institutions/organisations)"
+    ]
+  },
+  {
+    "file": "S1\\MACRO\\Intro_v2.txt",
+    "line": 20,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || Un modèle simplifie le réel|La statique comparative ne décrit pas l’ajustement|V:Les expériences sont parfaitement reproductibles en économie|Un agrégat est une somme homogène",
+    "suggested": [
+      "VF || Un modèle simplifie le réel || V || Dérivé de: Laquelle est fausse ?",
+      "VF || statique comparative ne décrit pas l’ajustement || V || Dérivé de: Laquelle est fausse ?",
+      "VF || expériences sont parfaitement reproductibles en économie || F || Dérivé de: Laquelle est fausse ?",
+      "VF || Un agrégat est une somme homogène || V || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S1\\MACRO\\Investissement_v2.txt",
+    "line": 20,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || Accélérateur simple suppose v constant|Accélérateur flexible introduit δ et délais|V:VAN < 0 → investir|TRI = taux qui annule VAN",
+    "suggested": [
+      "VF || Accélérateur simple suppose v constant || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Accélérateur flexible introduit δ et délais || V || Dérivé de: Laquelle est fausse ?",
+      "VF || VAN < 0 → investir || F || Dérivé de: Laquelle est fausse ?",
+      "VF || TRI = taux qui annule VAN || V || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S2\\HPE\\HPE_Consommation_v2.txt",
+    "line": 15,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || C keynésienne dépend du revenu|Revenu permanent → lissage|Cycle de vie → désépargne retraite|V:Effet de cliquet = consommation baisse autant que la hausse",
+    "suggested": [
+      "VF || C keynésienne dépend du revenu || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Revenu permanent → lissage || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Cycle de vie → désépargne retraite || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Effet de cliquet = consommation baisse autant que la hausse || F || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S2\\HPE\\HPE_Friedman_v2.txt",
+    "line": 18,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || V:monnaie neutre aussi à court terme|Revenu permanent → lissage|Courbe de Phillips LT verticale|NAIRU = inflation stable",
+    "suggested": [
+      "VF || monnaie neutre aussi à court terme || F || Dérivé de: Laquelle est fausse ?",
+      "VF || Revenu permanent → lissage || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Courbe de Phillips LT verticale || V || Dérivé de: Laquelle est fausse ?",
+      "VF || NAIRU = inflation stable || V || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S2\\HPE\\HPE_InfoImparfaite_v2.txt",
+    "line": 17,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || Sélection adverse = qualité cachée|Aléa moral = effort caché|Salaire d’efficience peut être optimal|V:Asymétrie d’info rend l’État inutile",
+    "suggested": [
+      "VF || Sélection adverse = qualité cachée || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Aléa moral = effort caché || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Salaire d’efficience peut être optimal || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Asymétrie d’info rend l’État inutile || F || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S2\\HPE\\HPE_Keynes_v2.txt",
+    "line": 19,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || Demande effective détermine Y|V:la loi de Say est valide en crise|Un équilibre de sous-emploi est possible|Le multiplicateur > 1 si c élevée",
+    "suggested": [
+      "VF || Demande effective détermine Y || V || Dérivé de: Laquelle est fausse ?",
+      "VF || loi de Say est valide en crise || F || Dérivé de: Laquelle est fausse ?",
+      "VF || Un équilibre de sous-emploi est possible || V || Dérivé de: Laquelle est fausse ?",
+      "VF || multiplicateur > 1 si c élevée || V || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S2\\HPE\\HPE_NouveauxKeynesiens_v2.txt",
+    "line": 17,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est fausse ? || Rigidités → sous-emploi|Salaire d’efficience > marché|Coûts de menu → prix collants|V:Anticipations rationnelles rendent toujours la politique efficace",
+    "suggested": [
+      "VF || Rigidités → sous-emploi || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Salaire d’efficience > marché || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Coûts de menu → prix collants || V || Dérivé de: Laquelle est fausse ?",
+      "VF || Anticipations rationnelles rendent toujours la politique efficace || F || Dérivé de: Laquelle est fausse ?"
+    ]
+  },
+  {
+    "file": "S2\\INSTIT\\TRAIN_Asymetrie_Signaux_v1.txt",
+    "line": 7,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Piège : laquelle est FAUSSE ? || V:L’aléa moral précède la signature|Diplôme peut trier|Labels informent|Réputation réduit l’incertitude",
+    "suggested": [
+      "VF || L’aléa moral précède la signature || F || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Diplôme peut trier || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Labels informent || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Réputation réduit l’incertitude || V || Dérivé de: Piège : laquelle est FAUSSE ?"
+    ]
+  },
+  {
+    "file": "S2\\INSTIT\\TRAIN_Comptabilite_IFRS_v1.txt",
+    "line": 8,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Piège : laquelle est FAUSSE ? || IFRS pour comptes consolidés cotés|ANC = autorité publique|IASC 1973|V:Eurostat édicte les IFRS",
+    "suggested": [
+      "VF || IFRS pour comptes consolidés cotés || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || ANC = autorité publique || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || IASC 1973 || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Eurostat édicte les IFRS || F || Dérivé de: Piège : laquelle est FAUSSE ?"
+    ]
+  },
+  {
+    "file": "S2\\INSTIT\\TRAIN_CoutsTransaction_v1.txt",
+    "line": 6,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Piège : laquelle est FAUSSE ? || Marché si coûts faibles|Hiérarchie si actifs spécifiques|Hybrides possibles|V:Contrats sont inutiles",
+    "suggested": [
+      "VF || Marché si coûts faibles || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Hiérarchie si actifs spécifiques || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Hybrides possibles || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || Contrats sont inutiles || F || Dérivé de: Piège : laquelle est FAUSSE ?"
+    ]
+  },
+  {
+    "file": "S2\\INSTIT\\TRAIN_Definitions_Gouvernance_v1.txt",
+    "line": 5,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Confusion fréquente : laquelle est FAUSSE ? || V:Les institutions sont toujours des organismes avec salariés|Les institutions structurent les incitations|Les organisations peuvent influencer les institutions|Institutions & organisations co‑évoluent",
+    "suggested": [
+      "VF || institutions sont toujours des organismes avec salariés || F || Dérivé de: Confusion fréquente : laquelle est FAUSSE ?",
+      "VF || institutions structurent les incitations || V || Dérivé de: Confusion fréquente : laquelle est FAUSSE ?",
+      "VF || organisations peuvent influencer les institutions || V || Dérivé de: Confusion fréquente : laquelle est FAUSSE ?",
+      "VF || Institutions & organisations co‑évoluent || V || Dérivé de: Confusion fréquente : laquelle est FAUSSE ?"
+    ]
+  },
+  {
+    "file": "S2\\INSTIT\\TRAIN_OMC_FMI_BM_v1.txt",
+    "line": 8,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Piège : laquelle est FAUSSE ? || OMC coopère avec FMI/BM|ORD règle les différends|V:OMC fixe les changes|GATT né en 1947",
+    "suggested": [
+      "VF || OMC coopère avec FMI/BM || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || ORD règle les différends || V || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || OMC fixe les changes || F || Dérivé de: Piège : laquelle est FAUSSE ?",
+      "VF || GATT né en 1947 || V || Dérivé de: Piège : laquelle est FAUSSE ?"
+    ]
+  },
+  {
+    "file": "S2\\INSTIT\\TRAIN_Pieges_Comparatifs_v1.txt",
+    "line": 1,
+    "type": "REMPLACER_PAR_VF",
+    "original": "QCM || Laquelle est FAUSSE ? (institutions/organisations) || V:Une institution = organisme avec salariés|Institution = règles|Organisation = groupe poursuivant des objectifs|Co‑évolution fréquente",
+    "suggested": [
+      "VF || Une institution = organisme avec salariés || F || Dérivé de: Laquelle est FAUSSE ? (institutions/organisations)",
+      "VF || Institution = règles || V || Dérivé de: Laquelle est FAUSSE ? (institutions/organisations)",
+      "VF || Organisation = groupe poursuivant des objectifs || V || Dérivé de: Laquelle est FAUSSE ? (institutions/organisations)",
+      "VF || Co‑évolution fréquente || V || Dérivé de: Laquelle est FAUSSE ? (institutions/organisations)"
+    ]
+  }
+]

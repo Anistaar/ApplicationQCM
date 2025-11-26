@@ -1,0 +1,63 @@
+chapter: Analyse Éco > Formules — Constructeur Interactif
+
+## Mode FormulaBuilder : Reconstruire les formules par drag & drop
+
+FormulaBuilder || VA = ? || Production|CI|−|+ || Production - CI || Valeur Ajoutée = Production - Consommations Intermédiaires || MA1, VA, Formule
+
+FormulaBuilder || PIB = ? || CF|FBCF|ΔS|X|M|+|−|(|) || CF + FBCF + ΔS + (X - M) || PIB optique demande = Consommation + Investissement + Stocks + Solde extérieur || MA1, PIB, Formule
+
+FormulaBuilder || RNB = ? || PIB|RPR|RPV|+|− || PIB + RPR - RPV || Revenu National Brut = PIB + Revenus reçus - Revenus versés || MA1, RNB, Formule
+
+FormulaBuilder || a_ij = ? || CI|i|j|Production|/|(|) || CI(i,j) / Production(j) || Coefficient technique = CI produit i par branche j / Production branche j || MA1, TES, Formule
+
+FormulaBuilder || Déflateur = ? || PIB nominal|PIB réel|/|×|100 || (PIB nominal / PIB réel) × 100 || Indice de prix implicite || MA1, Déflateur, Formule
+
+FormulaBuilder || g_Y = ? || g_A|α|g_K|g_L|1|+|−|×|(|) || g_A + α·g_K + (1-α)·g_L || Décomposition de Solow : Croissance = PGF + Contributions facteurs || MA2, Solow, Formule
+
+FormulaBuilder || g_A = ? || g_Y|α|g_K|g_L|1|−|×|(|) || g_Y - α·g_K - (1-α)·g_L || PGF = Résidu de croissance non expliqué par K et L || MA2, PGF, Formule
+
+FormulaBuilder || Années = ? || 70|g|/ || 70 / g || Règle des 70 pour estimer le doublement || MA2, Règle70, Formule
+
+FormulaBuilder || TCAM = ? || Vf|Vi|n|1|^|/|−|×|100|(|)|[|] || [(Vf/Vi)^(1/n) - 1] × 100 || Taux de croissance annuel moyen || MA2, TCAM, Formule
+
+FormulaBuilder || Y = ? || A|K|L|α|1|×|^|−|(|) || A × K^α × L^(1-α) || Fonction de production Cobb-Douglas || MA2, CobbDouglas, Formule
+
+FormulaBuilder || Amortissement = ? || Valeur|Durée vie|/ || Valeur / Durée vie || Dépréciation linéaire annuelle du capital fixe || MA2, Amortissement, Formule
+
+FormulaBuilder || Optimal si ? || BM|CM|≥ || BM ≥ CM || Continuer si Bénéfice marginal ≥ Coût marginal || MI1-MI2, Optimisation, Formule
+
+FormulaBuilder || Arrêt si ? || BM|CM|= || BM = CM || S'arrêter quand Bénéfice marginal = Coût marginal || MI2, Arrêt, Formule
+
+FormulaBuilder || Coût_opp(X) = ? || Temps_X|Temps_Y|/ || Temps_X / Temps_Y || Coût opportunité du bien X en termes de bien Y || MI3, CoutOpp, Formule
+
+FormulaBuilder || Équilibre si ? || Qd|Qs|= || Qd = Qs || Condition d'équilibre : Quantité demandée = Quantité offerte || MI4, Equilibre, Formule
+
+FormulaBuilder || ε = ? || dQ|dP|P|Q|×|(|)|/ || (dQ/dP) × (P/Q) || Élasticité-prix de la demande || MI4, Elasticite, Formule
+
+FormulaBuilder || SC = ? || 1|2|Pmax|P*|Q*|×|−|(|)|/ || (1/2) × (Pmax - P*) × Q* || Surplus du consommateur (cas linéaire) || MI4, Surplus, Formule
+
+FormulaBuilder || Offre avec taxe : Qs = ? || P|t|− || Qs(P - t) || Producteur reçoit prix net de taxe || MI4, Taxe, Formule
+
+FormulaBuilder || Recette fiscale = ? || t|Q*|× || t × Q* || Revenu de la taxe = Taxe unitaire × Quantité échangée || MI4, Recette, Formule
+
+FormulaBuilder || Perte sèche = ? || 1|2|t|ΔQ|×|(|)|/ || (1/2) × t × ΔQ || Perte d'efficience due à la taxe (triangle) || MI4, PerteSèche, Formule
+
+FormulaBuilder || ENA = ? || Épargne|Éducation|Dégradation|Pollution|+|− || Épargne + Éducation - Dégradation - Pollution || Épargne nette ajustée pour soutenabilité || MA1, ENA, Formule
+
+FormulaBuilder || PIB_prod = ? || VA|Impôts|Subventions|Σ|+|−|(|) || Σ(VA) + (Impôts - Subventions) || PIB optique production = Somme VA + Ajustement fiscal || MA1, PIBprod, Formule
+
+FormulaBuilder || Part capital dans croissance = ? || α|g_K|× || α · g_K || Contribution du capital à la croissance || MA2, PartK, Formule
+
+FormulaBuilder || Part travail dans croissance = ? || 1|α|g_L|−|×|(|) || (1-α) · g_L || Contribution du travail à la croissance || MA2, PartL, Formule
+
+FormulaBuilder || SP = ? || 1|2|P*|Pmin|Q*|×|−|(|)|/ || (1/2) × (P* - Pmin) × Q* || Surplus du producteur (cas linéaire) || MI4, SurplusProd, Formule
+
+FormulaBuilder || Prix avec taxe : Pc = ? || Pp|t|+ || Pp + t || Prix consommateur = Prix producteur + Taxe || MI4, PrixTaxe, Formule
+
+FormulaBuilder || Intervalle gains d'échange : ? || Coût_opp_A|Coût_opp_B|<|Prix|< || Coût_opp_A < Prix < Coût_opp_B || Zone de gains mutuels à l'échange || MI3, Intervalle, Formule
+
+FormulaBuilder || Production totale spécialisée > ? || Σ|autarcies || Σ(autarcies) || Gains de spécialisation : production totale supérieure || MI3, GainsSpec, Formule
+
+FormulaBuilder || Revenu sectoriel = ? || Productivité|Prix|× || Productivité × Prix || Recette horaire dans un secteur || MI3, RevenuSect, Formule
+
+FormulaBuilder || IDH combine ? || Santé|Éducation|Revenu|+ || Santé + Éducation + Revenu || Indice Développement Humain (3 dimensions) || MA1, IDH, Formule

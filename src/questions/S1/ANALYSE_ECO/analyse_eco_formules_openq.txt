@@ -1,0 +1,31 @@
+chapter: Analyse Éco > Formules — Questions ouvertes
+
+## Comptabilité nationale (MA1)
+OpenQ || Quelle est la formule de la valeur ajoutée (VA) ? || VA = Production - Consommations intermédiaires || MA1, Formule VA || Mesure la richesse créée par l'entreprise
+OpenQ || Comment calcule-t-on le PIB par l'optique production ? || PIB = Σ VA + (Impôts sur produits - Subventions) || MA1, Formule PIB production || Somme des valeurs ajoutées + ajustement fiscal
+OpenQ || Quelle est la formule du PIB par l'optique demande ? || PIB = CF + FBCF + ΔS + (X - M) || MA1, Formule PIB demande || Consommation finale + investissement + variation stocks + solde extérieur
+OpenQ || Comment définit-on le coefficient technique a_ij dans un TES ? || a_ij = CI(i,j) / Production(j) || MA1, Formule coefficient technique || Quantité de produit i nécessaire pour 1 unité de produit j
+OpenQ || Quelle est la formule du Revenu National Brut (RNB) ? || RNB = PIB + Revenus reçus du RDM - Revenus versés au RDM || MA1, Formule RNB || Passage du PIB (territoire) au RNB (résidents)
+OpenQ || Comment calcule-t-on le déflateur du PIB ? || Déflateur = (PIB nominal / PIB réel) × 100 || MA1, Formule déflateur || Indice de prix implicite du PIB
+
+## Croissance et fluctuations (MA2)
+OpenQ || Quelle est la décomposition comptable de la croissance selon Solow ? || g_Y = g_A + α·g_K + (1-α)·g_L || MA2, Formule Solow || Croissance = PGF + contribution capital + contribution travail
+OpenQ || Comment calcule-t-on la Productivité Globale des Facteurs (PGF) ? || g_A = g_Y - α·g_K - (1-α)·g_L || MA2, Formule PGF || Résidu de croissance non expliqué par K et L
+OpenQ || Quelle est la règle des 70 pour le doublement ? || Années de doublement ≈ 70 / taux de croissance annuel || MA2, Règle 70 || Approximation rapide basée sur ln(2)≈70
+OpenQ || Comment calcule-t-on le Taux de Croissance Annuel Moyen (TCAM) ? || TCAM = [(Valeur finale / Valeur initiale)^(1/n) - 1] × 100 || MA2, Formule TCAM || Moyenne géométrique sur n années
+OpenQ || Quelle est la formule de l'amortissement annuel ? || Amortissement = Valeur investissement / Durée de vie || MA2, Formule amortissement || Dépréciation linéaire du capital fixe
+
+## Microéconomie - Coûts et décisions (MI1, MI2)
+OpenQ || Quelle est la condition d'optimisation marginale ? || Continuer si Bénéfice marginal ≥ Coût marginal || MI1-MI2, Condition optimale || Règle de décision rationnelle
+OpenQ || Comment définit-on le coût d'opportunité ? || Coût d'opportunité = Valeur de la meilleure alternative abandonnée || MI1, Coût opportunité || Sacrifice réel d'un choix
+OpenQ || Quelle est la règle d'arrêt optimal ? || S'arrêter quand BM(q) = CM(q) || MI2, Règle d'arrêt || Égalisation bénéfice et coût marginaux
+
+## Échanges et avantage comparatif (MI3)
+OpenQ || Comment calcule-t-on le coût d'opportunité d'un bien X en termes de bien Y ? || Coût d'opp.(X) = Temps de production(X) / Temps de production(Y) || MI3, Coût opportunité relatif || Quantité de Y sacrifiée pour 1 unité de X
+OpenQ || Quel est l'intervalle de prix d'échange mutuellement avantageux ? || Prix d'échange entre Coût_opp(A) et Coût_opp(B) || MI3, Intervalle gains || Zone où les deux partenaires gagnent
+
+## Offre, demande et marché (MI4)
+OpenQ || Quelle est la condition d'équilibre de marché ? || Qd = Qs || MI4, Équilibre || Égalité quantité demandée et offerte
+OpenQ || Comment calcule-t-on l'élasticité-prix de la demande ? || ε = (dQ/dP) × (P/Q) || MI4, Élasticité || Variation % quantité / variation % prix
+OpenQ || Quelle est la formule du surplus du consommateur (cas linéaire) ? || SC = (1/2) × (P_max - P*) × Q* || MI4, Surplus consommateur || Aire du triangle entre demande et prix d'équilibre
+OpenQ || Comment se déplace l'offre avec une taxe unitaire t ? || Nouvelle offre : Qs(P-t) || MI4, Taxe || Producteur reçoit P-t donc exige prix plus élevé

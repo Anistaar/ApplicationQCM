@@ -1,0 +1,43 @@
+chapter: Chapitre 1 > Consommation > Questions ouvertes SIMPLES
+
+// Format: OpenQ || Question || Réponse exacte attendue || Référence cours || Explication
+
+OpenQ || Qu'est-ce que la consommation au sens strict ? || Destruction de biens ou services par l'usage pour satisfaire un besoin || Au sens strict, la consommation = destruction de biens ou de services par l'usage à des fins de satisfaction direct d'un besoin humain || Définition de base
+
+OpenQ || En macro, la consommation égale quoi ? || Biens et services achetés par les ménages || En macro la consommation = bien et services achetés par les ménages || Définition comptable nationale
+
+OpenQ || Citez 2 exemples de services non marchands || Enseignement et santé || Produit notamment par les administrations publiques (domaine de l'enseignement, santé..) || Services publics gratuits ou quasi-gratuits
+
+OpenQ || Quel revenu est le plus pertinent pour analyser la consommation ? || Le revenu disponible des ménages || Le plus parlant = le revenu disponible des ménages || Indicateur clé
+
+OpenQ || Comment se calcule le revenu primaire ? || Revenu d'activité + revenu du patrimoine || Dans les ressources il y a : revenu de l'activité + revenu de son patrimoine = revenu primaire || Première étape
+
+OpenQ || Quels sont les 2 emplois du revenu disponible ? || Consommation finale et épargne || Emploi = Consommation finale + l'épargne || Équation fondamentale
+
+OpenQ || Que signifie PMC ? || Propension Moyenne à Consommer || PMC = C/Yd (Consommation / Revenu disponible) || Indicateur de comportement
+
+OpenQ || Écrivez la formule de la fonction de consommation keynésienne || C = C0 + cY || C = C0 + cY où c est la PMC (0<c<1) et C0 la consommation autonome || Modèle keynésien de base
+
+OpenQ || Que représente C0 dans la fonction keynésienne ? || La consommation autonome (incompressible) || C0 représente la consommation incompressible même si le revenu est nul || Besoin minimum
+
+OpenQ || Pourquoi 0 < c < 1 dans le modèle keynésien ? || Car une partie du revenu est épargnée || 0<c<1 car une partie du revenu est toujours épargnée || Contrainte réaliste
+
+OpenQ || Qu'est-ce que le revenu relatif ? || Rapport entre le revenu de l'individu et le revenu national moyen || Revenu relatif = Rapport ou différence entre le revenu de l'individu et le revenu national moyen || Concept de Duesenberry
+
+OpenQ || Qu'est-ce que l'effet de cliquet ? || La consommation est irréversible à la baisse || La consommation est irréversible à la baisse : les ménages maintiennent leur niveau de consommation même si le revenu baisse temporairement || Asymétrie consommation
+
+OpenQ || Qui a développé la théorie du cycle de vie ? || Modigliani || Les comportements intertemporels sont pris en compte avec un horizon temporel fini (durée de vie déterminée) || Théorie 1954
+
+OpenQ || Quel est le rôle de l'épargne dans le cycle de vie ? || Lisser la consommation tout au long de la vie || L'épargne va lui permettre de lisser sa consommation tout au long de sa vie || Transfert intertemporel
+
+OpenQ || Pourquoi PMC = 1 dans la théorie du cycle de vie ? || Car on consomme l'intégralité de ses revenus sur la durée de vie || PMC = PmC = 1 (avoir consommé l'intégralité de ses revenus sur la durée de vie) || Contrainte optimale
+
+OpenQ || Citez les 3 phases du cycle patrimonial || Jeunesse (emprunt), activité (épargne), retraite (désépargne) || Période jeunesse (emprunt), période activité (remboursement puis épargne positive), période retraite (consommation patrimoine) || Séquence temporelle
+
+OpenQ || Pourquoi le patrimoine est négatif en jeunesse ? || Car on emprunte (revenus insuffisants) || Au début on emprunte (période de jeunesse = patrimoine qui est négatif) car revenus insuffisants || Recours au crédit
+
+OpenQ || Que devient l'épargne une fois les emprunts remboursés ? || Positive (accumulation) || Une fois les emprunts remboursés l'épargne devient positive || Transition
+
+OpenQ || Que se passe-t-il en retraite selon le cycle de vie ? || On consomme le patrimoine jusqu'à 0 || Une fois en retraite les revenus diminuent et on consomme le patrimoine jusqu'à 0 || Désépargne
+
+OpenQ || Pourquoi le patrimoine arrive à zéro au décès ? || Car on consomme tout (pas d'héritage dans le modèle) || On arrive à 0 car aucune question d'héritage (hypothèse du modèle) || Simplification théorique

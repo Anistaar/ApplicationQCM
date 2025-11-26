@@ -10,17 +10,24 @@ export type Mode = 'entrainement' | 'examen';
 
 export type Answer = { text: string; correct: boolean };
 export type DragPair = { item: string; match: string };
+export type FormulaData = {
+  variable: string;
+  availableTokens: string[];
+  correctFormula: string;
+};
 export type Question =
   | { type: 'VF'; question: string; vf: 'V' | 'F'; explication?: string; topics?: string[] }
   | { type: 'QR'; question: string; answers: Answer[]; explication?: string; topics?: string[] }
   | { type: 'QCM'; question: string; answers: Answer[]; explication?: string; topics?: string[] }
-  | { type: 'DragMatch'; question: string; pairs: DragPair[]; explication?: string; topics?: string[] };
+  | { type: 'DragMatch'; question: string; pairs: DragPair[]; explication?: string; topics?: string[] }
+  | { type: 'FormulaBuilder'; question: string; formulaData: FormulaData; explication?: string; topics?: string[] };
 
 export type UserAnswer =
   | { kind: 'VF'; value: 'V' | 'F' }
   | { kind: 'QR'; value: string | null }
   | { kind: 'QCM'; values: string[] }
-  | { kind: 'DragMatch'; matches: Record<string, string> };
+  | { kind: 'DragMatch'; matches: Record<string, string> }
+  | { kind: 'FormulaBuilder'; formula: string; isCorrect?: boolean };
 
 const SEP_COL = '||';
 const SEP_OPT = '|';
@@ -201,6 +208,32 @@ export function parseQuestions(content: string): Question[] {
       continue;
     }
 
+    // ----- FormulaBuilder (construction de formule) -----
+    if (kind === 'FORMULABUILDER' && cols.length >= 3) {
+      const variable = clean(cols[1]);          // Ex: "VA = ?"
+      const tokensRaw = clean(cols[2]);          // Ex: "Production|CI|−|+"
+      const correctFormula = clean(cols[3]);     // Ex: "Production - CI"
+      const explication = clean(cols[4]);
+      const topics = uniq([
+        ...currentThemes,
+        ...parseTopicList(cols[5]),
+        ...extractInlineTags(variable)
+      ]);
+      
+      // Parse available tokens: "token1|token2|token3"
+      const availableTokens = tokensRaw
+        .split('|')
+        .map((t) => t.trim())
+        .filter(Boolean);
+      
+      if (availableTokens.length > 0 && correctFormula) {
+        const question = `Reconstruis la formule : ${variable}`;
+        const formulaData = { variable, availableTokens, correctFormula };
+        out.push({ type: 'FormulaBuilder', question, formulaData, explication, topics });
+      }
+      continue;
+    }
+
     // autres types ignorés
   }
 
@@ -236,6 +269,10 @@ export function isCorrect(q: Question, ua: { value?: any; values?: string[]; mat
     return ua.isCorrect ?? false;
   }
 
+  if (q.type === 'FormulaBuilder') {
+    return ua.isCorrect ?? false;
+  }
+
   return false;
 }
 
@@ -245,6 +282,7 @@ export function correctText(q: Question): string {
   if (q.type === 'QCM') return q.answers.filter((a) => a.correct).map((a) => a.text).join(' | ');
   if (q.type === 'DragMatch') return q.pairs.map((p) => `${p.item} → ${p.match}`).join(', ');
   if (q.type === 'OpenQ') return q.expectedKeywords?.join(', ') ?? 'Réponse attendue';
+  if (q.type === 'FormulaBuilder') return q.formulaData?.correctFormula ?? 'Formule attendue';
   return '';
 }
 
@@ -254,5 +292,6 @@ export function countCorrect(q: Question): number {
   if (q.type === 'QCM') return q.answers.filter((a) => a.correct).length;
   if (q.type === 'DragMatch') return q.pairs.length;
   if (q.type === 'OpenQ') return q.expectedKeywords?.length ?? 1;
+  if (q.type === 'FormulaBuilder') return 1;
   return 0;
 }

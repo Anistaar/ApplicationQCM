@@ -27,12 +27,20 @@ QCM || Atomicité signifie || V:aucun agent n’influence seul le prix|un agent 
 QCM || Différence offre/demande utilisée pour trouver équilibre est || V:Qofferte - Qdemandée|prix - coût|Qofferte/Qdemandée|coût d'opportunité || Méthode tableau || MI4, Équilibre, QCM
 
 # Série Partiel — Numérique O/D, élasticités et politiques (MI4)
+## Rappels conceptuels (comprendre avant calculer)
+VF || L'équilibre de marché se trouve à l'intersection de l'offre et de la demande : Qd = Qs || V || Prix et quantité qui égalise intentions achat et vente → marché s'apure || MI4, Équilibre, Concept, VF
+VF || Une taxe unitaire t déplace la courbe d'offre vers le haut de t (prix reçu par producteur = P − t) || V || Producteur reçoit P-t donc exige prix conso. plus élevé pour même quantité || MI4, Taxe, Concept, VF
+VF || L'élasticité-prix de la demande mesure la sensibilité de la quantité demandée à une variation de prix : ε = (dQ/dP)(P/Q) || V || Ratio variation % quantité / variation % prix (généralement négatif) || MI4, Élasticité, Concept, VF
+VF || L'incidence fiscale pèse davantage sur le côté du marché le plus inélastique (moins réactif aux prix) || V || Le côté captif (inélastique) ne peut éviter la taxe, donc supporte + de charge || MI4, Incidence, Concept, VF
+VF || Un prix plafond Pc < P* crée une pénurie : Qd(Pc) > Qs(Pc) || V || Prix max < équilibre → demande ↑ et offre ↓ → demande excédentaire || MI4, Plafond, Concept, VF
+
+## Applications chiffrées
 QCM || Demande: Qd = 100 − 2P. Offre: Qs = −20 + 3P. Équilibre (P*, Q*) est || V:P*=24; Q*=52|P*=20; Q*=60|P*=25; Q*=50|P*=30; Q*=40 || 100−2P = −20+3P ⇒ 120=5P ⇒ P=24; Q=100−48=52 || Partiels 2024, MI4, Série A, QCM
 QCM || Une taxe spécifique t=10€ par unité déplace l’offre à Qs = −20 + 3(P − t). Nouveau P* (prix payé par conso.) est || V:30|24|34|28 || Égaliser 100−2P = −20 + 3(P−10) ⇒ 100−2P = −20 + 3P − 30 ⇒ 100−2P = −50 + 3P ⇒ 150 = 5P ⇒ P=30 (prix conso). || Partiels 2024, MI4, Série A, QCM
 QCM || Subvention s=5€ au producteur: Qs = −20 + 3(P + s). Équilibre P* (consommateur) est || V:21|24|22|26 || 100−2P = −20 + 3(P+5)= −20 + 3P + 15 ⇒ 100−2P = 3P − 5 ⇒ 105 = 5P ⇒ P=21. || Partiels 2023, MI4, Série B, QCM
 QCM || Élasticité-prix de la demande au point P=24 pour Qd=100−2P est || V:ε = (dQ/dP)(P/Q) = (−2)(24/52) ≈ −0,92|≈ −2,0|≈ −0,5|≈ −1,5 || Formule élasticité ponctuelle || Partiels 2024, MI4, Série A, QCM
 QCM || Plafond de prix Pc=20 (< P*). Résultat || V:pénurie|surplus|pas d’effet|surplus producteur || Pc < P* ⇒ Qd > Qs ⇒ pénurie || Partiels 2022, MI4, Série C, QCM
-QCM || Taxe spécifique t augmente prix payé par conso. de ΔP^C et réduit prix reçu par prod. de ΔP^P. Incidence plus forte sur || V:côté le plus inélastique|côté le plus élastique|toujours consommateurs|toujours producteurs || Incidence fiscale || Partiels 2023, MI4, Série B, QCM
+QCM || Taxe spécifique t augmente prix conso. de ΔP^C et réduit prix prod. de ΔP^P. Incidence fiscale (rapport ΔP^C/ΔP^P) plus forte sur || V:côté le plus inélastique (comparé à l'autre)|côté le plus élastique|toujours consommateurs|toujours producteurs || Incidence fiscale : le côté le moins réactif supporte + de charge || Partiels 2023, MI4, Série B, QCM
 QCM || Choc d’offre positif (baisse coûts) déplace || V:offre vers la droite (⇧Qs)|demande vers la droite|offre vers la gauche|demande vers la gauche || Shift || Partiels 2024, MI4, Série A, QCM
 QCM || Biens complémentaires: hausse prix du bien A entraîne || V:baisse demande du bien B|hausse offre de B|hausse demande de B|aucun effet || Complémentarité || Partiels 2022, MI4, Série C, QCM
 QCM || Surplus du consommateur (linéaire) est l’aire || V:du triangle sous la courbe de demande au-dessus de P|sous la courbe d’offre|de tout le rectangle P×Q|entre coût marginal et prix reçu || Définition || Partiels 2023, MI4, Série B, QCM

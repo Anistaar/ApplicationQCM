@@ -1,0 +1,105 @@
+chapter: Analyse Éco > Formules — Reconstruction (Niveau Expert)
+
+## Mode 2 : Reconstruire la formule en plaçant les bons paramètres dans le bon ordre
+
+DragMatch || Reconstruisez la formule de la Valeur Ajoutée (VA = ?) :
+VA≂Production - CI
+ || VA = Production - Consommations Intermédiaires || MA1, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la formule du PIB par l'optique demande (PIB = ?) :
+PIB≂CF + FBCF + ΔS + (X - M)
+ || PIB = Consommation + Investissement + Variation stocks + Solde extérieur || MA1, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la formule du Revenu National Brut (RNB = ?) :
+RNB≂PIB + RPR - RPV
+ || RNB = PIB + Revenus reçus - Revenus versés || MA1, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez le coefficient technique dans un TES (a_ij = ?) :
+a_ij≂CI(i,j) / Production(j)
+ || Ratio consommation intermédiaire sur production || MA1, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez le déflateur du PIB (Déflateur = ?) :
+Déflateur≂(PIB nominal / PIB réel) × 100
+ || Indice de prix implicite || MA1, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la décomposition de Solow (g_Y = ?) :
+g_Y≂g_A + α·g_K + (1-α)·g_L
+ || Croissance = PGF + Contribution capital + Contribution travail || MA2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la formule de la PGF (g_A = ?) :
+g_A≂g_Y - α·g_K - (1-α)·g_L
+ || PGF = Résidu de croissance || MA2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la règle des 70 (Années = ?) :
+Années≂70 / g
+ || Temps de doublement approximatif || MA2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez le Taux de Croissance Annuel Moyen (TCAM = ?) :
+TCAM≂[(Vf/Vi)^(1/n) - 1] × 100
+ || Moyenne géométrique de croissance || MA2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la fonction de production Cobb-Douglas (Y = ?) :
+Y≂A × K^α × L^(1-α)
+ || Production = Productivité × Capital^α × Travail^(1-α) || MA2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la condition d'équilibre du marché :
+Équilibre≂Qd = Qs
+ || Quantité demandée = Quantité offerte || MI4, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez l'élasticité-prix de la demande (ε = ?) :
+ε≂(dQ/dP) × (P/Q)
+ || Sensibilité de la quantité au prix || MI4, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez le surplus du consommateur (cas linéaire) (SC = ?) :
+SC≂(1/2) × (Pmax - P*) × Q*
+ || Aire triangulaire entre demande et prix d'équilibre || MI4, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez l'offre avec taxe unitaire (Nouvelle offre = ?) :
+Qs_taxe≂Qs(P - t)
+ || Producteur reçoit prix net de taxe || MI4, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez le coût d'opportunité relatif du bien X (Coût_opp(X) = ?) :
+Coût_opp(X)≂Temps_X / Temps_Y
+ || Quantité de Y sacrifiée pour 1 unité de X || MI3, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la condition d'optimisation marginale :
+Optimal≂BM = CM
+ || Bénéfice marginal = Coût marginal || MI1-MI2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la formule de l'amortissement annuel (A = ?) :
+A≂Valeur / Durée_vie
+ || Dépréciation linéaire du capital || MA2, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la recette fiscale d'une taxe (Recette = ?) :
+Recette≂t × Q*
+ || Taxe unitaire × Quantité échangée || MI4, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez la perte sèche due à une taxe (Perte = ?) :
+Perte_sèche≂(1/2) × t × ΔQ
+ || Aire du triangle de perte d'efficience || MI4, Reconstruction, DragMatch
+
+DragMatch || Reconstruisez l'Épargne Nette Ajustée (ENA = ?) :
+ENA≂Épargne + Éducation - Dégradation - Pollution
+ || Ajustement pour capital humain et environnemental || MA1, Reconstruction, DragMatch
+
+## Formules complexes multi-paramètres
+
+DragMatch || Reconstruisez le PIB par l'optique production (PIB = ?) avec tous les paramètres :
+PIB≂Σ(VA_i) + Impôts_produits - Subventions_produits
+ || Somme VA + Ajustement fiscal || MA1, Reconstruction Expert, DragMatch
+
+DragMatch || Reconstruisez la décomposition complète de la croissance avec paramètres détaillés :
+g_Y≂g_A + α·(ΔK/K) + (1-α)·(ΔL/L)
+ || Forme développée avec variations relatives || MA2, Reconstruction Expert, DragMatch
+
+DragMatch || Reconstruisez l'équilibre avec taxe (égaliser offre et demande) :
+Équilibre_taxe≂Qd(Pc) = Qs(Pp) avec Pc - Pp = t
+ || Prix consommateur - Prix producteur = Taxe || MI4, Reconstruction Expert, DragMatch
+
+DragMatch || Reconstruisez la variation de surplus total après taxe (ΔST = ?) :
+ΔST≂ΔSC + ΔSP + Recette - Perte_sèche
+ || Variation surplus = Transferts - Inefficience || MI4, Reconstruction Expert, DragMatch
+
+DragMatch || Reconstruisez les gains de spécialisation (Production totale spécialisée vs autarcie) :
+Gains≂(XA_spec + XB_spec + YA_spec + YB_spec) - (XA_aut + XB_aut + YA_aut + YB_aut)
+ || Différence production avec et sans spécialisation || MI3, Reconstruction Expert, DragMatch

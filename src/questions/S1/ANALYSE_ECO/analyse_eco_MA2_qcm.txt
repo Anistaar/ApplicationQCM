@@ -8,7 +8,7 @@ QCM || Trente Glorieuses (1950-1973) caractérisées par || V:forte croissance +
 QCM || Chocs pétroliers 1973/1979 ont provoqué || V:inflation + ralentissement + chômage|réduction prix énergie|hausse pouvoir d'achat|disparition cycles || Chocs offre || MA2, Crises, QCM
 QCM || Stagflation combine || V:inflation + chômage élevé|inflation + plein-emploi|déflation + chômage|croissance + baisse prix || Stagflation || MA2, Crises, QCM
 QCM || Facteurs fondamentaux de croissance (modèle Solow) || V:K, L, progrès technique|seulement K|seulement L|monnaie, taux de change || Solow facteurs || MA2, Solow, QCM
-QCM || Productivité globale des facteurs (PGF) mesure || V:efficacité combinaison K,L|quantité travail|quantité capital|inflation sectorielle || PGF || MA2, Productivité, QCM
+QCM || Productivité globale des facteurs (PGF) mesure || V:efficacité combinaison K,L|quantité travail|quantité capital|inflation sectorielle || PGF = progrès technique + efficacité organisationnelle (résidu de Solow) || MA2, Productivité, QCM
 QCM || Progrès technique chez Solow est || V:exogène|endogène|identique à capital humain|monétaire || Solow PT || MA2, Solow, QCM
 QCM || Croissance endogène: moteur principal || V:accumulation connaissances / capital humain|seule exploitation ressources|épargne constante|démographie uniquement || Endogène || MA2, Théories, QCM
 QCM || Rôle du capital humain selon Becker/Lucas || V:augmente productivité & croissance|ralentit innovation|ne joue aucun rôle macro|réduit efficience || Capital humain || MA2, CapitalHumain, QCM
@@ -25,8 +25,8 @@ QCM || Cycle Juglar lié à || V:variations investissement|stocks quotidiens|pol
 QCM || Cycle Kondratiev associé à || V:grappes d'innovations majeures|rotation saisonnière|taux change|chômage frictionnel || Cycles longs || MA2, Cycle, QCM
 QCM || Explication endogène cycle inclut || V:productivité & crédit & stocks|chocs météorologiques seul|guerre uniquement|politique fiscale seule || Endogène cycles || MA2, Cycle, QCM
 QCM || Choc d’offre négatif typique || V:hausse brutale prix énergie|hausse productivité|baisse taxes|amélioration capital humain || Choc offre || MA2, Chocs, QCM
-QCM || Choc de demande négatif peut provenir de || V:baisse consommation ou investissement|hausse exportations|baisse prix importés|augmentation revenu disponible || Choc demande || MA2, Chocs, QCM
-QCM || Plus-value selon Marx = || V:valeur créée - salaire versé|salaire - valeur créée|profit - taxes|CI - VA || Plus-value || MA2, Classiques, QCM
+QCM || Choc de demande négatif peut notamment provenir de || V:baisse consommation ou investissement|hausse exportations|baisse prix importés|augmentation revenu disponible || Choc demande || MA2, Chocs, QCM
+QCM || Plus-value selon Marx (différence entre valeur produite et salaire) = || V:valeur créée - salaire versé|salaire - valeur créée|profit - taxes|CI - VA || Plus-value = écart entre ce que produit le travailleur et ce qu'il reçoit || MA2, Classiques, QCM
 QCM || Rendements décroissants classiques impliquent || V:efficacité marginale du facteur baisse|efficacité augmente|constante|illimitée || Rendements || MA2, Classiques, QCM
 QCM || Stagnation (état stationnaire) chez classiques due à || V:rendements décroissants / limites terre|accumulation infinie|innovation illimitée|demande illimitée || Stationnaire || MA2, Classiques, QCM
 QCM || Capital circulant correspond à || V:CI détruites dans production|machines durables|logiciels|brevets || Capital circulant || MA2, Capital, QCM
@@ -36,6 +36,14 @@ QCM || Apprentissage (learning by doing) accroît || V:productivité|coûts fixe
 QCM || Capital humain inclut || V:compétences, savoir-faire, expériences|stocks physiques|terrains|brevets seulement || Capital humain || MA2, CapitalHumain, QCM
 
 # Série Partiel — Calculs de croissance, PGF et cycles (MA2)
+## Rappels conceptuels (comprendre avant calculer)
+VF || La PGF (Productivité Globale des Facteurs) mesure le résidu de croissance non expliqué par l'accumulation de capital (K) et de travail (L) || V || PGF = part de croissance due au progrès technique et gains d'efficacité || MA2, PGF, Concept, VF
+VF || La décomposition comptable de la croissance s'écrit : g_Y = g_A + α·g_K + (1−α)·g_L, où α est la part du capital || V || Formule de Solow : croissance = PGF + contribution K + contribution L || MA2, Croissance, Concept, VF
+VF || La règle des 70 permet d'estimer le temps de doublement : Années ≈ 70 / taux de croissance annuel || V || Approximation simple basée sur ln(2)≠70 pour calculs rapides || MA2, Règle70, Concept, VF
+VF || Un cycle économique de 7-11 ans (Juglar) est principalement lié aux fluctuations de l'investissement || V || Cycles moyens portés par dynamique capital fixe et crédit || MA2, Cycle, Concept, VF
+VF || Un choc d'offre négatif (ex: choc pétrolier) provoque simultanément inflation et baisse de production (stagflation) || V || Hausse coûts → prix ↑ + production ↓ (situation atypique vs récession classique) || MA2, Choc, Concept, VF
+
+## Applications chiffrées
 QCM || Taux de croissance annuel moyen (TCAM): Indice 100 → 121 en 2 ans. TCAM ≈ || V:≈10%|≈21%|≈9%|≈11% || (121/100)^(1/2) − 1 = 10% || Partiels 2024, MA2, Série A, QCM
 QCM || Production Y ↑ de 3%, K ↑ de 2%, L ↑ de 1%. Partage α=0,4. PGF (g_A) ≈ || V:1,6%|2,0%|1,0%|0,6% || g_A = g_Y − αg_K − (1−α)g_L = 3 − 0,8 − 0,6 = 1,6 || Partiels 2024, MA2, Série A, QCM
 QCM || Si K croît de 5% et L de 1%, sans PT (g_A=0), pour obtenir g_Y=3% il faut α ≈ || V:0,33|0,4|0,5|0,67 || 3 = α·5 + (1−α)·1 ⇒ 3 = 5α + 1 − α ⇒ 2 = 4α ⇒ α = 0,5. Correction: 0,5. || Partiels 2023, MA2, Série B, QCM
@@ -44,4 +52,4 @@ QCM || Choc pétrolier (− offre) entraîne à court terme || V:inflation + bai
 QCM || Cycle Juglar (7–11 ans) lié à || V:l’investissement|les stocks|les innovations majeures|les récoltes || Moyens termes || Partiels 2023, MA2, Série B, QCM
 QCM || Décomposition croissance comptable: ΔY/Y = ΔA/A + α ΔK/K + (1−α) ΔL/L signifie || V:PGF capte progrès non expliqués par K,L|PGF = simple résidu statistique sans sens|K,L n’affectent pas Y|α constant inutile || Comptabilité croissance || Partiels 2022, MA2, Série C, QCM
 QCM || Capital humain ↑ → effets attendus sur croissance de long terme || V:↑ PGF et externalités positives|↓ PGF|neutre|uniquement sur K mesuré || Externalités connaissances || Partiels 2024, MA2, Série A, QCM
-QCM || Si g_Y=0, et g_K, g_L > 0 sur courte période, cela peut refléter || V:chute de PGF|stabilité PGF|hausse PGF|mesure impossible || PGF négative || Partiels 2023, MA2, Série B, QCM
+QCM || Si g_Y=0, et g_K, g_L > 0 sur courte période, cela peut typiquement refléter || V:chute de PGF|stabilité PGF|hausse PGF|mesure impossible || PGF négative || Partiels 2023, MA2, Série B, QCM

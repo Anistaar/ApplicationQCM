@@ -8,7 +8,7 @@ QCM || Valeur ajoutée (VA) = || V:Production - Consommations intermédiaires|Pr
 QCM || PIB (optique production) = Σ VA + || V:impôts sur produits - subventions|impôts + subventions|subventions - impôts|investissements nets || Formule production || MA1, PIB, QCM
 QCM || Consommations intermédiaires (CI) sont || V:inputs détruits dans le processus|stocks finaux|investissements|salaires || CI définition || MA1, CI, QCM
 QCM || PIB (optique demande) = || V:CF + FBCF + (X - M) + ΔS|CF + CI + X|CF + FBCF + RN|CF + FBCF + VA || Formule demande || MA1, PIB, QCM
-QCM || FBCF représente || V:investissement en capital fixe|consommation finale|variation prix|stock permanent || FBCF || MA1, Investissement, QCM
+QCM || FBCF représente || V:investissement en capital fixe|consommation finale|variation prix|stock permanent || FBCF = Formation Brute de Capital Fixe, c'est l'investissement des entreprises || FBCF || MA1, Investissement, QCM
 QCM || (X - M) > 0 indique || V:excédent extérieur|déficit extérieur|équilibre extérieur|absence d'importations || Balance extérieure || MA1, Extérieur, QCM
 QCM || PIB (optique revenus) = rémunérations + EBE + || V:impôts production-importations - subventions|FBCF - CI|CI - impôts|subventions - impôts || Formule revenus || MA1, PIB, QCM
 QCM || EBE correspond à || V:excédent brut d'exploitation (profit)|épargne des ménages|impôts nets|consommation intermédiaire || Profits || MA1, Revenus, QCM
@@ -24,16 +24,24 @@ QCM || Équation emplois-ressources complète || V:P + M + T - SP = CI + CF + FB
 QCM || RNB = PIB + revenus primaires reçus - || V:revenus primaires versés (± ajustements)|impôts nationaux|VA totale|FBCF - CI || RNB définition || MA1, RNB, QCM
 QCM || Revenus primaires reçus incluent || V:salaires, intérêts, dividendes|TVA|CI|variation de stocks || Revenus primaires || MA1, RNB, QCM
 QCM || Limite du PIB: il exclut || V:travail domestique non rémunéré|production déclarée|impôts|exportations || Limites PIB || MA1, Limites, QCM
-QCM || IDH ajoute dimensions || V:santé, éducation, revenu|VA, CI, FBCF|inflation, monnaie, dette|stocks, flux, excédent || IDH || MA1, Indicateurs, QCM
+QCM || IDH ajoute dimensions || V:santé, éducation, revenu|VA, CI, FBCF|inflation, monnaie, dette|stocks, flux, excédent || IDH = Indice Développement Humain, combine 3 dimensions bien-être au-delà du PIB || MA1, Indicateurs, QCM
 QCM || Empreinte écologique mesure || V:surface nécessaire production + assimilation déchets|PIB/hab|revenu national net|solde migratoire || Environnement || MA1, Indicateurs, QCM
-QCM || Épargne nette ajustée (ENA) corrige l’épargne de || V:éducation + (-) dégradation ressources + pollution|seulement investissements|seulement inflation|variation des stocks seulement || ENA || MA1, Indicateurs, QCM
+QCM || Épargne nette ajustée (ENA) corrige l'épargne de || V:éducation + (-) dégradation ressources + pollution|seulement investissements|seulement inflation|variation des stocks seulement || ENA mesure soutenabilité : ajuste pour capital humain et environnemental || MA1, Indicateurs, QCM
 QCM || TES (Tableau entrées-sorties) met en évidence || V:interdépendances branche par CI|flux financiers seulement|surplus consommateur|courbe IS-LM || TES rôle || MA1, TES, QCM
 QCM || Coefficient technique a_ij = || V:CI en produit i de branche j / Production j|Production j / CI i|CI totale / VA|VA branche / Production nationale || Coefs techniques || MA1, TES, QCM
 QCM || Somme des VA des branches = || V:PIB (avant ajustements impôts - subventions)|RNB|CI nationale|ENA || PIB relation || MA1, PIB, QCM
 QCM || Externalité négative ignorée par PIB classique || V:pollution|production industrielle|exportations|impôts sur produits || Externalités || MA1, Limites, QCM
 
 # Série Partiel — Tableaux chiffrés & identités (MA1)
-QCM || Entreprise unique: Production P=1 000, CI=400. VA=? || V:600|1 400|400|1 000 || VA = P − CI = 600 || Partiels 2024, MA1, Série A, QCM
+## Rappels conceptuels (comprendre avant calculer)
+VF || La valeur ajoutée (VA) représente la richesse créée par une entreprise : VA = Production − Consommations intermédiaires || V || VA mesure ce qu'ajoute l'entreprise au-delà de ce qu'elle achète || MA1, VA, Concept, VF
+VF || Le PIB par l'optique production = Somme des valeurs ajoutées + (Impôts sur produits − Subventions) || V || Agrégation des richesses créées par toutes les branches || MA1, PIB, Concept, VF
+VF || Le PIB par l'optique demande = CF + FBCF + ΔS + (X − M) || V || Somme des utilisations finales de la production || MA1, PIB, Concept, VF
+VF || Le coefficient technique a_ij dans un TES mesure la quantité de produit i nécessaire pour produire 1 unité de produit j || V || Ratio d'input intermédiaire sur output : a_ij = CI(i,j) / Production(j) || MA1, TES, Concept, VF
+VF || Le RNB (Revenu National Brut) = PIB + Revenus reçus du reste du monde − Revenus versés au reste du monde || V || RNB mesure revenu des résidents (vs PIB = production sur territoire) || MA1, RNB, Concept, VF
+
+## Applications chiffrées
+QCM || Entreprise unique: Production P=1 000, CI=400. VA=? || V:600|1 400|400|1 000 || VA = P − CI = 600 || Partiels 2024, MA1, Série A, QCM
 QCM || Économie à 2 branches: ΣVA=1 200; Impôts sur produits − Subventions = 100. PIB (optique production) = || V:1 300|1 100|1 200|1 400 || PIB = ΣVA + (T − SP) || Partiels 2024, MA1, Série A, QCM
 QCM || Optique demande. Données: CF=900, FBCF=300, ΔS=50, X=250, M=200. PIB = || V:1 300|1 250|1 200|1 500 || CF+FBCF+ΔS+(X−M)=900+300+50+50=1 300 || Partiels 2023, MA1, Série B, QCM
 QCM || Optique revenus. Rémunérations=700, EBE=400, (Impôts production-importations − Subventions)=150. PIB = || V:1 250|1 100|1 200|1 300 || Somme revenus primaires + impôts nets sur prod./import. || Partiels 2022, MA1, Série C, QCM

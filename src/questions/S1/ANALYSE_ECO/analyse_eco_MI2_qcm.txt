@@ -12,7 +12,7 @@ QCM || Utilité marginale décroissante: boire eau désert puis lac montre || V:
 QCM || Profit marginal d’une option supplémentaire est || V:Δ profit total|profit total|coût fixe cumulé|coût variable seul || Décision production || MI2, Profit, QCM
 QCM || Incitation extrinsèque exemple || V:prime de performance|goût personnel|conviction morale|vision altruiste || Incitations externes || MI2, Incitations, QCM
 QCM || Motivation intrinsèque exemple || V:altruisme|bonus financier|taxe écologique|cadeau promotionnel || Motivation interne || MI2, Incitations, QCM
-QCM || Effet d’une prime mal calibrée peut || V:déformer comportement|garantir efficacité parfaite|supprimer arbitrages|augmenter coût d’opportunité nul || Risque incitation || MI2, Incitations, QCM
+QCM || Effet d'une prime mal calibrée (risque principal) || V:déformer comportement vers objectif non désiré|garantir efficacité parfaite|supprimer tous arbitrages|éliminer coûts d'opportunité || Risque incitation : gaming, effet d'éviction motivation intrinsèque || MI2, Incitations, QCM
 QCM || Échanges augmentent bien-être car permettent || V:spécialisation et gains mutuels|uniformisation totale|suppression des préférences|absence de coûts || Avantages échanges || MI2, Échange, QCM
 QCM || Deux modalités d’échange étudiées || V:marchand et réciprocité|marchand et isolement|réciprocité et absence de liens|monopole et isolement || Types interaction || MI2, Échange, QCM
 QCM || Marché définit comme || V:lieu (réel/virtuel) confrontation offre et demande|simple liste de prix arbitraire|organisme public unique|dispositif sans prix || Définition marché || MI2, Marché, QCM
@@ -26,7 +26,14 @@ QCM || Politique redistributive vise || V:équité|inefficacité délibérée|su
 QCM || Limite modèle orthodoxe: diversité des comportements entraîne || V:écarts à rationalité stricte|rationalité parfaite universelle|absence de biais|unicité des préférences || Hétérogénéité || MI2, Limites, QCM
 
 # Série Partiel — Décisions marginales & incitations (MI2)
-QCM || Un·e étudiant·e hésite à faire 1h de cours supplémentaire: gain marginal attendu = +4 pts, coût marginal = 1h de travail rémunéré 12€. Décision rationnelle ? || V:Ne pas faire l’heure (4 pts < 12€)|Faire l’heure (4 pts > 12€)|Indifférent|Toujours faire l’heure || Comparer bénéfice marginal exprimé en même unité monétaire/valeur || Partiels 2024, MI2, Série A, QCM
+## Rappels conceptuels (comprendre avant calculer)
+VF || Le raisonnement marginal : continuer une activité tant que le bénéfice marginal ≥ coût marginal || V || Règle d'optimalisation : s'arrêter quand gain supplémentaire < coût supplémentaire || MI2, Marginal, Concept, VF
+VF || Les incitations extrinsèques (primes, taxes) modifient les coûts/bénéfices d'un comportement || V || Motivation externe : signaux prix/sanctions qui orientent les choix || MI2, Incitation, Concept, VF
+VF || Les coûts irrécupérables (sunk costs) ne doivent pas influencer les décisions futures || V || Piège cognitif : continuer par inertie plutôt que sur base coûts/bénéfices futurs || MI2, SunkCost, Concept, VF
+VF || Une incitation mal calibrée peut créer des effets pervers (gaming du système) || V || Risque : optimiser l'indicateur plutôt que l'objectif réel visé || MI2, Gaming, Concept, VF
+
+## Applications chiffrées
+QCM || Un·e étudiant·e hésite à faire 1h de cours supplémentaire: gain marginal attendu = +4 pts, coût marginal = 1h de travail rémunéré 12€. Décision rationnelle ? || V:Ne pas faire l'heure (4 pts < 12€)|Faire l'heure (4 pts > 12€)|Indifférent|Toujours faire l'heure || Comparer bénéfice marginal exprimé en même unité monétaire/valeur || Partiels 2024, MI2, Série A, QCM
 QCM || Un vendeur reçoit une prime de 5% sur CA mais pas sur marge. Effet possible || V:incite à baisser les prix pour volume, au détriment de marge|incite à maximiser marge|n’a aucun effet|réduit risque de sélection adverse || Effets pervers d’incitations || Partiels 2023, MI2, Série B, QCM
 QCM || Café: 10e boisson du programme fidélité est gratuite. La décision d’acheter la 9e boisson repose sur || V:bénéfice marginal net compte tenu du bonus futur|coût total cumulé|coût fixe du programme|prix psychologique seul || Décision marginale avec effets dynamiques || Partiels 2022, MI2, Série C, QCM
 QCM || Une taxe carbone de 100€/tCO2 agit comme || V:incitation financière à réduire émissions|subvention à émettre|contrainte non monétaire|effet nul si coût d’opportunité négatif || Prix du carbone internalise externalité || Partiels 2024, MI2, Série A, QCM
