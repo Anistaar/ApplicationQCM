@@ -43,11 +43,11 @@ VF || Le RNB (Revenu National Brut) = PIB + Revenus reçus du reste du monde −
 ## Applications chiffrées
 QCM || Entreprise unique: Production P=1 000, CI=400. VA=? || V:600|1 400|400|1 000 || VA = P − CI = 600 || Partiels 2024, MA1, Série A, QCM
 QCM || Économie à 2 branches: ΣVA=1 200; Impôts sur produits − Subventions = 100. PIB (optique production) = || V:1 300|1 100|1 200|1 400 || PIB = ΣVA + (T − SP) || Partiels 2024, MA1, Série A, QCM
-QCM || Optique demande. Données: CF=900, FBCF=300, ΔS=50, X=250, M=200. PIB = || V:1 300|1 250|1 200|1 500 || CF+FBCF+ΔS+(X−M)=900+300+50+50=1 300 || Partiels 2023, MA1, Série B, QCM
+QCM || Optique demande. Données: CF=900, FBCF=300, ΔS=50, X=250, M=200. PIB = || V:1 300|1 250|1 200|1 500 || CF+FBCF+ΔS+(X−M)=900+300+50+(250−200)=1 300 || Partiels 2023, MA1, Série B, QCM
 QCM || Optique revenus. Rémunérations=700, EBE=400, (Impôts production-importations − Subventions)=150. PIB = || V:1 250|1 100|1 200|1 300 || Somme revenus primaires + impôts nets sur prod./import. || Partiels 2022, MA1, Série C, QCM
 QCM || TES simplifié (en M€): Branche A consomme 100 de A, 50 de B; Branche B consomme 80 de A, 20 de B. CI totales de A et B valent || V:150 et 100|180 et 70|100 et 150|130 et 120 || Sommes par colonnes (utilisation intermédiaire par branche) || Partiels 2024, MA1, Série A, QCM
 QCM || Dans TES, coefficient technique a_{ij} pour i=A, j=B si CI(A par B)=80 et Production B=400 vaut || V:0,20|0,80|0,50|0,02 || a_ij = CI_i,j / P_j = 80/400=0,2 || Partiels 2023, MA1, Série B, QCM
-QCM || Ressources: P=1 500, M=400, T−SP=100. Emplois: CI=800, CF=900, FBCF=200, ΔS=−50, X=150, A (variations prix/écarts) = ? || V:0|100|−100|200 || Équilibre: Ress.=1 500+400+100=2 000; Emplois sans A=800+900+200−50+150=2 000 ⇒ A=0 || Partiels 2022, MA1, Série C, QCM
+QCM || Ressources: P=1 500, M=400, T−SP=100. Emplois: CI=800, CF=900, FBCF=200, ΔS=−50, X=150, A (variations prix/écarts) = ? || V:0|100|−100|200 || Équilibre: Ress.=1 500+400+100=2 000; Emplois sans A=800+900+200+(−50)+150=2 000 ⇒ A=0 || Partiels 2022, MA1, Série C, QCM
 QCM || RNB = PIB + RPR − RPV. Si PIB=1 300, RPR=30, RPV=60, alors RNB= || V:1 270|1 330|1 360|1 240 || 1 300+30−60=1 270 || Partiels 2024, MA1, Série A, QCM
 QCM || Épargne nette ajustée (ENA) corrige l’épargne nationale de: +Éducation, −Dégradation ressources, −Pollution. Si Épargne brute=200, Éducation=+20, Dégradation=−15, Pollution=−10 ⇒ ENA= || V:195|200|215|175 || 200+20−15−10=195 || Partiels 2023, MA1, Série B, QCM
 QCM || Déflateur du PIB = PIB nominal / PIB réel × 100. Si Nominal=1 400, Réel=1 300 → Déflateur= || V:≈107,7|≈93,0|≈100,0|≈110,0 || 1 400/1 300×100≈107,7 || Partiels 2022, MA1, Série C, QCM

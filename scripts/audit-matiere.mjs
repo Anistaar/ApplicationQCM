@@ -23,36 +23,53 @@ if (!fs.existsSync(MATIERE_PATH)) {
   process.exit(1);
 }
 
-// Patterns de détection
-const CONFUSION_PATTERNS = {
-  negationsMultiples: [
-    /ne\s+.*\s+pas\s+.*\s+pas/i,
-    /n'est\s+pas\s+(in)?correct/i,
+// Patterns de détection de VRAIS problèmes
+const CRITICAL_PATTERNS = {
+  // Questions non terminées ou mal formées
+  phrasesIncompletes: [
+    /\|\|.*\|\|.*\|\|\s*$/,  // Colonnes vides
+    /\|\|\s*\|\|/,           // Double || sans contenu
+    /^\s*\|\|/,              // Commence par ||
   ],
-  termesFlous: [
-    /\b(souvent|parfois|généralement|habituellement|peut|pourrait)\b/i,
+  
+  // Questions illisibles (AUTORISE symboles math: Σ Δ ± × ÷ ≥ ≤ → ↑ ↓ € ≈ ⇒)
+  caracteresEtranges: [
+    /\?{3,}/,                // Multiple ???
+    /\.{4,}/,                // Multiple ....
+    /_{3,}/,                 // Multiple ___
+    /[\x00-\x08\x0B\x0C\x0E-\x1F]/,  // Caractères de contrôle corrompus
   ],
-  laquelleEstFausse: [
-    /laquelle\s+(est|sont)\s+(fausse?|incorrecte?)/i,
+  
+  // Calculs suspects (exclure décimales: 0,5×5=2,5 ne doit pas matcher "5×5=2")
+  calculsFaux: [
+    /(?<![,.])\d+\s*[+\-×÷]\s*\d+\s*=\s*\d+(?![,.])/,  // Lookbehind/lookahead pour éviter décimales
   ],
-  comparaisonsSansRef: [
-    /\b(plus|moins|meilleur|pire|supérieur|inférieur|augmente|diminue)\b(?!.*(que|à|par rapport))/i,
+  
+  // Questions sans sens
+  phrasesCassees: [
+    /\b[A-Z]{2,}\s+[A-Z]{2,}\s+[A-Z]{2,}/,  // MOTS TOUT EN MAJUSCULES
+    /\s{5,}/,                                 // Espaces multiples
+    /\([^)]{100,}/,                          // Parenthèses jamais fermées
+  ],
+  
+  // Ponctuation bizarre
+  ponctuationDouble: [
+    /[?.!,;:]{2,}/,
+    /\s+[?.!,;:]/,  // Espace avant ponctuation
   ],
 };
-
-const TROMPEUSE_PATTERNS = [
-  /\+\d+%.*\+\d+%.*[−\-]\d+%/,  // Variations composées
-  /(\d+).*(\d+).*(\d+)/,         // Multi-step calculations
-];
 
 const results = {
   totalFiles: 0,
   totalQuestions: 0,
-  byType: { QCM: 0, QR: 0, VF: 0, DragMatch: 0, OpenQ: 0 },
+  byType: { QCM: 0, QR: 0, VF: 0, DragMatch: 0, OpenQ: 0, FormulaBuilder: 0 },
   byChapter: {},
   issues: {
-    confusions: [],
-    trompeuses: [],
+    phrasesIncompletes: [],
+    caracteresEtranges: [],
+    calculsFaux: [],
+    phrasesCassees: [],
+    ponctuationDouble: [],
     formatsInvalides: [],
     sansExplication: [],
   },
@@ -85,11 +102,14 @@ function analyzeFile(filePath, fileName) {
   const fileStats = {
     name: fileName,
     questions: 0,
-    types: { QCM: 0, QR: 0, VF: 0, DragMatch: 0, OpenQ: 0 },
+    types: { QCM: 0, QR: 0, VF: 0, DragMatch: 0, OpenQ: 0, FormulaBuilder: 0 },
     chapter: null,
     issues: {
-      confusions: 0,
-      trompeuses: 0,
+      phrasesIncompletes: 0,
+      caracteresEtranges: 0,
+      calculsFaux: 0,
+      phrasesCassees: 0,
+      ponctuationDouble: 0,
       formatsInvalides: 0,
       sansExplication: 0,
     },
@@ -109,7 +129,7 @@ function analyzeFile(filePath, fileName) {
 
     if (!trimmed || trimmed.startsWith('//') || trimmed.startsWith('#')) continue;
 
-    const match = trimmed.match(/^(QCM|QR|VF|DragMatch|OpenQ)\s*\|\|/);
+    const match = trimmed.match(/^(QCM|QR|VF|DragMatch|OpenQ|FormulaBuilder)\s*\|\|/);
     if (!match) continue;
 
     const type = match[1];
@@ -120,9 +140,10 @@ function analyzeFile(filePath, fileName) {
 
     const parts = trimmed.split('||').map(p => p.trim());
     const question = parts[1] || '';
+    const fullLine = trimmed;
 
     // Validation format
-    const expectedCols = { QCM: 4, QR: 4, VF: 3, DragMatch: 3, OpenQ: 5 };
+    const expectedCols = { QCM: 4, QR: 4, VF: 3, DragMatch: 3, OpenQ: 5, FormulaBuilder: 5 };
     if (parts.length < expectedCols[type]) {
       results.issues.formatsInvalides.push({
         file: fileName,
@@ -134,46 +155,70 @@ function analyzeFile(filePath, fileName) {
       fileStats.issues.formatsInvalides++;
     }
 
-    // Vérifier explication (colonne 4 pour QCM/QR, colonne 3 pour VF/DragMatch)
-    const explanationCol = (type === 'QCM' || type === 'QR') ? 3 : 2;
-    if (type !== 'OpenQ' && (!parts[explanationCol] || parts[explanationCol].length < 5)) {
-      results.issues.sansExplication.push({
-        file: fileName,
-        line: lineNum,
-        type,
-        question: question.substring(0, 80),
-      });
-      fileStats.issues.sansExplication++;
-    }
-
-    // Détecter confusions
-    for (const [confType, patterns] of Object.entries(CONFUSION_PATTERNS)) {
-      for (const pattern of patterns) {
-        if (pattern.test(question)) {
-          results.issues.confusions.push({
-            file: fileName,
-            line: lineNum,
-            type,
-            confType,
-            question: question.substring(0, 100),
-          });
-          fileStats.issues.confusions++;
-          break;
-        }
-      }
-    }
-
-    // Détecter trompeuses
-    for (const pattern of TROMPEUSE_PATTERNS) {
-      if (pattern.test(question)) {
-        results.issues.trompeuses.push({
+    // Vérifier si c'est une PHRASE (commence par majuscule, se termine par ponctuation)
+    if (type === 'QCM' || type === 'QR' || type === 'VF') {
+      const startsWithCapital = /^[A-ZÀ-Ÿ]/.test(question);
+      const endsWithPunctuation = /[.?!:]$/.test(question);
+      if (!startsWithCapital || !endsWithPunctuation) {
+        results.issues.phrasesCassees.push({
           file: fileName,
           line: lineNum,
           type,
-          question: question.substring(0, 100),
+          issue: !startsWithCapital ? 'Pas de majuscule' : 'Pas de ponctuation',
+          question: question.substring(0, 80),
         });
-        fileStats.issues.trompeuses++;
-        break;
+        fileStats.issues.phrasesCassees++;
+      }
+    }
+
+    // Détecter problèmes critiques
+    for (const [issueType, patterns] of Object.entries(CRITICAL_PATTERNS)) {
+      for (const pattern of patterns) {
+        if (pattern.test(fullLine) || pattern.test(question)) {
+          // Vérifier si c'est un vrai calcul faux
+          if (issueType === 'calculsFaux') {
+            const calcMatch = fullLine.match(/(\d+)\s*([+\-×÷])\s*(\d+)\s*=\s*(\d+)/);
+            if (calcMatch) {
+              const [, a, op, b, result] = calcMatch.map((v, i) => i === 2 ? v : parseInt(v));
+              let expected = 0;
+              if (op === '+') expected = a + b;
+              else if (op === '−' || op === '-') expected = a - b;
+              else if (op === '×' || op === '*') expected = a * b;
+              else if (op === '÷' || op === '/') expected = Math.floor(a / b);
+              
+              // Vérifier contexte: ignorer si c'est une partie d'un calcul plus long
+              const calcText = calcMatch[0];
+              const beforeCalc = fullLine.substring(0, calcMatch.index);
+              const afterCalc = fullLine.substring(calcMatch.index + calcText.length);
+              const hasCalcBefore = /\d+\s*[+\-×÷]\s*$/.test(beforeCalc);
+              const hasCalcAfter = /^\s*[+\-×÷]\s*\d+/.test(afterCalc);
+              
+              // Signaler seulement si calcul isolé ET faux
+              if (expected !== result && !hasCalcBefore && !hasCalcAfter) {
+                results.issues[issueType].push({
+                  file: fileName,
+                  line: lineNum,
+                  type,
+                  calcul: calcMatch[0],
+                  attendu: expected,
+                  trouve: result,
+                  question: question.substring(0, 80),
+                });
+                fileStats.issues[issueType]++;
+              }
+            }
+          } else {
+            results.issues[issueType].push({
+              file: fileName,
+              line: lineNum,
+              type,
+              match: fullLine.match(pattern)?.[0] || 'détecté',
+              question: question.substring(0, 80),
+            });
+            fileStats.issues[issueType]++;
+          }
+          break;
+        }
       }
     }
   }
@@ -239,32 +284,74 @@ function generateReport() {
   md += `\n`;
 
   // Problèmes détaillés
-  md += `## 🔴 PROBLÈMES DÉTECTÉS\n\n`;
+  md += `## 🔴 PROBLÈMES CRITIQUES\n\n`;
 
-  // Confusions
-  if (results.issues.confusions.length > 0) {
-    md += `### Confusions (${results.issues.confusions.length})\n\n`;
-    md += `| Fichier | Ligne | Type | Confusion | Question |\n`;
-    md += `|---------|-------|------|-----------|----------|\n`;
-    for (const issue of results.issues.confusions.slice(0, 20)) {
-      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | ${issue.confType} | ${issue.question.replace(/\|/g, '\\|')} |\n`;
+  // Phrases incomplètes
+  if (results.issues.phrasesIncompletes.length > 0) {
+    md += `### 🔴 Phrases incomplètes (${results.issues.phrasesIncompletes.length})\n\n`;
+    md += `| Fichier | Ligne | Type | Problème | Question |\n`;
+    md += `|---------|-------|------|----------|----------|\n`;
+    for (const issue of results.issues.phrasesIncompletes.slice(0, 20)) {
+      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | ${issue.match} | ${issue.question.replace(/\|/g, '\\|')} |\n`;
     }
-    if (results.issues.confusions.length > 20) {
-      md += `\n*... et ${results.issues.confusions.length - 20} autres.*\n`;
+    if (results.issues.phrasesIncompletes.length > 20) {
+      md += `\n*... et ${results.issues.phrasesIncompletes.length - 20} autres.*\n`;
     }
     md += `\n`;
   }
 
-  // Trompeuses
-  if (results.issues.trompeuses.length > 0) {
-    md += `### Questions trompeuses (${results.issues.trompeuses.length})\n\n`;
-    md += `| Fichier | Ligne | Type | Question |\n`;
-    md += `|---------|-------|------|----------|\n`;
-    for (const issue of results.issues.trompeuses.slice(0, 20)) {
-      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | ${issue.question.replace(/\|/g, '\\|')} |\n`;
+  // Calculs faux
+  if (results.issues.calculsFaux.length > 0) {
+    md += `### 🔴 Calculs FAUX (${results.issues.calculsFaux.length})\n\n`;
+    md += `| Fichier | Ligne | Type | Calcul | Attendu | Trouvé | Question |\n`;
+    md += `|---------|-------|------|--------|---------|--------|----------|\n`;
+    for (const issue of results.issues.calculsFaux.slice(0, 20)) {
+      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | \`${issue.calcul}\` | **${issue.attendu}** | ❌ ${issue.trouve} | ${issue.question.replace(/\|/g, '\\|')} |\n`;
     }
-    if (results.issues.trompeuses.length > 20) {
-      md += `\n*... et ${results.issues.trompeuses.length - 20} autres.*\n`;
+    if (results.issues.calculsFaux.length > 20) {
+      md += `\n*... et ${results.issues.calculsFaux.length - 20} autres.*\n`;
+    }
+    md += `\n`;
+  }
+
+  // Caractères étranges
+  if (results.issues.caracteresEtranges.length > 0) {
+    md += `### 🔴 Caractères étranges (${results.issues.caracteresEtranges.length})\n\n`;
+    md += `| Fichier | Ligne | Type | Caractères | Question |\n`;
+    md += `|---------|-------|------|------------|----------|\n`;
+    for (const issue of results.issues.caracteresEtranges.slice(0, 20)) {
+      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | \`${issue.match}\` | ${issue.question.replace(/\|/g, '\\|')} |\n`;
+    }
+    if (results.issues.caracteresEtranges.length > 20) {
+      md += `\n*... et ${results.issues.caracteresEtranges.length - 20} autres.*\n`;
+    }
+    md += `\n`;
+  }
+
+  // Phrases cassées
+  if (results.issues.phrasesCassees.length > 0) {
+    md += `### 🟠 Phrases cassées (${results.issues.phrasesCassees.length})\n\n`;
+    md += `| Fichier | Ligne | Type | Problème | Question |\n`;
+    md += `|---------|-------|------|----------|----------|\n`;
+    for (const issue of results.issues.phrasesCassees.slice(0, 20)) {
+      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | ${issue.issue || issue.match} | ${issue.question.replace(/\|/g, '\\|')} |\n`;
+    }
+    if (results.issues.phrasesCassees.length > 20) {
+      md += `\n*... et ${results.issues.phrasesCassees.length - 20} autres.*\n`;
+    }
+    md += `\n`;
+  }
+
+  // Ponctuation double
+  if (results.issues.ponctuationDouble.length > 0) {
+    md += `### 🟡 Ponctuation double (${results.issues.ponctuationDouble.length})\n\n`;
+    md += `| Fichier | Ligne | Type | Problème | Question |\n`;
+    md += `|---------|-------|------|----------|----------|\n`;
+    for (const issue of results.issues.ponctuationDouble.slice(0, 20)) {
+      md += `| \`${issue.file}\` | ${issue.line} | ${issue.type} | ${issue.match} | ${issue.question.replace(/\|/g, '\\|')} |\n`;
+    }
+    if (results.issues.ponctuationDouble.length > 20) {
+      md += `\n*... et ${results.issues.ponctuationDouble.length - 20} autres.*\n`;
     }
     md += `\n`;
   }
@@ -311,28 +398,49 @@ function generateReport() {
   // Recommandations
   md += `## 💡 RECOMMANDATIONS\n\n`;
   
+  const criticalCount = results.issues.phrasesIncompletes.length + results.issues.calculsFaux.length + results.issues.caracteresEtranges.length;
+  
+  if (criticalCount > 0) {
+    md += `### 🔴 URGENCE : ${criticalCount} problèmes CRITIQUES à corriger immédiatement\n\n`;
+  }
+
+  if (results.issues.calculsFaux.length > 0) {
+    md += `#### 🔴 Priorité MAXIMALE : ${results.issues.calculsFaux.length} calculs FAUX\n`;
+    md += `- **Impact** : Les étudiants apprennent des informations FAUSSES\n`;
+    md += `- **Action** : Vérifier et corriger TOUS les calculs\n`;
+    md += `- **Temps estimé** : ~${Math.ceil(results.issues.calculsFaux.length / 5)}h\n\n`;
+  }
+
+  if (results.issues.phrasesIncompletes.length > 0) {
+    md += `#### 🔴 Priorité CRITIQUE : ${results.issues.phrasesIncompletes.length} phrases incomplètes\n`;
+    md += `- **Impact** : Questions impossibles à lire ou comprendre\n`;
+    md += `- **Action** : Compléter les colonnes manquantes, réécrire si nécessaire\n`;
+    md += `- **Temps estimé** : ~${Math.ceil(results.issues.phrasesIncompletes.length / 10)}h\n\n`;
+  }
+
+  if (results.issues.caracteresEtranges.length > 0) {
+    md += `#### 🔴 Priorité CRITIQUE : ${results.issues.caracteresEtranges.length} caractères corrompus\n`;
+    md += `- **Impact** : Texte illisible ou bizarre\n`;
+    md += `- **Action** : Remplacer par caractères corrects\n`;
+    md += `- **Temps estimé** : ~${Math.ceil(results.issues.caracteresEtranges.length / 15)}h\n\n`;
+  }
+
+  if (results.issues.phrasesCassees.length > 0) {
+    md += `### 🟠 Priorité HAUTE : ${results.issues.phrasesCassees.length} phrases mal formatées\n`;
+    md += `- **Action** : Normaliser majuscules, espaces et ponctuation\n`;
+    md += `- **Temps estimé** : ~${Math.ceil(results.issues.phrasesCassees.length / 20)}h\n\n`;
+  }
+
   if (results.issues.formatsInvalides.length > 0) {
-    md += `### 🔴 Priorité HAUTE : Corriger ${results.issues.formatsInvalides.length} formats invalides\n`;
-    md += `- Action : Ajouter colonnes manquantes (explication pour QCM/QR/VF)\n`;
-    md += `- Temps estimé : ~${Math.ceil(results.issues.formatsInvalides.length / 20)}h\n\n`;
+    md += `### 🟡 Priorité MOYENNE : ${results.issues.formatsInvalides.length} formats invalides\n`;
+    md += `- **Action** : Ajouter colonnes manquantes\n`;
+    md += `- **Temps estimé** : ~${Math.ceil(results.issues.formatsInvalides.length / 20)}h\n\n`;
   }
 
-  if (results.issues.trompeuses.length > 0) {
-    md += `### 🔴 Priorité HAUTE : Simplifier ${results.issues.trompeuses.length} questions trompeuses\n`;
-    md += `- Action : Décomposer calculs multi-étapes en séquences\n`;
-    md += `- Temps estimé : ~${Math.ceil(results.issues.trompeuses.length / 10)}h\n\n`;
-  }
-
-  if (results.issues.confusions.length > 0) {
-    md += `### 🟡 Priorité MOYENNE : Clarifier ${results.issues.confusions.length} confusions\n`;
-    md += `- Action : Reformuler termes flous, ajouter références\n`;
-    md += `- Temps estimé : ~${Math.ceil(results.issues.confusions.length / 15)}h\n\n`;
-  }
-
-  if (results.issues.sansExplication.length > 0) {
-    md += `### 🟢 Priorité BASSE : Enrichir ${results.issues.sansExplication.length} explications\n`;
-    md += `- Action : Ajouter feedback pédagogique\n`;
-    md += `- Temps estimé : ~${Math.ceil(results.issues.sansExplication.length / 30)}h\n\n`;
+  if (results.issues.ponctuationDouble.length > 0) {
+    md += `### 🟢 Priorité BASSE : ${results.issues.ponctuationDouble.length} problèmes de ponctuation\n`;
+    md += `- **Action** : Nettoyer ponctuation en double\n`;
+    md += `- **Temps estimé** : ~${Math.ceil(results.issues.ponctuationDouble.length / 30)}h\n\n`;
   }
 
   // Score qualité

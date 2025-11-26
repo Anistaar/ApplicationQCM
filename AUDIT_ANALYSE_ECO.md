@@ -1,6 +1,6 @@
 # 📊 AUDIT MATIÈRE : ANALYSE_ECO
 
-**Date** : 26/11/2025 18:46:27
+**Date** : 26/11/2025 20:36:22
 **Dossier** : `src/questions/S1/ANALYSE_ECO/`
 
 ---
@@ -9,75 +9,95 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Fichiers** | 15 |
-| **Questions totales** | 301 |
-| **Problèmes détectés** | 138 (45.8%) |
+| **Fichiers** | 19 |
+| **Questions totales** | 361 |
+| **Problèmes détectés** | 415 (115.0%) |
 
 ### Types de questions
 
 | Type | Nombre | % |
 |------|--------|---|
-| **QCM** | 220 | 73.1% |
-| **DragMatch** | 33 | 11.0% |
-| **VF** | 28 | 9.3% |
-| **OpenQ** | 20 | 6.6% |
+| **QCM** | 220 | 60.9% |
+| **FormulaBuilder** | 60 | 16.6% |
+| **DragMatch** | 33 | 9.1% |
+| **VF** | 28 | 7.8% |
+| **OpenQ** | 20 | 5.5% |
 | **QR** | 0 | 0.0% |
 
 ## 📚 PAR CHAPITRE
 
 | Chapitre | Fichiers | Questions | QCM | QR | VF | DragMatch | OpenQ | Problèmes |
 |----------|----------|-----------|-----|----|----|-----------|-------|----------|
-| **Analyse Éco > MA2 — Croissance et fluctuations** | 1 | 48 | 43 | 0 | 5 | 0 | 0 | 18 |
-| **Analyse Éco > MA1 — Comptabilité nationale** | 1 | 46 | 41 | 0 | 5 | 0 | 0 | 15 |
-| **Analyse Éco > MI3 — Interdépendances et échanges** | 1 | 40 | 35 | 0 | 5 | 0 | 0 | 11 |
-| **Analyse Éco > MI4 — Offre, demande et marché** | 1 | 39 | 34 | 0 | 5 | 0 | 0 | 11 |
-| **Analyse Éco > MI1 — Bases du raisonnement économique** | 1 | 38 | 34 | 0 | 4 | 0 | 0 | 8 |
-| **Analyse Éco > MI2 — Postulats et comportement économique** | 1 | 37 | 33 | 0 | 4 | 0 | 0 | 9 |
-| **Analyse Éco > Formules — Reconstruction (Niveau Expert)** | 1 | 25 | 0 | 0 | 0 | 25 | 0 | 50 |
-| **Analyse Éco > Formules — Questions ouvertes** | 1 | 20 | 0 | 0 | 0 | 0 | 20 | 0 |
-| **Analyse Éco > Formules — Association Nom ↔ Formule** | 1 | 8 | 0 | 0 | 0 | 8 | 0 | 16 |
+| **MA2 — Croissance et fluctuations** | 1 | 48 | 43 | 0 | 5 | 0 | 0 | 50 |
+| **MA1 — Comptabilité nationale** | 1 | 46 | 41 | 0 | 5 | 0 | 0 | 48 |
+| **MI3 — Interdépendances et échanges** | 1 | 40 | 35 | 0 | 5 | 0 | 0 | 44 |
+| **MI4 — Offre, demande et marché** | 1 | 39 | 34 | 0 | 5 | 0 | 0 | 43 |
+| **MI1 — Bases du raisonnement économique** | 1 | 38 | 34 | 0 | 4 | 0 | 0 | 42 |
+| **MI2 — Postulats et comportement économique** | 1 | 37 | 33 | 0 | 4 | 0 | 0 | 42 |
+| **Formules — Constructeur Interactif** | 1 | 30 | 0 | 0 | 0 | 0 | 0 | 30 |
+| **Formules — Reconstruction Expert** | 1 | 25 | 0 | 0 | 0 | 25 | 0 | 50 |
+| **Formules — Questions ouvertes** | 1 | 20 | 0 | 0 | 0 | 0 | 20 | 20 |
+| **Formules — Niveau Moyen** | 1 | 13 | 0 | 0 | 0 | 0 | 0 | 13 |
+| **Formules — Niveau Facile** | 1 | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
+| **Formules — Association Nom ↔ Formule** | 1 | 8 | 0 | 0 | 0 | 8 | 0 | 16 |
+| **Formules — Niveau Difficile** | 1 | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | **Sans chapitre** | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## 🔴 PROBLÈMES DÉTECTÉS
+## 🔴 PROBLÈMES CRITIQUES
 
-### Confusions (7)
+### 🟠 Phrases cassées (240)
 
-| Fichier | Ligne | Type | Confusion | Question |
-|---------|-------|------|-----------|----------|
-| `analyse_eco_MA2_qcm.txt` | 28 | QCM | termesFlous | Choc de demande négatif peut notamment provenir de |
-| `analyse_eco_MA2_qcm.txt` | 29 | QCM | comparaisonsSansRef | Plus-value selon Marx (différence entre valeur produite et salaire) = |
-| `analyse_eco_MA2_qcm.txt` | 55 | QCM | termesFlous | Si g_Y=0, et g_K, g_L > 0 sur courte période, cela peut typiquement refléter |
-| `analyse_eco_MI2_qcm.txt` | 33 | VF | termesFlous | Une incitation mal calibrée peut créer des effets pervers (gaming du système) |
-| `analyse_eco_MI3_qcm.txt` | 33 | VF | comparaisonsSansRef | La spécialisation selon l'avantage comparatif augmente la production totale disponible |
-| `analyse_eco_MI4_qcm.txt` | 34 | VF | comparaisonsSansRef | L'incidence fiscale pèse davantage sur le côté du marché le plus inélastique (moins réactif aux prix |
-| `analyse_eco_MI4_qcm.txt` | 43 | QCM | comparaisonsSansRef | Taxe spécifique t augmente prix conso. de ΔP^C et réduit prix prod. de ΔP^P. Incidence fiscale (rapp |
+| Fichier | Ligne | Type | Problème | Question |
+|---------|-------|------|----------|----------|
+| `analyse_eco_MA1_qcm.txt` | 3 | QCM | Pas de ponctuation | La comptabilité nationale (CN) fournit |
+| `analyse_eco_MA1_qcm.txt` | 4 | QCM | Pas de ponctuation | Flux vs stock: un flux est |
+| `analyse_eco_MA1_qcm.txt` | 5 | QCM | Pas de ponctuation | Circuit économique relie |
+| `analyse_eco_MA1_qcm.txt` | 6 | QCM | Pas de ponctuation | Trois optiques du PIB incluent (choisir vraies) |
+| `analyse_eco_MA1_qcm.txt` | 7 | QCM | Pas de ponctuation | Valeur ajoutée (VA) = |
+| `analyse_eco_MA1_qcm.txt` | 8 | QCM | Pas de ponctuation | PIB (optique production) = Σ VA + |
+| `analyse_eco_MA1_qcm.txt` | 9 | QCM | Pas de ponctuation | Consommations intermédiaires (CI) sont |
+| `analyse_eco_MA1_qcm.txt` | 10 | QCM | Pas de ponctuation | PIB (optique demande) = |
+| `analyse_eco_MA1_qcm.txt` | 11 | QCM | Pas de ponctuation | FBCF représente |
+| `analyse_eco_MA1_qcm.txt` | 12 | QCM | Pas de majuscule | (X - M) > 0 indique |
+| `analyse_eco_MA1_qcm.txt` | 13 | QCM | Pas de ponctuation | PIB (optique revenus) = rémunérations + EBE + |
+| `analyse_eco_MA1_qcm.txt` | 14 | QCM | Pas de ponctuation | EBE correspond à |
+| `analyse_eco_MA1_qcm.txt` | 15 | QCM | Pas de ponctuation | Déflater le PIB revient à |
+| `analyse_eco_MA1_qcm.txt` | 16 | QCM | Pas de ponctuation | PIB réel < PIB nominal quand |
+| `analyse_eco_MA1_qcm.txt` | 17 | QCM | Pas de ponctuation | Territoire économique inclut |
+| `analyse_eco_MA1_qcm.txt` | 18 | QCM | Pas de ponctuation | Unité résidente critère principal |
+| `analyse_eco_MA1_qcm.txt` | 19 | QCM | Pas de ponctuation | Secteurs institutionnels (SI) n’incluent PAS |
+| `analyse_eco_MA1_qcm.txt` | 20 | QCM | Pas de ponctuation | Les cinq SI sont |
+| `analyse_eco_MA1_qcm.txt` | 21 | QCM | Pas de ponctuation | Ressources dans emplois-ressources incluent |
+| `analyse_eco_MA1_qcm.txt` | 22 | QCM | Pas de ponctuation | Emplois incluent (choisir vraies) |
 
-### Questions trompeuses (37)
+*... et 220 autres.*
 
-| Fichier | Ligne | Type | Question |
-|---------|-------|------|----------|
-| `analyse_eco_MA1_qcm.txt` | 44 | QCM | Entreprise unique: Production P=1 000, CI=400. VA=? |
-| `analyse_eco_MA1_qcm.txt` | 45 | QCM | Économie à 2 branches: ΣVA=1 200; Impôts sur produits − Subventions = 100. PIB (optique production)  |
-| `analyse_eco_MA1_qcm.txt` | 46 | QCM | Optique demande. Données: CF=900, FBCF=300, ΔS=50, X=250, M=200. PIB = |
-| `analyse_eco_MA1_qcm.txt` | 47 | QCM | Optique revenus. Rémunérations=700, EBE=400, (Impôts production-importations − Subventions)=150. PIB |
-| `analyse_eco_MA1_qcm.txt` | 48 | QCM | TES simplifié (en M€): Branche A consomme 100 de A, 50 de B; Branche B consomme 80 de A, 20 de B. CI |
-| `analyse_eco_MA1_qcm.txt` | 49 | QCM | Dans TES, coefficient technique a_{ij} pour i=A, j=B si CI(A par B)=80 et Production B=400 vaut |
-| `analyse_eco_MA1_qcm.txt` | 50 | QCM | Ressources: P=1 500, M=400, T−SP=100. Emplois: CI=800, CF=900, FBCF=200, ΔS=−50, X=150, A (variation |
-| `analyse_eco_MA1_qcm.txt` | 51 | QCM | RNB = PIB + RPR − RPV. Si PIB=1 300, RPR=30, RPV=60, alors RNB= |
-| `analyse_eco_MA1_qcm.txt` | 52 | QCM | Épargne nette ajustée (ENA) corrige l’épargne nationale de: +Éducation, −Dégradation ressources, −Po |
-| `analyse_eco_MA1_qcm.txt` | 53 | QCM | Déflateur du PIB = PIB nominal / PIB réel × 100. Si Nominal=1 400, Réel=1 300 → Déflateur= |
-| `analyse_eco_MA2_qcm.txt` | 6 | QCM | Phase 1820-1870 marquée par |
-| `analyse_eco_MA2_qcm.txt` | 7 | QCM | Trente Glorieuses (1950-1973) caractérisées par |
-| `analyse_eco_MA2_qcm.txt` | 8 | QCM | Chocs pétroliers 1973/1979 ont provoqué |
-| `analyse_eco_MA2_qcm.txt` | 42 | VF | La règle des 70 permet d'estimer le temps de doublement : Années ≈ 70 / taux de croissance annuel |
-| `analyse_eco_MA2_qcm.txt` | 43 | VF | Un cycle économique de 7-11 ans (Juglar) est principalement lié aux fluctuations de l'investissement |
-| `analyse_eco_MA2_qcm.txt` | 47 | QCM | Taux de croissance annuel moyen (TCAM): Indice 100 → 121 en 2 ans. TCAM ≈ |
-| `analyse_eco_MA2_qcm.txt` | 48 | QCM | Production Y ↑ de 3%, K ↑ de 2%, L ↑ de 1%. Partage α=0,4. PGF (g_A) ≈ |
-| `analyse_eco_MA2_qcm.txt` | 49 | QCM | Si K croît de 5% et L de 1%, sans PT (g_A=0), pour obtenir g_Y=3% il faut α ≈ |
-| `analyse_eco_MA2_qcm.txt` | 50 | QCM | « Règle des 70 »: à g=2%/an, le doublement prend ≈ |
-| `analyse_eco_MA2_qcm.txt` | 52 | QCM | Cycle Juglar (7–11 ans) lié à |
+### 🟡 Ponctuation double (142)
 
-*... et 17 autres.*
+| Fichier | Ligne | Type | Problème | Question |
+|---------|-------|------|----------|----------|
+| `analyse_eco_MA1_qcm.txt` | 29 | QCM |  : | Épargne nette ajustée (ENA) corrige l'épargne de |
+| `analyse_eco_MA1_qcm.txt` | 37 | VF |  : | La valeur ajoutée (VA) représente la richesse créée par une entreprise : VA = Pr |
+| `analyse_eco_MA1_qcm.txt` | 40 | VF |  : | Le coefficient technique a_ij dans un TES mesure la quantité de produit i nécess |
+| `analyse_eco_MA1_qcm.txt` | 50 | QCM |  ? | Ressources: P=1 500, M=400, T−SP=100. Emplois: CI=800, CF=900, FBCF=200, ΔS=−50, |
+| `analyse_eco_MA2_qcm.txt` | 41 | VF |  : | La décomposition comptable de la croissance s'écrit : g_Y = g_A + α·g_K + (1−α)· |
+| `analyse_eco_MA2_qcm.txt` | 42 | VF |  : | La règle des 70 permet d'estimer le temps de doublement : Années ≈ 70 / taux de  |
+| `analyse_eco_MI1_qcm.txt` | 9 | QCM |  ? | Ressource limitée: laquelle ? |
+| `analyse_eco_MI1_qcm.txt` | 23 | QCM |  ? | Pourquoi rigueur accrue en sciences sociales ? |
+| `analyse_eco_MI1_qcm.txt` | 30 | VF |  : | Le coût d'opportunité d'une action = valeur de la meilleure alternative abandonn |
+| `analyse_eco_MI1_qcm.txt` | 31 | VF |  : | Un coût irrécupérable (sunk cost) déjà engagé ne doit pas influencer une décisio |
+| `analyse_eco_MI1_qcm.txt` | 32 | VF |  : | Une décision rationnelle marginale : poursuivre si Bénéfice marginal ≥ Coût marg |
+| `analyse_eco_MI1_qcm.txt` | 43 | QCM |  : | Exemple d'arbitrage État: subvention aux transports en commun augmente équité ma |
+| `analyse_eco_MI2_qcm.txt` | 15 | QCM |  : | Effet d'une prime mal calibrée (risque principal) |
+| `analyse_eco_MI2_qcm.txt` | 30 | VF |  : | Le raisonnement marginal : continuer une activité tant que le bénéfice marginal  |
+| `analyse_eco_MI2_qcm.txt` | 31 | VF |  : | Les incitations extrinsèques (primes, taxes) modifient les coûts/bénéfices d'un  |
+| `analyse_eco_MI2_qcm.txt` | 32 | VF |  : | Les coûts irrécupérables (sunk costs) ne doivent pas influencer les décisions fu |
+| `analyse_eco_MI2_qcm.txt` | 33 | VF |  : | Une incitation mal calibrée peut créer des effets pervers (gaming du système) |
+| `analyse_eco_MI2_qcm.txt` | 36 | QCM |  ? | Un·e étudiant·e hésite à faire 1h de cours supplémentaire: gain marginal attendu |
+| `analyse_eco_MI2_qcm.txt` | 40 | QCM |  ? | Bénéfice marginal décroissant: pour heures d’étude 1→5, gains marg. 6,5,4,3,2 pt |
+| `analyse_eco_MI3_qcm.txt` | 20 | QCM |  : | Terres dans modèle simplifié Ricardo considérées comme |
+
+*... et 122 autres.*
 
 ### Formats invalides (33)
 
@@ -106,46 +126,23 @@
 
 *... et 13 autres.*
 
-### Sans explication (61)
-
-| Fichier | Ligne | Type | Question |
-|---------|-------|------|----------|
-| `analyse_eco_MA1_qcm.txt` | 37 | VF | La valeur ajoutée (VA) représente la richesse créée par une entreprise : VA = Pr |
-| `analyse_eco_MA1_qcm.txt` | 38 | VF | Le PIB par l'optique production = Somme des valeurs ajoutées + (Impôts sur produ |
-| `analyse_eco_MA1_qcm.txt` | 39 | VF | Le PIB par l'optique demande = CF + FBCF + ΔS + (X − M) |
-| `analyse_eco_MA1_qcm.txt` | 40 | VF | Le coefficient technique a_ij dans un TES mesure la quantité de produit i nécess |
-| `analyse_eco_MA1_qcm.txt` | 41 | VF | Le RNB (Revenu National Brut) = PIB + Revenus reçus du reste du monde − Revenus  |
-| `analyse_eco_MA2_qcm.txt` | 40 | VF | La PGF (Productivité Globale des Facteurs) mesure le résidu de croissance non ex |
-| `analyse_eco_MA2_qcm.txt` | 41 | VF | La décomposition comptable de la croissance s'écrit : g_Y = g_A + α·g_K + (1−α)· |
-| `analyse_eco_MA2_qcm.txt` | 42 | VF | La règle des 70 permet d'estimer le temps de doublement : Années ≈ 70 / taux de  |
-| `analyse_eco_MA2_qcm.txt` | 43 | VF | Un cycle économique de 7-11 ans (Juglar) est principalement lié aux fluctuations |
-| `analyse_eco_MA2_qcm.txt` | 44 | VF | Un choc d'offre négatif (ex: choc pétrolier) provoque simultanément inflation et |
-| `analyse_eco_MI1_qcm.txt` | 30 | VF | Le coût d'opportunité d'une action = valeur de la meilleure alternative abandonn |
-| `analyse_eco_MI1_qcm.txt` | 31 | VF | Un coût irrécupérable (sunk cost) déjà engagé ne doit pas influencer une décisio |
-| `analyse_eco_MI1_qcm.txt` | 32 | VF | Une décision rationnelle marginale : poursuivre si Bénéfice marginal ≥ Coût marg |
-| `analyse_eco_MI1_qcm.txt` | 33 | VF | Dans une contrainte budgétaire, un panier est "faisable" si son coût total ≤ bud |
-| `analyse_eco_MI2_qcm.txt` | 30 | VF | Le raisonnement marginal : continuer une activité tant que le bénéfice marginal  |
-| `analyse_eco_MI2_qcm.txt` | 31 | VF | Les incitations extrinsèques (primes, taxes) modifient les coûts/bénéfices d'un  |
-| `analyse_eco_MI2_qcm.txt` | 32 | VF | Les coûts irrécupérables (sunk costs) ne doivent pas influencer les décisions fu |
-| `analyse_eco_MI2_qcm.txt` | 33 | VF | Une incitation mal calibrée peut créer des effets pervers (gaming du système) |
-| `analyse_eco_MI3_qcm.txt` | 30 | VF | L'avantage comparatif repose sur le coût d'opportunité relatif, pas sur la produ |
-| `analyse_eco_MI3_qcm.txt` | 31 | VF | Le coût d'opportunité d'un bien = quantité de l'autre bien sacrifiée pour le pro |
-
-*... et 41 autres.*
-
 ## 📁 DÉTAIL PAR FICHIER
 
 | Fichier | Questions | QCM | QR | VF | DragMatch | OpenQ | Problèmes |
 |---------|-----------|-----|----|----|-----------|-------|----------|
-| 🔴 `analyse_eco_MA2_qcm.txt` | 48 | 43 | 0 | 5 | 0 | 0 | 18 |
-| 🔴 `analyse_eco_MA1_qcm.txt` | 46 | 41 | 0 | 5 | 0 | 0 | 15 |
-| 🔴 `analyse_eco_MI3_qcm.txt` | 40 | 35 | 0 | 5 | 0 | 0 | 11 |
-| 🔴 `analyse_eco_MI4_qcm.txt` | 39 | 34 | 0 | 5 | 0 | 0 | 11 |
-| 🔴 `analyse_eco_MI1_qcm.txt` | 38 | 34 | 0 | 4 | 0 | 0 | 8 |
-| 🔴 `analyse_eco_MI2_qcm.txt` | 37 | 33 | 0 | 4 | 0 | 0 | 9 |
+| 🔴 `analyse_eco_MA2_qcm.txt` | 48 | 43 | 0 | 5 | 0 | 0 | 50 |
+| 🔴 `analyse_eco_MA1_qcm.txt` | 46 | 41 | 0 | 5 | 0 | 0 | 48 |
+| 🔴 `analyse_eco_MI3_qcm.txt` | 40 | 35 | 0 | 5 | 0 | 0 | 44 |
+| 🔴 `analyse_eco_MI4_qcm.txt` | 39 | 34 | 0 | 5 | 0 | 0 | 43 |
+| 🔴 `analyse_eco_MI1_qcm.txt` | 38 | 34 | 0 | 4 | 0 | 0 | 42 |
+| 🔴 `analyse_eco_MI2_qcm.txt` | 37 | 33 | 0 | 4 | 0 | 0 | 42 |
+| 🔴 `analyse_eco_formules_builder.txt` | 30 | 0 | 0 | 0 | 0 | 0 | 30 |
 | 🔴 `analyse_eco_formules_dragmatch_reconstruction.txt` | 25 | 0 | 0 | 0 | 25 | 0 | 50 |
-| ✅ `analyse_eco_formules_openq.txt` | 20 | 0 | 0 | 0 | 0 | 20 | 0 |
+| 🔴 `analyse_eco_formules_openq.txt` | 20 | 0 | 0 | 0 | 0 | 20 | 20 |
+| 🔴 `analyse_eco_formules_moyen.txt` | 13 | 0 | 0 | 0 | 0 | 0 | 13 |
+| 🔴 `analyse_eco_formules_facile.txt` | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | 🔴 `analyse_eco_formules_dragmatch_noms.txt` | 8 | 0 | 0 | 0 | 8 | 0 | 16 |
+| 🟡 `analyse_eco_formules_difficile.txt` | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | ✅ `iae_1_macro_comptabilite_nationale.txt` | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ✅ `iae_2_macro_croissance_et_fluctuations.txt` | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ✅ `iae_micro_1_les_bases_du_raisonnement_economique_1.txt` | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -155,21 +152,17 @@
 
 ## 💡 RECOMMANDATIONS
 
-### 🔴 Priorité HAUTE : Corriger 33 formats invalides
-- Action : Ajouter colonnes manquantes (explication pour QCM/QR/VF)
-- Temps estimé : ~2h
+### 🟠 Priorité HAUTE : 240 phrases mal formatées
+- **Action** : Normaliser majuscules, espaces et ponctuation
+- **Temps estimé** : ~12h
 
-### 🔴 Priorité HAUTE : Simplifier 37 questions trompeuses
-- Action : Décomposer calculs multi-étapes en séquences
-- Temps estimé : ~4h
+### 🟡 Priorité MOYENNE : 33 formats invalides
+- **Action** : Ajouter colonnes manquantes
+- **Temps estimé** : ~2h
 
-### 🟡 Priorité MOYENNE : Clarifier 7 confusions
-- Action : Reformuler termes flous, ajouter références
-- Temps estimé : ~1h
-
-### 🟢 Priorité BASSE : Enrichir 61 explications
-- Action : Ajouter feedback pédagogique
-- Temps estimé : ~3h
+### 🟢 Priorité BASSE : 142 problèmes de ponctuation
+- **Action** : Nettoyer ponctuation en double
+- **Temps estimé** : ~5h
 
 ## 🎯 SCORE QUALITÉ : 0/100
 
