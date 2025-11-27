@@ -1,193 +1,140 @@
+|| OMC, Exhaustif, Institutions, QCM
 QCM || En quelle année a été créé le GATT ? || 1944|V:1947|1948|1995
 || Le GATT (Accord général sur les tarifs douaniers et le commerce) a été signé par 23 pays en 1947, dans la dynamique des accords de Bretton Woods. || OMC, Historique, Facile, QCM
-
 QCM || Où s'est tenue la réunion qui a abouti aux accords de Bretton Woods ? || À Genève|À Marrakech|V:Aux États-Unis|Au Royaume-Uni
 || En 1947, les Alliés se sont retrouvés à Bretton Woods (aux États-Unis) pour mettre en place des institutions de régulation des relations économiques internationales. || OMC, Bretton Woods, Facile, QCM
-
 QCM || Quelle était la conviction principale des Alliés lors de la création du GATT ? || Que la guerre était due à un manque de commerce|V:Que le conflit était dû à la gestion nationaliste de la crise de 1929|Que seule l'Europe devait commercer|Que les tarifs douaniers devaient augmenter
 || Les Alliés étaient persuadés que le conflit de la Seconde Guerre mondiale était dû à la gestion nationaliste de la flambée du chômage de la grande crise déclenchée en 1929 à Wall Street. || OMC, Contexte historique, Moyen, QCM
-
 QCM || En quelle année l'OMC a-t-elle été créée ? || 1947|1948|1994|V:1995
 || L'OMC a été créée en 1995, succédant au GATT. La transformation a été actée par l'Accord de Marrakech en 1994. || OMC, Date création, Facile, QCM
-
 QCM || Combien de pays ont initialement signé le GATT en 1947 ? || 15 pays|V:23 pays|45 pays|164 pays
 || En 1947, 23 pays ont signé le GATT dans la continuité des accords de Bretton Woods. || OMC, GATT, Facile, QCM
-
 QCM || Quel accord a marqué la transformation du GATT en OMC ? || Accord de Bretton Woods|Accord de Genève|V:Accord de Marrakech|Accord de Doha
 || En 1994, l'Accord de Marrakech a stipulé la transformation du GATT en OMC, avec pour objectif la réduction substantielle des tarifs douaniers et autres obstacles au commerce. || OMC, Marrakech, Moyen, QCM
-
 QCM || L'Accord de Marrakech est constitué de combien de pages de texte environ ? || Environ 2 000 pages|Environ 5 000 pages|V:Presque 20 000 pages|Environ 50 000 pages
 || L'Accord de Marrakech est constitué de 29 accords, soit presque 20 000 pages de texte. || OMC, Marrakech, Moyen, QCM
-
 QCM || Quelle était la mission principale du GATT ? || Fixer les taux de change|V:Accélérer le commerce mondial par réduction des tarifs douaniers|Créer une monnaie unique|Réglementer les investissements directs
 || La première mission du GATT était d'accélérer le commerce mondial, principalement via la réduction des tarifs douaniers. De 1948 à 1994, cela a entraîné un taux de croissance record pour le commerce mondial. || OMC, GATT, Moyen, QCM
-
 QCM || Quelle différence majeure distingue l'OMC du GATT ? || L'OMC ne traite que des marchandises|V:L'OMC couvre également les services et la propriété intellectuelle|L'OMC a moins de membres|L'OMC n'a pas de pouvoir de sanction
 || Alors que le GATT régissait principalement le commerce des marchandises, l'OMC et ses accords visent également le commerce des services et la propriété intellectuelle. || OMC, Différence GATT/OMC, Facile, QCM
-
 QCM || Qu'est-ce que la naissance de l'OMC a permis de renforcer par rapport au GATT ? || Les tarifs douaniers|La circulation des personnes|V:Les procédures de règlement des différends|Les accords bilatéraux uniquement
 || La naissance de l'OMC en 1995 a ouvert la voie à de nouvelles procédures de règlement des différends, avec un Organe de règlement des différends (ORD) plus structuré. || OMC, ORD, Moyen, QCM
-
 QCM || Sur quoi portaient principalement les 6 premiers rounds du GATT ? || Les services|Les investissements|V:Les droits de douane|La propriété intellectuelle
 || Du premier au 6ème round du GATT, les négociations portaient exclusivement sur les droits de douane. || OMC, Rounds GATT, Facile, QCM
-
 QCM || À partir de quel round du GATT a-t-on intégré les mesures non tarifaires ? || 3ème round|5ème round|V:7ème round (Tokyo Round)|8ème round (Uruguay Round)
 || À partir du 7ème round (Tokyo Round), on a commencé à traiter des mesures non tarifaires, notamment l'anti-dumping. || OMC, Rounds GATT, Moyen, QCM
-
 QCM || Quel était l'objectif du 8ème et dernier round du GATT (Uruguay Round) ? || Réduire uniquement les droits de douane|V:Ouvrir le champ aux négociations sur propriété intellectuelle, agriculture et services|Créer le FMI|Abolir le libre-échange
 || Le 8ème et dernier round du GATT avait pour objectif d'ouvrir le champ des négociations et s'est achevé sur la création de l'OMC en 1994, avec ouverture sur la propriété intellectuelle, l'agriculture et les services. || OMC, Uruguay Round, Moyen, QCM
-
 QCM || Combien de missions principales l'OMC a-t-elle ? || 3 missions principales|V:5 missions principales|7 missions principales|10 missions principales
 || L'OMC a 5 missions principales clairement définies dans le cours. || OMC, Missions, Facile, QCM
-
 QCM || Quelle est la première mission de l'OMC ? || Fixer les taux de change|V:Veiller à la bonne mise en œuvre de l'Accord de Marrakech|Créer des monnaies régionales|Gérer les budgets nationaux
 || La principale direction de l'OMC est de s'assurer la bonne mise en œuvre des Accords de Marrakech, en vérifiant les législations des pays signataires. || OMC, Missions, Moyen, QCM
-
 QCM || L'OMC administre les procédures de règlement des différends. Quel organe est responsable ? || Le Conseil général uniquement|La Conférence ministérielle|V:L'Organe de règlement des différends (ORD)|Le FMI
 || L'OMC administre les procédures de règlement des différends pour régler les conflits commerciaux via l'Organe de règlement des différends (ORD). L'OMC a une possibilité de sanction. || OMC, ORD, Missions, Moyen, QCM
-
 QCM || Quel cycle de négociations illustre la mission de l'OMC de servir de cadre pour les négociations commerciales ? || Cycle de Bretton Woods|Cycle de Genève|V:Cycle de Doha|Cycle d'Uruguay
 || Le Cycle de Doha représente les négociations globales (et non plus secteur par secteur) menées dans le cadre de l'OMC. || OMC, Doha, Missions, Moyen, QCM
-
 QCM || L'OMC gère le mécanisme d'examen des politiques commerciales. Quel est l'objectif ? || Imposer des amendes|V:S'assurer de la conformité des politiques nationales avec les règles OMC|Fixer les prix mondiaux|Créer des unions douanières
 || Le mécanisme d'examen des politiques commerciales permet à l'OMC de s'assurer de la bonne mise en œuvre des Accords de Marrakech et de la conformité des législations nationales. || OMC, Examen politiques, Missions, Moyen, QCM
-
 QCM || Avec quelles institutions l'OMC coopère-t-elle pour coordonner les interventions ? || L'ONU et l'OTAN|L'OCDE et l'UE|V:Le FMI et la Banque Mondiale|L'UNESCO et l'OMS
 || La 5ème mission de l'OMC est de coopérer avec le FMI et la Banque Mondiale, ce qui permet de coordonner leurs interventions respectives. || OMC, Coopération, Missions, Facile, QCM
-
 QCM || Que signifie l'acronyme ADPIC ? || Accord sur le Développement des Politiques Internationales de Commerce|V:Accord sur les aspects des Droits de Propriété Intellectuelle liés au Commerce|Accord de Développement pour les Pays en Crise|Accord de Doha pour les Pays Industrialisés en Croissance
 || ADPIC = Accord sur les aspects des Droits de Propriété Intellectuelle liés au Commerce. C'est l'un des 29 accords de Marrakech qui encadre les questions de brevets, droits d'auteur et leur rôle dans le commerce mondial. || OMC, ADPIC, Facile, QCM
-
 QCM || Que signifie l'acronyme AGCS ? || Accord Général sur le Commerce Spécialisé|V:Accord Général sur le Commerce des Services|Accord de Gestion du Commerce Stratégique|Accord Global de Coordination des Services
 || AGCS = Accord Général sur le Commerce des Services. Il couvre les échanges de services (financiers, télécoms, transports, etc.). || OMC, AGCS, Services, Facile, QCM
-
 QCM || Que signifie l'acronyme TRIMs ? || Tarifs Régionaux d'Importation des Marchandises|V:Accord sur les mesures concernant les Investissements|Transferts Réglementés d'Investissement Multilatéral|Traitement Régional des Importations et Marchandises
 || TRIMs = Trade-Related Investment Measures (Accord sur les mesures concernant les investissements liées au commerce). C'est l'un des secteurs jusque-là non couverts par le GATT. || OMC, TRIMs, Moyen, QCM
-
 QCM || Que signifie TSD dans le contexte de l'OMC ? || Taux Spéciaux de Douane|Taxe Solidaire de Développement|V:Traitement Spécial et Différencié|Transferts Souverains Directs
 || TSD = Traitement Spécial et Différencié. Certains pays en développement (PED) bénéficient du TSD qui leur accorde des mesures spécifiques de protection. || OMC, TSD, PED, Moyen, QCM
-
 QCM || L'AGCS (commerce des services) a été adopté lors de quel cycle ? || Kennedy Round|Tokyo Round|V:Cycle d'Uruguay|Cycle de Doha
 || La conclusion de l'AGCS est l'une des principales réalisations des négociations commerciales du Cycle d'Uruguay. || OMC, AGCS, Uruguay, Difficile, QCM
-
 QCM || Quelle part de la richesse mondiale représentent les services aujourd'hui ? || Environ 25%|Environ 35%|V:Environ 50%|Environ 75%
 || Le secteur des services représente environ 50% de la richesse créée et est devenu l'épine dorsale de l'économie mondiale. || OMC, Services, Moyen, QCM
-
 QCM || Quel est l'organe suprême de l'OMC ? || Le Conseil général|L'ORD|V:La Conférence ministérielle|Le Secrétariat
 || Au sommet de l'organigramme se trouve la Conférence ministérielle, qui dirige les sujets de discussion et rassemble tous les Membres de l'OMC. || OMC, Structure, Facile, QCM
-
 QCM || À quelle fréquence se réunit la Conférence ministérielle de l'OMC ? || Tous les ans|V:Tous les 2 ans|Tous les 4 ans|Tous les 6 mois
 || La Conférence ministérielle se réunit tous les 2 ans. || OMC, Conférence ministérielle, Moyen, QCM
-
 QCM || Qui est la Directrice générale de l'OMC depuis 2018 (mentionnée dans le cours) ? || Christine Lagarde|Angela Merkel|V:Une ex-ministre des finances du Nigéria (1ère femme et Africaine)|Janet Yellen
 || Depuis 2018, la directrice générale de l'OMC est une ancienne ministre des finances au Nigéria, première femme et première Africaine à diriger l'OMC, avec un doctorat du MIT. || OMC, Direction, Difficile, QCM
-
 QCM || Où aura lieu la 14ème Conférence ministérielle de l'OMC (MC14) en mars 2026 ? || À Genève|À Doha|V:À Yaoundé (Cameroun)|À Marrakech
 || Les membres de l'OMC ont convenu que la MC14 aura lieu du 26 au 29 mars 2026 à Yaoundé (Cameroun), lors de la réunion du Conseil général de décembre 2024. || OMC, MC14, Difficile, QCM
-
 QCM || Le Conseil général peut siéger sous différentes casquettes. Lesquelles ? || Uniquement en tant qu'organe administratif|V:En tant qu'ORD et Organe d'examen des politiques commerciales|Uniquement pour les accords bilatéraux|En tant que tribunal pénal international
 || Le Conseil général peut siéger en tant qu'Organe de règlement des différends (ORD) pour arbitrer les conflits commerciaux, et en tant qu'Organe d'examen des politiques commerciales pour contrôler la conformité. || OMC, Conseil général, Moyen, QCM
-
 QCM || Combien de grands conseils spécialisés le Conseil général supervise-t-il ? || 2 conseils|V:3 conseils|5 conseils|7 conseils
 || Le Conseil général supervise 3 grands conseils spécialisés : Conseil du commerce des marchandises, Conseil du commerce des services, et Conseil des ADPIC. || OMC, Structure, Moyen, QCM
-
 QCM || Quel conseil de l'OMC traite des questions de brevets et droits d'auteur ? || Conseil du commerce des marchandises|Conseil du commerce des services|V:Conseil des aspects des droits de propriété intellectuelle (ADPIC)|Conseil de l'agriculture
 || Le Conseil des ADPIC encadre les questions de brevets, droits d'auteurs, et leur rôle dans le commerce mondial. || OMC, ADPIC, Moyen, QCM
-
 QCM || Depuis 1995, combien de différends ont été soumis à l'OMC environ ? || Environ 100|Environ 300|V:606 différends|Plus de 1000
 || Depuis 1995, 606 différends ont été soumis à l'OMC et plus de 350 décisions ont été rendues, faisant de l'ORD l'un des mécanismes internationaux de règlement des différends les plus actifs au monde. || OMC, ORD, Statistiques, Difficile, QCM
-
 QCM || Combien de décisions l'ORD a-t-il rendues depuis 1995 ? || Environ 100|Environ 200|V:Plus de 350|Plus de 500
 || Plus de 350 décisions ont été rendues par l'ORD depuis 1995. || OMC, ORD, Statistiques, Moyen, QCM
-
 QCM || Sur quoi portent la majorité des différends soumis à l'OMC (jusqu'en 1994) ? || Sur l'agriculture|Sur les services|V:Sur le GATT et les droits de douane (488 cas)|Sur la propriété intellectuelle
 || La plupart des différends portent sur le GATT jusqu'en 1994, avec 488 cas sur les droits de douanes. || OMC, ORD, GATT, Difficile, QCM
-
 QCM || Combien de différends ont porté sur l'anti-dumping ? || 42|80|V:137|488
 || 137 différends ont porté sur l'anti-dumping. || OMC, ORD, Anti-dumping, Difficile, QCM
-
 QCM || Que signifie l'anti-dumping dans le contexte de l'OMC ? || Vendre plus cher à l'étranger|V:Vendre moins cher à l'étranger que chez soi|Interdire toute importation|Taxer uniquement les exportations
 || L'anti-dumping consiste à vendre moins cher à l'étranger que chez soi, ce qui est considéré comme une pratique commerciale déloyale. || OMC, Anti-dumping, Moyen, QCM
-
 QCM || Combien de différends ont porté sur les subventions ? || 42|80|V:130|488
 || 130 différends ont porté sur les subventions. || OMC, ORD, Subventions, Difficile, QCM
-
 QCM || Combien de différends ont porté sur l'agriculture ? || 42|V:80|130|488
 || 80 différends ont porté sur l'agriculture. || OMC, ORD, Agriculture, Difficile, QCM
-
 QCM || Combien de différends ont porté sur l'ADPIC ? || V:42|80|130|137
 || 42 différends ont porté sur l'ADPIC (propriété intellectuelle). || OMC, ORD, ADPIC, Difficile, QCM
-
 QCM || Quelle forme prennent les sanctions de l'OMC ? || Amendes directes en dollars|Exclusion du membre fautif|V:Représailles commerciales autorisées (droits de douane punitifs)|Gel des avoirs
 || Les sanctions de l'OMC prennent la forme de représailles commerciales autorisées. Jamais d'amendes directes. Elles sont mises en œuvre après une procédure de règlement des différends. || OMC, Sanctions, Moyen, QCM
-
 QCM || Dans l'affaire du "bœuf aux hormones", qui a obtenu gain de cause à l'OMC ? || V:Les États-Unis et le Canada contre l'UE|L'UE contre les États-Unis|Le Brésil contre l'UE|La Chine contre les États-Unis
 || L'UE avait interdit l'importation de bœuf aux hormones. Les États-Unis et le Canada ont obtenu gain de cause à l'OMC et ont été autorisés à imposer des droits de douane punitifs sur certains produits européens (fromage, chocolat, moutarde). || OMC, Sanctions, Bœuf hormones, Difficile, QCM
-
 QCM || Dans l'affaire des subventions au coton, quel montant de sanctions le Brésil a-t-il été autorisé à imposer aux États-Unis ? || 300 millions de dollars|500 millions de dollars|V:Plus de 800 millions de dollars|1 milliard de dollars
 || Le Brésil a attaqué les subventions américaines au coton jugées illégales. L'OMC a autorisé le Brésil à imposer plus de 800 millions de dollars de sanctions commerciales (2002-2010). || OMC, Sanctions, Coton, Difficile, QCM
-
 QCM || Comment s'est finalement résolue l'affaire des subventions au coton (Brésil vs États-Unis) ? || Par des sanctions permanentes|Par l'exclusion des États-Unis|V:Par un accord à l'amiable avec 300 millions de dollars de compensation|Par l'abandon de la plainte
 || L'affaire s'est conclue par un accord à l'amiable en 2014 : les États-Unis ont versé 300 millions de dollars de compensation au Brésil. || OMC, Sanctions, Coton, Difficile, QCM
-
 QCM || En quelle année et dans quel pays le Programme de Doha a-t-il été lancé ? || 1995 en Suisse|V:2001 au Qatar|2005 au Cameroun|2014 au Maroc
 || Le Programme de Doha pour le développement est un cycle de négociations commerciales multilatérales lancé en 2001 à Doha (Qatar), sous l'égide de l'OMC. || OMC, Doha, Facile, QCM
-
 QCM || Quel est l'objectif principal du Programme de Doha ? || Augmenter les tarifs douaniers|Créer une monnaie unique|V:Mettre le commerce international au service du développement|Fermer les frontières
 || L'objectif principal du Programme de Doha est de mettre le commerce international au service du développement, notamment en réduisant les subventions agricoles dans les pays riches et en améliorant l'accès aux marchés pour les produits des pays en développement. || OMC, Doha, Objectifs, Moyen, QCM
-
 QCM || Pourquoi les négociations du Programme de Doha sont-elles largement bloquées ? || Par manque de participants|Par une crise économique|V:En raison de désaccords entre pays développés et émergents sur subventions agricoles et ouverture des marchés|Par l'absence de l'OMC
 || Les négociations sont bloquées en raison de désaccords entre pays développés et émergents sur les subventions agricoles, l'ouverture des marchés industriels et les services, avec des intérêts divergents (exigence de réciprocité des pays riches vs demande d'ouverture pour produits agricoles des pays pauvres). || OMC, Doha, Blocages, Difficile, QCM
-
 QCM || Quelle mesure a été adoptée en mars 2022 dans le cadre du Programme de Doha ? || Suppression de l'OMC|Augmentation des tarifs|V:Nouveau programme d'action de Doha en faveur des pays les moins avancés (PMA)|Création d'une nouvelle monnaie
 || En mars 2022, adoption d'un nouveau programme d'action de Doha en faveur des pays les moins avancés (PMA), approuvé par l'Assemblée générale de l'ONU, marquant une réorientation vers une nouvelle génération d'engagements ciblant spécifiquement les PMA. || OMC, Doha, PMA, Difficile, QCM
-
 QCM || Combien de membres l'OMC comptait-elle au 29 juillet 2016 ? || 23 membres|95 membres|V:164 membres|193 membres
 || 164 membres au 29 juillet 2016, avec les dates d'accession à l'OMC. || OMC, Membres, Moyen, QCM
-
 QCM || Quelle condition est nécessaire pour devenir membre de l'OMC ? || Être un État européen|Avoir une population de plus de 10 millions|V:Jouir d'une entière autonomie dans la conduite de sa politique commerciale|Être membre de l'ONU obligatoirement
 || Tout État ou territoire douanier jouissant d'une entière autonomie dans la conduite de sa politique commerciale peut devenir Membre de l'OMC, aux conditions convenues avec tous les Membres de l'Organisation. || OMC, Adhésion, Moyen, QCM
-
 QCM || Quel processus est engagé pour qu'un pays devienne membre de l'OMC ? || Un simple vote|Une décision unilatérale|V:Un groupe de travail et un processus de négociation pour vérifier la conformité des politiques économiques|Un tirage au sort
 || Pour devenir membre, un groupe de travail composé des Membres de l'OMC est établi et un processus de négociation est engagé pour vérifier que les politiques économiques du pays soient en accord avec celles de l'OMC. || OMC, Adhésion, Difficile, QCM
-
 QCM || D'où proviennent les recettes diverses de l'OMC (autres que les contributions des membres) ? || De taxes sur le commerce|De la vente d'obligations|V:Des revenus locatifs et de la vente de publications imprimées ou électroniques|D'amendes imposées aux contrevenants
 || Les recettes diverses proviennent des revenus locatifs et de la vente des publications imprimées ou électroniques de l'OMC. || OMC, Financement, Difficile, QCM
-
 QCM || Que gère l'OMC pour aider les pays les moins avancés ? || Des prêts bancaires|Des investissements directs|V:Des fonds d'affectation spéciale alimentés par des Membres pour coopération technique et formation|Des subventions agricoles illimitées
 || L'OMC gère plusieurs fonds d'affectation spéciale alimentés par des Membres, qui servent à financer des activités spéciales de coopération technique et de formation destinées à aider les pays les moins avancés et les pays en développement. || OMC, Fonds, PMA, Difficile, QCM
-
 QCM || Les accords de l'OMC régissent : || Uniquement les marchandises|Uniquement les services|V:Les marchandises, les services et la propriété intellectuelle|Uniquement la propriété intellectuelle
 || Les accords de l'OMC régissent les marchandises, les services et la propriété intellectuelle. || OMC, Accords, Facile, QCM
-
 QCM || Quel principe impose aux membres de l'OMC de fournir des rapports ? || Principe de discrétion|Principe de confidentialité|V:Obligation d'assurer la transparence des politiques commerciales|Principe de souveraineté absolue
 || Les accords de l'OMC prévoient l'obligation d'assurer la transparence des politiques commerciales. Les membres doivent fournir des rapports à l'OMC pour indiquer quelles lois sont appliquées dans le pays ainsi que les mesures adoptées. || OMC, Transparence, Moyen, QCM
-
 QCM || Quel a été l'un des résultats majeurs du Cycle d'Uruguay concernant les droits de douane ? || Leur augmentation|Leur suppression totale|V:L'engagement de réduire et de "consolider" les taux à des niveaux difficiles à relever|Leur harmonisation à 10%
 || L'un des résultats du Cycle d'Uruguay a été l'engagement pris par les pays de réduire les droits de douane et de "consolider" leurs taux de droits à des niveaux qu'il est difficile de relever. || OMC, Droits douane, Uruguay, Difficile, QCM
-
 QCM || Quelle décision importante a été prise en 2015 concernant l'agriculture ? || Augmentation des subventions|Interdiction de l'agriculture biologique|V:Suppression des subventions à l'export de produits agricoles|Création d'une taxe agricole mondiale
 || En 2015, décision de supprimer les subventions à l'export de produits agricoles, et nouvelles règles pour les autres formes de soutien à l'exportation de produits agricoles. || OMC, Agriculture, 2015, Difficile, QCM
-
 QCM || Quel comité supervise le respect des accords sur l'agriculture à l'OMC ? || Le Conseil général|La Conférence ministérielle|V:Le Comité de l'agriculture|Le Conseil des services
 || Le Comité de l'agriculture supervise le respect de ces accords et traite des problèmes liés à l'agriculture. || OMC, Agriculture, Comité, Moyen, QCM
-
 QCM || Depuis quelle année les produits textiles n'ont-ils plus de règles spécifiques à l'OMC ? || 1995|2000|V:2005|2010
 || L'Accord sur le textile et les vêtements (ATV) prévoyait une période de transition de 10 ans. Depuis 2005, il n'y a plus de taxe si importation de textile, et les produits textiles doivent simplement respecter les règles générales des marchandises. || OMC, Textile, 2005, Moyen, QCM
-
 QCM || Pourquoi le secteur des services a-t-il un accord spécifique (AGCS) ? || Parce qu'il est en déclin|V:Parce qu'il représente l'épine dorsale de l'économie mondiale (50% richesse) et est de plus en plus échangé|Parce qu'il n'est pas important|Parce qu'il ne concerne que l'Europe
 || Le secteur des services est devenu l'épine dorsale de l'économie mondiale, représentant 50% de la richesse créée. Il est de plus en plus échangé grâce au progrès technologique et constitue un intrant essentiel, d'où la nécessité d'un accord spécifique. || OMC, Services, AGCS, Moyen, QCM
-
 QCM || Quelles conditions l'OMC impose-t-elle aux États qui interviennent pour protéger la vie (animaux, végétaux, santé) ? || Aucune condition|Interdiction totale d'intervention|V:Ne pas faire de protectionnisme ni de discrimination|Obligation d'augmenter les tarifs
 || Un des premiers accords du GATT autorise les États à intervenir pour réduire le commerce afin de protéger la vie (animaux, végétaux, santé) à condition de ne pas faire de protectionnisme et de discrimination. Deux volets : innocuité de la santé/sécurité/animaux/végétaux et normes de produits en général. || OMC, Normes, Sécurité, Difficile, QCM
-
 QCM || Quelle affirmation est FAUSSE concernant l'OMC ? || L'OMC coopère avec le FMI et la Banque Mondiale|L'ORD règle les différends commerciaux|V:L'OMC fixe les taux de change internationaux|Le GATT a été créé en 1947
 || L'OMC ne fixe PAS les taux de change (c'est le rôle du FMI dans le cadre du SMI). L'OMC s'occupe exclusivement des règles du commerce mondial. || OMC, Pièges, FMI, Difficile, QCM
-
 QCM || Parmi ces institutions, laquelle NE fait PAS partie du système de Bretton Woods ? || Le FMI|La Banque Mondiale|Le GATT (puis OMC)|V:L'OCDE
 || Le système de Bretton Woods comprenait le FMI, la Banque Mondiale et le GATT (devenu OMC). L'OCDE est une institution différente créée en 1961. || OMC, Bretton Woods, Difficile, QCM
-
-QCM || Quel est le postulat central de l'Accord de Marrakech ? || Les barrières commerciales favorisent la croissance|Le protectionnisme est nécessaire|V:Les barrières commerciales limitent la maximisation de la croissance et du bien-être mondial|Le commerce doit être réduit
-|| Le postulat de l'Accord de Marrakech est que les barrières commerciales limitent la maximisation de la croissance et du bien-être mondial, d'où la nécessité de les réduire. || OMC, Marrakech, Postulat, Moyen, QCM
-
-|| OMC, Exhaustif, Institutions, QCM
+QCM || Quel est le postulat central de l'Accord de Marrakech ? || Les barrières commerciales favorisent la croissance|Le protectionnisme est nécessaire|V:Les barrières commerciales limitent la maximisation de la croissance et du bien-être mondial|Le commerce doit être réduit|| Le postulat de l'Accord de Marrakech est que les barrières commerciales limitent la maximisation de la croissance et du bien-être mondial, d'où la nécessité de les réduire. || OMC, Marrakech, Postulat, Moyen, QCM
+QCM || Quel est le siège de l'OMC ? || À New York|À Bruxelles|V:À Genève|À Paris
+|| Le siège de l'OMC est situé à Genève, en Suisse, au Centre William Rappard. || OMC, Organisation, Facile, QCM
+QCM || Combien de langues officielles l'OMC utilise-t-elle ? || 2 langues|V:3 langues (anglais, français, espagnol)|5 langues|6 langues
+|| Les langues officielles de l'OMC sont l'anglais, le français et l'espagnol. || OMC, Organisation, Facile, QCM
+QCM || Quel principe fondamental de l'OMC signifie qu'un pays ne peut discriminer entre ses partenaires commerciaux ? || Principe de réciprocité|Principe de préférence régionale|V:Clause de la nation la plus favorisée (NPF)|Principe du TSD
+|| La clause NPF (Nation la Plus Favorisée) est un principe fondamental : si un pays accorde un avantage à un partenaire, il doit l'accorder à tous les membres de l'OMC. || OMC, Principes, Moyen, QCM
+QCM || Quel principe impose qu'un produit étranger soit traité comme un produit national une fois entré sur le territoire ? || Principe NPF|V:Principe du traitement national|Principe de l'origine|Principe de réciprocité
+|| Le principe du traitement national interdit de discriminer entre produits nationaux et importés une fois la frontière passée. || OMC, Principes, Moyen, QCM
+QCM || Quelle est la procédure standard de règlement des différends à l'OMC ? || Arbitrage direct|V:Consultations puis panel d'experts puis Organe d'appel|Vote à l'Assemblée générale|Décision unilatérale du Directeur général
+|| La procédure OMC comprend: 1) Consultations bilatérales (60 jours), 2) Panel d'experts si échec, 3) Possibilité d'appel devant l'Organe d'appel, 4) Adoption automatique des rapports sauf consensus négatif. || OMC, ORD, Procédure, Difficile, QCM
+QCM || Quelle particularité de l'ORD le distingue des autres juridictions internationales ? || Décisions non contraignantes|V:Adoption automatique des rapports (consensus négatif requis pour bloquer)|Uniquement des pays riches peuvent saisir|Amendes directes en dollars
+|| L'ORD fonctionne selon le principe du "consensus négatif": les rapports sont automatiquement adoptés sauf si TOUS les membres votent contre, ce qui est très rare. Cela rend le système très efficace. || OMC, ORD, Consensus négatif, Difficile, QCM

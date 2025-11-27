@@ -1,0 +1,28 @@
+import sys
+
+questions = [
+    ("En quelle année a été créé le GATT ?", "1944|V:1947|1948|1995", "Le GATT (Accord général sur les tarifs douaniers et le commerce) a été signé par 23 pays en 1947, dans la dynamique des accords de Bretton Woods.", "OMC, Historique, Facile, QCM"),
+    ("Où s'est tenue la réunion qui a abouti aux accords de Bretton Woods ?", "À Genève|À Marrakech|V:Aux États-Unis|Au Royaume-Uni", "En 1947, les Alliés se sont retrouvés à Bretton Woods (aux États-Unis) pour mettre en place des institutions de régulation des relations économiques internationales.", "OMC, Bretton Woods, Facile, QCM"),
+    ("Quelle était la conviction principale des Alliés lors de la création du GATT ?", "Que la guerre était due à un manque de commerce|V:Que le conflit était dû à la gestion nationaliste de la crise de 1929|Que seule l'Europe devait commercer|Que les tarifs douaniers devaient augmenter", "Les Alliés étaient persuadés que le conflit de la Seconde Guerre mondiale était dû à la gestion nationaliste de la flambée du chômage de la grande crise déclenchée en 1929 à Wall Street.", "OMC, Contexte historique, Moyen, QCM"),
+    ("En quelle année l'OMC a-t-elle été créée ?", "1947|1948|1994|V:1995", "L'OMC a été créée en 1995, succédant au GATT. La transformation a été actée par l'Accord de Marrakech en 1994.", "OMC, Date création, Facile, QCM"),
+    ("Combien de pays ont initialement signé le GATT en 1947 ?", "15 pays|V:23 pays|45 pays|164 pays", "En 1947, 23 pays ont signé le GATT dans la continuité des accords de Bretton Woods.", "OMC, GATT, Facile, QCM"),
+    ("Quel accord a marqué la transformation du GATT en OMC ?", "Accord de Bretton Woods|Accord de Genève|V:Accord de Marrakech|Accord de Doha", "En 1994, l'Accord de Marrakech a stipulé la transformation du GATT en OMC, avec pour objectif la réduction substantielle des tarifs douaniers et autres obstacles au commerce.", "OMC, Marrakech, Moyen, QCM"),
+    ("L'Accord de Marrakech est constitué de combien de pages de texte environ ?", "Environ 2 000 pages|Environ 5 000 pages|V:Presque 20 000 pages|Environ 50 000 pages", "L'Accord de Marrakech est constitué de 29 accords, soit presque 20 000 pages de texte.", "OMC, Marrakech, Moyen, QCM"),
+    ("Quelle était la mission principale du GATT ?", "Fixer les taux de change|V:Accélérer le commerce mondial par réduction des tarifs douaniers|Créer une monnaie unique|Réglementer les investissements directs", "La première mission du GATT était d'accélérer le commerce mondial, principalement via la réduction des tarifs douaniers. De 1948 à 1994, cela a entraîné un taux de croissance record pour le commerce mondial.", "OMC, GATT, Moyen, QCM"),
+    ("Quelle différence majeure distingue l'OMC du GATT ?", "L'OMC ne traite que des marchandises|V:L'OMC couvre également les services et la propriété intellectuelle|L'OMC a moins de membres|L'OMC n'a pas de pouvoir de sanction", "Alors que le GATT régissait principalement le commerce des marchandises, l'OMC et ses accords visent également le commerce des services et la propriété intellectuelle.", "OMC, Différence GATT/OMC, Facile, QCM"),
+    ("Qu'est-ce que la naissance de l'OMC a permis de renforcer par rapport au GATT ?", "Les tarifs douaniers|La circulation des personnes|V:Les procédures de règlement des différends|Les accords bilatéraux uniquement", "La naissance de l'OMC en 1995 a ouvert la voie à de nouvelles procédures de règlement des différends, avec un Organe de règlement des différends (ORD) plus structuré.", "OMC, ORD, Moyen, QCM"),
+    ("Sur quoi portaient principalement les 6 premiers rounds du GATT ?", "Les services|Les investissements|V:Les droits de douane|La propriété intellectuelle", "Du premier au 6ème round du GATT, les négociations portaient exclusivement sur les droits de douane.", "OMC, Rounds GATT, Facile, QCM"),
+    ("À partir de quel round du GATT a-t-on intégré les mesures non tarifaires ?", "3ème round|5ème round|V:7ème round (Tokyo Round)|8ème round (Uruguay Round)", "À partir du 7ème round (Tokyo Round), on a commencé à traiter des mesures non tarifaires, notamment l'anti-dumping.", "OMC, Rounds GATT, Moyen, QCM"),
+    ("Quel était l'objectif du 8ème et dernier round du GATT (Uruguay Round) ?", "Réduire uniquement les droits de douane|V:Ouvrir le champ aux négociations sur propriété intellectuelle, agriculture et services|Créer le FMI|Abolir le libre-échange", "Le 8ème et dernier round du GATT avait pour objectif d'ouvrir le champ des négociations et s'est achevé sur la création de l'OMC en 1994, avec ouverture sur la propriété intellectuelle, l'agriculture et les services.", "OMC, Uruguay Round, Moyen, QCM"),
+    ("Combien de missions principales l'OMC a-t-elle ?", "3 missions principales|V:5 missions principales|7 missions principales|10 missions principales", "L'OMC a 5 missions principales clairement définies dans le cours.", "OMC, Missions, Facile, QCM"),
+    ("Quelle est la première mission de l'OMC ?", "Fixer les taux de change|V:Veiller à la bonne mise en œuvre de l'Accord de Marrakech|Créer des monnaies régionales|Gérer les budgets nationaux", "La principale direction de l'OMC est de s'assurer la bonne mise en œuvre des Accords de Marrakech, en vérifiant les législations des pays signataires.", "OMC, Missions, Moyen, QCM"),
+]
+
+# J'écris juste les 15 premières pour tester
+with open("src/questions/S1/INSTIT/OMC_TEST.txt", "w", encoding="utf-8") as f:
+    f.write("|| OMC, Exhaustif, Institutions, QCM\n")
+    for q, a, e, t in questions:
+        f.write(f"QCM || {q} || {a}\n")
+        f.write(f"|| {e} || {t}\n")
+
+print(f"✓ 15 questions créées dans OMC_TEST.txt pour vérification")
