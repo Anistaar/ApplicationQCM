@@ -1,317 +1,552 @@
 {
   "id": "SOCIO",
   "name": "Sociologie L1 S2",
-  "version": "1.0",
+  "version": "2.0",
   "structureType": "sequential",
-  "lastUpdate": "2025-01-25",
-  "description": "Sociologie L1 S2 : Durkheim, Weber, Bourdieu, socialisation, stratification, déviance, courants, sociologie économique (Polanyi, Mauss, Veblen, Mandeville, Heilbroner, Tönnies, Granovetter, Elias)",
+  "lastUpdate": "2025-07-09",
+  "description": "Sociologie Economique L1 S2",
   "chapters": [
     {
       "id": "SOCIO1",
       "number": "1",
       "name": "Fondements de la sociologie",
-      "description": "Définition, Durkheim, fait social, solidarité, Le Suicide",
+      "description": "Definition, methodes (inductif/deductif, validite externe), determinisme social, libre-arbitre",
+      "estimatedTime": 11,
+      "icon": "book",
       "sections": [
         {
           "id": "SOCIO1-I",
           "romanNumeral": "I",
-          "name": "Bases et Durkheim",
+          "name": "Definitions, methodes et determinisme",
+          "estimatedTime": 11,
           "subsections": [
             {
               "id": "SOCIO1-I-1",
               "number": "1",
-              "name": "Définition et objet",
+              "name": "Definition et methodes",
+              "estimatedTime": 11,
               "notions": [
-                {"id": "SOCIO1-I-1a", "name": "Définition de la sociologie", "description": "Science des faits sociaux, Comte, Ibn Khaldoun, échelles macro/micro", "tags": ["Fondements", "Définitions"], "difficulty": "Facile", "estimatedTime": 5}
-              ],
-              "estimatedTime": 5
-            },
-            {
-              "id": "SOCIO1-I-2",
-              "number": "2",
-              "name": "Durkheim",
-              "notions": [
-                {"id": "SOCIO1-I-2a", "name": "Le fait social", "description": "Définition, contrainte extérieure, Règles de la méthode, holisme, solidarité mécanique/organique", "tags": ["Fondements", "Durkheim", "Fait social"], "difficulty": "Moyen", "estimatedTime": 8},
-                {"id": "SOCIO1-I-2b", "name": "Le Suicide", "description": "Suicide égoïste/altruiste/anomique, anomie, intégration/régulation", "tags": ["Fondements", "Durkheim", "Suicide"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 15
+                {
+                  "id": "SOCIO1-I-1a",
+                  "name": "Definition de la sociologie",
+                  "description": "Weber, Comte, physique sociale, raisonnement inductif, analyse qualitative, validite externe, statistiques non neutres",
+                  "tags": [
+                    "Fondements",
+                    "Definitions",
+                    "Methodes"
+                  ],
+                  "difficulty": "Facile",
+                  "estimatedTime": 6
+                },
+                {
+                  "id": "SOCIO1-I-1b",
+                  "name": "Determinisme social et libre-arbitre",
+                  "description": "Determinisme social (Durkheim), libre-arbitre, Lahire (comprendre != juger), Comte (savoir pour prevoir)",
+                  "tags": [
+                    "Fondements",
+                    "Determinisme"
+                  ],
+                  "difficulty": "Facile",
+                  "estimatedTime": 5
+                }
+              ]
             }
-          ],
-          "estimatedTime": 20
+          ]
         }
-      ],
-      "estimatedTime": 20,
-      "icon": "📚"
+      ]
     },
     {
       "id": "SOCIO2",
       "number": "2",
-      "name": "Weber et les paradigmes",
-      "description": "Sociologie compréhensive, individualisme méthodologique, idéal-type",
+      "name": "Durkheim",
+      "description": "Fait social (exterieur, coercitif), holisme, solidarite mecanique/organique, anomie, suicide (egoiste, altruiste, anomique)",
+      "estimatedTime": 15,
+      "icon": "brick",
       "sections": [
         {
           "id": "SOCIO2-I",
           "romanNumeral": "I",
-          "name": "Weber et débats",
+          "name": "Fait social, solidarite, anomie",
+          "estimatedTime": 15,
           "subsections": [
             {
               "id": "SOCIO2-I-1",
               "number": "1",
-              "name": "Max Weber",
+              "name": "Durkheim",
+              "estimatedTime": 15,
               "notions": [
-                {"id": "SOCIO2-I-1a", "name": "Sociologie compréhensive", "description": "Action sociale (4 types), individualisme méthodologique, idéal-type, neutralité axiologique, L'Éthique protestante", "tags": ["Fondements", "Weber", "Action sociale"], "difficulty": "Moyen", "estimatedTime": 9}
-              ],
-              "estimatedTime": 9
-            },
-            {
-              "id": "SOCIO2-I-2",
-              "number": "2",
-              "name": "Holisme vs Individualisme",
-              "notions": [
-                {"id": "SOCIO2-I-2a", "name": "Paradigmes fondamentaux", "description": "Holisme (Durkheim) vs individualisme méthodologique (Weber), société sui generis", "tags": ["Fondements", "Paradigmes"], "difficulty": "Moyen", "estimatedTime": 6}
-              ],
-              "estimatedTime": 6
+                {
+                  "id": "SOCIO2-I-1a",
+                  "name": "Le fait social",
+                  "description": "Definition (exterieur, coercitif), Regles de la methode, holisme methodologique, solidarite mecanique/organique, ouvrages",
+                  "tags": [
+                    "Fondements",
+                    "Durkheim",
+                    "Fait social"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 8
+                },
+                {
+                  "id": "SOCIO2-I-1b",
+                  "name": "Anomie, suicide et determinisme",
+                  "description": "Anomie = absence de regulation, suicide egoiste/altruiste/anomique, integration/regulation sociale",
+                  "tags": [
+                    "Fondements",
+                    "Durkheim",
+                    "Anomie",
+                    "Suicide"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 7
+                }
+              ]
             }
-          ],
-          "estimatedTime": 15
+          ]
         }
-      ],
-      "estimatedTime": 15,
-      "icon": "🧠"
+      ]
     },
     {
       "id": "SOCIO3",
       "number": "3",
-      "name": "Socialisation",
-      "description": "Processus, instances, Bourdieu, habitus, capital culturel",
+      "name": "Weber",
+      "description": "Sociologie comprehensive, action sociale (4 types), ideaux-types, 3 dominations legitimes, monopole de la violence, Economie et Societe",
+      "estimatedTime": 16,
+      "icon": "brain",
       "sections": [
         {
           "id": "SOCIO3-I",
           "romanNumeral": "I",
-          "name": "Processus et Bourdieu",
+          "name": "Action sociale et domination",
+          "estimatedTime": 16,
           "subsections": [
             {
               "id": "SOCIO3-I-1",
               "number": "1",
-              "name": "La socialisation",
+              "name": "Weber",
+              "estimatedTime": 16,
               "notions": [
-                {"id": "SOCIO3-I-1a", "name": "Processus de socialisation", "description": "Primaire/secondaire, instances (famille, école, pairs), normes et valeurs", "tags": ["Socialisation"], "difficulty": "Facile", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
-            },
-            {
-              "id": "SOCIO3-I-2",
-              "number": "2",
-              "name": "Bourdieu et l'habitus",
-              "notions": [
-                {"id": "SOCIO3-I-2a", "name": "Habitus et capitaux", "description": "Habitus, capital culturel/économique/social/symbolique, La Distinction, reproduction sociale", "tags": ["Socialisation", "Bourdieu", "Habitus"], "difficulty": "Moyen", "estimatedTime": 9}
-              ],
-              "estimatedTime": 9
+                {
+                  "id": "SOCIO3-I-1a",
+                  "name": "Sociologie comprehensive et action sociale",
+                  "description": "Action sociale (4 types : Zweckrational/Wertrational/affective/traditionnelle), ideal-type, individualisme methodologique, Economie et Societe, L Ethique protestante, marche comme forme sociale",
+                  "tags": [
+                    "Weber",
+                    "Sociologie comprehensive",
+                    "Action sociale"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 9
+                },
+                {
+                  "id": "SOCIO3-I-1b",
+                  "name": "Domination et Etat",
+                  "description": "3 types de domination (legale-rationnelle, traditionnelle, charismatique), monopole de la violence physique legitime",
+                  "tags": [
+                    "Weber",
+                    "Domination",
+                    "Etat"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 7
+                }
+              ]
             }
-          ],
-          "estimatedTime": 16
+          ]
         }
-      ],
-      "estimatedTime": 16,
-      "icon": "👥"
+      ]
     },
     {
       "id": "SOCIO4",
       "number": "4",
-      "name": "Stratification et mobilité",
-      "description": "Classes sociales (Marx, Weber, Bourdieu), PCS, mobilité sociale",
+      "name": "Paradigmes et theoriciens",
+      "description": "Holisme vs individualisme methodologique, Boudon, Gary Becker (capital humain, choix rationnel), Crozier & Friedberg (pouvoir/incertitudes)",
+      "estimatedTime": 22,
+      "icon": "balance",
       "sections": [
         {
           "id": "SOCIO4-I",
           "romanNumeral": "I",
-          "name": "Hiérarchie et mobilité",
+          "name": "Paradigmes, Boudon, Becker, Crozier",
+          "estimatedTime": 22,
           "subsections": [
             {
               "id": "SOCIO4-I-1",
               "number": "1",
-              "name": "Stratification sociale",
+              "name": "Paradigmes et Boudon",
+              "estimatedTime": 11,
               "notions": [
-                {"id": "SOCIO4-I-1a", "name": "Classes sociales", "description": "Marx (bourgeoisie/prolétariat), Bourdieu (capitaux), PCS INSEE, lutte des classes", "tags": ["Stratification", "Classes sociales"], "difficulty": "Moyen", "estimatedTime": 8}
-              ],
-              "estimatedTime": 8
+                {
+                  "id": "SOCIO4-I-1a",
+                  "name": "Holisme vs individualisme methodologique",
+                  "description": "Holisme (Durkheim) vs individualisme methodologique (Weber), societe sui generis vs comportements individuels",
+                  "tags": [
+                    "Paradigmes",
+                    "Holisme",
+                    "Individualisme methodologique"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                },
+                {
+                  "id": "SOCIO4-I-1b",
+                  "name": "Raymond Boudon - choix rationnel",
+                  "description": "Individualisme methodologique, choix paraissant irrationnels, effets pervers, information imparfaite",
+                  "tags": [
+                    "Boudon",
+                    "Individualisme methodologique",
+                    "Choix rationnel"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 5
+                }
+              ]
             },
             {
               "id": "SOCIO4-I-2",
               "number": "2",
-              "name": "Mobilité sociale",
+              "name": "Becker et Crozier",
+              "estimatedTime": 11,
               "notions": [
-                {"id": "SOCIO4-I-2a", "name": "Mobilité sociale", "description": "Intergénérationnelle/intragénérationnelle, structurelle, reproduction, tables de mobilité, fluidité", "tags": ["Stratification", "Mobilité sociale"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
+                {
+                  "id": "SOCIO4-I-2a",
+                  "name": "Gary Becker - capital humain",
+                  "description": "Capital humain (education, competences, productivite), theorie du choix rationnel (preferences coherentes + meilleure option), encastrement vs homo economicus",
+                  "tags": [
+                    "Gary Becker",
+                    "Capital humain",
+                    "Choix rationnel"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                },
+                {
+                  "id": "SOCIO4-I-2b",
+                  "name": "Crozier & Friedberg - pouvoir et incertitudes",
+                  "description": "L Acteur et le Systeme (1977), pouvoir = controle des zones d incertitude, marge de liberte des acteurs",
+                  "tags": [
+                    "Crozier",
+                    "Friedberg",
+                    "Pouvoir",
+                    "Organisations"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 5
+                }
+              ]
             }
-          ],
-          "estimatedTime": 15
+          ]
         }
-      ],
-      "estimatedTime": 15,
-      "icon": "📊"
+      ]
     },
     {
       "id": "SOCIO5",
       "number": "5",
-      "name": "Déviance et théories",
-      "description": "Déviance, contrôle social, étiquetage, fonctionnalisme, théorie du conflit, interactionnisme",
+      "name": "Bourdieu",
+      "description": "Habitus, capitaux (culturel, social, economique, symbolique), champ social, La Distinction (hedonisme/ascetisme), reproduction sociale, ecole",
+      "estimatedTime": 16,
+      "icon": "people",
       "sections": [
         {
           "id": "SOCIO5-I",
           "romanNumeral": "I",
-          "name": "Déviance et courants",
+          "name": "Habitus, capitaux, La Distinction",
+          "estimatedTime": 16,
           "subsections": [
             {
               "id": "SOCIO5-I-1",
               "number": "1",
-              "name": "Déviance et contrôle social",
+              "name": "Bourdieu",
+              "estimatedTime": 16,
               "notions": [
-                {"id": "SOCIO5-I-1a", "name": "Déviance et contrôle", "description": "Transgression des normes, contrôle formel/informel, Becker (étiquetage, Outsiders)", "tags": ["Déviance", "Contrôle social"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
-            },
-            {
-              "id": "SOCIO5-I-2",
-              "number": "2",
-              "name": "Grands courants théoriques",
-              "notions": [
-                {"id": "SOCIO5-I-2a", "name": "Courants sociologiques", "description": "Fonctionnalisme, théorie du conflit, interactionnisme symbolique, Goffman (dramaturgie), structuralisme génétique", "tags": ["Théories", "Courants"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
+                {
+                  "id": "SOCIO5-I-1a",
+                  "name": "Habitus et capitaux",
+                  "description": "Habitus (dispositions durables interiorisees), lien structures sociales/individus, capitaux (culturel, social, economique, symbolique), champ social",
+                  "tags": [
+                    "Bourdieu",
+                    "Habitus",
+                    "Capital"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 9
+                },
+                {
+                  "id": "SOCIO5-I-1b",
+                  "name": "La Distinction et reproduction sociale",
+                  "description": "La Distinction (1979), tension hedonisme/ascetisme, ecole = culture legitime, reproduction sociale (perpetuation des inegalites intergenerationnelles)",
+                  "tags": [
+                    "Bourdieu",
+                    "La Distinction",
+                    "Reproduction sociale"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 7
+                }
+              ]
             }
-          ],
-          "estimatedTime": 14
+          ]
         }
-      ],
-      "estimatedTime": 14,
-      "icon": "⚡"
+      ]
     },
     {
       "id": "SOCIO6",
       "number": "6",
-      "name": "Culture et genre",
-      "description": "Culture sociologique, socialisation différenciée, genre, fait social total",
+      "name": "Consommation et marches",
+      "description": "Lois d Engel (part alimentation/logement/vetements selon revenu), Adam Smith (main invisible, homo economicus), Viviana Zelizer (Morals and Markets, conditions sociales du marche)",
+      "estimatedTime": 18,
+      "icon": "shopping",
       "sections": [
         {
           "id": "SOCIO6-I",
           "romanNumeral": "I",
-          "name": "Culture et différenciation",
+          "name": "Engel, Smith, Zelizer",
+          "estimatedTime": 18,
           "subsections": [
             {
               "id": "SOCIO6-I-1",
               "number": "1",
-              "name": "Culture et socialisation différenciée",
+              "name": "Consommation et Smith",
+              "estimatedTime": 12,
               "notions": [
-                {"id": "SOCIO6-I-1a", "name": "Culture et genre", "description": "Culture en sociologie, socialisation de genre, Beauvoir, Merton (socialisation anticipatrice), Hoggart, Mauss (fait social total)", "tags": ["Culture", "Socialisation différenciée"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
+                {
+                  "id": "SOCIO6-I-1a",
+                  "name": "Lois d Engel",
+                  "description": "Ernst Engel (XIXe s.) : quand revenu augmente, part alimentation diminue, part vetements augmente, part logement stagne, part sante augmente",
+                  "tags": [
+                    "Consommation",
+                    "Lois d Engel"
+                  ],
+                  "difficulty": "Facile",
+                  "estimatedTime": 5
+                },
+                {
+                  "id": "SOCIO6-I-1b",
+                  "name": "Adam Smith - economie politique et marche",
+                  "description": "Main invisible, Richesse des Nations, homo economicus (interet egoiste), prix naturel/de marche, individualisme methodologique (Schumpeter)",
+                  "tags": [
+                    "Adam Smith",
+                    "Economie politique",
+                    "Marche"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 7
+                }
+              ]
+            },
+            {
+              "id": "SOCIO6-I-2",
+              "number": "2",
+              "name": "Zelizer",
+              "estimatedTime": 6,
+              "notions": [
+                {
+                  "id": "SOCIO6-I-2a",
+                  "name": "Viviana Zelizer - marches et morale",
+                  "description": "Morals and Markets (assurance-vie aux Etats-Unis), conditions sociales indispensables au developpement des marches, encastrement economique dans le social",
+                  "tags": [
+                    "Zelizer",
+                    "Marches",
+                    "Morale"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                }
+              ]
             }
-          ],
-          "estimatedTime": 7
+          ]
         }
-      ],
-      "estimatedTime": 7,
-      "icon": "🎭"
+      ]
     },
     {
       "id": "SOCIO7",
       "number": "7",
-      "name": "Sociologie économique",
-      "description": "Naissance de la socio-éco, Polanyi, Mauss, Veblen, Smith, Mandeville, Heilbroner, Tönnies, Granovetter, Elias, Commerce Kula",
+      "name": "Sociologie economique",
+      "description": "Naissance, Polanyi (4 regimes : symetrie/centralite/autarcie/marche, encastrement, Grande Transformation), Mauss (don/potlatch), Veblen, Mandeville, Heilbroner, Tonnies, Granovetter, Elias, Commerce Kula",
+      "estimatedTime": 56,
+      "icon": "money",
       "sections": [
         {
           "id": "SOCIO7-I",
           "romanNumeral": "I",
-          "name": "De l'économie politique à la sociologie économique",
+          "name": "De l economie politique a la sociologie economique",
+          "estimatedTime": 56,
           "subsections": [
             {
               "id": "SOCIO7-I-1",
               "number": "1",
-              "name": "Naissance de la sociologie économique",
+              "name": "Naissance de la sociologie economique",
+              "estimatedTime": 6,
               "notions": [
-                {"id": "SOCIO7-I-1a", "name": "Naissance de la sociologie économique", "description": "Réaction à l'économie abstraite, Durkheim vs Weber, faits éco = faits sociaux, Comte, loi naturelle, Marx", "tags": ["Sociologie économique", "Naissance"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
+                {
+                  "id": "SOCIO7-I-1a",
+                  "name": "Naissance de la sociologie economique",
+                  "description": "Reaction a l economie abstraite, Durkheim (L Annee sociologique 1898), faits eco = faits sociaux, Xenophon (oikos/nomos), loi naturelle",
+                  "tags": [
+                    "Sociologie economique",
+                    "Naissance"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-2",
               "number": "2",
-              "name": "Polanyi — encastrement",
+              "name": "Polanyi",
+              "estimatedTime": 9,
               "notions": [
-                {"id": "SOCIO7-I-2a", "name": "Polanyi — Encastrement et sophisme économiciste", "description": "Encastrement (embeddedness), sophisme économiciste, marchandises fictives, réciprocité, redistribution, symétrie, îles Trobriand", "tags": ["Sociologie économique", "Polanyi", "Encastrement"], "difficulty": "Difficile", "estimatedTime": 9}
-              ],
-              "estimatedTime": 9
+                {
+                  "id": "SOCIO7-I-2a",
+                  "name": "Polanyi - Encastrement et sophisme economiciste",
+                  "description": "La Grande Transformation (1944), encastrement (embeddedness), sophisme economiciste, 4 regimes : symetrie (->reciprocite), centralite (->redistribution), autarcie, marche ; causes ; iles Trobriand",
+                  "tags": [
+                    "Sociologie economique",
+                    "Polanyi",
+                    "Encastrement"
+                  ],
+                  "difficulty": "Difficile",
+                  "estimatedTime": 9
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-3",
               "number": "3",
-              "name": "Marcel Mauss — le don",
+              "name": "Marcel Mauss",
+              "estimatedTime": 6,
               "notions": [
-                {"id": "SOCIO7-I-3a", "name": "Mauss — Le don comme fait social total", "description": "Don agonistique, obligation de rendre, fait social total, Potlatch", "tags": ["Sociologie économique", "Mauss", "Don"], "difficulty": "Moyen", "estimatedTime": 6}
-              ],
-              "estimatedTime": 6
+                {
+                  "id": "SOCIO7-I-3a",
+                  "name": "Mauss - Le don comme fait social total",
+                  "description": "Essai sur le don (1925), fait social total, obligation de donner/recevoir/rendre, potlatch = don agonistique + systeme de lutte sociale",
+                  "tags": [
+                    "Sociologie economique",
+                    "Mauss",
+                    "Don"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-4",
               "number": "4",
-              "name": "Veblen — consommation ostentatoire",
+              "name": "Veblen",
+              "estimatedTime": 6,
               "notions": [
-                {"id": "SOCIO7-I-4a", "name": "Veblen — Classe de loisirs et gaspillage ostentatoire", "description": "Consommation ostentatoire, gâchis ostentatoire, effet snobisme, classe de loisir, Théorie de la classe de loisirs", "tags": ["Sociologie économique", "Veblen", "Consommation ostentatoire"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
+                {
+                  "id": "SOCIO7-I-4a",
+                  "name": "Veblen - Classe de loisirs et gaspillage ostentatoire",
+                  "description": "Theorie de la classe de loisirs, consommation ostentatoire (signes sociaux), gachis ostentatoire, effet snobisme, double fonction utilite/visibilite",
+                  "tags": [
+                    "Sociologie economique",
+                    "Veblen",
+                    "Consommation ostentatoire"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-5",
               "number": "5",
-              "name": "Smith, Aristote et l'économie politique",
+              "name": "Mandeville",
+              "estimatedTime": 6,
               "notions": [
-                {"id": "SOCIO7-I-5a", "name": "Naissance de l'économie politique", "description": "Adam Smith, Aristote (oikos/nomos), mercantilisme, individualisme méthodologique, homo economicus, marché comme forme historique", "tags": ["Sociologie économique", "Smith", "Aristote"], "difficulty": "Moyen", "estimatedTime": 7}
-              ],
-              "estimatedTime": 7
+                {
+                  "id": "SOCIO7-I-5a",
+                  "name": "Mandeville - Vices prives, vertu publique",
+                  "description": "La Fable des abeilles (1714), vices prives = vertu publique, Smith reprend en remplacant vice par self-love, Berkeley : texte le plus mechant",
+                  "tags": [
+                    "Sociologie economique",
+                    "Mandeville",
+                    "Fable des abeilles"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-6",
               "number": "6",
-              "name": "Mandeville — la fable des abeilles",
+              "name": "Heilbroner",
+              "estimatedTime": 5,
               "notions": [
-                {"id": "SOCIO7-I-6a", "name": "Mandeville — Vices privés, vertu publique", "description": "La Fable des abeilles (1714), vices privés = vertu publique, main invisible, homo economicus, critique de Smith", "tags": ["Sociologie économique", "Mandeville", "Fable des abeilles"], "difficulty": "Moyen", "estimatedTime": 6}
-              ],
-              "estimatedTime": 6
+                {
+                  "id": "SOCIO7-I-6a",
+                  "name": "Heilbroner - Tradition, direction centralisee, marche",
+                  "description": "3 solutions au probleme economique : tradition (hereditaire), direction centralisee (autorite), marche (individu libre) ; marche = institution historique recente",
+                  "tags": [
+                    "Sociologie economique",
+                    "Heilbroner",
+                    "Formes d economie"
+                  ],
+                  "difficulty": "Facile",
+                  "estimatedTime": 5
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-7",
               "number": "7",
-              "name": "Heilbroner — les trois solutions économiques",
+              "name": "Tonnies, Granovetter, Elias",
+              "estimatedTime": 12,
               "notions": [
-                {"id": "SOCIO7-I-7a", "name": "Heilbroner — Tradition, direction centralisée, marché", "description": "3 solutions au problème économique : tradition (héréditaire), direction centralisée (autorité), marché (individu libre)", "tags": ["Sociologie économique", "Heilbroner", "Formes d'économie"], "difficulty": "Facile", "estimatedTime": 5}
-              ],
-              "estimatedTime": 5
+                {
+                  "id": "SOCIO7-I-7a",
+                  "name": "Tonnies et Granovetter",
+                  "description": "Tonnies : communaute (liens organiques/solidarite naturelle) vs societe (liens contractuels/interet) ; Granovetter : re-encastrement, Nouvelle Sociologie Economique (apres 1970)",
+                  "tags": [
+                    "Sociologie economique",
+                    "Tonnies",
+                    "Granovetter",
+                    "NSE"
+                  ],
+                  "difficulty": "Difficile",
+                  "estimatedTime": 7
+                },
+                {
+                  "id": "SOCIO7-I-7b",
+                  "name": "Norbert Elias - le processus de civilisation",
+                  "description": "Le Processus de civilisation, raffinement des pratiques sociales lie a la constitution economique des grands Etats, differenciation aristocratique",
+                  "tags": [
+                    "Sociologie economique",
+                    "Elias",
+                    "Processus de civilisation"
+                  ],
+                  "difficulty": "Difficile",
+                  "estimatedTime": 5
+                }
+              ]
             },
             {
               "id": "SOCIO7-I-8",
               "number": "8",
-              "name": "Tönnies, Granovetter, Norbert Elias",
+              "name": "Commerce Kula",
+              "estimatedTime": 6,
               "notions": [
-                {"id": "SOCIO7-I-8a", "name": "Communauté/société, NSE, processus de civilisation", "description": "Tönnies (Gemeinschaft/Gesellschaft), Granovetter (ré-encastrement, NSE 1970+), Norbert Elias (processus de civilisation, grands États)", "tags": ["Sociologie économique", "Tönnies", "Granovetter", "Elias"], "difficulty": "Difficile", "estimatedTime": 8}
-              ],
-              "estimatedTime": 8
-            },
-            {
-              "id": "SOCIO7-I-9",
-              "number": "9",
-              "name": "Commerce Kula et économies non marchandes",
-              "notions": [
-                {"id": "SOCIO7-I-9a", "name": "Commerce Kula — Malinowski", "description": "Îles Trobriand, commerce kula (bracelets/colliers coquillages), sans profit ni utilité, anthropologie économique, absence d'homo economicus", "tags": ["Sociologie économique", "Malinowski", "Commerce Kula"], "difficulty": "Moyen", "estimatedTime": 6}
-              ],
-              "estimatedTime": 6
+                {
+                  "id": "SOCIO7-I-8a",
+                  "name": "Commerce Kula - Malinowski",
+                  "description": "Iles Trobriand, kula (bracelets/colliers de coquillages sans utilite), sans profit, maintien des liens sociaux, fondateur anthropologie economique, reciprocite + redistribution (Polanyi)",
+                  "tags": [
+                    "Sociologie economique",
+                    "Malinowski",
+                    "Commerce Kula"
+                  ],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 6
+                }
+              ]
             }
-          ],
-          "estimatedTime": 61
+          ]
         }
-      ],
-      "estimatedTime": 61,
-      "icon": "💰"
+      ]
     }
   ]
 }

@@ -1,163 +1,179 @@
-@themes: Sociologie
+﻿@themes: Sociologie
 
-### === SOCIO1-I-1a : Définition et objet de la sociologie ===
-### "Science des faits sociaux et des relations sociales"
-@add-theme: Fondements, Définitions
+### === SOCIO1-I-1a : Définition et méthodes de la sociologie ===
+### "Science des relations sociales — méthodes de recherche"
+@add-theme: Fondements, Définitions, Méthodes
 
-QCM || La sociologie est définie comme || V:Une discipline des sciences sociales qui recherche des explications sociales à des phénomènes observables|L'étude de la psychologie des individus en groupe|La science des lois naturelles régissant les sociétés|L'étude philosophique de la morale collective
-VF  || Auguste Comte a popularisé le terme « sociologie » à partir de 1839. || V || Il l'utilise dans le sens d'une « physique sociale ».
-QCM || Le terme « sociologie » est formé à partir || V:Du latin socius (compagnon/associé) et du grec logos (discours/science)|Du grec demos (peuple) et logos (science)|Du latin societas (société) et graphein (écrire)|Du grec polis (cité) et logos (discours)
-QCM || Le premier sociologue à avoir voulu faire de la sociologie une science étudiant les faits sociaux est || V:Émile Durkheim|Max Weber|Auguste Comte|Karl Marx
-VF  || Ibn Khaldoun (XIVe siècle) est considéré comme un précurseur de la sociologie avec sa Muqaddima. || V || Il y développe une théorie dynamique de l'histoire et analyse la cohésion sociale (asabiyyah).
-QCM || L'analyse sociologique peut se placer à différentes échelles. La macrosociologie étudie || V:Les phénomènes sociaux à grande échelle (sociétés, institutions, structures)|Les interactions individuelles en face-à-face|Les organisations de taille moyenne|Les comportements psychologiques individuels
+QCM || Max Weber définit la sociologie comme la science cherchant à || V:Comprendre les actions sociales par leur interprétation|Comprendre les faits sociaux par une approche statistique|Comprendre les mouvements sociaux dans leur contexte historique|Étudier les groupes sociaux par l'observation participante
+VF  || La sociologie utilise fréquemment le raisonnement inductif et les analyses qualitatives. || V || Elle part de l'observation des faits pour construire des théories (inductif) et utilise des entretiens, observations ethnographiques (qualitatif).
+QCM || Parmi les éléments suivants, lesquels sont fréquemment utilisés par la sociologie ? || V:Raisonnement inductif et analyse qualitative|Raisonnement déductif et analyse quantitative uniquement|Uniquement des expériences en laboratoire|Modèles mathématiques exclusivement
+VF  || Étudier un fait social avec des méthodes quantitatives est une méthode neutre, car les statistiques sont objectives. || F || Les statistiques ne sont pas neutres : elles dépendent des catégories choisies, des questions posées et des biais méthodologiques du chercheur.
+QCM || La validité externe d'un résultat de recherche désigne || V:Le degré de généralisabilité des résultats à d'autres contextes ou populations|Le fait qu'aucun facteur extérieur ne perturbe les résultats|La fiabilité générale des résultats de l'étude|Le fait que la recherche soit menée hors d'un laboratoire
+QCM || Étymologiquement, le mot « sociologie » est formé à partir de || V:Du latin socius (compagnon/associé) et du grec logos (discours/science)|Du grec demos (peuple) et logos (science)|Du latin societas (société) et graphein (écrire)|Du grec polis (cité) et logos (discours)
+QCM || Auguste Comte qualifie initialement la sociologie de || V:Physique sociale|Science des faits sociaux|Discipline des interactions humaines|Économie des relations sociales
 
 ---
 
-### === SOCIO1-I-2a : Durkheim et le fait social ===
-### "Fait social : contrainte extérieure et généralité"
+### === SOCIO1-I-1b : Déterminisme social et libre-arbitre ===
+### "Le déterminisme en sociologie : savoir pour prévoir"
+@add-theme: Fondements, Déterminisme
+
+QCM || Le déterminisme social affirme que || V:Les comportements humains ont des causes sociales identifiables par la science|Les individus sont entièrement libres de leurs choix|La société est régie par des lois naturelles immuables|Seul le libre-arbitre explique les conduites humaines
+VF  || Le déterminisme social s'oppose toujours au libre-arbitre. || F || Les deux peuvent coexister : comprendre les causes sociales d'un comportement n'empêche pas de reconnaître une part de liberté individuelle.
+QCM || Selon Durkheim, il ne peut pas y avoir de sociologie si on n'admet pas || V:Une certaine forme de déterminisme social|Le libre-arbitre absolu des individus|La primauté de la psychologie individuelle|L'absence de régularités dans les comportements humains
+QCM || Auguste Comte dit « savoir pour prévoir, prévoir pour pouvoir ». Cette formule signifie que || V:Identifier les causes des phénomènes sociaux permet d'anticiper et d'agir sur eux|Il faut prédire l'avenir pour mieux dominer la nature|La sociologie doit se mettre au service des gouvernants|Le savoir est une forme de pouvoir personnel
+VF  || Selon Bernard Lahire, comprendre sociologiquement un acte délictueux revient à excuser son auteur. || F || Lahire distingue comprendre (travail scientifique) et juger (travail normatif) : « comprendre n'est pas juger, mais juger et punir n'interdit pas de comprendre ».
+
+---
+
+### === SOCIO2-I-1a : Durkheim — le fait social ===
+### "Fait social : extérieur, coercitif, général"
 @add-theme: Fondements, Durkheim, Fait social
 
-QCM || Pour Durkheim, un « fait social » est || V:Toute manière de faire, fixée ou non, susceptible d'exercer sur l'individu une contrainte extérieure, et générale dans une société|Tout événement qui concerne au moins deux personnes|Un phénomène lié à la volonté individuelle|Un fait divers rapporté dans la presse
-VF  || Les faits sociaux, selon Durkheim, existent indépendamment de la conscience que les individus en ont. || V || Ils sont extérieurs à l'individu et exercent une contrainte sur lui.
-QCM || L'ouvrage dans lequel Durkheim expose sa méthode pour étudier les faits sociaux est || V:Les Règles de la méthode sociologique (1895)|Le Suicide (1897)|De la division du travail social (1893)|Les Formes élémentaires de la vie religieuse (1912)
-QCM || La règle méthodologique fondamentale de Durkheim est || V:Traiter les faits sociaux comme des choses, c'est-à-dire les étudier objectivement de l'extérieur|Interroger les individus sur leurs motivations profondes|Se fier à l'intuition du chercheur|Comparer systématiquement toutes les sociétés entre elles
-VF  || Durkheim est le représentant du holisme méthodologique. || V || Le holisme considère que le tout (la société) est supérieur à la somme de ses parties (les individus).
-QCM || Durkheim distingue deux types de solidarité sociale || V:La solidarité mécanique (sociétés traditionnelles, similitude) et la solidarité organique (sociétés modernes, complémentarité)|La solidarité nationale et la solidarité internationale|La solidarité familiale et la solidarité professionnelle|La solidarité volontaire et la solidarité obligatoire
-QCM || Dans « De la division du travail social » (1893), Durkheim montre que || V:La division du travail croissante crée une solidarité organique fondée sur la complémentarité des fonctions|La division du travail détruit le lien social|Les sociétés modernes n'ont plus de solidarité|La solidarité mécanique est la forme la plus avancée
+QCM || Quels éléments caractérisent un fait social au sens de Durkheim ? || V:Il est extérieur aux individus et il est coercitif|Il ne varie pas dans le temps|Ce sont des actions sociales au sens de Weber|Il est nécessairement observable statistiquement
+VF  || Un fait social, selon Durkheim, est extérieur aux individus. || V || Les faits sociaux préexistent à l'individu ; il naît dans une société et est soumis à des manières de faire, penser et sentir qui s'imposent à lui.
+VF  || Un fait social, selon Durkheim, exerce un pouvoir de coercition sur les individus. || V || Ils s'imposent à l'individu, et leur transgression entraîne des sanctions (pénales, sociales, morales).
+QCM || La règle méthodologique fondamentale de Durkheim est de || V:Traiter les faits sociaux comme des choses, c'est-à-dire les étudier objectivement de l'extérieur|Interroger les individus sur leurs motivations profondes|Se fier à l'intuition du chercheur pour interpréter les données|Comparer systématiquement toutes les sociétés entre elles
+QCM || Parmi les ouvrages suivants, lesquels ont été écrits par Émile Durkheim ? || V:Les Règles de la méthode sociologique et Le Suicide|Économie et Société et L'Éthique protestante|Les Argonautes du Pacifique Occidental et La Grande Transformation|Le Capital et Les Manuscrits parisiens
+VF  || Durkheim est le représentant du holisme méthodologique en sociologie. || V || Le holisme considère que la société forme un tout irréductible à la somme de ses parties, qui s'impose aux individus.
+QCM || Dans « De la division du travail social » (1893), Durkheim distingue || V:La solidarité mécanique (sociétés traditionnelles, similitude) et la solidarité organique (sociétés modernes, complémentarité)|La solidarité nationale et la solidarité internationale|La division technique et la division sociale du travail|La cohésion forte et la cohésion faible
+QCM || Selon Durkheim, le passage des sociétés traditionnelles aux sociétés industrialisées a renforcé la cohésion sociale car || V:La division du travail renforce l'interdépendance des individus (solidarité organique)|La sociologie s'est développée comme science|Elle a permis une forte croissance économique|Elle a renforcé les liens internationaux
 
 ---
 
-### === SOCIO1-I-2b : Le Suicide de Durkheim ===
-### "Le suicide comme fait social"
-@add-theme: Fondements, Durkheim, Suicide
+### === SOCIO2-I-1b : Durkheim — anomie, suicide, déterminisme ===
+### "L'anomie et le suicide comme faits sociaux"
+@add-theme: Fondements, Durkheim, Anomie, Suicide
 
-QCM || Dans « Le Suicide » (1897), Durkheim montre que le suicide || V:Est un fait social, dont le taux varie selon le degré d'intégration et de régulation de la société|Est un phénomène purement individuel et psychologique|Est uniquement lié à des facteurs génétiques|Ne peut pas être étudié scientifiquement
-QCM || Le suicide « égoïste » selon Durkheim résulte || V:D'un déficit d'intégration sociale (l'individu n'est pas suffisamment rattaché au groupe)|D'un excès de régulation sociale|D'un excès d'intégration dans le groupe|D'un manque de règles et de normes dans la société
-QCM || Le suicide « anomique » selon Durkheim résulte || V:D'un déficit de régulation sociale, en période de crise ou de changement brutal des normes|D'un excès d'intégration sociale|D'une trop forte solidarité mécanique|D'un sentiment de honte individuelle
-VF  || Le suicide altruiste résulte d'un excès d'intégration de l'individu dans le groupe. || V || L'individu se sacrifie pour le groupe (ex : kamikaze, sacrifice militaire).
-QCM || L'anomie, concept central chez Durkheim, désigne || V:Une situation de dérèglement social, où les normes habituelles ne fonctionnent plus|L'absence totale de population dans un territoire|Un excès de lois et de réglementations|Le refus individuel de toute norme sociale
-
----
-
-### === SOCIO2-I-1a : Max Weber et la sociologie compréhensive ===
-### "Comprendre le sens de l'action sociale"
-@add-theme: Fondements, Weber, Action sociale
-
-QCM || Pour Max Weber, la sociologie doit || V:Comprendre par interprétation l'activité sociale et expliquer causalement son déroulement et ses effets|Uniquement décrire les structures sociales|Étudier les faits sociaux comme des choses|Prédire l'avenir des sociétés
-VF  || Weber est le représentant de l'individualisme méthodologique. || V || Il explique les phénomènes collectifs à partir des actions et motivations individuelles.
-QCM || L'individualisme méthodologique consiste à || V:Expliquer les phénomènes sociaux à partir des actions, motivations et interactions des individus|Étudier chaque individu de manière isolée|Considérer que la société n'existe pas|Nier l'existence de contraintes sociales
-QCM || Weber distingue quatre types d'action sociale. L'action « rationnelle en finalité » est || V:Une action orientée vers un but précis, utilisant des moyens adaptés (calcul coût/bénéfice)|Une action guidée par une croyance en la valeur intrinsèque d'un comportement|Une action dictée par les émotions|Une action conforme à des habitudes ancestrales
-QCM || L'action « rationnelle en valeur » selon Weber est || V:Une action motivée par la croyance en la valeur intrinsèque d'un comportement, indépendamment de ses conséquences|Une action visant à maximiser le profit|Une action dictée par la tradition|Une action émotionnelle spontanée
-VF  || L'action traditionnelle, selon Weber, est guidée par les coutumes et habitudes héritées. || V || C'est un type d'action sociale motivée par la force de l'habitude.
-QCM || L'idéal-type chez Weber est || V:Un modèle théorique abstrait construit par le chercheur pour analyser la réalité, sans prétendre la décrire exactement|Un modèle de société parfaite|Le meilleur type de comportement social|La norme sociale la plus répandue dans une société
-QCM || La neutralité axiologique (Wertfreiheit) selon Weber signifie que || V:Le chercheur doit suspendre ses jugements de valeur dans son travail scientifique|La science doit être au service de valeurs morales|Le sociologue n'a pas le droit d'avoir des opinions|La recherche doit ignorer les faits
-VF  || Weber est l'auteur de « L'Éthique protestante et l'esprit du capitalisme ». || V || Il y soutient que la Réforme protestante est à l'origine de l'éthique du travail du capitalisme.
+QCM || Chez Durkheim, l'anomie désigne || V:Une absence de régulation de la société sur l'individu|Une carence matérielle|Une forme de suicide spécifique|Une trop forte pression sociale
+QCM || Selon Durkheim, un individu se retrouve en état d'anomie lorsqu'il est || V:Soumis à trop peu de régulation sociale|Soumis à une pression sociale trop forte|Soumis à un travail pénible|Responsable de l'échec de son groupe
+QCM || Dans « Le Suicide » (1897), Durkheim montre que le taux de suicide varie selon || V:Le degré d'intégration et de régulation sociale de la société|La personnalité individuelle et les facteurs génétiques|Le niveau de revenu des individus uniquement|La religion mais indépendamment de l'intégration sociale
+QCM || Le suicide « égoïste » résulte || V:D'un déficit d'intégration sociale (l'individu est insuffisamment rattaché au groupe)|D'un excès de régulation sociale|D'un excès d'intégration dans le groupe|D'un dérèglement des normes sociales
+VF  || Le suicide altruiste résulte d'un excès d'intégration de l'individu dans le groupe. || V || L'individu se sacrifie pour le groupe (ex. : militaire, geste héroïque, kamikaze).
+QCM || Le suicide anomique résulte || V:D'un déficit de régulation sociale, notamment en période de crise ou de transformation brutale des normes|D'un excès d'intégration dans le groupe|D'un déficit d'intégration sociale|D'une contrainte morale trop forte
 
 ---
 
-### === SOCIO2-I-2a : Holisme vs Individualisme méthodologique ===
-### "Deux paradigmes fondamentaux de la sociologie"
-@add-theme: Fondements, Paradigmes
+### === SOCIO3-I-1a : Weber — sociologie compréhensive et action sociale ===
+### "Comprendre l'activité sociale par interprétation"
+@add-theme: Weber, Sociologie compréhensive, Action sociale
 
-QCM || L'opposition entre holisme et individualisme méthodologique porte sur || V:La question de savoir si la société détermine les individus (holisme) ou si les actions individuelles expliquent les phénomènes sociaux (individualisme)|La question de la taille optimale d'une société|Le débat entre sociologie et psychologie|La différence entre méthodes qualitatives et quantitatives
+QCM || Selon Weber, l'activité (ou action) sociale est || V:Une activité dont le sens visé par l'agent se rapporte au comportement d'autrui|Tout comportement humain, même inconscient ou involontaire|Un comportement dicté uniquement par la tradition|Une action collective organisée par un groupe
+VF  || Weber est le représentant de l'individualisme méthodologique en sociologie. || V || Il explique les phénomènes collectifs à partir des actions, motivations et significations subjectives des individus.
+QCM || Weber distingue quatre types d'action sociale. L'action « rationnelle en finalité » est || V:Une action orientée vers un but précis, avec calcul des moyens et anticipation des conséquences|Une action guidée par la croyance en la valeur intrinsèque d'un comportement|Une action dictée par les émotions et les affects|Une action conforme aux habitudes et coutumes ancestrales
+QCM || L'action « rationnelle en valeur » selon Weber est || V:Une action motivée par la croyance en la valeur d'un comportement, indépendamment de ses conséquences|Une action visant à maximiser le profit|Une action dictée par la tradition|Une action émotionnelle et spontanée
+VF  || L'action traditionnelle, selon Weber, est guidée par les coutumes et les habitudes héritées. || V || C'est un comportement mécanique, fondé sur la répétition de pratiques ancestrales.
+QCM || L'idéal-type chez Weber est || V:Un modèle théorique abstrait construit pour analyser la réalité, sans prétendre la décrire exactement|Un modèle de société parfaite à atteindre|La norme comportementale la plus répandue dans une société|Un type d'individu réel représentatif d'une classe sociale
+QCM || Pour Weber, dégager des idéaux-types permet au sociologue de || V:Comparer de façon homogène les actions des individus|S'affranchir totalement de la subjectivité des individus|Se distinguer définitivement des psychologues et des historiens|Déshypostasier les entités supra-individuelles
+QCM || Max Weber est l'auteur de l'ouvrage || V:Économie et Société|Le Capital|Le Suicide|La Société du Spectacle
+VF  || Weber est aussi l'auteur de « L'Éthique protestante et l'esprit du capitalisme ». || V || Il y montre que l'éthique protestante (notamment calviniste) est à l'origine d'une nouvelle rationalité économique basée sur l'épargne et l'accumulation.
+
+---
+
+### === SOCIO3-I-1b : Weber — domination et État ===
+### "Les trois types de domination légitime"
+@add-theme: Weber, Domination, État
+
+QCM || Selon Max Weber, l'autorité de l'État est caractérisée par || V:Le monopole de la violence physique légitime|Le contrôle de l'économie nationale|La représentation de la volonté populaire|La possession des moyens de production
+VF  || Affirmer que l'État a le « monopole de la violence physique légitime » revient à dire que l'exercice de la violence au nom de l'État est nécessairement justifié. || F || Cela signifie que seul l'État est reconnu comme légitime à exercer la violence, mais pas que chaque usage concret est justifié.
+QCM || Pour Max Weber, la domination charismatique repose sur || V:Une autorité émotionnelle liée aux qualités personnelles extraordinaires du leader|Une autorité juridique fondée sur des règles impersonnelles|Une autorité coutumière fondée sur la tradition|L'absence d'autorité formelle reconnue
+QCM || Weber distingue trois types de domination légitime. Lesquels ? || V:Domination légale-rationnelle, traditionnelle et charismatique|Domination économique, politique et religieuse|Domination forte, faible et mixte|Domination démocratique, monarchique et oligarchique
+QCM || La domination légale-rationnelle selon Weber repose sur || V:Des règles abstraites et impersonnelles légitimant l'autorité (droit, bureaucratie)|Les qualités personnelles extraordinaires d'un chef|La force de la tradition et des habitudes ancestrales|Le charisme d'un leader religieux ou politique
+QCM || La domination traditionnelle selon Weber tire sa légitimité de || V:La force des coutumes et traditions ancestrales (on obéit parce que c'est ainsi depuis toujours)|Des règles rationnelles et impersonnelles|Des qualités personnelles exceptionnelles du chef|La rationalité en valeur des sujets
+QCM || Selon Weber, le marché est une « forme sociale » car || V:Il concentre des activités sociales orientant les comportements en fonction des comportements d'autrui|Il est structuré uniquement par des règles juridiques explicites|Il résulte d'interactions sociales répétées mais sans sens subjectif|Il est régulé par une autorité reconnue par tous
+
+---
+
+### === SOCIO4-I-1a : Holisme vs individualisme méthodologique ===
+### "Deux grands paradigmes de la sociologie"
+@add-theme: Paradigmes, Holisme, Individualisme méthodologique
+
+QCM || L'individualisme méthodologique est opposé || V:Au holisme|A l'universalisme scientifique|A la théorie du choix rationnel|A l'analyse statistique
 VF  || Le holisme méthodologique est associé à Durkheim, l'individualisme méthodologique à Weber. || V || C'est l'une des oppositions fondatrices de la sociologie.
-QCM || Selon le holisme méthodologique || V:La société est une réalité sui generis (en soi) qui s'impose aux individus et les détermine|Chaque individu est totalement libre de ses choix|La société n'est que la somme des individus|Seules les motivations individuelles comptent
-QCM || Selon l'individualisme méthodologique || V:Les phénomènes sociaux s'expliquent à partir des actions et motivations des individus|Les individus n'ont aucune liberté face aux structures sociales|La société détermine entièrement les comportements|Les statistiques sont les seuls outils valables
+QCM || Selon le holisme méthodologique (Durkheim) || V:La société est une réalité sui generis qui s'impose aux individus et les détermine|Les phénomènes sociaux s'expliquent par les motivations individuelles|L'individu est totalement libre de ses choix|La société n'est que la somme de ses membres
+QCM || Selon l'individualisme méthodologique (Weber) || V:Les phénomènes collectifs s'expliquent à partir des actions, motivations et interactions des individus|La société détermine entièrement les comportements individuels|L'individu est irrationnel par nature|Les statistiques sont les seuls outils valides en sociologie
 
 ---
 
-### === SOCIO3-I-1a : La socialisation ===
-### "Processus d'intériorisation des normes et valeurs"
-@add-theme: Socialisation
+### === SOCIO4-I-1b : Raymond Boudon — choix rationnel et individualisme ===
+### "L'individualisme méthodologique selon Boudon"
+@add-theme: Boudon, Individualisme méthodologique, Choix rationnel
 
-QCM || La socialisation est le processus par lequel || V:L'individu intériorise les normes, valeurs et rôles sociaux de sa société|L'individu choisit librement ses comportements|L'État impose ses lois aux citoyens|Les entreprises forment leurs employés
-VF  || On distingue socialisation primaire (enfance/adolescence) et socialisation secondaire (âge adulte). || V || La socialisation primaire, par la famille et l'école, est la plus déterminante ; la secondaire se poursuit tout au long de la vie.
-QCM || Les principales instances de socialisation primaire sont || V:La famille et l'école|Les médias et les réseaux sociaux uniquement|Les syndicats et les partis politiques|Les entreprises et les administrations
-QCM || La socialisation secondaire se déroule || V:À l'âge adulte, dans le milieu professionnel, le couple, les associations, etc.|Uniquement pendant les études supérieures|Avant 6 ans|Exclusivement dans la famille
-VF  || La socialisation est un processus qui s'achève à la fin de l'adolescence. || F || Elle se poursuit tout au long de la vie ; chaque nouveau rôle ou statut peut remettre en question les acquis antérieurs.
-QCM || Les normes sociales sont || V:Des règles de comportement partagées par un groupe, dont la transgression entraîne des sanctions|Des lois votées par le Parlement uniquement|Des recommandations sans aucune contrainte|Des habitudes biologiques innées
-QCM || Les valeurs sociales sont || V:Des idéaux collectifs qui orientent les comportements et les jugements dans une société|Des prix fixés par le marché|Des normes juridiques|Des statistiques démographiques
+QCM || Selon l'individualisme méthodologique de Raymond Boudon, les choix des individus peuvent paraître irrationnels car || V:Les individus se trompent souvent dans leurs choix ou disposent d'une information imparfaite|L'observateur ne connaît pas les causes exactes|Leurs choix se fondent sur des traditions anciennes|Les individus n'anticipent jamais les conséquences de leurs actions
+VF  || Selon Raymond Boudon, tout phénomène social résulte de décisions individuelles qu'on peut toujours rationaliser a posteriori. || F || Boudon montre que les actions peuvent sembler irrationnelles de l'extérieur, sans être irrationnelles pour l'acteur qui dispose d'une information partielle ou d'une logique propre.
 
 ---
 
-### === SOCIO3-I-2a : Bourdieu et l'habitus ===
-### "Dispositions durables intériorisées par la socialisation"
-@add-theme: Socialisation, Bourdieu, Habitus
+### === SOCIO4-I-2a : Gary Becker — capital humain et choix rationnel ===
+### "L'économiste de l'éducation et du choix rationnel"
+@add-theme: Gary Becker, Capital humain, Choix rationnel
 
-QCM || L'habitus, selon Pierre Bourdieu, est || V:Un ensemble de dispositions durables et profondes, intériorisées par la socialisation, qui orientent les pratiques et les goûts|Un choix conscient et réfléchi de l'individu|Une habitude physique liée au sport|Un titre universitaire
-VF  || L'habitus contribue à la reproduction sociale selon Bourdieu. || V || Il transmet d'une génération à l'autre des manières de faire, penser et être propres à chaque groupe social.
-QCM || Le capital culturel, selon Bourdieu, comprend || V:Les connaissances, diplômes, manières de parler et goûts culturels hérités de la socialisation|Uniquement l'argent et les biens matériels|Le réseau de connaissances d'une personne|Les droits politiques d'un citoyen
-QCM || Bourdieu distingue trois formes principales de capital || V:Capital économique, capital culturel, capital social|Capital financier, capital immobilier, capital artistique|Capital technique, capital humain, capital naturel|Capital politique, capital militaire, capital religieux
-VF  || Le capital social, selon Bourdieu, désigne l'ensemble des relations sociales mobilisables par un individu. || V || C'est le réseau de connaissances et de relations dont dispose un individu.
-QCM || Le capital symbolique, selon Bourdieu, est || V:La reconnaissance, le prestige et l'honneur attachés à la possession des autres formes de capital|Les symboles religieux|Les logos des entreprises|Les drapeaux nationaux
-QCM || Dans « La Distinction » (1979), Bourdieu montre que || V:Les goûts culturels et les pratiques de consommation sont socialement déterminés et contribuent à la distinction entre classes sociales|Tout le monde a exactement les mêmes goûts|Les goûts sont uniquement biologiques|La culture n'a aucun rapport avec les classes sociales
-VF  || Selon Bourdieu, la reproduction sociale passe notamment par le système scolaire qui valorise la culture des classes dominantes. || V || L'école, en apparence neutre et méritocratique, favorise les enfants dont l'habitus correspond à la culture scolaire (culture des classes dominantes).
+QCM || L'économiste Gary Becker est à l'origine de la théorie || V:Du capital humain|Des rendements décroissants|De la croissance endogène|Du néolibéralisme
+QCM || Le capital humain, selon Becker, désigne || V:L'ensemble des connaissances, compétences et aptitudes acquises (éducation, formation) qui augmentent la productivité d'un individu|L'argent investi par une entreprise dans ses machines|Le patrimoine financier d'un ménage|Le réseau social d'un individu
+QCM || Selon la théorie du choix rationnel, l'agent économique est rationnel s'il || V:A des préférences cohérentes et choisit la meilleure option compte-tenu du contexte et de son information|A des préférences non-altruistes et choisit la meilleure option pour lui-même uniquement|A des préférences exhaustives et peut toujours calculer la valeur exacte des biens|A des préférences stables et choisit une option satisfaisante parmi celles qui lui sont proposées
+VF  || Un agent économique parfaitement rationnel peut être considéré comme un individu sociologique au sens de Weber. || F || L'homo economicus est une abstraction ignorant les liens sociaux, les normes et le sens de l'action. Weber et la sociologie économique montrent que les agents réels sont encastrés dans des relations sociales.
 
 ---
 
-### === SOCIO4-I-1a : Stratification sociale et classes sociales ===
-### "Hiérarchisation de la société en groupes"
-@add-theme: Stratification, Classes sociales
+### === SOCIO4-I-2b : Crozier et Friedberg — pouvoir et organisations ===
+### "Le pouvoir naît du contrôle des zones d'incertitude"
+@add-theme: Crozier, Friedberg, Pouvoir, Organisations
 
-QCM || La stratification sociale désigne || V:La catégorisation hiérarchique de la population en groupes sur la base de critères socio-économiques|La division géographique d'un territoire|L'organisation du système scolaire en niveaux|La répartition des tâches dans une entreprise
-QCM || Dans la perspective marxiste, les classes sociales se définissent par || V:La place des individus dans les rapports de production (propriétaire des moyens de production vs. travailleurs)|Le niveau d'éducation|La religion|La nationalité
-VF  || Marx distingue principalement deux grandes classes antagonistes : la bourgeoisie et le prolétariat. || V || La bourgeoisie possède les moyens de production ; le prolétariat vend sa force de travail.
-QCM || La lutte des classes, selon Marx, est || V:Le moteur de l'histoire, résultant de l'opposition d'intérêts entre classes dominantes et classes dominées|Un conflit armé entre pays|Une compétition sportive|Un débat parlementaire
-QCM || Les PCS (Professions et Catégories Socioprofessionnelles) en France regroupent || V:6 grands groupes : agriculteurs, artisans/commerçants/chefs d'entreprise, cadres, professions intermédiaires, employés, ouvriers|3 classes : haute, moyenne, basse|2 classes : bourgeoisie et prolétariat|10 catégories basées sur le revenu
-VF  || La nomenclature PCS est utilisée par l'INSEE depuis 1982. || V || Elle a remplacé l'ancienne nomenclature des CSP (Catégories Socioprofessionnelles) datant de 1954.
-QCM || Dans la perspective bourdieusienne, la position sociale d'un individu dépend || V:Du volume et de la structure de ses différents capitaux (économique, culturel, social, symbolique)|Uniquement de son revenu|Uniquement de son niveau d'études|De sa date de naissance
+QCM || Michel Crozier et Erhard Friedberg montrent que le pouvoir au sein d'une organisation provient || V:Du contrôle des zones d'incertitude au sein de l'organisation|D'un statut hiérarchique formel|Du niveau de salaire|D'une autorité extérieure à l'organisation
+VF  || Pour Crozier et Friedberg, l'acteur dans une organisation dispose toujours d'une marge de liberté et de stratégie. || V || Dans « L'Acteur et le Système » (1977), ils montrent que les acteurs jouent avec les zones d'incertitude pour accroître leur pouvoir.
 
 ---
 
-### === SOCIO4-I-2a : Mobilité sociale ===
-### "Changement de position dans la hiérarchie sociale"
-@add-theme: Stratification, Mobilité sociale
+### === SOCIO5-I-1a : Bourdieu — habitus et capitaux ===
+### "Dispositions durables et formes de capital"
+@add-theme: Bourdieu, Habitus, Capital
 
-QCM || La mobilité sociale intergénérationnelle mesure || V:Le changement de position sociale entre parents et enfants|Le déménagement d'une ville à une autre|Le changement d'emploi au cours d'une carrière|L'évolution du revenu au fil des mois
-QCM || La mobilité sociale intragénérationnelle mesure || V:Le changement de position sociale d'un individu au cours de sa propre vie (carrière)|Le changement de position entre parents et enfants|Le changement de nationalité|Le changement de religion
-VF  || Une société où la mobilité sociale est forte est dite plus « ouverte » ou « fluide ». || V || La fluidité sociale mesure l'indépendance entre l'origine sociale et la position sociale atteinte.
-QCM || La mobilité structurelle résulte || V:Des transformations de la structure socioprofessionnelle (ex : tertiarisation de l'économie)|Des choix individuels des personnes|De la politique éducative uniquement|Des migrations internationales
-QCM || La reproduction sociale désigne || V:Le fait que les enfants tendent à occuper la même position sociale que leurs parents|La croissance démographique|La transmission du patrimoine génétique|Le renouvellement des élus politiques
-VF  || Les « tables de mobilité » sont des outils statistiques qui croisent la position sociale des individus avec celle de leurs parents. || V || Elles permettent de mesurer la mobilité intergénérationnelle dans une société.
-
----
-
-### === SOCIO5-I-1a : Déviance et contrôle social ===
-### "Transgression des normes et réponses sociales"
-@add-theme: Déviance, Contrôle social
-
-QCM || La déviance en sociologie désigne || V:Tout comportement qui transgresse les normes sociales en vigueur dans un groupe|Uniquement les actes criminels|Les comportements marginaux positifs|Les maladies mentales exclusivement
-VF  || La délinquance est une forme particulière de déviance qui transgresse les normes juridiques (lois). || V || Toute délinquance est une déviance, mais toute déviance n'est pas de la délinquance (ex : impolitesse).
-QCM || Le contrôle social désigne || V:L'ensemble des mécanismes par lesquels une société assure la conformité des comportements de ses membres aux normes établies|Le contrôle exercé par la police uniquement|La censure des médias|Le contrôle des frontières
-QCM || Le contrôle social formel comprend || V:Les sanctions exercées par des institutions spécialisées (police, justice, administration)|Les moqueries entre amis|Les regards désapprobateurs|Les rumeurs dans un quartier
-QCM || Le contrôle social informel comprend || V:Les sanctions diffuses exercées par l'entourage (moqueries, exclusion, réprobation, valorisation)|Les amendes et les peines de prison|Les lois et règlements|Les examens scolaires
-VF  || Selon Howard Becker, la déviance n'est pas une qualité intrinsèque de l'acte, mais le résultat d'un processus d'étiquetage. || V || Dans « Outsiders » (1963), Becker montre que « le déviant est celui à qui l'étiquette de déviant a été appliquée avec succès ».
-QCM || La théorie de l'étiquetage (labeling theory) de Becker met l'accent sur || V:Le processus social par lequel certains comportements et individus sont désignés comme déviants|Les caractéristiques biologiques des déviants|Les motivations psychologiques des criminels|Le niveau de revenu des délinquants
+QCM || Le concept d'habitus, selon Pierre Bourdieu, désigne || V:Un ensemble de dispositions durables (modes d'apprentissage, façons d'être en société) intériorisées par la socialisation|Les comportements propres à une classe sociale ou à un groupe|La disposition d'un individu à acquérir de nouveaux codes sociaux|Les normes sociales conscientes imposées par une institution
+QCM || L'habitus permet de faire le lien entre || V:Les structures sociales et les individus|Les institutions et l'État|La culture et l'économie uniquement|L'école et le marché du travail
+VF  || L'habitus fait le lien entre les structures sociales et les individus. || V || Il est produit par les conditions sociales d'existence et oriente les pratiques, sans que l'individu en soit toujours conscient.
+QCM || Parmi les propositions suivantes, lesquelles font partie des principales formes de capital selon Bourdieu ? || V:Le capital culturel et le capital social|Le capital sympathie et l'héritage familial|Le capital technique et le capital naturel|Le capital physique et le capital politique
+QCM || Selon Pierre Bourdieu, le champ social peut être représenté sur les axes suivants || V:Capital symbolique/capital social et capital économique/capital culturel|Capital économique/capital social et volume de capital total|Capital symbolique/capital culturel et volume de capital total|Volume de capital total et volume de consommation culturelle
+VF  || Le capital social, selon Bourdieu, désigne l'ensemble des relations sociales mobilisables par un individu. || V || C'est le réseau de relations qui peut procurer des avantages matériels ou symboliques.
 
 ---
 
-### === SOCIO5-I-2a : Fonctionnalisme et théorie du conflit ===
-### "Deux grandes approches théoriques en sociologie"
-@add-theme: Théories, Courants
+### === SOCIO5-I-1b : Bourdieu — La Distinction et reproduction sociale ===
+### "Goûts, consommation et reproduction des inégalités"
+@add-theme: Bourdieu, La Distinction, Reproduction sociale
 
-QCM || Le fonctionnalisme en sociologie considère que || V:Chaque élément de la société remplit une fonction contribuant à l'équilibre et au maintien du système social|La société est principalement une arène de conflits entre groupes|Les individus sont totalement libres de créer la société qu'ils veulent|La société n'existe pas en tant que telle
-QCM || La théorie du conflit, d'inspiration marxiste, soutient que || V:La société est structurée par des rapports de domination et des conflits d'intérêts entre groupes|La société est un système harmonieux où chacun contribue|Les conflits sont toujours négatifs et destructeurs|Les classes sociales n'existent plus dans les sociétés modernes
-VF  || L'interactionnisme symbolique s'intéresse aux interactions quotidiennes et au sens que les individus donnent à leurs actions. || V || C'est une approche microsociologique, illustrée par les travaux de George Herbert Mead et Erving Goffman.
-QCM || Erving Goffman est notamment connu pour || V:Sa métaphore théâtrale de la vie sociale : les individus jouent des rôles comme des acteurs sur une scène (dramaturgie sociale)|Sa théorie des classes sociales|Son étude du suicide|Sa théorie de la transition démographique
-QCM || Le structuralisme génétique de Bourdieu vise à || V:Articuler les structures objectives (champs, capitaux) et les dispositions subjectives (habitus) pour dépasser l'opposition holisme/individualisme|Étudier les gènes responsables des comportements sociaux|Analyser uniquement les structures économiques|Nier l'existence de toute structure sociale
+QCM || Dans « La Distinction » (1979), Pierre Bourdieu montre qu'il y a une tension entre deux tendances dans la consommation || V:L'hédonisme (jouir, consommer) et l'ascétisme (se priver, refuser la dépense)|Le populisme et l'intellectualisme|Le besoin et la distinction symbolique|La mode et la tradition culturelle
+QCM || L'école joue un rôle central dans l'analyse de Pierre Bourdieu car || V:Elle est le principal lieu de socialisation extra-familiale et fait intégrer les codes de la culture légitime (celle des classes dominantes)|C'est le seul moyen d'acquérir du capital culturel|Elle est conçue explicitement pour permettre la mobilité sociale|Elle supprime les inégalités sociales de départ par son principe méritocratique
+QCM || La reproduction sociale désigne || V:Le mécanisme par lequel les inégalités sociales se transmettent de génération en génération|La croissance démographique d'une société|Le renouvellement des élites politiques|La transmission biologique des caractères héréditaires
+VF  || La reproduction sociale désigne la capacité d'une société à transmettre sa culture de génération en génération. || F || La reproduction sociale désigne la perpétuation des inégalités sociales (positions sociales, capitaux), pas seulement la transmission culturelle.
 
 ---
 
-### === SOCIO6-I-1a : Culture et socialisation différenciée ===
-### "Normes, valeurs et différenciation sociale"
-@add-theme: Culture, Socialisation différenciée
+### === SOCIO6-I-1a : Consommation et lois d'Engel ===
+### "Structure de la consommation selon le niveau de revenu"
+@add-theme: Consommation, Lois d'Engel
 
-QCM || La culture, en sociologie, désigne || V:L'ensemble des normes, valeurs, croyances, pratiques et symboles partagés par un groupe social|Uniquement les œuvres artistiques et littéraires|Le niveau d'études d'une personne|Les traditions culinaires d'un pays
-VF  || La socialisation est un processus différencié selon le genre : filles et garçons n'intériorisent pas les mêmes normes et rôles. || V || La socialisation de genre produit des différences de comportements, de goûts et d'aspirations entre hommes et femmes.
-QCM || Simone de Beauvoir, dans « Le Deuxième Sexe », a écrit || V:« On ne naît pas femme, on le devient », soulignant le rôle de la socialisation dans la construction du genre|« La femme est l'avenir de l'homme »|« L'enfer, c'est les autres »|« Je pense, donc je suis »
-QCM || La socialisation anticipatrice (Robert K. Merton) désigne || V:Le processus par lequel un individu adopte par avance les normes et valeurs d'un groupe qu'il aspire à rejoindre|Un type de socialisation qui commence avant la naissance|La socialisation imposée par État|L'oubli des normes apprises pendant l'enfance
-VF  || Selon Richard Hoggart (La culture du pauvre), un enfant boursier issu des classes populaires peut vivre un conflit entre la culture scolaire et sa culture familiale d'origine. || V || Il est tiraillé entre deux univers culturels aux codes différents.
-QCM || Le fait social total, concept de Marcel Mauss, désigne || V:Un phénomène social qui met en branle la totalité d'une société et de ses institutions (dimensions économique, juridique, religieuse, etc.)|Un fait qui concerne tous les habitants d'un pays|Une statistique portant sur 100% de la population|Un fait divers relayé par tous les médias
+QCM || Parmi les propositions suivantes sur les lois d'Engel, laquelle est fausse ? || V:La part de la consommation en logement stagne quand le revenu augmente|La part de la consommation alimentaire diminue quand le revenu augmente|La part de la consommation de vêtements augmente quand le revenu augmente|La part de la consommation en santé augmente quand le revenu augmente
+QCM || Selon les lois d'Engel, quand le revenu d'un ménage augmente || V:La part du budget consacrée à l'alimentation diminue (même si les dépenses absolues augmentent)|La part du budget consacrée à l'alimentation reste constante quel que soit le revenu|Les ménages arrêtent de consommer des biens de luxe|La part du budget consacrée au logement augmente fortement
+VF  || La part de la consommation alimentaire dans le budget d'un ménage augmente quand son revenu augmente. || F || Selon la loi d'Engel, la part de l'alimentation dans le budget diminue quand le revenu augmente.
+
+---
+
+### === SOCIO6-I-1b : Adam Smith — économie politique et marché ===
+### "La naissance de l'économie comme science"
+@add-theme: Adam Smith, Économie politique, Marché
+
+QCM || Selon Adam Smith, le marché joue un rôle économique important car || V:Il permet d'aligner prix de marché et prix naturel — la main invisible transforme les intérêts individuels en intérêt général|L'offre crée la demande selon la loi des débouchés|La hausse de la taille du marché entraîne la division du travail|Le marché permet une redistribution sociale optimale
+QCM || La « main invisible » d'Adam Smith désigne || V:Le mécanisme spontané par lequel la somme des intérêts individuels égoïstes produit l'intérêt général via le marché|Une intervention discrète de l'État dans l'économie pour réguler les abus|La solidarité naturelle entre producteurs concurrents|La main-d'œuvre invisible dans l'économie souterraine
+QCM || Pour Adam Smith, l'homo economicus est || V:Un individu rationnel qui maximise son intérêt personnel, libéré de liens sociaux traditionnels|Un individu entièrement déterminé par son milieu social|Un individu altruiste qui maximise le bien commun|Un concept de Durkheim pour désigner l'agent économique moyen
+
+---
+
+### === SOCIO6-I-2a : Viviana Zelizer — marchés et morale ===
+### "Les conditions sociales du développement des marchés"
+@add-theme: Zelizer, Marchés, Morale
+
+QCM || Dans « Morals and markets : Life Insurance in the United States », Viviana Zelizer montre que || V:Même si les conditions économiques sont réunies, le marché ne peut pas se développer si les conditions sociales ne lui sont pas favorables|Pour se développer, le marché doit s'opposer aux tabous moraux et religieux|Le marché n'a pas besoin d'être économiquement utile pour se développer|Il n'est pas possible d'empêcher le développement d'un marché une fois les conditions économiques réunies
+VF  || Pour Zelizer, les conditions sociales et morales sont indifférentes au développement des marchés. || F || Elle montre au contraire que les marchés ne peuvent se développer que si les conditions sociales (acceptation morale, culturelle) leur sont favorables.
 
 ---
 
@@ -165,136 +181,97 @@ QCM || Le fait social total, concept de Marcel Mauss, désigne || V:Un phénomè
 ### "De l'économie politique à la sociologie économique"
 @add-theme: Sociologie économique, Naissance
 
-QCM || La sociologie économique est née en réaction contre || V:La trop grande abstraction de la science économique, qui sépare l'étude des phénomènes économiques de l'influence des autres domaines du monde social|La révolution marginaliste|L'instauration d'un Prix Nobel d'économie|La domination de la sociologie française
-
-VF  || Durkheim souhaitait que la sociologie remplace l'économie dans l'étude des phénomènes économiques. || V || Durkheim voulait absorber l'économie dans la sociologie économique, contrairement à Weber qui préférait les étudier séparément.
-
-QCM || Selon la sociologie économique, les faits économiques || V:Sont des faits sociaux et ne peuvent pas être étudiés séparément des autres faits sociaux qui les influencent|Obéissent à des lois purement naturelles indépendantes du contexte social|Peuvent être réduits à des comportements individuels rationnels|N'ont aucun lien avec les institutions sociales
-
-QCM || Durkheim se réclame de l'héritage intellectuel de || V:Auguste Comte|Claude-Henri de Saint-Simon|Karl Marx|Joseph Schumpeter
-
-VF  || Toute société humaine est nécessairement une société économique. || V || Aucune société ne peut survivre sans une activité économique pour assurer sa subsistance (loi naturelle selon Marx et Polanyi).
+QCM || La sociologie économique est née en réaction contre || V:La trop grande abstraction de la science économique, qui étudie les faits économiques séparément des autres faits sociaux|La révolution marginaliste qui contestait l'économie classique|La domination de la sociologie française sur l'économie|L'instauration d'un Prix Nobel d'économie en 1969
+QCM || Selon la sociologie économique, les faits économiques || V:Sont des faits sociaux et ne peuvent pas être correctement compris en dehors de leur contexte social|Obéissent à des lois purement naturelles indépendantes du contexte social|Peuvent être réduits à des comportements individuels rationnels|N'ont aucun lien avec les institutions sociales ou politiques
+VF  || Durkheim souhaitait que la sociologie absorbe l'économie dans son champ d'étude. || V || Durkheim fondera en 1898 « L'Année sociologique » avec une rubrique de sociologie économique, visant à traiter les faits économiques comme des faits sociaux.
+QCM || Toute société humaine est nécessairement une société économique car || V:Aucune société ne peut survivre sans une activité économique pour assurer sa subsistance (loi naturelle)|L'économie de marché est la forme naturelle d'organisation de toute société|Les marchés ont toujours existé sous une forme ou une autre|La maximisation de l'intérêt individuel est universelle et naturelle
+VF  || Le terme « économique » (oikos + nomos) vient de Xénophon et désignait la gestion du domaine domestique. || V || Xénophon, contemporain de Platon, utilisait « oïkos » (maison) et « nomos » (loi/administration) pour désigner la gestion des domaines.
 
 ---
 
 ### === SOCIO7-I-2a : Polanyi — encastrement et sophisme économiciste ===
-### "L'économie encastrée dans le social"
+### "L'économie encastrée dans la vie sociale"
 @add-theme: Sociologie économique, Polanyi, Encastrement
 
-QCM || Karl Polanyi dénonce comme « sophisme économiciste » le fait d'affirmer que || V:Il n'y a économie que là où le marché organise la production et la répartition des richesses produites|L'offre égale nécessairement la demande|La libre concurrence maximise nécessairement le bien-être dans toute l'économie|La force de travail a un prix
-
-QCM || Le concept d'« encastrement » (embeddedness) chez Polanyi signifie || V:La subordination de l'activité économique à des impératifs sociaux qui la déterminent|L'autonomie du marché par rapport au reste de la vie sociale|La limitation voire l'absence de comportements maximisateurs|Le sentiment de se sentir appartenir au groupe
-
-QCM || Selon Polanyi, les « marchandises fictives » caractéristiques d'une économie de marché sont || V:La terre, le travail et la monnaie|Le blé, le pétrole et l'or|La propriété, le capital et le profit|Les biens publics, les externalités et les biens communs
-
+QCM || Karl Polanyi dénonce comme « sophisme économiciste » le fait d'affirmer que || V:Il n'y a économie que là où le marché organise la production et la répartition des richesses|L'offre égale nécessairement la demande sur un marché en équilibre|La libre concurrence maximise toujours le bien-être dans une économie|La force de travail a nécessairement un prix de marché
+QCM || Le concept d'« encastrement » (embeddedness) chez Polanyi signifie || V:La subordination de l'activité économique à des impératifs sociaux : l'économie est déterminée par les relations sociales|L'autonomie du marché par rapport au reste de la vie sociale|L'absence de comportements maximisateurs dans les sociétés traditionnelles|Le sentiment d'appartenance à un groupe social
+QCM || Dans « La Grande Transformation » (1944), Karl Polanyi distingue 4 régimes institutionnels de régulation des activités économiques. Lesquels ? || V:La symétrie, la centralité, l'autarcie et le marché|Le don, le communisme, l'autarcie et le marché|L'égalitarisme, le totalitarisme, l'individualisme et la décentralisation|L'économie circulaire, la dictature, la concurrence et le marché
+QCM || Selon Karl Polanyi, quelles sont les causes de la « grande transformation » ? || V:L'unification du modèle de marché et l'émancipation des marchés vis-à-vis des régulations sociales|L'extension du domaine du marché à tous les secteurs|L'encastrement du marché dans les institutions sociales|La mondialisation des marchés financiers au XXe siècle
+QCM || La « symétrie » comme principe institutionnel chez Polanyi permet || V:La réciprocité : une organisation sociale duale facilite les échanges de dons et contre-dons entre groupes symétriques|La centralisation des ressources dans les mains du chef|L'accumulation individuelle du capital|L'émergence d'un marché concurrentiel autorégulateur
+QCM || La « centralité » comme principe institutionnel chez Polanyi permet || V:La redistribution : les ressources convergent vers un centre (chef, État) qui les redistribue ensuite|La réciprocité entre groupes symétriques|L'autarcie des unités domestiques|Le fonctionnement du marché autorégulateur
 VF  || Pour Polanyi, le marché est une institution historique récente et non une forme naturelle et universelle d'organisation économique. || V || Le marché autorégulateur est apparu au XIXe siècle et n'a pas toujours existé sous cette forme.
-
-QCM || Parmi les principes de comportement et les modèles institutionnels dégagés par Polanyi pour les économies non marchandes, on trouve || V:La redistribution et la réciprocité|La concurrence et le profit|L'offre et la demande|La maximisation et l'utilité marginale
-
-QCM || La symétrie, comme principe institutionnel chez Polanyi, permet || V:La réciprocité : une organisation sociale duale facilite l'appariement des échanges sous forme de don/contre-don|La centralisation du pouvoir politique|L'accumulation du capital|L'émergence du marché concurrentiel
-
-QCM || Avant l'apparition de l'économie de marché, les marchés dans les sociétés traditionnelles étaient || V:À la marge de l'essentiel de l'activité économique de la société|Inexistants|Locaux uniquement|Non compétitifs mais très nombreux
+QCM || Selon Polanyi, dans les sociétés des îles Trobriand, on observe || V:L'absence du mobile du gain individuel, de l'idée d'un travail rémunéré au moindre effort et de toute institution séparée fonctionnant selon les principes du marché|Une économie de troc simple sans aucune forme d'échange rituel|Une organisation de marché primitive mais identique à celle des sociétés modernes|Une redistribution centralisée par un État souverain
 
 ---
 
-### === SOCIO7-I-3a : Marcel Mauss — le don ===
-### "Le don comme fait social total et agonistique"
+### === SOCIO7-I-3a : Marcel Mauss — le don comme fait social total ===
+### "Le don : obligation de donner, recevoir, rendre"
 @add-theme: Sociologie économique, Mauss, Don
 
-QCM || Dans son « Essai sur le don » (1925), Marcel Mauss montre que le don || V:Est un échange-don agonistique : il crée l'obligation de rendre, en plus grande quantité, et constitue un fait social total|Est un acte purement gratuit et désintéressé|Est une pratique exclusivement moderne|Ne crée aucune obligation entre donneur et receveur
-
-QCM || Pour Marcel Mauss, le don est une pratique || V:Agonistique : basée sur la générosité mais créant une obligation de rendre en plus grand|Marchande : reposant sur l'équivalence des échanges|Non-marchande : sans aucune contrepartie attendue|Non-agonistique : pacifique et sans rivalité
-
-VF  || Selon Mauss, le don n'est jamais un acte totalement gratuit : il crée une obligation de rendre. || V || L'obligation de rendre, souvent en proportion plus importante, est au cœur de la logique du don.
-
-QCM || Le Potlatch, étudié par Mauss et Veblen, désigne en anthropologie || V:Une cérémonie rituelle où des chefs de clans offrent des présents ou détruisent des biens pour affirmer leur supériorité sociale|Un acte de don de biens|Un acte de destruction de biens|Un acte de troc
+QCM || Dans son « Essai sur le don » (1925), Marcel Mauss montre que le don || V:Est un fait social total qui crée une obligation de rendre, souvent en proportion plus importante (don agonistique)|Est un acte purement gratuit et désintéressé sans aucune contrepartie attendue|Est une pratique exclusivement moderne liée à l'économie de marché|Ne crée aucune obligation entre donneur et receveur
+QCM || Selon Mauss, le système du potlatch constitue || V:Un don agonistique et un système de lutte sociale (les chefs rivalisent en offrant ou détruisant des biens pour affirmer leur supériorité)|Un don non-agonistique basé sur l'entraide et la réciprocité pacifique|Un régime de marché informel basé sur le troc|Un don désintéressé sans recherche de statut social
+VF  || Le don, selon Mauss, n'est jamais un acte totalement gratuit : il crée une obligation de rendre. || V || L'obligation de rendre — souvent en proportion plus importante — est au cœur de la logique du don et lie le donneur et le receveur dans une relation sociale durable.
+QCM || Le fait social total, concept de Marcel Mauss, désigne || V:Un phénomène social qui mobilise simultanément toutes les dimensions d'une société (économique, juridique, religieuse, esthétique...)|Un fait qui concerne la totalité des membres d'une société|Une statistique portant sur 100 % de la population|Un événement médiatique relayé par tous les médias simultanément
 
 ---
 
 ### === SOCIO7-I-4a : Veblen — consommation ostentatoire ===
-### "La classe de loisirs et le gaspillage ostentatoire"
+### "La classe de loisir et le gaspillage ostentatoire"
 @add-theme: Sociologie économique, Veblen, Consommation ostentatoire
 
-QCM || La « consommation ostentatoire » chez Thorstein Veblen peut être définie comme || V:Une consommation consistant en l'achat de signes sociaux pour affirmer une supériorité sociale|Est avant tout une consommation utilitaire|Est synonyme de « gâchis ostentatoire »|Sert à indiquer l'appartenance du consommateur à la « classe de loisir »
-
+QCM || La « consommation ostentatoire » chez Thorstein Veblen désigne || V:Une consommation fondée sur l'achat de signes sociaux pour affirmer une supériorité sociale, indépendamment de l'utilité des biens|Une consommation utilitaire rationnelle visant à satisfaire des besoins réels|Une consommation impulsive liée aux émotions et aux affects|Une consommation collective organisée par des institutions sociales
 QCM || Veblen introduit la notion de consommation ostentatoire dans || V:La Théorie de la classe de loisirs|La Grande Transformation|L'Essai sur le don|La Richesse des nations
-
-VF  || L'effet Veblen (snobisme) désigne un comportement où la demande d'un bien augmente lorsque son prix baisse. || F || C'est l'inverse : plus le prix est élevé, plus la demande est forte, car le prix élevé est lui-même un signal de distinction sociale.
-
-QCM || Selon Veblen, la « classe de loisirs » se caractérise principalement par || V:La consommation improductive du temps, montrant une capacité pécuniaire à s'offrir une vie d'oisiveté|Un refus total de toute activité économique|Un engagement politique fort|Une solidarité avec les classes populaires
-
-QCM || Pour Veblen, les objets de consommation ostentatoire || V:Ne sont jamais purement futiles ou utiles : les deux fonctions de visibilité et d'utilité sont indissociables|Sont toujours uniquement utilitaires|N'ont aucune valeur d'usage|Sont réservés aux sociétés primitives
+VF  || Selon Veblen, les objets de consommation ont deux fonctions indissociables : la visibilité sociale et l'utilité. || V || « Les objets de consommation ne sont jamais purement futiles ou utiles ; les deux fonctions de visibilité et d'utilité sont retrouvées. »
+QCM || L'effet snobisme, lié à la consommation ostentatoire, signifie que || V:Plus le prix d'une marchandise est élevé, plus on en demande — son prix traduit un statut social supérieur|Plus le prix d'une marchandise baisse, plus on en demande|L'effet de mode conduit à une consommation irrationnelle de masse|La consommation collective exclut les individus aux revenus modestes
 
 ---
 
-### === SOCIO7-I-5a : Adam Smith et la naissance de l'économie politique ===
-### "Main invisible et individualisme méthodologique"
-@add-theme: Sociologie économique, Adam Smith, Économie politique
-
-QCM || Aristote appelle « mauvaise chrématistique » || V:L'activité commerciale consistant à rechercher l'enrichissement pour l'enrichissement|Le fait de mal gérer son domaine|Le fait de ne pas respecter des obligations de paiement|Une mauvaise décision d'investissement
-
-QCM || La « main invisible » d'Adam Smith désigne || V:Le mécanisme par lequel la poursuite de l'intérêt individuel produit spontanément l'intérêt général via le marché|Une forme d'intervention discrète de l'État|La solidarité naturelle entre individus|Le rôle des syndicats dans la régulation des marchés
-
-VF  || Adam Smith est le premier à avoir utilisé le terme « économie politique ». || F || C'est Antoine de Montchrestien (mercantiliste) qui l'a utilisé le premier ; Smith l'a popularisé dans « La Richesse des nations ».
-
-QCM || L'individualisme méthodologique, mis en avant notamment par Smith et Weber, consiste à || V:Expliquer les phénomènes collectifs à partir des actions et motivations individuelles|Étudier chaque individu de façon isolée, sans tenir compte du social|Nier l'existence de contraintes sociales|Considérer que la société prime toujours sur l'individu
-
----
-
-### === SOCIO7-I-6a : Mandeville — la fable des abeilles ===
+### === SOCIO7-I-5a : Mandeville — la fable des abeilles ===
 ### "Les vices privés font la vertu publique"
 @add-theme: Sociologie économique, Mandeville, Fable des abeilles
 
-QCM || Dans « La Fable des abeilles » (1705, publiée 1714), Bernard Mandeville soutient que || V:Les vices privés (égoïsme, luxe, vanité) font la vertu publique (la prospérité collective)|L'altruisme est le fondement de la richesse des nations|La frugalité est la condition du progrès économique|L'État doit réguler tous les comportements individuels
-
-VF  || Adam Smith a repris les idées de Mandeville dans son concept de « main invisible », en remplaçant le mot « vice » par « self-love » (amour de soi). || V || Smith critique superficiellement Mandeville mais reprend son idée centrale : la poursuite de l'intérêt individuel produit le bien commun.
-
-QCM || La « main invisible » d'Adam Smith désigne || V:Le mécanisme spontané par lequel la somme des intérêts individuels égoïstes produit l'intérêt général via le marché|Une intervention discrète de l'État dans l'économie|La solidarité naturelle entre producteurs|La main-d'œuvre invisible dans l'économie souterraine
-
-QCM || L'homo economicus est || V:Un individu fictif, rationnel, maximisant son intérêt personnel, libéré de tout lien social — modèle de base de l'économie néoclassique|Un individu réel typique des sociétés modernes|Un concept de Durkheim|Un individu entièrement déterminé par son milieu social
-
-VF  || La sociologie économique critique le modèle de l'homo economicus car il ignore le fait que les individus sont encastrés dans des relations sociales. || V || Granovetter et Polanyi notamment montrent que les comportements économiques ne se réduisent pas à la maximisation d'un intérêt individuel isolé.
+QCM || Dans « La Fable des abeilles » (1705, publiée officiellement 1714), Bernard Mandeville soutient que || V:Les vices privés (égoïsme, luxe, vanité) font la vertu publique : l'intérêt égoïste de chacun produit la prospérité collective|L'altruisme et la frugalité sont le fondement de la richesse des nations|Les vices doivent être supprimés par l'État pour que la ruche prospère|La société prospère grâce à la vertu morale de ses membres
+VF  || Adam Smith a repris les idées de Mandeville dans son concept de « main invisible », en remplaçant le mot « vice » par « self-love » (amour de soi). || V || Smith critique superficiellement Mandeville dans la « Théorie des sentiments moraux » mais reprend son idée centrale avec un vocabulaire plus acceptable.
+VF  || Berkeley qualifie « La Fable des abeilles » de Mandeville de « texte le plus méchant ayant jamais existé ». || V || Ce texte fut très controversé et fut même condamné à être brûlé car il légitimait les vices comme moteurs de la prospérité.
 
 ---
 
-### === SOCIO7-I-7a : Heilbroner — les trois solutions économiques ===
+### === SOCIO7-I-6a : Heilbroner — les trois solutions économiques ===
 ### "Tradition, direction centralisée, marché"
 @add-theme: Sociologie économique, Heilbroner, Formes d'économie
 
-QCM || Robert Heilbroner distingue trois solutions au problème de la survie économique d'une société. Laquelle est correcte ? || V:La tradition (transmission héréditaire des rôles), la direction centralisée (autorité qui répartit), le marché (individus libres et concurrence)|La chasse, l'agriculture, l'industrie|Le troc, la monnaie, le crédit|La famille, l'État, le marché
-
-QCM || Selon Heilbroner, dans une économie organisée par la « tradition » || V:Les fonctions économiques sont transmises de génération en génération selon les coutumes (ex : chacun reprend le métier de son père)|Le marché fixe les prix et les salaires|Un État centralisé répartit les ressources|Chaque individu maximise librement son profit
-
-QCM || Dans une économie à « direction centralisée » selon Heilbroner || V:Une autorité (chef, État, planificateur) décide de l'organisation et de la répartition sans recours au marché|Les individus sont libres de vendre et acheter|Les prix sont fixés par l'offre et la demande|Les traditions ancestrales guident les échanges
-
-VF  || Le marché, selon Heilbroner, est une solution historiquement récente et non universelle au problème économique. || V || La plupart des sociétés humaines ont fonctionné selon la tradition ou la direction centralisée, et non selon le marché.
+QCM || Robert Heilbroner distingue trois solutions au problème de la survie économique d'une société. Laquelle de ces listes est correcte ? || V:La tradition (transmission héréditaire des rôles), la direction centralisée (autorité qui fixe les termes), le marché (individu libre et concurrence)|La chasse, l'agriculture et l'industrie|Le troc, la monnaie et le crédit|La famille, l'État et le marché
+QCM || Selon Heilbroner, dans une économie organisée par la « tradition » || V:Les fonctions économiques sont transmises de génération en génération selon les coutumes (ex. : chacun reprend le métier de son père)|Le marché fixe librement les prix et les salaires|Une autorité centrale décide de l'organisation et de la répartition|Chaque individu maximise librement son profit personnel
+QCM || Dans une économie à « direction centralisée » selon Heilbroner || V:Une autorité (chef, État, planificateur) décide de l'organisation et de la répartition sans recours au marché|Les individus sont formellement libres de vendre et acheter comme ils le souhaitent|Les prix sont fixés par l'offre et la demande en concurrence|Les traditions ancestrales guident les échanges entre individus
+VF  || Le marché, selon Heilbroner, est une solution historiquement récente et non universelle au problème économique. || V || La plupart des sociétés humaines ont fonctionné selon la tradition ou la direction centralisée ; le marché est une institution historique récente.
 
 ---
 
-### === SOCIO7-I-8a : Tönnies, Granovetter, Norbert Elias ===
-### "Communauté/société, ré-encastrement, processus de civilisation"
-@add-theme: Sociologie économique, Tönnies, Granovetter, Elias
+### === SOCIO7-I-7a : Tönnies et Granovetter ===
+### "Communauté/société et nouvelle sociologie économique"
+@add-theme: Sociologie économique, Tönnies, Granovetter, NSE
 
-QCM || Ferdinand Tönnies distingue « communauté » (Gemeinschaft) et « société » (Gesellschaft). La communauté se caractérise par || V:Des liens organiques où les parties n'existent que pour le tout, fondés sur la solidarité naturelle (famille, village)|Des relations contractuelles et individuelles fondées sur l'intérêt|L'anonymat et la liberté individuelle|La compétition économique entre membres
-
-QCM || Selon Tönnies, la « société » (Gesellschaft) se caractérise par || V:Des liens formels et contractuels, où les individus sont réunis par l'intérêt mutuel mais sans solidarité organique|Des liens fondés sur le sang et la tradition|L'absence de tout contrat ou accord formel|Une solidarité mécanique au sens de Durkheim
-
-QCM || Le concept de « ré-encastrement » chez Mark Granovetter (Nouvelle Sociologie Économique) désigne || V:La nécessité de réinscrire l'analyse des comportements économiques dans le contexte des relations sociales concrètes|La dissolution des liens sociaux dans l'économie de marché|Le retour au marché après une période de planification|L'encastrement des travailleurs dans les entreprises
-
-VF  || La Nouvelle Sociologie Économique (NSE), dont Granovetter est l'un des fondateurs, vise à réinsérer l'analyse économique dans son contexte social, en reprenant le projet des fondateurs de la sociologie. || V || Après une période (1920–1970) de séparation entre économistes et sociologues, la NSE renoue avec la volonté initiale d'expliquer les phénomènes économiques par des facteurs sociaux.
-
-QCM || Norbert Elias, dans « Le Processus de civilisation », montre que l'évolution des bonnes manières et des pratiques sociales (règles de politesse, tabous) || V:Est liée à la constitution économique de grands États et découle de processus de civilisation, notamment la différenciation aristocratique|Est purement biologique et génétique|Est indépendante de tout contexte économique|A été imposée par l'Église catholique
+QCM || Ferdinand Tönnies distingue « communauté » (Gemeinschaft) et « société » (Gesellschaft). La communauté se caractérise par || V:Des liens organiques où les parties n'existent que pour le tout, fondés sur la solidarité naturelle (famille, village)|Des relations contractuelles et individuelles fondées sur l'intérêt mutuel|L'anonymat et la liberté individuelle caractéristiques des sociétés modernes|La compétition économique entre membres indépendants
+QCM || Selon Tönnies, la « société » (Gesellschaft) se caractérise par || V:Des liens formels et contractuels où les individus sont réunis par l'intérêt mais sans solidarité organique|Des liens fondés sur le sang et la tradition ancestrale|Une solidarité mécanique au sens de Durkheim|Une forte intégration organique des parties dans le tout
+QCM || Le concept de « ré-encastrement » chez Mark Granovetter (Nouvelle Sociologie Économique) désigne || V:La nécessité de réinscrire l'analyse des comportements économiques dans le contexte des relations sociales concrètes|La dissolution des liens sociaux dans l'économie de marché globalisée|Le retour à une économie planifiée après une période de marché libre|L'encastrement des travailleurs dans les structures de l'entreprise
+VF  || La Nouvelle Sociologie Économique (NSE) de Granovetter renoue, après 1970, avec la volonté initiale des fondateurs de la sociologie d'expliquer les phénomènes économiques par des facteurs sociaux. || V || Pendant la période 1920-1970, économistes et sociologues travaillaient séparément ; après 1970, les sociologues revendiquent une meilleure capacité à expliquer les phénomènes économiques.
 
 ---
 
-### === SOCIO7-I-9a : Commerce Kula et économies non marchandes ===
-### "Échanges sans marché : le cas des îles Trobriand"
+### === SOCIO7-I-7b : Norbert Elias — le processus de civilisation ===
+### "Raffinement des pratiques et constitution des États"
+@add-theme: Sociologie économique, Elias, Processus de civilisation
+
+QCM || Norbert Elias, dans « Le Processus de civilisation », montre que le raffinement progressif des pratiques sociales (bonnes manières, règles de politesse) est lié à || V:La constitution économique de grands États et découle de processus de civilisation liés à la différenciation aristocratique|Des changements biologiques et génétiques de l'espèce humaine|Des injonctions religieuses imposées par l'Église catholique|L'émergence de la société de consommation au XIXe siècle
+VF  || Pour Elias, l'évolution des bonnes manières est indépendante de tout contexte économique et politique. || F || Elias montre au contraire que le raffinement des pratiques est directement lié à la constitution économique des grands États et aux processus de différenciation sociale.
+
+---
+
+### === SOCIO7-I-8a : Commerce Kula et économies non marchandes ===
+### "Échanges rituels sans profit : les îles Trobriand"
 @add-theme: Sociologie économique, Malinowski, Commerce Kula
 
-QCM || Le « commerce kula », étudié par Bronisław Malinowski dans les îles Trobriand, est un système d'échange || V:Non marchand, fondé sur des objets rituels sans valeur utilitaire (bracelets et colliers de coquillages), dont le but n'est pas le profit mais le lien social|Marchand, visant à maximiser le profit de chaque échangiste|Basé sur le troc de biens utilitaires (nourriture, outils)|Organisé par un État central qui redistribue les biens
-
-VF  || Dans le commerce kula, les objets échangés (bracelets de coquillages blancs et colliers de coquillages rouges) n'ont aucune valeur économique ni d'utilité pratique. || V || Leur valeur est purement symbolique et sociale : ils servent à créer et entretenir des liens entre individus de différentes îles.
-
-QCM || L'étude du commerce kula par Malinowski est considérée comme fondatrice de || V:L'anthropologie économique|La sociologie du travail|L'économie des marchés financiers|La théorie des jeux
-
-QCM || Les sociétés étudiées par Polanyi dans les îles Trobriand se caractérisent notamment par l'absence de || V:Mobile du gain individuel, de l'idée d'un travail rémunéré au moindre effort, et de toute institution séparée fonctionnant selon les principes du marché|Toute forme d'échange|Toute hiérarchie sociale|Toute division du travail
+QCM || Le « commerce kula », étudié par Bronisław Malinowski dans les îles Trobriand, est un système d'échange || V:Non marchand, fondé sur des objets rituels sans valeur utilitaire (bracelets et colliers de coquillages), dont le but est de créer et maintenir des liens sociaux et non de réaliser un profit|Marchand, visant à maximiser le profit de chaque échangiste|Basé sur le troc de biens utilitaires (nourriture, outils)|Organisé par une autorité centrale qui redistribue les biens collectés
+VF  || Dans le commerce kula, les objets échangés (bracelets de coquillages blancs et colliers de coquillages rouges) ont une forte valeur économique et utilitaire. || F || Ces objets n'ont aucune valeur économique ni utilité pratique ; leur valeur est purement symbolique et sociale.
+QCM || L'étude du commerce kula par Malinowski est considérée comme fondatrice de || V:L'anthropologie économique|La sociologie du travail|La théorie des marchés financiers|L'économie comportementale
+QCM || Selon Polanyi, dans les îles Trobriand, on observe deux types de comportements d'économie non marchande : || V:La réciprocité (dans l'espace de la famille/privé) et la redistribution (sur un caractère territorial autour du chef)|L'échange marchand et le troc|La planification centralisée et la tradition héréditaire|L'autarcie domestique et le commerce international
