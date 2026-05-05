@@ -7,6 +7,22 @@ import { simpleProgress } from '../database/SimpleProgress';
 import { shuffleArray } from '../shuffle';
 import type { Question } from '../types';
 
+// Bundler les fichiers .txt au build (évite fetch en production)
+const QUESTIONS_RAW = (import.meta as any).glob('../questions/**/*.txt', {
+  query: '?raw', import: 'default', eager: true
+}) as Record<string, string>;
+
+// Bundler les structures JSON
+const STRUCTURES_RAW = (import.meta as any).glob('../database/structures/*.json', {
+  eager: true
+}) as Record<string, any>;
+
+function getQuestionContent(viteAbsPath: string): string | null {
+  // '/src/questions/S2/SOCIO/...' -> '../questions/S2/SOCIO/...'
+  const rel = viteAbsPath.replace(/^\/src\/questions\//, '../questions/');
+  return QUESTIONS_RAW[rel] ?? null;
+}
+
 // ========================================
 // INTERFACES
 // ========================================
@@ -216,12 +232,11 @@ async function selectSubject(subjectId: string) {
 
 async function loadSubjectStructure(subjectId: string) {
   try {
-    // Charger la structure depuis le fichier JSON complete
-    const structureFile = `/src/database/structures/${subjectId}_complete.json`;
-    const response = await fetch(structureFile);
+    // Charger la structure depuis le bundle (import.meta.glob)
+    const structureKey = `../database/structures/${subjectId}_complete.json`;
+    const data = STRUCTURES_RAW[structureKey]?.default ?? STRUCTURES_RAW[structureKey];
 
-    if (response.ok) {
-      const data = await response.json();
+    if (data) {
       // Transformer la structure complete en format SubjectStructure
       currentStructure = {
         chapters: data.chapters.map((chap: any) => ({
@@ -275,13 +290,11 @@ async function loadQuestionsForSubject(subjectId: string) {
   }
   try {
     const filesToLoad = subject.files ?? (subject.file ? [subject.file] : []);
-    const texts = await Promise.all(
-      filesToLoad.map(async (f) => {
-        const resp = await fetch(f);
-        if (!resp.ok) throw new Error(`Fichier introuvable: ${f} (status: ${resp.status})`);
-        return resp.text();
-      })
-    );
+    const texts = filesToLoad.map(f => {
+      const content = getQuestionContent(f);
+      if (!content) throw new Error(`Fichier introuvable dans le bundle: ${f}`);
+      return content;
+    });
     const text = texts.join('\n\n');
     availableQuestions = parseText2Quiz(text);
     // Mettre à jour le compteur dans la carte
@@ -993,8 +1006,9 @@ async function startAdaptiveQuiz() {
   // Trier : score faible d'abord
   questionsWithScore.sort((a, b) => a.avgScore - b.avgScore);
 
-  // Prendre les 10 premières questions
-  const selectedQuestions = questionsWithScore.slice(0, 10).map(item => item.question);
+  // Prendre N questions selon le champ nb-questions
+  const nbQuestions = parseInt((document.getElementById('nb-questions') as HTMLInputElement).value) || 20;
+  const selectedQuestions = questionsWithScore.slice(0, nbQuestions).map(item => item.question);
   // Sauvegarder la config dans sessionStorage
   const config = {
     questions: selectedQuestions,
@@ -1040,8 +1054,9 @@ async function startReviewQuiz() {
     return;
   }
 
-  // Limiter à 10 questions max
-  const selectedQuestions = questions.slice(0, 10);
+  // Limiter selon le champ nb-questions
+  const nbQuestionsReview = parseInt((document.getElementById('nb-questions') as HTMLInputElement).value) || 20;
+  const selectedQuestions = questions.slice(0, nbQuestionsReview);
   // Sauvegarder la config dans sessionStorage
   const config = {
     questions: selectedQuestions,
