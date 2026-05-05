@@ -3,8 +3,8 @@
   "name": "Sociologie L1 S2",
   "version": "1.0",
   "structureType": "sequential",
-  "lastUpdate": "2025-01-01",
-  "description": "Sociologie L1 S2 : Durkheim, Weber, Bourdieu, socialisation, stratification, déviance, courants",
+  "lastUpdate": "2025-01-25",
+  "description": "Sociologie L1 S2 : Durkheim, Weber, Bourdieu, socialisation, stratification, déviance, courants, sociologie économique (Polanyi, Mauss, Veblen, Mandeville, Heilbroner, Tönnies, Granovetter, Elias)",
   "chapters": [
     {
       "id": "SOCIO1",
@@ -213,6 +213,105 @@
       ],
       "estimatedTime": 7,
       "icon": "🎭"
+    },
+    {
+      "id": "SOCIO7",
+      "number": "7",
+      "name": "Sociologie économique",
+      "description": "Naissance de la socio-éco, Polanyi, Mauss, Veblen, Smith, Mandeville, Heilbroner, Tönnies, Granovetter, Elias, Commerce Kula",
+      "sections": [
+        {
+          "id": "SOCIO7-I",
+          "romanNumeral": "I",
+          "name": "De l'économie politique à la sociologie économique",
+          "subsections": [
+            {
+              "id": "SOCIO7-I-1",
+              "number": "1",
+              "name": "Naissance de la sociologie économique",
+              "notions": [
+                {"id": "SOCIO7-I-1a", "name": "Naissance de la sociologie économique", "description": "Réaction à l'économie abstraite, Durkheim vs Weber, faits éco = faits sociaux, Comte, loi naturelle, Marx", "tags": ["Sociologie économique", "Naissance"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "SOCIO7-I-2",
+              "number": "2",
+              "name": "Polanyi — encastrement",
+              "notions": [
+                {"id": "SOCIO7-I-2a", "name": "Polanyi — Encastrement et sophisme économiciste", "description": "Encastrement (embeddedness), sophisme économiciste, marchandises fictives, réciprocité, redistribution, symétrie, îles Trobriand", "tags": ["Sociologie économique", "Polanyi", "Encastrement"], "difficulty": "Difficile", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            },
+            {
+              "id": "SOCIO7-I-3",
+              "number": "3",
+              "name": "Marcel Mauss — le don",
+              "notions": [
+                {"id": "SOCIO7-I-3a", "name": "Mauss — Le don comme fait social total", "description": "Don agonistique, obligation de rendre, fait social total, Potlatch", "tags": ["Sociologie économique", "Mauss", "Don"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            },
+            {
+              "id": "SOCIO7-I-4",
+              "number": "4",
+              "name": "Veblen — consommation ostentatoire",
+              "notions": [
+                {"id": "SOCIO7-I-4a", "name": "Veblen — Classe de loisirs et gaspillage ostentatoire", "description": "Consommation ostentatoire, gâchis ostentatoire, effet snobisme, classe de loisir, Théorie de la classe de loisirs", "tags": ["Sociologie économique", "Veblen", "Consommation ostentatoire"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "SOCIO7-I-5",
+              "number": "5",
+              "name": "Smith, Aristote et l'économie politique",
+              "notions": [
+                {"id": "SOCIO7-I-5a", "name": "Naissance de l'économie politique", "description": "Adam Smith, Aristote (oikos/nomos), mercantilisme, individualisme méthodologique, homo economicus, marché comme forme historique", "tags": ["Sociologie économique", "Smith", "Aristote"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "SOCIO7-I-6",
+              "number": "6",
+              "name": "Mandeville — la fable des abeilles",
+              "notions": [
+                {"id": "SOCIO7-I-6a", "name": "Mandeville — Vices privés, vertu publique", "description": "La Fable des abeilles (1714), vices privés = vertu publique, main invisible, homo economicus, critique de Smith", "tags": ["Sociologie économique", "Mandeville", "Fable des abeilles"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            },
+            {
+              "id": "SOCIO7-I-7",
+              "number": "7",
+              "name": "Heilbroner — les trois solutions économiques",
+              "notions": [
+                {"id": "SOCIO7-I-7a", "name": "Heilbroner — Tradition, direction centralisée, marché", "description": "3 solutions au problème économique : tradition (héréditaire), direction centralisée (autorité), marché (individu libre)", "tags": ["Sociologie économique", "Heilbroner", "Formes d'économie"], "difficulty": "Facile", "estimatedTime": 5}
+              ],
+              "estimatedTime": 5
+            },
+            {
+              "id": "SOCIO7-I-8",
+              "number": "8",
+              "name": "Tönnies, Granovetter, Norbert Elias",
+              "notions": [
+                {"id": "SOCIO7-I-8a", "name": "Communauté/société, NSE, processus de civilisation", "description": "Tönnies (Gemeinschaft/Gesellschaft), Granovetter (ré-encastrement, NSE 1970+), Norbert Elias (processus de civilisation, grands États)", "tags": ["Sociologie économique", "Tönnies", "Granovetter", "Elias"], "difficulty": "Difficile", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            },
+            {
+              "id": "SOCIO7-I-9",
+              "number": "9",
+              "name": "Commerce Kula et économies non marchandes",
+              "notions": [
+                {"id": "SOCIO7-I-9a", "name": "Commerce Kula — Malinowski", "description": "Îles Trobriand, commerce kula (bracelets/colliers coquillages), sans profit ni utilité, anthropologie économique, absence d'homo economicus", "tags": ["Sociologie économique", "Malinowski", "Commerce Kula"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            }
+          ],
+          "estimatedTime": 61
+        }
+      ],
+      "estimatedTime": 61,
+      "icon": "💰"
     }
   ]
 }

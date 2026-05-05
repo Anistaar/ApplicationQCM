@@ -158,3 +158,143 @@ QCM || Simone de Beauvoir, dans « Le Deuxième Sexe », a écrit || V:« On ne 
 QCM || La socialisation anticipatrice (Robert K. Merton) désigne || V:Le processus par lequel un individu adopte par avance les normes et valeurs d'un groupe qu'il aspire à rejoindre|Un type de socialisation qui commence avant la naissance|La socialisation imposée par État|L'oubli des normes apprises pendant l'enfance
 VF  || Selon Richard Hoggart (La culture du pauvre), un enfant boursier issu des classes populaires peut vivre un conflit entre la culture scolaire et sa culture familiale d'origine. || V || Il est tiraillé entre deux univers culturels aux codes différents.
 QCM || Le fait social total, concept de Marcel Mauss, désigne || V:Un phénomène social qui met en branle la totalité d'une société et de ses institutions (dimensions économique, juridique, religieuse, etc.)|Un fait qui concerne tous les habitants d'un pays|Une statistique portant sur 100% de la population|Un fait divers relayé par tous les médias
+
+---
+
+### === SOCIO7-I-1a : Naissance de la sociologie économique ===
+### "De l'économie politique à la sociologie économique"
+@add-theme: Sociologie économique, Naissance
+
+QCM || La sociologie économique est née en réaction contre || V:La trop grande abstraction de la science économique, qui sépare l'étude des phénomènes économiques de l'influence des autres domaines du monde social|La révolution marginaliste|L'instauration d'un Prix Nobel d'économie|La domination de la sociologie française
+
+VF  || Durkheim souhaitait que la sociologie remplace l'économie dans l'étude des phénomènes économiques. || V || Durkheim voulait absorber l'économie dans la sociologie économique, contrairement à Weber qui préférait les étudier séparément.
+
+QCM || Selon la sociologie économique, les faits économiques || V:Sont des faits sociaux et ne peuvent pas être étudiés séparément des autres faits sociaux qui les influencent|Obéissent à des lois purement naturelles indépendantes du contexte social|Peuvent être réduits à des comportements individuels rationnels|N'ont aucun lien avec les institutions sociales
+
+QCM || Durkheim se réclame de l'héritage intellectuel de || V:Auguste Comte|Claude-Henri de Saint-Simon|Karl Marx|Joseph Schumpeter
+
+VF  || Toute société humaine est nécessairement une société économique. || V || Aucune société ne peut survivre sans une activité économique pour assurer sa subsistance (loi naturelle selon Marx et Polanyi).
+
+---
+
+### === SOCIO7-I-2a : Polanyi — encastrement et sophisme économiciste ===
+### "L'économie encastrée dans le social"
+@add-theme: Sociologie économique, Polanyi, Encastrement
+
+QCM || Karl Polanyi dénonce comme « sophisme économiciste » le fait d'affirmer que || V:Il n'y a économie que là où le marché organise la production et la répartition des richesses produites|L'offre égale nécessairement la demande|La libre concurrence maximise nécessairement le bien-être dans toute l'économie|La force de travail a un prix
+
+QCM || Le concept d'« encastrement » (embeddedness) chez Polanyi signifie || V:La subordination de l'activité économique à des impératifs sociaux qui la déterminent|L'autonomie du marché par rapport au reste de la vie sociale|La limitation voire l'absence de comportements maximisateurs|Le sentiment de se sentir appartenir au groupe
+
+QCM || Selon Polanyi, les « marchandises fictives » caractéristiques d'une économie de marché sont || V:La terre, le travail et la monnaie|Le blé, le pétrole et l'or|La propriété, le capital et le profit|Les biens publics, les externalités et les biens communs
+
+VF  || Pour Polanyi, le marché est une institution historique récente et non une forme naturelle et universelle d'organisation économique. || V || Le marché autorégulateur est apparu au XIXe siècle et n'a pas toujours existé sous cette forme.
+
+QCM || Parmi les principes de comportement et les modèles institutionnels dégagés par Polanyi pour les économies non marchandes, on trouve || V:La redistribution et la réciprocité|La concurrence et le profit|L'offre et la demande|La maximisation et l'utilité marginale
+
+QCM || La symétrie, comme principe institutionnel chez Polanyi, permet || V:La réciprocité : une organisation sociale duale facilite l'appariement des échanges sous forme de don/contre-don|La centralisation du pouvoir politique|L'accumulation du capital|L'émergence du marché concurrentiel
+
+QCM || Avant l'apparition de l'économie de marché, les marchés dans les sociétés traditionnelles étaient || V:À la marge de l'essentiel de l'activité économique de la société|Inexistants|Locaux uniquement|Non compétitifs mais très nombreux
+
+---
+
+### === SOCIO7-I-3a : Marcel Mauss — le don ===
+### "Le don comme fait social total et agonistique"
+@add-theme: Sociologie économique, Mauss, Don
+
+QCM || Dans son « Essai sur le don » (1925), Marcel Mauss montre que le don || V:Est un échange-don agonistique : il crée l'obligation de rendre, en plus grande quantité, et constitue un fait social total|Est un acte purement gratuit et désintéressé|Est une pratique exclusivement moderne|Ne crée aucune obligation entre donneur et receveur
+
+QCM || Pour Marcel Mauss, le don est une pratique || V:Agonistique : basée sur la générosité mais créant une obligation de rendre en plus grand|Marchande : reposant sur l'équivalence des échanges|Non-marchande : sans aucune contrepartie attendue|Non-agonistique : pacifique et sans rivalité
+
+VF  || Selon Mauss, le don n'est jamais un acte totalement gratuit : il crée une obligation de rendre. || V || L'obligation de rendre, souvent en proportion plus importante, est au cœur de la logique du don.
+
+QCM || Le Potlatch, étudié par Mauss et Veblen, désigne en anthropologie || V:Une cérémonie rituelle où des chefs de clans offrent des présents ou détruisent des biens pour affirmer leur supériorité sociale|Un acte de don de biens|Un acte de destruction de biens|Un acte de troc
+
+---
+
+### === SOCIO7-I-4a : Veblen — consommation ostentatoire ===
+### "La classe de loisirs et le gaspillage ostentatoire"
+@add-theme: Sociologie économique, Veblen, Consommation ostentatoire
+
+QCM || La « consommation ostentatoire » chez Thorstein Veblen peut être définie comme || V:Une consommation consistant en l'achat de signes sociaux pour affirmer une supériorité sociale|Est avant tout une consommation utilitaire|Est synonyme de « gâchis ostentatoire »|Sert à indiquer l'appartenance du consommateur à la « classe de loisir »
+
+QCM || Veblen introduit la notion de consommation ostentatoire dans || V:La Théorie de la classe de loisirs|La Grande Transformation|L'Essai sur le don|La Richesse des nations
+
+VF  || L'effet Veblen (snobisme) désigne un comportement où la demande d'un bien augmente lorsque son prix baisse. || F || C'est l'inverse : plus le prix est élevé, plus la demande est forte, car le prix élevé est lui-même un signal de distinction sociale.
+
+QCM || Selon Veblen, la « classe de loisirs » se caractérise principalement par || V:La consommation improductive du temps, montrant une capacité pécuniaire à s'offrir une vie d'oisiveté|Un refus total de toute activité économique|Un engagement politique fort|Une solidarité avec les classes populaires
+
+QCM || Pour Veblen, les objets de consommation ostentatoire || V:Ne sont jamais purement futiles ou utiles : les deux fonctions de visibilité et d'utilité sont indissociables|Sont toujours uniquement utilitaires|N'ont aucune valeur d'usage|Sont réservés aux sociétés primitives
+
+---
+
+### === SOCIO7-I-5a : Adam Smith et la naissance de l'économie politique ===
+### "Main invisible et individualisme méthodologique"
+@add-theme: Sociologie économique, Adam Smith, Économie politique
+
+QCM || Aristote appelle « mauvaise chrématistique » || V:L'activité commerciale consistant à rechercher l'enrichissement pour l'enrichissement|Le fait de mal gérer son domaine|Le fait de ne pas respecter des obligations de paiement|Une mauvaise décision d'investissement
+
+QCM || La « main invisible » d'Adam Smith désigne || V:Le mécanisme par lequel la poursuite de l'intérêt individuel produit spontanément l'intérêt général via le marché|Une forme d'intervention discrète de l'État|La solidarité naturelle entre individus|Le rôle des syndicats dans la régulation des marchés
+
+VF  || Adam Smith est le premier à avoir utilisé le terme « économie politique ». || F || C'est Antoine de Montchrestien (mercantiliste) qui l'a utilisé le premier ; Smith l'a popularisé dans « La Richesse des nations ».
+
+QCM || L'individualisme méthodologique, mis en avant notamment par Smith et Weber, consiste à || V:Expliquer les phénomènes collectifs à partir des actions et motivations individuelles|Étudier chaque individu de façon isolée, sans tenir compte du social|Nier l'existence de contraintes sociales|Considérer que la société prime toujours sur l'individu
+
+---
+
+### === SOCIO7-I-6a : Mandeville — la fable des abeilles ===
+### "Les vices privés font la vertu publique"
+@add-theme: Sociologie économique, Mandeville, Fable des abeilles
+
+QCM || Dans « La Fable des abeilles » (1705, publiée 1714), Bernard Mandeville soutient que || V:Les vices privés (égoïsme, luxe, vanité) font la vertu publique (la prospérité collective)|L'altruisme est le fondement de la richesse des nations|La frugalité est la condition du progrès économique|L'État doit réguler tous les comportements individuels
+
+VF  || Adam Smith a repris les idées de Mandeville dans son concept de « main invisible », en remplaçant le mot « vice » par « self-love » (amour de soi). || V || Smith critique superficiellement Mandeville mais reprend son idée centrale : la poursuite de l'intérêt individuel produit le bien commun.
+
+QCM || La « main invisible » d'Adam Smith désigne || V:Le mécanisme spontané par lequel la somme des intérêts individuels égoïstes produit l'intérêt général via le marché|Une intervention discrète de l'État dans l'économie|La solidarité naturelle entre producteurs|La main-d'œuvre invisible dans l'économie souterraine
+
+QCM || L'homo economicus est || V:Un individu fictif, rationnel, maximisant son intérêt personnel, libéré de tout lien social — modèle de base de l'économie néoclassique|Un individu réel typique des sociétés modernes|Un concept de Durkheim|Un individu entièrement déterminé par son milieu social
+
+VF  || La sociologie économique critique le modèle de l'homo economicus car il ignore le fait que les individus sont encastrés dans des relations sociales. || V || Granovetter et Polanyi notamment montrent que les comportements économiques ne se réduisent pas à la maximisation d'un intérêt individuel isolé.
+
+---
+
+### === SOCIO7-I-7a : Heilbroner — les trois solutions économiques ===
+### "Tradition, direction centralisée, marché"
+@add-theme: Sociologie économique, Heilbroner, Formes d'économie
+
+QCM || Robert Heilbroner distingue trois solutions au problème de la survie économique d'une société. Laquelle est correcte ? || V:La tradition (transmission héréditaire des rôles), la direction centralisée (autorité qui répartit), le marché (individus libres et concurrence)|La chasse, l'agriculture, l'industrie|Le troc, la monnaie, le crédit|La famille, l'État, le marché
+
+QCM || Selon Heilbroner, dans une économie organisée par la « tradition » || V:Les fonctions économiques sont transmises de génération en génération selon les coutumes (ex : chacun reprend le métier de son père)|Le marché fixe les prix et les salaires|Un État centralisé répartit les ressources|Chaque individu maximise librement son profit
+
+QCM || Dans une économie à « direction centralisée » selon Heilbroner || V:Une autorité (chef, État, planificateur) décide de l'organisation et de la répartition sans recours au marché|Les individus sont libres de vendre et acheter|Les prix sont fixés par l'offre et la demande|Les traditions ancestrales guident les échanges
+
+VF  || Le marché, selon Heilbroner, est une solution historiquement récente et non universelle au problème économique. || V || La plupart des sociétés humaines ont fonctionné selon la tradition ou la direction centralisée, et non selon le marché.
+
+---
+
+### === SOCIO7-I-8a : Tönnies, Granovetter, Norbert Elias ===
+### "Communauté/société, ré-encastrement, processus de civilisation"
+@add-theme: Sociologie économique, Tönnies, Granovetter, Elias
+
+QCM || Ferdinand Tönnies distingue « communauté » (Gemeinschaft) et « société » (Gesellschaft). La communauté se caractérise par || V:Des liens organiques où les parties n'existent que pour le tout, fondés sur la solidarité naturelle (famille, village)|Des relations contractuelles et individuelles fondées sur l'intérêt|L'anonymat et la liberté individuelle|La compétition économique entre membres
+
+QCM || Selon Tönnies, la « société » (Gesellschaft) se caractérise par || V:Des liens formels et contractuels, où les individus sont réunis par l'intérêt mutuel mais sans solidarité organique|Des liens fondés sur le sang et la tradition|L'absence de tout contrat ou accord formel|Une solidarité mécanique au sens de Durkheim
+
+QCM || Le concept de « ré-encastrement » chez Mark Granovetter (Nouvelle Sociologie Économique) désigne || V:La nécessité de réinscrire l'analyse des comportements économiques dans le contexte des relations sociales concrètes|La dissolution des liens sociaux dans l'économie de marché|Le retour au marché après une période de planification|L'encastrement des travailleurs dans les entreprises
+
+VF  || La Nouvelle Sociologie Économique (NSE), dont Granovetter est l'un des fondateurs, vise à réinsérer l'analyse économique dans son contexte social, en reprenant le projet des fondateurs de la sociologie. || V || Après une période (1920–1970) de séparation entre économistes et sociologues, la NSE renoue avec la volonté initiale d'expliquer les phénomènes économiques par des facteurs sociaux.
+
+QCM || Norbert Elias, dans « Le Processus de civilisation », montre que l'évolution des bonnes manières et des pratiques sociales (règles de politesse, tabous) || V:Est liée à la constitution économique de grands États et découle de processus de civilisation, notamment la différenciation aristocratique|Est purement biologique et génétique|Est indépendante de tout contexte économique|A été imposée par l'Église catholique
+
+---
+
+### === SOCIO7-I-9a : Commerce Kula et économies non marchandes ===
+### "Échanges sans marché : le cas des îles Trobriand"
+@add-theme: Sociologie économique, Malinowski, Commerce Kula
+
+QCM || Le « commerce kula », étudié par Bronisław Malinowski dans les îles Trobriand, est un système d'échange || V:Non marchand, fondé sur des objets rituels sans valeur utilitaire (bracelets et colliers de coquillages), dont le but n'est pas le profit mais le lien social|Marchand, visant à maximiser le profit de chaque échangiste|Basé sur le troc de biens utilitaires (nourriture, outils)|Organisé par un État central qui redistribue les biens
+
+VF  || Dans le commerce kula, les objets échangés (bracelets de coquillages blancs et colliers de coquillages rouges) n'ont aucune valeur économique ni d'utilité pratique. || V || Leur valeur est purement symbolique et sociale : ils servent à créer et entretenir des liens entre individus de différentes îles.
+
+QCM || L'étude du commerce kula par Malinowski est considérée comme fondatrice de || V:L'anthropologie économique|La sociologie du travail|L'économie des marchés financiers|La théorie des jeux
+
+QCM || Les sociétés étudiées par Polanyi dans les îles Trobriand se caractérisent notamment par l'absence de || V:Mobile du gain individuel, de l'idée d'un travail rémunéré au moindre effort, et de toute institution séparée fonctionnant selon les principes du marché|Toute forme d'échange|Toute hiérarchie sociale|Toute division du travail
