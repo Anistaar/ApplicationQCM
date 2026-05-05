@@ -1,348 +1,1192 @@
-<!doctype html>
+<!-- src/new-ui/index.html -->
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Text2Quiz (Vite)</title>
 
-    <style>
-      :root{
-        --bg:#0b0f14; --fg:#e8eaed; --muted:#9aa4af; --brd:#22303c;
-        --ok-bg:#123d28; --ok-brd:#1f6b45; --ok-fg:#adf0c0;
-        --ko-bg:#3a1517; --ko-brd:#5a2225; --ko-fg:#f9b3b6;
-        --warn-bg:#2a2417; --warn-brd:#4b4130;
-        --primary:#e8eaed; --accent:#84cc16;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text2Quiz VIP - Nouvelle Interface</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #6366f1;
+      --primary-dark: #4f46e5;
+      --primary-light: #a5b4fc;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --dark: #0f172a;
+      --dark-alt: #1e293b;
+      --light: #f8fafc;
+      --border: #e2e8f0;
+      --shadow: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      z-index: 999;
+      padding: 1rem 1.5rem;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      border-radius: 0 0 8px 0;
+      font-weight: 600;
+    }
+    .skip-link:focus {
+      position: fixed;
+      left: 1rem;
+      top: 1rem;
+      outline: 3px solid var(--dark);
+    }
+
+    .app-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    /* Header */
+    .header {
+      background: var(--dark);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header p {
+      opacity: 0.8;
+    }
+
+    .admin-link {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      background: var(--primary);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .admin-link:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
+    }
+
+    /* Main Content */
+    .content {
+      padding: 3rem;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 2rem;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    /* Subject Selection */
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .subject-card {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 2rem;
+      border-radius: 16px;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .subject-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+      transition: all 0.5s;
+    }
+
+    .subject-card:hover::before {
+      transform: translate(-25%, -25%);
+    }
+
+    .subject-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    .subject-card.active {
+      box-shadow: 0 0 0 3px white, 0 0 0 6px var(--primary);
+    }
+
+    .subject-card .icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .subject-card .name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .subject-card .count {
+      opacity: 0.9;
+      font-size: 0.9rem;
+    }
+
+    /* Theme Selection */
+    .themes-section {
+      display: none;
+      animation: fadeIn 0.5s;
+    }
+
+    .themes-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
       }
-      html[data-theme="light"]{
-        --bg:#ffffff; --fg:#111; --muted:#6b7280; --brd:#e5e7eb;
-        --ok-bg:#eafaf0; --ok-brd:#b4e4c7; --ok-fg:#14532d;
-        --ko-bg:#fef2f2; --ko-brd:#f5c2c7; --ko-fg:#7f1d1d;
-        --warn-bg:#fff8f0; --warn-brd:#f3d5b0;
-        --primary:#111; --accent:#2563eb;
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .themes-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .themes-search {
+      position: relative;
+      flex: 1;
+      max-width: 400px;
+    }
+
+    .themes-search input {
+      width: 100%;
+      padding: 0.75rem 1rem 0.75rem 3rem;
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      font-size: 1rem;
+      transition: all 0.3s;
+    }
+
+    .themes-search input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    }
+
+    .themes-search::before {
+      content: '🔍';
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.25rem;
+    }
+
+    .themes-actions {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
+    }
+
+    .btn-secondary {
+      background: var(--light);
+      color: var(--dark);
+      border: 2px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--border);
+    }
+
+    .themes-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      padding: 1.5rem;
+      background: var(--light);
+      border-radius: 16px;
+      min-height: 200px;
+    }
+
+    .theme-chip {
+      padding: 0.75rem 1.5rem;
+      background: white;
+      border: 2px solid var(--border);
+      border-radius: 24px;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 500;
+    }
+
+    .theme-chip:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+
+    .theme-chip:focus-visible {
+      outline: 3px solid var(--primary);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.2);
+    }
+
+    .theme-chip.selected {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .theme-chip .count {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 0.25rem 0.5rem;
+      border-radius: 12px;
+      font-size: 0.85rem;
+    }
+
+    .theme-chip.selected .count {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Quiz Config */
+    .quiz-config {
+      display: none;
+      background: var(--light);
+      padding: 2rem;
+      border-radius: 16px;
+      margin-top: 2rem;
+    }
+
+    .quiz-config.active {
+      display: block;
+      animation: fadeIn 0.5s;
+    }
+
+    .config-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .config-item {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 2px solid var(--border);
+    }
+
+    .config-item label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--dark);
+    }
+
+    .config-item input,
+    .config-item select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    .config-item input:focus,
+    .config-item select:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      width: auto;
+      cursor: pointer;
+    }
+
+    /* Summary */
+    .quiz-summary {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border-left: 4px solid var(--primary);
+      margin-bottom: 1.5rem;
+    }
+
+    .quiz-summary h3 {
+      color: var(--dark);
+      margin-bottom: 1rem;
+    }
+
+    .summary-stats {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .summary-stat {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .summary-stat .label {
+      font-size: 0.85rem;
+      color: var(--dark-alt);
+      margin-bottom: 0.25rem;
+    }
+
+    .summary-stat .value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    /* Start Button */
+    .start-quiz-btn {
+      width: 100%;
+      padding: 1.25rem;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .start-quiz-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(99, 102, 241, 0.4);
+    }
+
+    .start-quiz-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--dark-alt);
+    }
+
+    .empty-state .icon {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    .empty-state p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Learning Modes */
+    .learning-modes-section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+    }
+
+    .learning-modes-section h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .learning-modes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+    }
+
+    .mode-btn {
+      padding: 1rem;
+      background: var(--light);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-size: 0.9rem;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .mode-btn:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .mode-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .mode-btn small {
+      display: block;
+      opacity: 0.8;
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+    }
+
+    /* Chapter Section */
+    .chapter-section {
+      margin-bottom: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 2px solid var(--border);
+    }
+
+    .chapter-header {
+      padding: 1.25rem 1.5rem;
+      background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: all 0.3s;
+    }
+
+    .chapter-header:hover {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    }
+
+    .chapter-header .toggle-icon {
+      font-size: 1rem;
+      transition: transform 0.3s;
+    }
+
+    .chapter-header h3 {
+      flex: 1;
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .chapter-header .count {
+      background: rgba(255, 255, 255, 0.3);
+      padding: 0.35rem 0.75rem;
+      border-radius: 16px;
+      font-size: 0.85rem;
+    }
+
+    .notions-container {
+      max-height: 2000px;
+      transition: max-height 0.3s ease-out;
+      overflow: hidden;
+    }
+
+    .notions-container.collapsed {
+      max-height: 0;
+    }
+
+    /* Notion Item */
+    .notion-item {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.3s;
+      background: white;
+    }
+
+    .notion-item:hover {
+      background: var(--light);
+    }
+
+    .notion-item.selected {
+      background: linear-gradient(90deg, rgba(99, 102, 241, 0.1) 0%, rgba(99, 102, 241, 0.05) 100%);
+      border-left: 4px solid var(--primary);
+    }
+
+    .notion-content {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .mastery-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .notion-info {
+      flex: 1;
+    }
+
+    .notion-name {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .notion-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: var(--dark-alt);
+    }
+
+    .difficulty {
+      padding: 0.25rem 0.75rem;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.75rem;
+    }
+
+    .difficulty-facile {
+      background: #d1fae5;
+      color: #065f46;
+    }
+
+    .difficulty-moyen {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    .difficulty-difficile {
+      background: #fed7aa;
+      color: #9a3412;
+    }
+
+    .difficulty-expert {
+      background: #fecaca;
+      color: #991b1b;
+    }
+
+    .mastery-score {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 0.25rem 0.75rem;
+      border-radius: 12px;
+      font-weight: 700;
+    }
+
+    /* Sub-notions */
+    .sub-notions-container {
+      padding-left: 3rem;
+      background: var(--light);
+    }
+
+    .sub-notion-item {
+      padding: 0.75rem 1.5rem;
+      border-left: 2px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: var(--dark-alt);
+    }
+
+    .sub-notion-item .count {
+      background: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    /* Spinner animation */
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
       }
 
-      *{box-sizing:border-box}
-      html,body{height:100%}
-      body{margin:0;background:var(--bg);color:var(--fg);
-        font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-
-  .wrap{max-width:1200px;margin:0 auto;padding:0 18px 32px}
-
-      /* topbar */
-      .topbar{position:sticky; top:0; z-index:50; background:var(--bg);
-        border-bottom:1px solid var(--brd); display:flex; gap:12px;
-        align-items:center; justify-content:space-between; padding:10px 0}
-      /* barre active (session) */
-      .active-toolbar{position:sticky; top:0; z-index:49; background:linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0));
-        border-bottom:1px solid var(--brd); display:flex; align-items:center; justify-content:space-between;
-        gap:12px; padding:8px 0; backdrop-filter:saturate(140%) blur(2px)}
-      .active-toolbar .crumb{font-weight:700}
-      .app-mode-active #active-toolbar{display:flex !important}
-
-      h1{margin:0; font-size:20px}
-      .subtitle{margin:6px 0 12px; color:var(--muted); font-size:14px}
-      .theme-toggle{display:flex; align-items:center; gap:8px; font-weight:600}
-      .theme-toggle input{transform:scale(1.1)}
-
-      /* panneau options */
-      .card{border:1px solid var(--brd); border-radius:12px; background:transparent;
-        padding:12px; margin:10px 0}
-
-      /* Explorer compact styles */
-      .fb-folder{padding:6px 8px; border-radius:6px; margin-bottom:4px}
-      .fb-folder.active{background:rgba(255,255,255,0.03)}
-      .fb-file{display:flex; align-items:center; justify-content:space-between; padding:8px 10px; border-radius:8px}
-      .fb-file .label{flex:1}
-      .fb-file .controls{display:flex; gap:8px; align-items:center}
-      .fb-toolbar{display:flex; gap:8px; align-items:center; margin-bottom:6px}
-      .fb-toolbar select, .fb-file select{padding:6px 8px; border-radius:6px}
-      .row{display:grid; gap:6px; margin-bottom:10px}
-      label{font-weight:600; font-size:14px}
-      select,input{padding:10px 12px; border-radius:10px; border:1px solid var(--brd);
-        background:transparent; color:var(--fg); font-size:14px; transition:box-shadow .15s, border-color .15s}
-      select:focus, input:focus{outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(132,204,22,0.25)}
-      select option{background:var(--bg); color:var(--fg)}
-      .modes{display:flex; gap:14px}
-
-      /* boutons */
-  .primary,.secondary{padding:10px 14px; border-radius:10px; cursor:pointer; font-size:14px; transition:all .15s ease}
-  .primary{border:1px solid var(--accent); background:var(--accent); color:var(--bg)}
-  .primary:hover{filter:brightness(1.08)}
-  .primary:disabled{opacity:.6; cursor:not-allowed}
-  .secondary{border:1px solid var(--brd); background:transparent; color:var(--fg)}
-  .secondary:hover{border-color:var(--accent); color:var(--accent)}
-
-      /* checkboxes pour cours multiples */
-      .cours-checkbox-item {
-        display: flex; align-items: center; gap: 8px; padding: 4px 6px; 
-        border-radius: 6px; margin-bottom: 2px;
-      }
-      .cours-checkbox-item:hover {
-        background: rgba(255,255,255,0.05);
-      }
-      .cours-checkbox-item input[type="checkbox"] {
-        transform: scale(1.1);
-      }
-      .cours-checkbox-item .folder-tag {
-        font-size: 11px; color: var(--muted); 
-        background: rgba(255,255,255,0.1); padding: 1px 4px; 
-        border-radius: 3px; margin-left: auto;
+      .header h1 {
+        font-size: 2rem;
       }
 
-      /* entête quiz + barre */
-      .head{display:flex; gap:10px; justify-content:space-between; flex-wrap:wrap; margin:8px 0}
-      .badge{display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid var(--brd);
-        font-size:12px; color:var(--muted)}
-      .progress{height:8px; background:transparent; border-radius:999px; border:1px solid var(--brd); overflow:hidden}
-      .progress__bar{height:100%; background:var(--accent); transition:width .2s ease}
+      .content {
+        padding: 1.5rem;
+      }
 
-      /* carte question compacte */
-      .card--q{position:relative; border:1px solid var(--brd); border-radius:12px; background:transparent;
-        padding:12px; margin:10px 0; max-height:62vh; overflow:auto; scroll-behavior:smooth}
-      .qtitle{font-weight:800; margin:0 0 6px 0}
-      .block{margin:8px 0}
-      .hint{margin-top:4px}
-      small.muted{color:var(--muted)}
+      .admin-link {
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+      }
 
-      /* options grille */
-      .options{display:grid; gap:8px; margin:10px 0}
-      @media (min-width:768px){ .options{grid-template-columns:repeat(2,minmax(0,1fr))} }
-      .options--inline{grid-template-columns:none; grid-auto-flow:column; justify-content:start}
+      .themes-header {
+        flex-direction: column;
+        gap: 1rem;
+      }
 
-      .opt{display:flex; gap:8px; align-items:center; padding:8px 10px;
-        border:1px solid var(--brd); border-radius:10px; transition:.15s}
-      .opt input{transform:scale(1.05); margin-top:1px}
-      .opt.good{background:var(--ok-bg); border-color:var(--ok-brd)}
-      .opt.bad{background:var(--ko-bg); border-color:var(--ko-brd)}
-      .opt .label{flex:1}
-      .mark{margin-left:auto; font-weight:800}
-      .mark--good{color:var(--ok-fg)}
-      .mark--bad{color:var(--ko-fg)}
+      .themes-search {
+        max-width: none;
+      }
 
-      /* feedback repliable */
-      .feedback{margin-top:8px; border-radius:10px; padding:8px}
-      .feedback.ok{background:var(--ok-bg); border:1px solid var(--ok-brd)}
-      .feedback.ko{background:var(--ko-bg); border:1px solid var(--ko-brd)}
-      details.feedback > summary{cursor:pointer; list-style:none; font-weight:700}
-      details.feedback > summary::-webkit-details-marker{display:none}
+      .learning-modes {
+        grid-template-columns: 1fr 1fr;
+      }
 
-      /* bouton suivant flottant */
-      .fab-next{position:fixed; right:18px; bottom:18px; z-index:60; border-radius:999px;
-        padding:10px 14px; font-weight:700; border:1px solid var(--primary); background:var(--primary);
-        color:var(--bg); box-shadow:0 6px 30px rgba(0,0,0,.25); cursor:pointer}
-      .fab-next:disabled{opacity:.6; cursor:not-allowed}
+      .notion-meta {
+        font-size: 0.75rem;
+      }
 
-      /* résultats */
-      .list{display:grid; gap:8px; padding-left:18px}
-      .list li{list-style:decimal; border:1px solid var(--brd); border-radius:12px; padding:10px}
-      .list li.ok{background:var(--ok-bg); border-color:var(--ok-brd)}
-      .list li.ko{background:var(--warn-bg); border-color:var(--warn-brd)}
+      .sub-notions-container {
+        padding-left: 1.5rem;
+      }
+    }
 
-      /* drag and drop */
-      .drag-container{margin-top:16px}
-      .drag-items{display:grid; gap:12px; margin-bottom:16px}
-      .drag-item-row{display:grid; grid-template-columns:1fr 2fr auto; gap:12px; align-items:center}
-      .drag-item-row.correct{background:var(--ok-bg); border-radius:8px; padding:8px}
-      .drag-item-row.incorrect{background:var(--ko-bg); border-radius:8px; padding:8px}
-      .drag-item-label{font-weight:600; padding:8px}
-      .drag-drop-zone{min-height:40px; border:2px dashed var(--brd); border-radius:8px; padding:4px;
-        display:flex; align-items:center; justify-content:center; transition:all 0.2s}
-      .drag-drop-zone.drag-over{border-color:var(--accent); background:rgba(132,204,22,0.1)}
-      .drag-drop-zone .placeholder{color:var(--muted); font-size:13px}
-      .drag-match-chip{display:inline-block; padding:6px 12px; background:var(--accent); color:var(--bg);
-        border-radius:6px; cursor:grab; user-select:none; font-size:14px}
-      .drag-match-chip:active{cursor:grabbing}
-      .drag-match-chip.dragging{opacity:0.5}
-      .drag-match-chip.used{opacity:0.4}
-      .drag-matches-pool{margin-top:16px; padding:12px; border:1px solid var(--brd); border-radius:8px}
-      .pool-label{font-weight:600; margin-bottom:8px; font-size:14px}
-      .drag-matches{display:flex; flex-wrap:wrap; gap:8px}
-      .correct-answer{color:var(--ok-fg); font-weight:600; font-size:13px}
+    /* ======== Structured Plan ======== */
+    .themes-grid.structured-plan-mode {
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      gap: 0 !important;
+      background: transparent;
+      padding: 0;
+      min-height: 0;
+    }
 
-      /* flashcards */
-      .flash-wrap{display:flex; flex-direction:column; gap:12px}
-      .flashcard{border:1px solid var(--brd); border-radius:12px; padding:16px; min-height:160px; display:flex; align-items:center; justify-content:center; text-align:center}
-      .flash-q{font-weight:700;}
-      .flash-a{color:var(--accent); font-weight:600}
-      .flash-actions{display:flex; gap:8px; justify-content:center}
-      .flash-actions .primary{min-width:120px}
-      .flash-toolbar{display:flex; justify-content:space-between; align-items:center}
+    .structured-plan-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      width: 100%;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.75rem;
+      background: #f8fafc;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+    .plan-header-info { display: flex; flex-direction: column; gap: 0.2rem; }
+    .plan-header-title { font-weight: 700; font-size: 0.95rem; color: var(--dark); }
+    .plan-header-stats { font-size: 0.78rem; color: #64748b; }
+    .selection-actions { display: flex; gap: 0.5rem; }
+    .btn-sm { padding: 0.35rem 0.85rem; font-size: 0.82rem; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .btn-outline { background: transparent; color: #64748b; border: 1.5px solid var(--border); }
+    .btn-outline:hover { border-color: var(--primary); color: var(--primary); }
 
-      /* match mode */
-      .match-toolbar{display:flex; justify-content:space-between; align-items:center; margin-bottom:8px}
-      .match-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:10px}
-      .match-card{border:1px solid var(--brd); border-radius:10px; padding:12px; cursor:pointer; text-align:center; user-select:none}
-      .match-card.selected{outline:2px solid var(--accent)}
-      .match-card.matched{opacity:0.3; pointer-events:none}
+    .plan-chapter {
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 0.6rem;
+      overflow: hidden;
+      width: 100%;
+      flex-shrink: 0;
+    }
+    .plan-chapter-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.7rem 1rem;
+      background: #f1f5f9;
+      cursor: pointer;
+      transition: background 0.15s;
+      border-left: 4px solid var(--primary);
+      user-select: none;
+    }
+    .plan-chapter-header:hover { background: #e2e8f0; }
+    .plan-toggle { font-size: 0.7rem; color: #94a3b8; transition: transform 0.2s; }
+    .plan-chapter-header strong { flex: 1; font-size: 0.9rem; color: var(--dark); }
+    .plan-count {
+      background: var(--primary);
+      color: white;
+      padding: 0.15rem 0.55rem;
+      border-radius: 10px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
 
-  /* Mode actif: cacher la zone de sélection et plan */
-      .app-mode-active #selection-area, .app-mode-active #plan-card { display:none !important; }
-      .app-mode-active .topbar #btn-explorer { display:none !important; }
-      .app-mode-active .subtitle { display:none !important; }
-      /* Single column layout by design */
+    .plan-notions-container {
+      display: flex;
+      flex-direction: column;
+      max-height: 3000px;
+      overflow: hidden;
+      transition: max-height 0.3s ease, opacity 0.2s ease;
+      opacity: 1;
+    }
+    .plan-notions-container.collapsed { max-height: 0; opacity: 0; }
 
-  /* Stats cards layout (matière & cours) */
-  .folder-stats-grid{display:grid; gap:6px; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr))}
-  .folder-stats-grid .stat{border:1px solid var(--brd); border-radius:10px; padding:8px; display:flex; flex-direction:column; gap:2px; background:rgba(255,255,255,0.01)}
-  .folder-stats-grid .label{font-size:11px; color:var(--muted)}
-  .folder-stats-grid .value{font-weight:800; line-height:1.1}
-      .badge.ok{background:var(--ok-bg); border-color:var(--ok-brd); color:var(--ok-fg)}
-      .badge.warn{background:var(--warn-bg); border-color:var(--warn-brd); color:#b45309}
-      .badge.danger{background:var(--ko-bg); border-color:var(--ko-brd); color:var(--ko-fg)}
-      .course-card-disabled{opacity:.6; filter:saturate(.8);}
-    </style>
-  </head>
+    .plan-notion-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.55rem 1rem 0.55rem 1.25rem;
+      border-top: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.12s;
+      background: white;
+    }
+    .plan-notion-item:hover { background: #f8fafc; }
+    .plan-notion-item.selected { background: #ede9fe; }
+    .plan-notion-item.selected::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--primary);
+    }
 
-  <body>
-    <!-- Skip links for keyboard navigation -->
-    <a href="#main-content" class="skip-link" style="position:absolute; left:-9999px; z-index:999; padding:8px; background:var(--accent); color:var(--bg); text-decoration:none; border-radius:4px;">Aller au contenu principal</a>
-    <a href="#selection-card" class="skip-link" style="position:absolute; left:-9999px; z-index:999; padding:8px; background:var(--accent); color:var(--bg); text-decoration:none; border-radius:4px;">Aller à la sélection</a>
-    
-    <div class="wrap">
-      <header class="topbar">
-        <h1>Text2Quiz (Vite + TS)</h1>
-        <div style="display:flex; gap:12px; align-items:center">
-          <span id="total-time-badge" class="badge" style="display:none; font-size:13px; padding:6px 12px" title="Temps total passé à répondre aux questions">⏱️ <span id="total-time-value">0h</span></span>
-          <button id="btn-progression" class="secondary" aria-label="Voir ma progression ELO">📊 Progression</button>
-          <button id="btn-explorer" class="secondary" aria-haspopup="dialog" aria-expanded="false" aria-label="Explorer les fichiers de cours">Explorer les fichiers</button>
-          <label class="theme-toggle" title="Basculer entre thème clair et sombre">
-          <input id="theme-toggle" type="checkbox" aria-label="Basculer thème sombre" />
-          <span aria-hidden="true">🌙</span>
-          </label>
-        </div>
-      </header>
+    .notion-row-label {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      cursor: pointer;
+      min-width: 0;
+    }
+    .plan-notion-item .notion-name {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--dark);
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .plan-notion-item.selected .notion-name { color: var(--primary); font-weight: 600; }
+    .notion-row-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-shrink: 0;
+      font-size: 0.78rem;
+    }
+    .notion-time, .notion-qcount { color: #64748b; white-space: nowrap; }
+    .mastery-dot { padding: 0.1rem 0.4rem; border-radius: 6px; font-size: 0.72rem; font-weight: 700; }
+    .mastery-dot-green { background: #dcfce7; color: #166534; }
+    .mastery-dot-yellow { background: #fef3c7; color: #92400e; }
+    .mastery-dot-red { background: #fee2e2; color: #991b1b; }
 
-      <!-- Barre active en mode entraînement/examen/flash/match -->
-      <div id="active-toolbar" class="active-toolbar" style="display:none" role="region" aria-label="Barre d'outils session active">
-        <div class="left">
-          <span class="crumb" id="active-title">Mode</span>
-        </div>
-        <div class="right">
-          <button id="btn-exit-mode" class="secondary" title="Quitter la session" aria-label="Quitter la session en cours">Quitter</button>
+    /* difficulty badges (used in notion-row-meta too) */
+    .plan-notion-item .difficulty-facile { background: #dcfce7; color: #166534; padding: 0.1rem 0.4rem; border-radius: 6px; font-size: 0.72rem; font-weight: 700; }
+    .plan-notion-item .difficulty-moyen { background: #fef3c7; color: #92400e; padding: 0.1rem 0.4rem; border-radius: 6px; font-size: 0.72rem; font-weight: 700; }
+    .plan-notion-item .difficulty-difficile { background: #fee2e2; color: #991b1b; padding: 0.1rem 0.4rem; border-radius: 6px; font-size: 0.72rem; font-weight: 700; }
+  </style>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+  <div class="app-container">
+    <div class="header">
+      <a href="./admin/src/admin/admin-panel.html" class="admin-link">⚙️ Admin</a>
+      <a href="./legacy.html" class="admin-link" style="right: auto; left: 2rem; background: var(--dark-alt);">⏪
+        Ancienne Interface</a>
+      <h1>🎓 Text2Quiz VIP</h1>
+      <p>Nouvelle interface - Sélection par thèmes</p>
+    </div>
+
+    <main class="content" id="main-content">
+      <!-- Subject Selection -->
+      <div class="section">
+        <h2 class="section-title">Choisir une matière</h2>
+        <div class="subjects-grid" id="subjects-grid">
+          <!-- Chargé dynamiquement -->
         </div>
       </div>
 
-      <p class="subtitle">
-        Entraînement (correction immédiate + explication) ou Examen (correction à la fin).
-      </p>
+      <!-- Theme Selection -->
+      <div class="section themes-section" id="themes-section">
+        <h2 class="section-title">Sélectionner les thèmes</h2>
 
-  <main id="main-content">
-  <div id="selection-area">
-  <div class="card" id="selection-card">
-        <div class="row">
-          <label for="matiere">Matière</label>
-          <select id="matiere"></select>
-        </div>
-
-        <div class="card" id="plan-card" style="display:block; margin-top:4px">
-          <div class="row">
-            <label for="plan-filter">Plan du cours</label>
-            <input id="plan-filter" type="text" placeholder="Rechercher un chapitre..."/>
+        <div class="themes-header">
+          <div class="themes-search">
+            <input type="text" id="theme-search" placeholder="Rechercher un thème..." aria-label="Rechercher parmi les thèmes disponibles">
           </div>
-          <div id="plan-list" style="display:grid; gap:6px"></div>
-        </div>
-
-        <div class="card" id="global-stats-card" style="display:none; margin-top:4px">
-          <h3 style="margin:4px 0">📊 Statistiques globales</h3>
-          <div id="global-stats" class="folder-stats"></div>
-        </div>
-
-        <div class="card" id="folder-stats-card" style="display:none; margin-top:4px">
-          <h3 style="margin:4px 0">Historique de la matière</h3>
-          <div id="folder-stats" class="folder-stats"></div>
-        </div>
-
-        <div class="card" id="course-stats-card" style="display:none; margin-top:4px">
-          <h3 style="margin:4px 0">Statistiques du cours sélectionné</h3>
-          <div id="course-stats" class="folder-stats"></div>
-        </div>
-
-        <div class="row">
-          <label>
-            <input type="checkbox" id="advanced-toggle" /> 
-            Options avancées
-          </label>
-        </div>
-
-        <div class="row advanced" style="display:none">
-          <label>
-            <input type="checkbox" id="multi-cours-toggle" /> 
-            Révision multi-cours
-          </label>
-        </div>
-
-        <div class="row">
-          <label for="cours">Cours</label>
-          <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap">
-            <select id="cours"></select>
-            <button id="btn-download-selected" class="secondary" title="Télécharger le cours sélectionné">Télécharger</button>
+          <div class="themes-actions">
+            <button class="btn btn-secondary" id="select-all-themes" aria-label="Sélectionner tous les thèmes">✓ Tout sélectionner</button>
+            <button class="btn btn-secondary" id="clear-themes" aria-label="Désélectionner tous les thèmes">✗ Tout décocher</button>
           </div>
-          <div id="cours-multi-checkboxes" style="display:none; max-height: 200px; overflow-y: auto; border: 1px solid var(--brd); border-radius: 8px; padding: 8px;">
-            <div style="margin-bottom: 8px; font-size: 12px; color: var(--muted);">
-              <label><input type="checkbox" id="select-all-cours" /> Tout sélectionner</label>
+        </div>
+
+        <div class="themes-grid" id="themes-grid">
+          <!-- Chargé dynamiquement -->
+        </div>
+      </div>
+
+      <!-- Quiz Configuration -->
+      <div class="quiz-config" id="quiz-config">
+        <h2 class="section-title">Configuration du quiz</h2>
+
+        <div class="quiz-summary">
+          <h3>Résumé de votre sélection</h3>
+          <div class="summary-stats">
+            <div class="summary-stat">
+              <span class="label">Questions disponibles</span>
+              <span class="value" id="summary-total">0</span>
             </div>
-            <div id="cours-checkbox-list"></div>
+            <div class="summary-stat">
+              <span class="label">Thèmes sélectionnés</span>
+              <span class="value" id="summary-themes">0</span>
+            </div>
+            <div class="summary-stat">
+              <span class="label">Matière</span>
+              <span class="value" id="summary-subject">-</span>
+            </div>
           </div>
         </div>
 
-        <div class="row advanced" style="display:none">
-          <label for="themes">Thèmes (optionnel)</label>
-          <select id="themes" multiple size="5" title="Ctrl/Cmd-clic pour multi-sélection"></select>
-        </div>
-
-        <div class="row">
-          <label for="nombre">Nombre de questions</label>
-          <input id="nombre" type="number" min="1" step="1" value="10"/>
-        </div>
-
-        <div class="row">
-          <label>Mode</label>
-          <div class="modes">
-            <label><input type="radio" name="mode" value="entrainement" checked> Entraînement</label>
-            <label><input type="radio" name="mode" value="examen"> Examen</label>
-            <label><input type="radio" name="mode" value="flashcards"> Flashcards</label>
-            <label><input type="radio" name="mode" value="match"> Match (style Quizlet)</label>
+        <div class="config-grid">
+          <div class="config-item">
+            <label>Nombre de questions</label>
+            <input type="number" id="nb-questions" min="1" value="20">
           </div>
-          <div id="match-mode-hint" class="subtitle" style="margin-top:4px"></div>
-        </div>
 
-        <div class="row advanced" style="display:none">
-          <label>Types de questions (optionnel)</label>
-          <div style="display:flex; gap:8px; flex-wrap:wrap">
-            <label><input type="checkbox" class="qtype" value="QCM" checked/> QCM</label>
-            <label><input type="checkbox" class="qtype" value="QR" checked/> QR</label>
-            <label><input type="checkbox" class="qtype" value="VF" checked/> VF</label>
-            <label><input type="checkbox" class="qtype" value="DragMatch" checked/> DragMatch</label>
-            <label><input type="checkbox" class="qtype" value="OpenQ" checked/> OpenQ</label>
+          <div class="config-item">
+            <label>Mode de quiz</label>
+            <select id="quiz-mode">
+              <option value="practice">Entraînement</option>
+              <option value="exam">Examen</option>
+              <option value="speed">Contre la montre</option>
+            </select>
+          </div>
+
+          <div class="config-item">
+            <label>Difficulté minimale</label>
+            <select id="min-difficulty">
+              <option value="Facile">Facile</option>
+              <option value="Moyen">Moyen</option>
+              <option value="Difficile">Difficile</option>
+              <option value="Expert">Expert</option>
+            </select>
+          </div>
+
+          <div class="config-item checkbox-group">
+            <input type="checkbox" id="shuffle-questions" checked>
+            <label for="shuffle-questions">Mélanger les questions</label>
+          </div>
+
+          <div class="config-item checkbox-group">
+            <input type="checkbox" id="shuffle-answers" checked>
+            <label for="shuffle-answers">Mélanger les réponses</label>
+          </div>
+
+          <div class="config-item checkbox-group">
+            <input type="checkbox" id="show-explanations" checked>
+            <label for="show-explanations">Afficher les explications</label>
           </div>
         </div>
 
-        <button id="start" class="primary">Commencer</button>
+        <button class="start-quiz-btn" id="start-quiz-btn" disabled aria-label="Lancer le quiz avec les paramètres sélectionnés" aria-disabled="true">
+          🚀 Lancer le quiz
+        </button>
       </div>
-      </div>
 
-  <div id="quiz-root"></div>
-  </main>
-    
-    <!-- File browser modal (Windows-like explorer) -->
-    <div id="file-browser" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:80;" role="dialog" aria-modal="true" aria-labelledby="fb-title">
-      <div style="max-width:1000px; height:70vh; margin:40px auto; background:var(--bg); padding:8px; border-radius:8px; border:1px solid var(--brd); display:flex;">
-        <div style="width:260px; border-right:1px solid var(--brd); padding:8px; overflow:auto">
-          <h4 style="margin:6px 0" id="fb-title">Matières</h4>
-          <div id="fb-folders" role="list" aria-label="Liste des matières"></div>
-        </div>
-        <div style="flex:1; padding:8px; overflow:auto; display:flex; flex-direction:column">
-          <div style="display:flex; justify-content:space-between; align-items:center">
-            <h4 style="margin:6px 0">Cours</h4>
-            <div><button id="fb-close" class="secondary" aria-label="Fermer l'explorateur de fichiers">Fermer</button></div>
+      <!-- Empty State -->
+      <div class="empty-state" id="empty-state">
+        <div class="icon">📚</div>
+        <p><strong>Aucune question dans la base de données</strong></p>
+        <p>Allez dans le panneau d'administration pour importer vos fichiers text2quiz.</p>
+        background: var(--primary-light);
+        color: var(--primary-dark);
+        padding: 0.25rem 0.75rem;
+        border-radius: 12px;
+        font-weight: 700;
+        }
+
+        /* Sub-notions */
+        .sub-notions-container {
+        padding-left: 3rem;
+        background: var(--light);
+        }
+
+        .sub-notion-item {
+        padding: 0.75rem 1.5rem;
+        border-left: 2px solid var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.9rem;
+        color: var(--dark-alt);
+        }
+
+        .sub-notion-item .count {
+        background: white;
+        padding: 0.25rem 0.5rem;
+        border-radius: 8px;
+        font-size: 0.8rem;
+        color: var(--primary);
+        font-weight: 600;
+        }
+
+        /* Spinner animation */
+        @keyframes spin {
+        to {
+        transform: rotate(360deg);
+        }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+        body {
+        padding: 1rem;
+        }
+
+        .header h1 {
+        font-size: 2rem;
+        }
+
+        .content {
+        padding: 1.5rem;
+        }
+
+        .admin-link {
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        }
+
+        .themes-header {
+        flex-direction: column;
+        gap: 1rem;
+        }
+
+        .themes-search {
+        max-width: none;
+        }
+
+        .learning-modes {
+        grid-template-columns: 1fr 1fr;
+        }
+
+        .notion-meta {
+        font-size: 0.75rem;
+        }
+
+        .sub-notions-container {
+        padding-left: 1.5rem;
+        }
+        }
+        </style>
+        </head>
+
+        <body>
+          <div class="app-container">
+            <div class="header">
+              <a href="./admin/src/admin/admin-panel.html" class="admin-link">⚙️ Admin</a>
+              <a href="./legacy.html" class="admin-link" style="right: auto; left: 2rem; background: var(--dark-alt);">⏪
+                Ancienne Interface</a>
+              <h1>🎓 Text2Quiz VIP</h1>
+              <p>Nouvelle interface - Sélection par thèmes</p>
+            </div>
+
+            <div class="content">
+              <!-- Subject Selection -->
+              <div class="section">
+                <h2 class="section-title">Choisir une matière</h2>
+                <div class="subjects-grid" id="subjects-grid">
+                  <!-- Chargé dynamiquement -->
+                </div>
+              </div>
+
+              <!-- Theme Selection -->
+              <div class="section themes-section" id="themes-section">
+                <h2 class="section-title">Sélectionner les thèmes</h2>
+
+                <div class="themes-header">
+                  <div class="themes-search">
+                    <input type="text" id="theme-search" placeholder="Rechercher un thème...">
+                  </div>
+                  <div class="themes-actions">
+                    <button class="btn btn-secondary" id="select-all-themes">✓ Tout sélectionner</button>
+                    <button class="btn btn-secondary" id="clear-themes">✗ Tout décocher</button>
+                  </div>
+                </div>
+
+                <div class="themes-grid" id="themes-grid">
+                  <!-- Chargé dynamiquement -->
+                </div>
+              </div>
+
+              <!-- Quiz Configuration -->
+              <div class="quiz-config" id="quiz-config">
+                <h2 class="section-title">Configuration du quiz</h2>
+
+                <div class="quiz-summary">
+                  <h3>Résumé de votre sélection</h3>
+                  <div class="summary-stats">
+                    <div class="summary-stat">
+                      <span class="label">Questions disponibles</span>
+                      <span class="value" id="summary-total">0</span>
+                    </div>
+                    <div class="summary-stat">
+                      <span class="label">Thèmes sélectionnés</span>
+                      <span class="value" id="summary-themes">0</span>
+                    </div>
+                    <div class="summary-stat">
+                      <span class="label">Matière</span>
+                      <span class="value" id="summary-subject">-</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="config-grid">
+                  <div class="config-item">
+                    <label>Nombre de questions</label>
+                    <input type="number" id="nb-questions" min="1" value="20">
+                  </div>
+
+                  <div class="config-item">
+                    <label>Mode de quiz</label>
+                    <select id="quiz-mode">
+                      <option value="practice">Entraînement</option>
+                      <option value="exam">Examen</option>
+                      <option value="speed">Contre la montre</option>
+                    </select>
+                  </div>
+
+                  <div class="config-item">
+                    <label>Difficulté minimale</label>
+                    <select id="min-difficulty">
+                      <option value="Facile">Facile</option>
+                      <option value="Moyen">Moyen</option>
+                      <option value="Difficile">Difficile</option>
+                      <option value="Expert">Expert</option>
+                    </select>
+                  </div>
+
+                  <div class="config-item checkbox-group">
+                    <input type="checkbox" id="shuffle-questions" checked>
+                    <label for="shuffle-questions">Mélanger les questions</label>
+                  </div>
+
+                  <div class="config-item checkbox-group">
+                    <input type="checkbox" id="shuffle-answers" checked>
+                    <label for="shuffle-answers">Mélanger les réponses</label>
+                  </div>
+
+                  <div class="config-item checkbox-group">
+                    <input type="checkbox" id="show-explanations" checked>
+                    <label for="show-explanations">Afficher les explications</label>
+                  </div>
+                </div>
+
+                <button class="start-quiz-btn" id="start-quiz-btn" disabled>
+                  🚀 Lancer le quiz
+                </button>
+              </div>
+
+              <!-- Empty State -->
+              <div class="empty-state" id="empty-state">
+                <div class="icon">📚</div>
+                <p><strong>Aucune question dans la base de données</strong></p>
+                <p>Allez dans le panneau d'administration pour importer vos fichiers text2quiz.</p>
+                <a href="../admin/admin-panel.html" class="btn btn-primary">⚙️ Ouvrir l'admin</a>
+              </div>
+            </div>
           </div>
-          <div id="fb-files" style="margin-top:8px; display:grid; gap:8px;" role="list" aria-label="Liste des cours"></div>
-        </div>
-      </div>
-    </div>
 
-    </div>
+          <script type="module" src="/src/new-ui/app.ts"></script>
+        </body>
 
-    <script type="module" src="/src/main.ts"></script>
-  </body>
 </html>

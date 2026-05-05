@@ -1,0 +1,153 @@
+{
+  "id": "DROITPRIVE",
+  "name": "Droit privé L1",
+  "version": "1.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-12-06",
+  "description": "Introduction au droit privé : sources, personnes, biens, obligations, contrats, responsabilité",
+  "chapters": [
+    {
+      "id": "DP0",
+      "number": "0",
+      "name": "Introduction et sources",
+      "description": "Définitions, branches du droit, sources, hiérarchie des normes",
+      "sections": [
+        {
+          "id": "DP0-I",
+          "romanNumeral": "I",
+          "name": "Fondamentaux",
+          "subsections": [
+            {
+              "id": "DP0-I-1",
+              "number": "1",
+              "name": "Définition du droit privé",
+              "notions": [
+                {"id": "DP0-I-1a", "name": "Droit privé vs droit public", "description": "Domaines, finalités, acteurs", "tags": ["Intro", "Droit privé"], "difficulty": "Facile", "estimatedTime": 6},
+                {"id": "DP0-I-1b", "name": "Branches du droit privé", "description": "Civil, commercial, travail, consommation", "tags": ["Intro", "Branches"], "difficulty": "Facile", "estimatedTime": 7}
+              ],
+              "estimatedTime": 13
+            },
+            {
+              "id": "DP0-I-2",
+              "number": "2",
+              "name": "Sources du droit",
+              "notions": [
+                {"id": "DP0-I-2a", "name": "Sources formelles", "description": "Constitution, lois, règlements", "tags": ["Sources", "Lois"], "difficulty": "Moyen", "estimatedTime": 8},
+                {"id": "DP0-I-2b", "name": "Sources informelles", "description": "Jurisprudence, doctrine, usages", "tags": ["Sources", "Jurisprudence"], "difficulty": "Moyen", "estimatedTime": 8},
+                {"id": "DP0-I-2c", "name": "Hiérarchie des normes", "description": "Bloc de constitutionnalité, lois, règlements", "tags": ["Sources", "Hiérarchie"], "difficulty": "Moyen", "estimatedTime": 9}
+              ],
+              "estimatedTime": 25
+            }
+          ],
+          "estimatedTime": 38
+        }
+      ],
+      "estimatedTime": 38,
+      "icon": "📚"
+    },
+    {
+      "id": "DP1",
+      "number": "1",
+      "name": "Personnes",
+      "description": "Personnes physiques et morales, capacité, domicile, état civil",
+      "sections": [
+        {
+          "id": "DP1-I",
+          "romanNumeral": "I",
+          "name": "Personnes physiques",
+          "subsections": [
+            {"id": "DP1-I-1", "number": "1", "name": "Capacité juridique", "notions": [
+              {"id": "DP1-I-1a", "name": "Capacité de jouissance", "description": "Aptitude à être titulaire de droits", "tags": ["Capacité"], "difficulty": "Moyen", "estimatedTime": 8},
+              {"id": "DP1-I-1b", "name": "Capacité d'exercice", "description": "Aptitude à exercer soi-même ses droits", "tags": ["Capacité"], "difficulty": "Moyen", "estimatedTime": 9}
+            ], "estimatedTime": 17},
+            {"id": "DP1-I-2", "number": "2", "name": "Protection des incapables", "notions": [
+              {"id": "DP1-I-2a", "name": "Mineurs", "description": "Autorité parentale, actes usuels", "tags": ["Incapables", "Mineur"], "difficulty": "Moyen", "estimatedTime": 9},
+              {"id": "DP1-I-2b", "name": "Majeurs protégés", "description": "Sauvegarde, curatelle, tutelle", "tags": ["Incapables", "Majeur"], "difficulty": "Moyen", "estimatedTime": 10}
+            ], "estimatedTime": 19}
+          ],
+          "estimatedTime": 36
+        },
+        {
+          "id": "DP1-II",
+          "romanNumeral": "II",
+          "name": "Personnes morales",
+          "subsections": [
+            {"id": "DP1-II-1", "number": "1", "name": "Classification", "notions": [
+              {"id": "DP1-II-1a", "name": "PM de droit privé", "description": "Sociétés, associations, fondations", "tags": ["Personnes morales"], "difficulty": "Moyen", "estimatedTime": 9},
+              {"id": "DP1-II-1b", "name": "PM de droit public (rappel)", "description": "État, collectivités, établissements", "tags": ["Personnes morales"], "difficulty": "Moyen", "estimatedTime": 8}
+            ], "estimatedTime": 17}
+          ],
+          "estimatedTime": 17
+        }
+      ],
+      "estimatedTime": 53,
+      "icon": "👤"
+    },
+    {
+      "id": "DP2",
+      "number": "2",
+      "name": "Biens",
+      "description": "Classification des biens, meubles/immeubles, corporels/incorporels, patrimoine",
+      "sections": [
+        {"id": "DP2-I", "romanNumeral": "I", "name": "Classification", "subsections": [
+          {"id": "DP2-I-1", "number": "1", "name": "Meubles/Immeubles", "notions": [
+            {"id": "DP2-I-1a", "name": "Biens meubles", "description": "Définition et exemples", "tags": ["Biens", "Meubles"], "difficulty": "Facile", "estimatedTime": 7},
+            {"id": "DP2-I-1b", "name": "Biens immeubles", "description": "Par nature, destination, objet", "tags": ["Biens", "Immeubles"], "difficulty": "Facile", "estimatedTime": 8}
+          ], "estimatedTime": 15},
+          {"id": "DP2-I-2", "number": "2", "name": "Corporels/Incorporels", "notions": [
+            {"id": "DP2-I-2a", "name": "Corporels", "description": "Bien matériel", "tags": ["Biens"], "difficulty": "Facile", "estimatedTime": 7},
+            {"id": "DP2-I-2b", "name": "Incorporels", "description": "Bien immatériel (droit, créance)", "tags": ["Biens"], "difficulty": "Facile", "estimatedTime": 8}
+          ], "estimatedTime": 15}
+        ], "estimatedTime": 30}
+      ],
+      "estimatedTime": 30,
+      "icon": "📦"
+    },
+    {
+      "id": "DP3",
+      "number": "3",
+      "name": "Obligations",
+      "description": "Sources des obligations, responsabilité contractuelle et délictuelle",
+      "sections": [
+        {"id": "DP3-I", "romanNumeral": "I", "name": "Sources", "subsections": [
+          {"id": "DP3-I-1", "number": "1", "name": "Contrats", "notions": [
+            {"id": "DP3-I-1a", "name": "Principe du consensualisme", "description": "Accord des volontés suffit (sauf forme)", "tags": ["Contrats", "Obligations"], "difficulty": "Moyen", "estimatedTime": 9},
+            {"id": "DP3-I-1b", "name": "Conditions de validité", "description": "Consentement, capacité, contenu licite", "tags": ["Contrats", "Validité"], "difficulty": "Moyen", "estimatedTime": 10}
+          ], "estimatedTime": 19},
+          {"id": "DP3-I-2", "number": "2", "name": "Actes unilatéraux et faits juridiques", "notions": [
+            {"id": "DP3-I-2a", "name": "Actes unilatéraux", "description": "Promesse unilatérale, offre", "tags": ["Obligations"], "difficulty": "Moyen", "estimatedTime": 8},
+            {"id": "DP3-I-2b", "name": "Faits juridiques", "description": "Responsabilité, enrichissement sans cause", "tags": ["Obligations"], "difficulty": "Moyen", "estimatedTime": 9}
+          ], "estimatedTime": 17}
+        ], "estimatedTime": 36}
+      ],
+      "estimatedTime": 36,
+      "icon": "📜"
+    },
+    {
+      "id": "DP4",
+      "number": "4",
+      "name": "Responsabilité",
+      "description": "Responsabilité contractuelle et délictuelle, conditions et effets",
+      "sections": [
+        {"id": "DP4-I", "romanNumeral": "I", "name": "Contractuelle", "subsections": [
+          {"id": "DP4-I-1", "number": "1", "name": "Conditions", "notions": [
+            {"id": "DP4-I-1a", "name": "Inexécution", "description": "Faute, retard, défaillance", "tags": ["Responsabilité", "Contractuelle"], "difficulty": "Moyen", "estimatedTime": 9}
+          ], "estimatedTime": 9}
+        ], "estimatedTime": 9},
+        {"id": "DP4-II", "romanNumeral": "II", "name": "Délictuelle", "subsections": [
+          {"id": "DP4-II-1", "number": "1", "name": "Conditions", "notions": [
+            {"id": "DP4-II-1a", "name": "Faute, dommage, lien de causalité", "description": "Éléments constitutifs", "tags": ["Responsabilité", "Délictuelle"], "difficulty": "Moyen", "estimatedTime": 10}
+          ], "estimatedTime": 10}
+        ], "estimatedTime": 10}
+      ],
+      "estimatedTime": 19,
+      "icon": "⚖️"
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 0,
+    "totalTime": 200,
+    "totalNotions": 30,
+    "authors": ["Prof Droit privé L1"]
+  }
+}

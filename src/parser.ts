@@ -20,6 +20,7 @@ export type Question =
   | { type: 'QR'; question: string; answers: Answer[]; explication?: string; topics?: string[] }
   | { type: 'QCM'; question: string; answers: Answer[]; explication?: string; topics?: string[] }
   | { type: 'DragMatch'; question: string; pairs: DragPair[]; explication?: string; topics?: string[] }
+  | { type: 'OpenQ'; question: string; expectedKeywords: string[]; referenceCourse?: string; explication?: string; topics?: string[] }
   | { type: 'FormulaBuilder'; question: string; formulaData: FormulaData; explication?: string; topics?: string[] };
 
 export type UserAnswer =
@@ -295,3 +296,6 @@ export function countCorrect(q: Question): number {
   if (q.type === 'FormulaBuilder') return 1;
   return 0;
 }
+
+// Alias pour compatibilité
+export { parseQuestions as parseText2Quiz };

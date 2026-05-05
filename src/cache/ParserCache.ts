@@ -1,6 +1,7 @@
 /**
  * ParserCache — Memoization layer for parseQuestions
  * Eliminates re-parsing overhead (23ms → 0.1ms cache hit)
+ * Sprint 2 Phase 1 enhancements: requestIdleCallback, preload, file hash
  */
 
 import { parseQuestions } from '../parser';
@@ -9,22 +10,56 @@ import type { Question } from '../types';
 
 type CacheEntry = {
   questions: Question[];
+  fileHash: string;
   timestamp: number;
 };
 
 class ParserCache {
   private cache: Map<string, CacheEntry> = new Map();
-  private maxAge: number = 5 * 60 * 1000; // 5 minutes
+  private maxAge: number = 30 * 60 * 1000; // 30 minutes (increased from 5)
+  private maxSize: number = 50; // Max 50 files cached
+  private pendingParsing: Map<string, Promise<Question[]>> = new Map();
+
+  /**
+   * Compute simple hash for cache invalidation
+   */
+  private computeFileHash(content: string): string {
+    const sample = content.substring(0, 100);
+    let hash = 0;
+    for (let i = 0; i < sample.length; i++) {
+      const char = sample.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash;
+    }
+    return `${content.length}_${hash.toString(36)}`;
+  }
+
+  /**
+   * Parse with requestIdleCallback for non-blocking
+   */
+  private parseWithIdleCallback(content: string): Promise<Question[]> {
+    if (typeof requestIdleCallback === 'undefined') {
+      return Promise.resolve(parseQuestions(content));
+    }
+
+    return new Promise((resolve) => {
+      requestIdleCallback(() => {
+        const questions = parseQuestions(content);
+        resolve(questions);
+      }, { timeout: 2000 });
+    });
+  }
 
   /**
    * Get parsed questions with deduplication, using cache when available
    */
-  getParsedQuestions(filePath: string, content: string): Question[] {
+  getParsedQuestions(filePath: string, content: string, useIdleCallback: boolean = false): Question[] {
+    const fileHash = this.computeFileHash(content);
     const cached = this.cache.get(filePath);
     const now = Date.now();
 
-    // Return cached if valid
-    if (cached && now - cached.timestamp < this.maxAge) {
+    // Return cached if valid and hash matches
+    if (cached && now - cached.timestamp < this.maxAge && cached.fileHash === fileHash) {
       return cached.questions;
     }
 
@@ -32,8 +67,15 @@ class ParserCache {
     const parsed = parseQuestions(content);
     const unique = dedupeQuestions(parsed);
     
+    // Evict oldest if cache full
+    if (this.cache.size >= this.maxSize) {
+      const oldestKey = this.cache.keys().next().value;
+      this.cache.delete(oldestKey);
+    }
+
     this.cache.set(filePath, {
       questions: unique,
+      fileHash,
       timestamp: now,
     });
 
@@ -41,43 +83,103 @@ class ParserCache {
   }
 
   /**
-   * Preload multiple courses in background (optional optimization)
+   * Async version with requestIdleCallback support
    */
-  async preloadCourses(courses: Array<{ path: string; content: string }>) {
-    for (const course of courses) {
-      // Parse in idle callback to avoid blocking main thread
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-          this.getParsedQuestions(course.path, course.content);
-        });
-      } else {
-        // Fallback for browsers without requestIdleCallback
-        setTimeout(() => {
-          this.getParsedQuestions(course.path, course.content);
-        }, 0);
+  async getParsedQuestionsAsync(filePath: string, content: string, useIdleCallback: boolean = true): Promise<Question[]> {
+    const fileHash = this.computeFileHash(content);
+    const cached = this.cache.get(filePath);
+    const now = Date.now();
+
+    // Return cached if valid
+    if (cached && now - cached.timestamp < this.maxAge && cached.fileHash === fileHash) {
+      return cached.questions;
+    }
+
+    // Check if already parsing
+    if (this.pendingParsing.has(filePath)) {
+      return this.pendingParsing.get(filePath)!;
+    }
+
+    // Parse with idle callback if requested
+    const parsePromise = (async () => {
+      const parsed = useIdleCallback
+        ? await this.parseWithIdleCallback(content)
+        : parseQuestions(content);
+      
+      const unique = dedupeQuestions(parsed);
+
+      // Evict oldest if cache full
+      if (this.cache.size >= this.maxSize) {
+        const oldestKey = this.cache.keys().next().value;
+        this.cache.delete(oldestKey);
       }
+
+      this.cache.set(filePath, {
+        questions: unique,
+        fileHash,
+        timestamp: now,
+      });
+
+      return unique;
+    })();
+
+    this.pendingParsing.set(filePath, parsePromise);
+    
+    try {
+      const result = await parsePromise;
+      return result;
+    } finally {
+      this.pendingParsing.delete(filePath);
     }
   }
 
   /**
-   * Clear cache (useful for testing or when courses update)
+   * Preload multiple courses in background (optional optimization)
    */
-  clear() {
-    this.cache.clear();
+  async preloadCourses(courses: Array<{ path: string; content: string }>) {
+    const promises = courses.map(({ path, content }) =>
+      this.getParsedQuestionsAsync(path, content, true)
+    );
+    
+    await Promise.all(promises);
   }
 
   /**
-   * Get cache statistics
+   * Invalidate specific file cache
    */
-  getStats() {
+  invalidate(filePath: string): void {
+    this.cache.delete(filePath);
+  }
+
+  /**
+   * Clear all cache
+   */
+  clear(): void {
+    this.cache.clear();
+    this.pendingParsing.clear();
+  }
+
+  /**
+   * Get cache stats
+   */
+  getStats(): { size: number; keys: string[] } {
     return {
       size: this.cache.size,
-      entries: Array.from(this.cache.entries()).map(([path, entry]) => ({
-        path,
-        age: Date.now() - entry.timestamp,
-        questionCount: entry.questions.length,
-      })),
+      keys: Array.from(this.cache.keys()),
     };
+  }
+
+  /**
+   * Legacy method for backwards compatibility
+   */
+  async preloadCoursesLegacy(courses: Array<{ path: string; content: string }>) {
+    for (const course of courses) {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => {
+          this.getParsedQuestions(course.path, course.content);
+        }, { timeout: 2000 });
+      }
+    }
   }
 }
 

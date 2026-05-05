@@ -1,0 +1,79 @@
+@themes: HFE Écrits, Open Questions
+
+### === HFE-OQ-1 : Sujets écrits – Solow et croissance ===
+### "Questions ouvertes type examen sur le modèle de Solow et la croissance économique moderne"
+@add-theme: Solow, Croissance, Examen
+
+OpenQ || Qu'est-ce que l'intensité capitalistique et quel est son rôle dans la croissance selon Solow ? || intensité capitalistique,K/L,productivité décroissante du capital || L'intensité capitalistique est le rapport entre la quantité de capital et la quantité de travail utilisées dans le processus de production. Nombre d'historiens ont montré que la croissance de la production par tête est née de l'augmentation de la quantité de capital par travailleur. || Concept central du modèle de Solow et de la croissance moderne
+
+OpenQ || Expliquez pourquoi la fonction de revenu par tête y = k^α est croissante et concave. || concave,productivité marginale décroissante,α inférieur à 1 || Sachant que α est inférieur à 1, le produit par tête augmente de moins en moins vite au fur et à mesure que le capital par tête augmente. La productivité du capital étant décroissante, la fonction de revenu par tête est croissante et concave. || Comprendre la décroissance marginale du capital explique l'état stationnaire
+
+OpenQ || Comment le modèle de Solow explique-t-il les différences de PIB par tête entre pays ? || capital par tête,convergence,différences internationales || Il est possible d'expliquer les différences de PIB par tête par les différences de capital par tête. || Lien entre richesse des nations et accumulation de capital
+
+OpenQ || Qu'est-ce que la convergence conditionnelle dans le modèle de Solow ? || convergence,productivité marginale,pays pauvres,rattrapage || Les pays pauvres ont une productivité marginale du capital plus élevée ; ils devraient donc croître plus vite et rattraper les pays riches (toutes choses égales par ailleurs). || Prédit les dynamiques de rattrapage entre pays
+
+OpenQ || Expliquez l'évolution des taux de croissance de la production mondiale du XVIIIe siècle à la période 1960-2000. || 0,33%,1%,2,4%,4%,accélération || La production mondiale a augmenté de 4% entre 1960 et 2000, 2,4% durant les 60 premières années du XXe siècle, 1% au XIXe siècle et 0,33% au XVIIIe siècle. || Mettre en perspective historique l'accélération de la croissance
+
+OpenQ || Pourquoi le transfert de technologie pendant la période coloniale n'a-t-il pas augmenté le revenu par tête des pays colonisés ? || trappe malthusienne,population,revenu par tête constant || Le transfert de technologie permit d'augmenter la production des pays colonisés mais le résultat fut une augmentation de la population et non du niveau de vie. || Persistance de la trappe malthusienne même avec technologie importée
+
+---
+
+### === HFE-OQ-2 : Sujets écrits – Trappe malthusienne ===
+### "Questions ouvertes type examen sur la trappe malthusienne et les sociétés pré-industrielles"
+@add-theme: Malthus, Trappe malthusienne, Examen
+
+OpenQ || Définissez la trappe malthusienne et expliquez son mécanisme. || trappe malthusienne,production,population,revenu par tête constant || Une société traditionnelle répond à une augmentation de la productivité par une augmentation de la population et non du niveau de vie. En d'autres termes, les sociétés traditionnelles étaient enfermées dans une trappe malthusienne. || Concept fondateur de l'économie historique
+
+OpenQ || Quelles sont les trois conditions pour qu'une économie soit dans une trappe malthusienne ? || décroissance productivité,réponse démographique,absence progrès technique || Décroissance de la productivité moyenne du travail ; croissance de la population en réponse à une augmentation des salaires ; absence de progrès technique d'une ampleur suffisante. || Préciser les conditions exactes du modèle malthusien
+
+OpenQ || Comment la Peste noire (XIVe siècle) illustre-t-elle le mécanisme de la trappe malthusienne ? || corrélation négative,salaires,population,peste noire || La corrélation négative de forte intensité entre variation de la population et variation des salaires illustre que l'économie anglaise est en pleine trappe malthusienne. || Cas empirique classique de vérification du modèle
+
+OpenQ || En quoi le XVIIIe siècle représente-t-il une transition dans la sortie de la trappe malthusienne en Angleterre ? || corrélation moins forte,progrès médecine,exogène || Au XVIIIe siècle, la droite de régression est moins verticale mais toujours négative. Les conditions de vie ne sont plus uniquement liées au revenu (médecine, législation du travail). || Phase de transition avant la sortie définitive
+
+OpenQ || Quelle est la rupture fondamentale qui caractérise la sortie de la trappe malthusienne ? || corrélation positive,gains productivité,revenu par tête augmente,XIXe siècle || Le changement majeur qui s'est produit vers 1800 ce n'est pas tant au niveau de la technologie qu'au niveau de la démographie : à partir de cette date, les gains de productivité cessent d'entraîner des hausses de la population. || La transition démographique comme rupture décisive
+
+---
+
+### === HFE-OQ-3 : Sujets écrits – Institutions et croissance (Douglas North) ===
+### "Questions ouvertes type examen sur le rôle des institutions dans la performance économique à long terme"
+@add-theme: North, Institutions, Droits de propriété, Examen
+
+OpenQ || Définissez ce que North entend par "institutions" et leur rôle économique. || règles formelles,règles informelles,incitations,interactions humaines || Les institutions économiques désignent les règles formelles (lois, constitutions) et informelles (normes, conventions) qui structurent les interactions humaines et définissent les incitations. || Fondement de l'analyse institutionnaliste
+
+OpenQ || Comment les droits de propriété favorisent-ils la croissance économique selon North ? || droits de propriété,appropriation des gains,incitations,investissement || Les droits de propriété garantissent que les acteurs peuvent bénéficier des fruits de leur travail et de leurs investissements, créant les incitations à innover et investir. || Mécanisme micro-économique des institutions sur la croissance
+
+OpenQ || En quoi le mouvement des enclosures est-il un exemple d'institution qui a favorisé la croissance ? || enclosures,propriété privée,innovation,accord communautaire || En divisant les terres communes en propriétés privées, les enclosures permettaient à chaque propriétaire d'innover sans l'accord de la communauté, et de bénéficier seul des gains. || Application concrète de la théorie de North à l'histoire anglaise
+
+OpenQ || Pourquoi certains pays restent-ils pauvres malgré des ressources naturelles abondantes, selon l'analyse institutionnaliste ? || mauvaises institutions,incitations perverses,malédiction ressources || Les mauvaises institutions créent de mauvaises incitations : sans droits de propriété clairs ni état de droit, les agents n'ont pas intérêt à investir et innover. || Paradoxe de la "malédiction des ressources" naturelles
+
+---
+
+### === HFE-OQ-4 : Sujets écrits – Révolution industrielle et Angleterre ===
+### "Questions ouvertes sur les causes et caractéristiques de la révolution industrielle anglaise"
+@add-theme: Révolution industrielle, Angleterre, Schumpeter, Examen
+
+OpenQ || Quels sont les cinq éléments caractéristiques de la révolution industrielle ? || techniques,marché,spécialisation,urbanisation,capital technique,classes sociales || Le développement des techniques et l'extension du marché ; la spécialisation nationale et internationale ; l'urbanisation et l'apparition des usines ; la diffusion des biens manufacturés et l'accumulation de capital technique ; la naissance de nouvelles classes sociales. || Définition précise et complète de la révolution industrielle
+
+OpenQ || Pourquoi la révolution industrielle est-elle née en Angleterre et non dans d'autres pays ? || combinaison unique,révolution agricole,enclosures,institutions,démographie,géographie || La Révolution Industrielle s'est produite du fait d'une combinaison unique de circonstances favorables : scientifiques, démographiques, politiques, géographiques, militaires, etc. Condition que l'Angleterre fut le premier pays à réunir. || Multicausalité de l'émergence industrielle anglaise
+
+OpenQ || Expliquez le concept de "grappes d'innovation" chez Schumpeter. || grappes,innovation,imitation,applications multiples || Les innovations arrivent par grappes car une découverte ouvre le champ à d'autres, à des imitateurs et entraîne de multiples applications. || Mécanisme de diffusion des innovations
+
+OpenQ || Citez les cinq formes d'innovation selon Schumpeter. || produit nouveau,méthode production,débouché,matière première,organisation || La fabrication d'un produit nouveau ; l'introduction d'une méthode de production nouvelle ; l'ouverture d'un nouveau débouché ; la conquête d'une nouvelle source de matière première ; la mise en œuvre d'une nouvelle méthode d'organisation. || Taxonomie complète de l'innovation schumpétérienne
+
+OpenQ || Quel est le rôle du "sur-profit" dans la dynamique d'innovation de Schumpeter ? || sur-profit,récompense,imitation,disparition profit || L'entrepreneur-innovateur introduit une nouvelle combinaison qui lui vaut un sur-profit temporairement plus élevé que le profit habituel. L'innovation se développe ensuite par imitation, puis le sur-profit disparaît. || Incitation économique à innover dans le modèle schumpétérien
+
+---
+
+### === HFE-OQ-5 : Sujets écrits – Crises économiques ===
+### "Questions ouvertes sur les crises de 1873, 1929 et le débat Friedman/Keynes"
+@add-theme: Crises, Friedman, Keynes, Grande Dépression, Examen
+
+OpenQ || Expliquez le mécanisme de propagation de la crise de 1873. || déflation,faillites bancaires,crédit,investissement,consommation || Krach boursier, faillites bancaires en série entraînent un rationnement du crédit qui restreint l'investissement, la consommation et conduisent les entreprises à revoir à la baisse leur plan de production. || Mécanisme standard de propagation d'une crise financière
+
+OpenQ || Quel rôle joue un "prêteur en dernier ressort" dans la gestion des crises bancaires ? || prêteur dernier ressort,liquidités,dominos bancaires,banque centrale || Sans prêteur en dernier ressort bien établi, les dominos bancaires continuent à tomber les uns après les autres, la crise s'étend et s'installe durablement. || Justification de l'existence et du rôle des banques centrales
+
+OpenQ || Quelle est la thèse de Friedman sur les causes de la Grande Dépression de 1929 ? || Friedman,masse monétaire,Fed,effondrement bancaire,cause première || L'effondrement du système bancaire est la cause première de la Grande Dépression ; la Fed a commis une erreur grave en laissant la masse monétaire s'effondrer de 1929 à 1933. || Explication monétariste de la Grande Dépression
+
+OpenQ || Quelle est la thèse keynésienne sur les causes de la Grande Dépression de 1929 ? || demande globale,consommation,insuffisance demande,Keynes || La baisse de la demande globale est à l'origine du déclin et de la crise. || Explication keynésienne de la Grande Dépression
+
+OpenQ || En quoi le contexte des années 1920 aux États-Unis rend-il le krach de 1929 paradoxal ? || salaires réels,chômage 3,2%,croissance forte,spéculation boursière || Dans les années 1920, aux USA, tout allait bien en apparence : les salaires réels avaient augmenté de 10 à 20%, le chômage était descendu à 3,2% en 1929, la croissance était forte. || Le paradoxe d'une crise majeure dans un contexte d'apparente prospérité

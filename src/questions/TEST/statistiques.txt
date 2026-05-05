@@ -1,0 +1,7 @@
+QCM || Quelles données sont trackées par notion ? || Score de maîtrise (0-100)|v:true || Nombre de fois vue|v:true || Taux de réussite|v:true || Prochaine révision|v:true || Historique des sessions|v:true || Le système track 5 métriques principales pour chaque notion, permettant un suivi précis et un parcours adaptatif optimisé. || Tracking, Moyen
+
+QCM || Où sont stockées les données de progression ? || IndexedDB (base locale navigateur)|v:true || Serveur distant|v:false || Fichiers texte|v:false || Base MySQL|v:false || IndexedDB est utilisé pour stocker les questions et la progression localement dans le navigateur. Pas de serveur requis ! || Tracking, Facile
+
+QCM || Comment gagne-t-on de l'XP ? || +10 XP par réponse correcte|v:true || +5 XP par session complétée|v:false || +20 XP par niveau de maîtrise atteint|v:false || Pas de système XP|v:false || Chaque réponse correcte rapporte 10 points d'expérience. Le niveau augmente tous les 200 XP. || XP_Niveau, Facile
+
+QCM || Que se passe-t-il avec les streaks quotidiens ? || Compteur incrémenté chaque jour d'activité|v:true || Reset si plus de 2 jours d'inactivité|v:true || Badge spécial à 7 jours consécutifs|v:false || Aucun impact sur la progression|v:false || Les streaks mesurent la régularité : +1 par jour d'activité, reset après 2 jours d'absence. Cela encourage la pratique quotidienne comme Duolingo. || XP_Niveau, Moyen

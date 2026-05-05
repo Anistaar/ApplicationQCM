@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Quiz MACRO</title>
+    <style>
+        body { font-family: monospace; padding: 20px; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+        .section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+        pre { background: #f5f5f5; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Debug Quiz MACRO</h1>
+    
+    <div class="section">
+        <h2>Étape 1: Charger les questions</h2>
+        <button onclick="loadQuestions()">Charger MACRO_QUESTIONS_COMPLETE_v2.txt</button>
+        <div id="questions-result"></div>
+    </div>
+    
+    <div class="section">
+        <h2>Étape 2: Analyser les thèmes</h2>
+        <button onclick="analyzeThemes()">Analyser les thèmes</button>
+        <div id="themes-result"></div>
+    </div>
+    
+    <div class="section">
+        <h2>Étape 3: Filtrer par thème</h2>
+        <label>Thème: <input type="text" id="theme-input" value="Intro" /></label>
+        <button onclick="filterByTheme()">Filtrer</button>
+        <div id="filter-result"></div>
+    </div>
+
+    <script type="module">
+        import { parseText2Quiz } from './src/parser.js';
+        
+        let allQuestions = [];
+        
+        window.loadQuestions = async function() {
+            const result = document.getElementById('questions-result');
+            result.innerHTML = '<p class="info">⏳ Chargement...</p>';
+            
+            try {
+                const response = await fetch('/src/questions/S1/MACRO/MACRO_QUESTIONS_COMPLETE_v2.txt');
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const text = await response.text();
+                allQuestions = parseText2Quiz(text);
+                
+                result.innerHTML = `
+                    <p class="success">✅ ${allQuestions.length} questions chargées</p>
+                    <p>Taille du fichier: ${text.length} caractères</p>
+                    <p>Types: ${JSON.stringify(
+                        allQuestions.reduce((acc, q) => {
+                            acc[q.type] = (acc[q.type] || 0) + 1;
+                            return acc;
+                        }, {})
+                    )}</p>
+                    <details>
+                        <summary>Voir la première question</summary>
+                        <pre>${JSON.stringify(allQuestions[0], null, 2)}</pre>
+                    </details>
+                `;
+            } catch (error) {
+                result.innerHTML = `<p class="error">❌ Erreur: ${error.message}</p>`;
+            }
+        };
+        
+        window.analyzeThemes = function() {
+            const result = document.getElementById('themes-result');
+            
+            if (allQuestions.length === 0) {
+                result.innerHTML = '<p class="error">❌ Chargez d\'abord les questions</p>';
+                return;
+            }
+            
+            const themesMap = new Map();
+            
+            allQuestions.forEach(q => {
+                const topics = q.topics || [];
+                topics.forEach(topic => {
+                    themesMap.set(topic, (themesMap.get(topic) || 0) + 1);
+                });
+            });
+            
+            const sortedThemes = Array.from(themesMap.entries())
+                .sort((a, b) => b[1] - a[1]);
+            
+            result.innerHTML = `
+                <p class="success">✅ ${themesMap.size} thèmes distincts trouvés</p>
+                <details open>
+                    <summary>Liste des thèmes (${sortedThemes.length})</summary>
+                    <pre>${sortedThemes.map(([theme, count]) => `${theme}: ${count} questions`).join('\n')}</pre>
+                </details>
+                <p>Questions sans thème: ${allQuestions.filter(q => !q.topics || q.topics.length === 0).length}</p>
+            `;
+        };
+        
+        window.filterByTheme = function() {
+            const result = document.getElementById('filter-result');
+            const theme = document.getElementById('theme-input').value.trim();
+            
+            if (allQuestions.length === 0) {
+                result.innerHTML = '<p class="error">❌ Chargez d\'abord les questions</p>';
+                return;
+            }
+            
+            if (!theme) {
+                result.innerHTML = '<p class="error">❌ Entrez un thème</p>';
+                return;
+            }
+            
+            const filtered = allQuestions.filter(q => {
+                const topics = q.topics || [];
+                return topics.includes(theme);
+            });
+            
+            result.innerHTML = `
+                <p class="success">✅ ${filtered.length} questions avec le thème "${theme}"</p>
+                ${filtered.length > 0 ? `
+                    <details>
+                        <summary>Voir les 5 premières questions</summary>
+                        <pre>${JSON.stringify(filtered.slice(0, 5).map(q => ({
+                            question: q.question.substring(0, 60) + '...',
+                            topics: q.topics
+                        })), null, 2)}</pre>
+                    </details>
+                ` : ''}
+            `;
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text2Quiz VIP - Accueil</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      background: white;
+      border-radius: 24px;
+      padding: 4rem;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #1e293b;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #64748b;
+      margin-bottom: 3rem;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      padding: 1.5rem 2rem;
+      border: none;
+      border-radius: 16px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(102, 126, 234, 0.5);
+    }
+
+    .btn-secondary {
+      background: #f1f5f9;
+      color: #1e293b;
+      border: 2px solid #e2e8f0;
+    }
+
+    .btn-secondary:hover {
+      background: #e2e8f0;
+      transform: translateY(-2px);
+    }
+
+    .btn .icon {
+      font-size: 2rem;
+    }
+
+    .btn .content {
+      flex: 1;
+      text-align: left;
+    }
+
+    .btn .title {
+      display: block;
+      font-size: 1.25rem;
+    }
+
+    .btn .desc {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 400;
+      opacity: 0.8;
+      margin-top: 0.25rem;
+    }
+
+    .features {
+      margin-top: 3rem;
+      padding-top: 3rem;
+      border-top: 2px solid #e2e8f0;
+    }
+
+    .features h2 {
+      font-size: 1.5rem;
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      text-align: left;
+    }
+
+    .feature {
+      padding: 1.5rem;
+      background: #f8fafc;
+      border-radius: 12px;
+      border-left: 4px solid #667eea;
+    }
+
+    .feature .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature h3 {
+      font-size: 1rem;
+      color: #1e293b;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature p {
+      font-size: 0.9rem;
+      color: #64748b;
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 2rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .btn {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .btn .content {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🎓</div>
+    <h1>Text2Quiz VIP</h1>
+    <p>
+      <strong>Nouvelle architecture avec base de données centralisée</strong><br>
+      Sélectionnez vos questions par thèmes, gérez votre contenu facilement
+    </p>
+
+    <div class="buttons">
+      <a href="src/new-ui/index.html" class="btn btn-primary">
+        <span class="icon">🚀</span>
+        <span class="content">
+          <span class="title">Lancer l'Application</span>
+          <span class="desc">8 matières disponibles • Chargement instantané</span>
+        </span>
+      </a>
+
+      <a href="demo-test.html" class="btn btn-secondary">
+        <span class="icon">🧪</span>
+        <span class="content">
+          <span class="title">Démo TEST</span>
+          <span class="desc">20 questions pour découvrir les fonctionnalités</span>
+        </span>
+      </a>
+
+      <a href="src/admin/admin-panel.html" class="btn btn-secondary">
+        <span class="icon">⚙️</span>
+        <span class="content">
+          <span class="title">Panneau d'Administration</span>
+          <span class="desc">Import manuel, gestion de la base</span>
+        </span>
+      </a>
+
+      <a href="index.html" class="btn btn-secondary">
+        <span class="icon">📋</span>
+        <span class="content">
+          <span class="title">Ancienne Interface</span>
+          <span class="desc">Interface classique (toujours disponible)</span>
+        </span>
+      </a>
+    </div>
+
+    <div class="features">
+      <h2>✨ Nouveautés</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <div class="icon">🗄️</div>
+          <h3>Base de données</h3>
+          <p>IndexedDB pour stocker toutes vos questions localement</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">🏷️</div>
+          <h3>Gestion par thèmes</h3>
+          <p>Un seul fichier par matière, sélection granulaire</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">📤</div>
+          <h3>Import/Export</h3>
+          <p>Importez vos fichiers text2quiz facilement</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">🎨</div>
+          <h3>Interface moderne</h3>
+          <p>Design repensé, responsive et intuitif</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">📊</div>
+          <h3>Statistiques</h3>
+          <p>Compteurs en temps réel, analytics</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">🔍</div>
+          <h3>Recherche</h3>
+          <p>Filtrez et recherchez vos questions rapidement</p>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin-top: 3rem; font-size: 0.9rem; opacity: 0.6;">
+      📖 Consultez <a href="QUICK_START.md" style="color: #667eea; text-decoration: none; font-weight: 600;">QUICK_START.md</a> 
+      et <a href="NEW_ARCHITECTURE.md" style="color: #667eea; text-decoration: none; font-weight: 600;">NEW_ARCHITECTURE.md</a> 
+      pour plus d'informations
+    </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+  "id": "SOCIO",
+  "name": "Sociologie L1 S2",
+  "version": "1.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-01-01",
+  "description": "Sociologie L1 S2 : Durkheim, Weber, Bourdieu, socialisation, stratification, déviance, courants",
+  "chapters": [
+    {
+      "id": "SOCIO1",
+      "number": "1",
+      "name": "Fondements de la sociologie",
+      "description": "Définition, Durkheim, fait social, solidarité, Le Suicide",
+      "sections": [
+        {
+          "id": "SOCIO1-I",
+          "romanNumeral": "I",
+          "name": "Bases et Durkheim",
+          "subsections": [
+            {
+              "id": "SOCIO1-I-1",
+              "number": "1",
+              "name": "Définition et objet",
+              "notions": [
+                {"id": "SOCIO1-I-1a", "name": "Définition de la sociologie", "description": "Science des faits sociaux, Comte, Ibn Khaldoun, échelles macro/micro", "tags": ["Fondements", "Définitions"], "difficulty": "Facile", "estimatedTime": 5}
+              ],
+              "estimatedTime": 5
+            },
+            {
+              "id": "SOCIO1-I-2",
+              "number": "2",
+              "name": "Durkheim",
+              "notions": [
+                {"id": "SOCIO1-I-2a", "name": "Le fait social", "description": "Définition, contrainte extérieure, Règles de la méthode, holisme, solidarité mécanique/organique", "tags": ["Fondements", "Durkheim", "Fait social"], "difficulty": "Moyen", "estimatedTime": 8},
+                {"id": "SOCIO1-I-2b", "name": "Le Suicide", "description": "Suicide égoïste/altruiste/anomique, anomie, intégration/régulation", "tags": ["Fondements", "Durkheim", "Suicide"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 15
+            }
+          ],
+          "estimatedTime": 20
+        }
+      ],
+      "estimatedTime": 20,
+      "icon": "📚"
+    },
+    {
+      "id": "SOCIO2",
+      "number": "2",
+      "name": "Weber et les paradigmes",
+      "description": "Sociologie compréhensive, individualisme méthodologique, idéal-type",
+      "sections": [
+        {
+          "id": "SOCIO2-I",
+          "romanNumeral": "I",
+          "name": "Weber et débats",
+          "subsections": [
+            {
+              "id": "SOCIO2-I-1",
+              "number": "1",
+              "name": "Max Weber",
+              "notions": [
+                {"id": "SOCIO2-I-1a", "name": "Sociologie compréhensive", "description": "Action sociale (4 types), individualisme méthodologique, idéal-type, neutralité axiologique, L'Éthique protestante", "tags": ["Fondements", "Weber", "Action sociale"], "difficulty": "Moyen", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            },
+            {
+              "id": "SOCIO2-I-2",
+              "number": "2",
+              "name": "Holisme vs Individualisme",
+              "notions": [
+                {"id": "SOCIO2-I-2a", "name": "Paradigmes fondamentaux", "description": "Holisme (Durkheim) vs individualisme méthodologique (Weber), société sui generis", "tags": ["Fondements", "Paradigmes"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            }
+          ],
+          "estimatedTime": 15
+        }
+      ],
+      "estimatedTime": 15,
+      "icon": "🧠"
+    },
+    {
+      "id": "SOCIO3",
+      "number": "3",
+      "name": "Socialisation",
+      "description": "Processus, instances, Bourdieu, habitus, capital culturel",
+      "sections": [
+        {
+          "id": "SOCIO3-I",
+          "romanNumeral": "I",
+          "name": "Processus et Bourdieu",
+          "subsections": [
+            {
+              "id": "SOCIO3-I-1",
+              "number": "1",
+              "name": "La socialisation",
+              "notions": [
+                {"id": "SOCIO3-I-1a", "name": "Processus de socialisation", "description": "Primaire/secondaire, instances (famille, école, pairs), normes et valeurs", "tags": ["Socialisation"], "difficulty": "Facile", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "SOCIO3-I-2",
+              "number": "2",
+              "name": "Bourdieu et l'habitus",
+              "notions": [
+                {"id": "SOCIO3-I-2a", "name": "Habitus et capitaux", "description": "Habitus, capital culturel/économique/social/symbolique, La Distinction, reproduction sociale", "tags": ["Socialisation", "Bourdieu", "Habitus"], "difficulty": "Moyen", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            }
+          ],
+          "estimatedTime": 16
+        }
+      ],
+      "estimatedTime": 16,
+      "icon": "👥"
+    },
+    {
+      "id": "SOCIO4",
+      "number": "4",
+      "name": "Stratification et mobilité",
+      "description": "Classes sociales (Marx, Weber, Bourdieu), PCS, mobilité sociale",
+      "sections": [
+        {
+          "id": "SOCIO4-I",
+          "romanNumeral": "I",
+          "name": "Hiérarchie et mobilité",
+          "subsections": [
+            {
+              "id": "SOCIO4-I-1",
+              "number": "1",
+              "name": "Stratification sociale",
+              "notions": [
+                {"id": "SOCIO4-I-1a", "name": "Classes sociales", "description": "Marx (bourgeoisie/prolétariat), Bourdieu (capitaux), PCS INSEE, lutte des classes", "tags": ["Stratification", "Classes sociales"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            },
+            {
+              "id": "SOCIO4-I-2",
+              "number": "2",
+              "name": "Mobilité sociale",
+              "notions": [
+                {"id": "SOCIO4-I-2a", "name": "Mobilité sociale", "description": "Intergénérationnelle/intragénérationnelle, structurelle, reproduction, tables de mobilité, fluidité", "tags": ["Stratification", "Mobilité sociale"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 15
+        }
+      ],
+      "estimatedTime": 15,
+      "icon": "📊"
+    },
+    {
+      "id": "SOCIO5",
+      "number": "5",
+      "name": "Déviance et théories",
+      "description": "Déviance, contrôle social, étiquetage, fonctionnalisme, théorie du conflit, interactionnisme",
+      "sections": [
+        {
+          "id": "SOCIO5-I",
+          "romanNumeral": "I",
+          "name": "Déviance et courants",
+          "subsections": [
+            {
+              "id": "SOCIO5-I-1",
+              "number": "1",
+              "name": "Déviance et contrôle social",
+              "notions": [
+                {"id": "SOCIO5-I-1a", "name": "Déviance et contrôle", "description": "Transgression des normes, contrôle formel/informel, Becker (étiquetage, Outsiders)", "tags": ["Déviance", "Contrôle social"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "SOCIO5-I-2",
+              "number": "2",
+              "name": "Grands courants théoriques",
+              "notions": [
+                {"id": "SOCIO5-I-2a", "name": "Courants sociologiques", "description": "Fonctionnalisme, théorie du conflit, interactionnisme symbolique, Goffman (dramaturgie), structuralisme génétique", "tags": ["Théories", "Courants"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 14
+        }
+      ],
+      "estimatedTime": 14,
+      "icon": "⚡"
+    },
+    {
+      "id": "SOCIO6",
+      "number": "6",
+      "name": "Culture et genre",
+      "description": "Culture sociologique, socialisation différenciée, genre, fait social total",
+      "sections": [
+        {
+          "id": "SOCIO6-I",
+          "romanNumeral": "I",
+          "name": "Culture et différenciation",
+          "subsections": [
+            {
+              "id": "SOCIO6-I-1",
+              "number": "1",
+              "name": "Culture et socialisation différenciée",
+              "notions": [
+                {"id": "SOCIO6-I-1a", "name": "Culture et genre", "description": "Culture en sociologie, socialisation de genre, Beauvoir, Merton (socialisation anticipatrice), Hoggart, Mauss (fait social total)", "tags": ["Culture", "Socialisation différenciée"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "🎭"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "DEBATS",
+  "name": "Débats Contemporains L1 S2",
+  "version": "1.0",
+  "structureType": "sequential",
+  "lastUpdate": "2026-05-05",
+  "description": "Débats contemporains : mondialisation, macroéconomie France, géoéconomie, émergents, commerce international",
+  "chapters": [
+    {
+      "id": "DC1",
+      "number": "1",
+      "name": "Mondialisation et commerce",
+      "description": "Taux d'ouverture, grands thèmes de l'économie internationale",
+      "sections": [
+        {
+          "id": "DC1-I",
+          "romanNumeral": "I",
+          "name": "Fondamentaux de l'économie internationale",
+          "subsections": [
+            {
+              "id": "DC1-I-1",
+              "number": "1",
+              "name": "Mesure et intégration",
+              "notions": [
+                {"id": "DC1-I-1a", "name": "Taux d'ouverture et mondialisation", "description": "Taux d'ouverture = (X+M)/PIB ; indicateur du degré d'intégration à l'économie mondiale", "tags": ["Mondialisation", "Commerce", "Indicateurs"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "DC1-I-2a", "name": "Les 8 grands thèmes de l'économie internationale", "description": "Gains à l'échange, structures, politiques commerciales, taux de change, balance des paiements, FMN, finance, transition écologique", "tags": ["Économie internationale", "Commerce", "Finance"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 12
+            }
+          ],
+          "estimatedTime": 12
+        }
+      ],
+      "estimatedTime": 12,
+      "icon": "🌍"
+    },
+    {
+      "id": "DC2",
+      "number": "2",
+      "name": "Macroéconomie de la France",
+      "description": "Évolution depuis les Trente Glorieuses",
+      "sections": [
+        {
+          "id": "DC2-I",
+          "romanNumeral": "I",
+          "name": "Histoire économique française",
+          "subsections": [
+            {
+              "id": "DC2-I-1",
+              "number": "1",
+              "name": "Trente Glorieuses et après",
+              "notions": [
+                {"id": "DC2-I-1a", "name": "Évolution macroéconomique de la France — Trente Glorieuses", "description": "1950-1973 : croissance forte (4-8%/an), PIB × 10 en 60 ans, tertiarisation massive", "tags": ["France", "Trente Glorieuses", "Croissance"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            }
+          ],
+          "estimatedTime": 8
+        }
+      ],
+      "estimatedTime": 8,
+      "icon": "🇫🇷"
+    },
+    {
+      "id": "DC3",
+      "number": "3",
+      "name": "Géoéconomie",
+      "description": "Du militaire à l'économique, fragmentation mondiale",
+      "sections": [
+        {
+          "id": "DC3-I",
+          "romanNumeral": "I",
+          "name": "Rivalités économiques mondiales",
+          "subsections": [
+            {
+              "id": "DC3-I-1",
+              "number": "1",
+              "name": "Géoéconomie et rivalités",
+              "notions": [
+                {"id": "DC3-I-1a", "name": "Géoéconomie — Du militaire à l'économique", "description": "Après la Guerre froide : rivalités entre États prennent une forme économique plutôt que militaire", "tags": ["Géoéconomie", "Guerre froide", "Rivalités"], "difficulty": "Moyen", "estimatedTime": 7},
+                {"id": "DC3-I-2a", "name": "Fragmentation économique mondiale", "description": "Depuis Covid/Ukraine : remise en cause de la mondialisation, retour des logiques géopolitiques, démondialisation partielle", "tags": ["Fragmentation", "Covid", "Démondialisation"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 14
+            }
+          ],
+          "estimatedTime": 14
+        }
+      ],
+      "estimatedTime": 14,
+      "icon": "🗺️"
+    },
+    {
+      "id": "DC4",
+      "number": "4",
+      "name": "La Chine",
+      "description": "Modèle de développement, gradualisme, puissance économique",
+      "sections": [
+        {
+          "id": "DC4-I",
+          "romanNumeral": "I",
+          "name": "Émergence et modèle chinois",
+          "subsections": [
+            {
+              "id": "DC4-I-1",
+              "number": "1",
+              "name": "Le modèle de Deng Xiaoping",
+              "notions": [
+                {"id": "DC4-I-1a", "name": "La Chine — Modèle de développement et gradualisme", "description": "Modèle de Deng Xiaoping : ouverture progressive, économie de marché dans cadre communiste, croissance par l'export", "tags": ["Chine", "Deng Xiaoping", "Gradualisme"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            }
+          ],
+          "estimatedTime": 8
+        }
+      ],
+      "estimatedTime": 8,
+      "icon": "🇨🇳"
+    },
+    {
+      "id": "DC5",
+      "number": "5",
+      "name": "L'Inde",
+      "description": "Émergence, modèle de croissance par les services",
+      "sections": [
+        {
+          "id": "DC5-I",
+          "romanNumeral": "I",
+          "name": "Émergence indienne",
+          "subsections": [
+            {
+              "id": "DC5-I-1",
+              "number": "1",
+              "name": "Le modèle indien",
+              "notions": [
+                {"id": "DC5-I-1a", "name": "L'Inde — Émergence et modèle", "description": "Émergence plus tardive que la Chine ; démocratie parlementaire ; croissance par les services et marchés de capitaux", "tags": ["Inde", "Services", "Émergence"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "🇮🇳"
+    },
+    {
+      "id": "DC6",
+      "number": "6",
+      "name": "Modèles du commerce",
+      "description": "Modèle de gravité, déterminants des échanges",
+      "sections": [
+        {
+          "id": "DC6-I",
+          "romanNumeral": "I",
+          "name": "Théories des échanges",
+          "subsections": [
+            {
+              "id": "DC6-I-1",
+              "number": "1",
+              "name": "Modèle de gravité",
+              "notions": [
+                {"id": "DC6-I-1a", "name": "Le modèle de gravité du commerce", "description": "Tij = A × Yi × Yj / Dij : les échanges augmentent avec la taille des économies et diminuent avec la distance", "tags": ["Gravité", "Commerce", "Distance"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "⚖️"
+    },
+    {
+      "id": "DC7",
+      "number": "7",
+      "name": "Politiques commerciales",
+      "description": "Libre-échange vs protectionnisme",
+      "sections": [
+        {
+          "id": "DC7-I",
+          "romanNumeral": "I",
+          "name": "Débat libre-échange / protection",
+          "subsections": [
+            {
+              "id": "DC7-I-1",
+              "number": "1",
+              "name": "Arguments et politiques",
+              "notions": [
+                {"id": "DC7-I-1a", "name": "Politiques commerciales — Libre-échange vs Protectionnisme", "description": "Libre-échange : avantages comparatifs, gains à l'échange. Protectionnisme : protection industrie nationale, risques", "tags": ["Libre-échange", "Protectionnisme", "Ricardo"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            }
+          ],
+          "estimatedTime": 8
+        }
+      ],
+      "estimatedTime": 8,
+      "icon": "🤝"
+    }
+  ]
+}

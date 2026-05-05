@@ -1,5 +1,5 @@
 :root{
-  --bg:#0b0f14; --fg:#e8eaed; --muted:#b4bfc9; --brd:#22303c;
+  --bg:#0b0f14; --fg:#e8eaed; --muted:#c4cfd9; --brd:#22303c;
   --ok-bg:#123d28; --ok-brd:#1f6b45; --ok-fg:#adf0c0;
   --ko-bg:#3a1517; --ko-brd:#5a2225; --ko-fg:#f9b3b6;
   --warn-bg:#2a2417; --warn-brd:#4b4130;
@@ -10,7 +10,7 @@
   --space-1:4px; --space-2:6px; --space-3:8px; --space-4:12px; --space-5:16px; --space-6:20px;
   --font-xs:11px; --font-sm:13px; --font-base:14px; --font-md:16px; --font-lg:20px; --font-xl:24px;
   --shadow-sm:0 1px 2px rgba(0,0,0,.3); --shadow-md:0 4px 12px rgba(0,0,0,.25); --shadow-lg:0 8px 28px rgba(0,0,0,.35);
-  --focus-ring:0 0 0 3px rgba(132,204,22,.35);
+  --focus-ring:0 0 0 3px rgba(132,204,22,.5);
 }
 
 /* Variante claire si besoin */
@@ -24,11 +24,23 @@ html[data-theme="light"]{
 }
 
 /* -------- Skip links accessibility -------- */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1rem 1.5rem;
+  background: var(--accent);
+  color: var(--bg);
+  text-decoration: none;
+  border-radius: 0 0 var(--radius-md) 0;
+  font-weight: 600;
+  transition: .2s;
+}
 .skip-link:focus {
   position: fixed !important;
   left: 8px !important;
   top: 8px !important;
-  outline: 3px solid var(--accent);
+  outline: 3px solid var(--fg);
   outline-offset: 2px;
   box-shadow: var(--shadow-lg);
 }
@@ -803,6 +815,39 @@ details.feedback > summary:focus-visible{
   filter:brightness(1.1);
 }
 
+/* -------- Screen reader only utility -------- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* -------- Form validation styles -------- */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: var(--ko-brd);
+}
+
+[aria-invalid="true"] {
+  border-color: var(--ko-brd);
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+}
+
+/* -------- Disabled state opacity -------- */
+button:disabled,
+input:disabled,
+select:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
 @media (max-width:640px){
   .themes-columns{
     grid-template-columns:1fr;
@@ -822,5 +867,26 @@ details.feedback > summary:focus-visible{
   .placement-card{
     flex-direction:column;
     text-align:center;
+  }
+}
+
+/* -------- Extra small screens (iPhone SE) -------- */
+@media (max-width:375px){
+  .wrap{
+    padding:0 8px 16px;
+  }
+  .topbar{
+    padding:8px 0;
+    gap:8px;
+  }
+  h1{
+    font-size:18px;
+  }
+  .card{
+    padding:var(--space-3);
+  }
+  .btn{
+    padding:var(--space-2) var(--space-3);
+    font-size:var(--font-sm);
   }
 }

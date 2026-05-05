@@ -1,0 +1,279 @@
+Chapitre 1 – La trappe malthusienne :
+
+Une modélisation des sociétés pré industrielles
+
+
+
+Jusqu’au XVIIIème le régime social, politique et économique d’une société était considéré comme une donnée immuable. Les malheurs étaient attribués soit à des événements concrets et fortuits (malchance, maladie, injustice du prince) soit à des causes lointaines et inchangeable telle la volonté divine ou la nature humaine. L’idée que l’ordre social, intermédiaire entre le fortuit et l’immuable puisse être une cause de ces malheurs n’apparaît qu’au XVIIIe siècle, d’où la célèbre formule de Saint Just : « l’idée du bonheur est nouvelle en Europe ».
+
+Cette idée que la société est perfectible s’épanouira avec le nouvel ordre économique et social qui prend son envol au début du XIXe : le capitalisme. (Système éco fondé sur la prop PV et l’échange, sur le marché, de biens produits par des firmes). 
+
+Ce nouvel ordre s’inscrit dans un nouveau monde initié par la révolution industrielle.  Mais avant de nous intéresser à ce nouveau monde, concentrons-nous sur l’ancien.
+
+
+
+Comment commenter un graphique ?
+
+Règle de base : en allant du général au particulier (=entonnoir)
+
+Pour un graphique temporel : définir des tendances associées à un séquençage en identifiant des ruptures 
+
+Utiliser des termes statistiques : croissant, décroissant, concave, convexe, corrélation, indépendance... (bannissez « ça monte », « ça descend vite »…)
+
+Montrez que vous avez compris comment lire le graphique en agrémentant vos phrases de références quantitatives 
+
+🡪 Partie description 
+
+Expliquer les phénomènes relevés précédemment grâce au cours et à vos connaissances 
+
+🡪 Partie analyse 
+
+
+
+
+
+On distingue 2 périodes : frontière= fin du 18ème siècle :
+
+Avant= PIB/hab.  = niveau faible (< 2000/hab.) + stable, quasi constant + homogène : même niveau pour les 5 pays.
+
+Après= PIB/hab. augmente à un rythme croissant + on observe des décrochage entre pays étudiés (ex : la GB voit son PIB/hab. augmenter très vite dès le milieu du XIXe alors que en inde et chine connaitront la même évolution un siècle plus tard 
+
+🡺 Inégalités internationale de richesse : ex : à l’aube de la 2GM, la GB et 5x + riche que la Chine ou Inde
+
+Entre ces 2 périodes= rupture avec la révolution industrielle 
+
+Ce graphique montre que la croissance est un phénomène historiquement nouveau. Vous permet-il de dire qu’avant le XIX siècle, la production n’augmentait pas ?
+
+Non, entre l’an 1000 (et même avant) et 1800, la production a augmenté grâce à la mise en culture de nouvelles terres et au progrès technique notamment
+
+Mais alors, p.q. la production par tète n’augmentait pas ? 🡺 Car la population augmentait proportionnellement... en d’autres termes, la croissance de la production était compensée par la croissance de la pop°
+
+
+
+C’est ce que l’on appelle la « trappe malthusienne » décrit le fait que production et population augmentaient au même rythme à long terme (car à court terme des dynamiques différentes étaient observées) de sorte que le rapport production sur population restait constant.
+
+
+
+
+
+
+
+
+
+Hypothèses du modèle malthusien : 
+
+Économie agricole 
+
+
+
+Si la prod° est supérieure au niveau de consommation de subsistance, la pop° augmente. En effet, de meilleures conditions de vie augmente la natalité et diminue la mortalité
+
+
+
+Si la production est inférieure au niveau de consommation de subsistance, la population diminue. En effet, des conditions de vie difficile, dégradées, augmente la mortalité et diminue la natalité
+
+
+
+Décroissance de la productivité moyenne et marginale du travail.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 1 / Qu’est-ce que la trappe malthusienne ?
+
+Entre l’an 0 et 1750, la population mondiale est passée de 160 à 700 millions environ, c’est-à-dire a été multipliée par 4 en 1750 ans. En supposant que le revenu par tête n’ait pas augmenté, cela signifie que la production mondiale a également été multipliée par 4, ce qui n’a pas pu se produire sans changement technologique majeur. Mais, à la différence des sociétés modernes, une société traditionnelle répond à une augmentation de la productivité par une augmentation de la population et non du niveau de vie. En d’autres termes, les sociétés traditionnelles étaient enfermées dans une trappe malthusienne.
+
+
+
+
+
+
+
+Selon Malthus, tant que les hommes ont des moyens de subsistance illimités, ils se multiplient. Puisqu’il y a plus d’individus pour une même quantité de terres, la productivité moyenne du travail diminue, et le revenu par tête moyen également. La baisse du niveau de vie ralentit la croissance de la population en provoquant l’augmentation des taux de mortalité et la baisse des taux de natalité ; finalement les revenus se stabilisent au niveau de subsistance. 
+
+Le modèle de Malthus aboutit à un équilibre de long terme, dans lequel le niveau de revenu est juste suffisant pour permettre un niveau de consommation de subsistance.  
+
+
+
+Graphiquement :
+
+
+
+Niveau de production
+
+ par travailleur
+
+
+
+
+
+Consommation de subsistance
+
+
+
+
+
+Productivité moyenne du travail
+
+
+
+Population
+
+
+
+L*
+
+L2
+
+L1
+
+
+
+
+
+
+
+Pour le niveau de population (L1), la production par tête est supérieure au minimum de subsistance : les conditions de vie s’améliorent et la population augmente jusqu’à atteindre L*. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pour le niveau de population L2, la production par tête est inférieure au minimum de subsistance : la mortalité augmente et la population diminue jusqu’à L*.
+
+L* est le niveau de population compatible avec une production permettant de satisfaire le minimum de subsistance.
+
+
+
+
+
+Jusqu’au XVIIIème siècle, rien ne venait perturber ce mécanisme, même pas le progrès technique. En effet, avant la révolution industrielle, des améliorations techniques ont eu lieu dans de nombreuses régions du monde sans que le niveau de vie n’ait augmenté. Pourquoi ? parce que le modèle malthusien prédit que la population s’ajuste automatiquement à l’amélioration du niveau de vie consécutive à l’utilisation d’une nouvelle technologie. 
+
+En partant d’un équilibre où le revenu est situé au niveau de subsistance, une nouvelle technologie, telle que de meilleures graines, augmente le revenu par tête sur la quantité fixe de terres disponibles. L’augmentation du niveau de vie a pour conséquence une augmentation de la population. Puisqu’il y a plus d’individus pour une même quantité de terres, la productivité moyenne du travail diminue, et le revenu par tête moyen également. Finalement, l’économie revient à une situation où les revenus sont au niveau de subsistance, mais avec une population plus importante.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 2 / La trappe malthusienne est-elle compatible avec les faits ? 
+
+
+
+
+
+1400-1500 : stabilisation des salaires réels (condition de vie). Pourquoi ? car certes il y a une reprise démographique mais le niveau de la population reste encore faible (au-dessus du minimum de subsistance) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le Graphique 15 fournit une illustration flagrante, compatible avec le concept de trappe malthusienne. Du début du XIIIème siècle au début du XVIIème siècle, la Grande-Bretagne a oscillé le long des sentiers représentés sur ce graphique : lorsque les salaires sont plus élevés, la population devient plus importante, ce qui fait diminuer les salaires et génère une population plus faible, ce qui augmente à nouveau les salaires, et ainsi de suite, sans que ce cercle vicieux ne semble prendre fin.
+
+
+
+XIVe : baisse de la pop° et hausse du salaire réel 
+
+
+
+
+
+
+
+
+
+Il est possible d’obtenir une autre version de ce cercle vicieux en prenant les mêmes données que celles du Graphique 15, et en se concentrant sur la période s’étendant d’environ 1340 (soit le début de la peste bubonique connue sous le nom de Peste Noire) et 1600, comme le fait le Graphique 16. 
+
+
+
+
+
+
+
+En 1349 et en 1351, le roi d’Angleterre Edouard III a adopté des lois visant à restreindre la hausse des salaires. Dans ce cas, l’économie (la baisse de l’offre de travail) l’a emporté sur la politique : les salaires ont continué à augmenter, et les paysans ont commencé à exercer leur pouvoir accru lors d’une rébellion en 1381, en demandant notamment plus de liberté et des impôts plus faibles. 
+
+La peste bubonique a causé la disparition d’un quart à un tiers de la population européenne entre 1349 et 1351. Les salaires réels des ouvriers du bâtiment anglais ont commencé à augmenter à l’époque de la peste bubonique, et ils avaient doublé au milieu du XVème siècle. 
+
+
+
+
+
+
+
+En Angleterre, la réduction du nombre de travailleurs a eu les effets suivants : 
+
+
+
+ Une hausse de la productivité moyenne : le principe de décroissance de la productivité marginale du travail agricole combiné à une baisse du nombre de fermiers ayant accès à une même terre. 
+
+
+
+ Les fermiers qui possédaient leurs terres ont vu leur situation s’améliorer : ils détenaient ce qu’ils produisaient. Les fermiers payant un loyer fixe à un propriétaire terrien ont également vu leur situation s’améliorer. 
+
+
+
+ Dans les villes, des salaires plus élevés ont été proposés : la hausse des revenus des fermiers a compliqué la tâche des employeurs souhaitant attirer des travailleurs venant des zones rurales. 
+
+
+
+Mais lorsque la population s’est rétablie au XVIème siècle, l’offre de travail a augmenté, ce qui a diminué les salaires. Sur la base de ces preuves empiriques, l’explication malthusienne est cohérente avec l’histoire de l’Angleterre de l’époque.
+
+
+
+Conclusion
+
+Si le niveau de vie était bas dans les économies traditionnelles, il l’était dans toutes ces économies traditionnelles. Même au début de l’ère du colonialisme européen, la domination de l’Europe était militaire et non économique. 
+
+Quand les conquistadors espagnols prirent le contrôle des sociétés incas et aztèques, ce ne fut pas une confrontation entre riches et pauvres. Au XVIe siècle, le niveau de vie européen était à peu près le même que celui des Amériques. Les Espagnols s’émerveillaient de la variété et de la qualité des biens offerts à Mexico. 
+
+Si Smith et Ricardo parlait de différences de niveau de vie, ou peut-être de revenus, celles-ci étaient au plus d’un rapport de 2 pour 1 mais pas de 25 pour 1 comme aujourd’hui. Ce fossé est le produit de la révolution industrielle.

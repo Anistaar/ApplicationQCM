@@ -1,0 +1,2243 @@
+DEMOGRAPHIE 
+
+
+
+Intro générale :
+
+
+
+La démographie est au service des autres sciences sociales
+
+Elle est au service des politiques économiques et sociales
+
+
+
+Objectif= préciser les instruments d’analyses, expliquer les mécanismes sur la composition et la dynamique d’une population tout en mettant l’accent sur les théories qui permettent de comprendre les enjeux démographiques, économiques et politiques qui sont liés aux transformations des populations.
+
+La démographie va fournir aux autres sciences sociales une base de données statistiques et de faits qui sont indispensables à leur développement. 
+
+Par ex : l’histoire peut s’expliquer par des facteurs démographiques. On peut ainsi expliquer les victoires militaires de napoléon qui sont liés aux génies stratégiques de nap mais aussi à une population très dynamique.
+
+A son époque la France= pays le plus peuplé d’Europe 🡺 Armées importante. Donc puissance militaire renvoi à la population de la planète.  
+
+
+
+D’un pdv sociologique : la démographie fourni un certain nombre de données utilisés dans les enquêtes socio. Donc si on veut étudier la C° des + jeunes ou + vieux, on a besoin de chiffrage précis
+
+
+
+En éco : les apports de la démo sont essentiels : facteur travail= population est un facteur de la croissance éco d’où l’intérêt d’avoir des chiffres sur la pop° totale mais aussi sur la pop° active.
+
+
+
+La démo est aussi au service des Pol éco et sociale🡪données démo éclairent les choix politiques. Par exemple : Le vieillissement de la pop va impliquer des reformes de la part de l’état en matière de retraite. Dans un système par répartition, la variable démographique est fondamentale. Pour reformer le système 🡪 données = indispensables aussi pour la définition de toutes les Pol éco 
+
+
+
+Ex :  jargon de la carte sanitaire= importation de tous les établissements de santé et ils dépendent des concentrations de population (hôpitaux, clinique), ces implantations vont dépendre de la répartition par branche de la population. Donc pour implanter des établissements scolaires, il faut voir la répartition de la pop° sur le territoire nationale.
+
+
+
+🡺 Démo= étudier la population pour éclairer les autres sciences sociales mais aussi pour permettre aux Pol éco et sociale d’être établis sur des comportements chiffrés de la pop° 
+
+
+
+
+
+Définition : « la démographie est une science ayant pour objet l’étude des populations humaines et traitant de leur dimension, de leur structure, de leur évolution et de leurs caractères généraux, envisagés principalement d’un point de vue quantitatif » dictionnaire démographique des nations unies.
+
+
+
+Les principaux indicateurs démographiques sont : 
+
+La natalité
+
+Fécondité 
+
+Mortalité
+
+Nuptialité 
+
+Mouvement migratoire 
+
+
+
+Histoire et démographie 
+
+
+
+Des origines très anciennes 
+
+
+
+L’étude démo commence il y a plus de 5000 ans avant JC, la chine et l’Égypte ancienne utilisé déjà des recensements pour des raisons militaires mais aussi de construction de monuments : pyramides égyptienne en particulier et aussi pour des raisons fiscales car on payait un impôt. 
+
+Avant les Égyptiens, les incas sont les premiers à avoir utilisé des recensements sans même connaitre l’écriture. Ils utilisaient des quipus pour compter (des fils de laine, de coton, d’agave ou des cheveux) sur lesquels on faisaient des nœuds. La position et la forme de ces nœuds donnaient des indications sur la quantité de population. On avait donc une comptabilité de la population. Grace a cette méthode, les administrateurs de l’empire incas possédait une véritable base de données qui leur permettaient de connaitre le nombre et la répartition par sexe et par âge de la population. On avait une société très évolué.
+
+
+
+
+
+Les pionniers de la démographie
+
+
+
+John GRAUNT (1620-1674)
+
+
+
+= un Anglais et premier démographe au sens moderne et son étude des bulletins de mortalité de la ville de Londres est demeuré célèbre. Il va essayer d’estimer le chiffrage de la population londonienne.  A l’époque a Londres= concentration de pop pauvre + maladies (problème évacuation des eaux + peste) donc nécessaire de connaitre décès + pop°.
+
+
+
+
+
+Thomas Robert Malthus (1766-1834)
+
+
+
+Publie son essai sur le principe de la population en 1798. A partir de cette publication, la démographie va devenir un champs de réflexion à part entière, science qui va faire l’objet de débat avec une qst centrale : est-ce que l’augmentation de la pop° est bénéfique pour l’éco, la société ? 
+
+« Au grand banquets de la nature, il n’y a pas de couvert pour lui … » (sous-entendu pour l’H) 
+
+Cad que trop d’H sur terre🡪 hausse de la pauvreté 
+
+
+
+Pour lui si il n’y a pas de pression du milieu sur la pop°, la pop° va croitre de façon exponentielle. Cela veut dire que en l’absence de G, de famine ou de catastrophes naturelles une pop° donnée va augmenter de manière exponentielle dans le temps 
+
+
+
+VAUBAN (1633-1707) et Jean Baptiste MOHEAU (1745-1794)
+
+
+
+Vauban = ingénieur militaires mais aussi économistes, statisticien et démographe 
+
+En 1707, il a estimé que la pop° de la France était à l’époque de 17M d’hab. (premier à faire ces calculs). Sans statistiques élaborés a l’époque, pour trouver ce nombre il s’est basé sur 3 infos : 
+
+Les superficies cultivées dans le pays 
+
+Sur la quantité de grain par unité de surface (productivité) 
+
+La consommation de grain par habitant 
+
+
+
+Il va d’abord calculer la production de grain globale cad la superficie totale X qtité de grain par unité de surface. Ensuite il a calculer la pop° totale= prod° totale / qtité consommé par hab. et il a pu approximé la pop° de l’époque. = tentative de calcul démographique  
+
+
+
+JB Moheau= autre pionniers 
+
+Il publie l’ouvrage « recherche et considération sur la population française ». il va prolonger et approfondir les travaux de Vauban. Il va utiliser le principe du multiplicateur pour mesurer une population. Son principe= il existait des quantités en rapport simple et constant avec la pop° totale. Ex : on connaissait le nombres de maisons dans les villages, de familles, de naissances, de décès, de mariages. Ces chiffres sont connus et relativement constant car on est dans une société traditionnelle (choses bougent lentement). Ils vont être utilisés en tant qu’indicateur démo. 
+
+Pour passer de l’un de ses indicateurs à la pop totale, il faut connaitre le rapport existant entre la pop et l’indicateur et effectuer une multiplication (ex : on savait au 17é siècle que sur un territoire de 25hab, il y avait en moyenne 1 naissance par an donc pour avoir la pop° totale, on multipliait par 25 le nombres de naissances annuelles `
+
+Par ex : sur un territoire 100 naissances par an = 100X25= 2500 hab.
+
+Donc entre 1715 et 1774, la pop de la France est passé de 18M d’hab. à 20M d’hab. 
+
+
+
+La justesse des estimations de ces deux pionniers ont été confirmés par une grande enquêtes de démographie historique réalisé par l’INED dans les années 50 sous l’impulsion de Louis Henry en se basant encore sur les registres paroissiaux. Cette étude a bien confirmé que la France avait 21,5M d’hab. en 1700. Grâce à la méthode du X° on a eu une bonne approximation de la pop° française de l’époque.
+
+
+
+
+
+Concepts et outils de la démographie 
+
+
+
+Les ressorts de l’évolution d’une population
+
+
+
+L’équation fondamentale de la démographie 
+
+
+
+les démographes vont analyser les mécanismes qui sous entendes l’évolution d’une population et vont prévoir dans le futur les évolutions démographiques. Ils prennent une population a deux dates différentes : Pt et Pt+1. De manière simple l’effectif de la population en t+1 est égale à la population en t augmenté d’entré et de sorti pendant la période considérée. 
+
+
+
+Les entrées : ce qui fait augmenter la population : les naissances et immigration. 
+
+Sorti : les décès et les émigrations. 
+
+
+
+Ces mouvements d’entrées et de sorties vont définir ce que l’on appelle l’équation démographique. On va avoir 2 mvmt : un naturelle et un migratoire. 
+
+Calcul : Pt + 1 = Pt + (Nt-Dt) + (It-Et)
+
+
+
+Nt= nombre de naissance 
+
+Dt= nbre de décès au cours de l’année
+
+Nt-Dt = solde naturel
+
+
+
+It= nombre d’immigrants 
+
+Et= nombres d’émigrants 
+
+It-Et = solde migratoire 
+
+
+
+Si on a D>N, la population diminue. Si N>D, la population augmente. 
+
+Si on a I>E, la population augmente. Si E>I, la population diminue.
+
+
+
+Immigré= personne né hors du territoire nationale dans lequel elle réside 
+
+Émigré= personne qui quitte son pays d’origine pour aller s’installer dans un autre pays que la France 
+
+
+
+Comment calcule-t-on le taux de croissance d’une population ?
+
+
+
+Pt+1 – Pt / Pt x 100 = taux croissance de la population en % 
+
+Pt+1 = Pt (1+r)n    r = TCAM    n = nombre d’année 
+
+
+
+
+
+
+
+Accroissement naturelle sur 5 ans : 5 car 10-5
+
+Projection sur 50 ans : 50 (5X10)
+
+Pop° dans 5ans= 250
+
+
+
+On a supposé que la croissance de la pop° était linéaire sur la période. Mais ce n’est pas vrai car ceux qui naissent vont aussi avoir des enfants.
+
+
+
+
+
+
+
+Décès : 63M
+
+Naissance 126 144 000 
+
+N= 126M
+
+
+
+Tx accroissement naturel : 63/ 7000 = 0,00901 X 100= 0,9%  🡺 En moyenne la pop° va augmenter de 0,9% donc de 
+
+
+
+TCAM= 14 = 7 (1+0,009)n
+
+14 = 7 (1,009)n
+
+(1,009)n = 14/7 = 2
+
+(1,009)n = 2
+
+Ln (1,009)n = Ln 2
+
+n Ln (1,009) = Ln 2
+
+n = ln 2/ ln (1,009) = 0,693147 / 0,008959  = 77,87 = 78 ans 
+
+
+
+
+
+La croissance ne suit pas une droite mais une courbe exponentielle !
+
+
+
+
+
+
+
+
+
+Ile de la désolation 
+
+Ile de la tortue 
+
+Équation (N-D) + (immig-emig)
+
+(200-100) + (10-60)
+
+(30-40) + (60-10)
+
+
+
+100-50= 50
+
+40
+
+
+
+PT= 1050hab
+
+Pt= 240hab
+
+
+
+
+
+La pyramide des âges 
+
+
+
+
+
+
+
+Aussi appelé double histogrammes qui va représenter le sexe et âge. Les âges sont placés sur les axes verticales (ordonnées) voire les années de naissance et les effectifs (exprimés soit en milliers soit en million) sont reportés sur l’axe horizontale (en abscisses). Les H placés à gauche et les femmes à droite  
+
+Cette pyramide porte la trace historique de l’histoire démographique de la France. 
+
+
+
+On peut voir qu’à des âges élevés (80-90) il y a plus de femmes que d’H. Cela s’explique par le fait que les femmes ont une espérance de vie plus longues et qu’elles font plus attention, vont plus souvent chez le médecin mais la femme commence à avoir des comportements similaires à le H (tabac…)
+
+
+
+Cette pyramide retrace l’histoire démographique de la France au cours du XXème siècle. On constate une constance de la fécondité depuis 1975 se retrouve dans le niveau presque inchangé des effectifs par hab. de – de 30 ans environ 770 000 à chaque âge.
+
+
+
+Entre 35 et 62ans, les effectifs sont bcp plus nombreux, 850 000 environ par années d’âge (H et F) car entre 1946 et 73, les naissances ont été très nombreuses (30 glorieuses). La France= babyboom 🡺 génération nombreuses jusqu’en 69.  
+
+
+
+A partir de 65 ans, les H sont – nombreux que les femmes et le déséquilibre augmente avec l’âge à cause de la surmortalité des H par rapport aux femmes.
+
+A 85 ans, les F sont 2x + nombreuses que les H. A 100 ans elles le sont 5x plus.
+
+
+
+La pyramide des âges montre que Le nombre de personne âgé va bcp augmenter encore d’ici 2050 car toutes les générations nombreuses d’après G (46-73 partent à la retraite) et des générations moins nombreuses arrive dans le marché du travail 🡺 problème de vieillissement de la population donc de financement de la sécu sociale (+ de personne a soigné car + nombreuses + pathologie). Ce vieillissement 🡺 investissement en termes d’accueil des personnes âgés (construction d’ephad, aide a domicile, médecine…) 
+
+On va avoir des problèmes éco et socio : est-ce que une pop âgé va avoir une incidence sur les gains de productivité ? va être cap d’innover ? = Problème pour accompagner ce vieillissement au niveau mondiale.
+
+
+
+Différente forme de pyramide : 
+
+
+
+
+
+
+
+Forme de champignon : forte proportion de personne âges, déclin ou extinction de population.
+
+
+
+Feuille de chêne : une population qui a connu un certain nombres d’incident démographique (guerre, virus…) 
+
+
+
+
+
+Le diagramme de Lexis 
+
+
+
+= un outil utilisé en démographie qui permet de localiser sur une figue à deux axes des éléments de naissances et des décès ainsi que des effectifs de pop° en fonction du temps cad âge et génération 
+
+
+
+Point b concerne les décès : né en 1930 et décédé en 2014 à 84
+
+
+
+On peut travailler sur des cohorte = = personne ayant vécu un même évènement démographique mais pas le mm âge par ex les personnes nées pendant le baby-boom 
+
+si cet évènement est la naissance on parle alors de génération comme un ensemble de personne qui sont nés la même année. 
+
+Les migrations
+
+
+
+ Définitions et mesure
+
+
+
+La dynamique migratoire a toujours exister et d’ailleurs elle a joué un rôle essentiel dans le peuplement de la planète et elles se sont déplacé au grès du climat et de la nourriture. 
+
+Après la Révolution française = exode rurale. Pourtant les démographes ont souvent négligé cet aspect et le droit à migrer est reconnu par la DUDH de 1948. 
+
+EN 2019 on compte 272 millions d’immigré soit 3,5% de la population mondiale. 
+
+
+
+Les migrations exposent toujours les individus a des insécurités physique et morale. D’où l’utilité de connaitre ses mouvements. Les démographes vont donc produire un certain nombre de connaissance scientifique pour éclairer les enjeux de ces migrations.
+
+Une migration ca suppose le déplacement d’un lieu de départ vers un lieu d’arrivé et la complexité c’est que pour définir administrativement quelqu’un qui migre on prend en compte le logement qui sert de principe à définir la migration.
+
+
+
+Les migrations « sont un ensemble de déplacement ayant pour effet de transférer la résidence des intéressés a un certain lieu de destination ou d’arrivé ». 
+
+Cette def pose déjà problème= certains individus n’ont pas de résidence (migrations clandestines), certains en ont des pas fixes.  Ce critère du logement ne prend pas en compte l’émigration clandestine. 
+
+On donne pour def : lorsque le déplacement d’un individu entraine le franchissement d’une frontière nationale il s’agit d’un phénomène migratoire.
+
+
+
+Le mot migrant « désigne toute personne qui quitte son lieu de résidence habituelle pour s’établir à titre temporaire ou permanent et ce pour diverses raisons soit dans une autre région à l’intérieur d’un mm pays soit dans un autre pays franchissant ainsi une frontière internationale.
+
+La migration se décompose en 2 mvmt : 
+
+Immigration= entrée de personne sur un territoire 
+
+Émigration= sortis de personne du territoire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les Nations Unis vont donner la définition d’un migrant international : « une personne qui vit dans un autre pays que celui de sa naissance, il a quitté son pays de naissance et est installé dans le pays de destination pour une durée d’au moins 1an. » 
+
+
+
+Une partie des immigrés acquiert la nationalité du pays de destination, donc de parler d’émigrant et d’immigrant de 2eme génération pour caractériser leurs enfants, et on parle même de 3eme génération alors qu’en réalité ce sont des Français. 
+
+
+
+En France le haut conseil à l’intégration a défini en 1992, un immigré comme une personne née étrangère à l’étranger et qui réside en France. Cette définition inclus une dimension juridique de nationalité a la naissance, qui est d’ailleurs absente dans la plupart des pays.
+
+
+
+Les personnes nées françaises à l’étranger et vivant en France ne sont pas considérées comme des immigrées. En revanche conformément à la définition des nations Unis, une personne est immigrée même si elle devient Française par acquisition.  
+
+
+
+En France plus de 40% de immigrés ont acquis la nationalité française.
+
+
+
+Cependant il faut faire une distinction entre les populations immigrées et étrangère. Un Immigré n’est pas toujours un étranger parce qu’il a acquis la nationalité française. Un étranger n’est pas toujours immigré, c’est le cas des mineurs nés en France de parents étrangers qui ont automatiquement la nationalité française a leur majorité(droit du sol).
+
+
+
+Ce sont des phénomènes complexes, donc faire attention au discours médiatiques. 
+
+
+
+
+
+Le terme migrant se décline selon le motif de la migration :
+
+
+
+Motif économique : travail
+
+Motif politique : la guerre (demandeur d’asile)
+
+Motif climatique : migration environnementale 
+
+
+
+Il existe aussi des migrations internes : par exemple au EU, ou les gens quittent les anciens États ou il y a du chômage, pour travailler dans un autre États, notamment Chicago. 
+
+interne. En Chine, la partie côtière est très développées tandis que les campagnes du centre sont très pauvres. En Israël/Palestine pour fuir le conflit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A) Les migrations une constante de l’histoire de l’humanité
+
+
+
+
+
+
+
+                    Migration externe
+
+
+
+L’histoire de la migration a démarrée il y a 100 000 ans en Afrique qui s’est répandu en Europe, puis en Amérique, afin de chercher de la nourriture. Le début XIXème siècle est marque par des migrations des Italiens et irlandais vers l’Amérique. 
+
+
+
+La France fait figure d’exception. A partir de la moitié du XIXème siècle, l’Amérique a accueilli beaucoup de belge, allemande et suisse. Entre les deux guerres on assiste à une migration italienne, polonaise et espagnole. Après la Seconde Guerre Mondiale les pays des migrations deviennent des terres d’immigration (Italie, Espagne)
+
+
+
+En France l’immigration va s’intensifier de 1954 à 1974, avec les besoins de l’industrie (mine,
+
+charbon, sidérurgie, textile, navale…). On a une immigration portugaise, algérienne, marocaine et tunisienne...
+
+
+
+Mais la crise économique de 1974 va marquer un coup d’arrêt. L’État va limiter la migration des travailleurs et va favoriser le regroupement familial, c’est-à-dire faire venir les enfants et la conjointe dans le pays dans lequel le mari a immigré. 
+
+
+
+Certains pays d’Amérique du Sud ont également accueilli de nombreux migrants en Argentine et Venezuela, de la part des Allemands et italiens.
+
+
+
+
+
+
+
+                    Migration interne
+
+
+
+On a également des migrations internes (qui s’est développé grâce à la révolution industrielle. Cet exode rural a favorisé à l’urbanisation.
+
+
+
+En 1900, 10% de la population mondiale vit dans les villes, 30% en 1950, 50% en 2008. Aujourd’hui on dépasse les 55%. 
+
+En Amérique du Nord 80% de la population vit en ville.
+
+
+
+
+
+                Quelques chiffre
+
+
+
+Depuis la fin du XXème siècle, le nombre de migrants internationaux s’accroit :
+
+
+
+en 1985, on a recensé 106 millions de migrants (1.8% de la pop mondiale), 
+
+en 2000, 228 millions (2.8%),
+
+en 2019, 272 millions (3.5%).
+
+
+
+L’Asie et l’Europe sont les endroits où il y a le plus de migrants, ça représente 30% des immigrés dans le monde. Suivi par l’Amérique du Nord avec 21.6% des immigrés dans le monde. Les États-Unis accueillent la majorité des immigrés dans le monde.
+
+Les diasporas sont des relais pour accueillir les membres de sa communauté. 
+
+Les migrations entre les pays du Sud (39% du totale des migrations totales) sont plus nombreuses, qu’entre les pays du Sud vers les pays du Nord (37%). 
+
+
+
+Les migrations internationales se font beaucoup entre pays de mêmes régions, la proximité géographique réduit les couts de la migration. 
+
+
+
+L’Afrique subsaharienne participe peu à l’immigration au regard des autres pays, contrairement à ce que l’on pourrait penser, 15% seulement concerne l’Europe et le reste réside dans des pays proches du l’Afrique du Nord (pays du golfe : arabis saoudite par exemple). 
+
+
+
+EX : Le Nigeria est le pays le plus peuplé de l’Afrique de l’Ouest, et il ne compte que 1% de sa population en dehors de sa frontière. 
+
+
+
+La pression démographique explique les raisons des migrations, avec la pauvreté qu’elle génère. La pauvreté joue un rôle très important dans les migrations.
+
+Cette pression démographique a joué un rôle important dans le passé mais moins aujourd’hui. 
+
+
+
+Maintenant ce sont des raisons d’opportunité qui font qu’on recherche des meilleures opportunités d’emploi, de vie…  Mais migrer, dans le cas de la migration clandestine peut être dangereux. 
+
+
+
+On a aussi la stratégie qui consiste a dire « je pars seul et je vais contribué a la famille, par des envois d’argent »
+
+
+
+Un certain nombre de pays en déficit démographique ont besoin d’une main d’œuvre jeune dans la restauration, le bâtiment, l’aide à la personne… contre cela, l’Europe favorise une immigration professionnelle, contrôlée et qualifiée. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les autres outils de la démographie 
+
+
+
+La natalité 
+
+
+
+Taux de natalité= nombre de naissances par an pour 1000 habitants
+
+
+
+Le taux de natalité mesure la fréquence des naissances (vivantes) dans une population durant une année. Il est obtenu en divisant le nombre de naissances vivantes sur une année par l’effectif moyen de la population durant l’année.
+
+
+
+Il s’exprime en pour mille 0/00. Ainsi en France en 2012, le taux de natalité était de 12,5 0/00 cela signifie que pour 1000 personnes, il y a avait en moyenne 12,5 naissances.
+
+
+
+Si on prend la période 1950-1955, on avait en moyenne un taux de natalité de 37 pour milles hab dans le monde en moyenne et en France sur cette même période on était à 19,5 pour mille`
+
+
+
+Sur la période 75- 80, on avait un taux de natalité mondial de 28,1 pour mille et en France on avait un taux de natalité de 14
+
+
+
+Sur la période 2010-2015, taux de natalité mondial= 19,5 et en France 11,4
+
+
+
+
+
+
+
+On voit qu’au pdv mondial on a une forte baisse qui se traduit aussi au niv de la France. Elle reflète les évolutions démographiques de manière structurel.
+
+
+
+On voit des tendances à la baisse : baisse des naissances et des décès stables, et, à partir de 2000, on a une augmentation des décès. 
+
+ 
+
+On voit bien que les taux de natalité les plus élevées se situe dans les PEV, les pays où la natalité est élevée sont les pays d’Afrique et les pays où ils sont faibles correspond notamment aux pays de l’Europe. 
+
+Fécondité
+
+
+
+= nombre moyen d’enfants par femme en âge de procréer (15-49 ans)
+
+
+
+Le taux de fécondité donne le nombre de naissances (vivantes) par femme durant une année. Pour le calculer, on prend le nombre de naissances (vivantes) sur une année divisé par le nombre de femmes en âge de procréer.
+
+
+
+On peut aussi calculer le taux de fécondité par tranche d’âge : par exemple uniquement pour les femmes âgées de 22ans.
+
+
+
+Le taux de fécondité est donc une moyenne : on peut donc obtenir un chiffre avec virgule. Exemple : le taux de fécondité en Inde est de 5,5 enfants par femmes en 1950. Cela ne veut pas dire que l’on a coupé un bb en deux !
+
+
+
+
+
+Sur les 205 enfants ( 105 g + 100 f ) , on sait que 2 à 3 nouveau-nés meurent en moyenne avant d’atteindre l'âge de 15 ans . Il faut que les 100 femmes soient remplacées par 100 filles dans le futur atteignant l'âge d'être mère. Donc avec 210 enfants pour 100 femme, on tombe sur un taux de fécondité en moyenne de 2,1 enfant par femme.  Si on est au-dessus de 2,1, al population croit et si on est en dessous la population décroît. Pour qu’one population se renouvelle cad que le nombre d’hab. reste stable il faut un taux de fécondité de 2,1 enfants par femme car il nait + de garçon que de filles
+
+
+
+Les pays en voie de dvlpmt ont un taux de fécondité plus élevé que les pays riches.
+
+
+
+Ce phénomène de baisse de la fécondité est continue, s’effectue déjà depuis le XVIIIème siècle car effectivement la fécondité s’explique par des comportements individuels, le choix ou pas d’avoir des enfants mais c’est aussi le fruit d’un contexte familial, social, économique et politique. Les politiques démo peuvent favoriser ou pas les naissances. Le gvt peut mettre en place des mesures aux parents pour s’occuper de leurs enfants. 
+
+
+
+Il faut faire la distinction entre la baisse de la fécondité dans les sociétés traditionnelle et dans les sociétés contemporaines : 
+
+
+
+Dans les sociétés traditionnelle : avant la transition démographique, les institutions sociales, en particulier, les normes sociales (religion..) la société en général encourageait une très forte fécondité car elle était censé compenser une très forte mortalité infantile mais aussi juvénile (12-13ans). Cet objectif sociétal a disparu, on ne cherche plus à avoir une très forte fécondité.  Au contraire ajd on ferait même un calcul du cout et avantage d’avoir un enfant.
+
+
+
+l’éducation des jeuens filles va permettre un recul de l’âge de mariage, il va y avoir un autre destin que celui d’être épouse ou mère = moins d’enfants par femme et autant il était rationnel d’avoir de nombreux enfant dans les sociétés traditionnelles et dans les sociétés modernes rationnelles d’avoir – d’enfants avec l’augmentation des couts de l’enfants (éducation, soin ..). 
+
+
+
+on a eu la mise en pratique de politique néomalthusienne cad encourageait à avoir - d’enfants (politique de l’enfant unique en chine) cad réduire la pression démographique ou améliorer le niveau de vie
+
+
+
+La fécondité dans les sociétés = enfants= assurance vie, source de revenu...
+
+
+
+
+
+Fécondité dans les sociétés contemporaines : 
+
+
+
+dvlpmt des moyens de contraceptions, on peut décider de la programmation de la venue des enfants et on sait qu’avec le dvlpmt du travail féminin on a eu une disparition des familles avec de très nombreux enfants. 
+
+
+
+Choix rationnelles démontrer par des éco en particulier par Gary Becker qui s’intéresse à la famille et on va reprendre les postulats de la micro éco à la décision familial en particulier au fait d’avoir 1 ou + enfants. On va évoluer la satisfaction apporté par un 1 enfant supplémentaire et on va comparer son cout par rapport à sa satisfaction. Si cout > satisfaction pas de décision d’avoir un enfants supplémentaire. Ce sont des couts en termes de logement, d’éducation, de santé, de crèche. Tout cela contribue a faire qu’on va réduire le nombre d’enfants par famille compte tenu de cette aspect éco
+
+
+
+Les politiques d’aides aux familles, de soutien à la fécondité : salaire parental (1 an) , la construction de crèche, ou déduction de charge fiscal pour garde d’enfants 
+
+
+
+La conjoncture : 🡪 baisse de natalité fécondité : perspective de chômage,  guerre, menace sur la planète . par ex aux USA mvmt de femmes qui ne veuillent plus avoir d’enfants (choix de vie) 
+
+
+
+On peut calculer le taux de fécondité par âge en sachant que + l’âge augmente + taux de fécondité diminue. Il est presque nul aux alentour de 46-47ans
+
+
+
+
+
+
+
+La mortalité 
+
+
+
+Tx de mortalité= nombre de décès par an pour 1000 habitants 
+
+
+
+Ce taux mesure la fréquence des décès dans une population durant une année. Il est obtenu en divisant le nombre des décès sur une année par l’effectif moyen de la population durant l’année. Il s’exprime pour 1000.
+
+
+
+Par ex en France depuis 2009, le taux de mortalité est de 8,5 0/00 cela signifie que pour 1000 personnes, il y avait en moyenne 8,5 décès . 
+
+
+
+Aujourd’hui on a un taux de mortalité de 9,2 = vieillissement de la population + covid 
+
+On était en 2022 à 9,9, ce taux se réduit. 
+
+
+
+
+
+
+
+
+
+sur la période 1950-55 : taux de mortalité mondial était de 19,5. En France à 12,8
+
+
+
+période 1975-80 : on passe à un taux de 10,8 et la France on tombe à 10,3
+
+
+
+2010-2015 : 8,8 au niveau mondial et en France 9,8
+
+
+
+
+
+Taux brut de mortalité = nombre de décès de l’année / la population de l’année.
+
+
+
+Les pays en voie de développement ont un taux de mortalité plus élevé que les pays riches car ils ont moins accès aux soins médicaux (médicaments, médecins, hôpital,…).
+
+
+
+On a une baisse mondiale du taux de mortalité, car la mortalité infantile a baissé, surtout dans les pays en développement. Ce taux était de 19,5 pour mille dans les années 50 et dans les années 2000 ce taux est passé à 9 pour mille. 
+
+
+
+En France, le taux de mortalité infantile a baissé sur la même période régulièrement, on est passé de 12,8 pour mille à 9,5 pour mille. 
+
+
+
+Jusqu’au milieu du 18ème siècle, l’espérance de vie en Europe était de 35ans. 
+
+Au XIX siècle= la grande évasion pour dire que l’humanité s’est affranchi de la mortalité... l’espérance de vie va s’allonger et de manière continue au XX🡺 ce mvmt va toucher tous les pays.
+
+Par ex le Kenya : l’espérance de vie entre 2003 et 2013 a gagné 10 ans  
+
+
+
+les PEV ont un taux de mortalité + élevée que le pays riches car ils ont – accès aux soins médicaux.
+
+
+
+En 1800, aucun pays au monde n’avait une espérance de vie supérieur à 40 ans 
+
+En 1950, elle est passé à environ 60 ans en Europe et en Amérique 
+
+
+
+Les causes de la mortalité à travers l’histoire :
+
+
+
+Les guerres : 1GM : entre 9 et 13M de morts en particulier en Allemagne (+ de 2M de mort) et en France 1M et demi. La 2GM : 50M de morts (holocauste, massacres..). La révolution Taïping 1851- 1864 entre 20 et 30M de morts 
+
+
+
+Les épidémies : grippe espagnole (1918-1920) 🡪 40-50M de morts . la peste noir a affecté toute l’Europe entre 1346 et 1350. Première épidémie décrite de façon détaillé entre 10 et 33% de l’humanité dessiner. Un tier de la pop° européenne décédé = 25M de victime en Europe 
+
+Le covid lui a provoqué 24M de décès au niveau mondial
+
+
+
+Les famines : qui relève des catastrophes naturelles : grandes sécheresse des années 1876 à 1879, ca c’est étendue dans tout l’hémisphère sud de la planète (brésil, Afriques, chine, nvlle Calédonie..). perturbation climatique🡪 sècheresse = pas de récoltes 🡺 10M de personnes
+
+
+
+Sous l’époque communiste (Staline et Lénine), en Ukraine🡺 1922 famine provoqué= 5M de mort et en 1932-33= 6M de mort 
+
+
+
+Famine de la chine (1959-61) sous maho= le grand bond en avant🡺 entre 20 et 43M de victimes même topo que Staline : il fallait mettre les paysans au pas .
+
+La grosse famine entre 1967 à 70 : au Biafra(=Nigeria) 1M de mort 🡪 lié a la désertification cad avancée du désert 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les tables de mortalité
+
+
+
+Les tables de mortalité permettent de connaitre la structure par âge et par sexe des personnes décédé.
+
+
+
+
+
+E(x)= espérance de vie à chaque âge
+
+S(X)= mortalité en fonction de l’âge 
+
+
+
+On va calculer à partir de ce tableau un quotient de mortalité = rapport des décès a un certain âge et on divise par les survivants au même âge 
+
+
+
+Jusqu’au 18eme siècle l’espérance de vie (en France) à la naissance est inférieur à 30 ans. Le taux de mortalité infantile est très important et la moitié des enfants n’atteignent pas leur 10ème anniversaire. Ce sont surtout les conditions d’accouchement qui sont fatales au bb et qd ils survivent ils résistent mal à un environnement peu favorable. On a toute la panoplie des maladies infectieuses, parasitaires qui touchent les enfants en bas ages (rougeole, varicelles...) 
+
+
+
+on peut rajouter les crises de mortalité, les famines, épidémies, guerres qui affectent surtout les enfants mais aussi les parents. On appelle ce régime ou on a une très forte mortalité un régime démographique ancien
+
+
+
+petit à petit, les progrès agricoles, mécanisation... vont résoudre les problèmes de famines. Les progrès de la médecine font que les accouchements se passe bcp mieux et surtout les causes exogènes comme hygiène qui s’améliore en particulier l’eau potable. Ce sont les Anglais en premier a commencer à faire des canalisations et épurer les eaux usés.
+
+
+
+Les découvertes fondamentales vont être faite : 
+
+
+
+Pasteur va découvrir le rôle des microbes dans les infections et surtout les règles de l’antisepsie : la vaccination va se développer et la mortalité infantile va petit à petit baisser. L’état va participer aussi à l’hygiène par un réseau de canalisation des eaux usés et plus tard de station d’épuration mais l’état va participer à la diffusion de l’hygiène à travers l’école primaire (app a se laver les mains...)
+
+Tous ces progrès vont s’intensifier et on va avoir une baisse massive des taux de mortalité infantile. On est passé de 106 pour mille a 50 pour mille entre 1912 et 1950 
+
+Aujourd’hui on est à 2 pour mille
+
+
+
+Après les progrès sur les vaccins et antibiotiques, les progrès dans la chirurgie et surtout dans le dépistage (prévention : bilan sanguin..) ont permis de réduire les taux de mortalité en particulier chez les + âgés. 
+
+
+
+Élément économique aussi : l’état va mettre en place un système de santé gratuit, il favorise l’accès grâce à l’instauration de la sécurité sociale qui permet d’être payé en retraite et être soigné gratuitement 
+
+
+
+Enfin, on a des politiques de santé publiques qui ont joué un rôle majeur avec le dvlpmt de la prévention (alcool, tabac, sécu routière, répression). Cela a permis de réduire des accidents de la route (av 15 000 morts ajd 3000) 
+
+
+
+Ajd, on est dans une phase ou on a une évolution incertaine des causes de la mortalité. En dépit de progrès extraordinaire de la médecine, on a des maladies infectieuses et parasitaires. Les maladies perdurent avec les transports, leur mondialisation par ex : covid transmis par des personnes qui ont pris l’avion. ) l’augmentation des interactions entre individus, concentration des pop° urbaines fait que les maladies infectieuses se propagent très rapidement (Ébola, covid, ...) 
+
+L’activité humaine et la pression sur les écosystèmes sont en partie responsables de ces évolutions cad qu’a force de faire de la déforestation on avait plus de zones tampon entre urbaine et nature= diffusion + rapide des virus, maladie.. qui aurait pour origine animale.
+
+
+
+Le covid a bien montré qu’il faut raisonner en termes de santé mondiale, un virus ne connait pas de frontière d’autant plus avec la mondialisation.
+
+
+
+Avec le vieillissement, on a des maladies neurodégénérative comme parkinson, cancer, Alzheimer. Environnement et pollution en sont aussi à l’origine.
+
+
+
+Les transformations futurs de la mortalité lié au vieillissement et à l’environnement🡺 va dépendre des solutions de prévention pour limiter les maladies donc un coût en termes de santé publique ,Eco. En termes de R&D ça va couter très cher mis aussi de sevrage, maladie complexe et tjs pas trouver des médicaments 
+
+
+
+Autre prblm= médicaments fabriqués par de grandes multinational qui se partage le secteur de la pharmacie (Pfizer). Le risque c’est que ces firmes se concentre la pu il y a le + de personne malades et pas sur des maladies en particulier 
+
+
+
+L’abus de prescriptions des médicaments 🡺 dépendance au médicaments en particulier antidouleur et antidépresseur.
+
+
+
+On sait aussi que l’environnement a des effets sur la santé publique : réchauffement climatique : déforestation.. Tout cela a des répercussions sur la santé des individus ; accès à l’eau et par ricochet sur l’alimentation (peut être la cause de G) 
+
+
+
+La croissance dermographique suppose qu’on a une concentration des pop° sur les littoraux et ces littoraux sont menacés par le tourisme et par la montée des eaux du aux réchauffement climatique =🡺 risque de catastrophe naturelle en 2004 : tsunami 🡺 230 milles mort en Asie du SE et par ex en 2005 ouragan Katrina)
+
+
+
+On voit que certes on a fait des progrès en médecine, mais d’autre menace peuvent peser les taux de mortalités : 
+
+en effet, on est dans des sociétés relativement violente (ex Amérique latine, on a une surmortalité par armes des + jeunes, baisse de l’espérance de vie au Mexique ...) ce qui baisse l'espérance de vie. 
+
+
+
+
+
+On a des inégalité social, de longévité et de santé. Si je prends la variable genre, les femmes et les hommes, ne sont pas égaux devant la loi. On sait que les femmes sont plus résistantes génétiquement, et ont une espérance de vie plus élevé que les hommes. Les démographes ont montré que cet avantages peut être réduit a cause de toutes les discriminations à leurs égards. On a une surmortalité des filles, pendant l’enfance et l’adolescence. Cela a été observer en France et cette tendance persiste en chine et en Inde.  Il y a aussi les féminicides, qui designer l’ensemble des meurtres de femmes. En Inde, il y a 25 000 crimes par an. 
+
+
+
+Les taux de mortalité varient selon les catégories sociales. Les populations défavorisées, on une espérance de vie plus faible. On a calculé, les hommes qui font partie des plus aisées, ont une espérance de vie de 84,4 ans et 71,7 ans pour la population masculine la plus modestes. 
+
+
+
+Cela est lié par des inégalités qui sont cumulatives. L’attention a la santé, l’accès aux soins, sont plus facile, pour les classe favorisé, par leur proximité avec le monde médicale, donc il est plus facile d’aller voir un spécialiste. 
+
+D’autre part, les conditions de travail et de vie permettent d’éviter les risques auquel les populations les plus modestes sont exposés. Les travails de nuits, les nuisances de bruits, les accidents de travail, sont plus élevé pour les catégories les plus modestes. L’alcool et le tabac sont en moyenne plus consommé dans les classes défavorisé.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+L’espérance de vie 
+
+
+
+Durée de vie moyenne d’une génération à la naissance. Cette espérance de vie ne fait qu’augmenter pour les raison invoquée tout à l’h. Si la mortalité diminue par effet direct, l’espérance de vie augmente
+
+
+
+En 2023, l’espérance de vie des femmes a la naissance est de 85,7ans et celle des hommes est de 80 ans 
+
+
+
+En 1950, l’esp de vie des H a la naissance était de 63,4ans et les femmes= 69,2ans 
+
+
+
+Années 80 : H= 70, 2 ans et les F= 78,4 ans 
+
+
+
+2007 : H= 77,6ans et F= 84,5ans 
+
+
+
+Les F ont une espérance de vie à la naissance plus élevé que les H :
+
+H font des travaux + physiques 
+
+Resistance génétique et physiologique des femmes au vieillissement 
+
+Prevention des F : vont + chez le médecin
+
+
+
+
+
+L'espérance de vie en bonne santé 
+
+
+
+Avec l’augmentation de l’espérance de vie, un certain nombre de qst se pose et en particulier dans quel condition de santé les années supplémentaires se déroule-t-elle ?
+
+
+
+
+
+On va calculer les années en bonne santé :
+
+
+
+En 2021 : 1 femme de 65ans peut espérer vivre 12,6 ans sans incapacité et 18,8 ans sur des incapacités fortes 
+
+
+
+1 H de 65 ans peut espérer vivre 11, 3ans sans incapacité et 16,2 ans sur des incapacités fortes 
+
+
+
+On constate que l’espérance de vie en bonne santé fait que progresser. Depuis 2008 H et F vont gagner en moyenne 2 ans et 8 mois en bonne santé.
+
+
+
+
+
+L’espérance de vie en bonne santé : autre manière de calculé. Elle s’appuie essentiellement sur la santé fonctionnelle, être autonome. On parle d’espérance de vie sans incapacité. 
+
+
+
+L’espérance de vie sans incapacité : elle est pour les femmes de 65,4 ans, et, pour les hommes, l’âge le plus proche est de 63,4 ans. Cela montre que les femmes vivent en moyenne plus longtemps mais elle souffre de plus d’incapacité au-dessus des 65,4 ans
+
+
+
+
+
+
+
+Autre indicateurs :  de + en + de centenaire dans la population surtout au japon grâce à l’alimentation équilibrée (poisson, légumes), un environnement moins stressant et une activité physique régulière (utilise pas bcp la voiture)
+
+
+
+
+
+Les évolutions démographiques 
+
+
+
+Histoire des idées sur la population 
+
+
+
+De l’idéal stationnaire au populationnisme 
+
+
+
+La qst centrale = quelle est la taille idéal d’une population ? comment assurer la survie, l’unité et le bonheur d’une pop° ?
+
+
+
+1ere réflexion est de dire ce qu’est une taille idéale de population, pour en avoir une heureuse et idéale 
+
+
+
+Un idéal stationnaire
+
+
+
+Les interrogations sur la taille d’une population remonte aux philosophes grecs : Platon (428-348 av JC) et Aristote ( 384-322 av JC) 
+
+ils vont ont imaginé une cité idéale avec un idéal dermographique avec déjà l’idée qu’une croissance trop rapide de la population était incompatible avec l’ordre dans la cité, ca peut mettre en péril l’équilibre, délinquance, pauvreté... en + ils faut nourrir le surplus de la pop° , peut mettre en péril l’équilibre socio et politique 
+
+
+
+Platon dans son œuvre « république » va dire son idéal démographique= « la pop° ne doit être ni grande ni petite et rester stationnaire, de manière a être gouverné efficacement, tout en étant capable d’assurer sa défense et son bien-être »
+
+Donc pour lui taille idéale de la cité= 5040 chef de famille. Le reste = quantité négligeable (femme, enfant, esclaves exclus de ce chiffre) 
+
+
+
+
+
+Le populationnisme 
+
+
+
+Cet idéal stationnaire va s’opposer à la pensée des populationnistes, eux qui sont favorables à une population nombreuse et croissante 
+
+
+
+La puissance militaire et richesse se mesure au nombre de ses habitants, il faut donc stimuler l’accroissement de la pop° par le bais des naissances mais aussi de l’immigration 
+
+
+
+En cela, les populationnistes se distingue des natalistes également pour l’essor de la pop° mais exclusivement par la natalité mais non pas par l’immigration. Toute ces idées vont se développer à partir du XV siècle 
+
+
+
+
+
+mercantilistes et physiocrates
+
+
+
+mercantilistes = doctrine économique, pour eux ce qui fait la richesse d’une nation c’est sa population. la puissance d’un pays va dépendre du nombre de ces habitants. Le représentant de cette doctrine est Jean Bodin (1530-1596) : « il ne faut jamais craindre qu’il y est trop de citoyens, vu qu’il n’y ai ni richesses, ni force que l’homme » 
+
+
+
+Le mercantilisme apparait à la fin du XVème siècle et va se diffuser jusqu’au 17ème siècle et en France au travers d’une figure historique Colbert (1616-1683).  Cette doctrine économique et politique n’a pas comme visé première l’accroissement démographique mais celui de l’économie considéré comme constitutif de la richesse d’une nation. C’est le stock d’or et d’argent qui est la mesure de cette richesse. le but est de favoriser la production, la croissance économique et les échanges marchands. une population nombreuse va favoriser la production et les échanges marchands. on peut dire que les sujets du roi contribuent ainsi à la puissance et à la grandeur du roi.  les mercantilistes vont proposer une politique démographique favorisant le mariage, les familles nombreuses et aussi l’immigration car ils soutiennent la colonisation puisqu’elle contribue à agrandir la puissance d’une nation. ça permet d’avoir main d’œuvre et matière premières à bon marché.
+
+
+
+
+
+physiocrates : pensée qui s’oppose aux mercantilistes : thèse= la population est déterminé par la richesse. le représentant est Quesnay (1694-1774). ils vont renverser la relation population/richesse. pour eux c’est bien l’extension des richesses et en particulier des richesses issues de l’agriculture que doivent découler un accroissement de la population et donc l’élévation du niveau de vie des H. c’est bien la production agricole qui va gouverner la population 
+
+
+
+Quesnay : « il ne faut pas s’occuper de la multiplication des hommes mais de la multiplication des richesses » 
+
+ils ne sont ni populationniste niant population, ils considèrent juste que la pop° est une variable dépendantes des richesses, en particulier des richesses agricoles.
+
+
+
+
+
+Malthus
+
+
+
+les réflexions sur la population évoluent rapidement à partir du XVIIIème siècle, il ne s’agit plus de savoir comment enrichir le souverain mais de se préoccuper de la misère de la population qui est de plus en plus pauvres.
+
+
+
+on a des philosophes dont Godwin en Angleterre et Condorcet en France. ils analysent la pauvreté comme une répartition inégalitaire des richesses. la croissance démographique engendre la pauvreté et la souffrance qu’il convient de maitriser. c’est exactement ce que Malthus va développer avec comme idée que il y a des dangers qui sont liés à une surpopulation défini comme le surplus d’hommes par rapport aux subsistances disponibles. c’est à partir de cette thèse centrale que la démographie va se structurer 
+
+
+
+
+
+
+
+le principe de population
+
+
+
+de son prénoms thomas robert Malthus, c’est un britannique mais aussi un pasteur et il a été prof d 'histoire et d’économie, il a été l’ami de David Ricardo.  
+
+
+
+on est avec Malthus dans le cadre de la révolution industrielle, les débuts. celle-ci va être marqué par l’apparition d’une classe ouvrière nombreuses et très pauvres. a l’époque les conditions de travail sont effroyables et touches aussi les enfants (6ans et travaillent dans les mines). cette misère touche aussi les campagnes. la pop° augmente parallèlement très fortement, la pauvreté et la misère explosent. 
+
+Suite à cela, en 1798 « essai sur le principe de la population »
+
+
+
+«  un homme qui est né dans un monde déjà possédé, s’il ne lui ai pas possible d’obtenir de ses parents les subsistances qu’il peut justement leur demander et si la société n’a nul besoin de son travail... en réalité, il est de trop. au grand banquet de la nature il n’y a point de couvert vacants pour lui... » = trop d’hommes 🡺 pauvreté, ne peut pas manger 
+
+
+
+
+
+Malthus formule dans son livre une justification qui est de réduire l’aide publique à l’égard des pauvres. elle ne sert selon lui que à les multiplier et à prolonger leur situation car pour lui, le pouvoir multiplicateur de la pop° est infiniment plus grand que le pouvoir de la nature, de la terre à produire des subsistances pour l’H. la pop° croit + vite que les subsistances 
+
+si la pop° n’est pas freiné, la pop° va s’accroitre mathématiquement en progression géométrique. alors que les moyens de substance ne vont s’accroitre qu’en progression arithmétique .
+
+
+
+la misère va donc naitre de ce décalage entre ces 2 progressions🡺 aider les pauvres n’est pas efficace et va accélérer la misère.  
+
+
+
+l’expansion de la pop° n’est pas illimité prck les famines, les guerres, les épidémies sont des freins à l’accroissement de la pop°. la mortalité opère une certaine régulation qui touche les classes les + pauvres
+
+
+
+Malthus qui est pasteur va réprouver les contrôle des naissances. pour lui, il faut une contrainte morale et dire aux familles (les + pauvres) :
+
+
+
+un mariage tardif (mécanique en démographie 
+
+avoir une famille avec peu d’enfant 
+
+
+
+il faut des revenus qui permettent à la famille de subvenir aux enfants.  la solution de Malthus à la misère est une solution individuelles (pas étatique). ces principes doivent etre enseignés prioritairement dans les classe les + pauvres
+
+
+
+
+
+
+
+
+
+héritiers et opposants 
+
+
+
+tout au long du 19 -ème siècle on va se positionner pour ou contre Malthus. Les économistes libéraux vont se rattacher à lui : Ricardo en Angleterre, JB Say en France. Say préconisait d’épargner plutôt que d’avoir des enfants. Ricardo avec la loi des salaires qui est influencé par la pression démographique. Ces économistes classiques, libéraux vont se prononcer pour la limitation de la croissance de la population, responsable de la misère et ils pronenent une intervention limité de l’état. 
+
+
+
+A l’inverse, on a tout le courant socialiste (19eme siècle) qui va s’opposer à Malthus. pour les socialistes, les ouvriers ne sont pas responsables de leur pauvreté, elle renvoi plutôt à une mauvaise organisation de la société et les critiques les plus virulentes émanent de Marx et de Engels.
+
+
+
+Pour Marx, la surpopulation va découler d’un système capitaliste qui va exploiter la classe ouvrière (prolétaire). salaires des prolétaires distribués par les capitalistes = salaire de subsitances qui va les cantonnées dans la pauvreté 
+
+
+
+Proudhon affirme en 1846 que les idées de Malthus sont néfaste et en se moquant que seul Malthus est de trop sur terre.
+
+
+
+La pensée de Malthus va donner naissance au mouvement néomalthusien qui apparait d’abord en Angleterre dans les années 20 avec Place puis en France à la fin du 19eme avec Robin. ces néomalthusien sont proche des idées de Malthus mais ils sont en total rupture avec la méthode préconisé. ils encouragent l’utilisation des moyens de contraception, l’avortement. la contrainte morale de Malthus est pour eux inefficace et oeuvrent à la limitation des naissances par la diffusion des savoirs médicaux et techniques contraceptif.
+
+
+
+Ce mvmt est très divers : il contient des anarchistes, féministes, communistes...
+
+la limitation des naissances= moyens d’émancipation et un espoir de progrès.
+
+« la grève des ventes » était appelé pour éviter de fournir une main d’œuvre bon marché aux capitalistes et de fournir de la chair a canon pour les 20 ans de guerre. 
+
+
+
+Des mvmts ouvriers vont promouvoir les idées néomalthusiennes dans le but de soutneir les salaires : limiter les naissances dans la classe ouvrière qui va créer une pénurie de main d’œuvre et donc d’élever le prix du travail🡺 du salaire. 
+
+
+
+Pour les féministes « la greve des ventes » libèrent les femmes des nombreuses maternité qui pèsent sur leur indépendance et sur leur santé physique 
+
+
+
+Ce mouvement a largement structuré les débats démographiques au 19ème siècle et également au XXème avec la forte croissance démographique des pays en développement que l’on a appelé « les pays du tiers Monde » 
+
+
+
+🡺 objet politique et éco
+
+
+
+néomalthusianisme désigne une doctrine qui préconise l’usage de la contraception voire de l’avortement ou même de la stérilisation pour limiter l’accroissement démographique
+
+
+
+le natalisme 
+
+
+
+Débat avec Malthus sur la crainte d’une surpopulation au 19ème 
+
+un courant va s’opposer à ce courant malthusien : le natalisme= doctrine qui cherche l’accroissement de la population par la stimulation de la natalité. 
+
+
+
+Ce courant de pensé se distingue du populationnisme favorable à toute forme de croissance de la population y compris par l’appel à l’immigration. Ce mvmt nataliste est apparu en France dans les années 1870 où on a un G franco/prussienne et ce qui faisait la puissance des nations= la population 
+
+A l’époque on a la France qui devient le pays le plus vieux du monde et on a déjà un complexe de dénatalité. la France va être réceptive aux idées natalistes qui sont diffusés par l’alliance nationale contre la dépopulation qui a été fondé par Bertillon en 1936 (médecin+ statisticien) 
+
+
+
+objectif de l’alliance= alerter l’opinion et le pvr publique pour restaurer la natalité. face à une pop° vieillissante, il faut une famille avec plusieurs enfants mais aussi des mesures natalistes et familiaristes qui consistent à compenser les charges supportés par les familles avec enfants (réduction fiscale, aides enfants...)
+
+
+
+la médaille de la famille française= 5enfnats 
+
+restauration fête des mères 1926
+
+
+
+on a eu la création d’un haut comité de la population et l’instauration du code de la fmaille (1939) : texte fondateur de la politique familial française  
+
+
+
+on va avoir tout un ensemble de mesure pour favoriser les familles nombreuses, en particulier on va introduire une allocation familial a partir du deuxième enfants. les familles nombreuses à partir de 3 enfants vont avoir des réductions d’impôts, une primes de première naissance et aussi le modèle de la mère au foyer, + en 1939 allocation de mère au foyer qui sera remplacé en 1941 par l’allocation de salaire unique. obj= dissuader les femmes de travailler.
+
+
+
+La politique démographique consistait a ce que les femmes n’entrent pas sur le marché du L mais reste au foyer. 
+
+
+
+on a en démo 2 peurs : 
+
+crainte de la surpopulation
+
+crainte de la dépopulation 
+
+
+
+Ces 2 craintes émanent d’un même phénomène démographique, celui d’un processus historique amorcés au milieu du XVIII siècle dans les pays européens nommé révolution démographique , par le démo A. Landry en 1934,  qui deviendra ensuite transition démographique par 2 chercheurs américains : Davis et Notestein. 
+
+Ces 2 expressions vont décrire le changement de régime démographique connu par la pop° au cours des 2 derniers siècle et l’exceptionnel accélération de la croissance qui en a résulté. On a un phénomène très important. en effet, en seulement 2 siècles, la pop° mondiale est passé de 1Md d’individus à 7Md d’individus. Surtout, l’autre particularité c’est l’intervention de l’H sur les évènements démo comme la maitrise de la fécondité et également les progrès dans la mortalité (médecine) 
+
+
+
+de la révolution à la transition démographique
+
+
+
+la révolution démographique
+
+
+
+la France est pionnière dans les études démo avec Landry. Il va identifier un modèle  (révolution démo) qui va s’appuyer sur 3 régimes démocratique successifs.
+
+
+
+régime démographique primitif 
+
+
+
+Une mortalité très élevé et un taux de natalité très élevé donc on va avoir une faible croissance de la pop° 
+
+Si la nourriture vient à manquer, la mort va se charger de ramener la pop° à l’équilibre. dans la théorie de Landry, pour lui la pop° conditionné par les gains de productivités dans l’économie. cad que si ils augmentent avec le PT, on va produire + et + efficacement🡺 bien être de la pop° va augmenter et il va en résulter une baisse de la mortalité qui va entrainer une croissance de la pop° qui à son tours baisse le niv de vie car la croissance va être partagé sur + de gens= - de richesse par hab.
+
+De plus la mortalité va de nouveau augmenté et le niv de la mortalité va rejoindre celui de la natalité et on va avoir un équilibre cad une augmentation modéré de la pop° . 
+
+mortalité= régulateur 
+
+
+
+
+
+régime intermédiaire 
+
+
+
+l’H pour maintenir son bien être va limiter les naissances qui s’opère par la nuptialité et par un retard de l’Age du mariage et mécaniquement les naissances deviennent – nombreuses 
+
+ici c’est la nuptialité qui est régulateur et non la mortalité
+
+
+
+un régime contemporain 
+
+
+
+ce qui compte c’est le bien être des familles et des enfants et les couples vont fixer la dimension de leur enfants en fonction de leur aspiration personnelle et pour leurs enfants. 
+
+ils aspirent a ce que leur enfants gravissent l’échelle sociale. 
+
+
+
+les ménages vont restreindre le nombre de leurs enfants afin d’accéder à la classe moyenne. Dans ce régime, on a une baisse de la mortalité et de la natalité/fécondité
+
+
+
+On peut dire que Landry amène déjà ce qu’on va appeler le concept de transition démographique.
+
+
+
+la transitions démographique
+
+
+
+propose un cadre d’analyse de l’évolution des pop° commun à toutes les sociétés
+
+la transition démographique désigne le passage d’un régime traditionnel d’équilibre démographique a mortalité et fécondité forte à un régime moderne de mortalité et fécondité très basse 
+
+dans les 2 cas, l’accroissement naturel est faible : Davis et notenstein 
+
+e processus de transition va bouleverser la pop° mondiale depuis 2 siècles et c’est un modèle qui repose sur l’observation des pop° européennes
+
+
+
+on a la phase de prétranstion
+
+de transition : étape 2 et 3
+
+post transition= étape 4
+
+
+
+voire photo 
+
+
+
+étape 1= équilibre ancien. cette période va durer des millénaires et caractérisé par une très forte fécondité et contrebalancer par une forte mortalité et très forte mortalité infantile (inf à 1ans) il fallait au moins 6enfants pour que l’un puisse survivre à l’âge adulte et encore l’espérance de vie était de 25ans avant MA. cela va engendré un faible accroissement de la pop° . cette période marqué par famine, épidémie, guerre🡺 restriction alimentaire
+
+
+
+période transitionnelle : 18ème siècle 
+
+étape 1 : taux de mortalité qui baisse et antérieur à la natalité. elle recule car on a l’essor économique + hygiène..+ intervention état.. 🡺 grande epidémie + crises agricoles disparaissent 
+
+l’H va lutter + efficacement contre mort et maladie donc espérance de vie augmente. on va avoir un décalage entre natalité et mortalité 
+
+
+
+étape 2 : hausse très importante de l’accroissement naturel 
+
+
+
+étape 3 : baisse de la fécondité : plus bcp d’intérêt a avoir bcp d’enfants et on peut maitriser le nombre de naissance. on constate que petit à petit l’accroissement naturel va se réduire 
+
+
+
+phase 2 et 3= phase de déséquilibre 
+
+
+
+étape 4 : post transitionnelle/ régime démo moderne : transition s’achève par des taux de mortalité et fécondité qui sont très bas 🡺 stabilité de la pop° 
+
+avoir un enfant ajd= cout + élevé + travail féminin incompatible avec le fait d’avoir bcp d’enfants 
+
+Ce régime moderne va s’expliquer aussi par l’essor de l’urbanisation, l’éducation, la croissance économique. La CE a transformé les modèles familiaux dans le sens d’une famille plutôt retreinte : parents et en moyenne de 2 enfants= famille nucléaire 
+
+
+
+
+
+
+
+
+
+Les limites de la transition démographique :
+
+
+
+La transition démo est lu comme la conséquence d’un processus de modernisation économique et par l’apparition de nouvelle valeurs favorisés par l’industrialisation et l’urbanisation. De ce pdv, la transition démo est pensé comme inévitable et est amené à se généraliser dans tous les pays du monde et elle s’est imposé comme un modèle universelle et prédictif
+
+🡺 succès politique, internationale 
+
+Par contre elle va être conteste dans les années 60 car la réalité montre qu’on a une pluralité des transitions démographiques 
+
+
+
+1ère critique : on peut transposer cette transition démo au pays en développement mais elle s’appuie sur une expérience européenne assez limité dans le temps 🡺 vision très européennes qui ne tient pas compte des contextes et spécificités nationales des autres pays 
+
+c’est une vision déterministe et évolutionniste.
+
+La situation des pays en dvlpmt serai un simple retard de calendrier.
+
+Cette vision linéaire et uniforme a été contredite dans les faits. Les niveaux et les durées des étapes sont différents dans chaque pays 
+
+
+
+Les pays occidentaux vont se caractériser par une transition démo précoce (18ème) et souvent très longues (75 à 200 ans).
+
+
+
+La transition démo débute en France, en Angleterre, en suède et Norvège à partir du milieu et de la fin du 18ème et elle se diffuse quasiment dans tous les pays européens au milieu du 19ème. Elle va gagner les USA, le canda, l’Australie (fin 19ème).
+
+
+
+En + des diff de calendrier, on observe une grande variété des situations pré et post transitionnelles des pays européens.
+
+
+
+Les pays en devlpmt : entre + tardivement dans le processus (XXème) et d’abord en Amérique latine, Asie et enfin Afrique. Les transitions y sont + rapide et intense (40-80ans) (2-4% tx de croissance). Selon les pays, la transition démographique ne coïncide pas avec les mutations économiques.
+
+
+
+Au final, chaque transition à ses particularités, différences en termes de périodes et de fin de transition, diversité des niveaux pré et post transitionnelles, hétérogénéité des durées de transitions et différence dans les décalages entre la baisse de la mortalité et celle de la fécondité.
+
+
+
+La théorie de la transition démo est un modèle général d’évolution de la pop°
+
+🡺 reste pertinente mais ses mécanismes sont variés et doivent être contextualiser géographiquement, historiquement et politiquement.
+
+
+
+
+
+
+
+
+
+
+
+les conséquences de ces évolutions
+
+
+
+la croissance de la pop
+
+
+
+De l'explosion démographique au ralentissement de la croissance
+
+
+
+La transition démographique va avoir des conséquences importantes puisqu'elle va favoriser une expansion de la population mondiale sans précèdent. L'accélération commence dans les années 50 sous l'effet conjugué à la fois du baby-boom et de l'entrée des pays en développement dans ce processus. On a un pic qui est atteint dans les années 1965 à 1970. C'est la période où le taux d'accroissement annuel de la pop mondiale culmine à un taux de 2,05%/an. 
+
+Résultat : un doublement de la pop entre 1950 et 1987. On a atteint en l'an 2000 6milliards d'hommes sur la planète.
+
+
+
+Ce phénomène a été qualifié d'explosion démographique, en particulier pour les pays en voie de développement. Cet accroissement rapide de la pop mondiale est aujourd'hui derrière nous. Le taux de croissance qui oscillait entre 1,7% et 2,1% sur la période 1950-90, depuis on a une décrue, on serait vers des croissance de l'ordre de 1,6% en 2019. La pop mondiale poursuit néanmoins sa hausse, et d'après les projections, on devrait atteindre 9,7 milliards d'hommes d'ici 2050 voire 11 milliards en 2100.
+
+
+
+Un ralentissement variable
+
+
+
+Cette décélération de la croissance de la pop mondiale s’explique par la baisse de la fécondité dans le monde : taux de fécondité de 2,5 enfants par femme en 2019 alors qu’on était à 5 en 1950. 
+
+Ce mouvement général masque évidemment des évolutions très contrastées : en effet, les transitions démographiques et leur intensité sont différentes par pays. Certaines régions du monde connaissent un recul de leur population, en particulier l’Europe. On a des taux de fécondité inférieurs à 1,4 enfants par femme < seuil de remplacement. 
+
+On retrouve cette baisse de la fécondité en Asie avec des taux de 2,1 :
+
+
+
+En Amérique latine, les taux de fécondité sont de 2,02 alors que c’était élevé. 
+
+La Chine est à 1,7. 
+
+La Thaïlande 1,5
+
+En Afrique, on a une réduction de la fécondité entamée : en moyenne à 4,35 enfants par femme. 
+
+Afrique du Nord : 3,17. 
+
+Angola : 5,4. 
+
+Congo : 5,9. 
+
+Mali : 5,8
+
+Niger : 6,7.
+
+
+
+C'est donc bien l’Afrique et plus spécifiquement l'Afrique subsaharienne où la croissance démo est la plus importante. La pop va donc doubler d’ici 2050. À l’inverse, la Chine va perdre d’après les projections 40 millions d’habitants entre 2030 et 2100. 
+
+En Inde : projections en 2050 : 1,6 milliards d’habitants. 
+
+Chine : 1,4 milliards en 2050.
+
+
+
+Ces évolutions démographiques vont modifier les équilibres dits géo-démographiques. 
+
+En 2019 :
+
+l’Asie rassemble 60% de la pop mondiale. 
+
+L'Europe, elle, va rassembler 7% de la pop mondiale
+
+L'Afrique 25% 
+
+D’ici 2050, 1 personne sur 4 vivra en Afrique et ½ en Asie. 
+
+
+
+
+
+un bouleversement par âge de la population
+
+
+
+La transition démo va avoir un effet sur la pyramide des âges. 
+
+
+
+transition démographique et structure par âge de la population.
+
+
+
+On observe un lien entre la transition démo et le vieillissement de la pop. 
+
+La baisse de la fécondité et l’allongement de l’espérance de vie modifie de façon quasi mécanique la répartition par âge de la population. Comme ce phénomène de transition démo est universel, évidemment on va avoir une mondialisation du vieillissement. 
+
+Ce vieillissement démo s’opère selon plusieurs étapes : 
+
+
+
+lors de la phase pré-transitionnelle de l’évolution démo, on a des taux de mortalité et natalité élevés. La pop est jeune puisque l’espérance de vie est réduite + espérance de vie à la naissance faible.
+
+
+
+deuxième phase : on a un recul de la mortalité. En effet, elle recule grâce aux progrès de la médecine et de l’hygiène qui profite d’abord aux enfants en bas âge, ce qui va rajeunir la pyramide des âges. 
+
+
+
+Dans un deuxième temps, on a une fécondité qui diminue : les femmes ont moins d’enfants et cela se traduit par une baisse de la proportion d’enfants de moins de 15 ans. On appelle cela le “processus de vieillissement par le bas”, par la base. La part des jeunes baisse, la part des plus âgés augmente. 
+
+
+
+Le premier facteur de vieillissement de la pop n’est pas tant le recul de la mortalité mais bien la baisse de la fécondité. Au début de cette étape, le poids des personnes âgées dans la pop totale reste dans un premier temps faible, ce sont les adultes entre 15 et 59 ans qui sont les plus représentés, cette phase est appelée dividende ou bonus démographique : période particulièrement favorable à la croissance économique car on a une forte proportion de personnes actives. Ensuite, le processus de vieillissement se poursuit mais change de nature : 
+
+les progrès dans la lutte contre la mort qui avaient été favorables pour les enfants en bas âge se propagent vers les adultes ce qui va provoquer un vieillissement par le haut visible sur la pyramide des âges (toupie).  
+
+
+
+Au niveau mondial : pop vieillissante. L'exprime avec l’âge médian : 30,9 ans, 23,6 ans en 1950. Là encore, ce sont des résultats globaux qui cachent de grandes différences. 
+
+
+
+Afrique : concentre la pop la plus jeune du monde, âge médian 2020 : 19,7 ans car fécondité très élevée, 4,4 enfants/femme + espérance de vie à la naissance qui a progressé mais reste faible : 63,2 ans.
+
+
+
+Amérique latine ensuite : pop jeune aussi dont la moitié de la pop est âgée de moins de 31 ans.
+
+Asie : 32 ans.
+
+Amérique du Nord : 38,6 ans.
+
+Europe : 42,5 ans.
+
+
+
+le vieillissement de la population
+
+
+
+En 2000, on a 16% de la pop qui était âgée de 65 ans et plus. En 2020, c’était 20,8%. Les projections 2050 donnent 27,8%.
+
+
+
+Pour les plus de 75 ans, la progression est encore plus importante : 7,3% en 2020, 9,5% en 2030, et 16,8% en 2050 pour la France.
+
+
+
+Dernier indicateur : le nombre de centenaires. 
+
+
+
+1950 : 200 centenaires. 
+
+
+
+En 2020 : 15 000 centenaires en France et leur nombre sera multiplié par plus de 3 en 2030 selon les projections de l’INSEE. On aurait 140 000 centenaires en 2050. Cela s’explique par les progrès de la médecine et l’alimentation. 
+
+
+
+
+
+D) un défi majeur pour les pays en développement
+
+
+
+Un défi pour les pays développés avec les retraites, mais aussi pour les pays en développement. Par exemple, la Chine : le recul accéléré de la mortalité et de la fécondité a conduit à un renversement total de la pyramide des âges. En à peine 50 ans, entre 1970 et 2020, la part des jeunes de 0 à 14 ans a été divisée par 2 alors que la part des +65 ans a quasiment triplé. 
+
+
+
+Cette accélération du vieillissement démo est aussi observée en Afrique avec des situations très contrastées. Ex : Maroc et Tunisie vont connaitre une augmentation de leur âge médian ainsi que la proportion de +65 ans. 
+
+En 30 ans, en Tunisie, la part des +65 ans va représenter 20% de la pop tunisienne dans les années à venir. 
+
+Il va falloir investir dans la santé, mettre en place des systèmes de retraite, des systèmes d’accueil des personnes âgées, problème de la dépendance des personnes âgées et du personnel qualifié pour les prendre en charge... tout cela va nécessiter que les États consacrent une part de leur budget de plus en plus importante dans ces projets. Ce n’est pas tant l’explosion démo qui pose problème à court terme, mais plutôt le vieillissement. 
+
+
+
+Démographie et économie
+
+
+
+Les relations entre économie et population sont déjà étudiées au XVIe siècle par les mercantilistes. Cette relation entre démo et éco a beaucoup intéressé les économistes classiques, en particulier Adam Smith, David Ricardo, John Stuart Mill, et surtout Thomas R. Malthus à la fin du XVIIIe. 
+
+
+
+Au croisement de la démo et de l’éco est né ce qu’on appelle la démographique économique ou encore la démo-économique. L'objet est d’étudier spécifiquement les relations entre phénomènes éco et démo. Plus précisément, la démo économique cherche à intégrer la variable population (effectif, structure par âge de la pop, par sexe, leurs évolutions) dans l’analyse économique et étudie les interactions entre les variables démo et les principales fonctions éco (production, consommation, épargne). 
+
+
+
+Il y a deux approches de la démographie économique : une approche macro (globale) et une approche micro (décisions individuelles). Enfin, les principaux résultats de la démo économique sont utilisés pour la définition des objectifs et des moyens des politiques de population. 
+
+
+
+    croissance démographique et croissance économique 
+
+
+
+Croissance démographique : augmentation de la population vivant sur un territoire donné au cours d’une période donnée. Elle est égale à la somme de l’accroissement naturel et du solde migratoire. 
+
+
+
+Croissance économique : augmentation d’un indicateur comme le PIB en termes réels sur une période donnée.
+
+
+
+Depuis Malthus et son essai sur les populations en 1798, les économistes se posent la question de l’impact positif ou négatif de la croissance démographique sur la croissance économique. Mais on a aussi la problématique inverse : est-ce que la croissance éco a des effets sur la croissance démo, en particulier sur ses composants (fécondité, mortalité, mouvements migratoires) ? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+la problématique malthusienne (1766-1834)
+
+
+
+🡺 La croissance démographique s’oppose à la croissance économique.
+
+Il était britannique, pasteur anglican et prof d’histoire.
+
+
+
+Dans son essai sur le principe de la population, la pop est une menace. Il montre qu’elle s’accroit en progression géométrique alors que les ressources s’accroissent en progression arithmétique. La proportion des hommes à se multiplier tend inéluctablement à dépasser les capacités de la nature. Pop qui se multiplie au-delà des ressources à disposition s’expose à la misère et pauvreté. Ni le progrès technique ni l’immigration ne peuvent freiner l’accroissement naturel de la population. 
+
+
+
+La seule solution pour Malthus est les freins préventifs : mariage tardif et le célibat. 
+
+À partir des idées de Malthus, on aura le néo-malthusianisme qui renvoie à l’idée de surpopulation à l’échelle planétaire, et cette surpopulation a des effets pervers en termes éco: misère, famine, chômage.
+
+
+
+
+
+David Ricardo (1772-1823)
+
+
+
+Il va développer la loi des rendements agricoles décroissants. Ça va conforter les idées malthusiennes. En effet, lorsqu’une population augmente, on va exploiter de plus en plus de terre qui sont de moins en moins fertiles, et donc on va obtenir des rendements décroissants, le facteur travail va devenir de moins en moins productif 🡺 taux de profit qui va tendre à la baisse et une production qui va diminuer. On va aller vers un état économique qui va être stationnaire. De toute façon, toute nouvelle augmentation de la pop entrainera une baisse de la production moyenne par travailleur. 
+
+
+
+Lorsqu’on augmente les quantités d’un facteur (ex : nombre de travailleurs) sans augmenter l’autre facteur (le capital), la production de chaque salarié supplémentaire va décroire au fur et à mesure. Rendement marginal du travail qui décroit. On va avoir des phénomènes d’encombrement, trop de facteur travail pour la production donc moins efficace. La croissance de la production n’est pas infinie mais au contraire on va tendre vers un état stationnaire où la production va se réduire.
+
+En conclusion, le revenu ou PIB par tête, càd le niveau de vie ne peut pas augmenter si la pop augmente. 
+
+
+
+
+
+la théorie de l’optimum de population
+
+
+
+Certains auteurs vont tenter de nuancer les arguments malthusiens en tenant compte de certaines conséquences bénéfiques pour la croissance économiques et la croissance de la population. L'augmentation de la taille d’une population entraîne d’abord un accroissement du revenu par habitant grâce aux économies d’échelle jusqu’à une valeur maximale correspondant à l’effectif de la population optimale. 
+
+Au-delà, l’augmentation de la pop a pour conséquences de réduire le revenu par habitant 🡺rendements deviennent décroissants.
+
+
+
+ les critiques de la théorie malthusienne et de l’optimum 
+
+
+
+les critiques malthusiennes 
+
+
+
+Les critiques malthusiennes sont très nombreuses, et surtout l’histoire des faits historiques ne confirme pas du tout les prédictions malthusiennes. La croissance géométrique de la population a été démentie par le cas français dès le XIXe siècle, et surtout la transition démographique a mis en évidence une autre tendance de l’évolution démographique où c’est justement l’amélioration du revenu, du niveau de vie qui a expliqué en partie la réduction de la fécondité. 
+
+
+
+Quant à la loi des subsistances de Malthus qui augmente en progression arithmétique, on passe sous silence tout progrès technique qui peut augmenter les rendements agricoles. On a dans les pays développés une surproduction agricole. La véritable insuffisance du modèle malthusien réside dans l’omission du progrès technique qui a permis d’augmenter les rendements économiques.
+
+
+
+les critiques de la théorie de l’optimum
+
+
+
+Cette notion a été au centre de très nombreuses controverses : l’intuition de cette théorie est d’affirmer qu’il existe un niveau de pop entre la surpopulation et la dépopulation correspondant à un maximum de bien-être. Cette théorie a été vivement critiquée par un économiste qui s’appelle SISMONDI et un démographe A. Landry qui a publié La révolution démographique, un classique en 1934. 
+
+
+
+Raisonner en termes de population optimale, c’est raisonner en termes statiques alors que le niveau dit optimal évolue en dynamique, avec le progrès technique. La notion de population optimale est certes commode mais elle est très floue. 
+
+D'ailleurs, le nombre n’est pas une variable pertinente : certes si une population nombreuse permet une production de masse efficace, les exemples sont nombreux de petits pays qui ont initié un dynamisme économique en termes de croissance : Pays-Bas, la Suisse, Hong-Kong, Singapour. Ces théories d’une population optimale aboutissent à une impasse.
+
+
+
+les positions anti-malthusiennes
+
+
+
+la pression créatrice
+
+
+
+Vient d’un débat d’après-guerre des analystes tiers-mondistes qui insistent sur le fait que la croissance de la population est un obstacle au développement économique ; et les économistes des pays développés qui s’inquiètent d’une population déclinante.
+
+
+
+L'argument des tiers-mondistes repose sur l’hypothèse d’une relation négative entre la fécondité et l’épargne. Plus dans un pays le nombre d’enfants augmente, et plus l’épargne par tête diminue. Donc sans épargne, l’investissement en capital va se réduire et la croissance avec. + cercle vicieux de la pauvreté
+
+
+
+Vers les années 60 va apparaitre une alternative au modèle malthusien avec un ouvrage qui a fait date d’Ester Boserup en 1970 Évolution agraire et pression démographique. Elle va inverser le paradigme malthusien. Elle va rejeter les théories anti-population et va démontrer que la croissance démographique peut être bénéfique. 
+
+
+
+Pour Malthus, ce sont les quantités de subsistances qui vont déterminer le volume de la population. Boserup inverse la proposition : pour elle, c’est la pression démographique qui va conditionner les techniques agraires et par conséquent la quantité des subsistances existantes. 
+
+
+
+Quand on a une surpopulation, on a une pression sociale qui va se traduire par des innovations.  On est passé de système expansif d’exploitation des terres à un système intensif. On est passé des jachères longues à des jachères courtes (système de rotation des terres, quand on les laisse reposer), puis de récoltes annuelles à des récoltes multi annuelles avec les engrais, les tracteurs...
+
+
+
+
+
+ le populationnisme 
+
+
+
+Ce sont des théories et des politiques favorables à l’accroissement de la population dans un pays. 
+
+Arguments simples :
+
+Une population nombreuse permet à un pays d’être plus puissant (militairement)
+
+Une pop nombreuse et croissante et un facteur de progrès des connaissances
+
+
+
+
+
+
+
+6) le nœud de la politique 
+
+
+
+investissement et épargne 
+
+
+
+Discussion entre les néomalthusiens et les populationnistes, ils s’opposent sur une discussion essentiel : la formation du capital. 
+
+
+
+Pour les néomalthusiens : une population stationnaire va nécessiter moins d’investissement démographique, ceci va avoir pour csq une augmentation du niveau de vie par habitant et donc une hausse de l’épargne (+ on est riche, + on épargne), donc par csq une augmentation de l’investi productif (I=S) 
+
+
+
+Pour les Populationnistes : + de population, ça permet d’augmenter le K humain donc + de facteur L , donc + de production par tête et + de croissance. + ça va nécessiter de moderniser, + d’efforts pour augmenter les gains de productivités 
+
+
+
+L’analyse malthusienne est pertinente pour les pays EVD, analyser leur situation... La progression de la pop° va contrarier la formation de K car elle ne permet pas de dégager une épargne suffisante.
+
+
+
+Le revenu dans les PED est affecté à la consommation et non pas à l’épargne 🡺 sans épargne, pas d’investissement 🡺 - de croissance.
+
+on a appelé cela : « le cercle vicieux de la pauvreté » : NURSKE .
+
+
+
+On a la thèse de Hansen et Kuznets : 
+
+
+
+Hansen= économiste, dans les années 30 va s’appuyer sur les analyses d’A Smith pour s’opposer à Malthus.
+
+
+
+En effet, pour Smith, la croissance de la pop° est à la fois cause et csq du progrès technique car elle stimule la division du travail qui va augmenter la productivité. Cette amélioration de la productivité va favoriser la hausse du revenu et l’accumulation du K, ce qui va stimuler à son tour la natalité. on va avoir une spirale de la croissance où la pop° va agrandir les marchés et stimuler la division du L et encourager la croissance 
+
+
+
+🡺 une pop° croissante va stimuler la formation du K pour 3 raisons :
+
+une pop° croissante va stimuler la consommation 
+
+cela va améliorer les anticipations 
+
++ de pop°🡺 faciliter la production de masse et donc la spécialisation
+
+
+
+
+
+on peut donc dire que chez les malthusiens et néo malthusien on a une corrélation négative entre expansion démographique et investissement= - de PIB par tête.
+
+
+
+A l’inverse chez les partisans du populationnisme on a une corrélation positive entre expansion démographique et investissement= + de PIB par tête 
+
+
+
+Les études empiriques permettront de tester les différentes hypothèses entre ces deux parties. 
+
+
+
+
+
+B) croissance démographiques et ses effets sur les facteurs de production et sur la demande globale
+
+
+
+le modèle Solow 
+
+
+
+Le modèle de Solow représente l’application dans un cadre dynamique de la pensée néoclassique. on est dans une f° de production classique= y=f(K ,L)
+
+
+
+La production est fonction du K et du L 
+
+
+
+hypothèse du modèle : il va montrer que si l’économie est flexible, la croissance est stable et assure le plein emploi des facteurs de production mais elle tend vers une situation stationnaire car on retrouve ici l’hypothèse des rendements décroissants à la Ricardo. 
+
+
+
+(voir l’ex précédant sur les rendements) 
+
+
+
+
+
+
+
+
+
+
+
+Le modèle de Solow reprend les hypothèse néoclassique :
+
+
+
+substituabilité des facteurs de production 
+
+décroissance de la productivité marginale 
+
+la croissance va atteindre un optimum mais elle va être borner 
+
+
+
+On a aussi des rendements décroissants car on intègre par le progrès technique dans ce modèle, il est considéré comme exogène (en dehors de l’éco) mais si on le prenait en compte on pourrait reculer de manière infini l’état stationnaire.  c’est ce qu’on démontrer les théoriciens de la croissance endogène.
+
+
+
+Chez Solow, la croissance démo va avoir un effet sur la quantité de L et donc un effet sur la croissance🡺 + de démo = + de quantité de L 
+
+donc elle va avoir un impact positif sur la croissance🡺 croissance extensive 
+
+
+
+Mais Solow va nuancer cet optimisme : problème= si accroissement du facteur L est excessif par rapport à celui du K, il va y avoir un effet de dilution du K.
+
+
+
+En abscisse on a K/L ; donc si L augmente + vite que K, le rapport va diminuer, donc – d’efficacité du K= - de croissance.
+
+L ’analyse de Solow rejoint le pessimisme de Malthus
+
+
+
+Pour un stock de K donné, si la pop° augmente rapidement, la productivité va se heurter au rendement décroissant et la productivité marginale va décroitre.
+
+
+
+
+
+
+
+La croissance économique peut favoriser l’investissement (via une croissance démo)
+
+
+
+On va voir l’analyse de Arrow (62) et de Phelps (66) 
+
+
+
+Ils montrent que les efforts de R&D sont corrélés avec la croissance démographique. Pop+ nombreuse= + de R&D et + de personnes brillantes, talents, chercheurs performants 
+
+🡺 + d’investi en K humain ce qui est favorable à la croissance.
+
+
+
+
+
+les théories de la croissances endogène
+
+
+
+ce sont des théories qui sont apparues au cours des années 1980. Les théoriciens de la croissance endogène vont remettre en cause l’hypothèse néoclassique des rendements décroissants (de Solow). c’est le PT, la technologie va avoir des effets externes positifs dans toutes l’économie qui permettra une croissance auto-entretenue. Le PT est considéré mtn comme endogène et non plus exogène comme dans le modèle de Solow.
+
+
+
+On a 3 économistes de cette école : Romer, Lucas, Barro. 
+
+
+
+La théorie de la croissance endogène va prendre 4 directions principales :
+
+
+
+celle de Romer : affirme que le moteur de la croissance revient essentiellement de l’accumulation des connaissances 
+
+
+
+celle de Lucas : privilégie l’accumulation du K humain
+
+
+
+celle de Romer : accumulation du K technologique est dû à l’innovation et à la R&D
+
+
+
+celle de Barro : prend en compte les dépenses d’infrastructures publiques 
+
+
+
+L’accumulation des connaissances permet d’avoir des effets externes positifs, (se transmettent à toute l’économie), d’avoir une productivité privé qui va profiter à l’entrep mais aussi une productivité social qui va profiter à l’ensemble de l’économie 
+
+
+
+La croissance éco va dépendre de l’accumulation du K humain, connaissance et savoir-faire des individus : + de K humain = effets externes positifs : mieux formés, éduqués= + productifs dans les entreprise. 
+
+
+
+investir dans la R&D permet d’avoir + de connaissance ; effets externes positifs= + de gains de prod 
+
+
+
++ d’infrastructures publiques (ports, autoroute, 5g) = effets positifs sur l’éco 
+
+
+
++ de pop° permet + d’innovation car + de potentiel de gens brillants 
+
++ de pop°= + de K humaine= favorable à la croissance éco 
+
+L’état va devoir investir énormément en éducation, formation, investissement en R&D, infrastructures.  La croissance démographique ça pousse au dvlpmt de l’innovation (thèse de Bosru) 
+
+
+
+la thèse de Kuznets 
+
+
+
+la croissance démo= force productrice de l’économie, elle favorise la mobilité de la main d’œuvre et elle favorise la croissance économique mais aussi les talents 
+
+
+
+le dynamisme démographique en lien avec la D globale
+
+
+
+une pop° croissante c’est une pop° qui va consommer + et investir d’avantage 
+
+
+
+C) les analyses empiriques 
+
+
+
+transition démographique et développement 
+
+
+
+L’expression révolution démo a été adopté par Adolf Landry en 1934 puis ça deviendra transition démographique en 53. C’est un phénomène universel avec des différences de calendrier d’intensité.
+
+
+
+La TD met en évidence le passage démographique haut ou ancien : forte mortalité et natalité
+
+et un régime moderne ou bas avec une faible mortalité et faible natalité. ces 2 régimes se caractérisent par un régime naturel faible
+
+
+
+ A partir de cette transition, on peut dire que c’est le PT qui est l’évènement clé qui va expliquer ce qu’on appelle le retournement de la trappe malthusienne. La baisse du taux de natalité va co-exister avec l’augmentation du revenu par tête qui est permise par le PT. 
+
+
+
+Ce PT, rentabilise l’investissement en K humain. d’autant plus que la baisse de la natalité ne rend plus nécessaires la procréation de précaution et rend durable les investissements. On veut – d’enfants élevés dans de meilleurs conditions. 
+
+
+
+Gary Becker montre que la baisse de la fécondité s’explique par le choix d’avoir peu d’enfants et donc qu’on va privilégier la qualité sur la quantité. étant donné aussi un autre facteur : le travail des femmes = incompatible avec le fait d’avoir bcp d’enfants🡺 baisse de la fécondité (explication éco)🡺 dvlpmt de la pilule (60) mais aussi travail massif sur le marché du L. 
+
+
+
+baisse de natalité et fécondité a produit du dvplt expliqué par l’économie. 
+
+
+
+dans le cas des pays en développement
+
+
+
+Certains pays n’ont pas encore fini leur transition démo donc on a une natalité assez élevé et une augmentation très forte d’une pop° très jeune.
+
+
+
+Pop° des PED a doublé en 28 ans et le poids des jeunes de – de 15ans est 2x + importante dans les PED que chez nous. 
+
+On a un effet négatif de la croissance de la pop° sur la croissance éco des PED. Le dvlpmt éco aurait été + rapide dans les PED si la pop° avait cru moins vite.
+
+
+
+Au-delà d’une croissance de la pop° de 2%, on commence à avoir un effet négatif sur la croissance
+
+
+
+CCL : l’hypothèse centrales des rendements décroissants implique une relation négative entre effectif de la pop° et produit par tête. On a aussi un autre effet négatif = dilution du K chez Solow qui implique une relation négative de long terme entre croissance démo et croissance éco. Donc les modèles de Malthus et de Solow impliquent des csqnces négatives de la démo sur la croissance éco.
+
+Les études empiriques n’ont pas pu donner de résultat concluant sur ces effets (tout dépend des pays et des périodes)
+
+
+
+les incidences économiques du vieillissement 
+
+
+
+le vieillissement démo peut être défini comme l’augmentation d‘une pop° donnée cad de la pop° de personne âgé et on prend comme critères les personnes de + de 65ans. On fait svt la distinction entre le 3ème et 4ème âge. Pour cela on passe à la proportion des plus de 85 ans et puis des centenaires.
+
+                Le VD résulte de 2 causes : 
+
+
+
+le vieillissement par le bas= recul de la natalité et de la fécondité qui va réduire la part des jeunes 
+
+
+
+le vieillissement par le haut= recul de la mortalité aux âges les + avancés conjugué a l’augmentation de l’espérance de vie à la naissance qui fait augmenter le nombre de personne âgé au sien de la pop° 
+
+
+
+🡺 modification de la structure démo selon l’âge et cela va avoir de grandes conséquences sur l’organisation socio-éco de la société 
+
+
+
+évolution historique de la pop° : pop° mondiale qui demeure faible même en l’an 1000 ap JC
+
+la croissance de la pop° a décoller au 19ème siècle et pas avant : 
+
+
+
+0,004 % entre 1000 av JC et l’an 1 ap JC 
+
+0,6% au 19ème siècle 
+
+0,9% pendant la première moitié du XXème 
+
+1,8% depuis 150ans
+
+
+
+L’idée de base de Malthus= plus la pop° est nombreuse, + le PIB par tête diminue = rendements décroissants 
+
+
+
++ on a de PIB par tête, + on va avoir une hausse de la pop°
+
+
+
+Le modèle malthusien admet un état stationnaire unique où à la fois la pop° et le Pib demeurent constants au cours du temps= équilibre stable.
+
+la trappe malthusiennes :
+
+croissance faible du PIB par tête 
+
+cette croissance est entièrement absorbée par la démographie 
+
+seule façon d’augmenter le PIB par tête chez Malthus, c’est l’abstinence.
+
+
+
+
+
+sur l’épargne
+
+
+
+sur la consommation
+
+
+
+sur le marché du travail 
+
+
+
+sur la santé 
+
+
+
+sur le système de retraite

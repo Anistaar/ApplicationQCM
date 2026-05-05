@@ -1,0 +1,434 @@
+{
+  "subject": "MACRO",
+  "name": "Macroéconomie",
+  "totalQuestions": 1210,
+  "icon": "📊",
+  "color": "#667eea",
+  
+  "structure": {
+    "chapters": [
+      {
+        "id": "chap0",
+        "num": 0,
+        "name": "Introduction à la Macroéconomie",
+        "icon": "🎯",
+        "questionCount": 121,
+        "notions": [
+          {
+            "id": "chap0_definitions",
+            "name": "Définitions fondamentales",
+            "description": "PIB, agrégats, macro vs micro",
+            "tags": ["Chapitre0", "Definitions"],
+            "estimatedTime": 5,
+            "difficulty": "Facile",
+            "questionCount": 45
+          },
+          {
+            "id": "chap0_agregats",
+            "name": "Agrégats économiques",
+            "description": "Mesures de l'activité économique",
+            "tags": ["Chapitre0", "Agregats"],
+            "estimatedTime": 6,
+            "difficulty": "Facile",
+            "questionCount": 38
+          },
+          {
+            "id": "chap0_theories",
+            "name": "Grands courants de pensée",
+            "description": "Classiques, Keynésiens, Néoclassiques",
+            "tags": ["Chapitre0", "Theories", "Keynes", "Classique"],
+            "estimatedTime": 8,
+            "difficulty": "Moyen",
+            "questionCount": 28
+          },
+          {
+            "id": "chap0_politique",
+            "name": "Politique économique",
+            "description": "Carré magique de Kaldor",
+            "tags": ["Chapitre0", "Politique", "Kaldor"],
+            "estimatedTime": 4,
+            "difficulty": "Moyen",
+            "questionCount": 10
+          }
+        ]
+      },
+      {
+        "id": "chap1",
+        "num": 1,
+        "name": "La Consommation",
+        "icon": "🛒",
+        "questionCount": 192,
+        "notions": [
+          {
+            "id": "chap1_definitions",
+            "name": "Définitions & Concepts",
+            "description": "Consommation, revenu disponible, épargne",
+            "tags": ["Chapitre1", "Consommation", "Definitions"],
+            "estimatedTime": 8,
+            "difficulty": "Facile",
+            "questionCount": 55,
+            "subNotions": [
+              {
+                "id": "chap1_revenu_dispo",
+                "name": "Revenu disponible",
+                "tags": ["Chapitre1", "Revenu", "Definitions"],
+                "questionCount": 15
+              },
+              {
+                "id": "chap1_propensions",
+                "name": "Propensions (moyenne et marginale)",
+                "tags": ["Chapitre1", "Propensions", "Formules"],
+                "questionCount": 20
+              },
+              {
+                "id": "chap1_epargne",
+                "name": "Épargne et fonction d'épargne",
+                "tags": ["Chapitre1", "Epargne"],
+                "questionCount": 20
+              }
+            ]
+          },
+          {
+            "id": "chap1_fonction_keynes",
+            "name": "Fonction de consommation keynésienne",
+            "description": "C = c0 + c1*Yd",
+            "tags": ["Chapitre1", "Keynes", "Formules", "Equations"],
+            "estimatedTime": 12,
+            "difficulty": "Moyen",
+            "questionCount": 65,
+            "subNotions": [
+              {
+                "id": "chap1_equation_conso",
+                "name": "Équation C = c0 + c1*Yd",
+                "tags": ["Chapitre1", "Keynes", "Equations"],
+                "questionCount": 30
+              },
+              {
+                "id": "chap1_multiplicateur",
+                "name": "Multiplicateur keynésien",
+                "tags": ["Chapitre1", "Keynes", "Multiplicateur", "Formules"],
+                "questionCount": 25
+              },
+              {
+                "id": "chap1_applications",
+                "name": "Applications numériques",
+                "tags": ["Chapitre1", "Applications", "Calculs"],
+                "questionCount": 10
+              }
+            ]
+          },
+          {
+            "id": "chap1_friedman",
+            "name": "Théorie du revenu permanent",
+            "description": "Friedman - Consommation basée sur revenu permanent",
+            "tags": ["Chapitre1", "Friedman", "Theories"],
+            "estimatedTime": 10,
+            "difficulty": "Difficile",
+            "questionCount": 42
+          },
+          {
+            "id": "chap1_modigliani",
+            "name": "Théorie du cycle de vie",
+            "description": "Modigliani - Épargne selon l'âge",
+            "tags": ["Chapitre1", "Modigliani", "Theories"],
+            "estimatedTime": 8,
+            "difficulty": "Difficile",
+            "questionCount": 30
+          }
+        ]
+      },
+      {
+        "id": "chap2",
+        "num": 2,
+        "name": "L'Investissement",
+        "icon": "🏭",
+        "questionCount": 274,
+        "notions": [
+          {
+            "id": "chap2_definitions",
+            "name": "Définitions de l'investissement",
+            "description": "FBCF, types d'investissement",
+            "tags": ["Chapitre2", "Investissement", "Definitions"],
+            "estimatedTime": 7,
+            "difficulty": "Facile",
+            "questionCount": 40
+          },
+          {
+            "id": "chap2_determinants",
+            "name": "Déterminants de l'investissement",
+            "description": "Taux d'intérêt, profit, accélérateur",
+            "tags": ["Chapitre2", "Investissement", "Determinants"],
+            "estimatedTime": 15,
+            "difficulty": "Moyen",
+            "questionCount": 85,
+            "subNotions": [
+              {
+                "id": "chap2_taux_interet",
+                "name": "Effet du taux d'intérêt",
+                "tags": ["Chapitre2", "TauxInteret"],
+                "questionCount": 30
+              },
+              {
+                "id": "chap2_profit",
+                "name": "Profit anticipé et efficacité marginale",
+                "tags": ["Chapitre2", "Profit"],
+                "questionCount": 30
+              },
+              {
+                "id": "chap2_accelerateur",
+                "name": "Principe de l'accélérateur",
+                "tags": ["Chapitre2", "Accelerateur"],
+                "questionCount": 25
+              }
+            ]
+          },
+          {
+            "id": "chap2_tobin",
+            "name": "Modèle néoclassique (q de Tobin)",
+            "description": "Ratio valeur boursière / coût de remplacement",
+            "tags": ["Chapitre2", "Tobin", "Theories"],
+            "estimatedTime": 12,
+            "difficulty": "Difficile",
+            "questionCount": 74
+          },
+          {
+            "id": "chap2_public_prive",
+            "name": "Investissement public vs privé",
+            "description": "Effet d'éviction, multiplicateur",
+            "tags": ["Chapitre2", "Investissement", "Politique"],
+            "estimatedTime": 10,
+            "difficulty": "Moyen",
+            "questionCount": 75
+          }
+        ]
+      },
+      {
+        "id": "chap3",
+        "num": 3,
+        "name": "Modèle Classique",
+        "icon": "⚖️",
+        "questionCount": 147,
+        "notions": [
+          {
+            "id": "chap3_say",
+            "name": "Loi de Say",
+            "description": "L'offre crée sa propre demande",
+            "tags": ["Chapitre3", "Say", "Classique"],
+            "estimatedTime": 6,
+            "difficulty": "Moyen",
+            "questionCount": 35
+          },
+          {
+            "id": "chap3_equilibre",
+            "name": "Équilibre de plein emploi",
+            "description": "Ajustement automatique des marchés",
+            "tags": ["Chapitre3", "Classique", "Equilibre"],
+            "estimatedTime": 9,
+            "difficulty": "Moyen",
+            "questionCount": 52
+          },
+          {
+            "id": "chap3_flexibilite",
+            "name": "Flexibilité des prix et salaires",
+            "description": "Mécanisme d'ajustement classique",
+            "tags": ["Chapitre3", "Classique", "Prix"],
+            "estimatedTime": 7,
+            "difficulty": "Moyen",
+            "questionCount": 40
+          },
+          {
+            "id": "chap3_critique",
+            "name": "Critique keynésienne du modèle",
+            "description": "Rigidités, trappe à liquidité",
+            "tags": ["Chapitre3", "Keynes", "Critique"],
+            "estimatedTime": 5,
+            "difficulty": "Difficile",
+            "questionCount": 20
+          }
+        ]
+      },
+      {
+        "id": "chap4",
+        "num": 4,
+        "name": "Modèle Keynésien & IS-LM",
+        "icon": "📈",
+        "questionCount": 476,
+        "notions": [
+          {
+            "id": "chap4_demande_globale",
+            "name": "Demande globale",
+            "description": "Y = C + I + G + (X-M)",
+            "tags": ["Chapitre4", "Keynes", "DemandeGlobale"],
+            "estimatedTime": 10,
+            "difficulty": "Moyen",
+            "questionCount": 68
+          },
+          {
+            "id": "chap4_courbe_is",
+            "name": "Courbe IS (Marché des biens)",
+            "description": "Équilibre I = S",
+            "tags": ["Chapitre4", "ISLM", "IS"],
+            "estimatedTime": 20,
+            "difficulty": "Difficile",
+            "questionCount": 125,
+            "subNotions": [
+              {
+                "id": "chap4_equation_is",
+                "name": "Équation de la courbe IS",
+                "tags": ["Chapitre4", "IS", "Equations"],
+                "questionCount": 45
+              },
+              {
+                "id": "chap4_deplacement_is",
+                "name": "Déplacements de IS",
+                "tags": ["Chapitre4", "IS", "Graphiques"],
+                "questionCount": 40
+              },
+              {
+                "id": "chap4_politique_budget",
+                "name": "Politique budgétaire sur IS",
+                "tags": ["Chapitre4", "IS", "Politique"],
+                "questionCount": 40
+              }
+            ]
+          },
+          {
+            "id": "chap4_courbe_lm",
+            "name": "Courbe LM (Marché monétaire)",
+            "description": "Demande de monnaie = Offre de monnaie",
+            "tags": ["Chapitre4", "ISLM", "LM", "Monnaie"],
+            "estimatedTime": 22,
+            "difficulty": "Difficile",
+            "questionCount": 135,
+            "subNotions": [
+              {
+                "id": "chap4_demande_monnaie",
+                "name": "Demande de monnaie (L = L1 + L2)",
+                "tags": ["Chapitre4", "LM", "Monnaie"],
+                "questionCount": 50
+              },
+              {
+                "id": "chap4_offre_monnaie",
+                "name": "Offre de monnaie et banque centrale",
+                "tags": ["Chapitre4", "LM", "Monnaie", "BanqueCentrale"],
+                "questionCount": 45
+              },
+              {
+                "id": "chap4_politique_monetaire",
+                "name": "Politique monétaire sur LM",
+                "tags": ["Chapitre4", "LM", "Politique", "Monnaie"],
+                "questionCount": 40
+              }
+            ]
+          },
+          {
+            "id": "chap4_equilibre_islm",
+            "name": "Équilibre IS-LM",
+            "description": "Détermination simultanée de Y et r",
+            "tags": ["Chapitre4", "ISLM", "Equilibre"],
+            "estimatedTime": 16,
+            "difficulty": "Expert",
+            "questionCount": 98
+          },
+          {
+            "id": "chap4_politiques_mixtes",
+            "name": "Politiques économiques mixtes",
+            "description": "Policy mix, efficacité comparée",
+            "tags": ["Chapitre4", "ISLM", "Politique", "PolicyMix"],
+            "estimatedTime": 10,
+            "difficulty": "Expert",
+            "questionCount": 50
+          }
+        ]
+      }
+    ],
+    
+    "crossCutting": {
+      "authors": [
+        {
+          "id": "keynes",
+          "name": "John Maynard Keynes",
+          "icon": "👨‍🎓",
+          "tags": ["Keynes", "Keynésien"],
+          "questionCount": 285,
+          "mainTopics": ["Consommation", "Demande globale", "IS-LM"]
+        },
+        {
+          "id": "friedman",
+          "name": "Milton Friedman",
+          "icon": "👨‍🏫",
+          "tags": ["Friedman"],
+          "questionCount": 68,
+          "mainTopics": ["Revenu permanent", "Monétarisme"]
+        },
+        {
+          "id": "modigliani",
+          "name": "Franco Modigliani",
+          "icon": "👨‍💼",
+          "tags": ["Modigliani"],
+          "questionCount": 52,
+          "mainTopics": ["Cycle de vie", "Épargne"]
+        },
+        {
+          "id": "tobin",
+          "name": "James Tobin",
+          "icon": "💼",
+          "tags": ["Tobin"],
+          "questionCount": 48,
+          "mainTopics": ["q de Tobin", "Investissement"]
+        },
+        {
+          "id": "classiques",
+          "name": "École Classique",
+          "icon": "🏛️",
+          "tags": ["Classique", "Say", "Ricardo"],
+          "questionCount": 95,
+          "mainTopics": ["Loi de Say", "Flexibilité des prix"]
+        }
+      ],
+      
+      "contentTypes": [
+        {
+          "id": "definitions",
+          "name": "Définitions",
+          "icon": "📖",
+          "tags": ["Definitions"],
+          "questionCount": 245,
+          "difficulty": "Facile"
+        },
+        {
+          "id": "formules",
+          "name": "Formules & Calculs",
+          "icon": "📐",
+          "tags": ["Formules", "Equations", "Calculs"],
+          "questionCount": 380,
+          "difficulty": "Moyen"
+        },
+        {
+          "id": "graphiques",
+          "name": "Graphiques",
+          "icon": "📊",
+          "tags": ["Graphiques"],
+          "questionCount": 185,
+          "difficulty": "Moyen"
+        },
+        {
+          "id": "theories",
+          "name": "Théories & Modèles",
+          "icon": "🎓",
+          "tags": ["Theories", "Modeles"],
+          "questionCount": 280,
+          "difficulty": "Difficile"
+        },
+        {
+          "id": "applications",
+          "name": "Applications pratiques",
+          "icon": "💡",
+          "tags": ["Applications"],
+          "questionCount": 120,
+          "difficulty": "Moyen"
+        }
+      ]
+    }
+  }
+}

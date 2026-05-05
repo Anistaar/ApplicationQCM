@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test MACRO Load</title>
+</head>
+<body>
+    <h1>Test de chargement MACRO</h1>
+    <button onclick="testLoad()">Tester le chargement</button>
+    <pre id="output"></pre>
+
+    <script type="module">
+        import { parseText2Quiz } from './src/parser.js';
+        
+        window.testLoad = async function() {
+            const output = document.getElementById('output');
+            output.textContent = 'Chargement en cours...\n';
+            
+            try {
+                // 1. Charger la structure
+                output.textContent += '\n📂 Chargement de la structure JSON...\n';
+                const structResp = await fetch('/src/database/structures/MACRO_complete.json');
+                const structure = await structResp.json();
+                output.textContent += `✅ Structure chargée: ${structure.chapters.length} chapitres\n`;
+                
+                // 2. Charger les questions
+                output.textContent += '\n📄 Chargement du fichier de questions...\n';
+                const questResp = await fetch('/src/questions/S1/MACRO/MACRO_QUESTIONS_COMPLETE_v2.txt');
+                const text = await questResp.text();
+                output.textContent += `✅ Fichier chargé: ${text.length} caractères\n`;
+                
+                // 3. Parser les questions
+                output.textContent += '\n⚙️ Parsing des questions...\n';
+                const questions = parseText2Quiz(text);
+                output.textContent += `✅ ${questions.length} questions parsées\n`;
+                
+                // 4. Afficher quelques détails
+                output.textContent += '\n📊 Détails:\n';
+                const byType = questions.reduce((acc, q) => {
+                    acc[q.type] = (acc[q.type] || 0) + 1;
+                    return acc;
+                }, {});
+                output.textContent += `- Types: ${JSON.stringify(byType, null, 2)}\n`;
+                
+                const themes = [...new Set(questions.flatMap(q => q.themes))];
+                output.textContent += `- Thèmes distincts: ${themes.length}\n`;
+                output.textContent += `- Premiers thèmes: ${themes.slice(0, 10).join(', ')}\n`;
+                
+                // 5. Première question
+                output.textContent += '\n📝 Première question:\n';
+                output.textContent += JSON.stringify(questions[0], null, 2);
+                
+            } catch (error) {
+                output.textContent += `\n❌ ERREUR: ${error.message}\n${error.stack}`;
+            }
+        };
+    </script>
+</body>
+</html>

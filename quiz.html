@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz - Text2Quiz</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --primary-light: #818cf8;
+            --secondary: #ec4899;
+            --dark: #1e293b;
+            --dark-alt: #334155;
+            --light: #f8fafc;
+            --border: #e2e8f0;
+            --success: #22c55e;
+            --error: #ef4444;
+            --warning: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            z-index: 999;
+            padding: 1rem 1.5rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 0 0 8px 0;
+            font-weight: 600;
+        }
+        .skip-link:focus {
+            position: fixed;
+            left: 1rem;
+            top: 1rem;
+            outline: 3px solid var(--dark);
+        }
+
+        .topbar {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+
+        .topbar h1 {
+            margin: 0;
+            font-size: 1.25rem;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-close {
+            background: transparent;
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--dark-alt);
+            transition: all 0.2s;
+        }
+
+        .btn-close:hover {
+            background: var(--light);
+            color: var(--error);
+            border-color: var(--error);
+        }
+
+        .quiz-container {
+            flex: 1;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            color: var(--dark-alt);
+            font-size: 0.9rem;
+        }
+
+        .question-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .options-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .option-btn {
+            padding: 1rem 1.5rem;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            background: white;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--primary);
+            background: var(--light);
+        }
+
+        .option-btn.selected {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.05);
+        }
+
+        .option-btn.correct {
+            border-color: var(--success);
+            background: rgba(34, 197, 94, 0.1);
+            color: var(--success);
+        }
+
+        .option-btn.wrong {
+            border-color: var(--error);
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--error);
+        }
+
+        .feedback-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            border-radius: 12px;
+            background: var(--light);
+            display: none;
+        }
+
+        .feedback-section.visible {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        .feedback-section.correct {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid var(--success);
+        }
+
+        .feedback-section.wrong {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid var(--error);
+        }
+
+        .controls {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 2rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Results Screen */
+        .results-container {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0 auto 2rem;
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+        }
+
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background-color: #f00;
+            animation: fall linear forwards;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(100vh) rotate(720deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    <header class="topbar">
+        <h1>
+            <span id="subject-icon">📝</span>
+            <span id="subject-name">Quiz en cours</span>
+        </h1>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+            <span id="timer" style="font-family: monospace; font-size: 1.1rem;" aria-live="polite" aria-label="Temps écoulé">00:00</span>
+            <button id="btn-quit" class="btn-close" aria-label="Quitter le quiz et retourner à l'accueil">Quitter</button>
+        </div>
+    </header>
+
+    <main class="quiz-container" id="quiz-interface" id="main-content">
+        <div class="progress-bar" role="progressbar" aria-label="Progression du quiz" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div class="question-card" role="region" aria-live="polite" aria-atomic="true">
+            <div class="question-header">
+                <span id="question-counter">Question 1/10</span>
+                <span id="question-difficulty"
+                    style="padding: 2px 8px; border-radius: 12px; background: var(--light); font-size: 0.8rem;">Moyen</span>
+            </div>
+
+            <div class="question-text" id="question-text">
+                Chargement de la question...
+            </div>
+
+            <div class="options-grid" id="options-grid">
+                <!-- Options will be injected here -->
+            </div>
+
+            <div class="feedback-section" id="feedback-section">
+                <h3 id="feedback-title" style="margin: 0 0 0.5rem 0;">Réponse correcte !</h3>
+                <p id="feedback-text" style="margin: 0; color: var(--dark-alt);"></p>
+            </div>
+
+            <div class="controls">
+                <button id="btn-validate" class="btn-primary" disabled aria-label="Valider la réponse sélectionnée" aria-disabled="true">Valider</button>
+                <button id="btn-next" class="btn-primary" style="display: none;" aria-label="Passer à la question suivante">Suivant</button>
+            </div>
+        </div>
+    </main>
+
+    <main class="quiz-container" id="results-interface" style="display: none;" role="dialog" aria-labelledby="results-title">
+        <div class="results-container">
+            <div class="score-circle">
+                <span id="final-score">0%</span>
+            </div>
+            <h2 id="results-title">Quiz terminé !</h2>
+            <p style="color: var(--dark-alt); margin-bottom: 2rem;">
+                Vous avez répondu correctement à <span id="correct-count">0</span> questions sur <span
+                    id="total-count">0</span>.
+            </p>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button id="btn-retry" class="btn-close" aria-label="Recommencer le quiz avec les mêmes paramètres">🔁 Recommencer</button>
+                <button id="btn-new-themes" class="btn-primary" style="background: var(--secondary);" aria-label="Choisir de nouveaux thèmes pour la même matière">🎯 Nouveaux thèmes</button>
+                <button id="btn-home" class="btn-close" aria-label="Retourner à l'écran d'accueil">🏠 Accueil</button>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="/src/new-ui/quiz-runner.ts"></script>
+</body>
+
+</html>

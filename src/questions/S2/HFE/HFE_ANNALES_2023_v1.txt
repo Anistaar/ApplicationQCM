@@ -1,0 +1,47 @@
+@themes: Histoire des Faits Économiques
+
+### === HFE-AN23-1 : Annales 2023 – Friedman et la crise de 1929 ===
+### "Questions 1-3 de l'examen HFE de mai 2023 (Christelle Mougeot, L1 éco, 30 min, barème +1/-0,5/0)"
+@add-theme: Annales 2023, Examen, Crise 1929, Friedman
+
+QCM || [ANNALE 2023 – Q1] Selon Milton Friedman, pour amortir le krach boursier de 1929, la banque centrale américaine aurait dû : || V:Augmenter l'offre de monnaie pour fournir des liquidités aux banques|Diminuer l'offre de monnaie pour combattre l'inflation|Augmenter ses dépenses pour soutenir la consommation et l'investissement
+QCM || [ANNALE 2023 – Q2] Pour Milton Friedman, la décision de la banque centrale américaine de maintenir ses taux d'intérêt à un niveau élevé au début des années 1930 était : || V:Une erreur car cette décision a amplifié et accéléré la transmission de la crise du système bancaire et monétaire vers l'économie réelle en décourageant la consommation et l'investissement|Pertinente pour éviter une sortie massive de capitaux des États-Unis vers les pays européens|Imposée par le système de l'étalon or
+QCM || [ANNALE 2023 – Q3] Laquelle de ces affirmations est FAUSSE ? || V:La crise de 1929 a été amplifiée par la décision du gouvernement américain d'augmenter immédiatement après le krach boursier les dépenses publiques, créant ainsi une crise de confiance des agents économiques|Les keynésiens considèrent que la crise de 1929 a pour origine la baisse de la demande autonome observée dans les années 1920|Les monétaristes considèrent que la crise économique du début des années 1930 a pour origine les faillites bancaires dues au krach boursier d'octobre 1929
+
+---
+
+### === HFE-AN23-2 : Annales 2023 – Étalon or et crises (XIXe–XXe siècle) ===
+### "Questions 4-9 de l'examen HFE 2023 sur l'étalon or, les deux grandes dépressions et la première mondialisation"
+@add-theme: Annales 2023, Examen, Étalon or, Crise 1873, Première mondialisation, Eichengreen
+
+QCM || [ANNALE 2023 – Q4] Barry Eichengreen considère que le système d'étalon or : || V:A constitué un canal de transmission de la crise de 1929 des États-Unis vers les pays européens|A protégé temporairement les pays européens de la transmission de la crise née aux États-Unis en 1929|Aucune des réponses précédentes
+QCM || [ANNALE 2023 – Q5] La Grande Dépression de la fin du XIXème siècle se caractérise essentiellement par : || V:De la déflation|De l'inflation|L'explosion du chômage
+QCM || [ANNALE 2023 – Q6] Le système d'étalon or se définit par le fait que : || V:La valeur de chaque monnaie se définit par un poids fixe en or|La valeur de chaque monnaie se définit par rapport à la monnaie britannique : la livre sterling|La valeur de chaque monnaie se définit par un poids en or qui varie en fonction du solde commercial de chaque pays
+QCM || [ANNALE 2023 – Q7] Le système d'étalon or contribue à : || V:Rééquilibrer automatiquement les balances commerciales des partenaires à l'échange|Rééquilibrer automatiquement les soldes budgétaires des partenaires à l'échange|Aucune des deux réponses précédentes
+QCM || [ANNALE 2023 – Q8] Pour les monétaristes, la Grande Dépression de la fin du XIXème siècle s'explique par : || V:Les deux réponses : l'achèvement du cycle des investissements ferroviaires ET la baisse de la production mondiale d'or|L'achèvement du cycle des investissements ferroviaires uniquement|La baisse de la production mondiale d'or uniquement
+QCM || [ANNALE 2023 – Q9] La première mondialisation a été favorisée par : || V:La baisse des coûts de transport|Les innovations industrielles|L'internationalisation des processus de production
+
+---
+
+### === HFE-AN23-3 : Annales 2023 – North, révolution industrielle, Solow ===
+### "Questions 10-14 de l'examen HFE 2023 sur Douglas North, la révolution industrielle et le modèle de Solow"
+@add-theme: Annales 2023, Examen, Douglas North, Révolution industrielle, Solow, Institutions
+
+QCM || [ANNALE 2023 – Q10] Pour qui l'histoire économique de l'Occident est-elle l'histoire de la «mise en place progressive d'institutions adaptées, propres à contenir la montée des coûts de transactions qui accompagne la division accrue du travail et donc la complexité croissante des sociétés» ? || V:Douglas North|Adam Smith|Rostow
+QCM || [ANNALE 2023 – Q11] Quelle proposition est vraie concernant la production et la révolution industrielle ? || V:Il n'y a eu aucune augmentation de la production par tête avant la révolution industrielle|La production n'a commencé à augmenter qu'après la révolution industrielle|Il n'y a pas eu d'augmentation de la production mondiale avant la révolution industrielle
+QCM || [ANNALE 2023 – Q12] Pour Solow, la croissance économique après la survenue de l'état stationnaire ne peut provenir que : || V:Du progrès technique|De la croissance démographique|De l'accumulation de capital
+QCM || [ANNALE 2023 – Q13] Du modèle de Solow dérive l'idée que : || V:Le sous-développement n'est en fait qu'un retard de développement : les pays riches ont simplement accumulé plus de capital que les autres ce qui leur a donné une avance que les autres finiront par combler|Le sous-développement n'est en fait qu'un retard de développement : les pays riches ont simplement connu leur révolution industrielle avant les autres|Le sous-développement est en fait un blocage de développement : les pays riches ont empêché le développement des pays pauvres en les colonisant et en pillant leurs ressources
+QCM || [ANNALE 2023 – Q14] Pour Solow, le stock de capital par tête : || V:Augmente tant que l'investissement est supérieur à la dépréciation du capital|Augmente proportionnellement à la croissance démographique|Augmente tant que l'investissement est supérieur à la croissance démographique|Augmente proportionnellement à l'investissement
+
+---
+
+### === HFE-AN23-4 : Annales 2023 – Rostow, Marx et convergence ===
+### "Questions 15-20 de l'examen HFE 2023 sur Rostow, la révolution industrielle, Marx et la convergence de Solow"
+@add-theme: Annales 2023, Examen, Rostow, Marx, Convergence, Révolution industrielle
+
+QCM || [ANNALE 2023 – Q15] Rostow définit le décollage économique à partir des deux critères suivants : || V:Augmentation du taux d'investissement du revenu national et développement des secteurs secondaires et tertiaires|Augmentation des innovations acceptées par la société et augmentation du taux d'investissement du revenu national|Augmentation des innovations acceptées par la société et augmentation du revenu national
+QCM || [ANNALE 2023 – Q16] «Le pays qui réussirait à capter les marchés d'exportation des autres ou même qui arriverait à monopoliser ces marchés dans une grande partie du monde en une période assez courte, pourrait développer ses industries d'exportation à un rythme qui rendrait une révolution industrielle non seulement possible pour ses entrepreneurs mais presque obligatoire...» Vous pouvez attribuer cette citation à : || V:Hobsbawm|Rostow|Allen
+QCM || [ANNALE 2023 – Q17] L'ouvrage de Rostow «Les étapes de la croissance économique» est un exemple illustratif du concept de : || V:Développement linéaire|Développement inégal|Dynamique innovatrice
+QCM || [ANNALE 2023 – Q18] «Dans la production sociale de leur existence, les hommes entrent en des rapports déterminés, nécessaires, indépendants de leur volonté ; ces rapports de production correspondent à un degré de développement donné de leurs forces productives matérielles. L'ensemble de ces rapports de production constitue la structure économique de la société, la base réelle, sur quoi s'élève une superstructure juridique et politique...» Cette conception de l'ordre social est celle de : || V:Marx|Rostow|Schumpeter
+QCM || [ANNALE 2023 – Q19] L'auteur de la citation précédente (Marx) explique que : || V:Lorsque les rapports de production ne sont plus adaptés aux forces productives — parce qu'ils évoluent moins vite — la révolution sociale va permettre de les harmoniser en modifiant les rapports de production|Lorsque les rapports de production ne sont plus adaptés aux forces productives — parce qu'ils évoluent plus vite — la révolution sociale va permettre de les harmoniser en modifiant les forces productives|Lorsque l'infrastructure économique n'est plus adaptée à la superstructure juridique et politique — parce qu'elle évolue moins vite — la révolution sociale va permettre de les harmoniser en modifiant l'infrastructure économique|Lorsque l'infrastructure économique n'est plus adaptée à la superstructure juridique et politique — parce qu'elle évolue plus vite — la révolution sociale va permettre de les harmoniser en modifiant la superstructure juridique
+QCM || [ANNALE 2023 – Q20] La confrontation du modèle théorique de Solow avec des données historiques aboutit à l'idée d'une : || V:Convergence conditionnelle|Convergence absolue|Absence de convergence

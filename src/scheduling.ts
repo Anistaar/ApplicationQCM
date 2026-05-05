@@ -22,11 +22,14 @@ function clamp(v: number, a = 0, b = 1) { return Math.max(a, Math.min(b, v)); }
 const BASE_INTERVALS_DAYS = [0, 1, 3, 7, 14, 30];
 
 // ===== LEGACY SYNC API (backward compat) =====
-// Will be deprecated in favor of async statsManager
+// @deprecated Use loadStatsAsync/saveStatsAsync instead
+// Kept for backward compatibility only, will be removed in v3
 export function loadStats(): Record<string, QStat> {
+  console.warn('[scheduling] loadStats() is deprecated, use loadStatsAsync() instead');
   try { return JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch { return {}; }
 }
 export function saveStats(stats: Record<string, QStat>) {
+  console.warn('[scheduling] saveStats() is deprecated, use saveStatsAsync() instead');
   localStorage.setItem(LS_KEY, JSON.stringify(stats));
 }
 
@@ -103,6 +106,7 @@ function isValueEqual(val: string | null | undefined, q: Question) {
 }
 
 // ===== LEGACY SYNC VERSION (backward compat) =====
+// @deprecated Use updateStatAfterAnswerAsync instead
 export function updateStatAfterAnswer(q: Question, correct: boolean, severity: number, timeMs?: number) {
   const id = _keyForQuestion(q);
   const stats = loadStats();

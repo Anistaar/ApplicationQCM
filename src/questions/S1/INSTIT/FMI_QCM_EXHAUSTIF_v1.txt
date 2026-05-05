@@ -1,0 +1,66 @@
+QCM || En quelle ann�e le FMI a-t-il �t� officiellement cr�� ? || V:1944|1947|1955|1971
+|| Le FMI a �t� cr�� en juillet 1944 lors de la conf�rence de Bretton Woods, aux �tats-Unis, pour r�guler le syst�me mon�taire international. || FMI, Historique, Facile, QCM
+QCM || Quel est le mandat principal du FMI ? || Financer des projets d'infrastructure|V:Assurer la stabilit� du syst�me mon�taire international|R�guler le commerce mondial|�mettre une monnaie mondiale unique
+|| Le r�le premier du FMI est d'assurer la stabilit� du syst�me mon�taire international et de pr�venir les crises financi�res en accordant des pr�ts temporaires. || FMI, Missions, Facile, QCM
+QCM || O� se situe le si�ge du FMI ? || Gen�ve|New York|V:Washington D.C.|Bruxelles
+|| Comme la Banque Mondiale, le si�ge du FMI est situ� � Washington D.C. || FMI, Fonctionnement, Facile, QCM
+QCM || Selon la tradition, de quelle origine est le Directeur G�n�ral du FMI ? || Am�ricain|V:Europ�en|Asiatique|Africain
+|| Par une r�gle tacite, le directeur du FMI est un Europ�en, tandis que le pr�sident de la Banque Mondiale est un Am�ricain. || FMI, Gouvernance, Moyen, QCM
+QCM || Que sont les DTS (Droits de Tirage Sp�ciaux) ? || Une monnaie physique utilis�e par les banques|V:Un instrument de r�serve international et une unit� de compte|Des actions du FMI cot�es en bourse|Une taxe sur les transactions financi�res
+|| Les DTS (cr��s en 1969) sont un avoir de r�serve international reposant sur un panier de devises. Ce n'est pas une monnaie physique mais une cr�ance virtuelle. || FMI, DTS, Difficile, QCM
+QCM || En quelle ann�e les DTS ont-ils �t� cr��s ? || 1944|V:1969|1971|1999
+|| Les DTS ont �t� cr��s en 1969 pour soutenir le syst�me de parit�s fixes de Bretton Woods, face � la p�nurie d'or et de dollars. || FMI, DTS, Date, Difficile, QCM
+QCM || Comment est d�termin� le droit de vote d'un pays au sein du FMI ? || Un pays = une voix|V:En fonction de sa quote-part (contribution financi�re)|En fonction de sa population|En fonction de sa superficie
+|| Le pouvoir de vote est proportionnel � la quote-part (le capital vers�) du pays. Les �tats-Unis poss�dent ainsi un droit de veto de fait. || FMI, Gouvernance, Moyen, QCM
+QCM || Qu'est-ce que la "conditionnalit�" des pr�ts du FMI ? || L'obligation de rembourser en or|V:L'obligation de mener des r�formes �conomiques (ajustement structurel)|L'obligation d'acheter des produits am�ricains|L'obligation de changer de gouvernement
+|| En �change de ses pr�ts, le FMI exige souvent des "Plans d'Ajustement Structurel" pour r�tablir la solvabilit� du pays. || FMI, Conditionnalit�, Moyen, QCM
+QCM || Quel �v�nement du 15 ao�t 1971 a boulevers� le r�le initial du FMI ? || La cr�ation de l'Euro|V:La suspension de la convertibilit� du dollar en or (Choc Nixon)|La crise des subprimes|La chute du Mur de Berlin
+|| La fin de la convertibilit� or-dollar d�cid�e par Nixon en 1971 a mis fin au syst�me de parit�s fixes de Bretton Woods. || FMI, Historique, Difficile, QCM
+QCM || Les Accords de la Jama�que en 1976 ont officialis� : || Le retour � l'�talon-or|V:Le syst�me de changes flottants|La cr�ation de l'OMC|La suppression du FMI
+|| Ces accords ont ent�rin� l'abandon des taux de change fixes au profit des taux de change flottants et red�fini le r�le du FMI. || FMI, Historique, Difficile, QCM
+QCM || Le FMI est souvent qualifi� de : || "Banque centrale du monde"|V:"Pr�teur de dernier ressort"| "Gendarme du commerce"|"Tribunal de la finance"
+|| Il intervient lorsque plus personne ne veut pr�ter � un pays, pour �viter un d�faut de paiement et une contagion de la crise financi�re. || FMI, D�finitions, Moyen, QCM
+QCM || Quelle est la diff�rence temporelle principale entre l'action du FMI et celle de la Banque Mondiale ? || Le FMI agit sur le long terme, la BM sur le court terme|V:Le FMI g�re le court terme (crises), la BM le long terme (d�veloppement)|Il n'y a aucune diff�rence|Les deux agissent uniquement en urgence
+|| Le FMI vise � corriger les d�s�quilibres imm�diats (balance des paiements), tandis que la Banque Mondiale finance des projets de d�veloppement sur plusieurs ann�es. || FMI, Comparaison, Facile, QCM
+QCM || Combien de pays membres compte environ le FMI aujourd'hui ? || 50|100|V:189 (ou 190)|500
+|| Le FMI compte 189 pays membres (selon le cours, 190 en r�alit� aujourd'hui). || FMI, Chiffres, Facile, QCM
+QCM || Lequel de ces pays dispose du plus grand droit de vote au FMI ? || La Chine|L'Allemagne|V:Les �tats-Unis|Le Japon
+|| Les �tats-Unis sont le principal actionnaire et disposent du plus grand nombre de voix. || FMI, G�opolitique, Facile, QCM
+QCM || Qu'est-ce qu'une "quote-part" au FMI ? || Une taxe sur les importations|V:La souscription en capital d'un pays membre|Le montant maximal qu'un pays peut emprunter|Le salaire du directeur g�n�ral
+|| La quote-part d�termine la contribution financi�re, le droit de vote et le montant des financements qu'un pays peut obtenir. || FMI, Vocabulaire, Moyen, QCM
+QCM || Parmi les critiques souvent adress�es au FMI, on trouve : || Il pr�te trop d'argent sans conditions|V:Ses mesures d'aust�rit� aggravent la pauvret� et les in�galit�s|Il favorise trop les pays communistes|Il ne s'int�resse pas assez � la monnaie
+|| Les Plans d'Ajustement Structurel sont souvent critiqu�s pour leur impact social n�gatif (baisse des d�penses publiques) au nom de la rigueur budg�taire. || FMI, Critiques, Moyen, QCM
+QCM || Quel est le stock d'or approximatif d�tenu par le FMI ? || 100 tonnes|1 000 tonnes|V:2 814 tonnes|10 000 tonnes
+|| Le FMI d�tient environ 2 814 tonnes d'or, ce qui en fait le troisi�me d�tenteur mondial apr�s les �tats-Unis et l'Allemagne. || FMI, Or, Chiffres, Difficile, QCM
+QCM || D'o� provient essentiellement le stock d'or du FMI ? || D'achats r�cents sur le march�|V:De la dotation initiale des pays membres (25% de la souscription)|De dons de philanthropes|De saisies judiciaires
+|| Lors de sa cr�ation en 1944, les pays membres devaient r�gler un quart de leur souscription (quote-part) en or. || FMI, Or, Historique, Difficile, QCM
+QCM || En 2013, � combien ont �t� port�es les ressources du FMI apr�s leur quadruplement ? || 250 milliards de dollars|500 milliards de dollars|V:1 000 milliards de dollars|2 000 milliards de dollars
+|| Face � la crise, le FMI a quadrupl� ses ressources pour atteindre environ 1 000 milliards de dollars en 2013. || FMI, Ressources, Chiffres, Difficile, QCM
+QCM || Quelle est la troisi�me source de revenus du FMI, aussi importante que les quotes-parts ? || La vente de livres|V:Les emprunts aupr�s des pays membres|Les taxes sur les billets d'avion|Les dons des ONG
+|| Les ressources du FMI proviennent des quotes-parts, de l'or, et des emprunts qu'il est habilit� � effectuer aupr�s des pays membres. || FMI, Ressources, Moyen, QCM
+QCM || Quel �tait le taux de change de l'or fix� par les accords de Bretton Woods ? || 10$ l'once|V:35$ l'once|100$ l'once|500$ l'once
+|| Le syst�me reposait sur la convertibilit� du dollar en or au taux fixe de 35 dollars l'once. || FMI, Bretton Woods, Or, Moyen, QCM
+QCM || Avant 1976, quel �tait le r�le du FMI concernant les taux de change ? || Il laissait faire le march�|V:Il garantissait le respect des parit�s fixes et autorisait les d�valuations|Il fixait le prix du p�trole|Il n'avait aucun r�le
+|| Le FMI agissait comme le garant du syst�me de taux de change fixes ajustables. Les d�valuations n�cessitaient son accord pr�alable. || FMI, Historique, Change, Moyen, QCM
+QCM || Qu'est-ce qu'un "d�faut de paiement" pour un pays ? || Une erreur de calcul budg�taire|V:L'incapacit� de rembourser ses cr�anciers|Le refus de payer ses fonctionnaires|La fermeture de la banque centrale
+|| Un d�faut survient lorsqu'un pays ne peut plus honorer le remboursement de sa dette souveraine. Le FMI intervient pour �viter cela. || FMI, D�finitions, Crise, Facile, QCM
+QCM || Depuis 2008, comment a �volu� la conditionnalit� des pr�ts du FMI ? || Elle a �t� supprim�e|V:Elle a �t� assouplie et mieux cibl�e sur les secteurs essentiels|Elle a �t� durcie consid�rablement|Elle ne concerne plus que l'Europe
+|| Apr�s la crise de 2008, le FMI a assoupli sa conditionnalit�, ne ciblant plus syst�matiquement la r�duction des d�ficits � tout prix, mais le redressement �conomique. || FMI, �volution, Crise 2008, Moyen, QCM
+QCM || Quelle fonction le FMI a-t-il renforc�e pour am�liorer la pr�vention des crises ? || La fonction de pr�t|V:La mission de surveillance du syst�me mon�taire international|La fonction de cr�ation mon�taire|La fonction de tribunal
+|| Le FMI a renforc� sa surveillance (surveillance multilat�rale) pour d�tecter les d�s�quilibres avant qu'ils ne provoquent une crise. || FMI, Surveillance, Missions, Moyen, QCM
+QCM || Les DTS peuvent-ils �tre utilis�s par les particuliers ? || Oui, pour voyager|Non, uniquement par les banques centrales et organisations internationales|Oui, pour acheter de l'or|Oui, sur internet
+|| Les DTS sont un instrument de r�serve officiel, utilisable uniquement entre �tats membres et institutions officielles, pas par le public. || FMI, DTS, Usage, Facile, QCM
+QCM || Quelle devise NE fait PAS partie du panier des DTS ? || Le Dollar am�ricain|L'Euro|Le Yen japonais|V:Le Franc suisse
+|| Le panier des DTS comprend le Dollar, l'Euro, le Yuan (depuis 2016), le Yen et la Livre Sterling. Le Franc suisse n'y est pas (ou n'est pas cit� comme majeur dans le cours). || FMI, DTS, Devises, Difficile, QCM
+QCM || Quel est l'objectif des "programmes d'ajustement structurel" ? || Augmenter les salaires|V:Assurer la soutenabilit� de la dette et la croissance � long terme|Nationaliser les entreprises|Fermer les fronti�res
+|| Ces programmes visent � r�former l'�conomie pour qu'elle redevienne comp�titive et que la dette soit soutenable. || FMI, Ajustement structurel, Objectif, Moyen, QCM
+QCM || En cas de d�s�quilibre temporaire, combien un pays pouvait-il obtenir automatiquement avant 1976 ? || 10% de sa quote-part|V:25% de sa quote-part (droit de tirage)|50% de sa quote-part|100% de sa quote-part
+|| Chaque pays pouvait obtenir automatiquement 25% de sa quote-part ("tranche de r�serve") pour soutenir sa monnaie. || FMI, Historique, Technique, Difficile, QCM
+QCM || Combien de pays fondateurs ont particip� � la cr�ation du FMI en 1944 ? || V:44|50|100|189
+|| En juillet 1944, 44 pays fondateurs se sont r�unis � Bretton Woods pour �tablir ce cadre de coop�ration �conomique. || FMI, Historique, Chiffres, Difficile, QCM
+QCM || � quelle date pr�cise le syst�me de changes fixes a-t-il d�finitivement disparu ? || 15 ao�t 1971|V:Mars 1973|Janvier 1976|Juillet 1944
+|| Si la convertibilit� or a cess� en 1971, le syst�me de changes fixes a officiellement disparu en mars 1973, avant d'�tre act� par les accords de la Jama�que en 1976. || FMI, Historique, Dates, Difficile, QCM
+QCM || Avant 1976, jusqu'� quel pourcentage de sa quote-part un pays pouvait-il emprunter si le FMI le jugeait n�cessaire ? || 25%|50%|100%|V:125%
+|| Au-del� des 25% automatiques, le FMI pouvait pr�ter jusqu'� 125% de la quote-part pour soutenir un pays en difficult�. || FMI, Historique, Technique, Expert, QCM
+QCM || Quelle �tait la dotation initiale en or exig�e lors de la souscription au FMI en 1944 ? || 10%|V:25%|50%|100%
+|| Les pays membres devaient r�gler un quart (25%) de leur souscription en or, ce qui constitue l'origine du stock d'or actuel du FMI. || FMI, Or, Historique, Difficile, QCM

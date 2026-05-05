@@ -1,0 +1,163 @@
+@themes: Histoire des Faits Économiques
+
+### === HFE0-I-1a : La trappe malthusienne – Définition ===
+### "Mécanisme par lequel production et population augmentent au même rythme, maintenant le revenu par tête constant"
+@add-theme: Malthus, Trappe malthusienne
+
+QCM || La trappe malthusienne décrit un mécanisme dans lequel || V:Les gains de productivité entraînent une hausse de la population plutôt qu'une hausse du revenu par tête|Les gains de productivité entraînent uniquement une hausse du revenu par tête|La population diminue quand la production augmente|Le progrès technique est impossible dans une économie agricole
+VF  || Dans une trappe malthusienne, si la production augmente, le revenu par tête augmente durablement. || F || Les gains de production entraînent une hausse de la population qui compense l'augmentation, maintenant le revenu par tête constant.
+QCM || Entre l'an 0 et 1750, la population mondiale est passée d'environ 160 millions à || V:700 millions|2 milliards|1 milliard|500 millions
+QCM || Selon la théorie malthusienne, si les conditions de vie s'améliorent (salaires plus élevés), alors || V:La natalité augmente et la mortalité diminue, ce qui fait remonter la population|La population diminue car les gens ont moins d'enfants|Le niveau de vie augmente durablement|La production se stabilise automatiquement
+VF  || Dans les sociétés pré-industrielles, une augmentation de la productivité agricole se traduisait typiquement par une hausse durable du revenu par tête. || F || Elle se traduisait par une hausse de la population (meilleure natalité, baisse mortalité), ramenant le revenu par tête à son niveau initial.
+QCM || Quelle est la condition de productivité indispensable à la trappe malthusienne ? || V:La productivité moyenne et marginale du travail est décroissante (plus de travailleurs = moins productif par tête)|La productivité est constante quelle que soit la taille de la population|La productivité croît avec la population grâce aux économies d'échelle|La productivité dépend exclusivement du progrès technique
+
+---
+
+### === HFE0-I-1b : Les trois conditions de la trappe malthusienne ===
+### "Décroissance productivité + réponse démographique aux revenus + absence de progrès technique suffisant"
+@add-theme: Malthus, Trappe malthusienne
+
+QCM || Parmi les conditions suivantes, laquelle N'EST PAS une condition de la trappe malthusienne ? || V:La croissance des exportations vers d'autres pays|La décroissance de la productivité moyenne du travail|La croissance de la population en réponse à une hausse des revenus|L'absence de progrès technique d'amplitude suffisante
+VF  || Une économie peut être bloquée dans une trappe malthusienne même si le progrès technique existe, si ce progrès est trop faible pour compenser la décroissance de la productivité du travail. || V || C'est précisément la troisième condition : le progrès doit être insuffisant pour compenser la baisse de productivité due à la surpopulation.
+QCM || La corrélation entre salaires réels et population en Angleterre entre le XIIIe et le XVIIe siècle était || V:Négative et forte : quand l'un montait, l'autre baissait (comportement typique de trappe malthusienne)|Positive : population et salaires montaient ensemble|Nulle : aucun lien observable|Positive faible à partir du XVe siècle
+QCM || La Peste noire (XIVe siècle) a provoqué en Angleterre une hausse des salaires car || V:La population a diminué, réduisant la pression sur les ressources et augmentant la productivité par tête|La productivité agricole a fortement augmenté grâce aux nouvelles techniques|Les survivants ont hérité des terres des morts, augmentant leurs revenus|Le commerce international a compensé les pertes de production
+
+---
+
+### === HFE1-I-1a : La sortie de la trappe malthusienne ===
+### "Rupture au XVIIIe-XIXe siècle : les gains de productivité cessent d'entraîner des hausses de population"
+@add-theme: Révolution industrielle, Transition démographique
+
+QCM || La sortie de la trappe malthusienne se manifeste par || V:Des gains de productivité qui entraînent une hausse du revenu par tête sans hausse proportionnelle de la population|Une baisse soudaine de la population mondiale|Une disparition complète des inégalités de revenus|Une hausse de la productivité exclusivement due au progrès technique
+VF  || Le changement majeur associé à la révolution industrielle est avant tout technologique. || F || Selon les historiens, le changement le plus décisif est démographique : les gains de productivité cessent d'entraîner des hausses de population (transition démographique).
+QCM || À partir de quel siècle la corrélation entre population et salaires réels devient-elle positive en Angleterre ? || V:À partir du XIXe siècle|À partir du XVIIe siècle|À partir du XVe siècle|À partir du XXe siècle
+QCM || La transition démographique désigne || V:Le passage d'un régime de forte natalité/mortalité à un régime de faible natalité/mortalité, associé à la baisse de la fertilité lors de la révolution industrielle|La migration massive des populations rurales vers les villes|La baisse de la population mondiale au XIXe siècle|L'augmentation de l'espérance de vie due aux progrès médicaux uniquement
+
+---
+
+### === HFE2-I-1a : La révolution agricole comme préalable ===
+### "Conditions préalables à la révolution industrielle : hausse productivité agricole (enclosures, nouvelles méthodes)"
+@add-theme: Révolution industrielle, Angleterre
+
+QCM || Pourquoi la révolution agricole est-elle considérée comme un préalable à la révolution industrielle ? || V:Elle libère une main-d'œuvre pouvant travailler en usine en assurant une production alimentaire suffisante|Elle augmente directement la productivité industrielle|Elle réduit la population et crée ainsi des surplus de main-d'œuvre|Elle permet d'importer les matières premières nécessaires à l'industrie
+QCM || Le système de l'Open Field (avant XVIIIe siècle) se caractérisait par || V:Des terres communes partagées entre les paysans d'un village, avec rotation des cultures et jachère|Des grandes propriétés privées optimisées pour le profit|La mécanisation de l'agriculture grâce aux nouvelles machines|L'irrigation intensive des terres agricoles
+VF  || Le mouvement des enclosures a favorisé l'innovation agricole en permettant aux propriétaires individuels de décider seuls des changements à apporter sans l'accord communautaire. || V || En divisant les terres communes en propriétés privées, les enclosures permettaient à chaque propriétaire d'innover sans l'accord de la communauté, et de bénéficier seul des gains.
+QCM || Quel était l'un des principaux défauts économiques de l'Open Field ? || V:Il freinait l'innovation car tout changement nécessitait l'accord de l'ensemble de la communauté|Il ne permettait pas de nourrir la population|Il favorisait la concentration des terres au profit des nobles|Il imposait une culture intensive qui épuisait les sols
+QCM || La productivité agricole entre 1650 et 1800 en Angleterre a augmenté de || V:Plus de 60 %|Environ 10 %|Environ 200 %|Elle a baissé en raison des enclosures
+
+---
+
+### === HFE2-I-2a : Pourquoi la révolution industrielle en Angleterre ? ===
+### "Combinaison unique de facteurs : révolution agricole, institutions, géographie, démographie, science"
+@add-theme: Révolution industrielle, Angleterre
+
+QCM || Parmi ces éléments, lequel N'est PAS cité comme facteur explicatif de la naissance de la révolution industrielle en Angleterre ? || V:La supériorité militaire anglaise sur le continent européen|La révolution agricole comme préalable|La combinaison unique de facteurs scientifiques, démographiques et institutionnels|Le système des enclosures qui a libéré une main-d'œuvre agricole
+QCM || La révolution industrielle se définit notamment par (5 caractéristiques) — laquelle de ces propositions N'EN FAIT PAS PARTIE ? || V:La disparition des classes sociales au profit d'une société plus égalitaire|Le développement des techniques et l'extension du marché|La spécialisation nationale et internationale|L'accumulation de capital technique (mécanisation)
+VF  || L'expression « révolution industrielle » est apparue en France dès la fin du XVIIIe siècle. || F || Elle apparaît au début du XIXe siècle sous la plume de Marx et Engels dans Le Manifeste (1848), et son usage devient courant dans les années 1880.
+
+---
+
+### === HFE3-I-1a : Le modèle de Solow – Intensité capitalistique ===
+### "L'intensité capitalistique (K/L) explique la croissance du revenu par tête ; productivité du capital décroissante"
+@add-theme: Solow, Croissance, Formule
+
+QCM || L'intensité capitalistique est définie comme || V:Le rapport entre la quantité de capital et la quantité de travail (K/L) dans le processus de production|Le rapport entre la production et la quantité de capital|La quantité de capital par unité de PIB|Le nombre de machines par entreprise
+QCM || La fonction de production de Cobb-Douglas s'écrit Y = K^α × L^(1-α). Que représente α ? || V:La part du capital dans le processus de production (0 < α < 1)|Le taux de croissance du PIB|Le progrès technique exogène|Le ratio capital/travail à l'état stationnaire
+VF  || Dans le modèle de Solow, si α = 0,4 et L = 100 et K = 1000, la production dépend à 40 % du capital et à 60 % du travail. || V || C'est la définition de α : il représente la part du capital dans la production, le reste (1-α) est la part du travail.
+QCM || Dans la fonction de production par tête y = k^α, que signifie le fait que cette fonction est concave ? || V:La productivité marginale du capital est décroissante : chaque unité de capital supplémentaire augmente de moins en moins le revenu par tête|La productivité du capital est croissante indéfiniment|Le revenu par tête diminue quand le capital augmente|Le capital et le travail sont parfaitement substituables
+QCM || Selon le modèle de Solow, les différences de PIB par tête entre pays s'expliquent principalement par || V:Les différences d'intensité capitalistique (capital par travailleur)|Les différences de population|Les différences de niveau d'éducation|Les différences de ressources naturelles
+VF  || Le taux de croissance de la production mondiale était plus élevé au XIXe siècle qu'entre 1960 et 2000. || F || La production mondiale a augmenté de 4% par an entre 1960 et 2000, contre 1% au XIXe siècle et seulement 0,33% au XVIIIe siècle.
+QCM || D'après les données du cours, dans les économies modernes, le facteur travail représente environ || V:2/3 de la production (contre 1/3 pour le capital)|1/2 de la production (parts égales)|1/3 de la production (contre 2/3 pour le capital)|La totalité de la production dans les économies de services
+
+---
+
+### === HFE3-I-2a : Le modèle de Solow – État stationnaire et convergence ===
+### "À l'état stationnaire, l'investissement = dépréciation du capital ; convergence conditionnelle entre pays"
+@add-theme: Solow, Convergence, État stationnaire
+
+QCM || L'état stationnaire dans le modèle de Solow est caractérisé par || V:Un niveau de capital par tête constant car l'investissement compense exactement la dépréciation|Une croissance nulle du PIB total|Un taux d'épargne nul|Une productivité maximale du capital
+VF  || Selon le modèle de Solow, un pays pauvre devrait croître plus vite qu'un pays riche, toutes choses égales par ailleurs. || V || C'est la convergence conditionnelle : les pays pauvres ont une productivité marginale du capital plus élevée (car moins de capital), donc l'investissement y est plus rentable et la croissance plus rapide.
+QCM || Pourquoi la période coloniale n'a-t-elle pas permis d'augmenter le revenu par tête dans les pays colonisés, malgré le transfert de technologie ? || V:Le transfert de technologie a augmenté la production, mais la population a augmenté proportionnellement, maintenant le revenu par tête constant (mécanisme de trappe)|Les colonisateurs ont retiré tous les bénéfices économiques|La technologie européenne était inadaptée aux conditions locales|Les pays colonisés ont refusé d'adopter les nouvelles technologies
+
+---
+
+### === HFE4-I-1a : Schumpeter et les grappes d'innovation ===
+### "Moteur : l'innovation de l'entrepreneur (5 formes) ; 'destruction créatrice' ; cycles de Kondratieff"
+@add-theme: Schumpeter, Innovation, Cycles
+
+QCM || Selon Schumpeter, le moteur principal de l'évolution économique est || V:L'innovation mise en œuvre par l'entrepreneur|L'accumulation de capital physique|L'augmentation de la population active|Les politiques économiques de l'État
+QCM || Les 5 formes d'innovation selon Schumpeter sont : fabrication d'un produit nouveau, introduction d'une méthode de production nouvelle, ouverture d'un nouveau débouché, conquête d'une nouvelle source de matière première, et || V:La mise en œuvre d'une nouvelle méthode d'organisation de la production|La réduction du coût du travail|L'exportation vers de nouveaux pays|L'augmentation des dépenses de R&D
+VF  || Pour Schumpeter, les innovations arrivent de manière isolée et progressive, une à la fois. || F || Les innovations arrivent par "grappes" : une découverte ouvre le champ à d'autres, à des imitateurs et entraîne de multiples applications.
+QCM || La célèbre phrase de Schumpeter « Ajoutez les uns derrière les autres autant de carrosses que vous voudrez, vous n'obtiendrez jamais pour autant un chemin de fer » illustre || V:Le caractère qualitatif et discontinu de l'innovation (rupture, non simple quantité)|La supériorité du transport ferroviaire sur le transport routier|L'impossibilité d'améliorer graduellement une technologie existante|Le fait que les carrosses n'ont aucune utilité économique
+QCM || L'entrepreneur innovateur obtient initialement || V:Un sur-profit (profit d'innovation temporairement plus élevé que le profit habituel)|Un profit nul car les concurrents imitent immédiatement|Une subvention de l'État pour financer l'innovation|Un monopole permanent sur son innovation
+QCM || Les cycles longs de Kondratieff sont expliqués par Schumpeter par || V:La diffusion successive de grappes d'innovations technologiques majeures propres à chaque période|Les variations cycliques des récoltes agricoles|Les guerres et conflits internationaux|Les variations du cours des matières premières
+VF  || La déflation correspond à un ralentissement de la hausse du niveau général des prix. || F || La déflation est une BAISSE du niveau général des prix. Le ralentissement de la hausse des prix s'appelle la désinflation.
+
+---
+
+### === HFE4-I-2a : Marx et le matérialisme historique ===
+### "Infrastructure économique (forces productives + rapports de production) détermine la superstructure"
+@add-theme: Marx, Matérialisme historique
+
+QCM || Selon le matérialisme historique de Marx, l'infrastructure économique d'une société est composée de || V:Les forces productives (ressources, outils, techniques) ET les rapports de production (organisation de la production)|Uniquement les technologies et les machines|La législation, les institutions et les règles juridiques|La conscience collective et les valeurs culturelles
+VF  || Pour Marx, c'est la conscience des hommes qui détermine la réalité économique et sociale. || F || C'est l'inverse : "Ce n'est pas la conscience des hommes qui détermine la réalité ; c'est au contraire la réalité sociale qui détermine leur conscience."
+QCM || Selon Marx, quand les rapports de production deviennent des contraintes pour le développement des forces productives || V:Une ère de révolution sociale s'ouvre|La croissance économique s'accélère|L'État intervient pour réformer les institutions|Les entrepreneurs innovent pour contourner ces contraintes
+
+---
+
+### === HFE4-I-3a : Douglas North et les institutions ===
+### "Les institutions (règles formelles + informelles) définissent les incitations et déterminent la performance économique à long terme"
+@add-theme: North, Institutions, Droits de propriété
+
+QCM || Selon Douglas North, les institutions économiques désignent || V:Les règles formelles (lois, constitutions) ET informelles (normes, conventions) qui structurent les interactions humaines et définissent les incitations|Uniquement les organisations économiques comme les banques et entreprises|Les politiques macroéconomiques des États|Les technologies disponibles dans une économie
+QCM || Pour North, pourquoi les droits de propriété sont-ils essentiels à la croissance économique ? || V:Ils garantissent que les acteurs peuvent bénéficier des fruits de leur travail et de leurs investissements, créant les incitations à innover et investir|Ils permettent à l'État de collecter des impôts plus facilement|Ils réduisent les inégalités de revenus|Ils facilitent le commerce international en standardisant les échanges
+VF  || Selon North, le mouvement des enclosures en Angleterre est un exemple d'institution formelle ayant créé des droits de propriété clairs et favorisé l'investissement agricole. || V || Les enclosures constituent une réforme institutionnelle (formalisation des droits de propriété) qui a incité les propriétaires à innover puisqu'ils pouvaient s'approprier les gains.
+QCM || La thèse de North sur les institutions explique principalement pourquoi || V:Certains pays restent pauvres malgré des ressources naturelles abondantes (mauvaises institutions = mauvaises incitations)|Les pays riches ont forcément plus de ressources naturelles|La démocratie est toujours associée à la croissance économique|Le commerce international est le principal moteur de développement
+
+---
+
+### === HFE5-I-1a : La Grande Dépression de 1873 – Déroulement ===
+### "Crise déflationniste de 1873-1896 ; krach Vienne, faillites en série, propagation internationale"
+@add-theme: Crises, Grande Dépression 1873, Déflation
+
+QCM || La Grande Dépression de la fin du XIXe siècle (1873-1896) débute avec || V:Le krach boursier de Vienne en 1873, suivi de faillites bancaires et de l'effondrement des Bourses de Berlin et New York|La faillite de la banque Lehman Brothers|La crise agricole liée à de mauvaises récoltes en Europe|Le choc pétrolier qui fait exploser les coûts de production
+VF  || La manifestation la plus apparente de la Grande Dépression de 1873-1896 était l'inflation. || F || La manifestation la plus apparente était la déflation (baisse des prix), ce qui a conduit certains économistes à parler de "Grande Stagnation".
+QCM || Au XIXe siècle, sans prêteur en dernier ressort, les crises bancaires s'aggravaient car || V:Les dominos bancaires tombaient les uns après les autres sans institution pouvant avancer les liquidités nécessaires|Les États ne pouvaient pas lever d'impôts|Les entreprises n'avaient pas accès au marché international|Les banques centrales augmentaient les taux d'intérêt délibérément
+QCM || Parmi ces événements, lequel N'appartient PAS à la séquence de la crise de 1873-1896 ? || V:La crise des subprimes aux États-Unis (2007-2008)|La panique des chemins de fer aux USA en 1884|La banqueroute de la Société du canal de Panama en 1888|La faillite de la banque Baring à Londres en 1890
+QCM || Le principe "too big to fail" (politique d'exemplarité) évoqué dans le cours correspond à || V:La décision de laisser tomber une grande institution financière pour éviter que d'autres prennent des risques excessifs (ex. Lehman Brothers)|La politique de sauvetage systématique des grandes banques|L'idée que les grandes banques ne peuvent jamais faire faillite|La réglementation imposant des ratios de capital aux grandes banques
+
+---
+
+### === HFE5-I-2a : La Grande Dépression de 1929 – Monétaristes vs Keynésiens ===
+### "Débat : effondrement bancaire (Friedman) vs baisse demande globale (Keynes) comme cause de la crise"
+@add-theme: Friedman, Keynes, Crise 1929, Grande Dépression
+
+QCM || Le « jeudi noir » désigne || V:Le 24 octobre 1929, première vague de panique boursière aux États-Unis, avec des ventes massives|Le début de la Première Guerre mondiale|La faillite de la banque Lehman Brothers en 2008|Le krach boursier de Vienne en 1873
+VF  || En 1929, seule une petite fraction des ménages américains détenait des actions. || F || Environ 5% des ménages détenaient des actions en 1929, ce qui représentait une large diffusion sociale de la spéculation (des financiers aux gens les plus simples).
+QCM || La première grande explication de la Grande Dépression de 1929 (approche monétariste, Friedman) avance que || V:L'effondrement du système bancaire est la cause première, ayant asséché les liquidités et bloqué le crédit|La baisse de la demande globale des ménages est à l'origine du déclin|Les politiques protectionnistes ont provoqué l'effondrement du commerce mondial|La spéculation boursière seule suffit à expliquer la crise
+QCM || La seconde grande explication de la Grande Dépression de 1929 (approche keynésienne) avance que || V:La baisse de la demande globale est à l'origine du déclin et de la crise|L'effondrement bancaire est la cause première|Les politiques monétaires restrictives des banques centrales ont causé la crise|La surproduction industrielle a mécaniquement provoqué la baisse des prix
+VF  || Dans les années 1920 aux États-Unis, tout allait apparemment bien : les salaires réels avaient augmenté de 10 à 20 %, le chômage était à 3,2 % en 1929 et la croissance était forte. || V || C'est précisément le paradoxe de 1929 : la crise éclate dans un contexte d'apparente prospérité, ce qui en rend l'explication difficile.
+QCM || La chute de la production et l'explosion du chômage aux États-Unis après le krach d'octobre 1929 démarrent réellement || V:À partir de mai 1930, et ne cessent de s'approfondir jusqu'en 1932|Immédiatement en octobre 1929|En 1927, avant même le krach boursier|Seulement en 1933 avec la Grande Dépression officielle
+QCM || Friedman et Schwartz (dans « A Monetary History of the United States ») défendent la thèse que || V:La Fed a commis une erreur grave en laissant la masse monétaire s'effondrer de 1929 à 1933, aggravant la crise|La Fed a trop augmenté la masse monétaire, provoquant l'hyperinflation|La politique budgétaire expansionniste de Roosevelt a sauvé l'économie|Les banques centrales ne peuvent pas prévenir les crises financières
+
+---
+
+### === HFE6-I-1a : Rostow et les stades de croissance ===
+### "5 stades : société traditionnelle, conditions préalables, démarrage (take-off), maturité, société de consommation de masse"
+@add-theme: Rostow, Stades de croissance
+
+QCM || Selon Rostow, combien de stades composent le développement économique d'une société ? || V:5 stades|3 stades|7 stades|10 stades
+QCM || Le "take-off" (démarrage) selon Rostow désigne || V:Le moment où la croissance économique devient auto-entretenue, avec un taux d'investissement suffisant pour dépasser la croissance démographique|Le décollage littéral d'un avion symbolisant la modernité|La phase où une société découvre les ressources naturelles|L'entrée d'un pays dans le commerce international
+QCM || Quel est le dernier stade du développement selon Rostow ? || V:La société de consommation de masse|La société industrielle mature|La démocratie libérale|La société post-industrielle des services
+VF  || Rostow considère que tous les pays suivent obligatoirement le même chemin de développement, dans le même ordre. || V || C'est l'une des thèses centrales (et critiquées) de Rostow : le développement suit une trajectoire universelle en 5 stades que chaque pays traverse.
+
+---
+
+### === HFE7-I-1a : Convergence et divergence internationale ===
+### "Convergence : pays pauvres rattrapent pays riches. Divergence : inégalités croissantes entre nations"
+@add-theme: Convergence, Inégalités internationales
+
+QCM || Vers 1850, le revenu par tête des pays anglophones était par rapport à celui de l'Afrique ou de l'Asie || V:Environ deux fois plus élevé|Dix fois plus élevé|Égal (convergence observée)|Légèrement inférieur
+QCM || Vers 1900, le rapport de revenu par tête entre les pays anglophones et l'Afrique/Asie était de || V:Environ 6|Environ 2|Environ 15|Environ 1,5
+VF  || Dans la première moitié du XXe siècle, les inégalités entre pays riches et pays pauvres ont diminué. || F || Les inégalités ont augmenté dans la première moitié du XXe siècle : les pays anglophones continuaient de gagner par rapport à l'Europe du Nord, qui elle-même gagnait par rapport au reste.
+QCM || La période de reconstruction après la Seconde Guerre mondiale a permis || V:À l'Europe continentale et au Japon de rattraper le niveau de vie des États-Unis|Aux États-Unis de devenir la seule puissance économique mondiale|À l'Afrique et l'Asie de rattraper l'Europe|À la croissance mondiale de se ralentir fortement

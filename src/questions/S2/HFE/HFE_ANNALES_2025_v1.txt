@@ -1,0 +1,32 @@
+@themes: Histoire des Faits Économiques
+
+### === HFE-AN25-1 : Annales 2025 – Friedman et la crise de 1929 ===
+### "Questions 1-3 de l'examen HFE du 5 mai 2025 (Christelle Mougeot, L1 éco, 30 min, barème +1/-0,25/0)"
+@add-theme: Annales 2025, Examen, Crise 1929, Friedman
+
+QCM || [ANNALE 2025 – Q1] Selon Milton Friedman, pour amortir le krach boursier de 1929, la banque centrale américaine aurait dû : || V:Augmenter l'offre de monnaie pour fournir des liquidités aux banques|Diminuer l'offre de monnaie pour combattre l'inflation|Augmenter les dépenses publiques pour soutenir la consommation et l'investissement|Augmenter les taux d'intérêt pour encourager l'épargne et ainsi offrir les financements nécessaires à l'investissement
+QCM || [ANNALE 2025 – Q2] Pour Milton Friedman, la décision de la banque centrale américaine de maintenir ses taux d'intérêt à un niveau élevé au début des années 1930 était : || V:Une erreur car cette décision a amplifié et accéléré la transmission de la crise du système bancaire et monétaire vers l'économie réelle en décourageant la consommation et l'investissement|Pertinente car elle a permis d'éviter une sortie massive de capitaux des États-Unis vers les pays européens|Une conséquence du système de l'étalon or dans la mesure où la parité du dollar par rapport à l'or ne devait pas varier|Un choix du gouvernement américain parce qu'il voulait attirer les capitaux européens en quête de placements sûrs et bien rémunérés
+QCM || [ANNALE 2025 – Q3] Laquelle de ces affirmations est FAUSSE ? || V:La crise de 1929 a été amplifiée par la décision du gouvernement américain d'augmenter immédiatement après le krach boursier les dépenses publiques, créant ainsi une crise de confiance des agents économiques|Les keynésiens considèrent que la crise de 1929 a pour origine la baisse de la demande autonome observée dans les années 1920|Les monétaristes considèrent que la crise économique du début des années 1930 a pour origine les faillites bancaires dues au krach boursier d'octobre 1929|Pour Charles Kindelberger, la crise de 1929 s'est diffusée aux pays européens à cause du refus des USA de remplacer la Grande-Bretagne dans le rôle de stabilisateur de l'économie internationale
+
+---
+
+### === HFE-AN25-2 : Annales 2025 – Étalon or et crises (XIXe–XXe siècle) ===
+### "Questions 4-8 de l'examen HFE 2025 sur l'étalon or, la Grande Dépression de 1873 et le mécanisme de rééquilibrage"
+@add-theme: Annales 2025, Examen, Étalon or, Crise 1873, Première mondialisation
+
+QCM || [ANNALE 2025 – Q4] Barry Eichengreen considère que le système d'étalon or : || V:A facilité la diffusion de la crise de 1929 des USA vers les pays européens|A protégé temporairement les pays européens de la transmission de la crise née aux États-Unis en 1929|A évité que le système monétaire international ne s'effondre avec la crise de 1929|Aucune des réponses précédentes
+QCM || [ANNALE 2025 – Q5] La Grande Dépression de la fin du XIXème siècle se caractérise essentiellement par : || V:De la déflation|L'explosion du chômage|La chute de la production industrielle|De l'inflation
+QCM || [ANNALE 2025 – Q6] Le système d'étalon or se définit par le fait que : || V:La valeur de chaque monnaie se définit par un poids fixe en or|L'or est la monnaie du commerce international|La valeur de chaque monnaie se définit par rapport à la monnaie britannique : la livre sterling|La valeur de chaque monnaie se définit par un poids en or qui varie en fonction du solde commercial de chaque pays
+QCM || [ANNALE 2025 – Q7] Le système d'étalon or contribue à : || V:Rééquilibrer automatiquement les balances commerciales des partenaires à l'échange|Rééquilibrer automatiquement les soldes budgétaires des partenaires à l'échange|Accentuer les déséquilibres financiers hérités de la première guerre mondiale|Accentuer l'endettement des États européens vis-à-vis des États-Unis
+QCM || [ANNALE 2025 – Q8] Pour les monétaristes, la Grande Dépression de la fin du XIXème siècle s'explique par : || V:La baisse de la masse monétaire|L'achèvement du cycle des investissements ferroviaires|La baisse de la production mondiale d'or|Aucune des réponses précédentes
+
+---
+
+### === HFE-AN25-3 : Annales 2025 – Solow, convergence et développement ===
+### "Questions 9-12 de l'examen HFE 2025 sur le modèle de Solow et la convergence des économies"
+@add-theme: Annales 2025, Examen, Solow, Croissance économique, Convergence
+
+QCM || [ANNALE 2025 – Q9] Pour Solow, la croissance économique après la survenue de l'état stationnaire ne peut provenir que : || V:Du progrès technique|De la croissance démographique|De l'accumulation de capital|De l'investissement
+QCM || [ANNALE 2025 – Q10] Du modèle de Solow dérive l'idée que : || V:Le sous-développement n'est en fait qu'un retard de développement : les pays riches ont simplement connu leur révolution industrielle avant les autres ce qui leur a donné une avance que les autres finiront par combler|Le sous-développement est en fait un blocage de développement : les pays riches ont empêché le développement des pays pauvres en les colonisant et en pillant leurs ressources|Le sous-développement n'est en fait qu'un retard de développement : les pays riches ont simplement mis en place des institutions plus favorables aux échanges ce qui leur a donné une avance que les autres finiront par combler|Le sous-développement est en fait un blocage de développement : les pays riches ont empêché le développement des pays pauvres en leur imposant des institutions extractives et non inclusives
+QCM || [ANNALE 2025 – Q11] Pour Solow, le stock de capital par tête : || V:Augmente tant que l'investissement est supérieur à la dépréciation du capital|Augmente tant que l'investissement est supérieur à la croissance démographique|Augmente proportionnellement à la croissance démographique|Augmente proportionnellement à l'investissement
+QCM || [ANNALE 2025 – Q12] La confrontation du modèle théorique de Solow avec des données historiques aboutit à l'idée d'une : || V:Convergence conditionnelle|Convergence absolue|Convergence internationale|Absence de convergence

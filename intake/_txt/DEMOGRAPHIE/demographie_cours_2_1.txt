@@ -1,0 +1,291 @@
+En l’an 10000 après JC, la Chine était le pays le + technologiquement avancés de la planète pourtant son niveau de vie par hab était aussi proche du niveau de subsistance que le niveau de vie en Europe ( à l'époque en retard sur elle) à cause d’une hausse rapide de sa population.
+
+Importation de la pomme de terre : la population irlandaise a triplé entre 1750 et 1850 mais le pib par tête n’ pas augmenté
+
+
+
+
+
+Comment expliquer que les pays européens soient sortis de la trappe malthusienne au 19è siècle ?
+
+
+
+La transition de l’agriculture vers l’industrie permet d'échapper au facteur fixe → cette théorie n’est pas le facteur principale de la sortie de la trappe malthusienne car on ne sait pas pourquoi
+
+
+
+La theorie unifiee de la croissance :
+
+le taux de progrès technique augmente avec la taille du marché : +on a une marche important + on est incité à innover mais c’est pas sur que cette croissance (éco) soit supérieure à la croissance démographique = risque que le pib par tête revient au niveau de subsistance
+
+
+
+On a besoin de la transition démographique: il faut de l’innovation pour la croissance mais on a besoin de la transition démographique
+
+
+
+les modèles de croissance par l’innovation
+
+
+
+L'accélération du progrès technique se traduit dans une premier temps par une explosion démographique
+
+
+
+A plus long terme, les ménages décident de réduire le nombre d’enfant pour mieux investir dans leur éducation et ainsi mieux profiter du progrès technique (Nelson-Phelps et choix individuels entre quantité et qualité) … cela conduit à la transition démographique
+
+
+
+La transition démographique empêche que la croissance de la population n'absorbe entièrement l'accélération du progrès technique ce qui nous sort de la trappe malthusienne : le PIB par tête se met a augmenter, et durablement
+
+
+
+Transition dans mortalité
+
+
+
+Facteur de réduction du taux de mortalité :
+
+amélioration de la quantité et qualité des aliments, de l’habitat,
+
+amélioration de l'hygiène publique garce aux nouveau système d'égouts et d’eau courante
+
+traitement médicaux
+
+
+
+Transition dans la fertilité :
+
+moyens de contraception modernes
+
+choisir sa fertilité
+
+
+
+
+
+
+
+II. Les incidence économiques du vieillissement
+
+
+
+vieillissement par la bas = hausse de la part des personne âgées vieillissement par le haut = hausse de l'espérance de vie à la naissance
+
+
+
+
+
+sur l'épargne
+
+
+
+L’influence des fact démo dans la détermination du taux d'épargne au niveau macro a été analysé dans le cadre de la théorie du cycle de vie de Modigliani
+
+
+
+L’individu va lisser sa consommation tout au long de sa vie :
+
+    Il y a une première phase : la jeunesse : entrée sur le marché du travail = revenu faible pour le M , l’individu va être obligé de s'endetter pour consommer (immobilier, voiture etc..),
+
+    à l'âge mure les revenus augmente ; on va atteindre un maximum de revenu : on va épargner car à cette épargne on aura un patrimoine qu’on va pouvoir utiliser à la retraite
+
+Au moment la veillissement on à désépargner : on a epuiser toute notre épargne pour continuer à consommer
+
+
+
+Limites de ce modèle : on est dans un modèle anglo-saxon => retraite par capitalisation
+
+:chacun cotise pour sa retraite.
+
+
+
+Ce qui est vrai est que le vieillissement démographique risque d'entraîner une baisse macro de l'épargne dans l’ensemble des pays développés ( + 65 ans) mais une population entre 35 et 50 ans va épargner plus. Avec un pop jeune on a peu voir pas d’epargne ( situation A)
+
+
+
+Ce théorème est séduisant mais on a un certain nombre d’incertitude concernant cette relation contenu de la complexité des variables qui interfère dans cette théorie et en particulier les systèmes de retraite, fiscalité et taux d'intérêt
+
+
+
+Incertitudes :
+
+vie future : la longueur de la retraite personne connait sa date de sa mort ou ses revenus futures ⇒ incitation des ménages à augmenter le taux d'épargne voir même à des taux supérieur à la théorie de Modigliani
+
+nature du régime de retraite va influencer le taux d'épargne : en France, la retraite est assurée ce qui fait que les ménages ont moins besoins d'épargne que s’ils étaient dans un modèle anglo-saxon
+
+Il faut s’interroger sur les comportements altruistes des générations âgées : dans la théorie du M, on suppose que les générations ne cherchent pas à transmettre un héritage à leur descendant. Si on admet que ces générations souhaitent transmettre une partie du patrimoine ⇒ limiter la possibilité de désépargne
+
+
+
+sur la consommation
+
+
+
+A chaque âge on a des consommations spécifiques, les plus jeunes consomment plus pour les loisirs et les transports. Alors que ce sont les dépenses de santé et de chauffage qui caractérisent celle des ménages. La part des dépenses de pharmacie quadruple de 30 à 70 ans.
+
+
+
+Les différences de consommation reflètent les grandes étapes du cycle de vie. On sait que le passage de la vie active à la retraite entraîne une baisse de transport et de restauration
+
+
+
+Ce n'est pas tellement l'âge qui est important mais c’est les revenus qui vont être important dans la consommation suivant les âges et l'évolution des prix.
+
+
+
+
+
+sur le marché du travail et la croissance
+
+
+
+Sur le marché du travail :
+
+
+
+A priori on peut s'attendre à une baisse du taux de chômage avec le vieillissement en raison des nombreux départs à la retraite de la génération du baby boom et la baisse du nombre de jeunes sur le marché du travail contenu de la baisse de la fécondité
+
+
+
+On ne peut cependant espérer une diminution forte du chômage en raison de ce qu’on appelle du chômage frictionnel et du chômage d'appariement.
+
+Le chômage frictionnel : temps d’attente entre deux emplois , aussi le temps entre fin d'étude et 1er emploi
+
+
+
+Le chômage d'appariement : chômage liée l'adéquation entre les qualifications offerts par l’entreprises et celle de l’actif (ex: restauration)
+
+
+
+Avec le progrès technique on a pas mal de destruction d’emploi : on peut faire plus de tâches avec moins de personnel
+
+
+
+Le risque d’augmentation du coût du travail , à savoir le coût du travail = salaire + cotisation sociale , pour faire face au retraité il faut payer de + en + de cotisation ⇒ hausse du coût du travail
+
+
+
+On peut avoir un risque de hausse de salaire moyen car si on a bcp de personnes age dans l’entreprise : le salaire augmente avec l'ancienneté on a une hausse du salaire moyen.
+
+
+
+Csq : les entreprise sont tentés de remplacer du capital par du travail donc augmente les gains de productivité → crée moins d’emploi
+
+
+
+La croissance à long terme :
+
+
+
+Selon les théorie classique de la croissance un vieillissement démo serait défavorable à la croissance éco. On peut reprendre les arguments populistes évoquant les faits négatifs de la population sur la capacité à innover. Une pop vieillissante serait moins innovante et moins flexible, on aurait une demande de loisirs, logement et d'éducation moins importante.
+
+A l’inverse une pop juen serait associée à l'innovation, la flexibilité, la pression créatrice de Boserup.
+
+
+
+La productivité est décroissante avec l'âge
+
+
+
+
+
+
+
+Cela a été remis en cause avec la théorie du capital humain : un travailleur plus âgé est en moyenne plus expérimenté et donc plus productif.
+
+
+
+D'autre part une étude de l’OCDE montre que le facultes cognitives cad facilité à comprendre et communiquer ne sont pas affectés par l'âge à condition que ces capacités sont entretenues
+
+
+
+On remarque qu’il n’y pas de relation entre innovation/dynamisme du pays et son vieillissement ex: europe. A l’inverse dans le pays en voie de développement on aune pop jeune mais on a pas de progrès technique ni d’innovation
+
+
+
+
+
+sur la santé
+
+
+
+L’idée selon laquelle le vieillissement contribue beaucoup à la croissance des dépenses de santé est assez répandu.
+
+
+
+C’est surtout le développement du quatrième âge qui va favoriser l’augmentation des maladies dégénératives qui va induire des traitement très coûteux et pose le problème de la dépendance des personnes : maison de retraite, aide à domicile, cela va augmenter le poids des dépenses de santé
+
+
+
+
+
+Si on prend les dépenses de santé individuel moyenne a augmenté de 50% entre 1992 et 2000 alors que sur la même période la part des 60 ans n’ a augmenté que de 1,5 point de pourcentage.
+
+
+
+C’est à partir d’un âge avancé que les dépenses de santé augmente ,en 2000 pour les 70 ans les dépenses de santé représentent en moyenne 3 fois plus que pour les individus de 50 ans
+
+
+
+
+
+
+
+
+
+sur le système de retraite
+
+
+
+Le système de retraite fait partie de notre protection sociale . en France on est dans un système de solidarité qui couvre les ménages contre les risques sociaux cad santé, pauvreté, vieillisse
+
+
+
+Système de répartition : les actifs de l'année qui vont payer pour les retraites. Ce système marche si on a équilibre entre actif et retraites mais on un vieillissement de la pop : de + en
+
++ de retraités qui vivent plus longtemps → retraites sur une plus longue période d’un autre côté, - d’actif et une durée de vie actif qui se réduit ( fin d'étude plus tard) → déficit du système
+
+
+
+Chaque génération accepte de payer pour la précédente en sachant également que l' on part avec 70 % de son salaire.
+
+
+
+Le vieillissement démographique va impacte le régime de retraite par deux voies :
+
+recul de la population actif : moins de cotisation sociale (=salariale + entreprises) pour financer les retraites
+
+vieillissement accroît le nombre de retraite surtout avec le départ en retraite des générations du baby boom associé avec la hausse de l'espérance de vie
+
+
+
+A partir de son constat quelles sont les solutions ?
+
+
+
+Les solutions ne sont pas demographiques, on pourra jamais revenir avec un taux de fecondité à 3 enfants par femme a cause de l’urbanisation , cout etc.. Même si on une politique natalistes on ne peut pas revenir avec au une pop nombreuses
+
+
+
+3 solutions possibles :
+
+
+
+hausse des cotisations sociales → hausse du coût du travail alors les entreprises peuvent remplacer le travail par du capital ce qui n’est pas favorable à l'emploi. Si on augmente les cotisations sociales des employés et entreprises cela va diminuer leur pouvoir d’achat contenu de l’inflation aucun gvt ne peut prendre cette décision
+
+
+
+baisser les pensions de retraites cela permet d'alléger la charge sur les actifs mais les retraités perdent en pouvoir d’achat. Les politiques ne vont pas prendre cette solution car les retraites ajd représente une part très importante du corps électoral
+
+
+
+recul de l'âge de la retraite : solution la plus simple : elle n’affecte pas le pouvoir d’achat et ni le coût du travail ⇒ hausse du nombre de cotisants. A priori c’est la solution la moins mauvaise. Faire travailler plus longtemps les salariés pose un problème d'équité : tous les emplois n’ont pas la même pénibilité, des métiers plus risqués. Les perdantes sont les femmes car plus souvent à mi temps , des carrières plus haches surtout si on prend en compte les périodes de maternites, moins de promotions ⇒ plus petite retraite
+
+Mais est ce que les entreprises vont garder les seniors jusqu'à 64 ans ? La productivité décroît avec l'âge. L'espérance de vie dépend du métier : un ouvrier vie moins longtemps qu’un cadre
+
+
+
+Il existe une dernière solution plus radicale : abandonner le système par répartition pour un système par capitalisation . Les retraites seraient organisées par des entreprises privées comme des fonds de pensions comme aux EU → système plus inégalitaire que le système par répartition.
+
+En cas de krach financier, plus de retraités c'était le cas avec la crise des subprimes, des millions de retraités américains ont perdu leur épargne

@@ -1,0 +1,76 @@
+QCM || En quelle ann�e a �t� cr��e la Banque Mondiale (initialement BIRD) ? || V:1944|1947|1955|1995
+|| La Banque Mondiale a �t� cr��e en juillet 1944 lors de la conf�rence de Bretton Woods, en m�me temps que le FMI. || Banque Mondiale, Historique, Facile, QCM
+QCM || Quel �tait l'objectif initial de la Banque Mondiale lors de sa cr�ation ? || R�duire la pauvret� en Afrique|V:Financer la reconstruction de l'Europe apr�s la guerre|G�rer la monnaie mondiale|R�guler le commerce international
+|| � l'origine, la BIRD (Banque Internationale pour la Reconstruction et le D�veloppement) avait pour mission principale de financer la reconstruction des pays d�vast�s par la Seconde Guerre mondiale, notamment en Europe. || Banque Mondiale, Historique, Moyen, QCM
+QCM || O� se trouve le si�ge de la Banque Mondiale ? || Gen�ve|New York|V:Washington D.C.|Paris
+|| Le si�ge de la Banque Mondiale est situ� � Washington D.C., aux �tats-Unis, tout comme celui du FMI. || Banque Mondiale, Fonctionnement, Facile, QCM
+QCM || Selon la tradition tacite, de quelle nationalit� est le pr�sident de la Banque Mondiale ? || Europ�en|V:Am�ricain|Chinois|Japonais
+|| Traditionnellement, le pr�sident de la Banque Mondiale est un ressortissant am�ricain (nomm� par les �tats-Unis), tandis que le directeur du FMI est europ�en. || Banque Mondiale, Gouvernance, Moyen, QCM
+QCM || Laquelle de ces institutions NE fait PAS partie du Groupe de la Banque Mondiale ? || BIRD|AID|SFI|V:FMI
+|| Le FMI est une institution distincte (bien que "s�ur"). Le Groupe de la Banque Mondiale comprend 5 institutions : BIRD, AID, SFI, MIGA et CIRDI. || Banque Mondiale, Structure, Moyen, QCM
+QCM || Que signifie l'acronyme BIRD ? || Banque Internationale de R�gulation de la Dette|V:Banque Internationale pour la Reconstruction et le D�veloppement|Bureau International de Recherche et D�veloppement|Banque d'Investissement pour la R�ussite du D�veloppement
+|| La BIRD est l'institution originelle du groupe, focalis�e sur les pr�ts aux pays � revenu interm�diaire et solvables. || Banque Mondiale, Acronymes, Facile, QCM
+QCM || Quelle est la mission principale de l'AID (Association Internationale de D�veloppement) ? || Pr�ter au secteur priv�|Assurer les investissements|V:Aider les pays les plus pauvres (pr�ts � taux z�ro ou dons)|R�gler les diff�rends commerciaux
+|| L'AID (ou IDA en anglais) se concentre sur les pays les plus pauvres qui n'ont pas acc�s aux march�s de capitaux, en fournissant des pr�ts concessionnels (taux nuls) et des dons. || Banque Mondiale, AID, Moyen, QCM
+QCM || Quelle institution du groupe s'occupe sp�cifiquement du secteur priv� ? || BIRD|AID|V:SFI (Soci�t� Financi�re Internationale)|MIGA
+|| La SFI (IFC en anglais) est la branche du groupe d�di�e au d�veloppement du secteur priv� dans les pays en d�veloppement. || Banque Mondiale, SFI, Difficile, QCM
+QCM || Quel est le r�le de la MIGA (Agence Multilat�rale de Garantie des Investissements) ? || Pr�ter aux �tats|V:Assurer les investisseurs contre les risques politiques (guerre, expropriation)|R�gler les litiges juridiques|Financer les ONG
+|| La MIGA fournit des garanties (assurances) aux investisseurs �trangers contre les risques non commerciaux (politiques) pour encourager l'investissement dans les pays en d�veloppement. || Banque Mondiale, MIGA, Difficile, QCM
+QCM || Quelle est la diff�rence majeure entre le FMI et la Banque Mondiale ? || Le FMI s'occupe du d�veloppement, la BM de la monnaie|V:Le FMI vise la stabilit� � court terme, la BM le d�veloppement � long terme|Le FMI est priv�, la BM est publique|Il n'y a aucune diff�rence
+|| Le FMI surveille la stabilit� du syst�me mon�taire et g�re les crises (court terme), tandis que la Banque Mondiale finance des projets de d�veloppement (�ducation, sant�, infrastructures) sur le long terme. || Banque Mondiale, FMI, Moyen, QCM
+QCM || Comment sont prises les d�cisions au sein de la Banque Mondiale ? || Un pays = une voix|V:Selon le montant du capital souscrit (quote-part)|Par consensus uniquement|Par tirage au sort
+|| Comme au FMI, le droit de vote est pond�r� par la quote-part (le capital apport�). Les �tats-Unis, principal actionnaire, disposent d'un droit de veto de fait sur les d�cisions majeures. || Banque Mondiale, Gouvernance, Difficile, QCM
+QCM || Quel est l'objectif actuel principal affich� par la Banque Mondiale ? || La reconstruction de l'Europe|V:Mettre fin � l'extr�me pauvret� et promouvoir une prosp�rit� partag�e|L'instauration d'une monnaie unique mondiale|La r�gulation des tarifs douaniers
+|| La mission actuelle de la Banque Mondiale est double : mettre fin � l'extr�me pauvret� et promouvoir une prosp�rit� partag�e de mani�re durable. || Banque Mondiale, Objectifs, Facile, QCM
+QCM || Le CIRDI (Centre International pour le R�glement des Diff�rends Relatifs aux Investissements) g�re les conflits entre : || Deux �tats|Deux entreprises priv�es|V:Un investisseur �tranger et un �tat h�te|L'OMC et le FMI
+|| Le CIRDI est un tribunal d'arbitrage sp�cialis� dans les litiges entre les investisseurs internationaux et les �tats o� ils investissent. || Banque Mondiale, CIRDI, Difficile, QCM
+QCM || Quel pays a �t� le premier emprunteur de la Banque Mondiale en 1947 ? || L'Allemagne|Le Japon|V:La France|Le Br�sil
+|| La France a re�u le premier pr�t de la BIRD en 1947 (250 millions de dollars) pour sa reconstruction d'apr�s-guerre. || Banque Mondiale, Historique, Anecdote, QCM
+QCM || Les "Institutions de Bretton Woods" d�signent : || L'ONU et l'OTAN|L'OMC et l'OCDE|V:Le FMI et la Banque Mondiale|La BCE et la FED
+|| Le FMI et la Banque Mondiale sont les deux institutions jumelles n�es de la conf�rence de Bretton Woods en 1944. || Banque Mondiale, D�finitions, Facile, QCM
+QCM || En quelle ann�e la Banque Mondiale a-t-elle r�habilit� le concept de "gouvernance" ? || 1980|V:1990|2000|2010
+|| C'est dans les ann�es 1990 que la Banque Mondiale a r�habilit� le concept de gouvernance, en l'�tendant ensuite aux autres agences comme l'OCDE ou le FMI. || Banque Mondiale, Gouvernance, Date, Moyen, QCM
+QCM || Quels sont les trois principes cl�s de la gouvernance selon la Banque Mondiale ? || Libert�, �galit�, Fraternit�|V:Efficacit�, Responsabilisation, Transparence|Profit, Croissance, Investissement|Stabilit�, S�curit�, Contr�le
+|| Pour la Banque Mondiale, la bonne gouvernance repose sur l'efficacit�, la responsabilisation et la transparence. || Banque Mondiale, Gouvernance, Principes, Moyen, QCM
+QCM || Selon la Banque Mondiale (1998), comment sont d�finies les institutions ? || Uniquement comme des organisations|V:Comme l'ensemble des r�gles formelles et informelles r�gissant les comportements|Comme des b�timents officiels|Comme des lois �crites uniquement
+|| La BM reprend la d�finition de Douglas North : les institutions sont les r�gles du jeu (formelles et informelles) qui r�gissent les interactions humaines. || Banque Mondiale, Institutions, D�finition, Difficile, QCM
+QCM || Quelle corr�lation la Banque Mondiale �tablit-elle gr�ce � ses donn�es ? || Entre le climat et le PIB|V:Entre la qualit� des institutions et le PIB|Entre la population et la corruption|Entre la taille du pays et la croissance
+|| Les donn�es de la Banque Mondiale montrent une corr�lation positive entre la qualit� des institutions et le niveau de richesse (PIB) d'un pays. || Banque Mondiale, Donn�es, PIB, Moyen, QCM
+QCM || Quel est le classement de la France sur l'Indice de Perception de la Corruption (IPC) cit� dans le cours ? || 1�re|10�me|V:25�me|50�me
+|| La France est class�e 25�me sur 180 pays selon l'IPC, ce qui indique une marge de progression possible en mati�re de transparence et de lutte contre la corruption. || Banque Mondiale, France, Classement, Difficile, QCM
+QCM || Que comprend le "cadre formel" des institutions selon l'approche de la BM ? || Les valeurs et croyances|V:La Constitution, les lois et le syst�me politique|Les normes sociales|Les incitations tacites
+|| Le cadre formel regroupe les r�gles �crites et officielles : Constitution, lois, r�glements, syst�me politique. || Banque Mondiale, Institutions, Cadre formel, Moyen, QCM
+QCM || Que comprend le "cadre informel" des institutions selon l'approche de la BM ? || Les lois et r�glements|V:Les valeurs, croyances et normes sociales|Le syst�me judiciaire|La Constitution
+|| Le cadre informel concerne les r�gles non �crites mais puissantes : valeurs, croyances, normes sociales qui structurent aussi les comportements. || Banque Mondiale, Institutions, Cadre informel, Moyen, QCM
+QCM || Quel est le r�le des institutions selon la Banque Mondiale dans les �changes �conomiques ? || Elles compliquent les �changes|V:Elles structurent les incitations et offrent un cadre aux �changes|Elles remplacent le march�|Elles fixent les prix
+|| Les institutions structurent les incitations qui agissent sur les comportements des organisations et offrent un cadre s�curis� pour les �changes �conomiques. || Banque Mondiale, R�le �conomique, Moyen, QCM
+QCM || Pourquoi la Banque Mondiale consid�re-t-elle la bonne gouvernance comme essentielle ? || Pour contr�ler les populations|V:Pour permettre le d�veloppement �conomique des pays|Pour augmenter les imp�ts|Pour r�duire le commerce international
+|| La bonne gouvernance est vue comme une condition n�cessaire pour permettre � certains pays de se d�velopper efficacement. || Banque Mondiale, D�veloppement, Gouvernance, Facile, QCM
+QCM || Avec quelle autre organisation la Banque Mondiale coop�re-t-elle �troitement pour coordonner les interventions ? || L'UNESCO|V:L'OMC (et le FMI)|L'OTAN|La FIFA
+|| La Banque Mondiale coop�re avec l'OMC et le FMI pour coordonner leurs interventions et assurer une coh�rence dans les politiques �conomiques mondiales. || Banque Mondiale, Coop�ration, Facile, QCM
+QCM || Qui a d�fini les institutions comme "les r�gles du jeu dans une soci�t�" ? || V:Douglas North|Ronald Coase|Oliver Williamson|Adam Smith
+|| Douglas North (Prix Nobel 1993) d�finit les institutions comme les contraintes con�ues par les hommes (formelles et informelles) qui structurent l'interaction humaine. || Institutions, Th�orie, Auteur, Moyen, QCM
+QCM || En quelle ann�e la Banque Mondiale a-t-elle red�fini les institutions en reprenant la d�finition de North ? || 1944|1980|V:1998|2010
+|| Dans son rapport de 1998, la Banque Mondiale a int�gr� la vision de North, reconnaissant l'importance des r�gles formelles et informelles pour le d�veloppement. || Institutions, BM, Date, Difficile, QCM
+QCM || Selon Douglas North, quelles sont les deux cat�gories d'institutions ? || Publiques et Priv�es|V:Formelles et Informelles|�conomiques et Sociales|Nationales et Internationales
+|| Les institutions formelles incluent les constitutions et lois, tandis que les informelles regroupent les coutumes, tabous et codes de conduite. || Institutions, Th�orie, D�finition, Moyen, QCM
+QCM || Quel auteur est associ� � la "Trag�die des biens communs" (1968) ? || Ostrom|V:Garrett Hardin|Coase|North
+|| Garrett Hardin a th�oris� que les ressources partag�es (rivales mais non excluables) tendent � �tre surexploit�es si elles sont laiss�es en libre acc�s. || Institutions, Biens Communs, Auteur, Moyen, QCM
+QCM || Quelle solution Elinor Ostrom (2010) propose-t-elle face � la trag�die des communs ? || La privatisation totale|La nationalisation par l'�tat|V:La gestion collective par les communaut�s (propri�t� commune)|L'interdiction d'usage
+|| Ostrom a d�montr� que la propri�t� collective et l'auto-organisation des communaut�s peuvent �tre plus efficaces que le march� ou l'�tat pour g�rer certaines ressources. || Institutions, Biens Communs, Th�orie, Difficile, QCM
+QCM || Qui a introduit le concept de "co�ts de transaction" pour expliquer l'existence des firmes ? || V:Ronald Coase|Douglas North|Keynes|Friedman
+|| Ronald Coase (1937) explique que les firmes existent car organiser la production en interne co�te parfois moins cher que de passer par le march� (co�ts de transaction). || Institutions, Th�orie, Firme, Moyen, QCM
+QCM || Selon Oliver Williamson (1975), la gouvernance sert � r�soudre les conflits li�s � : || La baisse des prix|V:L'incertitude, l'opportunisme et les asym�tries d'information|La concurrence d�loyale|L'inflation
+|| La gouvernance est l'ensemble des m�canismes qui encadrent les relations �conomiques pour limiter les risques li�s � l'opportunisme des agents. || Institutions, Gouvernance, Th�orie, Difficile, QCM
+QCM || Quel concept George Akerlof a-t-il illustr� avec le "march� des tacots" (Market for Lemons) ? || L'al�a moral|V:La s�lection adverse|Le monopole|L'externalit� positive
+|| La s�lection adverse survient lorsque l'asym�trie d'information conduit les produits de mauvaise qualit� � chasser les bons du march�. || Institutions, Information, Th�orie, Moyen, QCM
+QCM || L'al�a moral (ou risque moral) se produit lorsque : || On ne conna�t pas le prix d'un bien|V:Un agent assur� prend plus de risques car il ne supporte pas les cons�quences|Un vendeur ment sur la qualit�|Le march� s'effondre
+|| L'exemple typique est l'assur� qui devient imprudent car il sait qu'il sera indemnis�. C'est un probl�me d'information post-contractuel. || Institutions, Information, D�finition, Moyen, QCM
+QCM || Selon Dani Rodrik (2005), � quoi servent les "institutions de l�gitimation du march�" ? || � fixer les prix|� emp�cher la concurrence|V:� rendre l'�conomie de march� socialement acceptable (ex: retraites, assurance ch�mage)|� privatiser les entreprises
+|| Ces institutions (protection sociale, redistribution) permettent de maintenir la coh�sion sociale n�cessaire au fonctionnement du march�. || Institutions, Rodrik, Th�orie, Difficile, QCM
+QCM || Quel �conomiste a travaill� sur l'asym�trie d'information dans le secteur de la sant� (1963) ? || V:Kenneth Arrow|Amartya Sen|Joseph Stiglitz|Paul Krugman
+|| Arrow a montr� que les patients ne disposent pas des m�mes informations que les m�decins, cr�ant un probl�me de confiance et de coordination. || Institutions, Sant�, Auteur, Difficile, QCM
+QCM || Quelle part des stocks halieutiques mondiaux est consid�r�e comme surexploit�e ou pleinement exploit�e ? || 10%|30%|50%|V:70%
+|| C'est un exemple concret de la trag�die des biens communs cit� dans le cours. || Institutions, Environnement, Chiffres, Moyen, QCM
+QCM || Quel est l'objectif de protection des zones marines pour 2030 ? || 10%|20%|V:30%|50%
+|| L'objectif international est de prot�ger 30% des zones marines d'ici 2030 pour pr�server la biodiversit�. || Institutions, Environnement, Objectif, Facile, QCM

@@ -1,0 +1,5 @@
+QCM || Quel format de fichier est utilisé ? || text2quiz (.txt)|v:true || JSON|v:false || XML|v:false || CSV|v:false || Le format text2quiz est un format texte simple et lisible, parfait pour créer des questions rapidement avec un éditeur de texte. || Gestion_Fichiers, Facile
+
+QCM || Quelles technologies sont utilisées ? || TypeScript|v:true || Vite (bundler)|v:true || IndexedDB|v:true || React|v:false || Vue.js|v:false || Stack moderne : TypeScript pour le typage, Vite pour le build ultra-rapide, IndexedDB pour la persistence. Pas de framework lourd (React/Vue). || Stack_Technique, Moyen
+
+QCM || Pourquoi utiliser IndexedDB plutôt que localStorage ? || Stockage limité à 5-10MB pour localStorage|v:true || IndexedDB peut stocker plusieurs GB|v:true || IndexedDB permet des requêtes complexes|v:true || localStorage plus rapide|v:false || IndexedDB est conçu pour de gros volumes de données (plusieurs GB), avec système de requêtes avancé, contrairement à localStorage limité à 5-10MB. || Performance, Moyen

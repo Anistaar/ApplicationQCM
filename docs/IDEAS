@@ -1,0 +1,30 @@
+Faire un système avec des questions qui sont supprimé/ modifier la manière dont elles sont posées
+daily quest dans les matières afin de maitenir l'elo
+
+Objectif final : avoir un jeu sur steam pour ça.
+Des prompts de qualités exeptionnel qui permettent 
+d'ajouter les questions en fonction de n'importe quelle cours
+
+Format de questions universel, QCM VF et OpenQ pour faciliter la création des questions.
+Question fausse doivent revenir. 
+Faire un fichier qui lance des questions automatiquement sur le thème
+Inspiration de Duolingo.
+
+Sur l'élo, impossible de passer un certain rank si je fais que des questions de QCM;
+Donc quand je lance les questions adapation forcément par rapport à l'elo.
+Fichier de range d'elo de question.
+Certaines en font pas partie
+
+Prompt pour séquencer les questions efficacement,
+Idée de faire 
+I.1.A.partie 1 et remonter ensuite tout le cours. Par grande partie I.
+En fonction de la découpe du prompt. Faire la découpe par les petites et non pas par les grandes ?
+
+Layering de difficulté.
+Si sur steam, avoir accès à un modèle directement qui prompt les résultats comme il faut ?
+
+Plan /checklist de révision.
+
+Pouvoir filter les questions par thèmes, chapitre tout clicable.
+Définitio,formules, Grand I, Grand II Auteurs, etc
+Et le plan de la matière est affiché, je sélectionn ce que je souhaite réviser et je pars directement en QCM

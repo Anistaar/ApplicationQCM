@@ -1,0 +1,272 @@
+{
+  "id": "HFE",
+  "name": "Histoire des Faits Économiques L1 S2",
+  "version": "1.0",
+  "structureType": "sequential",
+  "lastUpdate": "2026-05-05",
+  "description": "Histoire des faits économiques : trappe malthusienne, révolution industrielle, croissance, crises, convergence",
+  "chapters": [
+    {
+      "id": "HFE0",
+      "number": "0",
+      "name": "La trappe malthusienne",
+      "description": "Définition, conditions, mécanismes pré-industriels",
+      "sections": [
+        {
+          "id": "HFE0-I",
+          "romanNumeral": "I",
+          "name": "Malthus et le monde pré-industriel",
+          "subsections": [
+            {
+              "id": "HFE0-I-1",
+              "number": "1",
+              "name": "Mécanisme et conditions",
+              "notions": [
+                {"id": "HFE0-I-1a", "name": "La trappe malthusienne — Définition", "description": "Production et population augmentent au même rythme, revenu par tête constant", "tags": ["Malthus", "Trappe", "Croissance"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "HFE0-I-1b", "name": "Les trois conditions de la trappe", "description": "Décroissance productivité + réponse démographique aux revenus + absence de progrès technique suffisant", "tags": ["Malthus", "Conditions", "Productivité"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 11
+            }
+          ],
+          "estimatedTime": 11
+        }
+      ],
+      "estimatedTime": 11,
+      "icon": "🌾"
+    },
+    {
+      "id": "HFE1",
+      "number": "1",
+      "name": "Sortie de la trappe",
+      "description": "La rupture du XVIIIe-XIXe siècle",
+      "sections": [
+        {
+          "id": "HFE1-I",
+          "romanNumeral": "I",
+          "name": "La rupture industrielle",
+          "subsections": [
+            {
+              "id": "HFE1-I-1",
+              "number": "1",
+              "name": "Mécanismes de sortie",
+              "notions": [
+                {"id": "HFE1-I-1a", "name": "La sortie de la trappe malthusienne", "description": "XVIIIe-XIXe : gains de productivité cessent d'entraîner des hausses de population", "tags": ["Révolution industrielle", "Productivité", "Croissance"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "⚙️"
+    },
+    {
+      "id": "HFE2",
+      "number": "2",
+      "name": "Révolution industrielle",
+      "description": "Révolution agricole, conditions, pourquoi l'Angleterre",
+      "sections": [
+        {
+          "id": "HFE2-I",
+          "romanNumeral": "I",
+          "name": "Origines et facteurs",
+          "subsections": [
+            {
+              "id": "HFE2-I-1",
+              "number": "1",
+              "name": "Conditions préalables",
+              "notions": [
+                {"id": "HFE2-I-1a", "name": "La révolution agricole comme préalable", "description": "Hausse productivité agricole (enclosures, nouvelles méthodes) comme condition préalable", "tags": ["Révolution agricole", "Enclosures", "Productivité"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "HFE2-I-2",
+              "number": "2",
+              "name": "Le cas anglais",
+              "notions": [
+                {"id": "HFE2-I-2a", "name": "Pourquoi la révolution industrielle en Angleterre ?", "description": "Combinaison unique : révolution agricole, institutions, géographie, démographie, science", "tags": ["Angleterre", "Institutions", "Géographie"], "difficulty": "Difficile", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            }
+          ],
+          "estimatedTime": 16
+        }
+      ],
+      "estimatedTime": 16,
+      "icon": "🏭"
+    },
+    {
+      "id": "HFE3",
+      "number": "3",
+      "name": "Modèle de Solow",
+      "description": "Intensité capitalistique, état stationnaire, convergence",
+      "sections": [
+        {
+          "id": "HFE3-I",
+          "romanNumeral": "I",
+          "name": "Solow et la croissance néoclassique",
+          "subsections": [
+            {
+              "id": "HFE3-I-1",
+              "number": "1",
+              "name": "Intensité capitalistique",
+              "notions": [
+                {"id": "HFE3-I-1a", "name": "Le modèle de Solow — Intensité capitalistique", "description": "K/L explique la croissance du revenu par tête ; productivité du capital décroissante", "tags": ["Solow", "Capital", "Productivité"], "difficulty": "Difficile", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            },
+            {
+              "id": "HFE3-I-2",
+              "number": "2",
+              "name": "État stationnaire",
+              "notions": [
+                {"id": "HFE3-I-2a", "name": "Le modèle de Solow — État stationnaire et convergence", "description": "À l'état stationnaire : investissement = dépréciation du capital ; convergence conditionnelle", "tags": ["Solow", "État stationnaire", "Convergence"], "difficulty": "Difficile", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            }
+          ],
+          "estimatedTime": 18
+        }
+      ],
+      "estimatedTime": 18,
+      "icon": "📐"
+    },
+    {
+      "id": "HFE4",
+      "number": "4",
+      "name": "Théories de la croissance",
+      "description": "Schumpeter, Marx, North — moteurs de la croissance à long terme",
+      "sections": [
+        {
+          "id": "HFE4-I",
+          "romanNumeral": "I",
+          "name": "Auteurs et paradigmes",
+          "subsections": [
+            {
+              "id": "HFE4-I-1",
+              "number": "1",
+              "name": "Innovation et destruction créatrice",
+              "notions": [
+                {"id": "HFE4-I-1a", "name": "Schumpeter et les grappes d'innovation", "description": "Innovation de l'entrepreneur (5 formes), destruction créatrice, cycles de Kondratieff", "tags": ["Schumpeter", "Innovation", "Cycles"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            },
+            {
+              "id": "HFE4-I-2",
+              "number": "2",
+              "name": "Matérialisme historique",
+              "notions": [
+                {"id": "HFE4-I-2a", "name": "Marx et le matérialisme historique", "description": "Infrastructure économique (forces productives + rapports de production) détermine la superstructure", "tags": ["Marx", "Matérialisme", "Infrastructure"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            },
+            {
+              "id": "HFE4-I-3",
+              "number": "3",
+              "name": "Institutions et performance économique",
+              "notions": [
+                {"id": "HFE4-I-3a", "name": "Douglas North et les institutions", "description": "Institutions (règles formelles + informelles) définissent les incitations et la performance économique", "tags": ["North", "Institutions", "Incitations"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 22
+        }
+      ],
+      "estimatedTime": 22,
+      "icon": "💡"
+    },
+    {
+      "id": "HFE5",
+      "number": "5",
+      "name": "Les grandes crises",
+      "description": "1873, 1929 — comparaison des crises majeures",
+      "sections": [
+        {
+          "id": "HFE5-I",
+          "romanNumeral": "I",
+          "name": "Crises historiques",
+          "subsections": [
+            {
+              "id": "HFE5-I-1",
+              "number": "1",
+              "name": "La crise de 1873",
+              "notions": [
+                {"id": "HFE5-I-1a", "name": "La Grande Dépression de 1873 — Déroulement", "description": "Crise déflationniste 1873-1896 ; krach Vienne, faillites en série, propagation internationale", "tags": ["Crise 1873", "Déflation", "Krach"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            },
+            {
+              "id": "HFE5-I-2",
+              "number": "2",
+              "name": "La crise de 1929",
+              "notions": [
+                {"id": "HFE5-I-2a", "name": "La Grande Dépression de 1929 — Monétaristes vs Keynésiens", "description": "Effondrement bancaire (Friedman) vs baisse demande globale (Keynes) comme cause de la crise", "tags": ["Crise 1929", "Friedman", "Keynes"], "difficulty": "Difficile", "estimatedTime": 9}
+              ],
+              "estimatedTime": 9
+            }
+          ],
+          "estimatedTime": 17
+        }
+      ],
+      "estimatedTime": 17,
+      "icon": "📉"
+    },
+    {
+      "id": "HFE6",
+      "number": "6",
+      "name": "Développement et stades",
+      "description": "Rostow, stades de croissance, take-off",
+      "sections": [
+        {
+          "id": "HFE6-I",
+          "romanNumeral": "I",
+          "name": "Théorie du développement",
+          "subsections": [
+            {
+              "id": "HFE6-I-1",
+              "number": "1",
+              "name": "Les stades de Rostow",
+              "notions": [
+                {"id": "HFE6-I-1a", "name": "Rostow et les stades de croissance", "description": "5 stades : société traditionnelle, conditions préalables, démarrage (take-off), maturité, société de conso de masse", "tags": ["Rostow", "Développement", "Take-off"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "🚀"
+    },
+    {
+      "id": "HFE7",
+      "number": "7",
+      "name": "Convergence internationale",
+      "description": "Convergence et divergence entre pays",
+      "sections": [
+        {
+          "id": "HFE7-I",
+          "romanNumeral": "I",
+          "name": "Dynamiques mondiales",
+          "subsections": [
+            {
+              "id": "HFE7-I-1",
+              "number": "1",
+              "name": "Convergence et rattrapage",
+              "notions": [
+                {"id": "HFE7-I-1a", "name": "Convergence et divergence internationale", "description": "Convergence : pays pauvres rattrapent pays riches. Divergence : inégalités croissantes entre nations", "tags": ["Convergence", "Divergence", "Inégalités"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "🌐"
+    }
+  ]
+}

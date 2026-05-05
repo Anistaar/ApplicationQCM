@@ -1,0 +1,7 @@
+QCM || Comment sont organisées les questions ? || Chapitres → Notions → Sous-notions|v:true || Matières → Questions|v:false || Dossiers → Fichiers|v:false || Tags → Questions|v:false || La structure hiérarchique à 3 niveaux (Chapitres > Notions > Sous-notions) permet une navigation intuitive et une organisation pédagogique claire. || Organisation, Moyen
+
+QCM || Que représentent les icônes de maîtrise ? || 🟢 = Maîtrisé (80-100%)|v:true || 🟡 = En progression (50-79%)|v:true || 🔴 = À revoir (<50%)|v:true || ⚪ = Nouveau (jamais vu)|v:true || Les 4 niveaux de maîtrise sont représentés par des codes couleur pour visualiser rapidement la progression sur chaque notion. || Organisation, Moyen
+
+QCM || Combien de questions par session en mode adaptatif ? || 5 questions|v:true || 10 questions|v:false || 20 questions|v:false || Illimité|v:false || Les sessions contiennent exactement 5 questions pour optimiser l'apprentissage sans fatigue cognitive. Format inspiré de Duolingo. || Sessions, Moyen
+
+QCM || Quelle est la composition d'une session de renforcement ? || 5 nouvelles questions|v:false || 2 révisions + 3 nouvelles|v:true || 3 révisions + 2 nouvelles|v:false || 5 révisions|v:false || Les sessions de renforcement mélangent 40% de révisions (2 questions) et 60% de nouvelles notions (3 questions) pour consolider l'apprentissage. || Sessions, Difficile

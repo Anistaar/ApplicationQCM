@@ -3,15 +3,28 @@
 // Leitner adaptatif (gravité de l'erreur), priorisation des due,
 // bouton Valider piloté par le DOM, thèmes (5e colonne), déduplication, stats par thèmes.
 
+import './style-analytics.css';
 import { parseQuestions, isCorrect, correctText, countCorrect } from './parser';
 import { shuffleInPlace } from './shuffle';
 import type { Mode, Question, UserAnswer, DragPair } from './types';
 import { toTitleCase, norm, keyForQuestion, dedupeQuestions } from './utils';
 import { courses, getThemesForCourse } from './courses';
 import { loadStats, saveStats, updateStatAfterAnswer, computeSeverity, isDue } from './scheduling';
+import { parserCache } from './cache/ParserCache';
 import { statsManager, type QStatExtended } from './stats/StatsManager';
 import { ProgressionDashboard } from './stats/ProgressionDashboard';
 import { eloSystem } from './stats/EloProgressionSystem';
+import { AnalyticsDashboard } from './stats/AnalyticsDashboard';
+import { analyticsFunctions } from './stats/AnalyticsFunctions';
+import {
+  demoSheets,
+  type RevisionSheet,
+  loadProgressForSheet,
+  saveProgressForSheet,
+  resetProgressForSheet,
+  computeCompletion,
+  isSlotFilledCorrectly,
+} from './revision-sheets';
 
 const $ = (sel: string, root: Document | HTMLElement = document) =>
   root.querySelector(sel) as HTMLElement | null;
@@ -44,6 +57,7 @@ const els = {
 };
 const elsExtra = {
   btnProgression: $('#btn-progression') as HTMLButtonElement | null,
+  btnAnalytics: $('#btn-analytics') as HTMLButtonElement | null,
   btnExplorer: $('#btn-explorer') as HTMLButtonElement | null,
   fileBrowser: $('#file-browser') as HTMLDivElement | null,
   fbFolders: $('#fb-folders') as HTMLDivElement | null,
@@ -359,8 +373,8 @@ function loadMultiCoursesForThemes() {
   for (const filename of selectedFiles) {
     const course = courses.find((c) => c.path === filename || c.file === filename);
     if (course) {
-      const parsed = parseQuestions(course.content);
-      const unique = dedupeQuestions(parsed);
+      // Use parserCache instead of direct parseQuestions
+      const unique = parserCache.getParsedQuestions(course.path, course.content);
       unique.forEach((q) => (q.tags ?? []).forEach((t) => allThemes.add(t)));
     }
   }
@@ -374,8 +388,8 @@ function loadCourseForThemes(filename: string) {
     fillThemes([]);
     return;
   }
-  const parsed = parseQuestions(course.content);
-  const unique = dedupeQuestions(parsed);
+  // Use parserCache instead of direct parseQuestions
+  const unique = parserCache.getParsedQuestions(course.path, course.content);
   const set = new Set<string>();
   unique.forEach((q) => (q.tags ?? []).forEach((t) => set.add(t)));
   fillThemes(Array.from(set).sort((a, b) => a.localeCompare(b)));
@@ -425,7 +439,7 @@ function renderPlanForFolder(folderFilter: string) {
       if (query && !title.toLowerCase().includes(query)) continue;
       // Count unique questions for this course
       const qCount = (() => {
-        try { return dedupeQuestions(parseQuestions(c.content)).length; } catch { return 0; }
+        try { return parserCache.getParsedQuestions(c.path, c.content).length; } catch { return 0; }
       })();
       const item = document.createElement('div');
       item.className = 'course-card';
@@ -482,7 +496,7 @@ function computeFolderStats(folder: string): FolderStats | null {
   // Collecter toutes les questions du dossier et dédupliquer
   let allQs: Question[] = [];
   for (const c of inFolder) {
-    const qs = parseQuestions(c.content);
+    const qs = parserCache.getParsedQuestions(c.path, c.content);
     allQs.push(...qs);
   }
   allQs = dedupeQuestions(allQs);
@@ -710,7 +724,7 @@ function computeCourseStats(course: { path: string; content: string }): CourseSt
   if (!course) return null;
   const stats = loadStats();
   // Collecter et dédupliquer les questions du cours
-  const qs = dedupeQuestions(parseQuestions(course.content));
+  const qs = parserCache.getParsedQuestions(course.path, course.content);
   let total = qs.length;
   let seen = 0; let due = 0; let sumSeen = 0; let sumCorrect = 0; let timeSum = 0; let timeCount = 0;
   for (const q of qs) {
@@ -786,6 +800,56 @@ async function showProgressionDashboard() {
 
   // Écouter événement de démarrage de quiz de placement
   window.addEventListener('startPlacementQuiz', ((e: CustomEvent) => handlePlacementQuizStart(e)) as unknown as EventListener);
+}
+
+/**
+ * Afficher le dashboard Analytics complet
+ */
+async function showAnalyticsDashboard() {
+  // Masquer zone de sélection si active
+  if (els.selectionArea) {
+    els.selectionArea.style.display = 'none';
+  }
+
+  // Créer container dashboard
+  let dashboardContainer = $('#analytics-dashboard-container') as HTMLDivElement | null;
+  if (!dashboardContainer) {
+    dashboardContainer = document.createElement('div');
+    dashboardContainer.id = 'analytics-dashboard-container';
+    dashboardContainer.style.marginTop = '20px';
+    els.root.parentElement?.insertBefore(dashboardContainer, els.root);
+  }
+
+  // Collecter toutes les questions disponibles
+  const allQuestions: Question[] = [];
+  for (const course of courses) {
+    const questions = parserCache.getParsedQuestions(course.path, course.content);
+    allQuestions.push(...questions);
+  }
+  const uniqueQuestions = dedupeQuestions(allQuestions);
+
+  // Rendre le dashboard analytics
+  const dashboard = new AnalyticsDashboard({
+    container: dashboardContainer,
+    questions: uniqueQuestions,
+  });
+  await dashboard.render();
+
+  // Ajouter bouton retour
+  const backBtn = document.createElement('button');
+  backBtn.className = 'secondary';
+  backBtn.textContent = '← Retour à l\'accueil';
+  backBtn.style.marginTop = '20px';
+  backBtn.addEventListener('click', () => {
+    dashboardContainer!.remove();
+    if (els.selectionArea) {
+      els.selectionArea.style.display = 'block';
+    }
+  });
+  dashboardContainer.appendChild(backBtn);
+
+  // Scroll to top
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 /**
@@ -1044,6 +1108,7 @@ function setupFocusTrap() {
 }
 
 elsExtra.btnProgression?.addEventListener('click', showProgressionDashboard);
+elsExtra.btnAnalytics?.addEventListener('click', showAnalyticsDashboard);
 elsExtra.btnExplorer?.addEventListener('click', openFileBrowser);
 elsExtra.fbClose?.addEventListener('click', closeFileBrowser);
 // Télécharger le cours sélectionné dans le select
@@ -1106,7 +1171,7 @@ function renderFilesGridForFolder(folder: string, list: typeof courses) {
       card.style.borderRadius = '6px';
       card.style.background = 'transparent';
       card.dataset.path = c.path;
-      const qCount = (() => { try { return dedupeQuestions(parseQuestions(c.content)).length; } catch { return 0; } })();
+      const qCount = (() => { try { return parserCache.getParsedQuestions(c.path, c.content).length; } catch { return 0; } })();
       card.innerHTML = `
         <div style="font-weight:600; margin-bottom:6px">${escapeHtml(c.label)}</div>
         <div style="font-size:12px; color:var(--muted); margin-bottom:6px">${qCount} question${qCount>1?'s':''}</div>
@@ -1207,30 +1272,170 @@ function downloadCourse(path: string) {
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
 }
 // (Fonction "Ouvrir en page" supprimée)
+// État des tags sélectionnés et de la recherche
+let allAvailableTags: Array<{ tag: string; count: number }> = [];
+let selectedTags = new Set<string>();
+let tagSearchQuery = '';
+
 function fillThemes(topics: string[]) {
   if (!els.selectThemes) return;
+  
+  // Mettre à jour le select caché (pour compatibilité)
   els.selectThemes.innerHTML = '';
   if (topics.length === 0) {
     const opt = document.createElement('option');
     opt.disabled = true;
     opt.textContent = '— Aucun thème détecté —';
     els.selectThemes.appendChild(opt);
-    // Mise à jour disponibilité Match (aucun thème => peut toujours être dispo si paires sans tags)
+    // Effacer l'interface moderne aussi
+    renderTagsChips([]);
     updateMatchModeAvailability();
     return;
   }
+  
+  // Compter les questions par tag
+  const tagCounts = new Map<string, number>();
+  const currentFile = state.file || els.selectCours.value;
+  const course = courses.find((c) => c.path === currentFile || c.file === currentFile);
+  
+  if (course) {
+    const unique = parserCache.getParsedQuestions(course.path, course.content);
+    unique.forEach(q => {
+      (q.tags ?? []).forEach(tag => {
+        tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+      });
+    });
+  }
+  
+  // Créer la liste des tags avec leur compteur
+  allAvailableTags = topics.map(tag => ({
+    tag,
+    count: tagCounts.get(tag) || 0
+  }));
+  
+  // Remplir le select caché (compatibilité)
   for (const t of topics) {
     const opt = document.createElement('option');
     opt.value = t;
     opt.textContent = t;
     els.selectThemes.appendChild(opt);
   }
+  
+  // Rendre l'interface moderne
+  renderTagsChips(allAvailableTags);
   updateMatchModeAvailability();
 }
-function getSelectedThemes(): string[] {
-  const opts = Array.from(els.selectThemes?.selectedOptions ?? []);
-  return opts.map((o) => o.value).filter(Boolean);
+
+function renderTagsChips(tags: Array<{ tag: string; count: number }>) {
+  const container = document.getElementById('themes-chips');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  // Filtrer par recherche
+  const filtered = tags.filter(t => 
+    tagSearchQuery === '' || t.tag.toLowerCase().includes(tagSearchQuery.toLowerCase())
+  );
+  
+  if (filtered.length === 0) {
+    container.innerHTML = '<div style="color:var(--muted); font-size:13px; padding:8px">Aucun thème trouvé</div>';
+    updateTagsSummary();
+    return;
+  }
+  
+  // Créer les chips
+  filtered.forEach(({ tag, count }) => {
+    const chip = document.createElement('div');
+    chip.className = 'tag-chip';
+    if (selectedTags.has(tag)) {
+      chip.classList.add('selected');
+    }
+    chip.innerHTML = `
+      <span>${escapeHtml(tag)}</span>
+      <span class="tag-count">(${count})</span>
+    `;
+    chip.addEventListener('click', () => {
+      toggleTag(tag);
+    });
+    container.appendChild(chip);
+  });
+  
+  updateTagsSummary();
 }
+
+function toggleTag(tag: string) {
+  if (selectedTags.has(tag)) {
+    selectedTags.delete(tag);
+  } else {
+    selectedTags.add(tag);
+  }
+  
+  // Synchroniser avec le select caché
+  const opts = Array.from(els.selectThemes?.options ?? []);
+  opts.forEach(opt => {
+    opt.selected = selectedTags.has(opt.value);
+  });
+  
+  // Re-render
+  renderTagsChips(allAvailableTags);
+}
+
+function updateTagsSummary() {
+  const summary = document.getElementById('tags-summary');
+  if (!summary) return;
+  
+  const totalTags = allAvailableTags.length;
+  const selectedCount = selectedTags.size;
+  const totalQuestions = allAvailableTags.reduce((sum, t) => selectedTags.has(t.tag) ? sum + t.count : sum, 0);
+  
+  if (selectedCount === 0) {
+    summary.textContent = `${totalTags} thème(s) disponible(s) — Aucune sélection`;
+  } else {
+    summary.textContent = `${selectedCount} thème(s) sélectionné(s) — ~${totalQuestions} question(s)`;
+  }
+}
+
+function getSelectedThemes(): string[] {
+  return Array.from(selectedTags);
+}
+
+// Gestionnaires d'événements pour l'interface de tags
+const themesSearch = document.getElementById('themes-search') as HTMLInputElement | null;
+const btnSelectAllTags = document.getElementById('btn-select-all-tags') as HTMLButtonElement | null;
+const btnClearTags = document.getElementById('btn-clear-tags') as HTMLButtonElement | null;
+
+themesSearch?.addEventListener('input', (e) => {
+  tagSearchQuery = (e.target as HTMLInputElement).value;
+  renderTagsChips(allAvailableTags);
+});
+
+btnSelectAllTags?.addEventListener('click', () => {
+  // Sélectionner tous les tags visibles (filtrés par recherche)
+  const filtered = allAvailableTags.filter(t => 
+    tagSearchQuery === '' || t.tag.toLowerCase().includes(tagSearchQuery.toLowerCase())
+  );
+  filtered.forEach(({ tag }) => selectedTags.add(tag));
+  
+  // Synchroniser avec le select caché
+  const opts = Array.from(els.selectThemes?.options ?? []);
+  opts.forEach(opt => {
+    opt.selected = selectedTags.has(opt.value);
+  });
+  
+  renderTagsChips(allAvailableTags);
+});
+
+btnClearTags?.addEventListener('click', () => {
+  selectedTags.clear();
+  
+  // Synchroniser avec le select caché
+  const opts = Array.from(els.selectThemes?.options ?? []);
+  opts.forEach(opt => {
+    opt.selected = false;
+  });
+  
+  renderTagsChips(allAvailableTags);
+});
 
 function getSelectedTypes(): string[] {
   const boxes = Array.from(document.querySelectorAll('.qtype')) as HTMLInputElement[];
@@ -1248,6 +1453,12 @@ els.btnStart?.addEventListener('click', start);
 
 async function start() {
   state.mode = readMode();
+
+  if (state.mode === 'fiche') {
+    enterActiveMode();
+    return renderRevisionSheetsHome();
+  }
+
   state.n = Math.max(1, parseInt(els.inputNombre.value || '10', 10));
   state.selectedThemes = getSelectedThemes();
 
@@ -1288,7 +1499,7 @@ async function start() {
     courseLabels.push(course.label);
     
     // Parse et ajoute les questions de ce cours
-    const questionsFromCourse = parseQuestions(course.content);
+    const questionsFromCourse = parserCache.getParsedQuestions(course.path, course.content);
     // Ajouter une propriété pour tracer l'origine du cours
     questionsFromCourse.forEach(q => {
       (q as any).sourceCourse = course!.label;
@@ -1376,6 +1587,75 @@ function resetRoundState(len: number) {
   state.lastCorrect = false;
   state.userAnswers = new Array(len).fill(null) as any;
   state.correctMap = new Array(len).fill(null);
+}
+
+/* =========================
+   Export questions ratées
+   ========================= */
+function questionToText2Quiz(q: Question): string {
+  const tags = (q.tags ?? []).join(', ');
+  const expl = q.explication || '';
+  
+  if (q.type === 'VF') {
+    return `VF || ${q.question} || ${q.vf} || ${expl} || ${tags}`;
+  }
+  
+  if (q.type === 'QR' || q.type === 'QCM') {
+    const answers = (q.answers ?? [])
+      .map(a => a.correct ? `V:${a.text}` : a.text)
+      .join('|');
+    return `${q.type} || ${q.question} || ${answers} || ${expl} || ${tags}`;
+  }
+  
+  if (q.type === 'DragMatch') {
+    const pairs = (q.pairs ?? [])
+      .map(p => `${p.item}:${p.match}`)
+      .join(', ');
+    return `DRAGMATCH || ${q.question} || ${pairs} || ${expl} || ${tags}`;
+  }
+  
+  if (q.type === 'OpenQ') {
+    const keywords = (q.expectedKeywords ?? []).join(', ');
+    const ref = q.referenceCourse || '';
+    return `OPENQ || ${q.question} || ${keywords} || ${ref} || ${expl} || ${tags}`;
+  }
+  
+  if (q.type === 'FormulaBuilder' && q.formulaData) {
+    const tokens = q.formulaData.availableTokens.join('|');
+    return `FORMULABUILDER || ${q.formulaData.variable} || ${tokens} || ${q.formulaData.correctFormula} || ${expl} || ${tags}`;
+  }
+  
+  return `# Question non supportée: ${q.type}`;
+}
+
+function exportWrongAnswers(questions: Question[], correctMap: (boolean | null)[]): void {
+  const wrongQuestions = questions.filter((q, i) => correctMap[i] === false);
+  
+  if (wrongQuestions.length === 0) {
+    alert('Aucune question incorrecte à exporter ! 🎉');
+    return;
+  }
+  
+  const timestamp = new Date().toISOString().split('T')[0];
+  const filename = `questions_ratees_${state.file.replace(/[^a-zA-Z0-9]/g, '_')}_${timestamp}.txt`;
+  
+  const header = `# Questions ratées - ${state.file}\n# Date: ${timestamp}\n# Mode: ${state.mode}\n# Total erreurs: ${wrongQuestions.length}\n\n`;
+  const content = wrongQuestions.map(q => questionToText2Quiz(q)).join('\n');
+  
+  const blob = new Blob([header + content], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+  
+  // Feedback visuel
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--ok-bg); color:var(--ok-fg); padding:12px 20px; border-radius:8px; border:1px solid var(--ok-brd); z-index:999; box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+  toast.textContent = `✅ ${wrongQuestions.length} question(s) exportée(s) !`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
 }
 
 /* =========================
@@ -2532,6 +2812,7 @@ function renderThemeStatsCard(stats: ThemeStat[]): string {
 
 function renderResultats(head: string) {
   let score = 0;
+  const wrongQuestions: Question[] = [];
   const items = state.questions
     .map((q, i) => {
       const ua = state.userAnswers[i];
@@ -2545,6 +2826,7 @@ function renderResultats(head: string) {
           ? isCorrect(q, { value: ua.kind === 'VF' ? ua.value : null })
           : false);
       if (ok) score++;
+      else wrongQuestions.push(q);
 
       const userText = (() => {
         if (!ua) return '(aucune réponse)';
@@ -2576,7 +2858,10 @@ function renderResultats(head: string) {
     <div class="card">
       <h2>Série validée 🎉</h2>
       <p>Score du dernier tour : <strong>${score} / ${state.questions.length}</strong></p>
-      <button id="btn-return" class="primary">Revenir</button>
+      <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap">
+        <button id="btn-return" class="primary">Revenir</button>
+        ${wrongQuestions.length > 0 && state.mode === 'examen' ? '<button id="btn-export-wrong" class="secondary" title="Exporter les questions ratées au format text2quiz">📥 Exporter les erreurs</button>' : ''}
+      </div>
     </div>
     ${themeCard}
     <ol class="list">${items}</ol>
@@ -2584,6 +2869,14 @@ function renderResultats(head: string) {
 
   mountFloatingNext(false);
   $('#btn-return')?.addEventListener('click', exitActiveMode);
+  if (wrongQuestions.length > 0 && state.mode === 'examen') {
+    $('#btn-export-wrong')?.addEventListener('click', () => {
+      // Créer une correctMap simplifiée à partir des wrongQuestions
+      const wrongIndices = new Set(wrongQuestions.map((wq) => state.questions.indexOf(wq)));
+      const correctMap = state.questions.map((_, i) => !wrongIndices.has(i));
+      exportWrongAnswers(state.questions, correctMap);
+    });
+  }
 }
 
 /* =========================
@@ -2697,12 +2990,286 @@ function modeLabel(m: Mode): string {
   if (m === 'examen') return 'Examen';
   if (m === 'flashcards') return 'Flashcards';
   if (m === 'match') return 'Match';
+  if (m === 'fiche') return 'Fiche de révision';
   return String(m);
 }
 function updateActiveToolbar() {
   if (!els.activeTitle) return;
   const fileLabel = state.file || '';
   els.activeTitle.textContent = `${modeLabel(state.mode)} — ${fileLabel}`;
+}
+
+/* =========================
+   Mode Fiche de révision
+   ========================= */
+function renderRevisionSheetsHome() {
+  state.file = 'Fiches';
+  updateActiveToolbar();
+
+  const cards = demoSheets
+    .map((s) => {
+      const progress = loadProgressForSheet(s);
+      const { totalSlots, correctSlots } = computeCompletion(s, progress);
+      const pct = totalSlots > 0 ? Math.round((correctSlots / totalSlots) * 100) : 0;
+      return `
+        <button class="secondary" data-sheet="${escapeAttr(s.id)}" style="text-align:left; padding:12px; border-radius:12px">
+          <div style="display:flex; justify-content:space-between; gap:10px; align-items:flex-start">
+            <div>
+              <div style="font-weight:800">${escapeHtml(s.title)}</div>
+              <div style="color:var(--muted); font-size:13px; margin-top:4px">${escapeHtml(s.description ?? '')}</div>
+            </div>
+            <span class="badge">${escapeHtml(s.subject)}</span>
+          </div>
+          <div style="margin-top:10px">
+            <div class="progress"><div class="progress__bar" style="width:${pct}%"></div></div>
+            <div style="margin-top:6px; color:var(--muted); font-size:12px">Progression: ${correctSlots}/${totalSlots}</div>
+          </div>
+        </button>
+      `;
+    })
+    .join('');
+
+  els.root.innerHTML = `
+    <div class="card">
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
+        <div>
+          <div style="font-weight:900; font-size:18px">📄 Mode fiche de révision</div>
+          <div style="color:var(--muted); margin-top:6px">Glisse les éléments (ex: une date) dans les bons emplacements. La fiche se complète petit à petit.</div>
+        </div>
+        <button id="btn-sheets-reset-all" class="secondary" title="Réinitialiser toutes les fiches">Reset</button>
+      </div>
+      <div style="display:grid; gap:10px; margin-top:12px">
+        ${cards}
+      </div>
+    </div>
+  `;
+  mountFloatingNext(false);
+
+  // Ouvrir une fiche
+  Array.from(els.root.querySelectorAll('[data-sheet]')).forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).getAttribute('data-sheet') || '';
+      const sheet = demoSheets.find((s) => s.id === id);
+      if (!sheet) return;
+      renderRevisionSheet(sheet);
+    });
+  });
+
+  // Reset global
+  const btnResetAll = document.getElementById('btn-sheets-reset-all');
+  btnResetAll?.addEventListener('click', () => {
+    if (!confirm('Réinitialiser la progression de toutes les fiches ?')) return;
+    for (const s of demoSheets) resetProgressForSheet(s);
+    renderRevisionSheetsHome();
+  });
+}
+
+function renderRevisionSheet(sheet: RevisionSheet) {
+  state.file = sheet.title;
+  updateActiveToolbar();
+
+  const progress = loadProgressForSheet(sheet);
+  const { totalSlots, correctSlots } = computeCompletion(sheet, progress);
+  const pct = totalSlots > 0 ? Math.round((correctSlots / totalSlots) * 100) : 0;
+
+  // items restant (non placés correctement)
+  const usedCorrect = new Set(Object.entries(progress.placed)
+    .filter(([slotId, itemId]) => isSlotFilledCorrectly(sheet, progress, slotId) && !!itemId)
+    .map(([, itemId]) => itemId));
+
+  const remainingItems = sheet.items.filter(i => !usedCorrect.has(i.id));
+  shuffleInPlace(remainingItems);
+
+  const itemsHtml = remainingItems
+    .map((i) => {
+      return `
+        <span class="drag-match-chip" draggable="true" data-item-id="${escapeAttr(i.id)}" data-item-kind="${escapeAttr(i.kind ?? 'autre')}" title="Glisser-déposer">${escapeHtml(i.text)}</span>
+      `;
+    })
+    .join('');
+
+  const sectionsHtml = sheet.sections
+    .map((sec) => {
+      const slotsHtml = sec.slots
+        .map((slot) => {
+          const placedItemId = progress.placed[slot.id];
+          const placedItem = placedItemId ? sheet.items.find(i => i.id === placedItemId) : null;
+          const isCorrect = placedItemId ? placedItemId === slot.correctItemId : false;
+          const zoneCls = ['drag-drop-zone', isCorrect ? 'correct-zone' : '', placedItemId && !isCorrect ? 'wrong-zone' : '']
+            .filter(Boolean)
+            .join(' ');
+
+          const label = `<div style="font-weight:700">${escapeHtml(slot.label)}</div>`;
+          const chip = placedItem ? `<span class="drag-match-chip ${isCorrect ? 'used' : ''}" draggable="false">${escapeHtml(placedItem.text)}</span>` : `<span class="placeholder">Dépose ici</span>`;
+          const feedback = placedItemId
+            ? (isCorrect
+                ? `<div class="correct-answer" style="margin-top:6px">✅ Correct</div>`
+                : `<div class="correct-answer" style="margin-top:6px">❌ Essaie encore</div>`)
+            : '';
+
+          return `
+            <div class="card" style="margin:0">
+              ${label}
+              <div class="${zoneCls}" data-slot-id="${escapeAttr(slot.id)}" data-accepts="${escapeAttr((slot.accepts ?? []).join(','))}">
+                ${chip}
+              </div>
+              ${feedback}
+            </div>
+          `;
+        })
+        .join('');
+      return `
+        <div class="card" style="margin:0">
+          <div style="font-weight:900; margin-bottom:8px">${escapeHtml(sec.title)}</div>
+          <div style="display:grid; gap:10px">${slotsHtml}</div>
+        </div>
+      `;
+    })
+    .join('');
+
+  els.root.innerHTML = `
+    <div class="head">
+      <div><span class="badge">${escapeHtml(sheet.subject)}</span></div>
+      <div>Progression : <strong>${correctSlots} / ${totalSlots}</strong></div>
+    </div>
+    <div class="progress"><div class="progress__bar" style="width:${pct}%"></div></div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="display:flex; justify-content:space-between; gap:10px; align-items:flex-start">
+        <div>
+          <div style="font-weight:900; font-size:18px">${escapeHtml(sheet.title)}</div>
+          <div style="color:var(--muted); margin-top:6px">${escapeHtml(sheet.description ?? '')}</div>
+        </div>
+        <div style="display:flex; gap:8px">
+          <button id="btn-sheet-back" class="secondary">← Fiches</button>
+          <button id="btn-sheet-reset" class="secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="drag-container">
+      <div class="drag-matches-pool">
+        <div class="pool-label">Éléments à placer</div>
+        <div class="drag-matches" id="sheet-items-pool">
+          ${itemsHtml || '<span class="placeholder">Tout est placé 🎉</span>'}
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid; gap:12px; margin-top:12px">
+      ${sectionsHtml}
+    </div>
+  `;
+  mountFloatingNext(false);
+
+  document.getElementById('btn-sheet-back')?.addEventListener('click', () => renderRevisionSheetsHome());
+  document.getElementById('btn-sheet-reset')?.addEventListener('click', () => {
+    if (!confirm('Réinitialiser cette fiche ?')) return;
+    resetProgressForSheet(sheet);
+    renderRevisionSheet(sheet);
+  });
+
+  bindRevisionDragAndDrop(sheet);
+
+  // Terminé ?
+  if (correctSlots === totalSlots && totalSlots > 0) {
+    const toast = document.createElement('div');
+    toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--ok-bg); color:var(--ok-fg); padding:12px 20px; border-radius:8px; border:1px solid var(--ok-brd); z-index:999; box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+    toast.textContent = '🎉 Fiche complétée !';
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 2500);
+  }
+}
+
+function bindRevisionDragAndDrop(sheet: RevisionSheet) {
+  const pool = document.getElementById('sheet-items-pool');
+  const zones = Array.from(els.root.querySelectorAll('[data-slot-id]')) as HTMLElement[];
+  const chips = Array.from(els.root.querySelectorAll('[data-item-id]')) as HTMLElement[];
+
+  chips.forEach((chip) => {
+    chip.addEventListener('dragstart', (ev) => {
+      const dt = (ev as DragEvent).dataTransfer;
+      if (!dt) return;
+      const itemId = chip.getAttribute('data-item-id') || '';
+      const kind = chip.getAttribute('data-item-kind') || '';
+      dt.setData('text/plain', itemId);
+      dt.setData('application/x-t2q-item-kind', kind);
+      chip.classList.add('dragging');
+    });
+    chip.addEventListener('dragend', () => chip.classList.remove('dragging'));
+  });
+
+  const allowDrop = (ev: DragEvent) => {
+    ev.preventDefault();
+    ev.dataTransfer!.dropEffect = 'move';
+  };
+
+  zones.forEach((zone) => {
+    zone.addEventListener('dragover', (ev) => {
+      allowDrop(ev as DragEvent);
+      zone.classList.add('drag-over');
+    });
+    zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
+    zone.addEventListener('drop', (ev) => {
+      const e = ev as DragEvent;
+      e.preventDefault();
+      zone.classList.remove('drag-over');
+
+      const itemId = e.dataTransfer?.getData('text/plain') || '';
+      const itemKind = e.dataTransfer?.getData('application/x-t2q-item-kind') || '';
+      if (!itemId) return;
+
+      const slotId = zone.getAttribute('data-slot-id') || '';
+      if (!slotId) return;
+
+      const acceptsRaw = zone.getAttribute('data-accepts') || '';
+      const accepts = acceptsRaw.split(',').map(s => s.trim()).filter(Boolean);
+      if (accepts.length > 0 && itemKind && !accepts.includes(itemKind)) {
+        // mauvais type (ex: on dépose un concept sur un slot date)
+        const toast = document.createElement('div');
+        toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--warn-bg); color:var(--fg); padding:12px 20px; border-radius:8px; border:1px solid var(--warn-brd); z-index:999; box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+        toast.textContent = "Type d'élément non compatible avec cet emplacement.";
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2000);
+        return;
+      }
+
+      const progress = loadProgressForSheet(sheet);
+      // si déjà correct, on bloque
+      if (isSlotFilledCorrectly(sheet, progress, slotId)) return;
+
+      progress.placed[slotId] = itemId;
+      const slot = sheet.sections.flatMap(s => s.slots).find(s => s.id === slotId);
+      const ok = !!slot && slot.correctItemId === itemId;
+      if (ok) {
+        // Quand c'est correct, on "valide" implicitement : l'item disparaît du pool.
+        const { totalSlots, correctSlots } = computeCompletion(sheet, progress);
+        if (correctSlots === totalSlots && totalSlots > 0) {
+          progress.completedAt = new Date().toISOString();
+        }
+      }
+      saveProgressForSheet(progress);
+      renderRevisionSheet(sheet);
+    });
+  });
+
+  // drop back to pool = remove tentative placement
+  pool?.addEventListener('dragover', (ev) => allowDrop(ev as DragEvent));
+  pool?.addEventListener('drop', (ev) => {
+    const e = ev as DragEvent;
+    e.preventDefault();
+    const itemId = e.dataTransfer?.getData('text/plain') || '';
+    if (!itemId) return;
+    const progress = loadProgressForSheet(sheet);
+    // enlever toutes les occurrences de cet itemId (tentatives)
+    for (const [slotId, placed] of Object.entries(progress.placed)) {
+      if (placed === itemId && !isSlotFilledCorrectly(sheet, progress, slotId)) {
+        delete progress.placed[slotId];
+      }
+    }
+    saveProgressForSheet(progress);
+    renderRevisionSheet(sheet);
+  });
 }
 
 /* =========================
@@ -2748,8 +3315,7 @@ function updateMatchModeAvailability() {
   for (const fp of selectedFiles) {
     const course = courses.find(c => c.path === fp || c.file === fp);
     if (!course) continue;
-    let qs = parseQuestions(course.content);
-    qs = dedupeQuestions(qs);
+    let qs = parserCache.getParsedQuestions(course.path, course.content);
     if (themes.length > 0) {
   qs = qs.filter(q => (q.tags ?? []).some((t: string) => themes.includes(t)));
       qs = dedupeQuestions(qs);

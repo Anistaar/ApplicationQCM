@@ -1,0 +1,21 @@
+{
+  "id": "TEST",
+  "name": "Questions de Test",
+  "version": "2.0",
+  "structureType": "simple",
+  "lastUpdate": "2025-11-30",
+  "description": "Questions variées pour tests et validation",
+  "chapters": [
+    {"id": "T1", "number": "1", "name": "Économie générale", "description": "Questions mixtes économie", "sections": [{"id": "T1-I", "romanNumeral": "I", "name": "Questions variées", "subsections": [{"id": "T1-I-1", "number": "1", "name": "Mixte", "notions": [{"id": "T1-I-1a", "name": "Questions économie", "description": "Questions variées macro/micro/instit", "tags": ["Test"], "difficulty": "Moyen", "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30, "icon": "🎯"},
+    {"id": "T2", "number": "2", "name": "Statistiques", "description": "Questions mixtes stats", "sections": [{"id": "T2-I", "romanNumeral": "I", "name": "Questions variées", "subsections": [{"id": "T2-I-1", "number": "1", "name": "Mixte", "notions": [{"id": "T2-I-1a", "name": "Questions stats", "description": "Questions variées statistiques", "tags": ["Test"], "difficulty": "Moyen", "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30, "icon": "📊"},
+    {"id": "T3", "number": "3", "name": "Révisions", "description": "Questions révision globales", "sections": [{"id": "T3-I", "romanNumeral": "I", "name": "Questions variées", "subsections": [{"id": "T3-I-1", "number": "1", "name": "Mixte", "notions": [{"id": "T3-I-1a", "name": "Révisions", "description": "Questions révision transversales", "tags": ["Test"], "difficulty": "Moyen", "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30, "icon": "📝"},
+    {"id": "T4", "number": "4", "name": "Validation", "description": "Questions validation acquis", "sections": [{"id": "T4-I", "romanNumeral": "I", "name": "Questions variées", "subsections": [{"id": "T4-I-1", "number": "1", "name": "Mixte", "notions": [{"id": "T4-I-1a", "name": "Validation", "description": "Questions validation connaissances", "tags": ["Test"], "difficulty": "Moyen", "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30, "icon": "✅"},
+    {"id": "T5", "number": "5", "name": "Entraînement", "description": "Questions entraînement", "sections": [{"id": "T5-I", "romanNumeral": "I", "name": "Questions variées", "subsections": [{"id": "T5-I-1", "number": "1", "name": "Mixte", "notions": [{"id": "T5-I-1a", "name": "Entraînement", "description": "Questions entraînement divers", "tags": ["Test"], "difficulty": "Moyen", "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30}], "estimatedTime": 30, "icon": "🎓"}
+  ],
+  "metadata": {
+    "totalQuestions": 30,
+    "totalTime": 150,
+    "totalNotions": 5,
+    "authors": ["Prof Test"]
+  }
+}

@@ -1,0 +1,218 @@
+@themes: Démographie
+
+### === DEMO0-I-1a : Définition et objet de la démographie ===
+### "Étude quantitative des populations humaines"
+@add-theme: Concepts de base, Définitions
+
+QCM || La démographie est définie comme || V:L'étude quantitative des populations humaines et de leurs dynamiques|L'étude des races humaines|La science des migrations internationales uniquement|L'étude qualitative des comportements individuels
+VF  || La démographie s'intéresse à la taille, la structure et la répartition des populations. || V || C'est une science quantitative qui étudie les populations sous ces trois angles principaux.
+QCM || Le mot « démographie » vient du grec || V:Demos (peuple) et graphein (écrire/décrire)|Demos (démon) et graphein (dessiner)|Demas (corps) et graphos (graphique)|Domos (maison) et logos (étude)
+QCM || Qui est considéré comme l'un des pionniers de la démographie moderne ? || V:John Graunt, avec ses travaux sur les tables de mortalité à Londres en 1662|Adam Smith, avec La Richesse des Nations en 1776|Karl Marx, avec Le Capital en 1867|Aristote, avec La Politique au IVe s. av. J.-C.
+VF  || Achille Guillard a inventé le terme « démographie » en 1855. || V || Il l'emploie dans son ouvrage Éléments de statistique humaine ou démographie comparée.
+QCM || Parmi les phénomènes suivants, lequel n'est PAS un objet d'étude central de la démographie ? || V:L'analyse du PIB et de la croissance économique|La mortalité|La natalité|Les migrations
+QCM || Alfred Sauvy est principalement connu en démographie pour || V:Avoir popularisé l'expression « Tiers-Monde » et développé la démographie économique en France|Avoir découvert les lois de Mendel|Avoir fondé l'ONU|Avoir inventé le recensement
+
+---
+
+### === DEMO0-I-1b : Indicateurs démographiques de base ===
+### "Taux de natalité, mortalité, accroissement naturel"
+@add-theme: Concepts de base, Indicateurs
+
+QCM || Le taux brut de natalité se calcule comme || V:Le nombre de naissances vivantes pour 1000 habitants sur une année|Le nombre de naissances pour 100 femmes en âge de procréer|Le rapport naissances/décès multiplié par 100|Le nombre total de naissances depuis la création d'un État
+VF  || Le taux brut de mortalité est le nombre de décès pour 1000 habitants sur une année. || V || Il s'agit d'un rapport entre le nombre de décès et la population totale moyenne × 1000.
+QCM || L'accroissement naturel d'une population correspond à || V:La différence entre le nombre de naissances et le nombre de décès|La somme des naissances et des décès|Le nombre d'immigrants moins le nombre d'émigrants|Le taux de fécondité multiplié par le taux de mortalité
+QCM || Un pays dont le taux de natalité est de 30‰ et le taux de mortalité de 10‰ a un accroissement naturel de || V:20‰|40‰|3‰|300‰
+VF  || L'accroissement total d'une population prend en compte l'accroissement naturel ET le solde migratoire. || V || Accroissement total = accroissement naturel + solde migratoire.
+QCM || Le solde migratoire est défini comme || V:La différence entre le nombre d'immigrants et le nombre d'émigrants|Le nombre total de personnes ayant changé de pays|Le taux de mortalité des migrants|La proportion de la population née à l'étranger
+QCM || Le taux de mortalité infantile mesure || V:Le nombre de décès d'enfants de moins d'un an pour 1000 naissances vivantes|Le nombre de décès d'enfants de moins de 5 ans pour 100 habitants|Le nombre de décès d'enfants de moins d'un an pour 100 000 habitants|Le nombre de décès à la naissance uniquement
+
+---
+
+### === DEMO1-I-1a : Indicateur conjoncturel de fécondité (ICF/ISF) ===
+### "Nombre moyen d'enfants par femme"
+@add-theme: Fécondité, Indicateurs
+
+QCM || L'indicateur conjoncturel de fécondité (ICF) mesure || V:Le nombre moyen d'enfants qu'aurait une femme au cours de sa vie selon les taux par âge d'une année donnée|Le nombre total de naissances dans un pays|Le pourcentage de femmes enceintes dans la population|Le nombre d'enfants par couple marié
+VF  || L'ICF est aussi appelé indice synthétique de fécondité (ISF). || V || ICF et ISF désignent le même indicateur démographique.
+QCM || L'ICF se calcule en || V:Additionnant les taux de fécondité par âge pour chaque année d'âge des femmes en âge de procréer (généralement 15-49 ans)|Divisant le nombre de naissances par le nombre total de femmes|Multipliant le taux de natalité par le nombre de femmes fécondes|Calculant la moyenne du nombre d'enfants des femmes de 30 ans
+QCM || Le seuil de renouvellement des générations dans les pays développés est d'environ || V:2,1 enfants par femme|1,5 enfants par femme|3,0 enfants par femme|2,5 enfants par femme
+VF  || Le seuil de renouvellement des générations est exactement de 2,0 enfants par femme. || F || Il est de 2,1 environ dans les pays développés (pour compenser la mortalité infantile et le sex-ratio). Dans les pays en développement il peut atteindre 2,5 à 3,4.
+QCM || En France, l'ICF en 2020 était d'environ || V:1,83 enfant par femme|2,10 enfants par femme|1,20 enfant par femme|3,00 enfants par femme
+QCM || La descendance finale se distingue de l'ICF car || V:Elle mesure le nombre réel d'enfants qu'une génération de femmes a effectivement eus à la fin de leur vie féconde|Elle est calculée sur une année civile unique|Elle ne considère que les femmes mariées|Elle ne prend pas en compte les décès d'enfants
+VF  || L'ICF est un indicateur de moment (transversal), tandis que la descendance finale est un indicateur longitudinal. || V || L'ICF « photographie » la fécondité d'une année ; la descendance finale suit une cohorte de femmes tout au long de leur vie.
+QCM || Le taux de fécondité par âge mesure || V:Le nombre de naissances issues de femmes d'un âge donné, rapporté au nombre total de femmes du même âge|Le pourcentage de femmes ayant un enfant à cet âge|Le nombre moyen d'enfants par père de cet âge|Le taux de survie des enfants nés de mères de cet âge
+
+---
+
+### === DEMO1-I-2a : Espérance de vie ===
+### "Nombre moyen d'années qu'un individu peut espérer vivre"
+@add-theme: Mortalité, Espérance de vie
+
+QCM || L'espérance de vie à la naissance représente || V:Le nombre moyen d'années qu'un nouveau-né peut espérer vivre si les conditions de mortalité actuelles restent constantes|L'âge maximum atteint dans un pays donné|La durée de vie moyenne des personnes décédées dans l'année|Le nombre moyen d'années de vie en bonne santé
+VF  || L'espérance de vie à la naissance en France dépasse 80 ans pour les deux sexes confondus. || V || En 2020, elle est d'environ 79,1 ans pour les hommes et 85,1 ans pour les femmes.
+QCM || Au XVIIIe siècle (vers 1740), l'espérance de vie en France était d'environ || V:24 ans|45 ans|60 ans|10 ans
+QCM || L'espérance de vie est généralement plus élevée pour || V:Les femmes que pour les hommes|Les hommes que pour les femmes|Les personnes vivant en zone rurale|Les personnes ayant un emploi manuel
+VF  || L'espérance de vie est identique dans toutes les catégories socioprofessionnelles. || F || Il existe une forte stratification sociale : les cadres vivent en moyenne plus longtemps que les ouvriers.
+QCM || Le calcul de l'espérance de vie repose sur || V:Une table de mortalité utilisant les quotients de mortalité par âge appliqués à une population fictive|La simple moyenne des âges au décès|Le nombre de centenaires rapporté à la population|Le solde entre naissances et décès
+QCM || L'espérance de vie en bonne santé (EVSI) mesure || V:Le nombre d'années qu'une personne peut espérer vivre sans incapacité ni limitation d'activité|La probabilité de ne jamais être malade|La durée de vie avec une alimentation saine|Le nombre d'années avant la première hospitalisation
+VF  || L'augmentation de l'espérance de vie est principalement due à la baisse de la mortalité infantile aux XIXe et XXe siècles. || V || La diminution de la mortalité infantile a été le principal moteur historique, complété ensuite par les progrès aux âges élevés.
+
+---
+
+### === DEMO2-I-1a : La transition démographique – Définition ===
+### "Passage d'un régime de forte natalité/mortalité à un régime de faible natalité/mortalité"
+@add-theme: Transition démographique, Théories
+
+QCM || La transition démographique désigne || V:Le passage d'un régime à forte natalité et mortalité à un régime à faible natalité et mortalité|Le passage d'une économie agraire à une économie industrielle|La migration massive des populations rurales vers les villes|Le passage d'un régime monarchique à un régime démocratique
+VF  || Selon l'INED, la transition démographique est le passage d'un régime traditionnel d'équilibre démographique à haute mortalité et natalité à un nouveau régime d'équilibre à basse mortalité et natalité. || V || C'est la définition classique de l'INED.
+QCM || La France est considérée comme || V:Le premier pays au monde à avoir amorcé sa transition démographique, dès le XVIIIe siècle|Le dernier pays européen à avoir achevé sa transition démographique|Le pays avec la transition la plus rapide au monde|Un pays n'ayant jamais connu de transition démographique
+QCM || Quel démographe a particulièrement théorisé la transition démographique dans un cadre comparatif ? || V:Jean-Claude Chesnais, avec son ouvrage « La transition démographique » (1986)|Thomas Malthus, avec « Essai sur le principe de population » (1798)|Alfred Sauvy, avec « Théorie générale de la population » (1952)|Achille Guillard, avec « Éléments de statistique humaine » (1855)
+VF  || Pendant la transition démographique, la mortalité baisse toujours avant la natalité. || V || C'est le schéma classique : la mortalité baisse d'abord (progrès sanitaires), puis la natalité diminue avec un certain décalage.
+
+---
+
+### === DEMO2-I-1b : Les 5 phases de la transition démographique ===
+### "Pré-transition, début de transition, baisse fécondité, post-transition, seconde transition"
+@add-theme: Transition démographique, Phases
+
+QCM || Dans la phase de pré-transition (phase 1), on observe || V:Des taux de natalité ET de mortalité élevés, avec un accroissement naturel faible|Une natalité basse et une mortalité élevée|Une forte croissance démographique|Un vieillissement important de la population
+QCM || La phase 2 de la transition démographique se caractérise par || V:Une baisse de la mortalité alors que la natalité reste élevée, entraînant une forte croissance|Une hausse de la mortalité due aux famines|Une baisse simultanée de la natalité et de la mortalité|Une stagnation complète de la population
+VF  || C'est pendant la phase 2 que l'accroissement naturel est le plus fort. || V || La mortalité baisse mais la natalité reste haute, créant un écart maximal.
+QCM || La phase 3 de la transition démographique se caractérise par || V:La baisse de la fécondité qui rejoint progressivement le niveau de la mortalité|Une remontée brutale de la mortalité|L'arrêt total des naissances|Une explosion migratoire
+QCM || En phase 4 (post-transition), la population || V:Se stabilise avec natalité et mortalité basses|Diminue fortement|Croît de manière exponentielle|Retrouve un niveau de mortalité élevé
+VF  || La 5e phase, parfois appelée « seconde transition démographique », se caractérise par une fécondité tombée sous le seuil de renouvellement. || V || Théorisée par Ron Lesthaeghe et Dirk van de Kaa, elle décrit des sociétés où l'ISF est durablement inférieur à 2,1.
+QCM || Environ quel pourcentage de la population mondiale vit dans un pays où l'ISF est en dessous du seuil de renouvellement (2,1) ? || V:Environ 75 %|Environ 25 %|Environ 50 %|Environ 90 %
+QCM || Parmi les facteurs de la transition démographique, on trouve || V:Progrès sanitaires, éducation (surtout des filles), urbanisation, planning familial|Réchauffement climatique uniquement|Augmentation des conflits armés|Découverte de nouveaux continents
+
+---
+
+### === DEMO2-I-2a : Facteurs de la transition démographique ===
+### "Santé, éducation, urbanisation, développement économique"
+@add-theme: Transition démographique, Facteurs
+
+QCM || Quel facteur est le plus souvent cité comme cause première de la baisse de la mortalité dans la transition démographique ? || V:Les progrès de l'hygiène et de la médecine (vaccination, pasteurisation, antibiotiques)|La baisse du taux de natalité|L'augmentation de l'immigration|La hausse du niveau de vie exclusivement
+VF  || L'éducation des femmes est un facteur clé de la baisse de la fécondité. || V || L'accès à l'éducation retarde l'âge au mariage et à la maternité, et favorise la connaissance de la contraception.
+QCM || Le concept de « densité utile » en démographie désigne || V:Le rapport entre la densité de population et les ressources disponibles sur un territoire|Le nombre d'habitants par km²|La proportion de population active|Le nombre de logements disponibles par habitant
+QCM || Thomas Malthus (1798) prédisait || V:Que la population croît de façon géométrique tandis que les ressources croissent de façon arithmétique, menant à la famine|Que la population mondiale se stabiliserait naturellement|Que les guerres élimineraient les surpopulations|Que les progrès techniques résoudraient tous les problèmes alimentaires
+VF  || Le néo-malthusianisme prône le contrôle des naissances pour éviter la surpopulation. || V || Contrairement à Malthus qui prônait l'abstinence, les néo-malthusiens préconisent la contraception.
+QCM || L'IDH (Indice de Développement Humain) intègre || V:L'espérance de vie, le niveau d'éducation et le revenu par habitant (PNB/hab.)|Uniquement le PIB par habitant|Le taux de fécondité et le taux de mortalité|La densité de population et le solde migratoire
+
+---
+
+### === DEMO3-I-1a : Pyramides des âges ===
+### "Représentation graphique de la structure par âge et sexe"
+@add-theme: Structure, Pyramides des âges
+
+QCM || Une pyramide des âges représente || V:La répartition d'une population par sexe et par âge à un instant donné|L'évolution du PIB par tranche d'âge|Les flux migratoires par âge et par destination|Le taux de scolarisation par génération
+VF  || Dans une pyramide des âges, les hommes sont conventionnellement à gauche et les femmes à droite. || V || C'est la convention graphique internationale.
+QCM || Une pyramide des âges en forme de « parasol » ou « toupie renversée » traduit || V:Un vieillissement de la population avec base étroite (peu de jeunes) et sommet large (beaucoup de personnes âgées)|Une population très jeune en forte croissance|Un équilibre parfait entre toutes les tranches d'âge|Une épidémie ayant touché les personnes d'âge moyen
+QCM || Une pyramide des âges large à la base et étroite au sommet (forme « triangulaire ») est typique || V:Des pays en développement à forte natalité et mortalité élevée|Des pays développés vieillissants|Des pays ayant une immigration massive|Des pays insulaires uniquement
+VF  || Le baby-boom en France (1945-1975 environ) est visible dans la pyramide des âges comme un élargissement significatif des classes d'âge concernées. || V || Ces générations nombreuses créent un « renflement » dans la pyramide.
+QCM || Le rapport de dépendance démographique mesure || V:Le rapport entre les personnes « inactives » (jeunes + âgés) et les personnes d'âge actif|Le rapport entre hommes et femmes dans une population|Le nombre de chômeurs rapporté à la population active|Le solde migratoire rapporté à la population totale
+
+---
+
+### === DEMO3-I-2a : Vieillissement démographique ===
+### "Augmentation de la proportion de personnes âgées"
+@add-theme: Structure, Vieillissement
+
+QCM || Le vieillissement démographique désigne || V:L'augmentation de la proportion de personnes âgées dans une population|L'augmentation de l'âge moyen au décès|La diminution de la mortalité infantile|L'allongement de la durée des études
+VF  || Le vieillissement démographique peut résulter à la fois de la baisse de la fécondité (vieillissement par la base) et de l'allongement de la durée de vie (vieillissement par le sommet). || V || Ce sont les deux mécanismes principaux du vieillissement démographique.
+QCM || Parmi les conséquences du vieillissement démographique, on trouve || V:L'augmentation des dépenses de santé et de retraite, et la baisse du rapport actifs/retraités|La hausse du taux de natalité|La diminution de l'espérance de vie|L'augmentation du taux de chômage des jeunes exclusivement
+QCM || Le « vieillissement par la base » de la pyramide des âges est causé par || V:La baisse de la fécondité, qui réduit la proportion de jeunes|L'augmentation de l'immigration de personnes âgées|La hausse de la mortalité infantile|L'émigration des jeunes adultes uniquement
+VF  || Le Japon est l'un des pays les plus touchés par le vieillissement démographique au monde. || V || Avec un ISF très bas (environ 1,3) et une espérance de vie parmi les plus élevées au monde.
+QCM || Le vieillissement de la population signifie concrètement || V:Une augmentation de la proportion des plus de 65 ans|Une augmentation de la proportion des plus de 60 ans|Une augmentation de la proportion des plus de 75 ans|Aucune de ces réponses n'est juste
+QCM || Quels sont les effets du vieillissement sur la productivité ? || V:Contradictoires (effets positifs et négatifs selon les études)|Uniquement positifs (expérience accumulée)|Uniquement négatifs (baisse d'adaptabilité)|Aucun effet démontré
+
+---
+
+### === DEMO3-I-3a : Pyramide des âges – Formes et lectures ===
+### "La pyramide des âges représente la composition par âge et par sexe ; sa forme indique la dynamique démographique"
+@add-theme: Pyramide des âges, Structure
+
+QCM || La pyramide des âges est un graphique qui || V:Représente la composition par âge et par sexe de la population|Permet uniquement de porter un jugement sur le vieillissement|Montre les ruptures dans l'histoire démographique d'un pays|Aucune de ces réponses n'est juste
+QCM || Une pyramide des âges en forme de pyramide (base large, sommet étroit) signifie || V:Une population jeune|Un vieillissement de la population|Une population d'âge intermédiaire|Aucune de ces réponses n'est juste
+QCM || Une pyramide des âges en forme de toupie (milieu large) signifie || V:Aucune de ces réponses n'est juste (c'est une population d'âge intermédiaire)|Un vieillissement de la population|Une population jeune|Une population très âgée
+QCM || Lorsque le solde naturel est positif ET que le solde migratoire est positif, alors || V:La population augmente|La population baisse|La population se stabilise|Aucune de ces réponses n'est juste
+QCM || L'évolution d'une population sur un territoire pour une année dépend de || V:Du nombre de naissances, du nombre de décès ET des flux migratoires sur l'année|Uniquement du nombre de naissances et de décès|Uniquement des flux migratoires|Du taux de fécondité uniquement
+
+---
+
+### === DEMO4-I-1a : Malthus et ses contemporains démographes ===
+### "Malthus : progression géométrique pop° vs arithmétique ressources. Lexis, Sauvy, Boserup : autres théoriciens"
+@add-theme: Malthus, Démographes, Auteurs
+
+QCM || Malthus a montré que || V:La population croissait selon une progression géométrique et les ressources selon une progression arithmétique|La population croissait selon une progression arithmétique et les ressources en progression géométrique|La population et les ressources croissaient au même rythme|La population était un frein à la croissance économique dans tous les cas
+QCM || Malthus a également été le premier à || V:Poser le lien entre démographie et économie|Calculer le taux de natalité mondial|Inventer la pyramide des âges|Définir le concept de transition démographique
+QCM || Parmi ces noms, lequel N'est PAS un démographe ? || V:Marx|Lexis|Malthus|Keynes
+QCM || Dans quels pays la transition démographique est-elle considérée comme terminée ? || V:Les pays d'Amérique du Nord ET les pays Européens|Les pays d'Afrique|Uniquement les pays d'Amérique du Nord|Uniquement les pays d'Asie de l'Est
+
+---
+
+### === DEMO4-I-2a : Boserup et les effets positifs de la croissance démographique ===
+### "Boserup (1965) : la pression démographique stimule l'innovation agricole et économique (contre Malthus)"
+@add-theme: Boserup, Innovation, Croissance démographique
+
+QCM || Pour Ester Boserup, la croissance démographique || V:Est favorable à la croissance économique ET favorable à l'innovation|Est défavorable à la croissance économique|Est neutre pour l'innovation|Aucune de ces réponses n'est juste
+VF  || Boserup s'oppose à Malthus en affirmant que la pression de la population peut stimuler l'innovation et le progrès technique plutôt que de conduire à la misère. || V || C'est la thèse centrale de Boserup : la nécessité crée l'innovation, la pression démographique pousse à trouver des solutions productives.
+QCM || La thèse de Boserup est souvent présentée comme || V:L'opposé de la thèse malthusienne : là où Malthus voit une contrainte, Boserup voit un moteur d'innovation|Un prolongement de la théorie de Malthus|Une confirmation empirique du modèle de Solow|Une théorie sur les migrations internationales
+
+---
+
+### === DEMO4-I-3a : Modigliani et les effets du vieillissement sur l'épargne ===
+### "Théorie du cycle de vie : les personnes âgées désépargnent, les jeunes épargnent"
+@add-theme: Modigliani, Épargne, Vieillissement
+
+QCM || Pour Modigliani (théorie du cycle de vie), le vieillissement de la population || V:Favorise la désépargne (les personnes âgées puisent dans leur épargne accumulée)|Favorise l'épargne (les personnes âgées épargnent plus par précaution)|N'a aucun effet sur le niveau global d'épargne|Favorise l'investissement productif
+QCM || Selon Modigliani, quelle catégorie d'âge favorise l'épargne ? || V:La jeunesse (on épargne pendant la vie active pour financer la retraite)|Les personnes de plus de 65 ans|Les retraités|L'épargne est indépendante de l'âge
+VF  || Selon la théorie du cycle de vie de Modigliani, un pays vieillissant devrait voir son taux d'épargne global diminuer. || V || Si la part des personnes âgées (qui désépargnent) augmente, le taux d'épargne global de l'économie devrait baisser.
+
+---
+
+### === DEMO4-I-4a : Effets économiques du vieillissement – Dilution du capital et retraites ===
+### "Dilution du capital = croissance démographique fait baisser le capital par tête. Retraites : solutions possibles"
+@add-theme: Vieillissement, Dilution du capital, Retraites, Conséquences économiques
+
+QCM || L'effet de dilution du capital signifie || V:L'accroissement plus fort du travail que du capital, ce qui fait baisser le capital par tête|L'accroissement plus fort du capital que du travail|L'accroissement plus fort du capital que du revenu|Aucune de ces réponses n'est juste
+QCM || La croissance démographique a des effets sur la croissance économique qui sont || V:Positifs ET négatifs (selon les mécanismes et les études)|Uniquement positifs|Uniquement négatifs|Aucun effet
+QCM || La croissance économique a des effets sur la croissance démographique qui sont || V:Positifs ET négatifs|Uniquement positifs|Uniquement négatifs|Aucun effet
+QCM || Parmi les solutions suivantes pour résoudre le problème des retraites, lesquelles sont possibles ? || V:Augmenter l'âge de départ à la retraite, réduire les pensions de retraite ET augmenter les cotisations sociales|Uniquement augmenter les cotisations sociales|Uniquement reculer l'âge de départ|Aucune de ces solutions n'est efficace
+VF  || La question des retraites est uniquement un problème démographique sans lien avec la productivité économique. || F || La question des retraites dépend à la fois du rapport actifs/retraités (facteur démographique) et de la productivité des actifs (facteur économique).
+
+---
+
+### === DEMO4-I-1a : Migrations ===
+### "Mouvements de population entre territoires"
+@add-theme: Migrations
+
+QCM || On distingue deux grands types de migrations || V:Les migrations internes (à l'intérieur d'un pays) et les migrations internationales (entre pays)|Les migrations légales et illégales uniquement|Les migrations volontaires et involontaires uniquement|Les migrations de travail et de loisir
+VF  || L'exode rural désigne le mouvement de population des campagnes vers les villes. || V || C'est un phénomène majeur de la démographie des XIXe et XXe siècles.
+QCM || Les facteurs « push » (répulsifs) de la migration incluent || V:La pauvreté, les conflits, les persécutions, les catastrophes naturelles|Les opportunités d'emploi dans le pays de destination|La qualité du système éducatif du pays d'accueil|Le regroupement familial
+QCM || Les facteurs « pull » (attractifs) de la migration incluent || V:Les opportunités économiques, la sécurité, le regroupement familial dans le pays d'accueil|Les famines dans le pays d'origine|Les guerres dans le pays d'origine|Le chômage dans le pays d'accueil
+VF  || Le solde migratoire de la France est positif depuis plusieurs décennies. || V || La France accueille plus de personnes qu'il n'en part, bien que le solde migratoire soit modeste comparé à certains voisins européens.
+
+---
+
+### === DEMO4-I-2a : Population mondiale et projections ===
+### "Croissance, répartition, projections ONU"
+@add-theme: Population mondiale, Projections
+
+QCM || La population mondiale a atteint 8 milliards d'habitants en || V:Novembre 2022|Janvier 2020|Juillet 2030|Décembre 2015
+VF  || Selon les projections de l'ONU, la population mondiale pourrait atteindre environ 10,4 milliards vers 2100. || V || C'est le scénario médian des projections des Nations Unies (révision 2022).
+QCM || Quel continent concentre la plus grande part de la population mondiale ? || V:L'Asie|L'Afrique|L'Europe|L'Amérique
+QCM || D'ici 2050, la croissance démographique sera principalement portée par || V:L'Afrique subsaharienne|L'Europe|L'Amérique du Nord|L'Asie de l'Est
+VF  || La population de l'Europe devrait diminuer d'ici 2050. || V || Avec des ISF bas et un vieillissement prononcé, la population européenne est attendue en déclin.
+QCM || Le « dividende démographique » désigne || V:L'avantage économique temporaire lié à une population active proportionnellement importante par rapport aux personnes dépendantes|Les aides financières versées aux familles nombreuses|La redistribution des richesses entre générations|Le bénéfice tiré de l'immigration de main-d'œuvre qualifiée
+
+---
+
+### === DEMO5-I-1a : Méthodes de la démographie ===
+### "Recensements, enquêtes, état civil"
+@add-theme: Méthodes, Outils
+
+QCM || Les trois principales sources de données démographiques sont || V:Les recensements, l'état civil et les enquêtes par sondage|Les journaux, la télévision et Internet|Les archives judicaires, les registres paroissiaux et les banques|Les réseaux sociaux, les sondages en ligne et les bases fiscales
+VF  || Le recensement consiste à dénombrer l'ensemble de la population d'un territoire à un moment donné. || V || C'est un comptage exhaustif réalisé périodiquement (tous les 5 ans en France avec la méthode de recensement rénové).
+QCM || En France, le recensement est effectué || V:De façon continue avec des enquêtes annuelles couvrant l'ensemble du territoire sur 5 ans (méthode rénovée depuis 2004)|Tous les 10 ans par un comptage exhaustif|Tous les ans dans toutes les communes|Uniquement lors des élections
+QCM || L'état civil enregistre || V:Les naissances, mariages, décès et autres événements légaux de la vie des personnes|Uniquement les naissances|Uniquement les décès|Les changements d'adresse
+VF  || L'INED (Institut National d'Études Démographiques) est l'organisme de recherche français spécialisé dans l'étude des populations. || V || Créé en 1945, l'INED conduit des recherches sur la démographie et les populations.
+QCM || Une cohorte en démographie désigne || V:Un ensemble d'individus ayant vécu un même événement démographique au cours d'une même période|Un groupe de chercheurs travaillant ensemble|Un ensemble de pays ayant le même taux de fécondité|Une catégorie d'âge dans une pyramide des âges

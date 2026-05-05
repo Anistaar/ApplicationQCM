@@ -1,0 +1,210 @@
+{
+  "id": "DEMO",
+  "name": "Démographie L1 S2",
+  "version": "1.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-01-01",
+  "description": "Démographie L1 S2 : indicateurs, transition démographique, pyramides des âges, migrations, population mondiale",
+  "chapters": [
+    {
+      "id": "DEMO0",
+      "number": "0",
+      "name": "Concepts de base",
+      "description": "Définitions, indicateurs fondamentaux",
+      "sections": [
+        {
+          "id": "DEMO0-I",
+          "romanNumeral": "I",
+          "name": "Fondamentaux",
+          "subsections": [
+            {
+              "id": "DEMO0-I-1",
+              "number": "1",
+              "name": "Définition et objet",
+              "notions": [
+                {"id": "DEMO0-I-1a", "name": "Définition de la démographie", "description": "Étude quantitative des populations, pionniers (Graunt, Sauvy, Guillard)", "tags": ["Concepts de base", "Définitions"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "DEMO0-I-1b", "name": "Indicateurs de base", "description": "Taux de natalité, mortalité, accroissement naturel, solde migratoire", "tags": ["Concepts de base", "Indicateurs"], "difficulty": "Facile", "estimatedTime": 7}
+              ],
+              "estimatedTime": 12
+            }
+          ],
+          "estimatedTime": 12
+        }
+      ],
+      "estimatedTime": 12,
+      "icon": "📖"
+    },
+    {
+      "id": "DEMO1",
+      "number": "1",
+      "name": "Fécondité et mortalité",
+      "description": "ICF/ISF, descendance finale, espérance de vie",
+      "sections": [
+        {
+          "id": "DEMO1-I",
+          "romanNumeral": "I",
+          "name": "Indicateurs avancés",
+          "subsections": [
+            {
+              "id": "DEMO1-I-1",
+              "number": "1",
+              "name": "Fécondité",
+              "notions": [
+                {"id": "DEMO1-I-1a", "name": "ICF / ISF", "description": "Indicateur conjoncturel de fécondité, seuil de renouvellement (2,1), descendance finale", "tags": ["Fécondité", "Indicateurs"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            },
+            {
+              "id": "DEMO1-I-2",
+              "number": "2",
+              "name": "Mortalité et espérance de vie",
+              "notions": [
+                {"id": "DEMO1-I-2a", "name": "Espérance de vie", "description": "Calcul, tables de mortalité, évolution France, déterminants socio-économiques", "tags": ["Mortalité", "Espérance de vie"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            }
+          ],
+          "estimatedTime": 16
+        }
+      ],
+      "estimatedTime": 16,
+      "icon": "👶"
+    },
+    {
+      "id": "DEMO2",
+      "number": "2",
+      "name": "Transition démographique",
+      "description": "Définition, 5 phases, facteurs",
+      "sections": [
+        {
+          "id": "DEMO2-I",
+          "romanNumeral": "I",
+          "name": "Théorie et phases",
+          "subsections": [
+            {
+              "id": "DEMO2-I-1",
+              "number": "1",
+              "name": "Définition et phases",
+              "notions": [
+                {"id": "DEMO2-I-1a", "name": "Définition de la transition", "description": "Passage d'un régime de forte natalité/mortalité à faible natalité/mortalité, Chesnais", "tags": ["Transition démographique", "Théories"], "difficulty": "Moyen", "estimatedTime": 7},
+                {"id": "DEMO2-I-1b", "name": "Les 5 phases", "description": "Pré-transition, début de transition, baisse fécondité, post-transition, seconde transition", "tags": ["Transition démographique", "Phases"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 15
+            },
+            {
+              "id": "DEMO2-I-2",
+              "number": "2",
+              "name": "Facteurs",
+              "notions": [
+                {"id": "DEMO2-I-2a", "name": "Facteurs de la transition", "description": "Santé, éducation, urbanisation, développement, Malthus, IDH", "tags": ["Transition démographique", "Facteurs"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 22
+        }
+      ],
+      "estimatedTime": 22,
+      "icon": "📈"
+    },
+    {
+      "id": "DEMO3",
+      "number": "3",
+      "name": "Structure et vieillissement",
+      "description": "Pyramides des âges, vieillissement démographique",
+      "sections": [
+        {
+          "id": "DEMO3-I",
+          "romanNumeral": "I",
+          "name": "Analyse structurelle",
+          "subsections": [
+            {
+              "id": "DEMO3-I-1",
+              "number": "1",
+              "name": "Pyramides des âges",
+              "notions": [
+                {"id": "DEMO3-I-1a", "name": "Pyramides des âges", "description": "Représentation graphique, formes (triangulaire, parasol), baby-boom", "tags": ["Structure", "Pyramides des âges"], "difficulty": "Facile", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            },
+            {
+              "id": "DEMO3-I-2",
+              "number": "2",
+              "name": "Vieillissement",
+              "notions": [
+                {"id": "DEMO3-I-2a", "name": "Vieillissement démographique", "description": "Vieillissement par la base et par le sommet, conséquences, Japon", "tags": ["Structure", "Vieillissement"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            }
+          ],
+          "estimatedTime": 12
+        }
+      ],
+      "estimatedTime": 12,
+      "icon": "📊"
+    },
+    {
+      "id": "DEMO4",
+      "number": "4",
+      "name": "Migrations et population mondiale",
+      "description": "Types de migrations, population mondiale, projections ONU",
+      "sections": [
+        {
+          "id": "DEMO4-I",
+          "romanNumeral": "I",
+          "name": "Dynamiques mondiales",
+          "subsections": [
+            {
+              "id": "DEMO4-I-1",
+              "number": "1",
+              "name": "Migrations",
+              "notions": [
+                {"id": "DEMO4-I-1a", "name": "Migrations", "description": "Internes/internationales, push/pull, exode rural, solde migratoire", "tags": ["Migrations"], "difficulty": "Facile", "estimatedTime": 5}
+              ],
+              "estimatedTime": 5
+            },
+            {
+              "id": "DEMO4-I-2",
+              "number": "2",
+              "name": "Population mondiale et projections",
+              "notions": [
+                {"id": "DEMO4-I-2a", "name": "Population mondiale", "description": "8 milliards (2022), projections ONU 2050/2100, dividende démographique", "tags": ["Population mondiale", "Projections"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 6
+            }
+          ],
+          "estimatedTime": 11
+        }
+      ],
+      "estimatedTime": 11,
+      "icon": "🌍"
+    },
+    {
+      "id": "DEMO5",
+      "number": "5",
+      "name": "Méthodes de la démographie",
+      "description": "Recensements, état civil, enquêtes, cohortes",
+      "sections": [
+        {
+          "id": "DEMO5-I",
+          "romanNumeral": "I",
+          "name": "Outils et sources",
+          "subsections": [
+            {
+              "id": "DEMO5-I-1",
+              "number": "1",
+              "name": "Sources et méthodes",
+              "notions": [
+                {"id": "DEMO5-I-1a", "name": "Méthodes démographiques", "description": "Recensements, état civil, enquêtes, INED, cohortes", "tags": ["Méthodes", "Outils"], "difficulty": "Facile", "estimatedTime": 5}
+              ],
+              "estimatedTime": 5
+            }
+          ],
+          "estimatedTime": 5
+        }
+      ],
+      "estimatedTime": 5,
+      "icon": "🔬"
+    }
+  ]
+}

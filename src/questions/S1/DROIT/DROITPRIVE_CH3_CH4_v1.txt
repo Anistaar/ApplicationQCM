@@ -1,0 +1,126 @@
+@themes: Droit privé
+
+### === DP3-I-1a : Notion de contrat ===
+### "Accord de volontés créateur d'obligations"
+@add-theme: Obligations, Contrats
+
+QCM || Le contrat est défini en droit civil comme || V:Un accord de volontés destiné à créer, modifier, transmettre ou éteindre des obligations|Une décision unilatérale du juge|Un simple fait juridique sans volonté|Une simple promesse morale dépourvue d’effets de droit
+VF  || Un contrat suppose toujours au moins deux volontés concordantes. || V || C’est un acte juridique bilatéral ou multilatéral.
+QCM || Parmi les exemples suivants, lequel constitue un contrat ? || V:La vente d’un téléphone entre deux particuliers|Un accident de voiture non voulu|La naissance d’un enfant|Un simple salut dans la rue
+QCM || Un contrat est un acte juridique car || V:Les parties veulent précisément produire des effets de droit|Il résulte d’un événement naturel|Il ne produit aucun effet de droit|Il ne peut jamais être évalué en argent
+VF  || Acheter une baguette de pain est un exemple de contrat. || V || Il s’agit d’un contrat de vente, même s’il est très simple.
+QCM || Le contrat est souvent qualifié de “loi des parties” car || V:Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits (art. 1103 C. civ.)|Les parties peuvent créer des lois pour toute la société|Il remplace la Constitution|Il est supérieur aux traités internationaux
+QCM || Parmi les affirmations suivantes, laquelle est correcte ? || V:Un contrat peut être conclu verbalement s’il n’existe pas de formalisme imposé|Un contrat doit toujours être écrit pour être valable|Un contrat doit toujours être passé devant notaire|Un contrat n’est valable que s’il est enregistré au greffe
+VF  || Un contrat n’est valable que s’il est moralement juste. || F || La moralité peut intervenir, mais la validité dépend surtout des conditions légales (consentement, capacité, etc.).
+QR  || Quel texte consacre la formule “les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits” ? || V:L’article 1103 du Code civil || Il illustre la force obligatoire du contrat.
+
+---
+
+### === DP3-I-2a : Conditions de validité du contrat ===
+### "Consentement, capacité, contenu licite et certain"
+@add-theme: Obligations, Validité, Contrats
+
+QCM || Parmi les éléments suivants, lequel ne fait pas partie des conditions classiques de validité du contrat ? || V:La nationalité française des parties|Le consentement exempt de vices|La capacité des parties|Un contenu licite et certain
+VF  || Un contrat conclu par une personne incapable peut être annulé. || V || L’incapacité peut entraîner la nullité de l’acte.
+QCM || Un vice du consentement peut résulter || V:Dol, erreur, violence|De la simple pauvreté d’une partie|D’un désaccord politique|D’un simple retard de paiement
+QCM || L’objet du contrat doit être || V:Licite, possible et déterminé ou déterminable|Toujours gratuit|Toujours matériel|Toujours un immeuble
+VF  || Un contrat portant sur une activité illicite est nul. || V || Son objet est contraire à l’ordre public ou aux bonnes mœurs.
+QCM || La capacité de contracter signifie || V:L’aptitude juridique à conclure valablement des contrats|La seule aptitude physique à signer|L’obligation de conclure des contrats|La possibilité pour un juge de modifier le contrat
+QCM || Si l’une des conditions essentielles de validité du contrat fait défaut || V:Le contrat peut être frappé de nullité|Le contrat est automatiquement valable|Le juge doit modifier la loi|Le contrat devient un simple fait juridique
+VF  || La simple lésion (déséquilibre économique) entraîne toujours la nullité du contrat. || F || Ce n’est le cas que dans des hypothèses particulières prévues par la loi.
+QR  || Citez deux vices du consentement pouvant affecter un contrat. || V:L’erreur et le dol (ou la violence) || Ils peuvent conduire à l’annulation du contrat.
+
+---
+
+### === DP3-I-3a : Notion d’obligation juridique ===
+### "Lien de droit entre un créancier et un débiteur"
+@add-theme: Obligations
+
+QCM || Une obligation juridique est || V:Un lien de droit par lequel un débiteur est tenu envers un créancier d’une prestation|Une simple obligation morale sans sanction|Un lien purement politique|Une contrainte physique sans base juridique
+VF  || L’obligation juridique met en relation au moins un créancier et un débiteur. || V || Le créancier peut exiger l’exécution d’une prestation.
+QCM || La prestation due par le débiteur peut être || V:De donner, de faire ou de ne pas faire|Uniquement de donner une somme d’argent|Uniquement de ne pas faire|Uniquement de faire un acte matériel
+QCM || Lorsqu’un débiteur n’exécute pas son obligation, le créancier peut || V:Demander l’exécution forcée ou des dommages et intérêts|Ne rien faire|Modifier seul la loi|Sanctionner pénalement le débiteur
+VF  || Une obligation née d’un contrat est une obligation volontaire. || V || Elle résulte d’un acte juridique fondé sur la volonté des parties.
+QCM || Les principales sources d’obligations en droit civil sont || V:Les actes juridiques et les faits juridiques|Les seules coutumes|Les seules décisions de justice|Les lois pénales uniquement
+QCM || Une obligation de moyens implique que le débiteur || V:Doit mettre en œuvre tous les moyens raisonnables pour atteindre le résultat|Doit garantir absolument le résultat|N’a aucune obligation réelle|Ne peut être responsable qu’en cas de force majeure
+VF  || Une obligation de résultat impose au débiteur de parvenir à un résultat déterminé, sauf cause étrangère. || V || À défaut, sa responsabilité est en principe engagée.
+QR  || Donnez un exemple d’obligation de ne pas faire. || V:Une clause de non-concurrence interdisant à un salarié de concurrencer son ancien employeur || Il s’agit d’une abstention juridiquement imposée.
+
+---
+
+### === DP3-II-1a : Sources des obligations : actes juridiques ===
+### "Contrats et autres manifestations de volonté"
+@add-theme: Obligations, Actes
+
+QCM || Un acte juridique est défini comme || V:Une manifestation de volonté destinée à produire des effets de droit|Un événement naturel produisant des effets de droit|Un simple fait matériel sans conséquence|Une décision administrative générale
+QCM || L’exemple type d’acte juridique créateur d’obligations est || V:Le contrat|La catastrophe naturelle|La majorité de l’enfant|La mort d’une personne
+VF  || Un testament est un acte juridique unilatéral. || V || Il émane d’une seule volonté et produit des effets après le décès.
+QCM || Parmi les classifications suivantes, laquelle concerne les actes juridiques ? || V:Actes à titre onéreux / à titre gratuit|Infractions pénales / non pénales|Civils / pénaux|Administratifs / constitutionnels uniquement
+QCM || Un acte de disposition se caractérise par || V:Une atteinte grave et durable au patrimoine|La simple gestion courante|L’absence d’effet sur le patrimoine|Une formalité administrative interne
+VF  || Une donation est un exemple d’acte à titre gratuit. || V || Le donateur s’appauvrit sans contrepartie pécuniaire.
+QCM || Un acte conservatoire a pour finalité || V:De préserver le patrimoine d’un dommage imminent|De le diminuer volontairement|D’en changer définitivement la composition|De recevoir des biens par succession
+VF  || Tous les actes juridiques sont nécessairement multilatéraux. || F || Il existe des actes unilatéraux (testament, renonciation, etc.).
+QR  || Citez deux types d’actes selon les conséquences pécuniaires. || V:Actes à titre onéreux et actes à titre gratuit || Ils diffèrent par l’existence ou non d’une contrepartie économique.
+
+---
+
+### === DP3-II-2a : Sources des obligations : faits juridiques ===
+### "Délits, quasi-délits et événements naturels"
+@add-theme: Obligations, Faits
+
+QCM || Un fait juridique est || V:Un événement produisant des effets de droit indépendamment de la volonté de les produire|Toujours une manifestation de volonté|Toujours un contrat|Un acte administratif individuel
+VF  || Une gifle donnée à quelqu’un peut être à l’origine d’un fait juridique. || V || Elle peut entraîner une obligation de réparer le dommage civil.
+QCM || L’article 1240 du Code civil vise || V:Le délit civil (faute volontaire causant un dommage)|Le quasi-délit|La compétence pénale|La formation du contrat
+QCM || L’article 1241 du Code civil concerne || V:La responsabilité du fait de sa négligence ou de son imprudence|La responsabilité du fait des choses|La vente d’immeuble|La compétence du juge administratif
+VF  || Les mêmes faits peuvent donner lieu à la fois à une responsabilité civile et à une responsabilité pénale. || V || Par exemple, un coup et blessures peut entraîner des poursuites pénales et une action en réparation.
+QCM || Parmi les événements suivants, lequel est un fait juridique non imputable à une personne ? || V:Une catastrophe naturelle provoquant des dégâts|Une rupture volontaire de contrat|Une déclaration de volonté de vendre|Une signature de bail
+QCM || La prescription extinctive illustre un fait juridique car || V:L’écoulement du temps fait perdre un droit, sans volonté spéciale des parties|Elle dépend d’une manifestation de volonté expresse|Elle résulte d’un acte juridique|Elle ne produit aucun effet de droit
+VF  || Les faits juridiques peuvent être volontaires ou involontaires. || V || Ce qui importe est que les effets de droit ne soient pas recherchés comme tels.
+QR  || Donnez un exemple de fait juridique volontaire produisant des effets sans que ceux-ci aient été recherchés. || V:Un conducteur imprudent causant un accident et un dommage à autrui || Il n’avait pas voulu créer l’obligation de réparer, mais la loi la lui impose.
+
+----------------------------------------------------------------
+### === DP4-I-1a : Notion générale de responsabilité civile ===
+### "Obligation de réparer un dommage"
+@add-theme: Responsabilité
+
+QCM || La responsabilité civile peut être définie comme || V:L’obligation de réparer le dommage causé à autrui|Le pouvoir de punir les infractions|La faculté de créer des lois|La compétence exclusive du juge pénal
+VF  || La responsabilité civile vise principalement la réparation du dommage. || V || Elle se traduit souvent par des dommages et intérêts.
+QCM || Les conditions classiques de la responsabilité civile délictuelle comprennent || V:Une faute, un dommage et un lien de causalité|Un contrat, une faute et un dommage|Un traité, une loi, un règlement|Une capacité, une nationalité, une filiation
+QCM || La responsabilité civile peut conduire à || V:Une réparation en nature ou par équivalent (dommages et intérêts)|Une peine d’emprisonnement|Une condamnation politique|La perte de nationalité
+VF  || Il peut y avoir responsabilité civile sans qu’il y ait eu infraction pénale. || V || Tous les dommages ne résultent pas d’infractions pénales.
+QCM || Le but principal de la responsabilité civile est || V:De remettre la victime dans une situation aussi proche que possible de celle qui aurait existé sans le dommage|De punir le coupable par une peine|D’augmenter les recettes fiscales|De créer de nouvelles obligations pénales
+QCM || La responsabilité civile peut être engagée || V:En matière contractuelle ou délictuelle|Uniquement en présence d’un contrat|Uniquement en l’absence de toute relation juridique|Uniquement envers l’État
+VF  || Une même situation peut donner lieu cumulativement à une responsabilité civile et à une responsabilité pénale. || V || L’une répare, l’autre sanctionne au nom de la société.
+QR  || Quel est l’élément indispensable commun à toute responsabilité civile ? || V:L’existence d’un dommage|| Sans dommage, il n’y a pas à proprement parler de responsabilité civile.
+
+---
+
+### === DP4-I-1b : Responsabilité contractuelle ===
+### "Inexécution ou mauvaise exécution du contrat"
+@add-theme: Responsabilité, Contractuelle
+
+QCM || La responsabilité contractuelle naît lorsque || V:Le débiteur n’exécute pas ou exécute mal une obligation née d’un contrat|Une personne commet une infraction pénale sans lien contractuel|Un tiers cause un dommage sans contrat|Un contrat est simplement moral
+VF  || La responsabilité contractuelle suppose l’existence préalable d’un contrat valable. || V || Sans contrat, on ne peut parler de responsabilité contractuelle.
+QCM || Dans la responsabilité contractuelle, la faute consiste en || V:La violation d’une obligation contractuelle|La violation d’une loi pénale uniquement|La simple absence de dommage|Une obligation purement morale
+QCM || Une clause de limitation de responsabilité dans un contrat || V:Peut limiter l’indemnisation dans certaines conditions mais ne peut exclure toute responsabilité pour faute lourde ou dolosive|Supprime toujours toute responsabilité|Est interdite dans tous les contrats|N’a aucun effet juridique
+VF  || Le débiteur d’une obligation contractuelle de résultat est présumé responsable s’il n’atteint pas le résultat promis. || V || Il doit prouver une cause étrangère pour s’exonérer.
+QCM || En matière contractuelle, la victime qui se plaint d’une inexécution doit en principe || V:Agir contre son cocontractant sur le fondement du contrat|Agir contre n’importe quel tiers|Saisir le juge pénal uniquement|Passer par la Cour de justice de l’Union européenne
+QCM || Un exemple classique de responsabilité contractuelle est || V:Le retard important d’un transporteur dans l’acheminement d’un colis|Un accident de voiture entre deux inconnus|Une agression dans la rue|Une inondation naturelle
+VF  || La responsabilité contractuelle peut conduire à la résolution du contrat et à l’allocation de dommages et intérêts. || V || Selon la gravité de l’inexécution.
+QR  || Quel est le lien entre obligation et responsabilité en matière contractuelle ? || V:La responsabilité sanctionne l’inexécution de l’obligation née du contrat || Elle intervient “en aval” du contrat.
+
+---
+
+### === DP4-I-1c : Responsabilité délictuelle (extra-contractuelle) ===
+### "Faute, dommage et lien de causalité hors contrat"
+@add-theme: Responsabilité, Délictuelle
+
+QCM || La responsabilité délictuelle intervient principalement || V:En l’absence de lien contractuel entre la victime et l’auteur du dommage|Uniquement en présence d’un contrat|Uniquement dans les relations internationales|Uniquement en cas de force majeure
+VF  || L’article 1240 du Code civil consacre la responsabilité du fait personnel en cas de faute. || V || Il impose à celui qui cause un dommage par sa faute de le réparer.
+QCM || Parmi les éléments suivants, lequel n’est pas une condition classique de la responsabilité délictuelle ? || V:L’existence d’un contrat préalable|Une faute (ou fait générateur)|Un dommage|Un lien de causalité
+QCM || Un exemple classique de responsabilité délictuelle est || V:Un piéton renversé par un automobiliste imprudent|Le non-paiement d’un loyer dû en vertu d’un bail|L’inexécution d’une clause contractuelle|L’adoption d’une loi par le Parlement
+VF  || La simple existence d’un dommage, sans faute ni lien de causalité, suffit à engager la responsabilité délictuelle. || F || Les trois éléments doivent être établis (sauf régimes spéciaux).
+QCM || L’article 1241 du Code civil vise notamment || V:Les dommages causés par négligence ou imprudence|Uniquement les dommages volontaires|Les contrats de travail|Les infractions pénales
+QCM || En responsabilité délictuelle, le juge cherche à || V:Reconstituer le lien de causalité entre le fait générateur et le dommage|Évaluer la validité du contrat|Modifier la Constitution|Appliquer une peine d’emprisonnement
+VF  || La responsabilité délictuelle est parfois qualifiée d’“extra-contractuelle”. || V || Elle s’applique hors de tout contrat entre les parties.
+QR  || Citez les trois éléments classiques à prouver pour engager la responsabilité délictuelle. || V:Une faute (ou fait générateur), un dommage et un lien de causalité || Ils sont au cœur du schéma classique de responsabilité.

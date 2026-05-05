@@ -1,0 +1,459 @@
+Chapitre 7 - La Grande Dépression des années 1930 :
+
+le débat entre monétaristes et keynésiens renouvelé
+
+
+
+La grande crise mondiale des années 1930 est un des évènements contemporains où les apports de l’histoire économique et de la macroéconomie ont permis, conjointement, d’élaborer une nouvelle approche du phénomène de dépression. La crise de 1929 avait déjà donné lieu à de multiples descriptions historiques, spécifiques à un pays ou plus générales, mais il était beaucoup plus difficile d’en proposer une interprétation analytique globale. 
+
+
+
+
+
+Section 1 / Les fondements analytiques de la controverse entre monétaristes et keynésiens
+
+
+
+La crise de 1929 a donné lieu à deux principaux types d’explications : 
+
+
+
+la première fait valoir que l’effondrement du système bancaire est la cause première de la Grande Dépression, 
+
+
+
+la seconde considère que la baisse de la demande globale est à l’origine du déclin et de la crise. 
+
+
+
+Il s’agit donc à nouveau, comme pour la crise de 1873, d’un débat opposant les tenants de l’approche monétariste et les tenants de l’approche keynésienne.
+
+
+
+
+
+
+
+Petit retour sur les faits. Dans les années 1920, aux USA, tout allait bien en apparence : les salaires réels avaient augmenté de 10 à 20% depuis la guerre, le chômage était descendu à 3,2% en 1929, la croissance était forte (2,9% par an). 
+
+
+
+
+
+
+
+
+
+La bourse ne cessait de grimper et attirait toutes les catégories sociales, du financier jusqu’aux gens les plus simples (5% des ménages détenaient des actions en 1929). L’été 1929 connaît encore une flambée des cours (les cours des actions montent autant en 3 mois que sur l’ensemble de l’année 1928). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le jeudi noir, 24 octobre 1929, puis le mardi 29, deux vagues de paniques aboutirent à des ventes massives et une baisse des cours sans précédent. La chute de la production et l'explosion du chômage ne démarre qu’en mai 1930 et ne fera que s’approfondir jusqu’en 1932. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+§1 / La crise selon Milton Friedman : l’incapacité de la Banque Centrale américaine à stopper la baisse du stock de monnaie
+
+
+
+
+
+Milton Friedman met l’accent sur les restrictions monétaires. Selon lui, les faillites bancaires ont été causées par l’incapacité de la Réserve fédérale à accroître ses prêts aux banques ce qui a transformé une crise cyclique/conjoncturelle en une profonde dépression. 
+
+
+
+A l’origine de la dépression il accuse donc l’insuffisance de l’offre de monnaie qui s’explique par la panique bancaire, (cad) les retraits massifs de monnaie de la part des épargnants et la fermeture de milliers de banques. Les banques ont alors besoin de monnaie pour faire face à ces retraits. 
+
+
+
+Comment en obtenir ?
+
+
+
+Auprès de la banque centrale (« la banque des banques ») : 
+
+
+
+=> rôle de « prêteur en dernier ressort », c’est-à-dire que la banque centrale peut mettre en circulation de la monnaie supplémentaire en achetant des titres aux banques ou en leur accordant des crédits.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La Fed n’injecte pas les liquidités dont les banques ont besoin. Pourquoi ?
+
+
+
+Pour éviter de créer de l’inflation car si l’offre de monnaie augmente, le niveau général des prix augmente proportionnellement (MV=PT).
+
+
+
+Faute de monnaie suffisante, de nombreuses banques font faillite ce qui renforce encore la panique bancaire... Les épargnants se précipitent auprès des banques pour retirer leur argent, celles-ci ne peuvent faire face et la crise boursière se transforme en crise bancaire. 
+
+
+
+
+
+Mais si de nombreuses banques ferment, le robinet du crédit se réduit d’autant. Or moins de crédit signifie moins de financement de la consommation, de l’investissement. (effet perte de confiance). Ce qui affaiblit encore une demande minée par l’effondrement du cours des actions (appauvrissement des détenteurs de titres et difficultés de trésorerie des firmes affectée par la baisse des cours). 
+
+
+
+C’est ainsi que la crise bancaire se transforme en une crise économique.  
+
+
+
+Les faillites bancaires ont donc transformé une dépression mineure en crise majeure avec une baisse profonde du revenu et des prix. 
+
+
+
+
+
+La première panique bancaire aux USA, fin 1930, a conduit à un changement radical dans les comportements : 
+
+
+
+retraits et réduction des dépôts de la part de la clientèle
+
+
+
+augmentation des réserves pour les banques voulant se protéger.
+
+
+
+ Il en est alors résulté une chute de l’offre de monnaie : la masse monétaire passe de 45 milliards en 1929 à 32 en 1933. 
+
+
+
+Les autorités monétaires n’ont pas su empêcher cet effondrement en augmentant massivement leurs secours aux banques. La destruction du système bancaire américain explique la gravité de la dépression. Les faillites des banques provoquent un rationnement du crédit qui à son tour entraîne une chute de la consommation, de l’investissement et de la production. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pour Friedman, c’est donc bien l’erreur de stratégie de la FED qui explique la multiplication des crises bancaires entre octobre 1929 et mars 1933. La masse monétaire passe de 45 milliards en 1929 à 32 milliards en 1933.  Pour Friedman, l’erreur consista à avoir augmenté et maintenu à un niveau élevé les taux d’intérêt. 
+
+
+
+Non seulement la FED ne refinance pas les banques mais elle maintient à un niveau anormalement élevé (et même augmente fin 1929) les taux d’intérêt. La Réserve Fédérale augmente ses taux d’intérêt en 1929 pour contrer la spéculation en empêchant la sortie des capitaux : si les taux d’intérêt américains diminuent, les capitaux s’investissent à l’étranger, ce qui accentueraient les difficultés financières des entreprises américaines. Mais par la suite, une fois la crise déclenchée, elle maintien des taux anormalement élevés.
+
+
+
+ Au pire moment de la crise bancaire en 1930-1931 alors que les banques sont à cours de liquidités, la Fed réduit l’émission de monnaie. 
+
+
+
+
+
+Graves erreurs pour Friedman : une politique monétaire expansionniste (augmentation de l’offre de monnaie, baisse des taux d’intérêt) aurait donc pu éviter selon lui la propagation de la crise. D’ailleurs …
+
+
+
+6 mars 1933 :  banking holiday national , initié par la Fédéral Reserve, s’est traduit par une fermeture des banques sur tout le territoire des USA et a coïncidé avec la passation de pouvoir entre Hoover et Roosevelt.
+
+
+
+C’est cette conjonction entre mesure monétaire et changement politique qui est généralement considéré comme le facteur premier du retour à la confiance marquant la fin des crises bancaires.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+§2 / La crise selon Alvin Hansen : la baisse autonome de la dépense 
+
+
+
+Pour les keynésiens, l’insuffisance de la demande globale, la thésaurisation et la sous-consommation due à la trop forte inégalité des revenus sont à l’origine de la crise. 
+
+
+
+Pour Alvin Hansen, la grande crise s’est d’abord caractérisée par une baisse autonome (=exogène) de la dépense, c’est-à-dire de l’investissement et de la consommation. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C’est l’investissement dans la construction qui aurait, bien avant la crise, baissé le plus à la suite d’une construction résidentielle excessive au début des années 1920. La réduction de la consommation est quant à elle due au ralentissement de la croissance démographique (à la suite de l’arrêt de l’immigration en 1920) et aux conséquences du krach de 1929 lui-même. 
+
+
+
+
+
+
+
+
+
+La baisse durable de la dépense autonome a ensuite conduit, par le principe de multiplicateur (négatif ici) à la chute de la production. Moins de consommation entraîne aussi une moindre demande de crédit. La crise des banques apparaît alors comme la conséquence de ce processus initié par la baisse de la demande globale.
+
+
+
+
+
+
+
+
+
+Dans chacune de ces deux explications, monétariste ou keynésienne, les enchaînements de causalité par rapport aux évènements sont différents : l’hypothèse de la dépense considère les crises bancaires d’abord comme les conséquences de la dépression 
+
+Alors que l’analyse monétaire les voit comme la cause première de la crise.
+
+Dans le premier cas, le stock de monnaie diminue parce que la demande de monnaie a baissé, dans le second cas il diminue parce que l’offre de monnaie s’est réduite.
+
+
+
+
+
+Section 2 / La grande crise comme conséquence des déséquilibres internationaux
+
+
+
+Barry Eichengreen (1992) estime qu’au cours des années 1980, un consensus s’est institué pour considérer la Grande Dépression comme un phénomène mondial. 
+
+
+
+Dès 1973, Charles Kindelberger s’était plus particulièrement attaché à l’analyse du rôle de l’étalon or dans la diffusion internationale de la crise de 1929. Se trouvait également réhabilitée toute une littérature montrant que la crise résultait aussi de l’instabilité héritée de la première guerre mondiale et des transferts financiers qui en découleront, notamment les réparations et le paiement des dettes de guerre. Mais aussi Par l’absence de régulateur des déséquilibres internationaux
+
+
+
+
+
+Keynes avait d’ailleurs mis en garde contre les effets déstabilisateurs de ces transferts financiers qui détérioraient les termes de l’échange du principal pays débiteur : l’Allemagne
+
+
+
+
+
+
+
+§1 / Fuite des capitaux et étalon or
+
+
+
+
+
+Eichengreen a avancé que le déclin de l’économie américaine se serait étendu aux autres pays par l’intermédiaire de plusieurs canaux qui se seraient mutuellement renforcés. Ces canaux ont opéré efficacement parce que les économies nationales étaient liées les unes aux autres par les taux de change fixes de l’étalon or dans un contexte de déséquilibres financiers importants. 
+
+
+
+
+
+Premier canal de transmission : les mouvements de capitaux. 
+
+
+
+Parmi les canaux de diffusion de la crise figurent les fuites de capitaux. Alors que dans l’avant-guerre (av 1914), les mouvements de capitaux concernaient surtout les capitaux de court terme liés au financement du commerce international et financement de l’investissement. Dans les années 1920, les flux de capitaux s’inscrivent dans une logique politique : fuites de capitaux liées à la perte de confiance dans la politique de certains pays. 
+
+
+
+Une des causes premières de doutes, de méfiance tenait dans l’augmentation des déficits publics. Les capitaux américains s’investissent en Europe et contribuent à financer les déficits publics
+
+
+
+Lorsque Wall Street s’effondre, les flux de capitaux américains vers l’Europe s’arrêtent complètement et l’Allemagne et l’Autriche, les pays les plus endettés sont les premiers concernés par la crise américaine. 
+
+
+
+La crise de 1929 marque le coup d’arrêt à l’entrée de capitaux américains en Europe. Combiné à l’onde de choc qui touche les places boursières européennes, cet arrêt provoque la faillite d’une première grande banque à Vienne. 
+
+
+
+Cette faillite, en mai 1931, a été le point de départ d’une crise de confiance généralisée. Les pertes de la banque en faillite ont contribué à aggraver le déficit public dans la mesure où la banque centrale a dû reprendre ces pertes. 
+
+
+
+La France deviendra ainsi pour un temps un des pays refuge pour les capitaux en fuite de l’Autriche. Mais la faillite de cette banque autrichienne déclenche une panique qui s’étend à toute l’Europe centrale. Cette crise de confiance contamine ensuite l’Allemagne et progressivement les autres pays européens. La ruée aux guichets provoque en Allemagne des faillites en chaîne. 
+
+
+
+Le gouvernement décide la fermeture de toutes les banques pour trois jours afin d’éviter une panique. La crise économique suit, les entreprises à court de crédit doivent liquider leur production à bas prix, certaines disparaissent, le chômage augmente et la production baisse.
+
+
+
+L’Angleterre est ensuite la victime d’une spéculation contre sa monnaie 
+
+(=> spéculation contre différentes devises). Les détenteurs de livre sterling demandent massivement leur conversion en or. Le gouvernement décide de dévaluer la monnaie et finalement de renoncer à l’étalon or le 21 septembre 1931.
+
+Deuxième canal : le système monétaire international
+
+
+
+La méfiance généralisée envers la monnaie conduit à en demander la conversion en or. Faute de stocks d’or suffisants, les gouvernements dévaluent (=diminution du poids en or de la monnaie). Mais cela ne suffit pas
+
+
+
+Csq : sortie du système d’étalon or pays après pays
+
+
+
+La lutte contre le chômage, et non plus le maintien de la livre, devient prioritaire. Les demandes de conversion en or se porteront ensuite vers les USA qui à leur tour abandonnent l’étalon or en avril 1933. La Belgique, les Pays Bas et finalement la France en 1936 dévalueront à leur tour. C’est la fin de l’étalon or et l’établissement de taux de change flottants.
+
+
+
+
+
+
+
+§2 / Absence de régulateur international
+
+
+
+Pour Charles Kindleberger, la crise devient mondiale car les USA n’acceptent pas de jouer le rôle central de stabilisation de l’économie internationale et remplacer la Grande Bretagne. `
+
+
+
+Depuis la révolution industrielle, la Grande Bretagne est un pays ouvert et libre échangiste au centre des échanges internationaux de marchandises et de capitaux. Ses importations financent les exportations de ses partenaires, Ses investissements à l’étrangers financent l’industrialisation de pays moins avancés.
+
+
+
+Depuis la fin du XIXème, les USA mènent une politique protectionniste. Ils bloquent ainsi le développement des exportations européennes. Sans recettes d’exportations suffisantes, les pays européens ne peuvent rembourser leurs emprunts. Cette incohérence est à l’origine du déséquilibre des finances mondiales entre les deux guerres. 
+
+
+
+Pourquoi les USA ne reprennent-ils pas le rôle équilibrant de la Grande Bretagne ?
+
+
+
+On a avancé l’idée que cette absence américaine était due à un manque de maturité des dirigeants politiques mais la raison principale semble ailleurs. 
+
+
+
+L’Angleterre était au centre du système d’échanges et de paiements mondiaux, pays ouvert et libre échangiste, elle dépendait de ses relations économiques avec l’extérieur. Ce n’est pas le cas des USA qui étaient largement autosuffisants et repliés sur leur vaste marché interne. 
+
+
+
+Les USA avaient donc moins intérêt à agir comme régulateur international. 
+
+
+
+« En 1929, l’Angleterre ne pouvait plus stabiliser l’économie mondiale et l’Amérique ne le voulait pas ; quand chaque pays se mit à protéger ses intérêts nationaux propres, l’intérêt général fut évacué et avec lui les intérêts privés de chacune des nations » (Kindelberger). Il aurait notamment fallu que ces deux pays assurent des flux de prêts à long terme et une coordination des politiques économiques.

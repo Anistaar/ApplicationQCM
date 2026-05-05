@@ -1,0 +1,169 @@
+Chap 5:  un aperçu du commerce international 
+
+
+
+
+
+ Qui commerce avec qui ? 
+
+
+
+Figure 1 : Le commerce de la France et de l’UE avec leurs principaux partenaires
+
+
+
+Concentration géographique des échanges 
+
+Pour comprendre cela: étude des principaux déterminants des échanges mondiaux.  
+
+
+
+ Taille et disante : le modèle de gravité 
+
+
+
+Les cinq principaux partenaires commerciaux de la France sont tous européens : ALL; BEL, ITA, ESP et RU. 
+
+
+
+Pourquoi ces pays plutôt que d’autres ? 
+
+
+
+Tous géographiquement proches et ce sont de grandes économies (sauf en Belgique) 
+
+   Lien entre taille d’une économie et le volume de ses importations et exportations. 
+
+
+
+échanges de la Chine et du Japon avec l’UE sont comparables à ceux de la Suisse avec l’UE 
+
+La distance géographique influe sur le commerce 
+
+
+
+Figure 2: Les études empiriques montrent que les tailles économiques de deux pays et la
+
+distance qui les séparent suffisent à expliquer le commerce entre eux 
+
+ 
+
+
+
+Dans sa forme basique le modèle de gravit » suppose :  T ij= (A x Yi x Yj) / D ij 
+
+
+
+Tij = valeur de commerce entre le pays i et le pays j 
+
+A est une constante
+
+Yi le Pib du pays i 
+
+Yj le Pib du pays j 
+
+Dij = la distance entre le pays i et le pays j 
+
+
+
+Les estimations de l’effet distance à partir du modèle de gravité précédent qu’une augmentation de 1% dans la distance entre les pays est associée à une diminution du volume des échanges de 0,7% a 1%.
+
+
+
+Rq : Les accords commerciaux éliminent généralement les barrières formelles mais
+
+rarement toutes les entraves au commerce.
+
+
+
+Des études récentes montrent que même dans le cas de pays largement ouverts au libre-échange, les flux commerciaux entre deux régions d’un même pays sont nettement plus importants. On parle d’effet frontière  
+
+Ex : Provinces canadiennes / États américains 
+
+(Frontière, langue culture, ALENA) ; réduction du commerce comme si les 2 pays
+
+étaient distants de 2000 a 3000 km. 
+
+
+
+Des résultats similaires ont été trouvés pour l’UE; mais l’effet frontière est en
+
+baisse continue.
+
+
+
+
+
+
+
+II)  L’évolution de la structure du commerce mondial 
+
+
+
+Le commerce mondial est en constante évolution. Sa structure (cad, les principaux partenaires et la nature des biens échangés) est différente de ce qu’elle était il y a 1 ou 2 générations.
+
+Pour autant, la mondialisation n’est pas une phénomène nouveau, il y a des similitudes avec la fin du XIXe.
+
+
+
+ Le monde est-il devenu plus petit ? 
+
+
+
+Les techniques de transport modernes et les nouveaux moyens de télécommunication ont réduit l’impact des distances géographiques sur les relations économiques.
+
+
+
+Mais l’histoire montre aussi que les choix politiques en faveur du libre-échange peuvent l’emporter sur les effets de la technologie. 
+
+
+
+En effet, la mondialisation n’est pas une invention de la seconde moitié du XXe. Il y a eu 2 vagues de mondialisation :
+
+
+
+La première s’appuyait sur les chemins de fer, les bateaux a vapeur et la télégraphie 
+
+Elle prit fin entre 1914 et 1950, sous les effets conjugués des 2 guerres, de la grande
+
+dépression des années 1930 et un renouveau du protectionnisme .
+
+
+
+ Qu’échangeons - nous  
+
+
+
+ Les échanges de services 
+
+
+
+La production de services occupe une part prépondérante dans le PIB mondial, et
+
+plus encore dans celui des pays développés.
+
+
+
+Pourtant les échanges de services ne représentent qu’environ 1/5 du commerce
+
+mondial … Pourquoi ? 
+
+
+
+La part de services dans le commerce mondial n’a guère augmenté depuis la fin des années 1960. Mais cela masque un changement profond dans la nature des relations internationales.
+
+
+
+Dans les années 1970 près de la moitié des échanges de services était imputable aux
+
+transports et était associée au commerce de marchandises. 
+
+Mais avec la baisse des couts de transport, ce type d’échange a laissé place aux « autres services »
+
+
+
+Autres services = services culturels, commerciaux, informatique, financiers,
+
+juridiques, d’activités de R&D, etc. 
+
+La progression de ces services est un enjeu essentiel de la mondialisation.

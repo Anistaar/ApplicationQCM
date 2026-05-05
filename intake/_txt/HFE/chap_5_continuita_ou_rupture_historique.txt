@@ -1,0 +1,483 @@
+Chapitre 5 – L’histoire économique est-elle révolutionnaire ?
+
+
+
+Contrairement à ce que son nom peut laisser entendre, la révolution industrielle fut un phénomène très progressif (même si moins long que la révolution agricole…) : l’augmentation de la production, de la productivité et le changement technologique ont été très lents à se diffuser, les secteurs modernes sont restés longtemps marginaux et enfin les niveaux de vie des ouvriers n’ont pas été affectés avant 1830. Ce constat amène les économistes à se demander si l’histoire est une succession de ruptures ou une accélération continue.
+
+
+
+Section 1 / L’histoire économique comme succession de révolutions : Schumpeter
+
+Engels utilise le terme de révolution pour souligner le rôle de l’invention de la machine à vapeur et des machines textiles pour le travail du coton. Schumpeter emploie lui l’expression de « grappes d’innovation » pour désigner la multiplicité d’applications industrielles des inventions nouvelles. Leur point commun est de privilégier le rôle des techniques et mettre l’accent sur la rupture qu’ont constitué les débuts de l’industrialisation. 
+
+Pour Schumpeter, le moteur de l’évolution est l’innovation que met en œuvre l’entrepreneur. Celle-ci peut prendre 5 formes principales :
+
+la fabrication d’un produit nouveau,
+
+
+
+l’introduction d’une méthode de production nouvelle
+
+
+
+l’ouverture d’un nouveau débouché,
+
+
+
+la conquête d’une nouvelle source de matière première
+
+
+
+la mise en œuvre d’une nouvelle méthode d’organisation de la production
+
+
+
+Leur point commun tient dans leur caractère qualitatif et discontinu : il s’agit à chaque fois de ruptures par rapport aux procédés anciens, de modifications plus qualitatives que quantitatives : « ajoutez les uns derrière les autres autant de carrosses que vous voudrez, vous n’obtiendrez jamais pour autant un chemin de fer ».
+
+Les innovations arrivent par grappes car une découverte ouvre le champ à d’autres, à des imitateurs et entraîne de multiples applications. 
+
+De la croissance, il a donc donné l‘image d’un processus permanent de destructuration et de restructuration avec la disparition des anciennes combinaisons et l’introduction de nouvelles. 
+
+L’entrepreneur-innovateur introduit une nouvelle combinaison qui lui vaut un sur-profit (= recompense l’innovation🡪 espoir de gagner + que les autres), un profit d’innovation temporairement plus élevé que le profit habituel des capitaux investis. L’innovation se développe ensuite par imitation et entraine de multiples applications. L’économie traverse de ce fait une période de prospérité découlant d’une forte croissance de l’investissement. La demande globale est de ce fait soutenue et engendre un investissement induit qui soutient à son tour l’activité. 
+
+L’innovation est finalement absorbée par l’ensemble du système économique ce qui se traduit par une raréfaction puis une disparition des occasions de profit et donc d’investissement. Il apparaît alors une phase de dépression qui se transforme ensuite en récession. Au cours de cette phase, de nouvelles innovations sont en gestation et leur mise en œuvre va entraîner progressivement un mouvement de reprise préludant à une nouvelle phase de prospérité.
+
+
+
+Ce schéma théorique permet à Schumpeter de proposer une explication aux cycles longs de Kondratieff qui, dans ses travaux, se limite à un constat : les phases ascendantes se caractérisent par un mouvement général de hausse des prix alors que, au cours des phases descendantes, apparaît une tendance au ralentissement voire à la baisse des prix.
+
+déflation= baisse du niveau général des prix
+
+désinflation= ralentissement de la hausse du niveau général des prix
+
+dépréciation= perte de valeur de la monnaie nationale par rapport à 1 ou plusieurs monnaies étrangères (devises) 
+
+Schumpeter va ainsi expliquer ces phases datés par Kondratieff 
+
+
+
+dans les phases de croissance éco : les taux d’interet s’envole
+
+Chacune des grandes périodes d’expansion se caractériserait ainsi par la diffusion d’innovations technologiques majeures propre à chaque période envisagée.
+
+
+
+Section 2 / L’histoire économique comme dynamique conflictuelle : Karl Marx
+
+L’œuvre de Marx constitue la première tentative de faire une véritable théorie de l’histoire économique, un modèle explicatif permettant d’interpréter toute l’histoire humaine. 
+
+
+
+Selon la célèbre phrase de Schumpeter (Capitalisme, Socialisme et démocratie, 1942), « le mélange de Marx est chimique : […] il insère les données historiques dans l’argumentation même dont il fait dériver ses conclusions. Il fut le premier économiste de grande classe à reconnaître et à enseigner systématiquement comment la théorie économique peut être convertie en analyse historique et comment l’exposé historique peut être converti en histoire raisonnée ».
+
+
+
+Pour Marx, l’histoire de l’humanité est l’histoire de l’émancipation progressive des contraintes économiques au moyen d’un développement a priori illimité des forces productives (= capital et travail). Ce développement est orchestré dans le cadre de rapports de production 
+
+(= organisanisation de la production) qui, de période en période, finissent par devenir des contraintes objectives à la poursuite du processus. Seuls leur renversement et leur remplacement permettront à l’histoire de se poursuivre. 
+
+
+
+
+
+
+
+
+
+Pour comprendre le schéma marxien, il convient de rappeler sa conception générale du développement historique qu’il a admirablement résumé lui-même dans sa préface à la Contribution à la critique de l’économie politique (1859) :
+
+
+
+« Dans la production sociale de leur existence, les hommes entrent en des rapports déterminés, nécessaires, indépendants de leur volonté ; ces rapports de production correspondent à un degré de développement donné de leurs forces productives matérielles. L’ensemble de ces rapports de production constitue la structure économique de la société, la base réelle, sur quoi s’élève une superstructure juridique et politique et à laquelle correspondent des formes de conscience sociale déterminées. Le mode de production de la vie matérielle conditionne le procès de vie social, politique et intellectuel en général. Ce n’est pas la conscience des hommes qui détermine la réalité ; c’est au contraire la réalité sociale qui détermine leur conscience. A un certain stade de leur développement, les formes productives de la société entrent en contradiction avec les rapports de production existants ou, ce qui n’en est que l’expression juridique, avec les rapports de propriété à l’intérieur desquels elles s’étaient mues jusqu’alors. De formes évolutives des forces productives qu’ils étaient, ces rapports deviennent des entraves de ces forces. Alors s’ouvre une ère de révolution sociale ».
+
+
+
+Plus précisément, son modèle est celui du matérialisme historique :
+
+
+
+l’infrastructure économique de la société est composée des forces productives  matérielles et humaines (ressources, outils, connaissances, techniques, travail) et des rapports de production (ou organisation de la production) : relations entre les hommes à l’occasion des activités de production, par exemple les liens féodaux sur la terre ou la hiérarchie dans l’entreprise industrielle,…
+
+
+
+la superstructure juridique et politique qui recouvre les institutions, les lois et diverses formes de conscience sociale ou formes idéologiques comme les mœurs, la culture, les croyances,...
+
+
+
+Ce sont les contradictions qui apparaissent entre, d’une part, les forces productives conditionnées par les changements techniques et, d’autre part, l’organisation de la production qui expliquent les bouleversements sociaux. 
+
+Lorsque les rapports de production ne sont plus adaptés aux forces productives, et cela se produit parce qu’ils évoluent moins vite, la révolution sociale va permettre de les harmoniser en modifiant les rapports de production. Avec eux, toute la superstructure se transforme et s’adapte à la nouvelle société (exemple bien connu : la révolution de 1789, passage du féodalisme au capitalisme dans lequel les rapports de production et la superstructure de l’Ancien Régime sont balayés pour mettre en place l’organisation bourgeoise et libérale de la société). Le moteur de l’histoire réside donc dans les relations contradictoires entre forces productives et rapports de production.
+
+
+
+« Une société ne disparaît jamais avant que ce soit développées toutes les forces productives qu’elle est assez large pour contenir et jamais de nouveaux et supérieurs rapports de production ne se substituent à elle avant que les conditions d’existence matérielle de ces rapports aient été couvées dans le sein même de la vieille société. C’est pourquoi l’humanité ne se pose jamais que les problèmes qu’elle peut résoudre. » 
+
+
+
+Ce passage a une double importance :
+
+
+
+c’est une théorie de la révolution comme fruit mûr, préparé par une très longue maturation
+
+
+
+il existe une très longue période de transition entre un mode de production et un autre, période au cœur de laquelle mûrissent les nouvelles forces productives (schéma qui s’applique particulièrement bien aux XV-XVIIIe siècles)
+
+
+
+« Esquissés à grands traits, les modes de production asiatiques, antiques, féodaux et bourgeois modernes peuvent être désignés comme autant d’époques progressives de la formation sociale économiques ».
+
+
+
+C’est donc une vision globale de l’histoire humaine qui nous est proposée dont les phases historiques sont les suivantes :
+
+
+
+la communauté primitive : fable développement des forces productives, absence de classe)
+
+
+
+le mode de production antique : maître et esclaves (ou mode de production asiatique spécifique aux empires d’Asie et inconnu en Europe)
+
+
+
+le mode de production féodal : seigneur foncier et serfs/ agriculture et servage/artisanat et corpotations
+
+
+
+le mode bourgeois ou capitaliste : capitalistes et prolétaires/ proprieté privée et salariat 
+
+
+
+C’est donc dans ce cadre général que s’inscrit la période XVe-XVIIIe siècle
+
+
+
+« L’ordre économique capitaliste est sorti des entrailles de l’ordre économique féodal. La dissolution de l’un a dégagé les éléments constitutifs de l’autre. 
+
+ 
+
+
+
+
+
+
+
+point de départ et point d’arrivée : mode de production féodal et mode de production capitaliste
+
+
+
+Pour Marx, le féodalisme est un système caractérisé par la propriété féodale de la terre (mode d’exploitation dominant) et par le servage (forme sociale que prend la force de travail). Remarquons que par servage il ne désigne pas une forme juridique (attachement à la glèbe) mais la nature de la force de travail : le serf fournit gratuitement au propriétaire le surtravail. 
+
+
+
+
+
+surtravail= quantité de travail fournie par 1 travailleur au-delà de la quantité de travail correspondant à la valeur de la force de travail pour l’employeur 
+
+🡺 à l’origine de la plus-value 
+
+
+
+
+
+Or, quelle que soit la forme de ce surtravail dans le système féodal (rente en travail ou corvée, rente en nature, rente en monnaie) il s’agit d’un surtravail forcé qui ne résulte pas d’un libre contrat entre employeur et employé.
+
+
+
+Quant au point d’arrivée, il se définit lui aussi par une propriété dominante : celle des moyens de production et par une forme particulière de force de travail, le salariat, dans lequel la force de travail elle-même est devenue une marchandise qui s’achète et se vend sur le marché.
+
+
+
+
+
+Comment le travail s’est-il libéré ? 
+
+
+
+« Il ne se produit que là où le détenteur des moyens de production et de subsistance rencontre sur le marché le travailleur libre qui vient y vendre sa force de travail et cette unique condition historique recèle tout un monde nouveau. » Marx, Capital, livre 1, p.173
+
+
+
+
+
+transition
+
+
+
+La période XVe-XVIIIe siècle se définit donc comme la transition d’un mode à l’autre. Pour Marx, c’est la période de l’accumulation primitive
+
+
+
+« L’ordre économique capitaliste est sorti des entrailles de l’ordre économique féodal. La dissolution de l’un a dégagé les éléments constitutifs de l’autre. 
+
+Quant au travailleur, au producteur immédiat, pour pouvoir disposer de sa propre personne, il lui fallait d’abord cesser d’être attaché à la glèbe ou d’être inféodé à une autre personne ; il ne pouvait non plus devenir libre vendeur de travail apportant sa marchandise partout où elle trouve un marché, sans avoir échappé au régime des corporations avec leurs maîtrises, leurs jurandes,… Le mouvement historique qui convertit les producteurs en salariés se présente donc comme leur affranchissement du servage et de la hiérarchie industrielle. De l‘autre côté, ces affranchis ne deviennent vendeurs d’eux-mêmes qu’après avoir été dépouillés de tous leurs moyens de production et de toutes les garanties d’existence offertes par l’ancien ordre des choses. L’histoire de leur expropriation n’est pas matière à conjecture : elle est écrite dans les annales de l’humanité en lettres de feu indélébiles ».
+
+
+
+comment les capitalistes se sont-ils emparés des richesses ?
+
+
+
+« Quant aux capitalistes entrepreneurs, ces nouveaux potentats avaient à déplacer non seulement les maîtres des métiers mais aussi les détenteurs féodaux des sources de la richesse. Leur avènement se présente de ce côté-là comme le résultat d’une lutte victorieuse contre le pouvoir seigneurial, avec ses prérogatives révoltantes, et contre le régime corporatif, avec les entraves qu’il mettait au libre développement de la production et à la libre exploitation de l’homme par l’homme […].  
+
+Dans l’histoire de l’accumulation primitive, toutes les révolutions qui servent de levier à l‘avancement de la classe capitaliste en voie de formation font époque, celles surtout qui, dépouillant les grandes masses de leurs moyens de production et d’existence traditionnels, les lancent à l’improviste sur le marché du travail. Mais la base de toute cette évolution c’est l’expropriation des travailleurs. »
+
+
+
+corporation= associations de producteurs (artisans) disposant de monopole (i.e droit exclusif) de production et de vente sur le marché local
+
+
+
+Ce texte met donc l’accent sur un double mouvement :
+
+
+
+celui qui libère le travailleur (aux deux sens du mot : libéré de la servitude mais aussi de la protection des corporations et de l’usage de la terre) le contraignant à vendre librement la seule chose qui lui reste : sa force de travail.
+
+
+
+celui qui permet à une classe capitaliste de s’emparer des moyens de production à la fois aux dépens des féodaux et par la ruine des petits paysans. 
+
+
+
+
+
+(l’afflux de metaux precieux venant d’amerique créer de l’inflation)
+
+
+
+Dans le détail, Marx s’attache à montrer tout ce qui a favorisé ces deux mouvements : la révolution des prix du XVIe siècle due à l’afflux de métaux précieux américain qui avait accéléré la chute des salaires et de la rente féodale, la révolution agricoles (enclosures) qui a hâté l’expropriation des cultivateurs et favorisé le développement d’un marché national,…
+
+Le problème de ce schéma marxien est qu’il rend compte de processus mais ne rend pas compte des raisons qui entraîne le passage dans tel pays et à telle date. Il ne peut répondre à certaines questions essentielles : pourquoi et comment, au lieu d’une évolution linéaire, nous avons affaire à des périodes de changements, de stagnation voire de reculs qui affectent inégalement régions et nations ? A quel moment, en tel pays, se produit le seuil décisif à partir duquel nous entrons dans un autre univers ?
+
+
+
+Section 3 / L’histoire économique comme continuité linéaire : Rostow
+
+D’autres économistes considèrent la révolution industrielle comme une accélération plutôt que comme une rupture, comme un phénomène quantitatif et continu plutôt que qualitatif et brutal. La prise en compte du contexte général rend possible la définition de conditions préliminaires qui vont au-delà du rôle nécessaire mais non suffisant du progrès technique.
+
+Déjà dans les années 1960, Rostow posait le problème le problème non pas en termes de révolution mais de décollage dont il s’agit de découvrir les conditions. Son ouvrage Les Etapes de la croissance économique repose sur un modèle d’évolution en 5 étapes successives. 
+
+
+
+La raison de son succès tient au fait que le grand schéma de Rostow représente le plus clairement le concept de développement linéaire : la Grande Bretagne ouvrant la voie et les autres pays suivant avec retard.
+
+
+
+
+
+L’intention de l’auteur est explicitée par le sous-titre A non Communist Manifesto. On ne peut comprendre ce livre hors de l’ambiance de ces années : la croissance économique des USA et de l’Europe d’une part, les problèmes posés par les pays sous-développés d’autre part, ont fait reconsidérer le passé sous l’angle de la croissance et du décollage, c’est-à-dire du seuil qualitatif à partir duquel les sociétés s’écartent à jamais de la stagnation pour croître.
+
+
+
+- Première étape : la société traditionnelle : 
+
+
+
+La société traditionnelle de Rostow se définit par deux traits principaux. 
+
+
+
+Economique :
+
+
+
+« La caractéristique profonde de la société traditionnelle était que le rendement potentiel par individu ne pouvait dépasser un niveau maximum, parce que la société traditionnelle ne disposait pas des vastes possibilités qu’offrent la science et la technologie modernes ou ne savait pas les exploiter régulièrement et systématiquement ».
+
+
+
+En d’autres termes : production limitée, plafonnante à long terme, basée essentiellement sur une agriculture soumise aux caprices de la météo, avec faible investissement productif du revenu social (moins de 5%). Mais avec des possibilités de variations, de transformations, jusqu’au moment où le plafond est atteint.
+
+
+
+Deuxième caractéristique : un système de valeur qui ignore la science et repose sur un fatalisme à l’égard de la nature et de la vie mais avec des luttes de l’homme pour ne pas être prisonnier de cette nature.
+
+
+
+« En règle générale, l’échelle des valeurs de ces sociétés s’inspirait de ce qu’on pourrait appeler un fatalisme à long terme : autrement dit, il était admis que la gamme des possibilités offertes aux petits-enfants serait à peu près la même que celle qui était offerte aux grands-parents ».
+
+
+
+Newton (1643-1727, Philosophiae Naturalis Principia Mathematica) caractérise ici le moment où les hommes ont été de plus en plus nombreux à croire que le monde extérieur était assujetti à des lois connaissables et pouvait être organisé systématiquement en vue de la production. Newton, ayant écrit son livre en 1687, Rostow englobe sous cette rubrique toute l’histoire humaine jusqu’à la fin du XVIIe siècle, plus les sociétés sous-développées d’aujourd’hui.
+
+
+
+
+
+- Deuxième étape : les préconditions ou conditions préalable au démarrage. 
+
+
+
+Cette étape « est celle où se trouvent les sociétés en voie de transition, lorsqu’elles créent les conditions préalables au démarrage ; il faut du temps en effet pour que la société traditionnelle subisse la transformation qui lui permettra d’utiliser les ressources de la science moderne, d’empêcher une diminution des revenus et, ainsi, de jouir des bienfaits et des options que lui offre l’accumulation des intérêts composés ». 
+
+
+
+
+
+
+
+En décrivant cette phase, Rostow distingue deux types de situations :
+
+
+
+un cas particulier : celui des quelques nations qui sont nées libres (USA) ;
+
+un cas général : celui des vieux pays d’Europe ou des pays colonisés.
+
+
+
+Dans ce cas général, Rostow distingue ensuite, parmi les facteurs de transformation, les causes externes et les causes internes :
+
+
+
+causes externes : nationalisme, réaction des sociétés moins développées contre les différentes formes d’invasion de sociétés plus développées (concurrence commerciale, guerre, pillage, colonisation).
+
+
+
+« L’histoire montre en fait que le nationalisme – en réaction contre l‘intrusion de nations plus avancées – a été l’un des moteurs les plus puissants de la transition entre la société traditionnelle et la société moderne ».
+
+
+
+Par exemple, l’Angleterre des XVI-XVIIe siècles a eu comme moteur premier des transformations le défi lancé à l’Espagne et à la Contre-Réforme. Selon Rostow, cette cause externe est le plus fort des stimulants.
+
+
+
+parmi les causes internes, Rostow énumère trois grandes catégories : psychologiques, sociales et économiques. 
+
+
+
+Psychologiquement, il faut une modification radicale de l’attitude réelle de la société à l’égard de la science du progrès, de la possibilité de transformation de l’environnement naturel. 
+
+
+
+Transformation qui se fait au sein d’une élite :
+
+
+
+« Il faut absolument que les membres de cette élite nouvelle considèrent la modernisation comme une entreprise réalisable ».
+
+
+
+il faut qu’il y ait des individus capables d’utiliser la science pour abaisser les coûts de production, d’autres disposés à prêter leur argent pour soutenir les entrepreneurs,… 
+
+
+
+Transformation qui doit affecter aussi les masses.
+
+
+
+« Il faut que la population toute entière soit disposée à acceptée d’être formée en vue de faire fonctionner un système économique dont les méthodes se modifient constamment, qui emprisonnera de plus en plus étroitement l’individu dans de grandes organisations socialisées,… ».
+
+
+
+Sociologiquement, le fait décisif c’est la formation d’une élite nouvelle qui doit remplacer l’élite ancienne qui tenait son pouvoir de la proprieté foncière
+
+
+
+l’élite ancienne ne disparait pas forcement, elle peut se transformer en une élite nouvelle si elle investit ses revenus dans les nouveaux secteurs d’activité
+
+
+
+
+
+
+
+« Il doit se former une élite nouvelle qui, jusqu’à un certain point, doit se substituer dans l‘ordre social et politique à l’ancienne élite qui tenait son pouvoir de la propriété foncière et qui doit perdre son ancien privilège de disposer de revenus supérieurs lorsqu’elle se révèle incapable d’investir ses revenus dans le secteur moderne ».
+
+
+
+Economiquement, l’analyse de Rostow est plus floue car elle mêle observations et conseils destinés aux pays sous-développés. 
+
+
+
+Observation : c’est d’abord le fait que l’agriculture et les industries extractives jouent, pendant cette période, un rôle capital,
+
+ 
+
+d’une part en permettant, grâce à une agriculture plus productive, l’alimentation de la population urbaine et industrielle naissante, 
+
+
+
+d’autre part, en créant des réserves d’épargne qui stimulent les créations d’industries et permettent  à l‘Etat de prendre des initiatives économiques.
+
+
+
+« Des changements révolutionnaires dans la productivité agricole sont une condition essentielle pour la réussite du take-off ».
+
+
+
+Conseils aux pays sous-développés : le pourcentage de la population agricole doit passer sous les 75%, le taux de natalité doit baisser, l’épargne doit s’investir dans les routes, les usines, les chemins de fer…
+
+
+
+
+
+- Troisième étape : le take-off ou démarrage lui-même. 
+
+
+
+« La période durant laquelle la société finit par renverser les obstacles et les barrages qui s’opposaient à sa croissance régulière. Les facteurs de progrès économique qui, jusqu’ici, n’ont agi que sporadiquement et avec une efficacité restreinte, élargissent leur action et en viennent à dominer la société. La croissance devient la fonction normale de l’économie ».
+
+
+
+Concrètement, le taux d’investissement du revenu national passe à plus de 10%. 
+
+
+
+Quand il s’agit de déterminer la cause décisive qui entraîne le take-off, Rostow est très éclectique : tantôt il découvre un stimulus purement économique et technique (USA, Australie, Suède), tantôt un facteur politique (révolution de 1848 en Allemagne, restauration du Meiji en 1868, victoire communiste en Chine en 1949,…), tantôt une guerre… Mais de toute façon, ce stimulus joue un rôle secondaire. Ce qui importe c’est « le fait qu’en raison de son évolution antérieure, la société et ses structures soient capables d’y agir ».
+
+
+
+En quoi consiste le take-off ? la réponse est double chez Rostow : 
+
+
+
+d’une part dans la proportion des innovations qui est acceptée par la société ; 
+
+
+
+d’autre part, dans l’augmentation régulière du taux d’investissement (de 5 à 10%). Mais pour qu’il y ait acceptation il faut la mise en place d’un appareil politique, social et institutionnel qui exploite les tendances à l’expansion.
+
+- Quatrième étape : la marche vers la maturité qui commence en 1850 pour la Grande Bretagne, 1910 en France, 1950 pour la Russie et le Canada. 
+
+Le démarrage est suivi d’une longue période de croissance soutenue pendant laquelle les innovations technologiques se diffusent à toute l’économie. 
+
+
+
+Les industries anciennes, celles qui ont permis le démarrage (textile, agroalimentaire,…) perdent de l’importance au profit d’industries nouvelles plus dynamiques (chimie,…) qui jouent un rôle moteur dans la poursuite de la croissance. Les secteurs secondaires et tertiaires se développent au détriment du secteur primaire. 
+
+Le taux d’investissement productif continue d’augmenter pour se situer entre 10 et 20% du revenu national.
+
+
+
+
+
+- Cinquième étape : l’ère de consommation de masse dans laquelle les USA sont entrés depuis 1912-13. Cette étape est atteinte par les sociétés matures et se caractérise par :
+
+déplacement de l’intérêt de la société de la production vers la consommation et le bien être social.
+
+
+
+Les biens de consommations durables (voitures, appareils ménagers,…) et les services deviennent les secteurs clés de l’économie.
+
+
+
+La société devient en mesure de mettre en place des organismes de protection sociale.
+
+
+
+Au niveau extérieur, cette étape se caractérise par une recherche sérieuse de la puissance, ce qui se traduit par une augmentation des dépenses militaires.
+
+
+
+
+
+
+
+Problème chez Rostow : on se trouve devant une description et non une explication. Pourtant, la plupart des notions forgées par Rostow sont restées et font partie de la trousse à outil de l’économiste et de l’historien. La raison de ce succès est que le grand schéma de Rostow représente de la façon la plus claire le concept de développement linéaire, la Grande Bretagne ouvrant la voie et les autres pays suivant avec retard.
+
+
+
+Mais la critique la plus violente fut portée par Gerschenkron qui montre que l’analyse de Rostow est circulaire car à la question : comment la croissance a commencé ? on répond parce que les conditions préalables ont été réunies et à la question : comment sait-on que les conditions préalables ont été réunies ? la réponse est : parce que la croissance a commencé...

@@ -1,0 +1,290 @@
+/**
+ * IndexedDBAdapter.ts
+ * Storage adapter avec IndexedDB (500MB) + fallback localStorage (10MB)
+ * API async compatible avec StatsManager
+ */
+export class IndexedDBAdapter {
+    constructor() {
+        this.db = null;
+        this.backend = 'indexeddb';
+        this.DB_NAME = 'text2quiz_storage';
+        this.DB_VERSION = 1;
+        this.STORE_NAME = 'stats';
+        this.initPromise = null;
+        // Singleton
+    }
+    static getInstance() {
+        if (!IndexedDBAdapter.instance) {
+            IndexedDBAdapter.instance = new IndexedDBAdapter();
+        }
+        return IndexedDBAdapter.instance;
+    }
+    /**
+     * Initialize IndexedDB (ou fallback localStorage)
+     */
+    async init() {
+        if (this.initPromise) {
+            return this.initPromise;
+        }
+        this.initPromise = this._init();
+        return this.initPromise;
+    }
+    async _init() {
+        // Check IndexedDB support
+        if (!this.isIndexedDBAvailable()) {
+            console.warn('[Storage] IndexedDB not available, falling back to localStorage');
+            this.backend = 'localstorage';
+            return;
+        }
+        try {
+            this.db = await this.openDatabase();
+            this.backend = 'indexeddb';
+            console.log('[Storage] IndexedDB initialized successfully');
+        }
+        catch (error) {
+            console.error('[Storage] IndexedDB init failed, falling back to localStorage:', error);
+            this.backend = 'localstorage';
+        }
+    }
+    isIndexedDBAvailable() {
+        try {
+            return typeof indexedDB !== 'undefined';
+        }
+        catch {
+            return false;
+        }
+    }
+    openDatabase() {
+        return new Promise((resolve, reject) => {
+            const request = indexedDB.open(this.DB_NAME, this.DB_VERSION);
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve(request.result);
+            request.onupgradeneeded = (event) => {
+                const db = event.target.result;
+                // Create object store if doesn't exist
+                if (!db.objectStoreNames.contains(this.STORE_NAME)) {
+                    const objectStore = db.createObjectStore(this.STORE_NAME, { keyPath: 'id' });
+                    objectStore.createIndex('lastReviewDate', 'lastReviewDate', { unique: false });
+                    console.log('[Storage] Created object store:', this.STORE_NAME);
+                }
+            };
+        });
+    }
+    /**
+     * Get single stat by question ID
+     */
+    async get(questionId) {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            return this.getFromLocalStorage(questionId);
+        }
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORE_NAME], 'readonly');
+            const store = transaction.objectStore(this.STORE_NAME);
+            const request = store.get(questionId);
+            request.onsuccess = () => resolve(request.result || null);
+            request.onerror = () => reject(request.error);
+        });
+    }
+    /**
+     * Get all stats (for bulk operations)
+     */
+    async getAll() {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            return this.getAllFromLocalStorage();
+        }
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORE_NAME], 'readonly');
+            const store = transaction.objectStore(this.STORE_NAME);
+            const request = store.getAll();
+            request.onsuccess = () => {
+                const stats = request.result;
+                const result = {};
+                stats.forEach((stat) => {
+                    const { id, ...statData } = stat;
+                    result[id] = statData;
+                });
+                resolve(result);
+            };
+            request.onerror = () => reject(request.error);
+        });
+    }
+    /**
+     * Set single stat
+     */
+    async set(questionId, stat) {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            return this.setToLocalStorage(questionId, stat);
+        }
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORE_NAME], 'readwrite');
+            const store = transaction.objectStore(this.STORE_NAME);
+            const request = store.put({ id: questionId, ...stat });
+            request.onsuccess = () => resolve();
+            request.onerror = () => reject(request.error);
+        });
+    }
+    /**
+     * Set multiple stats (batch)
+     */
+    async setAll(stats) {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            return this.setAllToLocalStorage(stats);
+        }
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORE_NAME], 'readwrite');
+            const store = transaction.objectStore(this.STORE_NAME);
+            let completed = 0;
+            const total = Object.keys(stats).length;
+            let hasError = false;
+            Object.entries(stats).forEach(([id, stat]) => {
+                const request = store.put({ id, ...stat });
+                request.onsuccess = () => {
+                    completed++;
+                    if (completed === total && !hasError) {
+                        resolve();
+                    }
+                };
+                request.onerror = () => {
+                    if (!hasError) {
+                        hasError = true;
+                        reject(request.error);
+                    }
+                };
+            });
+        });
+    }
+    /**
+     * Delete single stat
+     */
+    async delete(questionId) {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            return this.deleteFromLocalStorage(questionId);
+        }
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORE_NAME], 'readwrite');
+            const store = transaction.objectStore(this.STORE_NAME);
+            const request = store.delete(questionId);
+            request.onsuccess = () => resolve();
+            request.onerror = () => reject(request.error);
+        });
+    }
+    /**
+     * Clear all stats
+     */
+    async clear() {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            return this.clearLocalStorage();
+        }
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORE_NAME], 'readwrite');
+            const store = transaction.objectStore(this.STORE_NAME);
+            const request = store.clear();
+            request.onsuccess = () => resolve();
+            request.onerror = () => reject(request.error);
+        });
+    }
+    /**
+     * Get storage info (size estimate)
+     */
+    async getStorageInfo() {
+        await this.init();
+        if (this.backend === 'localstorage') {
+            // Estimate localStorage size
+            let size = 0;
+            for (let key in localStorage) {
+                if (localStorage.hasOwnProperty(key)) {
+                    size += localStorage[key].length + key.length;
+                }
+            }
+            return { backend: 'localstorage', estimatedSize: size };
+        }
+        // IndexedDB estimate (if navigator.storage available)
+        if (navigator.storage && navigator.storage.estimate) {
+            try {
+                const estimate = await navigator.storage.estimate();
+                return {
+                    backend: 'indexeddb',
+                    estimatedSize: estimate.usage,
+                };
+            }
+            catch (e) {
+                console.warn('[Storage] Could not estimate IndexedDB size:', e);
+            }
+        }
+        return { backend: 'indexeddb' };
+    }
+    // ========== LocalStorage fallback methods ==========
+    getFromLocalStorage(questionId) {
+        const key = `text2quiz_stat_${questionId}`;
+        const value = localStorage.getItem(key);
+        return value ? JSON.parse(value) : null;
+    }
+    getAllFromLocalStorage() {
+        const stats = {};
+        const prefix = 'text2quiz_stat_';
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(prefix)) {
+                const questionId = key.substring(prefix.length);
+                const value = localStorage.getItem(key);
+                if (value) {
+                    stats[questionId] = JSON.parse(value);
+                }
+            }
+        }
+        return stats;
+    }
+    setToLocalStorage(questionId, stat) {
+        const key = `text2quiz_stat_${questionId}`;
+        localStorage.setItem(key, JSON.stringify(stat));
+    }
+    setAllToLocalStorage(stats) {
+        Object.entries(stats).forEach(([id, stat]) => {
+            this.setToLocalStorage(id, stat);
+        });
+    }
+    deleteFromLocalStorage(questionId) {
+        const key = `text2quiz_stat_${questionId}`;
+        localStorage.removeItem(key);
+    }
+    clearLocalStorage() {
+        const prefix = 'text2quiz_stat_';
+        const keysToDelete = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(prefix)) {
+                keysToDelete.push(key);
+            }
+        }
+        keysToDelete.forEach(key => localStorage.removeItem(key));
+    }
+    /**
+     * Migrate from old localStorage format to IndexedDB
+     */
+    async migrateFromLocalStorage() {
+        if (this.backend !== 'indexeddb') {
+            console.warn('[Storage] Cannot migrate: not using IndexedDB');
+            return 0;
+        }
+        const oldStats = this.getAllFromLocalStorage();
+        const count = Object.keys(oldStats).length;
+        if (count === 0) {
+            console.log('[Storage] No stats to migrate');
+            return 0;
+        }
+        console.log(`[Storage] Migrating ${count} stats to IndexedDB...`);
+        await this.setAll(oldStats);
+        // Optionally clear old localStorage after successful migration
+        // this.clearLocalStorage();
+        console.log(`[Storage] Migration complete: ${count} stats`);
+        return count;
+    }
+}
+// Export singleton instance
+export const storageAdapter = IndexedDBAdapter.getInstance();

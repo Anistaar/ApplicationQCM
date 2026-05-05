@@ -1,0 +1,197 @@
+{
+  "id": "STATS",
+  "name": "Statistiques Descriptives",
+  "version": "2.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-11-30",
+  "description": "Cours statistiques L1 - Bases, Visualisation, Tendance centrale, Dispersion",
+  "chapters": [
+    {
+      "id": "S1",
+      "number": "1",
+      "name": "Notions de base",
+      "description": "Vocabulaire, types variables, effectifs/fréquences, classes",
+      "sections": [
+        {
+          "id": "S1-I",
+          "romanNumeral": "I",
+          "name": "Vocabulaire fondamental",
+          "subsections": [
+            {"id": "S1-I-1", "number": "1", "name": "Définitions", "notions": [{"id": "S1-I-1a", "name": "Population et échantillon", "description": "Population (Ω) : ensemble étudié. Échantillon (O) : sous-ensemble représentatif. Individu (ω)", "tags": ["Base"], "difficulty": "Facile", "estimatedTime": 6}, {"id": "S1-I-1b", "name": "Variable et modalité", "description": "Variable (X) : caractère observé. Modalité : valeur prise par variable", "tags": ["Base"], "difficulty": "Facile", "estimatedTime": 5}], "estimatedTime": 11},
+            {"id": "S1-I-2", "number": "2", "name": "Types de variables", "notions": [{"id": "S1-I-2a", "name": "Variables qualitatives", "description": "Nominale (sans ordre : couleur, pays). Ordinale (avec ordre : diplôme, appréciation)", "tags": ["Variables"], "difficulty": "Facile", "estimatedTime": 7}, {"id": "S1-I-2b", "name": "Variables quantitatives", "description": "Discrète (entiers : nb enfants). Continue (réels : taille, revenu)", "tags": ["Variables"], "difficulty": "Facile", "estimatedTime": 7}], "estimatedTime": 14}
+          ],
+          "estimatedTime": 25
+        },
+        {
+          "id": "S1-II",
+          "romanNumeral": "II",
+          "name": "Effectifs et fréquences",
+          "subsections": [
+            {"id": "S1-II-1", "number": "1", "name": "Effectifs", "notions": [{"id": "S1-II-1a", "name": "Effectif partiel et total", "description": "n_i = nombre individus modalité i. N = Σn_i (effectif total)", "tags": ["Effectifs"], "difficulty": "Facile", "estimatedTime": 6, "relatedFormulas": ["F-effectif"]}, {"id": "S1-II-1b", "name": "Effectifs cumulés", "description": "ECC (croissant) : cumul jusqu'à i. ECD (décroissant) : cumul depuis i", "tags": ["Effectifs"], "difficulty": "Moyen", "estimatedTime": 8}], "estimatedTime": 14},
+            {"id": "S1-II-2", "number": "2", "name": "Fréquences", "notions": [{"id": "S1-II-2a", "name": "Fréquence simple", "description": "f_i = n_i/N. Proportion individus modalité i. Σf_i = 1", "tags": ["Fréquences"], "difficulty": "Facile", "estimatedTime": 7, "relatedFormulas": ["F-frequence"]}, {"id": "S1-II-2b", "name": "Fréquences cumulées", "description": "FCC : cumul fréquences jusqu'à i. FCD : cumul depuis i", "tags": ["Fréquences"], "difficulty": "Moyen", "estimatedTime": 8}], "estimatedTime": 15}
+          ],
+          "estimatedTime": 29
+        },
+        {
+          "id": "S1-III",
+          "romanNumeral": "III",
+          "name": "Regroupement en classes",
+          "subsections": [
+            {"id": "S1-III-1", "number": "1", "name": "Caractéristiques classes", "notions": [{"id": "S1-III-1a", "name": "Amplitude et centre", "description": "Amplitude A = b-a (classe [a,b[). Centre C = (a+b)/2", "tags": ["Classes"], "difficulty": "Facile", "estimatedTime": 7, "relatedFormulas": ["F-amplitude", "F-centre"]}, {"id": "S1-III-1b", "name": "Nombre de classes", "description": "Règle Sturge : k ≈ 1+3,3×log₁₀(N). Règle Yule : k ≈ 2,5×N^(1/4)", "tags": ["Classes"], "difficulty": "Moyen", "estimatedTime": 9, "relatedFormulas": ["F-sturge"]}], "estimatedTime": 16}
+          ],
+          "estimatedTime": 16
+        }
+      ],
+      "estimatedTime": 70,
+      "icon": "📊"
+    },
+    {
+      "id": "S2",
+      "number": "2",
+      "name": "Visualisation",
+      "description": "Graphiques qualitatifs/quantitatifs, histogramme, boxplot",
+      "sections": [
+        {
+          "id": "S2-I",
+          "romanNumeral": "I",
+          "name": "Principes généraux",
+          "subsections": [
+            {"id": "S2-I-1", "number": "1", "name": "Règles graphiques", "notions": [{"id": "S2-I-1a", "name": "Éléments obligatoires", "description": "Titre explicite, axes gradués/libellés, légende, source, note lecture", "tags": ["Graphique"], "difficulty": "Facile", "estimatedTime": 6}, {"id": "S2-I-1b", "name": "Erreurs à éviter", "description": "Échelles déformantes, pourcentages >100%, comparaisons invalides, surcharge", "tags": ["Graphique"], "difficulty": "Moyen", "estimatedTime": 8}], "estimatedTime": 14}
+          ],
+          "estimatedTime": 14
+        },
+        {
+          "id": "S2-II",
+          "romanNumeral": "II",
+          "name": "Graphiques variables qualitatives",
+          "subsections": [
+            {"id": "S2-II-1", "number": "1", "name": "Types graphiques qualitatifs", "notions": [{"id": "S2-II-1a", "name": "Diagramme barres", "description": "Barres verticales/horizontales. Hauteur proportionnelle effectif/fréquence", "tags": ["Graphique"], "difficulty": "Facile", "estimatedTime": 6}, {"id": "S2-II-1b", "name": "Diagramme circulaire", "description": "Camembert : angle secteur proportionnel fréquence. α_i = 360°×f_i", "tags": ["Graphique"], "difficulty": "Facile", "estimatedTime": 7}], "estimatedTime": 13}
+          ],
+          "estimatedTime": 13
+        },
+        {
+          "id": "S2-III",
+          "romanNumeral": "III",
+          "name": "Graphiques variables quantitatives",
+          "subsections": [
+            {"id": "S2-III-1", "number": "1", "name": "Histogramme", "notions": [{"id": "S2-III-1a", "name": "Histogramme", "description": "Classes continues. Aire rectangle proportionnelle effectif (hauteur = densité = n_i/A_i)", "tags": ["Graphique"], "difficulty": "Moyen", "estimatedTime": 10, "relatedFormulas": ["F-histo"]}], "estimatedTime": 10},
+            {"id": "S2-III-2", "number": "2", "name": "Autres graphiques", "notions": [{"id": "S2-III-2a", "name": "Polygone effectifs", "description": "Ligne reliant centres classes. Coordonnées (C_i, n_i)", "tags": ["Graphique"], "difficulty": "Facile", "estimatedTime": 7}, {"id": "S2-III-2b", "name": "Courbe cumulative", "description": "Ogive : courbe FCC ou FCD. Forme S (sigmoïde). Permet lire médiane, quartiles", "tags": ["Graphique"], "difficulty": "Moyen", "estimatedTime": 9}, {"id": "S2-III-2c", "name": "Boxplot", "description": "Boîte à moustaches : Q1-Me-Q3 (boîte), Min/Max (moustaches), outliers. Visualisation centre+dispersion+asymétrie", "tags": ["Graphique"], "difficulty": "Moyen", "estimatedTime": 10, "relatedNotions": ["S3-II-1a"]}], "estimatedTime": 26}
+          ],
+          "estimatedTime": 36
+        }
+      ],
+      "estimatedTime": 63,
+      "icon": "📈"
+    },
+    {
+      "id": "S3",
+      "number": "3",
+      "name": "Tendance centrale",
+      "description": "Mode, médiane, quartiles, moyennes arithmétique/géométrique/harmonique",
+      "sections": [
+        {
+          "id": "S3-I",
+          "romanNumeral": "I",
+          "name": "Mode",
+          "subsections": [
+            {"id": "S3-I-1", "number": "1", "name": "Mode", "notions": [{"id": "S3-I-1a", "name": "Mode", "description": "Modalité/valeur la plus fréquente (effectif max). Discret : valeur directe. Continu : classe modale, interpolation Czuber", "tags": ["Tendance"], "difficulty": "Facile", "estimatedTime": 8}, {"id": "S3-I-1b", "name": "Distribution multimodale", "description": "Plusieurs modes si plusieurs maxima locaux. Unimodale, bimodale, multimodale", "tags": ["Tendance"], "difficulty": "Moyen", "estimatedTime": 7}], "estimatedTime": 15}
+          ],
+          "estimatedTime": 15
+        },
+        {
+          "id": "S3-II",
+          "romanNumeral": "II",
+          "name": "Médiane et quantiles",
+          "subsections": [
+            {"id": "S3-II-1", "number": "1", "name": "Médiane", "notions": [{"id": "S3-II-1a", "name": "Médiane", "description": "Valeur centrale : 50% ≤ Me. Si n impair : x_{(n+1)/2}. Si n pair : (x_{n/2}+x_{(n/2)+1})/2. Robuste outliers", "tags": ["Tendance"], "difficulty": "Moyen", "estimatedTime": 10, "relatedFormulas": ["F-mediane"]}], "estimatedTime": 10},
+            {"id": "S3-II-2", "number": "2", "name": "Quartiles et autres quantiles", "notions": [{"id": "S3-II-2a", "name": "Quartiles", "description": "Q1 (25%), Me=Q2 (50%), Q3 (75%). Divisent série en 4 parties égales", "tags": ["Tendance"], "difficulty": "Moyen", "estimatedTime": 9, "relatedNotions": ["S3-II-1a"]}, {"id": "S3-II-2b", "name": "Déciles et percentiles", "description": "Déciles D1-D9 (10% chacun). Percentiles P1-P99 (1%). D9/D1 mesure inégalités", "tags": ["Tendance"], "difficulty": "Moyen", "estimatedTime": 10}], "estimatedTime": 19}
+          ],
+          "estimatedTime": 29
+        },
+        {
+          "id": "S3-III",
+          "romanNumeral": "III",
+          "name": "Moyennes",
+          "subsections": [
+            {"id": "S3-III-1", "number": "1", "name": "Moyenne arithmétique", "notions": [{"id": "S3-III-1a", "name": "Moyenne arithmétique", "description": "x̄ = Σx_i/n. Simple ou pondérée : Σ(w_i×x_i)/Σw_i. Sensible outliers. Σ(x_i-x̄)=0", "tags": ["Tendance"], "difficulty": "Facile", "estimatedTime": 9, "relatedFormulas": ["F-moyenne"]}, {"id": "S3-III-1b", "name": "Transformations linéaires", "description": "Si Y=aX+b alors ȳ=ax̄+b. Conservation structure", "tags": ["Tendance"], "difficulty": "Moyen", "estimatedTime": 8, "relatedNotions": ["S3-III-1a"]}], "estimatedTime": 17},
+            {"id": "S3-III-2", "number": "2", "name": "Moyenne géométrique", "notions": [{"id": "S3-III-2a", "name": "Moyenne géométrique", "description": "G = (Πx_i)^(1/n). Usage : taux croissance successifs. Exemple : +20% puis +25% → G ≈ 22,47%", "tags": ["Tendance"], "difficulty": "Difficile", "estimatedTime": 12, "relatedFormulas": ["F-geo"]}], "estimatedTime": 12},
+            {"id": "S3-III-3", "number": "3", "name": "Moyenne harmonique", "notions": [{"id": "S3-III-3a", "name": "Moyenne harmonique", "description": "H = n/Σ(1/x_i). Usage : moyennes vitesses, taux. Inégalité : H ≤ G ≤ x̄", "tags": ["Tendance"], "difficulty": "Difficile", "estimatedTime": 12, "relatedFormulas": ["F-harmo"], "relatedNotions": ["S3-III-2a", "S3-III-1a"]}], "estimatedTime": 12}
+          ],
+          "estimatedTime": 41
+        }
+      ],
+      "estimatedTime": 85,
+      "icon": "📍"
+    },
+    {
+      "id": "S4",
+      "number": "4",
+      "name": "Mesures de dispersion",
+      "description": "Étendue, variance, écart-type, coefficient variation, Gini",
+      "sections": [
+        {
+          "id": "S4-I",
+          "romanNumeral": "I",
+          "name": "Mesures simples",
+          "subsections": [
+            {"id": "S4-I-1", "number": "1", "name": "Étendue", "notions": [{"id": "S4-I-1a", "name": "Étendue", "description": "E = X_max - X_min. Simple mais sensible outliers", "tags": ["Dispersion"], "difficulty": "Facile", "estimatedTime": 6, "relatedFormulas": ["F-etendue"]}], "estimatedTime": 6},
+            {"id": "S4-I-2", "number": "2", "name": "Écart interquartile", "notions": [{"id": "S4-I-2a", "name": "Écart interquartile IQR", "description": "IQR = Q3-Q1. Dispersion 50% central. Robuste outliers", "tags": ["Dispersion"], "difficulty": "Moyen", "estimatedTime": 8, "relatedFormulas": ["F-iqr"], "relatedNotions": ["S3-II-2a"]}], "estimatedTime": 8}
+          ],
+          "estimatedTime": 14
+        },
+        {
+          "id": "S4-II",
+          "romanNumeral": "II",
+          "name": "Variance et écart-type",
+          "subsections": [
+            {"id": "S4-II-1", "number": "1", "name": "Variance", "notions": [{"id": "S4-II-1a", "name": "Variance", "description": "V = Σ(x_i-x̄)²/n ou V = Σx_i²/n - x̄² (König-Huygens). Unité carré. V=E[X²]-(E[X])²", "tags": ["Dispersion"], "difficulty": "Moyen", "estimatedTime": 12, "relatedFormulas": ["F-variance"]}], "estimatedTime": 12},
+            {"id": "S4-II-2", "number": "2", "name": "Écart-type", "notions": [{"id": "S4-II-2a", "name": "Écart-type", "description": "σ = √V. Même unité que X. Dispersion absolue autour moyenne. Règle : ~68% dans [x̄-σ, x̄+σ]", "tags": ["Dispersion"], "difficulty": "Moyen", "estimatedTime": 10, "relatedFormulas": ["F-ecarttype"], "relatedNotions": ["S4-II-1a"]}], "estimatedTime": 10},
+            {"id": "S4-II-3", "number": "3", "name": "Transformations", "notions": [{"id": "S4-II-3a", "name": "Transformations variance", "description": "Si Y=aX+b : V_Y = a²×V_X, σ_Y = |a|×σ_X. Translation change pas dispersion", "tags": ["Dispersion"], "difficulty": "Difficile", "estimatedTime": 11, "relatedNotions": ["S4-II-1a", "S4-II-2a"]}], "estimatedTime": 11}
+          ],
+          "estimatedTime": 33
+        },
+        {
+          "id": "S4-III",
+          "romanNumeral": "III",
+          "name": "Dispersion relative",
+          "subsections": [
+            {"id": "S4-III-1", "number": "1", "name": "Coefficient de variation", "notions": [{"id": "S4-III-1a", "name": "Coefficient variation CV", "description": "CV = (σ/x̄)×100. Sans unité : dispersion relative. Compare séries unités différentes. Translation change CV", "tags": ["Dispersion"], "difficulty": "Moyen", "estimatedTime": 11, "relatedFormulas": ["F-cv"], "relatedNotions": ["S4-II-2a", "S3-III-1a"]}], "estimatedTime": 11},
+            {"id": "S4-III-2", "number": "2", "name": "Coefficient de Gini", "notions": [{"id": "S4-III-2a", "name": "Coefficient Gini", "description": "Mesure inégalités revenus. 0 = égalité parfaite, 1 = inégalité max. Aire sous courbe Lorenz. France ~0,3", "tags": ["Dispersion", "Inégalités"], "difficulty": "Difficile", "estimatedTime": 13, "relatedNotions": ["S3-II-2b"]}], "estimatedTime": 13}
+          ],
+          "estimatedTime": 24
+        }
+      ],
+      "estimatedTime": 71,
+      "icon": "📏"
+    }
+  ],
+  "crossCutting": {
+    "formulas": {
+      "id": "formulas",
+      "name": "📐 Formules",
+      "items": [
+        {"id": "F-effectif", "name": "Effectif total", "formula": "N = Σn_i", "tags": ["Formule"], "relatedNotions": ["S1-II-1a"], "difficulty": "Facile"},
+        {"id": "F-frequence", "name": "Fréquence", "formula": "f_i = n_i/N", "tags": ["Formule"], "relatedNotions": ["S1-II-2a"], "difficulty": "Facile"},
+        {"id": "F-amplitude", "name": "Amplitude classe", "formula": "A = b - a", "tags": ["Formule"], "relatedNotions": ["S1-III-1a"], "difficulty": "Facile"},
+        {"id": "F-centre", "name": "Centre classe", "formula": "C = (a+b)/2", "tags": ["Formule"], "relatedNotions": ["S1-III-1a"], "difficulty": "Facile"},
+        {"id": "F-sturge", "name": "Règle Sturge", "formula": "k ≈ 1 + 3,3×log₁₀(N)", "tags": ["Formule"], "relatedNotions": ["S1-III-1b"], "difficulty": "Moyen"},
+        {"id": "F-histo", "name": "Densité histogramme", "formula": "h_i = n_i/A_i", "tags": ["Formule"], "relatedNotions": ["S2-III-1a"], "difficulty": "Moyen"},
+        {"id": "F-mediane", "name": "Médiane", "formula": "Me : 50% ≤ Me", "tags": ["Formule"], "relatedNotions": ["S3-II-1a"], "difficulty": "Facile"},
+        {"id": "F-moyenne", "name": "Moyenne arithmétique", "formula": "x̄ = Σx_i/n", "tags": ["Formule"], "relatedNotions": ["S3-III-1a"], "difficulty": "Facile"},
+        {"id": "F-geo", "name": "Moyenne géométrique", "formula": "G = (Πx_i)^(1/n)", "tags": ["Formule"], "relatedNotions": ["S3-III-2a"], "difficulty": "Difficile"},
+        {"id": "F-harmo", "name": "Moyenne harmonique", "formula": "H = n/Σ(1/x_i)", "tags": ["Formule"], "relatedNotions": ["S3-III-3a"], "difficulty": "Difficile"},
+        {"id": "F-etendue", "name": "Étendue", "formula": "E = X_max - X_min", "tags": ["Formule"], "relatedNotions": ["S4-I-1a"], "difficulty": "Facile"},
+        {"id": "F-iqr", "name": "Écart interquartile", "formula": "IQR = Q3 - Q1", "tags": ["Formule"], "relatedNotions": ["S4-I-2a"], "difficulty": "Facile"},
+        {"id": "F-variance", "name": "Variance", "formula": "V = Σ(x_i-x̄)²/n = Σx_i²/n - x̄²", "tags": ["Formule"], "relatedNotions": ["S4-II-1a"], "difficulty": "Moyen"},
+        {"id": "F-ecarttype", "name": "Écart-type", "formula": "σ = √V", "tags": ["Formule"], "relatedNotions": ["S4-II-2a"], "difficulty": "Facile"},
+        {"id": "F-cv", "name": "Coefficient variation", "formula": "CV = (σ/x̄)×100", "tags": ["Formule"], "relatedNotions": ["S4-III-1a"], "difficulty": "Moyen"}
+      ]
+    }
+  },
+  "metadata": {
+    "totalQuestions": 340,
+    "totalTime": 289,
+    "totalNotions": 38,
+    "authors": ["Prof Stats L1"]
+  }
+}

@@ -1,0 +1,41 @@
+@themes: Demo, Test, Facile
+
+|| Quelle est la capitale de la France ? || Paris || La capitale de la France est Paris, située au centre du pays. || Demo, Geographie, Facile
+
+|| Quel est le résultat de 2 + 2 ? || 4 || Addition simple : 2 + 2 = 4 || Demo, Mathematiques, Facile
+
+|| Qui a peint la Joconde ? || Leonard de Vinci || Leonard de Vinci a peint la Joconde entre 1503 et 1506. || Demo, Art, Moyen
+
+@themes: Science, Moyen
+
+|| Quelle est la formule chimique de l'eau ? || H2O || L'eau est composée de 2 atomes d'hydrogène et 1 atome d'oxygène. || Demo, Chimie, Facile
+
+|| Quelle est la vitesse de la lumière ? || 299 792 458 m/s || La vitesse de la lumière dans le vide est d'environ 300 000 km/s. || Demo, Physique, Moyen
+
+QCM || Quels sont les continents ? || Afrique;vrai || Asie;vrai || Europe;vrai || Australie;vrai || Antarctique;vrai || Atlantide;faux || L'Atlantide est un continent mythique, pas réel. || Demo, Geographie, Facile
+
+QCM || Quels sont des nombres premiers ? || 2;vrai || 3;vrai || 4;faux || 5;vrai || 6;faux || 7;vrai || 8;faux || 9;faux || Un nombre premier n'est divisible que par 1 et lui-même. || Demo, Mathematiques, Moyen
+
+@themes: Histoire, Difficile
+
+QCM || Quelles dates correspondent à des événements majeurs ? || 1789;vrai || 1492;vrai || 1815;vrai || 1945;vrai || 2000;faux || 1789: Révolution française, 1492: Découverte de l'Amérique, 1815: Waterloo, 1945: Fin WWII || Demo, Histoire, Difficile
+
+|| En quelle année a eu lieu la Révolution française ? || 1789 || La Révolution française a commencé en 1789 avec la prise de la Bastille. || Demo, Histoire, Moyen
+
+|| Qui était le premier président des États-Unis ? || George Washington || George Washington fut le premier président des États-Unis (1789-1797). || Demo, Histoire, Moyen
+
+@themes: Litterature, Expert
+
+|| Qui a écrit "Les Misérables" ? || Victor Hugo || Victor Hugo a publié "Les Misérables" en 1862. || Demo, Litterature, Facile
+
+QCM || Quels auteurs sont français ? || Victor Hugo;vrai || Molière;vrai || Shakespeare;faux || Balzac;vrai || Tolstoï;faux || Voltaire;vrai || Shakespeare est anglais et Tolstoï est russe. || Demo, Litterature, Moyen
+
+|| Quel est le titre du premier roman de Albert Camus ? || L'Étranger || "L'Étranger" (1942) est le premier roman publié par Albert Camus. || Demo, Litterature, Expert
+
+@themes: Technologie, Difficile
+
+|| Qui a inventé le World Wide Web ? || Tim Berners-Lee || Tim Berners-Lee a inventé le WWW en 1989 au CERN. || Demo, Informatique, Moyen
+
+QCM || Quels sont des langages de programmation ? || Python;vrai || JavaScript;vrai || HTML;faux || Java;vrai || CSS;faux || SQL;vrai || HTML et CSS sont des langages de balisage et de style, pas de programmation. || Demo, Informatique, Difficile
+
+|| En quelle année a été lancé le premier iPhone ? || 2007 || Apple a lancé le premier iPhone le 9 janvier 2007. || Demo, Technologie, Moyen

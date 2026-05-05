@@ -1,0 +1,324 @@
+{
+  "id": "MACRO",
+  "name": "Macroéconomie S1",
+  "version": "2.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-11-30",
+  "description": "Cours de macroéconomie première année",
+  "chapters": [
+    {
+      "id": "M1",
+      "number": "1",
+      "name": "Consommation",
+      "description": "Théories keynésienne, cycle de vie, revenu permanent/relatif",
+      "sections": [
+        {
+          "id": "M1-I",
+          "romanNumeral": "I",
+          "name": "Théorie keynésienne",
+          "subsections": [
+            {
+              "id": "M1-I-1",
+              "number": "1",
+              "name": "Fonction de consommation",
+              "notions": [
+                {
+                  "id": "M1-I-1a",
+                  "name": "Fonction de consommation keynésienne",
+                  "description": "C = C0 + cY où C0 est la consommation autonome et c la propension marginale à consommer (0 < c < 1)",
+                  "tags": ["Chapitre1", "Keynes"],
+                  "difficulty": "Facile",
+                  "estimatedTime": 8,
+                  "relatedAuthors": ["A-keynes"],
+                  "relatedFormulas": ["F-conso"]
+                },
+                {
+                  "id": "M1-I-1b",
+                  "name": "Consommation autonome (C0)",
+                  "description": "Consommation indépendante du revenu (minimum vital). C0 > 0 même si Y = 0",
+                  "tags": ["Chapitre1", "Keynes"],
+                  "difficulty": "Facile",
+                  "estimatedTime": 5,
+                  "relatedNotions": ["M1-I-1a"],
+                  "relatedAuthors": ["A-keynes"]
+                }
+              ],
+              "estimatedTime": 13
+            },
+            {
+              "id": "M1-I-2",
+              "number": "2",
+              "name": "Propensions et multiplicateur",
+              "notions": [
+                {
+                  "id": "M1-I-2a",
+                  "name": "PMC (Propension Marginale à Consommer)",
+                  "description": "PMC = ΔC/ΔY = c. Part du revenu additionnel consommée (0 < c < 1)",
+                  "tags": ["Chapitre1", "PMC", "Keynes"],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 10,
+                  "relatedNotions": ["M1-I-2b", "M1-I-2c"],
+                  "relatedAuthors": ["A-keynes"],
+                  "relatedFormulas": ["F-pmc"],
+                  "prerequisites": ["M1-I-1a"]
+                },
+                {
+                  "id": "M1-I-2b",
+                  "name": "PME (Propension Marginale à Épargner)",
+                  "description": "PME = ΔS/ΔY = 1 - c. Part du revenu additionnel épargnée. PMC + PME = 1",
+                  "tags": ["Chapitre1", "PME", "Épargne"],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 8,
+                  "relatedNotions": ["M1-I-2a"],
+                  "relatedAuthors": ["A-keynes"],
+                  "relatedFormulas": ["F-pmc"],
+                  "prerequisites": ["M1-I-1a"]
+                },
+                {
+                  "id": "M1-I-2c",
+                  "name": "Multiplicateur keynésien",
+                  "description": "k = 1/(1-c) = 1/PME. Amplification de l'effet d'une demande autonome sur le revenu",
+                  "tags": ["Chapitre1", "Multiplicateur", "Keynes"],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 12,
+                  "relatedNotions": ["M1-I-2a", "M1-I-2b"],
+                  "relatedAuthors": ["A-keynes"],
+                  "relatedFormulas": ["F-mult"],
+                  "prerequisites": ["M1-I-2a"]
+                }
+              ],
+              "estimatedTime": 30
+            },
+            {
+              "id": "M1-I-3",
+              "number": "3",
+              "name": "Loi psychologique",
+              "notions": [
+                {
+                  "id": "M1-I-3a",
+                  "name": "Loi psychologique fondamentale",
+                  "description": "Quand Y augmente, C augmente moins que proportionnellement (PMC < 1). L'épargne augmente avec le revenu",
+                  "tags": ["Chapitre1", "Keynes", "LoiPsychologique"],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 10,
+                  "relatedNotions": ["M1-I-2a"],
+                  "relatedAuthors": ["A-keynes"]
+                },
+                {
+                  "id": "M1-I-3b",
+                  "name": "Épargne comme résidu",
+                  "description": "L'épargne n'est pas une décision active : S = Y - C. On consomme puis on épargne le reste",
+                  "tags": ["Chapitre1", "Épargne", "Keynes"],
+                  "difficulty": "Facile",
+                  "estimatedTime": 6,
+                  "relatedNotions": ["M1-I-1a"],
+                  "relatedAuthors": ["A-keynes"]
+                }
+              ],
+              "estimatedTime": 16
+            }
+          ],
+          "estimatedTime": 59
+        },
+        {
+          "id": "M1-II",
+          "romanNumeral": "II",
+          "name": "Théories alternatives",
+          "subsections": [
+            {
+              "id": "M1-II-1",
+              "number": "1",
+              "name": "Revenu relatif (Duesenberry)",
+              "notions": [
+                {
+                  "id": "M1-II-1a",
+                  "name": "Revenu relatif",
+                  "description": "PMC dépend de la position dans l'échelle des revenus. Effet démonstration (imitation) + effet cliquet (rigidité à la baisse)",
+                  "tags": ["Chapitre1", "Duesenberry", "RevenuRelatif"],
+                  "difficulty": "Moyen",
+                  "estimatedTime": 12,
+                  "relatedAuthors": ["A-duesenberry", "A-brown"]
+                }
+              ],
+              "estimatedTime": 12
+            },
+            {
+              "id": "M1-II-2",
+              "number": "2",
+              "name": "Cycle de vie (Modigliani)",
+              "notions": [
+                {
+                  "id": "M1-II-2a",
+                  "name": "Cycle de vie",
+                  "description": "Lissage de la consommation sur la vie. Jeunes empruntent, actifs épargnent, retraités désépargnent. C = α·Y^L + β·A",
+                  "tags": ["Chapitre1", "Modigliani", "CycleVie"],
+                  "difficulty": "Difficile",
+                  "estimatedTime": 15,
+                  "relatedAuthors": ["A-modigliani"],
+                  "relatedFormulas": ["F-cyclevie"]
+                }
+              ],
+              "estimatedTime": 15
+            },
+            {
+              "id": "M1-II-3",
+              "number": "3",
+              "name": "Revenu permanent (Friedman)",
+              "notions": [
+                {
+                  "id": "M1-II-3a",
+                  "name": "Revenu permanent",
+                  "description": "Y = Yp + Yt (permanent + transitoire). Consommation dépend uniquement du revenu permanent : Cp = γ·Yp",
+                  "tags": ["Chapitre1", "Friedman", "RevenuPermanent"],
+                  "difficulty": "Difficile",
+                  "estimatedTime": 15,
+                  "relatedAuthors": ["A-friedman"],
+                  "relatedFormulas": ["F-revperm"]
+                }
+              ],
+              "estimatedTime": 15
+            }
+          ],
+          "estimatedTime": 42
+        }
+      ],
+      "estimatedTime": 101,
+      "icon": "🛒"
+    }
+  ],
+  "crossCutting": {
+    "formulas": {
+      "id": "formulas",
+      "name": "📐 Formules clés",
+      "description": "Formules mathématiques essentielles du cours",
+      "displayOrder": "importance",
+      "items": [
+        {
+          "id": "F-conso",
+          "name": "Fonction de consommation",
+          "formula": "C = C0 + cY",
+          "tags": ["Formule", "Keynes"],
+          "relatedNotions": ["M1-I-1a"],
+          "difficulty": "Facile",
+          "metadata": {
+            "latex": "C = C_0 + cY",
+            "vars": {
+              "C": "Consommation totale",
+              "C0": "Consommation autonome",
+              "c": "PMC (0 < c < 1)",
+              "Y": "Revenu disponible"
+            }
+          }
+        },
+        {
+          "id": "F-pmc",
+          "name": "PMC et PME",
+          "formula": "PMC = ΔC/ΔY = c ; PME = ΔS/ΔY = 1-c ; PMC + PME = 1",
+          "tags": ["Formule", "Keynes"],
+          "relatedNotions": ["M1-I-2a", "M1-I-2b"],
+          "difficulty": "Facile",
+          "metadata": {
+            "latex": "PMC = \\frac{\\Delta C}{\\Delta Y} = c \\quad PME = 1-c",
+            "vars": {
+              "PMC": "Propension Marginale à Consommer",
+              "PME": "Propension Marginale à Épargner"
+            }
+          }
+        },
+        {
+          "id": "F-mult",
+          "name": "Multiplicateur",
+          "formula": "k = 1/(1-c) = 1/PME",
+          "tags": ["Formule", "Keynes"],
+          "relatedNotions": ["M1-I-2c"],
+          "difficulty": "Moyen",
+          "metadata": {
+            "latex": "k = \\frac{1}{1-c} = \\frac{1}{PME}",
+            "vars": {
+              "k": "Multiplicateur",
+              "c": "PMC"
+            }
+          }
+        }
+      ]
+    },
+    "authors": {
+      "id": "authors",
+      "name": "👥 Économistes",
+      "description": "Théoriciens et auteurs majeurs du cours",
+      "displayOrder": "chronological",
+      "items": [
+        {
+          "id": "A-keynes",
+          "name": "Keynes",
+          "fullName": "John Maynard Keynes",
+          "description": "Fondateur du keynésianisme. Demande effective, fonction consommation, multiplicateur",
+          "tags": ["Auteur", "Keynes"],
+          "relatedNotions": ["M1-I-1a", "M1-I-2a", "M1-I-2c", "M1-I-3a"],
+          "metadata": {
+            "born": "1883",
+            "died": "1946",
+            "nationality": "UK"
+          }
+        },
+        {
+          "id": "A-modigliani",
+          "name": "Modigliani",
+          "fullName": "Franco Modigliani",
+          "description": "Prix Nobel 1985. Théorie du cycle de vie : lissage consommation via épargne/désépargne",
+          "tags": ["Auteur", "Modigliani"],
+          "relatedNotions": ["M1-II-2a"],
+          "metadata": {
+            "born": "1918",
+            "died": "2003",
+            "nationality": "IT-US",
+            "nobel": 1985
+          }
+        },
+        {
+          "id": "A-friedman",
+          "name": "Friedman",
+          "fullName": "Milton Friedman",
+          "description": "Prix Nobel 1976. Revenu permanent/transitoire. Chef du monétarisme",
+          "tags": ["Auteur", "Friedman"],
+          "relatedNotions": ["M1-II-3a"],
+          "metadata": {
+            "born": "1912",
+            "died": "2006",
+            "nationality": "US",
+            "nobel": 1976
+          }
+        },
+        {
+          "id": "A-duesenberry",
+          "name": "Duesenberry",
+          "fullName": "James Duesenberry",
+          "description": "Revenu relatif : effet démonstration + effet cliquet",
+          "tags": ["Auteur", "Duesenberry"],
+          "relatedNotions": ["M1-II-1a"],
+          "metadata": {
+            "born": "1918",
+            "died": "2009",
+            "nationality": "US"
+          }
+        },
+        {
+          "id": "A-brown",
+          "name": "Brown",
+          "fullName": "Arthur Brown",
+          "description": "Effet démonstration (consommation ostentatoire)",
+          "tags": ["Auteur", "Brown"],
+          "relatedNotions": ["M1-II-1a"],
+          "metadata": {
+            "nationality": "UK"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "totalQuestions": 0,
+    "totalTime": 101,
+    "authors": ["Prof Macro L1"]
+  }
+}

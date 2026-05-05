@@ -1,0 +1,105 @@
+@themes: Débats Contemporains
+
+### === DC1-I-1a : Taux d'ouverture et mondialisation ===
+### "Taux d'ouverture = (X+M)/PIB ; indicateur du degré d'intégration d'un pays à l'économie mondiale"
+@add-theme: Commerce international, Mondialisation, Formule
+
+QCM || Le taux d'ouverture d'un pays se calcule comme || V:(Exportations + Importations) / PIB|Exportations / PIB|PIB / (Exportations + Importations)|Importations - Exportations
+VF  || Un taux d'ouverture supérieur à 100 % est impossible pour un pays. || F || C'est possible : c'est le cas des Pays-Bas, de la Belgique ou du Luxembourg, où les exportations + importations dépassent le PIB car les échanges extérieurs sont très importants par rapport à la consommation intérieure.
+QCM || Quelle est l'identité comptable du PIB en économie ouverte ? || V:Y = C + I + G + X – M|Y = C + I + G|Y = C + S|Y = X – M + G
+QCM || Le "paradoxe américain" en matière de taux d'ouverture s'explique par || V:Le marché intérieur américain est si grand que les échanges extérieurs, bien qu'énormes en valeur absolue, représentent un faible pourcentage du PIB|Les États-Unis pratiquent le protectionnisme systématique|Le dollar fort décourage les exportations|Les États-Unis n'importent quasiment rien
+VF  || Plus d'un tiers du PIB mondial est généré par le commerce international. || V || C'est une donnée clé du cours : tous les pays du monde échangent et le commerce international génère plus d'1/3 du PIB mondial.
+QCM || La guerre commerciale entre les États-Unis et la Chine sous Trump trouve son origine dans || V:Un déficit commercial américain chronique (M > X) que Trump interprète comme un vol économique de la Chine|Un excédent commercial américain excessif|Les manipulations monétaires américaines|La délocalisation d'entreprises chinoises aux États-Unis
+
+---
+
+### === DC1-I-2a : Les 8 grands thèmes de l'économie internationale ===
+### "Gains à l'échange, structures du commerce, politiques commerciales, taux de change, balance des paiements, FMN, finance internationale, transition écologique"
+@add-theme: Commerce international, Économie ouverte
+
+QCM || Parmi les thèmes suivants, lequel N'EST PAS un des grands thèmes de l'économie internationale du cours ? || V:L'analyse des politiques fiscales nationales (impôt sur le revenu, TVA)|Les gains à l'échange et la spécialisation internationale|Le rôle des firmes multinationales|La balance des paiements et les déséquilibres mondiaux
+QCM || L'interdépendance économique entre pays se manifeste sur || V:Le marché des biens et services, le marché du travail (migrations) ET le marché des capitaux|Uniquement le marché des biens et services|Uniquement les marchés financiers internationaux|Uniquement le marché du pétrole et des matières premières
+VF  || Cuba a demandé la levée des sanctions économiques, ce qui illustre qu'aucun pays ne peut être totalement autosuffisant sans sacrifier une partie importante de son bien-être. || V || C'est l'argument central pour justifier le commerce international : même les régimes les plus fermés (Cuba, Corée du Nord) ont besoin d'échanges extérieurs.
+
+---
+
+### === DC2-I-1a : Évolution macroéconomique de la France – Trente Glorieuses ===
+### "1950-1973 : croissance forte (4-8%/an), PIB × 10 en 60 ans, tertiarisation massive"
+@add-theme: Croissance française, Trente Glorieuses, Choc pétrolier
+
+QCM || La période des Trente Glorieuses en France (1950-1973) se caractérise par || V:Des taux de croissance annuels de 4 à 8 %, inédits dans l'histoire économique française|Une croissance modeste de 1 à 2 % par an|Une forte inflation accompagnée de croissance nulle (stagflation)|Un fort chômage structurel malgré la croissance
+QCM || En combien de temps environ le PIB français a-t-il été multiplié par dix depuis les années 1950 ? || V:En une soixantaine d'années|En dix ans|En cent cinquante ans|En trente ans (d'où les "Trente Glorieuses")
+VF  || Selon l'INSEE, un pays entre en récession quand son PIB se replie pendant au moins un trimestre consécutif. || F || La définition officielle de l'INSEE est deux trimestres consécutifs de baisse du PIB (et non un seul).
+QCM || Le choc pétrolier de 1973 a mis fin aux Trente Glorieuses principalement parce que || V:Il a entraîné une hausse du coût de production, freinant fortement la croissance|Il a provoqué une hyperinflation mondiale|Les États-Unis ont coupé les exportations de pétrole vers l'Europe|Il a détruit les infrastructures industrielles françaises
+QCM || La tertiarisation de l'économie française désigne || V:Le glissement des emplois du secteur primaire et secondaire vers le secteur tertiaire (services)|Le développement du secteur primaire (agriculture)|La réindustrialisation de la France après les Trente Glorieuses|Le développement du commerce de détail
+QCM || En France aujourd'hui, la répartition de l'emploi est environ || V:1 million dans le primaire, 5 millions dans le secondaire, 19 millions dans le tertiaire|7 millions dans chaque secteur|6M primaire, 6M secondaire, 7M tertiaire (comme en 1949)|10M industrie, 10M services, 5M agriculture
+
+---
+
+### === DC3-I-1a : Géoéconomie – Du militaire à l'économique ===
+### "Après la Guerre froide : les rivalités entre États prennent une forme économique plutôt que militaire"
+@add-theme: Géoéconomie, Mondialisation, Puissance économique
+
+QCM || La géoéconomie désigne || V:Le déplacement des rivalités internationales de la sphère militaire vers la sphère économique, les États cherchant la puissance par la santé économique|La science qui étudie les ressources naturelles et leur répartition géographique|La politique d'aide au développement des pays riches envers les pays pauvres|L'étude du commerce international entre blocs régionaux
+QCM || La fin de la Guerre froide a modifié les rivalités internationales car || V:L'effondrement de l'URSS a réduit la menace militaire et les pays occidentaux ont réduit leurs budgets de défense, déplaçant les rivalités vers l'économie|L'OTAN a imposé la paix définitive en Europe|Les pays en développement ont acquis des capacités nucléaires|Les multinationales ont remplacé les États comme acteurs des conflits
+VF  || Après la chute du mur de Berlin, les États portaient encore pleinement les multinationales comme instruments de leur politique étrangère. || F || Au contraire, après 1989, les firmes multinationales sont devenues de plus en plus autonomes par rapport aux États, réduisant leur dépendance nationale.
+QCM || La première réaction des Européens à l'invasion de l'Ukraine par la Russie illustre la géoéconomie car || V:Elle a pris la forme de sanctions économiques (embargo, gel d'avoirs) plutôt que d'une réponse militaire directe|Elle a consisté en une intervention militaire directe de l'OTAN|Elle s'est traduite par l'expulsion des diplomates russes de tous les pays européens|Elle a été de renforcer massivement les budgets militaires européens
+QCM || Quelle entreprise est citée comme exemple d'utilisation par un État de firmes comme instruments de puissance géoéconomique ? || V:Huawei (Chine) et Gazprom (Russie)|Apple (États-Unis) et Volkswagen (Allemagne)|Total (France) et BP (Royaume-Uni)|Samsung (Corée du Sud) et Sony (Japon)
+VF  || L'UE était bien préparée à faire face à la menace militaire russe car elle avait développé ses capacités dans ce domaine après la chute du mur de Berlin. || F || Au contraire, l'UE s'est désarmée militairement après 1989 et n'est préparée qu'au niveau économique. Les EU ont maintenu un double équipement militaire et économique.
+
+---
+
+### === DC3-I-2a : Fragmentation économique mondiale ===
+### "Depuis Covid/Ukraine : remise en cause de la mondialisation, retour des logiques géopolitiques, démondialisation partielle"
+@add-theme: Fragmentation, Démondialisation, Géopolitique
+
+QCM || La "fragmentation économique mondiale" désigne || V:La tendance au morcellement de l'économie mondiale en blocs régionaux ou nationaux, inversant la tendance à l'intégration mondiale|L'augmentation du nombre de pays dans le monde|La spécialisation croissante des économies dans des niches de production|La diversification des portefeuilles d'investissement internationaux
+QCM || Quels événements récents ont accéléré la tendance à la fragmentation économique ? || V:La pandémie de Covid-19, la guerre en Ukraine et les tensions en mer Rouge / Proche-Orient|La création de l'euro et l'élargissement de l'UE|La montée en puissance du libre-échange via l'OMC|La croissance économique de la Chine dans les années 2000
+VF  || Le multilatéralisme reste le modèle dominant des relations commerciales mondiales depuis les années 2020. || F || Depuis le Covid, la guerre en Ukraine et les tensions en mer Rouge, on assiste à une remise en cause du multilatéralisme et à une fragmentation économique croissante.
+
+---
+
+### === DC4-I-1a : La Chine – Modèle de développement et gradualisme ===
+### "Modèle de Deng Xiaoping : ouverture progressive, économie de marché dans un cadre communiste, croissance par l'export"
+@add-theme: Chine, Émergents, Gradualisme
+
+QCM || Le "gradualisme" chinois désigne || V:Une transition progressive vers l'économie de marché par petits changements structurels et institutionnels, sans rupture brutale|Un régime de croissance lente et stable|Le passage immédiat au capitalisme décidé par Deng Xiaoping|La politique de l'enfant unique limitant la croissance démographique
+QCM || La Chine a adhéré à l'Organisation Mondiale du Commerce (OMC) en || V:Décembre 2001|Janvier 1990|Janvier 1995 (lors de la création de l'OMC)|Décembre 2010
+QCM || Le modèle de développement de Deng Xiaoping repose sur || V:L'ouverture économique à l'extérieur pour une croissance basée sur les exportations|La fermeture du marché intérieur aux investisseurs étrangers|La nationalisation de toutes les entreprises privées|Le développement du marché intérieur uniquement
+VF  || En Chine, la priorité a été donnée à la privatisation plutôt qu'à la concurrence pour réformer l'économie. || F || C'est l'inverse : la Chine a donné la priorité à la concurrence plutôt qu'à la privatisation. Les nouvelles entreprises appartenaient aux villes et villages mais se faisaient concurrence.
+QCM || Quel était le taux de croissance annuel moyen de la Chine depuis les années 1980 ? || V:Environ 10 % par an|Environ 3 % par an|Environ 6 % par an|Environ 15 % par an
+QCM || La Chine est qualifiée d'"usine du monde" principalement grâce à || V:Une population nombreuse et un coût du travail historiquement faible, attirant les investissements étrangers|Sa supériorité technologique dans tous les secteurs|Ses ressources naturelles abondantes|Sa politique de taux de change favorable aux importations
+VF  || Depuis 2010, la Chine est la première puissance économique mondiale devant les États-Unis. || F || La Chine a dépassé le Japon pour devenir la 2e puissance mondiale depuis 2010, mais elle reste derrière les États-Unis.
+
+---
+
+### === DC5-I-1a : L'Inde – Émergence et modèle ===
+### "Émergence plus tardive que la Chine ; démocratie parlementaire ; croissance par les services et les marchés de capitaux"
+@add-theme: Inde, Émergents, Comparaison Chine
+
+QCM || En quoi le modèle de développement indien diffère-t-il du modèle chinois ? || V:L'Inde est plus ouverte au niveau des entreprises cotées (environ 6000 sociétés cotées vs 1000 en Chine) et s'internationalise par les capitaux, pas uniquement par les exportations|L'Inde est plus protectionniste que la Chine|L'Inde a une croissance plus rapide que la Chine depuis 1990|L'Inde a adopté le même modèle de zones économiques spéciales que la Chine
+VF  || Le taux d'ouverture de l'Inde est environ deux fois plus élevé que celui de la Chine. || F || C'est l'inverse : les ratios d'ouverture de l'Inde sont deux fois plus faibles que ceux de la Chine, mais l'internationalisation des entreprises indiennes est deux fois plus forte.
+QCM || L'Inde compte environ combien de sociétés cotées en Bourse ? || V:Environ 6 000|Environ 500|Environ 1 000 (comme la Chine)|Environ 20 000
+
+---
+
+### === DC6-I-1a : Le modèle de gravité du commerce ===
+### "Tij = A × Yi × Yj / Dij : les échanges augmentent avec la taille des économies et diminuent avec la distance"
+@add-theme: Modèle de gravité, Commerce international, Formule
+
+QCM || Le modèle de gravité du commerce international stipule que les échanges entre deux pays sont || V:Proportionnels à leurs PIB respectifs et inversement proportionnels à la distance qui les sépare|Uniquement déterminés par les différences de salaires|Proportionnels à la distance et indépendants de la taille des économies|Déterminés uniquement par les accords commerciaux bilatéraux
+QCM || Selon le modèle de gravité, la formule est Tij = (A × Yi × Yj) / Dij. Que représente Dij ? || V:La distance entre les pays i et j|Le différentiel de PIB entre les pays i et j|Le niveau de droits de douane entre i et j|Les investissements directs étrangers entre i et j
+VF  || Les estimations empiriques montrent qu'une augmentation de 1 % de la distance entre deux pays est associée à une diminution du commerce d'environ 0,7 à 1 %. || V || C'est un résultat robuste des estimations économétriques du modèle de gravité.
+QCM || Les cinq principaux partenaires commerciaux de la France sont || V:Tous européens : Allemagne, Belgique, Italie, Espagne, Royaume-Uni|Les États-Unis, la Chine, l'Allemagne, le Japon et le Royaume-Uni|La Chine, les États-Unis, l'Allemagne, la Russie et l'Espagne|Tous asiatiques (Chine, Japon, Inde, Corée du Sud, Singapour)
+QCM || L'"effet frontière" dans le commerce international désigne || V:Le fait que les flux commerciaux entre deux régions d'un même pays sont nettement plus importants qu'entre deux régions de pays différents, même largement ouverts|Le rôle des douanes dans le filtrage des marchandises|La protection des industries nationales par des barrières tarifaires|L'augmentation des échanges lors de la création d'unions douanières
+
+---
+
+### === DC7-I-1a : Politiques commerciales – Libre-échange vs Protectionnisme ===
+### "Libre-échange : avantages comparatifs, gains à l'échange. Protectionnisme : protection industrie nationale, arguments légitimes et risques"
+@add-theme: Libre-échange, Protectionnisme, Ricardo
+
+QCM || Le principe des avantages comparatifs (Ricardo) affirme que || V:Chaque pays a intérêt à se spécialiser dans la production pour laquelle son coût d'opportunité est le plus faible, même s'il est moins efficace en valeur absolue que ses partenaires|Seuls les pays ayant un avantage absolu ont intérêt à commercer|Les pays doivent protéger leurs industries naissantes jusqu'à ce qu'elles soient compétitives|Le libre-échange ne bénéficie qu'aux pays développés
+VF  || Le libre-échange profite toujours à tous les acteurs économiques à l'intérieur d'un pays. || F || Le libre-échange augmente le bien-être global mais crée des gagnants et des perdants à l'intérieur de chaque pays (ex : secteurs en concurrence avec les importations perdent des emplois).
+QCM || Les accords commerciaux bilatéraux ou multilatéraux éliminent généralement || V:Les barrières formelles (droits de douane, quotas) mais rarement toutes les entraves au commerce (barrières non tarifaires, normes, réglementations)|Toutes les barrières commerciales de façon complète|Uniquement les subventions agricoles|Toutes les différences réglementaires entre pays membres
+QCM || La politique commerciale de Trump (guerre commerciale avec la Chine) s'inscrit dans une logique de || V:Protectionnisme pour réduire le déficit commercial américain et relocaliser la production|Libre-échange radical et suppression de toutes les barrières|Multilatéralisme renforcé via l'OMC|Régionalisme (accords avec les seuls pays voisins)

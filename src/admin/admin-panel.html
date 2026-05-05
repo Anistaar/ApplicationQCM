@@ -1,0 +1,771 @@
+<!-- src/admin/admin-panel.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text2Quiz Admin - Gestion des Questions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #3b82f6;
+      --primary-dark: #2563eb;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --dark: #1e293b;
+      --dark-light: #334155;
+      --light: #f1f5f9;
+      --border: #cbd5e1;
+      --text: #0f172a;
+      --text-light: #64748b;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 2rem;
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    /* Header */
+    .header {
+      background: var(--dark);
+      color: white;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    }
+
+    .btn-success {
+      background: var(--success);
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #059669;
+    }
+
+    .btn-danger {
+      background: var(--danger);
+      color: white;
+    }
+
+    .btn-danger:hover {
+      background: #dc2626;
+    }
+
+    .btn-secondary {
+      background: var(--dark-light);
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background: #475569;
+    }
+
+    /* Navigation */
+    .nav-tabs {
+      display: flex;
+      background: var(--light);
+      border-bottom: 2px solid var(--border);
+    }
+
+    .nav-tab {
+      padding: 1rem 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-light);
+      transition: all 0.2s;
+      position: relative;
+    }
+
+    .nav-tab:hover {
+      color: var(--primary);
+      background: white;
+    }
+
+    .nav-tab.active {
+      color: var(--primary);
+      background: white;
+    }
+
+    .nav-tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--primary);
+    }
+
+    /* Content */
+    .content {
+      padding: 2rem;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Stats Cards */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .stat-card.success {
+      background: linear-gradient(135deg, #10b981, #059669);
+    }
+
+    .stat-card.warning {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+    }
+
+    .stat-card.danger {
+      background: linear-gradient(135deg, #ef4444, #dc2626);
+    }
+
+    .stat-card h3 {
+      font-size: 0.9rem;
+      opacity: 0.9;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-card .value {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    /* Import Section */
+    .import-section {
+      background: var(--light);
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .import-section h2 {
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .file-upload {
+      border: 3px dashed var(--border);
+      border-radius: 12px;
+      padding: 3rem;
+      text-align: center;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    .file-upload:hover {
+      border-color: var(--primary);
+      background: white;
+    }
+
+    .file-upload.drag-over {
+      border-color: var(--primary);
+      background: #dbeafe;
+    }
+
+    .file-upload input[type="file"] {
+      display: none;
+    }
+
+    .upload-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      color: var(--text-light);
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: var(--dark);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      width: auto;
+      cursor: pointer;
+    }
+
+    /* Question List */
+    .question-filters {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .question-filters input {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .questions-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .questions-table thead {
+      background: var(--dark);
+      color: white;
+    }
+
+    .questions-table th {
+      padding: 1rem;
+      text-align: left;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+    }
+
+    .questions-table td {
+      padding: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .questions-table tbody tr:hover {
+      background: var(--light);
+    }
+
+    .question-text {
+      max-width: 400px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: var(--primary);
+      color: white;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .tag.difficulty-facile { background: #10b981; }
+    .tag.difficulty-moyen { background: #f59e0b; }
+    .tag.difficulty-difficile { background: #ef4444; }
+    .tag.difficulty-expert { background: #8b5cf6; }
+
+    /* Theme Management */
+    .theme-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .theme-card {
+      padding: 1.5rem;
+      border-radius: 12px;
+      background: white;
+      border: 2px solid var(--border);
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+
+    .theme-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .theme-card h4 {
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+
+    .theme-card .count {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    /* Toast Notifications */
+    .toast-container {
+      position: fixed;
+      top: 2rem;
+      right: 2rem;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .toast {
+      background: white;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      min-width: 300px;
+      animation: slideIn 0.3s;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(400px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    .toast.success { border-left: 4px solid var(--success); }
+    .toast.error { border-left: 4px solid var(--danger); }
+    .toast.warning { border-left: 4px solid var(--warning); }
+    .toast.info { border-left: 4px solid var(--primary); }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 10000;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal.active {
+      display: flex;
+    }
+
+    .modal-content {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      max-width: 600px;
+      width: 90%;
+      max-height: 80vh;
+      overflow-y: auto;
+      animation: modalZoom 0.3s;
+    }
+
+    @keyframes modalZoom {
+      from { transform: scale(0.7); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .modal-header h2 {
+      color: var(--dark);
+    }
+
+    .close-modal {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: var(--text-light);
+      line-height: 1;
+    }
+
+    .close-modal:hover {
+      color: var(--danger);
+    }
+
+    /* Loading */
+    .loading {
+      display: none;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .loading.active {
+      display: block;
+    }
+
+    .spinner {
+      border: 4px solid var(--border);
+      border-top: 4px solid var(--primary);
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+
+      .header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+      }
+
+      .header-actions {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .nav-tabs {
+        overflow-x: auto;
+      }
+
+      .questions-table {
+        font-size: 0.85rem;
+      }
+
+      .questions-table th,
+      .questions-table td {
+        padding: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <h1>🎓 Text2Quiz Admin</h1>
+        <p style="opacity: 0.8; margin-top: 0.5rem;">Gestion centralisée des questions et thèmes</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-success" id="export-db-btn">
+          📥 Exporter DB
+        </button>
+        <button class="btn btn-secondary" id="back-to-app-btn">
+          ← Retour à l'app
+        </button>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-tabs">
+      <button class="nav-tab active" data-tab="dashboard">📊 Tableau de bord</button>
+      <button class="nav-tab" data-tab="import">📤 Import</button>
+      <button class="nav-tab" data-tab="questions">📝 Questions</button>
+      <button class="nav-tab" data-tab="themes">🏷️ Thèmes</button>
+      <button class="nav-tab" data-tab="subjects">📚 Matières</button>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <!-- Dashboard Tab -->
+      <div class="tab-content active" id="dashboard-tab">
+        <h2 style="margin-bottom: 1.5rem;">Statistiques globales</h2>
+        
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>Questions totales</h3>
+            <div class="value" id="stat-total-questions">0</div>
+          </div>
+          
+          <div class="stat-card success">
+            <h3>Thèmes actifs</h3>
+            <div class="value" id="stat-total-themes">0</div>
+          </div>
+          
+          <div class="stat-card warning">
+            <h3>Matières</h3>
+            <div class="value" id="stat-total-subjects">0</div>
+          </div>
+          
+          <div class="stat-card danger">
+            <h3>Questions Expert</h3>
+            <div class="value" id="stat-expert-questions">0</div>
+          </div>
+        </div>
+
+        <div style="background: var(--light); padding: 2rem; border-radius: 12px;">
+          <h3 style="margin-bottom: 1rem;">Actions rapides</h3>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button class="btn btn-primary" id="quick-import-btn">📤 Import rapide</button>
+            <button class="btn btn-secondary" id="update-stats-btn">🔄 Actualiser stats</button>
+            <button class="btn btn-danger" id="clear-db-btn">🗑️ Vider la base</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Import Tab -->
+      <div class="tab-content" id="import-tab">
+        <div class="import-section">
+          <h2>📤 Importer des questions</h2>
+          <p style="color: var(--text-light); margin-bottom: 1.5rem;">
+            Glissez-déposez un fichier text2quiz ou cliquez pour sélectionner
+          </p>
+
+          <div class="file-upload" id="file-upload-zone">
+            <div class="upload-icon">📁</div>
+            <p style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem;">
+              Choisir un fichier text2quiz
+            </p>
+            <p style="color: var(--text-light);">
+              ou glisser-déposer ici
+            </p>
+            <input type="file" id="file-input" accept=".txt" multiple>
+          </div>
+
+          <div id="file-preview" style="margin-top: 1.5rem; display: none;">
+            <h3>Fichiers sélectionnés:</h3>
+            <div id="file-list"></div>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <h3 style="margin-bottom: 1rem;">Options d'import</h3>
+            
+            <div class="form-group">
+              <label>Matière *</label>
+              <select id="import-subject" required>
+                <option value="">-- Sélectionner --</option>
+                <option value="MACRO">Macroéconomie</option>
+                <option value="INSTIT">Institutions</option>
+                <option value="STATS">Statistiques</option>
+                <option value="DROIT">Droit</option>
+                <option value="ECO">Analyse Économique</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Thèmes par défaut (séparés par des virgules)</label>
+              <input type="text" id="import-default-themes" placeholder="Ex: Chapitre1, Difficile, Formules">
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="import-auto-detect" checked>
+              <label for="import-auto-detect">Détecter automatiquement les thèmes</label>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="import-overwrite">
+              <label for="import-overwrite">Écraser les doublons</label>
+            </div>
+
+            <button class="btn btn-primary" id="start-import-btn" style="width: 100%;">
+              🚀 Lancer l'import
+            </button>
+          </div>
+
+          <div id="import-result" style="margin-top: 2rem; display: none;">
+            <h3>Résultat de l'import</h3>
+            <pre id="import-log" style="background: var(--dark); color: #10b981; padding: 1rem; border-radius: 8px; overflow-x: auto; font-family: 'Courier New', monospace;"></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Questions Tab -->
+      <div class="tab-content" id="questions-tab">
+        <h2 style="margin-bottom: 1.5rem;">📝 Gestion des questions</h2>
+        
+        <div class="question-filters">
+          <input type="text" id="search-questions" placeholder="🔍 Rechercher une question...">
+          <select id="filter-subject">
+            <option value="">Toutes les matières</option>
+          </select>
+          <select id="filter-difficulty">
+            <option value="">Toutes les difficultés</option>
+            <option value="Facile">Facile</option>
+            <option value="Moyen">Moyen</option>
+            <option value="Difficile">Difficile</option>
+            <option value="Expert">Expert</option>
+          </select>
+        </div>
+
+        <div class="loading" id="questions-loading">
+          <div class="spinner"></div>
+          <p>Chargement des questions...</p>
+        </div>
+
+        <div id="questions-container">
+          <table class="questions-table">
+            <thead>
+              <tr>
+                <th>Question</th>
+                <th>Matière</th>
+                <th>Thèmes</th>
+                <th>Difficulté</th>
+                <th>Source</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="questions-tbody">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Themes Tab -->
+      <div class="tab-content" id="themes-tab">
+        <h2 style="margin-bottom: 1.5rem;">🏷️ Gestion des thèmes</h2>
+        
+        <div style="margin-bottom: 2rem;">
+          <button class="btn btn-primary" id="add-theme-btn">➕ Nouveau thème</button>
+        </div>
+
+        <div class="theme-grid" id="themes-grid">
+          <!-- Thèmes dynamiques ici -->
+        </div>
+      </div>
+
+      <!-- Subjects Tab -->
+      <div class="tab-content" id="subjects-tab">
+        <h2 style="margin-bottom: 1.5rem;">📚 Gestion des matières</h2>
+        
+        <div style="margin-bottom: 2rem;">
+          <button class="btn btn-primary" id="add-subject-btn">➕ Nouvelle matière</button>
+        </div>
+
+        <div class="theme-grid" id="subjects-grid">
+          <!-- Matières dynamiques ici -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Edit Question Modal -->
+  <div class="modal" id="edit-question-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>✏️ Modifier la question</h2>
+        <button class="close-modal" onclick="closeModal('edit-question-modal')">×</button>
+      </div>
+      <div id="edit-question-form">
+        <!-- Form dynamique -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./admin-panel.ts"></script>
+</body>
+</html>

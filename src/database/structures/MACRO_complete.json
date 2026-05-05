@@ -1,0 +1,289 @@
+{
+  "id": "MACRO",
+  "name": "Macroéconomie S1",
+  "version": "2.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-11-30",
+  "description": "Cours macroéconomie L1 - Chapitres 0 à 4 complets",
+  "chapters": [
+    {
+      "id": "M0",
+      "number": "0",
+      "name": "Introduction",
+      "description": "Agrégats, PIB, inflation, chômage, circuit économique",
+      "sections": [
+        {
+          "id": "M0-I",
+          "romanNumeral": "I",
+          "name": "Définitions fondamentales",
+          "subsections": [
+            {
+              "id": "M0-I-1",
+              "number": "1",
+              "name": "Macroéconomie",
+              "notions": [
+                {"id": "M0-I-1a", "name": "Définition macroéconomie", "description": "Étude phénomènes globaux : chômage, inflation, croissance, commerce extérieur", "tags": ["Intro"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "M0-I-1b", "name": "Fonctions de l'État", "description": "Affectation (biens publics), Redistribution (équité), Stabilisation (conjoncture)", "tags": ["Intro", "État"], "difficulty": "Facile", "estimatedTime": 6}
+              ],
+              "estimatedTime": 11
+            },
+            {
+              "id": "M0-I-2",
+              "number": "2",
+              "name": "Modèles économiques",
+              "notions": [
+                {"id": "M0-I-2a", "name": "Types de modèles", "description": "Littéraire (verbal), Mathématique (équations), Graphique (offre/demande)", "tags": ["Intro"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "M0-I-2b", "name": "Statique comparative", "description": "Analyse changement équilibre suite choc exogène (sans trajectoire temporelle)", "tags": ["Intro"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 12
+            }
+          ],
+          "estimatedTime": 23
+        },
+        {
+          "id": "M0-II",
+          "romanNumeral": "II",
+          "name": "Agrégats économiques",
+          "subsections": [
+            {
+              "id": "M0-II-1",
+              "number": "1",
+              "name": "Produit Intérieur Brut",
+              "notions": [
+                {"id": "M0-II-1a", "name": "Définition PIB", "description": "Somme valeurs ajoutées produites sur territoire pendant période. PIB = C + I + G + (X-M)", "tags": ["PIB"], "difficulty": "Facile", "estimatedTime": 6, "relatedFormulas": ["F-pib"]},
+                {"id": "M0-II-1b", "name": "PIB nominal vs réel", "description": "Nominal (prix courants), Réel (prix constants). PIB_réel = PIB_nominal / (Déflateur/100)", "tags": ["PIB"], "difficulty": "Moyen", "estimatedTime": 8, "relatedFormulas": ["F-deflateur"]}
+              ],
+              "estimatedTime": 14
+            },
+            {
+              "id": "M0-II-2",
+              "number": "2",
+              "name": "Chômage et Inflation",
+              "notions": [
+                {"id": "M0-II-2a", "name": "Taux de chômage", "description": "u = U/L où U = chômeurs (BIT), L = population active", "tags": ["Chômage"], "difficulty": "Facile", "estimatedTime": 6, "relatedFormulas": ["F-chomage"]},
+                {"id": "M0-II-2b", "name": "Inflation", "description": "Hausse générale soutenue des prix. Origines : demande (excès), offre (coûts), monétaire (masse M)", "tags": ["Inflation"], "difficulty": "Moyen", "estimatedTime": 7, "relatedFormulas": ["F-inflation"]}
+              ],
+              "estimatedTime": 13
+            }
+          ],
+          "estimatedTime": 27
+        }
+      ],
+      "estimatedTime": 50,
+      "icon": "📚"
+    },
+    {
+      "id": "M1",
+      "number": "1",
+      "name": "Consommation",
+      "description": "Théories keynésienne, cycle de vie, revenu permanent/relatif",
+      "sections": [
+        {
+          "id": "M1-I",
+          "romanNumeral": "I",
+          "name": "Théorie keynésienne",
+          "subsections": [
+            {"id": "M1-I-1", "number": "1", "name": "Fonction de consommation", "notions": [{"id": "M1-I-1a", "name": "Fonction consommation keynésienne", "description": "C = C0 + cY où C0 consommation autonome, c PMC (0<c<1)", "tags": ["Keynes"], "difficulty": "Facile", "estimatedTime": 8, "relatedAuthors": ["A-keynes"], "relatedFormulas": ["F-conso"]}, {"id": "M1-I-1b", "name": "Consommation autonome C0", "description": "Consommation indépendante du revenu (minimum vital). C0 > 0 si Y = 0", "tags": ["Keynes"], "difficulty": "Facile", "estimatedTime": 5, "relatedNotions": ["M1-I-1a"], "relatedAuthors": ["A-keynes"]}], "estimatedTime": 13},
+            {"id": "M1-I-2", "number": "2", "name": "Propensions et multiplicateur", "notions": [{"id": "M1-I-2a", "name": "PMC", "description": "PMC = ΔC/ΔY = c. Part revenu additionnel consommée (0<c<1)", "tags": ["PMC", "Keynes"], "difficulty": "Moyen", "estimatedTime": 10, "relatedNotions": ["M1-I-2b", "M1-I-2c"], "relatedAuthors": ["A-keynes"], "relatedFormulas": ["F-pmc"], "prerequisites": ["M1-I-1a"]}, {"id": "M1-I-2b", "name": "PME", "description": "PME = ΔS/ΔY = 1-c. Part revenu additionnel épargnée. PMC+PME=1", "tags": ["PME"], "difficulty": "Moyen", "estimatedTime": 8, "relatedNotions": ["M1-I-2a"], "relatedAuthors": ["A-keynes"], "relatedFormulas": ["F-pmc"], "prerequisites": ["M1-I-1a"]}, {"id": "M1-I-2c", "name": "Multiplicateur keynésien", "description": "k = 1/(1-c) = 1/PME. Amplification effet demande autonome sur revenu", "tags": ["Multiplicateur"], "difficulty": "Moyen", "estimatedTime": 12, "relatedNotions": ["M1-I-2a", "M1-I-2b"], "relatedAuthors": ["A-keynes"], "relatedFormulas": ["F-mult"], "prerequisites": ["M1-I-2a"]}], "estimatedTime": 30},
+            {"id": "M1-I-3", "number": "3", "name": "Loi psychologique", "notions": [{"id": "M1-I-3a", "name": "Loi psychologique fondamentale", "description": "Quand Y↑, C↑ mais moins que proportionnellement (PMC<1). Épargne↑ avec revenu", "tags": ["Keynes"], "difficulty": "Moyen", "estimatedTime": 10, "relatedNotions": ["M1-I-2a"], "relatedAuthors": ["A-keynes"]}, {"id": "M1-I-3b", "name": "Épargne résidu", "description": "Épargne pas décision active : S=Y-C. On consomme puis épargne le reste", "tags": ["Épargne"], "difficulty": "Facile", "estimatedTime": 6, "relatedNotions": ["M1-I-1a"], "relatedAuthors": ["A-keynes"]}], "estimatedTime": 16}
+          ],
+          "estimatedTime": 59
+        },
+        {
+          "id": "M1-II",
+          "romanNumeral": "II",
+          "name": "Théories alternatives",
+          "subsections": [
+            {"id": "M1-II-1", "number": "1", "name": "Revenu relatif", "notions": [{"id": "M1-II-1a", "name": "Revenu relatif (Duesenberry)", "description": "PMC dépend position échelle revenus. Effet démonstration (imitation) + effet cliquet (rigidité baisse)", "tags": ["Duesenberry"], "difficulty": "Moyen", "estimatedTime": 12, "relatedAuthors": ["A-duesenberry", "A-brown"]}], "estimatedTime": 12},
+            {"id": "M1-II-2", "number": "2", "name": "Cycle de vie", "notions": [{"id": "M1-II-2a", "name": "Cycle de vie (Modigliani)", "description": "Lissage consommation sur vie. Jeunes empruntent, actifs épargnent, retraités désépargnent. C=α·Y^L+β·A", "tags": ["Modigliani"], "difficulty": "Difficile", "estimatedTime": 15, "relatedAuthors": ["A-modigliani"]}], "estimatedTime": 15},
+            {"id": "M1-II-3", "number": "3", "name": "Revenu permanent", "notions": [{"id": "M1-II-3a", "name": "Revenu permanent (Friedman)", "description": "Y=Yp+Yt (permanent+transitoire). Consommation dépend uniquement Yp : Cp=γ·Yp", "tags": ["Friedman"], "difficulty": "Difficile", "estimatedTime": 15, "relatedAuthors": ["A-friedman"]}], "estimatedTime": 15}
+          ],
+          "estimatedTime": 42
+        }
+      ],
+      "estimatedTime": 101,
+      "icon": "🛒"
+    },
+    {
+      "id": "M2",
+      "number": "2",
+      "name": "Investissement",
+      "description": "Accélérateur, VAN/TRI, financement, q de Tobin",
+      "sections": [
+        {
+          "id": "M2-I",
+          "romanNumeral": "I",
+          "name": "Principe de l'accélérateur",
+          "subsections": [
+            {"id": "M2-I-1", "number": "1", "name": "Définitions", "notions": [{"id": "M2-I-1a", "name": "FBCF", "description": "Formation Brute Capital Fixe. Investissement matériel/immatériel (hors financier)", "tags": ["Investissement"], "difficulty": "Facile", "estimatedTime": 6}, {"id": "M2-I-1b", "name": "Investissement brut/net", "description": "I_brut = I_remplacement + I_net. Net = augmentation capacités", "tags": ["Investissement"], "difficulty": "Facile", "estimatedTime": 6}], "estimatedTime": 12},
+            {"id": "M2-I-2", "number": "2", "name": "Accélérateur simple", "notions": [{"id": "M2-I-2a", "name": "Accélérateur Clark", "description": "It = v·ΔYt. Investissement proportionnel variation demande. v=K/Y (coefficient capital)", "tags": ["Accélérateur"], "difficulty": "Moyen", "estimatedTime": 12, "relatedAuthors": ["A-clark"], "relatedFormulas": ["F-accel"]}], "estimatedTime": 12},
+            {"id": "M2-I-3", "number": "3", "name": "Accélérateur flexible", "notions": [{"id": "M2-I-3a", "name": "Accélérateur flexible", "description": "Kt = (1-δ)Kt-1 + It. Introduit dépréciation δ et vitesse ajustement λ. Variations moins brutales", "tags": ["Accélérateur"], "difficulty": "Difficile", "estimatedTime": 14, "relatedFormulas": ["F-accel-flex"]}], "estimatedTime": 14}
+          ],
+          "estimatedTime": 38
+        },
+        {
+          "id": "M2-II",
+          "romanNumeral": "II",
+          "name": "Investissement et taux d'intérêt",
+          "subsections": [
+            {"id": "M2-II-1", "number": "1", "name": "VAN et TRI", "notions": [{"id": "M2-II-1a", "name": "VAN", "description": "VAN = -I + Σ(Rt-Ct)/(1+i)^t. Décision : investir si VAN>0", "tags": ["Investissement"], "difficulty": "Moyen", "estimatedTime": 12, "relatedFormulas": ["F-van"]}, {"id": "M2-II-1b", "name": "TRI", "description": "Taux annulant VAN. Investir si TRI>i. Efficacité marginale capital (Keynes)", "tags": ["Investissement"], "difficulty": "Moyen", "estimatedTime": 10, "relatedFormulas": ["F-tri"], "relatedAuthors": ["A-keynes"]}], "estimatedTime": 22},
+            {"id": "M2-II-2", "number": "2", "name": "Fonction d'investissement", "notions": [{"id": "M2-II-2a", "name": "Fonction investissement", "description": "I = -ei + I0. Décroissante du taux i. e = élasticité investissement au taux", "tags": ["Investissement"], "difficulty": "Moyen", "estimatedTime": 10, "relatedFormulas": ["F-inv"], "relatedAuthors": ["A-keynes"]}], "estimatedTime": 10}
+          ],
+          "estimatedTime": 32
+        },
+        {
+          "id": "M2-III",
+          "romanNumeral": "III",
+          "name": "Financement de l'investissement",
+          "subsections": [
+            {"id": "M2-III-1", "number": "1", "name": "Modalités", "notions": [{"id": "M2-III-1a", "name": "Modalités financement", "description": "Autofinancement, Émission actions (capital), Dette (emprunts obligataires)", "tags": ["Financement"], "difficulty": "Facile", "estimatedTime": 8}, {"id": "M2-III-1b", "name": "Effet de levier", "description": "Si rentabilité économique P > taux emprunt r, endettement améliore rentabilité fonds propres", "tags": ["Financement"], "difficulty": "Moyen", "estimatedTime": 10}], "estimatedTime": 18},
+            {"id": "M2-III-2", "number": "2", "name": "q de Tobin", "notions": [{"id": "M2-III-2a", "name": "q de Tobin", "description": "q = Valeur boursière / Prix capital neuf. Si q>1 : investir. Si q<1 : acquisitions", "tags": ["Tobin"], "difficulty": "Difficile", "estimatedTime": 12, "relatedAuthors": ["A-tobin"], "relatedFormulas": ["F-qtobin"]}], "estimatedTime": 12}
+          ],
+          "estimatedTime": 30
+        }
+      ],
+      "estimatedTime": 100,
+      "icon": "🏗️"
+    },
+    {
+      "id": "M3",
+      "number": "3",
+      "name": "Modèle Classique",
+      "description": "Loi Say, dichotomie, marché travail, théorie quantitative monnaie",
+      "sections": [
+        {
+          "id": "M3-I",
+          "romanNumeral": "I",
+          "name": "Principes fondamentaux",
+          "subsections": [
+            {"id": "M3-I-1", "number": "1", "name": "Loi des débouchés", "notions": [{"id": "M3-I-1a", "name": "Loi de Say", "description": "L'offre crée sa propre demande. Production génère revenus égaux à valeur biens. Pas de surproduction générale possible", "tags": ["Say"], "difficulty": "Moyen", "estimatedTime": 10, "relatedAuthors": ["A-say"]}, {"id": "M3-I-1b", "name": "Débouchés garantis", "description": "Équilibre automatique par flexibilité prix. Offre de travail→Production→Demande. Vente assurée si prix justes", "tags": ["Say"], "difficulty": "Moyen", "estimatedTime": 8, "relatedNotions": ["M3-I-1a"], "relatedAuthors": ["A-say"]}], "estimatedTime": 18},
+            {"id": "M3-I-2", "number": "2", "name": "Dichotomie et neutralité", "notions": [{"id": "M3-I-2a", "name": "Dichotomie classique", "description": "Séparation secteur réel (Y, N, W/P) et monétaire (M, P). Réel déterminé indépendamment de monnaie", "tags": ["Classique"], "difficulty": "Moyen", "estimatedTime": 10, "relatedNotions": ["M3-I-2b"]}, {"id": "M3-I-2b", "name": "Monnaie voile", "description": "Monnaie facilite échanges mais neutre sur variables réelles. Affecte seulement niveau général prix", "tags": ["Classique"], "difficulty": "Moyen", "estimatedTime": 9, "relatedNotions": ["M3-I-2a"], "relatedFormulas": ["F-fisher"]}], "estimatedTime": 19},
+            {"id": "M3-I-3", "number": "3", "name": "Plein emploi", "notions": [{"id": "M3-I-3a", "name": "Plein emploi", "description": "Marché travail s'équilibre toujours par flexibilité salaires. Chômage = volontaire ou frictionnel", "tags": ["Classique"], "difficulty": "Moyen", "estimatedTime": 10, "relatedNotions": ["M3-II-1a", "M3-II-2a"]}], "estimatedTime": 10}
+          ],
+          "estimatedTime": 47
+        },
+        {
+          "id": "M3-II",
+          "romanNumeral": "II",
+          "name": "Marché du travail",
+          "subsections": [
+            {"id": "M3-II-1", "number": "1", "name": "Demande de travail", "notions": [{"id": "M3-II-1a", "name": "Demande de travail", "description": "N^d(W/P). Entreprise embauche jusqu'à MPL = W/P. Décroissante du salaire réel (rendements décroissants)", "tags": ["Travail"], "difficulty": "Moyen", "estimatedTime": 12, "relatedFormulas": ["F-mpl"]}], "estimatedTime": 12},
+            {"id": "M3-II-2", "number": "2", "name": "Offre de travail", "notions": [{"id": "M3-II-2a", "name": "Offre de travail", "description": "N^s(W/P). Arbitrage loisir-travail. Croissante du salaire réel (effet substitution > effet revenu)", "tags": ["Travail"], "difficulty": "Moyen", "estimatedTime": 11, "relatedNotions": ["M3-II-1a"]}], "estimatedTime": 11},
+            {"id": "M3-II-3", "number": "3", "name": "Équilibre", "notions": [{"id": "M3-II-3a", "name": "Équilibre marché travail", "description": "N^d(W/P) = N^s(W/P). Détermine (W/P)*, N*. Puis Y* = f(N*) avec K fixe", "tags": ["Travail"], "difficulty": "Difficile", "estimatedTime": 14, "relatedNotions": ["M3-II-1a", "M3-II-2a"], "relatedFormulas": ["F-production"], "prerequisites": ["M3-II-1a", "M3-II-2a"]}], "estimatedTime": 14}
+          ],
+          "estimatedTime": 37
+        },
+        {
+          "id": "M3-III",
+          "romanNumeral": "III",
+          "name": "Théorie quantitative de la monnaie",
+          "subsections": [
+            {"id": "M3-III-1", "number": "1", "name": "Équation de Fisher", "notions": [{"id": "M3-III-1a", "name": "Équation Fisher", "description": "P·Y = M·v. P = M·v/Y. Prix proportionnel masse monétaire si v constant et Y déterminé par marché travail", "tags": ["Monnaie"], "difficulty": "Moyen", "estimatedTime": 12, "relatedAuthors": ["A-fisher"], "relatedFormulas": ["F-fisher"]}], "estimatedTime": 12},
+            {"id": "M3-III-2", "number": "2", "name": "Équation de Cambridge", "notions": [{"id": "M3-III-2a", "name": "Équation Cambridge", "description": "M = k·P·Y où k=1/v. Fraction revenu nominal détenue en monnaie. Équivalent Fisher avec k constant", "tags": ["Monnaie"], "difficulty": "Moyen", "estimatedTime": 11, "relatedAuthors": ["A-marshall"], "relatedFormulas": ["F-cambridge"], "relatedNotions": ["M3-III-1a"]}], "estimatedTime": 11},
+            {"id": "M3-III-3", "number": "3", "name": "Neutralité monétaire", "notions": [{"id": "M3-III-3a", "name": "Neutralité de la monnaie", "description": "ΔM → ΔP proportionnel, pas effet sur Y, N, W/P. Monnaie n'affecte pas variables réelles", "tags": ["Monnaie"], "difficulty": "Difficile", "estimatedTime": 13, "relatedNotions": ["M3-I-2b", "M3-III-1a"], "prerequisites": ["M3-III-1a"]}], "estimatedTime": 13}
+          ],
+          "estimatedTime": 36
+        }
+      ],
+      "estimatedTime": 120,
+      "icon": "🏛️"
+    },
+    {
+      "id": "M4",
+      "number": "4",
+      "name": "Modèle Keynésien",
+      "description": "Demande effective, sous-emploi, IS-LM, politiques économiques",
+      "sections": [
+        {
+          "id": "M4-I",
+          "romanNumeral": "I",
+          "name": "Rupture avec les classiques",
+          "subsections": [
+            {"id": "M4-I-1", "number": "1", "name": "Principes keynésiens", "notions": [{"id": "M4-I-1a", "name": "Économie monétaire de production", "description": "Monnaie pas neutre. Demande détermine production. Anticipations incertaines cruciales", "tags": ["Keynes"], "difficulty": "Moyen", "estimatedTime": 10, "relatedAuthors": ["A-keynes"]}, {"id": "M4-I-1b", "name": "Sous-emploi durable", "description": "Équilibre possible avec chômage involontaire. Rigidités empêchent ajustement automatique", "tags": ["Keynes"], "difficulty": "Moyen", "estimatedTime": 9, "relatedAuthors": ["A-keynes"]}], "estimatedTime": 19},
+            {"id": "M4-I-2", "number": "2", "name": "Demande effective", "notions": [{"id": "M4-I-2a", "name": "Principe demande effective", "description": "Production déterminée par demande anticipée (D), pas offre (Z). Équilibre : D=Z. Peut être < plein emploi", "tags": ["Keynes"], "difficulty": "Difficile", "estimatedTime": 14, "relatedAuthors": ["A-keynes"]}, {"id": "M4-I-2b", "name": "Invalidation loi Say", "description": "Demande ne crée pas automatiquement offre. Insuffisance demande→sous-emploi. Crise surproduction possible", "tags": ["Keynes"], "difficulty": "Moyen", "estimatedTime": 10, "relatedNotions": ["M4-I-2a", "M3-I-1a"], "relatedAuthors": ["A-keynes"]}], "estimatedTime": 24}
+          ],
+          "estimatedTime": 43
+        },
+        {
+          "id": "M4-II",
+          "romanNumeral": "II",
+          "name": "Modèle IS-LM",
+          "subsections": [
+            {"id": "M4-II-1", "number": "1", "name": "Courbe IS", "notions": [{"id": "M4-II-1a", "name": "Équilibre marché biens", "description": "Y = C(Y) + I(r). I(r) = S(Y). Courbe IS : combinaisons (Y,r) équilibrant biens. Décroissante", "tags": ["IS-LM"], "difficulty": "Difficile", "estimatedTime": 15, "relatedAuthors": ["A-hicks"], "relatedFormulas": ["F-is"], "prerequisites": ["M1-I-1a", "M2-II-2a"]}], "estimatedTime": 15},
+            {"id": "M4-II-2", "number": "2", "name": "Courbe LM", "notions": [{"id": "M4-II-2a", "name": "Demande de monnaie", "description": "L = L1(Y) + L2(r). L1 (transaction+précaution) croissante Y. L2 (spéculation) décroissante r", "tags": ["IS-LM", "Monnaie"], "difficulty": "Difficile", "estimatedTime": 14, "relatedAuthors": ["A-keynes"], "relatedFormulas": ["F-monnaie"]}, {"id": "M4-II-2b", "name": "Équilibre monétaire LM", "description": "L(Y,r) = M/P. Courbe LM : combinaisons (Y,r) équilibrant monnaie. Croissante", "tags": ["IS-LM"], "difficulty": "Difficile", "estimatedTime": 13, "relatedNotions": ["M4-II-2a"], "relatedAuthors": ["A-hicks"], "relatedFormulas": ["F-lm"]}], "estimatedTime": 27},
+            {"id": "M4-II-3", "number": "3", "name": "Équilibre IS-LM", "notions": [{"id": "M4-II-3a", "name": "Équilibre IS-LM", "description": "Intersection IS-LM détermine (Y*, r*). Équilibre simultané biens et monnaie. Abandon dichotomie classique", "tags": ["IS-LM"], "difficulty": "Difficile", "estimatedTime": 16, "relatedNotions": ["M4-II-1a", "M4-II-2b"], "prerequisites": ["M4-II-1a", "M4-II-2b"]}], "estimatedTime": 16},
+            {"id": "M4-II-4", "number": "4", "name": "Trappe à liquidité", "notions": [{"id": "M4-II-4a", "name": "Trappe à liquidité", "description": "r très bas : L2 horizontale, demande monnaie infinie. LM horizontale. Politique monétaire inefficace", "tags": ["IS-LM", "Monnaie"], "difficulty": "Difficile", "estimatedTime": 14, "relatedAuthors": ["A-keynes"]}], "estimatedTime": 14}
+          ],
+          "estimatedTime": 72
+        },
+        {
+          "id": "M4-III",
+          "romanNumeral": "III",
+          "name": "Politiques économiques",
+          "subsections": [
+            {"id": "M4-III-1", "number": "1", "name": "Politique budgétaire", "notions": [{"id": "M4-III-1a", "name": "Multiplicateur dépenses publiques", "description": "k_G = 1/(1-c). Déplacement IS droite. ΔY = k_G·ΔG. Efficace si pas trappe liquidité", "tags": ["Politique"], "difficulty": "Difficile", "estimatedTime": 14, "relatedFormulas": ["F-multG"], "relatedNotions": ["M1-I-2c", "M4-II-3a"]}, {"id": "M4-III-1b", "name": "Multiplicateur impôts", "description": "k_T = -c/(1-c). |k_T| < |k_G|. Théorème Haavelmo : ΔG = ΔT → ΔY = ΔG (k=1)", "tags": ["Politique"], "difficulty": "Difficile", "estimatedTime": 13, "relatedFormulas": ["F-multT"]}], "estimatedTime": 27},
+            {"id": "M4-III-2", "number": "2", "name": "Politique monétaire", "notions": [{"id": "M4-III-2a", "name": "Politique monétaire", "description": "ΔM/P → LM déplacement droite → r↓ → I↑ → Y↑. Moins efficace si investissement peu élastique à r", "tags": ["Politique", "Monnaie"], "difficulty": "Difficile", "estimatedTime": 15, "relatedNotions": ["M4-II-2b", "M2-II-2a"]}], "estimatedTime": 15},
+            {"id": "M4-III-3", "number": "3", "name": "Économie ouverte", "notions": [{"id": "M4-III-3a", "name": "Multiplicateur économie ouverte", "description": "k = 1/(1-c+m) où m = propension importer. k plus faible : fuites importations réduisent effet", "tags": ["Politique"], "difficulty": "Difficile", "estimatedTime": 12, "relatedFormulas": ["F-multouvert"]}], "estimatedTime": 12}
+          ],
+          "estimatedTime": 54
+        }
+      ],
+      "estimatedTime": 169,
+      "icon": "📊"
+    }
+  ],
+  "crossCutting": {
+    "formulas": {
+      "id": "formulas",
+      "name": "📐 Formules",
+      "items": [
+        {"id": "F-pib", "name": "PIB", "formula": "PIB = C + I + G + (X-M)", "tags": ["Formule"], "relatedNotions": ["M0-II-1a"], "difficulty": "Facile"},
+        {"id": "F-deflateur", "name": "PIB réel", "formula": "PIB_réel = PIB_nominal/(Déflateur/100)", "tags": ["Formule"], "relatedNotions": ["M0-II-1b"], "difficulty": "Moyen"},
+        {"id": "F-chomage", "name": "Taux chômage", "formula": "u = U/L", "tags": ["Formule"], "relatedNotions": ["M0-II-2a"], "difficulty": "Facile"},
+        {"id": "F-inflation", "name": "Taux inflation", "formula": "π = (P_t-P_{t-1})/P_{t-1}", "tags": ["Formule"], "relatedNotions": ["M0-II-2b"], "difficulty": "Facile"},
+        {"id": "F-conso", "name": "Fonction consommation", "formula": "C = C0 + cY", "tags": ["Formule"], "relatedNotions": ["M1-I-1a"], "difficulty": "Facile"},
+        {"id": "F-pmc", "name": "PMC et PME", "formula": "PMC=c ; PME=1-c ; PMC+PME=1", "tags": ["Formule"], "relatedNotions": ["M1-I-2a", "M1-I-2b"], "difficulty": "Facile"},
+        {"id": "F-mult", "name": "Multiplicateur", "formula": "k = 1/(1-c) = 1/PME", "tags": ["Formule"], "relatedNotions": ["M1-I-2c"], "difficulty": "Moyen"},
+        {"id": "F-accel", "name": "Accélérateur simple", "formula": "It = v·ΔYt", "tags": ["Formule"], "relatedNotions": ["M2-I-2a"], "difficulty": "Moyen"},
+        {"id": "F-accel-flex", "name": "Accélérateur flexible", "formula": "Kt = (1-δ)Kt-1 + It", "tags": ["Formule"], "relatedNotions": ["M2-I-3a"], "difficulty": "Difficile"},
+        {"id": "F-van", "name": "VAN", "formula": "VAN = -I + Σ(Rt-Ct)/(1+i)^t", "tags": ["Formule"], "relatedNotions": ["M2-II-1a"], "difficulty": "Moyen"},
+        {"id": "F-tri", "name": "TRI", "formula": "TRI tel que VAN=0", "tags": ["Formule"], "relatedNotions": ["M2-II-1b"], "difficulty": "Moyen"},
+        {"id": "F-inv", "name": "Fonction investissement", "formula": "I = -ei + I0", "tags": ["Formule"], "relatedNotions": ["M2-II-2a"], "difficulty": "Moyen"},
+        {"id": "F-qtobin", "name": "q de Tobin", "formula": "q = Valeur boursière / Prix capital neuf", "tags": ["Formule"], "relatedNotions": ["M2-III-2a"], "difficulty": "Difficile"},
+        {"id": "F-mpl", "name": "Demande travail", "formula": "MPL = W/P", "tags": ["Formule"], "relatedNotions": ["M3-II-1a"], "difficulty": "Moyen"},
+        {"id": "F-production", "name": "Fonction production", "formula": "Y = f(N)", "tags": ["Formule"], "relatedNotions": ["M3-II-3a"], "difficulty": "Facile"},
+        {"id": "F-fisher", "name": "Équation Fisher", "formula": "P·Y = M·v", "tags": ["Formule"], "relatedNotions": ["M3-III-1a"], "difficulty": "Moyen"},
+        {"id": "F-cambridge", "name": "Équation Cambridge", "formula": "M = k·P·Y", "tags": ["Formule"], "relatedNotions": ["M3-III-2a"], "difficulty": "Moyen"},
+        {"id": "F-is", "name": "Courbe IS", "formula": "I(r) = S(Y)", "tags": ["Formule"], "relatedNotions": ["M4-II-1a"], "difficulty": "Difficile"},
+        {"id": "F-monnaie", "name": "Demande monnaie", "formula": "L = L1(Y) + L2(r)", "tags": ["Formule"], "relatedNotions": ["M4-II-2a"], "difficulty": "Difficile"},
+        {"id": "F-lm", "name": "Courbe LM", "formula": "L(Y,r) = M/P", "tags": ["Formule"], "relatedNotions": ["M4-II-2b"], "difficulty": "Difficile"},
+        {"id": "F-multG", "name": "Multiplicateur dépenses G", "formula": "k_G = 1/(1-c)", "tags": ["Formule"], "relatedNotions": ["M4-III-1a"], "difficulty": "Difficile"},
+        {"id": "F-multT", "name": "Multiplicateur impôts", "formula": "k_T = -c/(1-c)", "tags": ["Formule"], "relatedNotions": ["M4-III-1b"], "difficulty": "Difficile"},
+        {"id": "F-multouvert", "name": "Multiplicateur économie ouverte", "formula": "k = 1/(1-c+m)", "tags": ["Formule"], "relatedNotions": ["M4-III-3a"], "difficulty": "Difficile"}
+      ]
+    },
+    "authors": {
+      "id": "authors",
+      "name": "👥 Économistes",
+      "items": [
+        {"id": "A-keynes", "name": "Keynes", "fullName": "John Maynard Keynes", "description": "Théorie générale 1936. Demande effective, IS-LM, préférence liquidité", "tags": ["Auteur"], "relatedNotions": ["M1-I-1a", "M1-I-2a", "M1-I-2c", "M2-II-1b", "M2-II-2a", "M4-I-1a", "M4-I-2a", "M4-II-2a", "M4-II-4a"], "metadata": {"born": "1883", "died": "1946", "nationality": "UK"}},
+        {"id": "A-modigliani", "name": "Modigliani", "fullName": "Franco Modigliani", "description": "Nobel 1985. Cycle de vie", "tags": ["Auteur"], "relatedNotions": ["M1-II-2a"], "metadata": {"nobel": 1985}},
+        {"id": "A-friedman", "name": "Friedman", "fullName": "Milton Friedman", "description": "Nobel 1976. Revenu permanent, monétarisme", "tags": ["Auteur"], "relatedNotions": ["M1-II-3a"], "metadata": {"nobel": 1976}},
+        {"id": "A-duesenberry", "name": "Duesenberry", "fullName": "James Duesenberry", "description": "Revenu relatif : démonstration + cliquet", "tags": ["Auteur"], "relatedNotions": ["M1-II-1a"]},
+        {"id": "A-brown", "name": "Brown", "fullName": "Arthur Brown", "description": "Effet démonstration", "tags": ["Auteur"], "relatedNotions": ["M1-II-1a"]},
+        {"id": "A-clark", "name": "Clark", "fullName": "John Maurice Clark", "description": "Accélérateur simple (1917)", "tags": ["Auteur"], "relatedNotions": ["M2-I-2a"], "metadata": {"born": "1884", "died": "1963"}},
+        {"id": "A-tobin", "name": "Tobin", "fullName": "James Tobin", "description": "Nobel 1981. q de Tobin", "tags": ["Auteur"], "relatedNotions": ["M2-III-2a"], "metadata": {"nobel": 1981}},
+        {"id": "A-say", "name": "Say", "fullName": "Jean-Baptiste Say", "description": "Loi des débouchés : offre crée demande", "tags": ["Auteur"], "relatedNotions": ["M3-I-1a", "M3-I-1b"], "metadata": {"born": "1767", "died": "1832", "nationality": "France"}},
+        {"id": "A-fisher", "name": "Fisher", "fullName": "Irving Fisher", "description": "Théorie quantitative monnaie P·Y=M·v (1911)", "tags": ["Auteur"], "relatedNotions": ["M3-III-1a"], "metadata": {"born": "1867", "died": "1947"}},
+        {"id": "A-marshall", "name": "Marshall", "fullName": "Alfred Marshall", "description": "Équation Cambridge M=k·P·Y", "tags": ["Auteur"], "relatedNotions": ["M3-III-2a"], "metadata": {"born": "1842", "died": "1924", "nationality": "UK"}},
+        {"id": "A-hicks", "name": "Hicks", "fullName": "John Hicks", "description": "Nobel 1972. Modèle IS-LM (synthèse keynésienne)", "tags": ["Auteur"], "relatedNotions": ["M4-II-1a", "M4-II-2b", "M4-II-3a"], "metadata": {"nobel": 1972}}
+      ]
+    }
+  },
+  "metadata": {
+    "totalQuestions": 570,
+    "totalTime": 641,
+    "totalNotions": 52,
+    "authors": ["Prof Macro L1"]
+  }
+}

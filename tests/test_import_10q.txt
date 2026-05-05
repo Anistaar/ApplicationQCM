@@ -1,0 +1,22 @@
+# TEST IMPORT
+# Fichier test avec 10 questions MACRO
+
+QR || Qu'est-ce que la macroéconomie ? || L'étude de l'économie dans son ensemble, analysant les agrégats économiques comme le PIB, l'inflation, le chômage, etc. || La macroéconomie étudie les phénomènes économiques globaux à l'échelle d'un pays ou du monde. || Chapitre0, Introduction, Definitions, Facile
+
+QR || Quelle est la différence entre macroéconomie et microéconomie ? || La macroéconomie étudie l'économie globale tandis que la microéconomie étudie les comportements individuels des agents. || La macro s'intéresse aux agrégats (PIB, inflation), la micro aux décisions individuelles (consommateur, entreprise). || Chapitre0, Introduction, Definitions, Facile
+
+QR || Qu'est-ce que le PIB ? || Le Produit Intérieur Brut, somme des valeurs ajoutées produites sur un territoire pendant une période donnée. || Le PIB mesure la richesse créée par un pays. C'est l'indicateur de référence de l'activité économique. || Chapitre0, Introduction, PIB, Definitions, Facile
+
+QCM || Quels sont les trois grands courants de pensée en macroéconomie ? || V:Classique | V:Keynésien | Marxiste | V:Néoclassique || Les trois grands courants sont : classique, keynésien et néoclassique (synthèse). || Chapitre0, Introduction, Theories, Moyen
+
+QR || Quel est l'objectif principal de la politique macroéconomique ? || Assurer la croissance, le plein emploi, la stabilité des prix et l'équilibre extérieur. || Les 4 objectifs du carré magique de Kaldor. || Chapitre0, Introduction, Politique, Moyen
+
+QR || Qu'est-ce que le carré magique de Kaldor ? || Un outil graphique représentant les 4 objectifs de politique économique : croissance, emploi, stabilité des prix, équilibre extérieur. || Inventé par Nicholas Kaldor, il permet de visualiser la performance économique d'un pays. || Chapitre0, Introduction, Kaldor, Politique, Moyen
+
+QCM || Quels sont des agrégats macroéconomiques ? || V:PIB | V:Consommation nationale | Prix d'un iPhone | V:Investissement total | Salaire de Paul | V:Exportations nettes || Les agrégats sont des grandeurs globales. Un prix ou un salaire individuel sont des variables microéconomiques. || Chapitre0, Introduction, Agregats, Facile
+
+QR || Qui est considéré comme le père de la macroéconomie moderne ? || John Maynard Keynes || Avec son ouvrage "Théorie générale de l'emploi, de l'intérêt et de la monnaie" (1936), Keynes a fondé la macroéconomie comme discipline autonome. || Chapitre0, Introduction, Keynes, Histoire, Facile
+
+QR || Quelle est la définition économique de la consommation ? || La destruction de biens ou services par l'usage pour satisfaire un besoin. || En macroéconomie, on considère la consommation des ménages comme un des composants de la demande globale. || Chapitre1, Consommation, Definitions, Facile
+
+QR || Qu'est-ce que le revenu disponible des ménages ? || Le revenu après impôts et transferts sociaux, disponible pour la consommation et l'épargne. || Yd = Revenu primaire + Prestations sociales - Prélèvements obligatoires || Chapitre1, Consommation, Revenu, Definitions, Facile

@@ -19,7 +19,11 @@
     "convert:riae:docx": "node scripts/convert-docx-dir.mjs src/cours/RIAE/SOURCES src/cours/RIAE",
     "classify:macro-bank": "node scripts/classify-macro-bank.mjs",
     "ocr:stats:partiels": "node scripts/ocr-partiels-stats.mjs",
-  "ocr:analyse-eco:partiels": "node scripts/ocr-partiels-analyse-eco.mjs",
+    "ocr:analyse-eco:partiels": "node scripts/ocr-partiels-analyse-eco.mjs",
+    "normalize": "python scripts/normalize-text2quiz.py normalize",
+    "normalize:all-mega": "python scripts/normalize-text2quiz.py normalize src/questions/S1/*/MEGA_COMPLET.txt src/questions/S1/*/*_MEGA_COMPLET.txt",
+    "merge:questions": "python scripts/normalize-text2quiz.py merge",
+    "split:by-theme": "python scripts/normalize-text2quiz.py split",
     "release": "powershell -ExecutionPolicy Bypass -File ./scripts/release.ps1",
     "commit": "powershell -ExecutionPolicy Bypass -File ./scripts/quick-commit.ps1"
   },

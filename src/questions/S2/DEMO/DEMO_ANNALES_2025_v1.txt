@@ -1,0 +1,47 @@
+@themes: Démographie
+
+### === DEMO-AN25-1 : Annales 2025 – Population, soldes, pyramide des âges ===
+### "Questions 1-5 du QCM Démographie 2025 (barème +1/-0,25, plusieurs réponses possibles par question)"
+@add-theme: Annales 2025, Examen, Population, Transition démographique
+
+QCM || [ANNALE 2025 – Q1] L'évolution d'une population sur un territoire dépend pour une année de : || V:Du nombre de naissances sur ce territoire pendant l'année|V:Du nombre de décès sur ce territoire pendant l'année|V:Des flux migratoires sur l'année|Aucune de ces réponses n'est juste || La variation de population = naissances − décès + immigration − émigration. Les trois facteurs (a, b, c) sont corrects.
+QCM || [ANNALE 2025 – Q2] Lorsque le solde naturel est positif et que le solde migratoire est positif alors : || V:La population augmente|La population baisse|La population se stabilise|Aucune de ces réponses n'est juste || Solde naturel > 0 signifie plus de naissances que de décès ; solde migratoire > 0 signifie plus d'entrées que de sorties → population augmente nécessairement.
+QCM || [ANNALE 2025 – Q3] La pyramide des âges est un graphique qui : || Permet de porter un jugement sur le vieillissement de la population|V:Représente la composition par âge et par sexe de la population|Montre les ruptures dans l'histoire démographique d'un pays|Aucune de ces réponses n'est juste || La pyramide des âges est un histogramme double (hommes/femmes) représentant la répartition par classes d'âge et par sexe.
+QCM || [ANNALE 2025 – Q4] Malthus : || V:A été le premier à poser le lien entre démographie et économie|V:A montré que la population croissait selon une progression géométrique et les ressources en progression arithmétique|A montré que la population croissait selon une progression arithmétique et les ressources en progression géométrique|Aucune de ces réponses n'est juste || Malthus (1798) : population en progression géométrique (1→2→4→8) vs ressources en progression arithmétique (1→2→3→4) → risque de surpopulation.
+QCM || [ANNALE 2025 – Q5] Que va entraîner le passage d'un régime démographique ancien à un régime nouveau (transition démographique) ? || Une baisse de la population|Un rajeunissement de la population|Un vieillissement de la population|V:Aucune de ces réponses n'est juste || La transition démographique entraîne d'abord une EXPLOSION démographique (la mortalité baisse avant la natalité) puis un vieillissement. Aucune des trois options ne décrit correctement la phase initiale.
+
+---
+
+### === DEMO-AN25-2 : Annales 2025 – Croissance démographique, migration, transition ===
+### "Questions 6-10 du QCM Démographie 2025 sur les indicateurs, Boserup et la pyramide des âges"
+@add-theme: Annales 2025, Examen, Indicateurs, Boserup, Transition démographique
+
+QCM || [ANNALE 2025 – Q6] Une croissance démographique nulle signifie que : || Il y a plus de naissances que de décès|V:Il y a autant de naissances que de décès|Il y a des décès supérieurs aux naissances|Aucune de ces réponses n'est juste || Croissance = 0 ↔ taux de natalité = taux de mortalité (et solde migratoire = 0). La population reste stable.
+QCM || [ANNALE 2025 – Q7] Comment appelle-t-on la différence entre l'immigration et l'émigration ? || Le solde extérieur|Le taux migratoire|Le solde d'immigration|V:Aucune de ces réponses n'est juste || La bonne réponse est "le solde migratoire" (ou solde de migrations) qui n'est pas proposé dans les options. L'étudiant a annoté "solde migratoire" dans la marge.
+QCM || [ANNALE 2025 – Q8] Dans quels pays la transition démographique est-elle terminée ? || Les pays d'Afrique|V:Les pays d'Amérique du Nord|V:Les pays Européens|Aucune de ces réponses n'est juste || En Afrique la transition est encore en cours. Les pays industrialisés (Europe, Amérique du Nord, Japon) ont achevé leur transition : faible natalité + faible mortalité.
+QCM || [ANNALE 2025 – Q9] Pour Esther Boserup la croissance démographique : || V:Est favorable à la croissance économique|V:Est favorable à l'innovation|Est défavorable à la croissance économique|Aucune de ces réponses n'est juste || Boserup (1965) : la pression démographique stimule l'innovation (agricole notamment) → favorable à la croissance. Elle s'oppose à Malthus.
+QCM || [ANNALE 2025 – Q10] Une pyramide des âges en forme de toupie signifie : || Une population âgée|Une population jeune|Une population très âgée|V:Aucune de ces réponses n'est juste || La toupie (élargie au milieu) indique une population d'âge intermédiaire dominante (baby-boom vieillissant). Cette forme n'est pas décrite par les options proposées.
+
+---
+
+### === DEMO-AN25-3 : Annales 2025 – Fécondité, Modigliani, croissance et retraites ===
+### "Questions 11-15 du QCM Démographie 2025 sur l'ICF, le cycle de vie et le vieillissement"
+@add-theme: Annales 2025, Examen, Fécondité, Modigliani, Vieillissement, Retraites
+
+QCM || [ANNALE 2025 – Q11] Quel est le seuil de renouvellement des générations ? || 1 enfant par femme|1,5 enfants par femme|1,1 enfants par femme|V:Aucune de ces réponses n'est juste || Le seuil de renouvellement est de 2,1 enfants par femme (2 pour remplacer les deux parents + 0,1 pour compenser la mortalité infantile). Ce chiffre n'est pas proposé.
+QCM || [ANNALE 2025 – Q12] Pour Modigliani : || Le vieillissement favorise l'épargne|V:Le vieillissement favorise la désépargne|La jeunesse favorise l'épargne|Aucune de ces réponses n'est juste || Théorie du cycle de vie (Modigliani) : on emprunte jeune, on épargne adulte, on désépargne à la retraite en puisant dans le capital accumulé.
+QCM || [ANNALE 2025 – Q13] La croissance démographique a des effets sur la croissance économique : || V:Positifs|V:Négatifs|Aucun effet || Effets positifs : bonus démographique, plus de travailleurs. Effets négatifs : dilution du capital par tête (Solow). Les deux types d'effets coexistent selon le contexte. ⚠️ Vérifier si les deux réponses étaient bien cochées sur la copie.
+QCM || [ANNALE 2025 – Q14 – ⚠️ MANQUANT] Cette question n'était pas visible sur les photos fournies — à compléter : || Option a (à vérifier)|Option b (à vérifier)|Option c (à vérifier)|V:Option d (à vérifier — réponse cochée inconnue) || ⚠️ Q14 non capturée dans les photos. Demander la correction ou l'énoncé original au professeur.
+QCM || [ANNALE 2025 – Q15] Le vieillissement de la population signifie : || V:Une augmentation des plus de 65 ans|Une augmentation des plus de 60 ans|Une augmentation des plus de 75 ans|Aucune de ces réponses n'est juste || Le vieillissement démographique se définit conventionnellement par l'augmentation de la part des plus de 65 ans dans la population totale.
+
+---
+
+### === DEMO-AN25-4 : Annales 2025 – Dilution capital, retraites, pyramides, démographes ===
+### "Questions 16-20 du QCM Démographie 2025 sur l'effet dilution, les pyramides et les auteurs"
+@add-theme: Annales 2025, Examen, Dilution capital, Retraites, Pyramide des âges, Auteurs
+
+QCM || [ANNALE 2025 – Q16] Qu'est-ce que l'effet dilution du capital ? || V:L'accroissement plus fort du travail que du capital|L'accroissement plus fort du capital que du travail|L'accroissement plus fort du capital que du revenu|Aucune de ces réponses n'est juste || L'effet dilution = la croissance démographique accroît le travail (L) plus vite que le capital (K) → K/L baisse → productivité par tête baisse (modèle de Solow).
+QCM || [ANNALE 2025 – Q17] Quels effets du vieillissement sur la productivité ? || Positifs|Négatifs|V:Contradictoires|Aucune de ces réponses n'est juste || Effets contradictoires : certaines études montrent que les travailleurs âgés sont plus expérimentés (+), d'autres montrent qu'ils s'adaptent moins vite aux nouvelles technologies (−).
+QCM || [ANNALE 2025 – Q18] Quelles solutions pour résoudre le problème des retraites ? || V:Augmenter l'âge de départ à la retraite|Réduire les pensions de retraite|V:Augmenter les cotisations sociales|Aucune de ces réponses n'est juste || Les deux solutions classiques : repousser l'âge légal (moins d'années de retraite) ET augmenter les cotisations (plus de recettes). Réduire les pensions serait politiquement difficile à classer comme "solution" dans ce cours.
+QCM || [ANNALE 2025 – Q19] Une pyramide des âges en forme de pyramide (base large, sommet étroit) signifie : || Un vieillissement de la population|V:Une population jeune|Une population d'âge intermédiaire|Aucune de ces réponses n'est juste || Forme triangulaire classique = beaucoup de jeunes (larges cohortes à la base) et peu de vieux → population jeune, typique des pays en développement.
+QCM || [ANNALE 2025 – Q20] Qui n'est PAS démographe ? || Lexis|V:Marx|Malthus|Sauvy || Lexis (démographe, tables de mortalité), Malthus (père de la démographie économique), Sauvy (démographe français du XXe siècle) sont tous démographes. Marx est philosophe et économiste, pas démographe.

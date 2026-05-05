@@ -2,11 +2,17 @@
 // Entraînement & Examen avec rattrapage 100%,
 // Leitner adaptatif (gravité de l'erreur), priorisation des due,
 // bouton Valider piloté par le DOM, thèmes (5e colonne), déduplication, stats par thèmes.
-import { parseQuestions, isCorrect, correctText, countCorrect } from './parser';
+import './style-analytics.css';
+import { isCorrect, correctText, countCorrect } from './parser';
 import { shuffleInPlace } from './shuffle';
 import { keyForQuestion, dedupeQuestions } from './utils';
 import { courses } from './courses';
 import { loadStats, updateStatAfterAnswer, computeSeverity, isDue } from './scheduling';
+import { parserCache } from './cache/ParserCache';
+import { statsManager } from './stats/StatsManager';
+import { ProgressionDashboard } from './stats/ProgressionDashboard';
+import { AnalyticsDashboard } from './stats/AnalyticsDashboard';
+import { demoSheets, loadProgressForSheet, saveProgressForSheet, resetProgressForSheet, computeCompletion, isSlotFilledCorrectly, } from './revision-sheets';
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 /* course discovery & helpers moved to src/courses.ts and src/utils.ts */
@@ -33,6 +39,8 @@ const els = {
     activeQuit: $('#btn-exit-mode'),
 };
 const elsExtra = {
+    btnProgression: $('#btn-progression'),
+    btnAnalytics: $('#btn-analytics'),
     btnExplorer: $('#btn-explorer'),
     fileBrowser: $('#file-browser'),
     fbFolders: $('#fb-folders'),
@@ -119,6 +127,8 @@ function populateMatiereAndCourseSelects() {
     }
     renderPlanForFolder('');
     renderFolderStats('');
+    // Statistiques globales au chargement
+    renderGlobalStats().catch(err => console.error('[init] renderGlobalStats failed:', err));
 }
 // Simple/avancé: masque/affiche les options
 initAdvancedToggle();
@@ -294,8 +304,8 @@ function loadMultiCoursesForThemes() {
     for (const filename of selectedFiles) {
         const course = courses.find((c) => c.path === filename || c.file === filename);
         if (course) {
-            const parsed = parseQuestions(course.content);
-            const unique = dedupeQuestions(parsed);
+            // Use parserCache instead of direct parseQuestions
+            const unique = parserCache.getParsedQuestions(course.path, course.content);
             unique.forEach((q) => (q.tags ?? []).forEach((t) => allThemes.add(t)));
         }
     }
@@ -307,8 +317,8 @@ function loadCourseForThemes(filename) {
         fillThemes([]);
         return;
     }
-    const parsed = parseQuestions(course.content);
-    const unique = dedupeQuestions(parsed);
+    // Use parserCache instead of direct parseQuestions
+    const unique = parserCache.getParsedQuestions(course.path, course.content);
     const set = new Set();
     unique.forEach((q) => (q.tags ?? []).forEach((t) => set.add(t)));
     fillThemes(Array.from(set).sort((a, b) => a.localeCompare(b)));
@@ -358,25 +368,18 @@ function renderPlanForFolder(folderFilter) {
             // Count unique questions for this course
             const qCount = (() => {
                 try {
-                    return dedupeQuestions(parseQuestions(c.content)).length;
+                    return parserCache.getParsedQuestions(c.path, c.content).length;
                 }
                 catch {
                     return 0;
                 }
             })();
             const item = document.createElement('div');
-            item.style.border = '1px solid var(--brd)';
-            item.style.borderRadius = '8px';
-            item.style.padding = '8px';
-            item.style.cursor = 'pointer';
+            item.className = 'course-card';
             item.dataset.path = c.path;
             item.innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px">
-          <div style="min-width:0">
-            <div style="font-weight:600">${escapeHtml(title)}</div>
-            <div style="font-size:12px; color:var(--muted)">${escapeHtml(c.folder)} · ${escapeHtml(c.file.replace(/\.txt$/i, ''))} · ${qCount} question${qCount > 1 ? 's' : ''}</div>
-          </div>
-        </div>
+        <div class="course-card-title">${escapeHtml(title)}</div>
+        <div class="course-card-meta">${qCount} question${qCount > 1 ? 's' : ''}</div>
       `;
             // Sélection simple: clic sur la carte sélectionne le cours
             item.addEventListener('click', () => {
@@ -400,17 +403,6 @@ function renderPlanForFolder(folderFilter) {
                     renderCourseStats(c.path);
                 }
             });
-            // Actions additionnelles: Voir / Télécharger
-            const actions = document.createElement('div');
-            actions.style.display = 'flex';
-            actions.style.gap = '6px';
-            actions.style.marginTop = '8px';
-            const btnVoir = document.createElement('button');
-            btnVoir.className = 'secondary';
-            btnVoir.textContent = 'Voir';
-            btnVoir.addEventListener('click', (ev) => { ev.stopPropagation(); openCoursePreview(c.path); });
-            actions.appendChild(btnVoir);
-            item.appendChild(actions);
             grid.appendChild(item);
         }
         listRoot.appendChild(grid);
@@ -427,7 +419,7 @@ function computeFolderStats(folder) {
     // Collecter toutes les questions du dossier et dédupliquer
     let allQs = [];
     for (const c of inFolder) {
-        const qs = parseQuestions(c.content);
+        const qs = parserCache.getParsedQuestions(c.path, c.content);
         allQs.push(...qs);
     }
     allQs = dedupeQuestions(allQs);
@@ -459,14 +451,112 @@ function computeFolderStats(folder) {
     const avgTimeMs = timeCount > 0 ? Math.round(timeSum / timeCount) : undefined;
     return { folder, total, seen, due, sumSeen, sumCorrect, avgTimeMs };
 }
+// ---- Statistiques globales (tous cours confondus) ----
+async function renderGlobalStats() {
+    const card = $('#global-stats-card');
+    const root = $('#global-stats');
+    if (!card || !root)
+        return;
+    try {
+        const totalTimeMs = await statsManager.getTotalTimeSpent();
+        const totalTimeFormatted = statsManager.formatDuration(totalTimeMs);
+        // Calculer stats globales
+        const allStats = await statsManager.loadStats();
+        const totalQuestions = Object.keys(allStats).length;
+        let totalAttempts = 0;
+        let totalCorrect = 0;
+        Object.values(allStats).forEach((stat) => {
+            totalAttempts += stat.seen || 0;
+            totalCorrect += stat.correct || 0;
+        });
+        const globalPrecision = totalAttempts > 0 ? (totalCorrect / totalAttempts) * 100 : 0;
+        const precisionClass = globalPrecision >= 75 ? 'ok' : globalPrecision >= 50 ? 'warn' : 'danger';
+        root.innerHTML = `
+      <div class="folder-stats-grid">
+        <div class="stat">
+          <span class="label">⏱️ Temps total</span>
+          <span class="value ok">${totalTimeFormatted}</span>
+          <small class="muted">toutes sessions</small>
+        </div>
+        <div class="stat">
+          <span class="label">📚 Questions traitées</span>
+          <span class="value">${totalQuestions}</span>
+          <small class="muted">uniques</small>
+        </div>
+        <div class="stat">
+          <span class="label">📊 Tentatives totales</span>
+          <span class="value">${totalAttempts}</span>
+          <small class="muted">réponses données</small>
+        </div>
+        <div class="stat">
+          <span class="label">🎯 Précision globale</span>
+          <span class="value ${precisionClass}">${globalPrecision.toFixed(0)}%</span>
+          <small class="muted">${totalCorrect.toFixed(0)} correctes</small>
+        </div>
+      </div>
+    `;
+        // Mise à jour badge header
+        const badge = $('#total-time-badge');
+        const badgeValue = $('#total-time-value');
+        if (badge && badgeValue && totalTimeMs > 0) {
+            badgeValue.textContent = totalTimeFormatted;
+            badge.style.display = 'inline-flex';
+        }
+        card.style.display = 'block';
+    }
+    catch (error) {
+        console.error('[renderGlobalStats] Error:', error);
+        card.style.display = 'none';
+    }
+}
 function renderFolderStats(folder) {
     const card = elsExtra.folderStatsCard;
     const root = elsExtra.folderStats;
     if (!card || !root)
         return;
-    // Désactivé sur l'écran de sélection: masquer la carte systématiquement
-    card.style.display = 'none';
-    root.innerHTML = '';
+    if (!folder) {
+        card.style.display = 'none';
+        root.innerHTML = '';
+        return;
+    }
+    const stats = computeFolderStats(folder);
+    if (!stats) {
+        card.style.display = 'none';
+        return;
+    }
+    // Calculs KPIs
+    const mastery = stats.total > 0 ? (stats.seen / stats.total) * 100 : 0;
+    const precision = stats.sumSeen > 0 ? (stats.sumCorrect / stats.sumSeen) * 100 : 0;
+    const avgTimeSec = stats.avgTimeMs ? (stats.avgTimeMs / 1000).toFixed(1) : 'N/A';
+    // Classe couleur selon maîtrise
+    const masteryClass = mastery >= 75 ? 'ok' : mastery >= 50 ? 'warn' : 'danger';
+    const precisionClass = precision >= 75 ? 'ok' : precision >= 50 ? 'warn' : 'danger';
+    const dueClass = stats.due > 10 ? 'danger' : stats.due > 0 ? 'warn' : 'ok';
+    root.innerHTML = `
+    <div class="folder-stats-grid">
+      <div class="stat">
+        <span class="label">Maîtrise globale</span>
+        <span class="value ${masteryClass}">${mastery.toFixed(0)}%</span>
+        <small class="muted">${stats.seen} / ${stats.total} vues</small>
+      </div>
+      <div class="stat">
+        <span class="label">Précision</span>
+        <span class="value ${precisionClass}">${precision.toFixed(0)}%</span>
+        <small class="muted">${stats.sumCorrect.toFixed(0)} / ${stats.sumSeen} tentatives</small>
+      </div>
+      <div class="stat">
+        <span class="label">À réviser</span>
+        <span class="value ${dueClass}">${stats.due}</span>
+        <small class="muted">questions dues</small>
+      </div>
+      <div class="stat">
+        <span class="label">Temps moyen</span>
+        <span class="value">${avgTimeSec}s</span>
+        <small class="muted">par question</small>
+      </div>
+    </div>
+  `;
+    card.style.display = 'block';
 }
 // ---- Statistiques du cours sélectionné ----
 function renderCourseStats(filePath) {
@@ -474,16 +564,61 @@ function renderCourseStats(filePath) {
     const root = elsExtra.courseStats;
     if (!card || !root)
         return;
-    // Désactivé sur l'écran de sélection: masquer la carte systématiquement
-    card.style.display = 'none';
-    root.innerHTML = '';
+    if (!filePath) {
+        card.style.display = 'none';
+        root.innerHTML = '';
+        return;
+    }
+    const course = courses.find((c) => c.path === filePath);
+    if (!course) {
+        card.style.display = 'none';
+        return;
+    }
+    const stats = computeCourseStats(course);
+    if (!stats) {
+        card.style.display = 'none';
+        return;
+    }
+    // Calculs KPIs
+    const mastery = stats.total > 0 ? (stats.seen / stats.total) * 100 : 0;
+    const precision = stats.sumSeen > 0 ? (stats.sumCorrect / stats.sumSeen) * 100 : 0;
+    const avgTimeSec = stats.avgTimeMs ? (stats.avgTimeMs / 1000).toFixed(1) : 'N/A';
+    // Classe couleur
+    const masteryClass = mastery >= 75 ? 'ok' : mastery >= 50 ? 'warn' : 'danger';
+    const precisionClass = precision >= 75 ? 'ok' : precision >= 50 ? 'warn' : 'danger';
+    const dueClass = stats.due > 10 ? 'danger' : stats.due > 0 ? 'warn' : 'ok';
+    root.innerHTML = `
+    <div class="folder-stats-grid">
+      <div class="stat">
+        <span class="label">Maîtrise cours</span>
+        <span class="value ${masteryClass}">${mastery.toFixed(0)}%</span>
+        <small class="muted">${stats.seen} / ${stats.total} questions</small>
+      </div>
+      <div class="stat">
+        <span class="label">Précision</span>
+        <span class="value ${precisionClass}">${precision.toFixed(0)}%</span>
+        <small class="muted">${stats.sumCorrect.toFixed(0)} / ${stats.sumSeen} réponses</small>
+      </div>
+      <div class="stat">
+        <span class="label">À réviser</span>
+        <span class="value ${dueClass}">${stats.due}</span>
+        <small class="muted">dues maintenant</small>
+      </div>
+      <div class="stat">
+        <span class="label">Temps moyen</span>
+        <span class="value">${avgTimeSec}s</span>
+        <small class="muted">réponse</small>
+      </div>
+    </div>
+  `;
+    card.style.display = 'block';
 }
 function computeCourseStats(course) {
     if (!course)
         return null;
     const stats = loadStats();
     // Collecter et dédupliquer les questions du cours
-    const qs = dedupeQuestions(parseQuestions(course.content));
+    const qs = parserCache.getParsedQuestions(course.path, course.content);
     let total = qs.length;
     let seen = 0;
     let due = 0;
@@ -525,6 +660,219 @@ function highlightPlanSelection(path) {
 }
 elsExtra.planFilter?.addEventListener('input', () => renderPlanForFolder(els.selectMatiere?.value || ''));
 // ---- File browser modal ----
+let focusTrapActive = false;
+let firstFocusableElement = null;
+let lastFocusableElement = null;
+/**
+ * Afficher le dashboard de progression ELO
+ */
+async function showProgressionDashboard() {
+    // Masquer zone de sélection si active
+    if (els.selectionArea) {
+        els.selectionArea.style.display = 'none';
+    }
+    // Créer container dashboard
+    let dashboardContainer = $('#progression-dashboard-container');
+    if (!dashboardContainer) {
+        dashboardContainer = document.createElement('div');
+        dashboardContainer.id = 'progression-dashboard-container';
+        dashboardContainer.style.marginTop = '20px';
+        els.root.parentElement?.insertBefore(dashboardContainer, els.root);
+    }
+    // Rendre le dashboard
+    const dashboard = new ProgressionDashboard();
+    await dashboard.render(dashboardContainer, state.allPool || []);
+    // Ajouter bouton retour
+    const backBtn = document.createElement('button');
+    backBtn.className = 'secondary';
+    backBtn.textContent = '← Retour';
+    backBtn.style.marginTop = '20px';
+    backBtn.addEventListener('click', () => {
+        dashboardContainer.remove();
+        if (els.selectionArea) {
+            els.selectionArea.style.display = 'block';
+        }
+    });
+    dashboardContainer.appendChild(backBtn);
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Écouter événement de démarrage de quiz de placement
+    window.addEventListener('startPlacementQuiz', ((e) => handlePlacementQuizStart(e)));
+}
+/**
+ * Afficher le dashboard Analytics complet
+ */
+async function showAnalyticsDashboard() {
+    // Masquer zone de sélection si active
+    if (els.selectionArea) {
+        els.selectionArea.style.display = 'none';
+    }
+    // Créer container dashboard
+    let dashboardContainer = $('#analytics-dashboard-container');
+    if (!dashboardContainer) {
+        dashboardContainer = document.createElement('div');
+        dashboardContainer.id = 'analytics-dashboard-container';
+        dashboardContainer.style.marginTop = '20px';
+        els.root.parentElement?.insertBefore(dashboardContainer, els.root);
+    }
+    // Collecter toutes les questions disponibles
+    const allQuestions = [];
+    for (const course of courses) {
+        const questions = parserCache.getParsedQuestions(course.path, course.content);
+        allQuestions.push(...questions);
+    }
+    const uniqueQuestions = dedupeQuestions(allQuestions);
+    // Rendre le dashboard analytics
+    const dashboard = new AnalyticsDashboard({
+        container: dashboardContainer,
+        questions: uniqueQuestions,
+    });
+    await dashboard.render();
+    // Ajouter bouton retour
+    const backBtn = document.createElement('button');
+    backBtn.className = 'secondary';
+    backBtn.textContent = '← Retour à l\'accueil';
+    backBtn.style.marginTop = '20px';
+    backBtn.addEventListener('click', () => {
+        dashboardContainer.remove();
+        if (els.selectionArea) {
+            els.selectionArea.style.display = 'block';
+        }
+    });
+    dashboardContainer.appendChild(backBtn);
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+/**
+ * Gérer le démarrage d'un quiz de placement
+ */
+async function handlePlacementQuizStart(e) {
+    const { session } = e.detail;
+    if (!session || !session.questions || session.questions.length === 0) {
+        alert('Erreur: impossible de démarrer le quiz de placement.');
+        return;
+    }
+    // Importer PlacementQuiz dynamiquement
+    const { placementQuiz } = await import('./stats/PlacementQuiz');
+    // Masquer le dashboard
+    const dashboardContainer = $('#progression-dashboard-container');
+    if (dashboardContainer) {
+        dashboardContainer.style.display = 'none';
+    }
+    // Créer interface de quiz
+    const quizContainer = document.createElement('div');
+    quizContainer.id = 'placement-quiz-container';
+    quizContainer.className = 'placement-quiz-active';
+    els.root.innerHTML = '';
+    els.root.appendChild(quizContainer);
+    let currentQuestionIndex = 0;
+    const renderPlacementQuestion = async () => {
+        if (currentQuestionIndex >= session.questions.length) {
+            // Terminer le quiz
+            const result = await placementQuiz.finalizePlacement(session);
+            const { eloSystem } = await import('./stats/EloProgressionSystem');
+            const rank = eloSystem.getRank(result.estimatedElo);
+            const accuracy = (result.correctAnswers / result.questionsAnswered) * 100;
+            quizContainer.innerHTML = `
+        <div class="card">
+          <h2>🎯 Quiz de placement terminé !</h2>
+          <div style="text-align: center; margin: 30px 0;">
+            <div class="rank-badge" style="display: inline-block;">
+              <div class="rank-icon">${rank.icon}</div>
+              <div class="rank-name">${rank.name}</div>
+            </div>
+          </div>
+          <p><strong>ELO calibré :</strong> ${Math.round(result.estimatedElo)}</p>
+          <p><strong>Thème :</strong> ${result.theme}</p>
+          <p><strong>Précision :</strong> ${Math.round(accuracy)}%</p>
+          <p><strong>Confiance :</strong> ${Math.round(result.confidence * 100)}%</p>
+          <button id="btn-back-to-dashboard" class="primary">Retour au dashboard</button>
+        </div>
+      `;
+            const backBtn = $('#btn-back-to-dashboard');
+            backBtn?.addEventListener('click', () => {
+                quizContainer.remove();
+                if (dashboardContainer) {
+                    dashboardContainer.style.display = 'block';
+                }
+                // Rafraîchir le dashboard pour montrer le nouvel ELO
+                showProgressionDashboard();
+            });
+            return;
+        }
+        const question = session.questions[currentQuestionIndex];
+        const progress = `${currentQuestionIndex + 1} / ${session.questions.length}`;
+        quizContainer.innerHTML = `
+      <div class="card">
+        <div class="placement-progress">
+          <span class="muted">Quiz de placement - ${session.theme}</span>
+          <span class="badge">${progress}</span>
+        </div>
+        <h3>${escapeHtml(question.question)}</h3>
+        <div id="placement-answers"></div>
+        ${question.explication ? `<div class="block muted" style="margin-top: 20px;"><small>${escapeHtml(question.explication)}</small></div>` : ''}
+      </div>
+    `;
+        const answersDiv = $('#placement-answers');
+        if (!answersDiv)
+            return;
+        // Rendre les réponses selon le type de question
+        if (question.type === 'QCM') {
+            question.reponses.forEach((rep, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'answer-option';
+                btn.textContent = rep;
+                btn.addEventListener('click', () => handlePlacementAnswer(question, [idx]));
+                answersDiv.appendChild(btn);
+            });
+        }
+        else if (question.type === 'VF') {
+            const btnVrai = document.createElement('button');
+            btnVrai.className = 'answer-option';
+            btnVrai.textContent = 'Vrai';
+            btnVrai.addEventListener('click', () => handlePlacementAnswer(question, 'V'));
+            const btnFaux = document.createElement('button');
+            btnFaux.className = 'answer-option';
+            btnFaux.textContent = 'Faux';
+            btnFaux.addEventListener('click', () => handlePlacementAnswer(question, 'F'));
+            answersDiv.appendChild(btnVrai);
+            answersDiv.appendChild(btnFaux);
+        }
+        else if (question.type === 'QR') {
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.placeholder = 'Votre réponse...';
+            const btnSubmit = document.createElement('button');
+            btnSubmit.className = 'primary';
+            btnSubmit.textContent = 'Valider';
+            btnSubmit.addEventListener('click', () => {
+                handlePlacementAnswer(question, input.value.trim());
+            });
+            answersDiv.appendChild(input);
+            answersDiv.appendChild(btnSubmit);
+        }
+    };
+    const handlePlacementAnswer = async (question, userAnswer) => {
+        // Vérifier si la réponse est correcte
+        let correct = false;
+        if (question.type === 'QCM') {
+            correct = isCorrect(question, { values: userAnswer });
+        }
+        else if (question.type === 'VF') {
+            correct = isCorrect(question, { value: userAnswer });
+        }
+        else if (question.type === 'QR') {
+            correct = isCorrect(question, { value: userAnswer });
+        }
+        // Enregistrer la réponse
+        placementQuiz.recordAnswer(session, correct);
+        // Passer à la question suivante
+        currentQuestionIndex++;
+        await renderPlacementQuestion();
+    };
+    // Démarrer le quiz
+    await renderPlacementQuestion();
+}
 function openFileBrowser() {
     if (!elsExtra.fileBrowser || !elsExtra.fbFiles || !elsExtra.fbFolders)
         return;
@@ -561,9 +909,69 @@ function openFileBrowser() {
         elsExtra.fbFolders.appendChild(f);
     }
     elsExtra.fileBrowser.style.display = 'block';
+    // Focus trap setup
+    setupFocusTrap();
+    // Update aria-expanded
+    if (elsExtra.btnExplorer) {
+        elsExtra.btnExplorer.setAttribute('aria-expanded', 'true');
+    }
 }
-function closeFileBrowser() { if (elsExtra.fileBrowser)
-    elsExtra.fileBrowser.style.display = 'none'; }
+function closeFileBrowser() {
+    if (elsExtra.fileBrowser) {
+        elsExtra.fileBrowser.style.display = 'none';
+        focusTrapActive = false;
+        // Update aria-expanded
+        if (elsExtra.btnExplorer) {
+            elsExtra.btnExplorer.setAttribute('aria-expanded', 'false');
+            elsExtra.btnExplorer.focus(); // Return focus to trigger
+        }
+    }
+}
+function setupFocusTrap() {
+    if (!elsExtra.fileBrowser)
+        return;
+    // Get all focusable elements within modal
+    const focusableSelectors = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+    const focusableElements = Array.from(elsExtra.fileBrowser.querySelectorAll(focusableSelectors));
+    if (focusableElements.length === 0)
+        return;
+    firstFocusableElement = focusableElements[0];
+    lastFocusableElement = focusableElements[focusableElements.length - 1];
+    // Focus first element
+    firstFocusableElement?.focus();
+    // Trap focus
+    focusTrapActive = true;
+    // Keydown handler for trap
+    const trapHandler = (e) => {
+        if (!focusTrapActive) {
+            document.removeEventListener('keydown', trapHandler);
+            return;
+        }
+        if (e.key === 'Escape') {
+            closeFileBrowser();
+            return;
+        }
+        if (e.key === 'Tab') {
+            if (e.shiftKey) {
+                // Shift+Tab
+                if (document.activeElement === firstFocusableElement) {
+                    e.preventDefault();
+                    lastFocusableElement?.focus();
+                }
+            }
+            else {
+                // Tab
+                if (document.activeElement === lastFocusableElement) {
+                    e.preventDefault();
+                    firstFocusableElement?.focus();
+                }
+            }
+        }
+    };
+    document.addEventListener('keydown', trapHandler);
+}
+elsExtra.btnProgression?.addEventListener('click', showProgressionDashboard);
+elsExtra.btnAnalytics?.addEventListener('click', showAnalyticsDashboard);
 elsExtra.btnExplorer?.addEventListener('click', openFileBrowser);
 elsExtra.fbClose?.addEventListener('click', closeFileBrowser);
 // Télécharger le cours sélectionné dans le select
@@ -630,7 +1038,7 @@ function renderFilesGridForFolder(folder, list) {
             card.style.background = 'transparent';
             card.dataset.path = c.path;
             const qCount = (() => { try {
-                return dedupeQuestions(parseQuestions(c.content)).length;
+                return parserCache.getParsedQuestions(c.path, c.content).length;
             }
             catch {
                 return 0;
@@ -740,31 +1148,143 @@ function downloadCourse(path) {
     setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
 }
 // (Fonction "Ouvrir en page" supprimée)
+// État des tags sélectionnés et de la recherche
+let allAvailableTags = [];
+let selectedTags = new Set();
+let tagSearchQuery = '';
 function fillThemes(topics) {
     if (!els.selectThemes)
         return;
+    // Mettre à jour le select caché (pour compatibilité)
     els.selectThemes.innerHTML = '';
     if (topics.length === 0) {
         const opt = document.createElement('option');
         opt.disabled = true;
         opt.textContent = '— Aucun thème détecté —';
         els.selectThemes.appendChild(opt);
-        // Mise à jour disponibilité Match (aucun thème => peut toujours être dispo si paires sans tags)
+        // Effacer l'interface moderne aussi
+        renderTagsChips([]);
         updateMatchModeAvailability();
         return;
     }
+    // Compter les questions par tag
+    const tagCounts = new Map();
+    const currentFile = state.file || els.selectCours.value;
+    const course = courses.find((c) => c.path === currentFile || c.file === currentFile);
+    if (course) {
+        const unique = parserCache.getParsedQuestions(course.path, course.content);
+        unique.forEach(q => {
+            (q.tags ?? []).forEach(tag => {
+                tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+            });
+        });
+    }
+    // Créer la liste des tags avec leur compteur
+    allAvailableTags = topics.map(tag => ({
+        tag,
+        count: tagCounts.get(tag) || 0
+    }));
+    // Remplir le select caché (compatibilité)
     for (const t of topics) {
         const opt = document.createElement('option');
         opt.value = t;
         opt.textContent = t;
         els.selectThemes.appendChild(opt);
     }
+    // Rendre l'interface moderne
+    renderTagsChips(allAvailableTags);
     updateMatchModeAvailability();
 }
-function getSelectedThemes() {
-    const opts = Array.from(els.selectThemes?.selectedOptions ?? []);
-    return opts.map((o) => o.value).filter(Boolean);
+function renderTagsChips(tags) {
+    const container = document.getElementById('themes-chips');
+    if (!container)
+        return;
+    container.innerHTML = '';
+    // Filtrer par recherche
+    const filtered = tags.filter(t => tagSearchQuery === '' || t.tag.toLowerCase().includes(tagSearchQuery.toLowerCase()));
+    if (filtered.length === 0) {
+        container.innerHTML = '<div style="color:var(--muted); font-size:13px; padding:8px">Aucun thème trouvé</div>';
+        updateTagsSummary();
+        return;
+    }
+    // Créer les chips
+    filtered.forEach(({ tag, count }) => {
+        const chip = document.createElement('div');
+        chip.className = 'tag-chip';
+        if (selectedTags.has(tag)) {
+            chip.classList.add('selected');
+        }
+        chip.innerHTML = `
+      <span>${escapeHtml(tag)}</span>
+      <span class="tag-count">(${count})</span>
+    `;
+        chip.addEventListener('click', () => {
+            toggleTag(tag);
+        });
+        container.appendChild(chip);
+    });
+    updateTagsSummary();
 }
+function toggleTag(tag) {
+    if (selectedTags.has(tag)) {
+        selectedTags.delete(tag);
+    }
+    else {
+        selectedTags.add(tag);
+    }
+    // Synchroniser avec le select caché
+    const opts = Array.from(els.selectThemes?.options ?? []);
+    opts.forEach(opt => {
+        opt.selected = selectedTags.has(opt.value);
+    });
+    // Re-render
+    renderTagsChips(allAvailableTags);
+}
+function updateTagsSummary() {
+    const summary = document.getElementById('tags-summary');
+    if (!summary)
+        return;
+    const totalTags = allAvailableTags.length;
+    const selectedCount = selectedTags.size;
+    const totalQuestions = allAvailableTags.reduce((sum, t) => selectedTags.has(t.tag) ? sum + t.count : sum, 0);
+    if (selectedCount === 0) {
+        summary.textContent = `${totalTags} thème(s) disponible(s) — Aucune sélection`;
+    }
+    else {
+        summary.textContent = `${selectedCount} thème(s) sélectionné(s) — ~${totalQuestions} question(s)`;
+    }
+}
+function getSelectedThemes() {
+    return Array.from(selectedTags);
+}
+// Gestionnaires d'événements pour l'interface de tags
+const themesSearch = document.getElementById('themes-search');
+const btnSelectAllTags = document.getElementById('btn-select-all-tags');
+const btnClearTags = document.getElementById('btn-clear-tags');
+themesSearch?.addEventListener('input', (e) => {
+    tagSearchQuery = e.target.value;
+    renderTagsChips(allAvailableTags);
+});
+btnSelectAllTags?.addEventListener('click', () => {
+    // Sélectionner tous les tags visibles (filtrés par recherche)
+    const filtered = allAvailableTags.filter(t => tagSearchQuery === '' || t.tag.toLowerCase().includes(tagSearchQuery.toLowerCase()));
+    filtered.forEach(({ tag }) => selectedTags.add(tag));
+    // Synchroniser avec le select caché
+    const opts = Array.from(els.selectThemes?.options ?? []);
+    opts.forEach(opt => {
+        opt.selected = selectedTags.has(opt.value);
+    });
+    renderTagsChips(allAvailableTags);
+});
+btnClearTags?.addEventListener('click', () => {
+    selectedTags.clear();
+    // Synchroniser avec le select caché
+    const opts = Array.from(els.selectThemes?.options ?? []);
+    opts.forEach(opt => {
+        opt.selected = false;
+    });
+    renderTagsChips(allAvailableTags);
+});
 function getSelectedTypes() {
     const boxes = Array.from(document.querySelectorAll('.qtype'));
     return boxes.filter(b => b.checked).map(b => b.value).filter(Boolean);
@@ -779,6 +1299,10 @@ function readMode() {
 els.btnStart?.addEventListener('click', start);
 async function start() {
     state.mode = readMode();
+    if (state.mode === 'fiche') {
+        enterActiveMode();
+        return renderRevisionSheetsHome();
+    }
     state.n = Math.max(1, parseInt(els.inputNombre.value || '10', 10));
     state.selectedThemes = getSelectedThemes();
     const normalizePath = (s) => s.replace(/\\/g, '/');
@@ -812,7 +1336,7 @@ async function start() {
         }
         courseLabels.push(course.label);
         // Parse et ajoute les questions de ce cours
-        const questionsFromCourse = parseQuestions(course.content);
+        const questionsFromCourse = parserCache.getParsedQuestions(course.path, course.content);
         // Ajouter une propriété pour tracer l'origine du cours
         questionsFromCourse.forEach(q => {
             q.sourceCourse = course.label;
@@ -897,6 +1421,62 @@ function resetRoundState(len) {
     state.correctMap = new Array(len).fill(null);
 }
 /* =========================
+   Export questions ratées
+   ========================= */
+function questionToText2Quiz(q) {
+    const tags = (q.tags ?? []).join(', ');
+    const expl = q.explication || '';
+    if (q.type === 'VF') {
+        return `VF || ${q.question} || ${q.vf} || ${expl} || ${tags}`;
+    }
+    if (q.type === 'QR' || q.type === 'QCM') {
+        const answers = (q.answers ?? [])
+            .map(a => a.correct ? `V:${a.text}` : a.text)
+            .join('|');
+        return `${q.type} || ${q.question} || ${answers} || ${expl} || ${tags}`;
+    }
+    if (q.type === 'DragMatch') {
+        const pairs = (q.pairs ?? [])
+            .map(p => `${p.item}:${p.match}`)
+            .join(', ');
+        return `DRAGMATCH || ${q.question} || ${pairs} || ${expl} || ${tags}`;
+    }
+    if (q.type === 'OpenQ') {
+        const keywords = (q.expectedKeywords ?? []).join(', ');
+        const ref = q.referenceCourse || '';
+        return `OPENQ || ${q.question} || ${keywords} || ${ref} || ${expl} || ${tags}`;
+    }
+    if (q.type === 'FormulaBuilder' && q.formulaData) {
+        const tokens = q.formulaData.availableTokens.join('|');
+        return `FORMULABUILDER || ${q.formulaData.variable} || ${tokens} || ${q.formulaData.correctFormula} || ${expl} || ${tags}`;
+    }
+    return `# Question non supportée: ${q.type}`;
+}
+function exportWrongAnswers(questions, correctMap) {
+    const wrongQuestions = questions.filter((q, i) => correctMap[i] === false);
+    if (wrongQuestions.length === 0) {
+        alert('Aucune question incorrecte à exporter ! 🎉');
+        return;
+    }
+    const timestamp = new Date().toISOString().split('T')[0];
+    const filename = `questions_ratees_${state.file.replace(/[^a-zA-Z0-9]/g, '_')}_${timestamp}.txt`;
+    const header = `# Questions ratées - ${state.file}\n# Date: ${timestamp}\n# Mode: ${state.mode}\n# Total erreurs: ${wrongQuestions.length}\n\n`;
+    const content = wrongQuestions.map(q => questionToText2Quiz(q)).join('\n');
+    const blob = new Blob([header + content], { type: 'text/plain;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+    // Feedback visuel
+    const toast = document.createElement('div');
+    toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--ok-bg); color:var(--ok-fg); padding:12px 20px; border-radius:8px; border:1px solid var(--ok-brd); z-index:999; box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+    toast.textContent = `✅ ${wrongQuestions.length} question(s) exportée(s) !`;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+}
+/* =========================
    Rendu UI
    ========================= */
 function renderError(msg) {
@@ -950,6 +1530,10 @@ function render() {
         renderVF(head, q);
     else if (q.type === 'DragMatch')
         renderDragMatch(head, q);
+    else if (q.type === 'OpenQ')
+        renderOpenQ(head, q);
+    else if (q.type === 'FormulaBuilder')
+        renderFormulaBuilder(head, q);
 }
 function helperText(q) {
     let text = '';
@@ -959,6 +1543,10 @@ function helperText(q) {
         text = 'Glisse les réponses dans les bonnes cases.';
     else if (q.type === 'QR')
         text = 'Sélectionne la bonne réponse.';
+    else if (q.type === 'OpenQ')
+        text = 'Rédige ta réponse (minimum 10 caractères).';
+    else if (q.type === 'FormulaBuilder')
+        text = 'Glisse les éléments pour reconstruire la formule.';
     else if (q.type === 'QCM') {
         const nb = countCorrect(q);
         text = nb > 1 ? 'Plusieurs réponses possibles — coche toutes les bonnes.' : 'Une ou plusieurs réponses possibles.';
@@ -1120,10 +1708,338 @@ function renderDragMatch(head, q) {
   `;
     if (!state.corrige) {
         setupDragAndDrop(q);
+        setupKeyboardDragMatch(q);
     }
     bindValidateAndNext(q);
     updateButtonsFromDOM();
     document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+/* ---------- OpenQ (Question Ouverte) ---------- */
+function renderOpenQ(head, q) {
+    if (q.type !== 'OpenQ')
+        return;
+    const userAnswer = state.userAnswers[state.index];
+    const userText = userAnswer?.text ?? '';
+    const isCorrect = userAnswer?.isCorrect ?? false;
+    const feedbackHtml = state.corrige ? `
+    <div class="openq-feedback ${isCorrect ? 'openq-feedback-correct' : 'openq-feedback-incorrect'}">
+      <div class="feedback-header">
+        ${isCorrect ? '✅ <strong>Correct !</strong>' : '❌ <strong>Incomplet</strong>'}
+      </div>
+      ${!isCorrect && q.expectedKeywords ? `
+        <div class="missing-keywords">
+          🔑 Mots-clés attendus : <strong>${q.expectedKeywords.join(', ')}</strong>
+        </div>
+      ` : ''}
+      ${q.referenceCourse ? `
+        <details class="reference-course" open>
+          <summary>📖 Référence cours</summary>
+          <p>${escapeHtml(q.referenceCourse)}</p>
+        </details>
+      ` : ''}
+      ${q.explication ? `
+        <div class="explanation">
+          💡 <em>${escapeHtml(q.explication)}</em>
+        </div>
+      ` : ''}
+    </div>
+  ` : '';
+    els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1}</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">Rédige ta réponse (minimum 10 caractères).</small></div>
+      
+      <div class="openq-container">
+        <textarea 
+          id="openq-textarea" 
+          rows="8" 
+          placeholder="Développez votre réponse ici..."
+          aria-describedby="char-count"
+          ${state.corrige ? 'disabled' : ''}
+        >${escapeHtml(userText)}</textarea>
+        <div id="char-count" class="char-counter">${userText.length} caractères</div>
+      </div>
+      
+      ${feedbackHtml}
+      
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+  `;
+    // Setup textarea counter
+    const textarea = document.getElementById('openq-textarea');
+    if (textarea && !state.corrige) {
+        textarea.addEventListener('input', () => {
+            const counter = document.getElementById('char-count');
+            if (counter) {
+                counter.textContent = `${textarea.value.length} caractères`;
+            }
+            updateButtonsFromDOM();
+        });
+    }
+    bindValidateAndNext(q);
+    updateButtonsFromDOM();
+    document.getElementById('qcard')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function validateOpenAnswer(userText, expectedKeywords) {
+    if (!expectedKeywords || expectedKeywords.length === 0)
+        return true;
+    // Tokenize user text
+    const userTokens = userText
+        .toLowerCase()
+        .replace(/[.,!?;:'"()]/g, ' ')
+        .split(/\s+/)
+        .map(t => t.trim())
+        .filter(t => t.length > 2);
+    // Check all keywords present (exact or fuzzy)
+    return expectedKeywords.every(keyword => {
+        const kwLower = keyword.toLowerCase().trim();
+        return userTokens.some(token => {
+            if (token === kwLower)
+                return true;
+            if (token.includes(kwLower) || kwLower.includes(token))
+                return true;
+            return levenshteinDistance(token, kwLower) <= 2;
+        });
+    });
+}
+function levenshteinDistance(a, b) {
+    if (a.length === 0)
+        return b.length;
+    if (b.length === 0)
+        return a.length;
+    const matrix = [];
+    for (let i = 0; i <= b.length; i++)
+        matrix[i] = [i];
+    for (let j = 0; j <= a.length; j++)
+        matrix[0][j] = j;
+    for (let i = 1; i <= b.length; i++) {
+        for (let j = 1; j <= a.length; j++) {
+            if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                matrix[i][j] = matrix[i - 1][j - 1];
+            }
+            else {
+                matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
+            }
+        }
+    }
+    return matrix[b.length][a.length];
+}
+function playSuccessSound() {
+    try {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const oscillator = audioCtx.createOscillator();
+        const gainNode = audioCtx.createGain();
+        oscillator.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        oscillator.frequency.value = 800; // Hz (note élevée = succès)
+        oscillator.type = 'sine';
+        gainNode.gain.setValueAtTime(0.3, audioCtx.currentTime);
+        gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.3);
+        oscillator.start(audioCtx.currentTime);
+        oscillator.stop(audioCtx.currentTime + 0.3);
+    }
+    catch (e) {
+        // Silent fail if Web Audio API not supported
+    }
+}
+/* ---------- FormulaBuilder (Réécriture de formule) ---------- */
+function renderFormulaBuilder(head, q) {
+    if (q.type !== 'FormulaBuilder' || !q.formulaData)
+        return;
+    const { variable, correctFormula } = q.formulaData;
+    const currentAnswer = state.userAnswers[state.index];
+    const userFormula = currentAnswer?.kind === 'FormulaBuilder' ? currentAnswer.formula : '';
+    const isCorrect = currentAnswer?.kind === 'FormulaBuilder' ? currentAnswer.isCorrect : false;
+    const feedback = state.corrige ? `
+    <div class="formula-feedback ${isCorrect ? 'correct' : 'incorrect'}">
+      ${isCorrect
+        ? '<span style="color: #4caf50;">✓ Formule correcte !</span>'
+        : `<span style="color: #f44336;">✗ Formule incorrecte</span>
+           <div style="margin-top: 0.5rem;">
+             <strong>Formule attendue :</strong> ${variable.replace('?', correctFormula)}
+           </div>`}
+    </div>
+  ` : '';
+    els.root.innerHTML = `
+    ${head}
+    <div class="card--q" id="qcard">
+      <div class="qtitle">Question ${state.index + 1} — Formule à reconstruire</div>
+      <div class="block">${escapeHtml(q.question)}</div>
+      <div class="hint"><small class="muted">Écris la formule complète (les espaces sont ignorés)</small></div>
+      ${feedback}
+      
+      <div class="formula-builder-container">
+        <div class="formula-prompt">
+          <label class="formula-label">${escapeHtml(variable)}</label>
+        </div>
+        <input 
+          type="text" 
+          id="formula-input" 
+          class="formula-input"
+          placeholder="Écris la formule ici..."
+          value="${escapeAttr(userFormula)}"
+          ${state.corrige ? 'disabled' : ''}
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+      
+      <div class="block actions">${renderActionButtons(q)}</div>
+    </div>
+    ${state.corrige && q.explication ? `<div class="card--expl">${escapeHtml(q.explication)}</div>` : ''}
+  `;
+    if (!state.corrige) {
+        setupFormulaBuilder(q);
+    }
+    bindValidateAndNext(q);
+}
+function setupFormulaBuilder(q) {
+    if (q.type !== 'FormulaBuilder' || !q.formulaData)
+        return;
+    const input = document.getElementById('formula-input');
+    if (!input)
+        return;
+    const correctFormula = q.formulaData.correctFormula;
+    function updateAnswer() {
+        const userFormula = input.value;
+        const normalizedUser = userFormula.replace(/\s+/g, '').toLowerCase();
+        const normalizedCorrect = correctFormula.replace(/\s+/g, '').toLowerCase();
+        state.userAnswers[state.index] = {
+            kind: 'FormulaBuilder',
+            formula: userFormula,
+            isCorrect: normalizedUser === normalizedCorrect
+        };
+    }
+    input.addEventListener('input', updateAnswer);
+    input.addEventListener('blur', updateAnswer);
+    input.focus();
+}
+function setupKeyboardDragMatch(q) {
+    if (q.type !== 'DragMatch')
+        return;
+    let selectedChip = null;
+    let selectedZone = null;
+    // Make chips focusable and keyboard accessible
+    $$('.drag-match-chip[draggable="true"]').forEach(chip => {
+        chip.setAttribute('tabindex', '0');
+        chip.setAttribute('role', 'button');
+        chip.setAttribute('aria-label', `Glisser ${chip.textContent}`);
+        chip.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                if (selectedChip === chip) {
+                    // Deselect
+                    chip.classList.remove('kb-selected');
+                    selectedChip = null;
+                    chip.setAttribute('aria-pressed', 'false');
+                }
+                else {
+                    // Deselect previous
+                    selectedChip?.classList.remove('kb-selected');
+                    selectedChip?.setAttribute('aria-pressed', 'false');
+                    // Select this
+                    chip.classList.add('kb-selected');
+                    selectedChip = chip;
+                    chip.setAttribute('aria-pressed', 'true');
+                    chip.focus();
+                }
+            }
+            else if (e.key === 'Escape' && selectedChip === chip) {
+                chip.classList.remove('kb-selected');
+                selectedChip = null;
+                chip.setAttribute('aria-pressed', 'false');
+            }
+        });
+    });
+    // Make drop zones keyboard accessible
+    $$('.drag-drop-zone').forEach(zone => {
+        zone.setAttribute('tabindex', '0');
+        zone.setAttribute('role', 'button');
+        const itemName = zone.getAttribute('data-item');
+        zone.setAttribute('aria-label', `Zone de dépôt pour ${itemName}`);
+        zone.addEventListener('keydown', (e) => {
+            if ((e.key === 'Enter' || e.key === ' ') && selectedChip) {
+                e.preventDefault();
+                // Simulate drop behavior
+                const matchValue = selectedChip.getAttribute('data-match');
+                if (matchValue && itemName) {
+                    // Update state
+                    const userAnswer = state.userAnswers[state.index];
+                    if (!userAnswer) {
+                        state.userAnswers[state.index] = { kind: 'DragMatch', matches: {} };
+                    }
+                    const matches = state.userAnswers[state.index].matches || {};
+                    // Remove from other items
+                    for (const key in matches) {
+                        if (matches[key] === matchValue) {
+                            delete matches[key];
+                        }
+                    }
+                    // Add to this item
+                    matches[itemName] = matchValue;
+                    state.userAnswers[state.index].matches = matches;
+                    // Update visually
+                    zone.innerHTML = `<div class="drag-match-chip" draggable="true" data-match="${escapeHtml(matchValue)}">${escapeHtml(matchValue)}</div>`;
+                    // Re-setup drag/keyboard for new chip
+                    const newChip = zone.querySelector('.drag-match-chip');
+                    if (newChip) {
+                        newChip.setAttribute('tabindex', '0');
+                        newChip.setAttribute('role', 'button');
+                        newChip.setAttribute('aria-label', `Retirer ${matchValue}`);
+                        newChip.addEventListener('dragstart', (e) => {
+                            newChip.classList.add('dragging');
+                            if (e.dataTransfer) {
+                                e.dataTransfer.effectAllowed = 'move';
+                                e.dataTransfer.setData('text/plain', matchValue);
+                            }
+                            const userAnswer = state.userAnswers[state.index];
+                            if (userAnswer?.matches && itemName) {
+                                delete userAnswer.matches[itemName];
+                            }
+                        });
+                        newChip.addEventListener('dragend', () => {
+                            newChip.classList.remove('dragging');
+                        });
+                        // Keyboard remove from zone
+                        newChip.addEventListener('keydown', (e) => {
+                            if (e.key === 'Backspace' || e.key === 'Delete') {
+                                e.preventDefault();
+                                const userAnswer = state.userAnswers[state.index];
+                                if (userAnswer?.matches && itemName) {
+                                    delete userAnswer.matches[itemName];
+                                }
+                                zone.innerHTML = '<span class="placeholder">Glisser ici</span>';
+                                // Show chip back in pool
+                                const poolChips = $$('.drag-matches .drag-match-chip');
+                                poolChips.forEach(chip => {
+                                    if (chip.getAttribute('data-match') === matchValue) {
+                                        chip.classList.remove('used');
+                                    }
+                                });
+                                updateButtonsFromDOM();
+                                zone.focus();
+                            }
+                        });
+                    }
+                    // Hide used chip from pool
+                    const poolChips = $$('.drag-matches .drag-match-chip');
+                    poolChips.forEach(chip => {
+                        if (chip.getAttribute('data-match') === matchValue) {
+                            chip.classList.add('used');
+                        }
+                    });
+                    // Deselect
+                    selectedChip.classList.remove('kb-selected');
+                    selectedChip.setAttribute('aria-pressed', 'false');
+                    selectedChip = null;
+                    updateButtonsFromDOM();
+                    zone.focus();
+                }
+            }
+        });
+    });
 }
 function setupDragAndDrop(q) {
     if (q.type !== 'DragMatch')
@@ -1418,6 +2334,15 @@ function bindValidateAndNext(q) {
         const { ok, ua } = getDOMAnswer(q);
         if (!ok || !ua)
             return;
+        // OpenQ : Valider et stocker résultat
+        if (q.type === 'OpenQ' && ua.kind === 'OpenQ') {
+            const isCorrect = validateOpenAnswer(ua.text, q.expectedKeywords ?? []);
+            ua.isCorrect = isCorrect;
+            // Play success sound only if correct
+            if (isCorrect) {
+                playSuccessSound();
+            }
+        }
         // mesurer le temps passé sur la question (ms)
         const start = state.questionStart ?? (performance.now ? performance.now() : Date.now());
         const elapsedMs = Math.max(0, Math.round((performance.now ? performance.now() : Date.now()) - start));
@@ -1641,6 +2566,7 @@ function renderThemeStatsCard(stats) {
 }
 function renderResultats(head) {
     let score = 0;
+    const wrongQuestions = [];
     const items = state.questions
         .map((q, i) => {
         const ua = state.userAnswers[i];
@@ -1654,6 +2580,8 @@ function renderResultats(head) {
                         : false);
         if (ok)
             score++;
+        else
+            wrongQuestions.push(q);
         const userText = (() => {
             if (!ua)
                 return '(aucune réponse)';
@@ -1682,13 +2610,24 @@ function renderResultats(head) {
     <div class="card">
       <h2>Série validée 🎉</h2>
       <p>Score du dernier tour : <strong>${score} / ${state.questions.length}</strong></p>
-      <button id="btn-return" class="primary">Revenir</button>
+      <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap">
+        <button id="btn-return" class="primary">Revenir</button>
+        ${wrongQuestions.length > 0 && state.mode === 'examen' ? '<button id="btn-export-wrong" class="secondary" title="Exporter les questions ratées au format text2quiz">📥 Exporter les erreurs</button>' : ''}
+      </div>
     </div>
     ${themeCard}
     <ol class="list">${items}</ol>
   `;
     mountFloatingNext(false);
     $('#btn-return')?.addEventListener('click', exitActiveMode);
+    if (wrongQuestions.length > 0 && state.mode === 'examen') {
+        $('#btn-export-wrong')?.addEventListener('click', () => {
+            // Créer une correctMap simplifiée à partir des wrongQuestions
+            const wrongIndices = new Set(wrongQuestions.map((wq) => state.questions.indexOf(wq)));
+            const correctMap = state.questions.map((_, i) => !wrongIndices.has(i));
+            exportWrongAnswers(state.questions, correctMap);
+        });
+    }
 }
 /* =========================
    Helpers validation DOM
@@ -1714,6 +2653,11 @@ function getDOMAnswer(q) {
         const hasAny = Object.keys(matches).length > 0;
         // Autoriser la validation dès qu'au moins une association est faite (meilleure UX)
         return hasAny ? { ok: true, ua: { kind: 'DragMatch', matches } } : { ok: false, ua: null };
+    }
+    if (q.type === 'OpenQ') {
+        const textarea = document.getElementById('openq-textarea');
+        const text = textarea?.value.trim() ?? '';
+        return text.length >= 10 ? { ok: true, ua: { kind: 'OpenQ', text } } : { ok: false, ua: null };
     }
     return { ok: false, ua: null };
 }
@@ -1799,6 +2743,8 @@ function modeLabel(m) {
         return 'Flashcards';
     if (m === 'match')
         return 'Match';
+    if (m === 'fiche')
+        return 'Fiche de révision';
     return String(m);
 }
 function updateActiveToolbar() {
@@ -1806,6 +2752,261 @@ function updateActiveToolbar() {
         return;
     const fileLabel = state.file || '';
     els.activeTitle.textContent = `${modeLabel(state.mode)} — ${fileLabel}`;
+}
+/* =========================
+   Mode Fiche de révision
+   ========================= */
+function renderRevisionSheetsHome() {
+    state.file = 'Fiches';
+    updateActiveToolbar();
+    const cards = demoSheets
+        .map((s) => {
+        const progress = loadProgressForSheet(s);
+        const { totalSlots, correctSlots } = computeCompletion(s, progress);
+        const pct = totalSlots > 0 ? Math.round((correctSlots / totalSlots) * 100) : 0;
+        return `
+        <button class="secondary" data-sheet="${escapeAttr(s.id)}" style="text-align:left; padding:12px; border-radius:12px">
+          <div style="display:flex; justify-content:space-between; gap:10px; align-items:flex-start">
+            <div>
+              <div style="font-weight:800">${escapeHtml(s.title)}</div>
+              <div style="color:var(--muted); font-size:13px; margin-top:4px">${escapeHtml(s.description ?? '')}</div>
+            </div>
+            <span class="badge">${escapeHtml(s.subject)}</span>
+          </div>
+          <div style="margin-top:10px">
+            <div class="progress"><div class="progress__bar" style="width:${pct}%"></div></div>
+            <div style="margin-top:6px; color:var(--muted); font-size:12px">Progression: ${correctSlots}/${totalSlots}</div>
+          </div>
+        </button>
+      `;
+    })
+        .join('');
+    els.root.innerHTML = `
+    <div class="card">
+      <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
+        <div>
+          <div style="font-weight:900; font-size:18px">📄 Mode fiche de révision</div>
+          <div style="color:var(--muted); margin-top:6px">Glisse les éléments (ex: une date) dans les bons emplacements. La fiche se complète petit à petit.</div>
+        </div>
+        <button id="btn-sheets-reset-all" class="secondary" title="Réinitialiser toutes les fiches">Reset</button>
+      </div>
+      <div style="display:grid; gap:10px; margin-top:12px">
+        ${cards}
+      </div>
+    </div>
+  `;
+    mountFloatingNext(false);
+    // Ouvrir une fiche
+    Array.from(els.root.querySelectorAll('[data-sheet]')).forEach((el) => {
+        el.addEventListener('click', () => {
+            const id = el.getAttribute('data-sheet') || '';
+            const sheet = demoSheets.find((s) => s.id === id);
+            if (!sheet)
+                return;
+            renderRevisionSheet(sheet);
+        });
+    });
+    // Reset global
+    const btnResetAll = document.getElementById('btn-sheets-reset-all');
+    btnResetAll?.addEventListener('click', () => {
+        if (!confirm('Réinitialiser la progression de toutes les fiches ?'))
+            return;
+        for (const s of demoSheets)
+            resetProgressForSheet(s);
+        renderRevisionSheetsHome();
+    });
+}
+function renderRevisionSheet(sheet) {
+    state.file = sheet.title;
+    updateActiveToolbar();
+    const progress = loadProgressForSheet(sheet);
+    const { totalSlots, correctSlots } = computeCompletion(sheet, progress);
+    const pct = totalSlots > 0 ? Math.round((correctSlots / totalSlots) * 100) : 0;
+    // items restant (non placés correctement)
+    const usedCorrect = new Set(Object.entries(progress.placed)
+        .filter(([slotId, itemId]) => isSlotFilledCorrectly(sheet, progress, slotId) && !!itemId)
+        .map(([, itemId]) => itemId));
+    const remainingItems = sheet.items.filter(i => !usedCorrect.has(i.id));
+    shuffleInPlace(remainingItems);
+    const itemsHtml = remainingItems
+        .map((i) => {
+        return `
+        <span class="drag-match-chip" draggable="true" data-item-id="${escapeAttr(i.id)}" data-item-kind="${escapeAttr(i.kind ?? 'autre')}" title="Glisser-déposer">${escapeHtml(i.text)}</span>
+      `;
+    })
+        .join('');
+    const sectionsHtml = sheet.sections
+        .map((sec) => {
+        const slotsHtml = sec.slots
+            .map((slot) => {
+            const placedItemId = progress.placed[slot.id];
+            const placedItem = placedItemId ? sheet.items.find(i => i.id === placedItemId) : null;
+            const isCorrect = placedItemId ? placedItemId === slot.correctItemId : false;
+            const zoneCls = ['drag-drop-zone', isCorrect ? 'correct-zone' : '', placedItemId && !isCorrect ? 'wrong-zone' : '']
+                .filter(Boolean)
+                .join(' ');
+            const label = `<div style="font-weight:700">${escapeHtml(slot.label)}</div>`;
+            const chip = placedItem ? `<span class="drag-match-chip ${isCorrect ? 'used' : ''}" draggable="false">${escapeHtml(placedItem.text)}</span>` : `<span class="placeholder">Dépose ici</span>`;
+            const feedback = placedItemId
+                ? (isCorrect
+                    ? `<div class="correct-answer" style="margin-top:6px">✅ Correct</div>`
+                    : `<div class="correct-answer" style="margin-top:6px">❌ Essaie encore</div>`)
+                : '';
+            return `
+            <div class="card" style="margin:0">
+              ${label}
+              <div class="${zoneCls}" data-slot-id="${escapeAttr(slot.id)}" data-accepts="${escapeAttr((slot.accepts ?? []).join(','))}">
+                ${chip}
+              </div>
+              ${feedback}
+            </div>
+          `;
+        })
+            .join('');
+        return `
+        <div class="card" style="margin:0">
+          <div style="font-weight:900; margin-bottom:8px">${escapeHtml(sec.title)}</div>
+          <div style="display:grid; gap:10px">${slotsHtml}</div>
+        </div>
+      `;
+    })
+        .join('');
+    els.root.innerHTML = `
+    <div class="head">
+      <div><span class="badge">${escapeHtml(sheet.subject)}</span></div>
+      <div>Progression : <strong>${correctSlots} / ${totalSlots}</strong></div>
+    </div>
+    <div class="progress"><div class="progress__bar" style="width:${pct}%"></div></div>
+
+    <div class="card" style="margin-top:12px">
+      <div style="display:flex; justify-content:space-between; gap:10px; align-items:flex-start">
+        <div>
+          <div style="font-weight:900; font-size:18px">${escapeHtml(sheet.title)}</div>
+          <div style="color:var(--muted); margin-top:6px">${escapeHtml(sheet.description ?? '')}</div>
+        </div>
+        <div style="display:flex; gap:8px">
+          <button id="btn-sheet-back" class="secondary">← Fiches</button>
+          <button id="btn-sheet-reset" class="secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="drag-container">
+      <div class="drag-matches-pool">
+        <div class="pool-label">Éléments à placer</div>
+        <div class="drag-matches" id="sheet-items-pool">
+          ${itemsHtml || '<span class="placeholder">Tout est placé 🎉</span>'}
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid; gap:12px; margin-top:12px">
+      ${sectionsHtml}
+    </div>
+  `;
+    mountFloatingNext(false);
+    document.getElementById('btn-sheet-back')?.addEventListener('click', () => renderRevisionSheetsHome());
+    document.getElementById('btn-sheet-reset')?.addEventListener('click', () => {
+        if (!confirm('Réinitialiser cette fiche ?'))
+            return;
+        resetProgressForSheet(sheet);
+        renderRevisionSheet(sheet);
+    });
+    bindRevisionDragAndDrop(sheet);
+    // Terminé ?
+    if (correctSlots === totalSlots && totalSlots > 0) {
+        const toast = document.createElement('div');
+        toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--ok-bg); color:var(--ok-fg); padding:12px 20px; border-radius:8px; border:1px solid var(--ok-brd); z-index:999; box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+        toast.textContent = '🎉 Fiche complétée !';
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2500);
+    }
+}
+function bindRevisionDragAndDrop(sheet) {
+    const pool = document.getElementById('sheet-items-pool');
+    const zones = Array.from(els.root.querySelectorAll('[data-slot-id]'));
+    const chips = Array.from(els.root.querySelectorAll('[data-item-id]'));
+    chips.forEach((chip) => {
+        chip.addEventListener('dragstart', (ev) => {
+            const dt = ev.dataTransfer;
+            if (!dt)
+                return;
+            const itemId = chip.getAttribute('data-item-id') || '';
+            const kind = chip.getAttribute('data-item-kind') || '';
+            dt.setData('text/plain', itemId);
+            dt.setData('application/x-t2q-item-kind', kind);
+            chip.classList.add('dragging');
+        });
+        chip.addEventListener('dragend', () => chip.classList.remove('dragging'));
+    });
+    const allowDrop = (ev) => {
+        ev.preventDefault();
+        ev.dataTransfer.dropEffect = 'move';
+    };
+    zones.forEach((zone) => {
+        zone.addEventListener('dragover', (ev) => {
+            allowDrop(ev);
+            zone.classList.add('drag-over');
+        });
+        zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
+        zone.addEventListener('drop', (ev) => {
+            const e = ev;
+            e.preventDefault();
+            zone.classList.remove('drag-over');
+            const itemId = e.dataTransfer?.getData('text/plain') || '';
+            const itemKind = e.dataTransfer?.getData('application/x-t2q-item-kind') || '';
+            if (!itemId)
+                return;
+            const slotId = zone.getAttribute('data-slot-id') || '';
+            if (!slotId)
+                return;
+            const acceptsRaw = zone.getAttribute('data-accepts') || '';
+            const accepts = acceptsRaw.split(',').map(s => s.trim()).filter(Boolean);
+            if (accepts.length > 0 && itemKind && !accepts.includes(itemKind)) {
+                // mauvais type (ex: on dépose un concept sur un slot date)
+                const toast = document.createElement('div');
+                toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:var(--warn-bg); color:var(--fg); padding:12px 20px; border-radius:8px; border:1px solid var(--warn-brd); z-index:999; box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+                toast.textContent = "Type d'élément non compatible avec cet emplacement.";
+                document.body.appendChild(toast);
+                setTimeout(() => toast.remove(), 2000);
+                return;
+            }
+            const progress = loadProgressForSheet(sheet);
+            // si déjà correct, on bloque
+            if (isSlotFilledCorrectly(sheet, progress, slotId))
+                return;
+            progress.placed[slotId] = itemId;
+            const slot = sheet.sections.flatMap(s => s.slots).find(s => s.id === slotId);
+            const ok = !!slot && slot.correctItemId === itemId;
+            if (ok) {
+                // Quand c'est correct, on "valide" implicitement : l'item disparaît du pool.
+                const { totalSlots, correctSlots } = computeCompletion(sheet, progress);
+                if (correctSlots === totalSlots && totalSlots > 0) {
+                    progress.completedAt = new Date().toISOString();
+                }
+            }
+            saveProgressForSheet(progress);
+            renderRevisionSheet(sheet);
+        });
+    });
+    // drop back to pool = remove tentative placement
+    pool?.addEventListener('dragover', (ev) => allowDrop(ev));
+    pool?.addEventListener('drop', (ev) => {
+        const e = ev;
+        e.preventDefault();
+        const itemId = e.dataTransfer?.getData('text/plain') || '';
+        if (!itemId)
+            return;
+        const progress = loadProgressForSheet(sheet);
+        // enlever toutes les occurrences de cet itemId (tentatives)
+        for (const [slotId, placed] of Object.entries(progress.placed)) {
+            if (placed === itemId && !isSlotFilledCorrectly(sheet, progress, slotId)) {
+                delete progress.placed[slotId];
+            }
+        }
+        saveProgressForSheet(progress);
+        renderRevisionSheet(sheet);
+    });
 }
 /* =========================
    Disponibilité du mode Match
@@ -1850,8 +3051,7 @@ function updateMatchModeAvailability() {
         const course = courses.find(c => c.path === fp || c.file === fp);
         if (!course)
             continue;
-        let qs = parseQuestions(course.content);
-        qs = dedupeQuestions(qs);
+        let qs = parserCache.getParsedQuestions(course.path, course.content);
         if (themes.length > 0) {
             qs = qs.filter(q => (q.tags ?? []).some((t) => themes.includes(t)));
             qs = dedupeQuestions(qs);

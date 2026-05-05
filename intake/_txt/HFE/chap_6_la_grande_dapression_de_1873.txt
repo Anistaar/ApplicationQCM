@@ -1,0 +1,429 @@
+Chapitre 6 – La première grande crise de la période moderne (1873-1896) :
+
+pénurie d’or ou mutation d’un système productif ?
+
+
+
+
+
+Krach boursier, faillites bancaires en série entraînent un rationnement du crédit qui restreint l’investissement, la consommation et finissent par conduire les entreprises à revoir à la baisse leur plan de production. Conséquence, le chômage augmente et entraînent les économies dans un cercle vicieux de ralentissement de l’activité voire de récession.
+
+
+
+Est-ce la description de la dernière crise que nos économies aient connue ? 
+
+
+
+Non, pas spécialement, ce schéma s’applique tout aussi bien à la grande dépression de la fin du XIXème siècle, qu’à celle des années 30 ou encore qu’à la crise des subprimes. 
+
+Le montrer nécessite de comprendre le déroulement de ces trois grandes crises avant de répondre, dans les chapitres suivants, à la question suivante : 
+
+        la crise actuelle n’est-elle que l’écho des crises d’hier ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 1 / Comment s’est déroulée la crise de la fin du XIXème siècle ?
+
+
+
+La grande dépression de la fin du XIXème siècle se traduit par une succession de phases de crises et de phases éphémères de reprise, désynchronisées entre les pays européens. Le seul fait stylisé unificateur de cette période tient dans la force et la durabilité des pressions déflationnistes (= baisse des prix). Certains économistes préfèrent d’ailleurs parler de Grande Stagnation. les circonstances et les causes de cette crise restent encore assez mal connues et ont fait l’objet d’analyses contradictoires. 
+
+
+
+Les circonstances et les causes de cette dépression de la fin du XIXème siècle (entre 1873 et 1896) restent encore assez mal connues et ont fait l’objet d’analyses contradictoires. La réalité de cette crise généralisée, sinon mondiale, a même été contestée par certains auteurs qui la considèrent surtout comme le début d’une phase d’adaptation d’économies industriellement mûres en voie d’être dépassées par des économies plus jeunes. Une des manifestations les plus apparentes de cette crise qualifiée de « grande dépression » a été la baisse des prix, la déflation.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cette crise débute en 1873 avec le krach boursier de Vienne et la faillite d’une grande banque suivis par l’effondrement des Bourses de Berlin et New York, entraînant paniques bancaires, chute de groupes financiers et faillite de sociétés de chemin de fer. 
+
+
+
+Au XIXème siècle, sans prêteur en dernier ressort bien établi, c’est-à-dire sans un organisme qui puisse avancer toutes les liquidités nécessaires (=rôle des Banques centrales), les dominos bancaires continuent à tomber les uns après les autres, la crise s’étend et s’installe durablement. Par exemple la banque fédéral américaine a refusé de jouer son rôle pour sauver la Lehmann Brothers pour éviter que les autres fassent la même chose🡪 cf.: too big to fail = politique d’exemplarité 
+
+
+
+L’année 1882 est marquée par un krach boursier en France qui provoque la faillite de deux grandes banques lyonnaises engagées dans des opérations risquées sur des titres. Il se poursuit par une longue récession qui touche particulièrement l’économie française. 
+
+
+
+
+
+(investisseurs institutionnel = banques...)
+
+
+
+
+
+La crise se propage avec :
+
+
+
+la panique des chemins de fer aux USA en 1884, 
+
+la banqueroute de la société du canal de Panama en 1888, 
+
+la faillite de la banque Baring en 1890 à Londres 
+
+et de nouvelles faillites bancaires par centaines en Amérique en 1893.
+
+
+
+
+
+La dépression gagne tous les pays par les liens d’échanges et les mouvements de capitaux.
+
+
+
+
+
+
+
+
+
+
+
+Parallèlement, la croissance se poursuit mais à un rythme plus faible (2,7% par an entre 1850 et 1873 contre 1,6% par an entre 1874 et 1896). 
+
+Le chômage augmente mais les salaires réels (=sal nominal / niv des prix) augmentent grâce à la déflation. Cette hausse incite les entreprises à rechercher des gains de productivité en mécanisant davantage les processus de production.
+
+
+
+La reprise viendra après 1895 grâce à deux facteurs: 
+
+
+
+des innovations de la fin du siècle et sera aidée par 
+
+de nouvelles découvertes d’or dans les années 1890-1900 en Afrique du Sud et en Alaska.
+
+
+
+
+
+Deux approches analytiques de cette crise sont généralement proposées : 
+
+
+
+l’explication monétariste, qui fait des variations de la demande et de l’offre d’or la cause première de la baisse des prix 
+
+
+
+
+
+explication réelle qui justifie la déflation par une crise généralisée de l’investissement et par la concurrence engendrée par la baisse du prix des produits de base importés des pays neufs sont à l’origine de la déflation.
+
+
+
+
+
+C’est cette distinction simplificatrice que les réinterprétations récentes ont contribué à remettre en question. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 2 / La pénurie d’or à l’origine de la déflation ?
+
+
+
+Pour comprendre cette thèse, deux précisions sont nécessaires : 
+
+l’une de nature théorique (la théorie quantitative de la monnaie) 
+
+l’autre de nature empirique (le système d’étalon or).
+
+
+
+§1 / Prérequis
+
+
+
+Théorie quantitative : MV=PT
+
+
+
+Avec M la masse monétaire, V la vitesse de circulation de la monnaie, P le niveau général des prix et T le volume des transactions.
+
+
+
+V= constante et dépend du degré de modernisation du système bancaire
+
+
+
+T= constant et égal à la production (qui est fixée pour assurer le plein emploi des facteurs de production) 
+
+
+
+Sachant que V et T sont exogènes aux phénomènes monétaires, toute variation de M engendre une variation proportionnelle et de même sens de P. En d’autres termes, la théorie quantitative de la monnaie montre l’origine monétaire de l’inflation.
+
+
+
+
+
+Le système monétaire international de la fin du XIXème siècle repose sur l’étalon-or et sur la fixité des changes entre monnaies
+
+
+
+
+
+En 1816, la Grande Bretagne adopte officiellement l’étalon or et sa monnaie nationale, la livre sterling, se trouve définie par un poids fixe d’or : la parité or. 
+
+
+
+Le stock d’or détenu par la Banque d’Angleterre varie en fonction des mouvements du commerce extérieur et la livre est convertible à un cours fixe en or. 
+
+Les billets émis sont liés de façon stricte au stock d’or et non laissée à l’initiative de la Banque centrale. 
+
+
+
+Exemple : 1 livre sterling = 1 gramme d’or 
+
+Avec un stock d’or de 1kg : 1000 livres sterling peuvent être émis 
+
+
+
+Si l’Angleterre exporte plus qu’elle n’importe, 500 grammes d’or entrent en Angleterre. Elle peut alors mettre en circulation 500 livre sterling en plus.
+
+
+
+Si en revanche, le stock d’or diminue à 850 grammes, 850 livres sterling seulement pourront circuler dans l’économie (150 livres seront retirées)
+
+
+
+
+
+En France, en revanche, la banque de France qui a le monopole d’émission des billets a la possibilité de faire varier la circulation monétaire en fonction des besoins de l’économie. 
+
+La plupart des autres pays avait un système de bimétallisme or-argent ou monométallisme argent. 
+
+L’Allemagne initie le mouvement vers l’or en 1871 en exigeant le paiement de 5 milliards de franc-or par la France vaincue et en adoptant l’étalon-or. Les pays de l’union latine, autour de la France, font de même entre 1873 et 1878. 
+
+Les USA suivent en 1879
+
+la Russie en 1897
+
+le Japon en 1895,… 
+
+
+
+Ce régime dure donc dans le monde pendant une période assez courte de 1870 à 1914. 
+
+
+
+Ce basculement quasi général vers l’or s’explique par l’effet des externalités de réseau, c’est-à-dire les gains qui résultent de l’adoption d’un système lorsque la plupart des autres l’utilisent déjà (à partir du moment où deux grandes puissances économiques, la Grande Bretagne et l’Allemagne, adoptaient l’étalon or il était plus avantageux pour tous de s’y rallier).
+
+
+
+La stabilité du cours des devises favorise le développement des échanges tandis que des mécanismes automatiques garantissent la stabilité monétaire. 
+
+
+
+S’il y a pénurie d’or, son prix s’élève, ce qui stimule de nouvelles découvertes et inversement en cas d’abondance. Ainsi les besoins en or pour faire face aux échanges mondiaux tendent à être satisfaits à long terme. 
+
+
+
+Le système comporte aussi un mécanisme de rééquilibrage automatique des balances commerciales : un déficit se traduit par une sortie d’or qui réduit la masse monétaire nationale donc les prix nationaux ce qui relance les exportations et freine les importations, corrigeant ainsi le déséquilibre initial.
+
+
+
+
+
+
+
+
+
+§2 / Interprétation monétariste de la crise
+
+
+
+D’après la théorie quantitative, la baisse des prix provient d’une baisse de la masse monétaire.
+
+
+
+Origine de cette moindre quantité de monnaie : la baisse de la production mondiale d’or
+
+
+
+fut-ce vérifié dans les faits ?
+
+
+
+
+
+
+
+Les séries statistiques longues montrent ainsi un ralentissement de la production mondiale d’or qui pourrait expliquer une contraction de l’émission de monnaie.
+
+
+
+Mais ce n’est pas aussi simple...
+
+
+
+... car l’or produit ne sert pas uniquement à créer de la monnaie mais est également utilisé dans l’industrie. Il faudrait donc pouvoir isoler statistiquement l’utilisation monétaire de l’or de ses autres utilisations. 
+
+
+
+Et la monnaie n’est pas uniquement constituée par des billets mais également par de la monnaie scripturale (= monnaie transitant sur les comptes courants bancaires)
+
+
+
+exemple : production mondiale d’or passe de 1000 tonnes à 800 tonnes. 
+
+
+
+Est-ce suffisant pour en conclure que la quantité de monnaie en circulation va diminuer ? non car l’or est utilisé à des fins industrielles et monétaires.
+
+
+
+Supposons que quand 1000 tonnes d’or étaient produites, 600 allaient à la fabrication de monnaie et 400 à la production industrielles.
+
+
+
+Si désormais 800 tonnes seulement sont produites, on peut imaginer que 700 allaient à la fabrication de monnaie et 100 à la production industrielle
+
+
+
+Csq : ce n’est pas prck la production d’or diminue que la quantité de monnaie diminue...
+
+Seuls les billets sont indexés au stock d’or
+
+La première thèse sur la raréfaction de l’or s’appuie sur des séries de quantité de monnaie afin de vérifier si la relation entre masse monétaire et l’or est restée stable en longue période. 
+
+
+
+On a ainsi pu observer qu’en 1910 les prix intérieurs anglais et ceux à l’exportation (considérés comme représentatifs des prix mondiaux) étaient au même niveau qu’en 1850. Cette thèse (Bordo et Schwartz, 1981) permet d’établir que dans la mesure où en régime d’étalon or, l’offre de monnaie dépend du stock d’or, la baisse des prix des années 1880 serait due en grande partie à la baisse de la production mondiale d’or. 
+
+
+
+Dans la même optique, Milton Friedman a été amené à considérer comme 
+
+« un crime » la cessation de la frappe libre de l’argent aux USA en 1873 : elle aurait grandement contribué à la déflation mondiale en accroissant la demande américaine pour l’or alors que le stock d’or mondial tendait à se raréfier.
+
+
+
+Certains (Vidal 1994) ont contesté cette approche quantitativiste à partir de la difficulté à distinguer l’or monétaire de l’or à usage industriel ainsi qu’à évaluer l’importance de la monnaie scripturale des banques. Dans cette optique, il apparaît que la relation entre l’or monétaire et la masse monétaire est instable. 
+
+
+
+Ainsi, en Europe, pendant la période de plus grande pénurie d’or (entre 1879 et 1889), l’or monétaire diminue mais la quantité de billet en circulation augmente rapidement. 
+
+
+
+On constate également que selon les pays le rapport entre masse monétaire et or monétaire (appelé taux de couverture) varie : il est élevé en Allemagne et faible en France. Donc, selon la couverture plus ou moins large des billets par l’or, le stock de métal précieux nécessaire dans chaque pays sera plus ou moins important. 
+
+
+
+Par exemple, dans un pays comme l’Angleterre où le système monétaire est le plus évolué en Europe et où la masse monétaire est constituée en grande partie de monnaie scriptural (= dépôt à vue bancaire) le recours à l’or sera moins indispensable. La politique suivie par les Banques Centrales est donc importante. Y compris en période de restriction d’or, la Banque d’Angleterre pouvait fournir des liquidités à l’économie.
+
+
+
+D’autres analyses sont venues, sans les contredire, compléter ces premières approches.
+
+
+
+Section 3 / Les causes réelles de la dépression des prix (diminution) 
+
+
+
+La baisse des prix observée entre 1873 et 1896 aurait été due à l’achèvement du cycle des investissements ferroviaires mais aussi au ralentissement d’investissement d’infrastructure comme le logement.
+
+ 
+
+Pourtant, il semblerait qu’au niveau mondial, la construction ferroviaire ait atteint son maximum au cours des années 1880, c’est-à-dire en pleine dépression. En fait, booms et contractions de l’investissement ferroviaire ont eu tendance à se compenser à partir des années 1870, ce qui aurait eu un effet limité sur la demande mondiale.
+
+
+
+
+
+
+
+Une autre thèse explique la déflation par l’aggravation de la concurrence internationale : l’accroissement rapide des exportations de produits de base par les USA et les pays neufs conduit à la baisse mondiale des prix des produits primaires qui se répercute sur les prix des biens manufacturés. 
+
+
+
+L’institutionnalisation d’un véritable marché international de ces produits dans la seconde moitié du XIXème siècle ainsi que l’essor d’un réseau télégraphique mondial favorisant les transactions et l’abaissement des coûts de transport maritime (divisés par 2 entre 1870 et 1900) contribuent également à la baisse des prix mondiaux. 
+
+
+
+De nouveaux pays neufs, primo exportateurs et disposant de ressources naturelles abondantes (le Canada, l’Argentine, l’Australie) accentuent les effets de la concurrence internationale sur des produits alimentaires de base comme le blé.
+
+
+
+Pour la France, l’économiste Paul Leroy-Baulieu avait relevé, tout au long des années 1880, les multiples « perfectionnements des moyens et procédés de production » qui avaient permis la baisse des coûts de production de nombreux produits ainsi qu’un fort accroissement d’importations, à bas prix, de matières premières. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conclusion :
+
+
+
+La sortie de cette dépression passe par le jeu conjoint de mécanismes de marché et d’incitations institutionnelles qui orientent les capitaux libérés des activités en déclin vers les activités porteuses associées aux innovations (moteur à explosion notamment) et qui convainquent les détenteurs de capitaux de dépasser leur aversion au risque face à ces nouvelles opportunités d’investissement (le secteur ferroviaire avait l’avantage d’être fortement réglementé et protégé). 
+
+
+
+Parallèlement, le relâchement des politiques monétaires (les taux d’intérêts nominaux diminuent dès 1873 mais pas suffisamment pour compenser la baisse des prix de sorte que les taux d’intérêt réels restent stables voire augmentent) et le développement des systèmes bancaires favorisant la diffusion de la monnaie scripturale permettent de faire augmenter l’émission de monnaie, donc viennent contrecarrer la tendance à la déflation. A partir de 1882, les taux d’intérêt réels baissent. 
+
+
+
+Mais il faudra attendre une dizaine d’années encore pour que la combinaison de ces éléments (innovation, incitation à l’investissement, baisse du coût du crédit) se réalise à grande échelle et permette d’enclencher une réelle phase de croissance continue.
+
+
+
+
+
+Soulignons à nouveau que si tous s’accordent à considérer les années 1900’s comme marquant le début d’un nouveau cycle, paradoxalement la réalité de la fin du cycle précédent reste contestée. 
+
+
+
+En effet, durant deux décennies à partir de 1873, les indicateurs de prix ont fortement baissé alors que les indices de croissance n’ont connu, sauf en Allemagne, qu’un simple ralentissement d’où l’idée que cette dépression n’avait pu être qu’un mythe. 
+
+
+
+Mais dans un contexte où l’étalon or à son apogée engendrait une croyance à la stabilité des prix, cette dépression a pu sembler à l’époque plus grave qu’elle n’a effectivement été. En faire une stagnation longue c’est en faire une phase de mutation productive, une crise d’adaptation. C’est aussi la différencier de la grande crise des années 1930 où les indicateurs réels et monétaires seront, cette fois, orientés à la baisse.

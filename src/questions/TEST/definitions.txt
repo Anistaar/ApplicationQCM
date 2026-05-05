@@ -1,0 +1,5 @@
+QCM || Qu'est-ce qu'un QCM ? || Un questionnaire à choix multiples|v:true || Un questionnaire à choix unique|v:false || Un questionnaire ouvert|v:false || Un test oral|v:false || Un QCM (Questionnaire à Choix Multiples) permet de sélectionner une ou plusieurs réponses parmi plusieurs propositions. || Definitions, Facile
+
+QCM || Quel est l'avantage principal des QCM ? || Correction rapide et objective|v:true || Évaluation subjective|v:false || Pas de préparation nécessaire|v:false || Réponses libres|v:false || Les QCM permettent une correction automatique et objective, ce qui les rend très efficaces pour évaluer de grands groupes. || Definitions, Facile
+
+QCM || Quels types de questions sont possibles dans text2quiz ? (plusieurs réponses) || Questions à choix multiples (QCM)|v:true || Questions ouvertes (OpenQ)|v:false || Vrai/Faux (VF)|v:true || Glisser-déposer (DragMatch)|v:true || Formules mathématiques (FormulaBuilder)|v:true || Text2quiz supporte 5 types de questions : QCM, QR (réponse unique), VF (vrai/faux), DragMatch (associations) et FormulaBuilder (formules). || Types_Questions, Moyen

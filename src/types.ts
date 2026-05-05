@@ -1,4 +1,4 @@
-export type Mode = 'entrainement' | 'examen' | 'flashcards' | 'match';
+export type Mode = 'entrainement' | 'examen' | 'flashcards' | 'match' | 'fiche';
 export type QuestionType = 'QCM' | 'QR' | 'VF' | 'DragMatch' | 'OpenQ' | 'FormulaBuilder';
 
 export type Answer = { text: string; correct: boolean };

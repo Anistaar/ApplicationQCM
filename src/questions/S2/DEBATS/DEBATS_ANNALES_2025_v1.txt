@@ -1,0 +1,23 @@
+@themes: Débats Contemporains
+
+### === DC-AN25-1 : Annales 2025 – Libre-échange, barrières et gains du commerce ===
+### "Questions 1-5 du QCM Débats Contemporains – Session avril 2025 (Luc Désiré Omgba, L1 éco, barème +1/-0,5/0)"
+@add-theme: Annales 2025, Examen, Libre-échange, Protectionnisme, Barrières commerciales
+
+QCM || [ANNALE 2025 – Q1] Parmi les barrières commerciales suivantes, laquelle est de nature tarifaire ? || V:Les droits de douane|Les quotas|Les restrictions volontaires aux exportations|Les normes techniques et sanitaires|Les lois sur la loyauté des pratiques commerciales
+QCM || [ANNALE 2025 – Q2] Les gens sont contre l'échange international : || V:Aucune des réponses a, b, c n'est correcte (la réalité : certains gagnent, d'autres perdent)|Parce que tout le monde gagne|Parce qu'il y a ni gagnant ni perdant|Parce que tout le monde perd
+QCM || [ANNALE 2025 – Q3] Pour deux pays qui participent au libre-échange, il y a des gains : || V:Si et seulement si les pays produisent des biens différents|Si et seulement si les pays se spécialisent complètement|Si et seulement si l'un des pays a plus de travail que l'autre|Pour les deux pays en toutes circonstances
+QCM || [ANNALE 2025 – Q4] La Chine devient une grande puissance : || V:Aucune des assertions n'est correcte (raison réelle : réformes de marché, OMC, avantages comparatifs dans la manufacture)|Parce qu'elle a une grande armée|Parce qu'elle est restée un pays communiste|Parce qu'elle est un pays démocratique
+QCM || [ANNALE 2025 – Q5] Le protectionnisme : || V:Aucune des assertions n'est correcte (le protectionnisme inclut à la fois barrières tarifaires ET non tarifaires)|Est l'absence de barrières tarifaires mais la présence de barrières non tarifaires|Est la présence de barrières tarifaires mais l'absence de barrières non tarifaires|Contribue à augmenter le pouvoir d'achat du consommateur moyen américain
+
+---
+
+### === DC-AN25-2 : Annales 2025 – Chine, Inde et commerce international ===
+### "Questions 6-10 du QCM Débats Contemporains – Session avril 2025 sur la Chine, l'Inde, et le théorème HO"
+@add-theme: Annales 2025, Examen, Chine, Inde, Commerce international, Théorème HO, Dotations factorielles
+
+QCM || [ANNALE 2025 – Q6] La force de l'économie indienne repose essentiellement : || V:Sur ses bas salaires|Sur le niveau élevé de ses exportations|Sur son capital humain|Aucune des assertions n'est correcte
+QCM || [ANNALE 2025 – Q7] En comparaison des années 1980, le PIB de la Chine a grandement augmenté : || V:Aucune des assertions n'est correcte (raison réelle : avantages comparatifs, ouverture commerciale, réformes de marché)|Parce qu'elle a des désavantages comparatifs sur la France|Parce qu'elle fabrique des chaussures comme l'Allemagne|Parce qu'elle a des désavantages comparatifs sur l'Inde
+QCM || [ANNALE 2025 – Q8] En comparaison de la Chine : || V:L'Inde est plus extravertie dans son commerce que la Chine|La Chine exporte moins de marchandises que l'Inde|L'Inde a plus de sociétés cotées en bourse que la Chine|Aucune des assertions n'est correcte
+QCM || [ANNALE 2025 – Q9] La plus grande partie du commerce international contemporain est le commerce dans : || V:Les produits manufacturés|Les produits agricoles|Les services|Les produits miniers
+QCM || [ANNALE 2025 – Q10] Les exportations de la Chine à destination du marché français : || V:Reflètent des différences dans les dotations factorielles de la Chine par rapport à la France (théorème Heckscher-Ohlin)|Reflètent les différences dans les institutions en Chine par rapport à la France|Reflètent des différences dans le climat des affaires en Chine par rapport à la France|Aucune des assertions n'est correcte

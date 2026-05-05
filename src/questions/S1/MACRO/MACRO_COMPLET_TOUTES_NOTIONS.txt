@@ -1,0 +1,609 @@
+### BANQUE COMPLÈTE MACROÉCONOMIE - TOUTES LES 52 NOTIONS
+### Créé le 30 novembre 2025 - Couvre MACRO_complete.json
+### 8-12 questions par notion pour couverture exhaustive
+
+@themes: Macroéconomie
+
+### ========================================
+### CHAPITRE 0 : INTRODUCTION
+### ========================================
+
+### === M0-I-1a : Définition macroéconomie ===
+### "Étude phénomènes globaux : chômage, inflation, croissance, commerce extérieur"
+@add-theme: Intro
+
+QCM || La macroéconomie étudie principalement || V:Les phénomènes économiques globaux à l'échelle d'un pays|Les décisions d'un consommateur isolé|Le comportement d'une seule entreprise|Uniquement les finances publiques
+QCM || Parmi les propositions suivantes, laquelle correspond le mieux à l'objet de la macroéconomie ? || V:L'analyse des agrégats comme le PIB, le chômage et l'inflation|L'étude du prix d'un seul bien spécifique|L'organisation interne d'une entreprise|La fixation du salaire d'un individu
+QCM || La microéconomie se distingue de la macroéconomie car elle s'intéresse plutôt || V:Aux comportements individuels des ménages et des entreprises|Aux agrégats comme le taux de chômage|À la croissance économique de long terme|Aux échanges internationaux globaux
+QCM || La macroéconomie, par rapport à la microéconomie, se focalise sur || V:Les grandeurs globales (PIB, inflation, chômage)|Les décisions d'une seule firme en concurrence|Le fonctionnement détaillé d'un marché particulier|Le budget d'un seul ménage
+QCM || Lequel des phénomènes suivants relève typiquement de la macroéconomie ? || V:L'évolution du taux de chômage national|Le prix d'un seul modèle de smartphone|La négociation d'un contrat de travail individuel|La stratégie commerciale d'un supermarché
+QCM || Parmi ces phénomènes, lequel est un sujet central de la macroéconomie ? || V:Le taux d'inflation dans l'ensemble de l'économie|Le choix de consommation d'un individu|La fixation d'un loyer dans un quartier|La décision de production d'une petite entreprise
+VF || L'étude de la croissance du PIB d'un pays sur 10 ans est un sujet macroéconomique. || V || Elle concerne un agrégat global (PIB) à l'échelle nationale
+VF || Le prix d'une baguette dans une boulangerie précise relève de la macroéconomie. || F || C'est un phénomène individuel, étudié plutôt en microéconomie
+VF || Une hausse généralisée du chômage dans tout le pays est un phénomène macroéconomique. || V || Elle touche l'ensemble de l'économie, pas un agent isolé
+VF || La décision d'une entreprise de licencier un salarié est toujours un phénomène macroéconomique. || F || Décision individuelle microéconomique, sauf si généralisée à l'échelle nationale
+
+### === M0-I-1b : Fonctions de l'État ===
+### "Affectation (biens publics), Redistribution (équité), Stabilisation (conjoncture)"
+@add-theme: Intro, État
+
+QCM || Les trois grandes fonctions économiques de l'État sont || V:Affectation, redistribution, stabilisation|Production, épargne, spéculation|Importation, exportation, arbitrage|Concurrence, profit, privatisation
+QCM || La fonction d'affectation de l'État consiste principalement à || V:Fournir et organiser les biens et services publics|Fixer tous les prix du marché|Attribuer des salaires individuels|Distribuer des profits aux entreprises publiques
+QCM || Lequel des exemples suivants illustre le mieux la fonction d'affectation ? || V:Financement d'un réseau d'éclairage public|Versement d'allocations familiales|Mise en place de l'assurance chômage|Relance budgétaire en période de récession
+QCM || Construire une autoroute gratuite pour désengorger une région relève surtout de || V:La fonction d'affectation|La fonction de redistribution|La fonction de stabilisation|Aucune des trois fonctions
+QCM || Verser un revenu de solidarité active (RSA) illustre principalement || V:La fonction de redistribution|La fonction d'affectation|La fonction de stabilisation|La fonction monétaire
+QCM || La politique de l'État consistant à taxer davantage les plus riches pour financer des prestations sociales vise surtout || V:À réduire les inégalités via la redistribution|À fournir un bien public pur|À stimuler les exportations|À fixer un taux de change
+QCM || Une politique budgétaire de relance en période de récession (hausse des dépenses publiques) relève de || V:La fonction de stabilisation|La fonction de redistribution|La fonction d'affectation|La fonction de réglementation des prix
+QCM || L'utilisation de l'impôt et de la dépense publique pour contenir l'inflation illustre la fonction || V:De stabilisation|D'affectation|De redistribution|De privatisation
+VF || La fonction de redistribution vise à améliorer l'équité sociale en modifiant la répartition des revenus. || V || Par impôts et transferts, l'État corrige les inégalités de marché
+VF || La fonction de stabilisation n'a aucun lien avec la lutte contre le chômage. || F || Elle vise justement à lisser les fluctuations, dont le chômage et l'inflation
+
+### === M0-I-2a : Types de modèles ===
+### "Littéraire (verbal), Mathématique (équations), Graphique (offre/demande)"
+@add-theme: Intro
+
+QCM || Les trois principales formes de présentation d'un modèle économique sont || V:Littéraire, mathématique et graphique|Comptable, juridique et historique|Technologique, politique et sociologique|Micro, macro et internationale
+QCM || Un même modèle économique peut être présenté || V:Sous forme littéraire, mathématique ou graphique|Uniquement sous forme d'équations|Uniquement par des graphiques|Uniquement en langage naturel
+QCM || Un modèle littéraire (verbal) présente l'avantage de || V:Rester intuitif et accessible à un large public|Donner toujours des résultats chiffrés précis|Représenter automatiquement l'équilibre sur un graphique|Supprimer toute ambiguïté d'interprétation
+QCM || La principale limite d'un modèle purement littéraire est || V:Le manque de précision quantitative|L'impossibilité de l'expliquer oralement|Qu'il soit réservé aux mathématiciens|Qu'il ne permette pas de raconter une histoire
+QCM || Un modèle mathématique se caractérise par || V:L'utilisation d'équations reliant des variables économiques|Des descriptions uniquement qualitatives|Des graphiques sans équations|Une absence totale d'hypothèses
+QCM || Un avantage clé du modèle mathématique est || V:La possibilité d'obtenir des relations quantitatives précises|D'éviter toute hypothèse simplificatrice|D'être toujours plus réaliste que la réalité|D'être nécessairement plus simple à comprendre
+QCM || Un modèle graphique (type offre-demande) permet surtout || V:De visualiser des relations et des équilibres entre variables|D'écrire des équations complexes|De raconter des anecdotes historiques|D'annuler le besoin de toute explication théorique
+QCM || Sur un graphique offre-demande, un déplacement de courbe illustre || V:Une modification d'un déterminant du marché (choc)|Une simple erreur de dessin|Un changement de monnaie|Une variation purement administrative
+VF || Un même concept économique peut être présenté simultanément en version littéraire, mathématique et graphique. || V || Ce sont trois formulations complémentaires d'un même modèle
+VF || Un modèle mathématique est toujours supérieur aux modèles littéraires et graphiques, car il est forcément plus réaliste. || F || Plus précis quantitativement, mais pas automatiquement plus réaliste
+
+### === M0-I-2b : Statique comparative ===
+### "Analyse changement équilibre suite choc exogène (sans trajectoire temporelle)"
+@add-theme: Intro
+
+QCM || La statique comparative consiste principalement à || V:Comparer deux équilibres avant et après un choc exogène|Décrire en détail la trajectoire temporelle d'une variable|Analyser uniquement les chocs endogènes|Étudier la psychologie des agents économiques
+QCM || Dans un cadre de statique comparative, on s'intéresse à || V:L'équilibre initial et l'équilibre final après un choc|Chaque période intermédiaire pendant l'ajustement|Les seules décisions politiques possibles|Uniquement à l'offre sans la demande
+QCM || Une analyse dynamique se distingue d'une analyse en statique comparative car elle || V:Décrit la trajectoire entre états successifs dans le temps|Ignore complètement le temps|Suppose qu'il n'y a jamais de choc|Se limite à des comparaisons qualitatives
+QCM || La statique comparative, par rapport à une approche dynamique, || V:Néglige le chemin d'ajustement pour se focaliser sur les équilibres|Suit en détail la vitesse d'ajustement|Permet de calculer tous les délais d'ajustement|Se passe de tout choc exogène
+QCM || Un choc exogène est un choc || V:Provenant de l'extérieur du modèle|Toujours causé par les anticipations des agents|Toujours une variation de prix endogène|Qui ne modifie jamais les équilibres
+QCM || Un choc endogène, par opposition à un choc exogène, || V:Résulte du fonctionnement interne du modèle|Ne peut pas être expliqué par le modèle|Est toujours politique|Est forcément lié au commerce extérieur
+QCM || Dans un modèle d'offre et de demande, une hausse de la préférence des consommateurs pour un bien est un choc || V:Exogène sur la demande, déplacant la courbe|Exogène sur l'offre uniquement|Endogène sur les prix uniquement|Sans effet sur l'équilibre
+QCM || En statique comparative, l'analyse d'une hausse de la dépense publique consiste à || V:Comparer l'équilibre macroéconomique avant et après la hausse|Décrire seconde par seconde la réaction de chaque agent|Supposer que la dépense publique reste identique|Éliminer toute réaction du secteur privé
+VF || La statique comparative ignore volontairement la dynamique d'ajustement pour se concentrer sur la comparaison des équilibres. || V || On compare équilibre initial et final, sans modéliser le chemin
+VF || Une limite de la statique comparative est qu'elle ne dit rien sur la vitesse d'ajustement de l'économie. || V || Elle ne traite pas les délais ni les trajectoires
+VF || Un exemple de choc exogène est une modification réglementaire soudaine imposée par l'État. || V || Décision extérieure au modèle qui modifie les équilibres
+VF || Un changement de comportement d'un agent issu des équations du modèle est un choc exogène. || F || S'il vient des équations du modèle, il est endogène
+
+### === M0-II-1a : Définition PIB ===
+### "Somme valeurs ajoutées produites sur territoire pendant période. PIB = C + I + G + (X-M)"
+@add-theme: PIB
+@add-theme: Formule
+
+QCM || Le PIB d'un pays mesure || V:La valeur totale des biens et services finaux produits sur un territoire pendant une période|Le stock total de richesse détenu par les ménages|Uniquement la production industrielle|Seulement la production des entreprises nationales à l'étranger
+QCM || En comptabilité nationale, le PIB est défini comme || V:La somme des valeurs ajoutées produites sur le territoire économique|La somme des salaires perçus par les travailleurs|La somme des impôts payés par les entreprises|La somme des exportations
+QCM || La formule usuelle du PIB par la demande est || V:PIB = C + I + G + (X - M)|PIB = C + S|PIB = Y - T|PIB = W + Profits
+QCM || Dans la décomposition PIB = C + I + G + (X - M), (X - M) représente || V:Le solde commercial (exportations - importations)|La seule valeur des exportations|La seule valeur des importations|Les dépenses publiques d'investissement
+QCM || Dans la formule du PIB, C désigne || V:La consommation finale des ménages|Le capital productif|La consommation intermédiaire des entreprises|Les cotisations sociales
+QCM || Dans la formule du PIB, I désigne principalement || V:L'investissement (FBCF) des entreprises et des ménages|Les importations|Les intérêts versés par les banques|Les impôts sur le revenu
+QCM || Dans la formule du PIB, G correspond à || V:La dépense publique de consommation et d'investissement|Le gain net des entreprises|La croissance économique|Les subventions à l'exportation
+QCM || Si C = 600, I = 300, G = 200, X = 150 et M = 100, alors le PIB vaut || V:1150|1050|1250|950
+QCM || Si le PIB d'un pays est de 2 000, que C = 1 200, I = 400, G = 300, alors (X - M) est égal à || V:100|200|−100|0
+VF || Le PIB mesure la production réalisée sur le territoire d'un pays, quelle que soit la nationalité des producteurs. || V || Agrégat territorial : compte toute production sur le territoire
+VF || Le PIB inclut la production domestique non déclarée (travail au noir, activités illégales) de façon systématique et précise. || F || Ces activités échappent largement à la mesure officielle
+VF || Le PIB est un indicateur parfait du bien-être de la population. || F || Il mesure la production, pas la répartition, la santé, l'environnement, etc.
+
+### === M0-II-1b : PIB nominal vs réel ===
+### "Nominal (prix courants), Réel (prix constants). PIB_réel = PIB_nominal / (Déflateur/100)"
+@add-theme: PIB
+@add-theme: Formule
+
+QCM || Le PIB nominal est mesuré || V:Aux prix courants de l'année considérée|Aux prix d'une année de base fixe|En volume uniquement|Toujours corrigé de l'inflation
+QCM || Le PIB réel se distingue du PIB nominal car il || V:Est exprimé en prix constants, corrigés de l'inflation|Utilise toujours les prix de marché actuels|Ne tient pas compte des quantités produites|Mesure seulement la production industrielle
+QCM || La relation reliant PIB réel, PIB nominal et déflateur peut s'écrire || V:PIB_réel = PIB_nominal / (Déflateur/100)|PIB_réel = PIB_nominal × (Déflateur/100)|PIB_réel = Déflateur / PIB_nominal|PIB_réel = PIB_nominal + Déflateur
+QCM || Si le déflateur du PIB augmente, à PIB nominal donné, le PIB réel || V:Diminue|Reste inchangé|Augmente forcément|Devient égal au PIB nominal
+QCM || Si le PIB nominal est de 1 200 et le déflateur de 120, alors le PIB réel est de || V:1 000|1 440|1 200|900
+QCM || Si le PIB nominal est de 2 500 et le déflateur de 125, le PIB réel vaut || V:2 000|2 625|2 200|1 875
+QCM || Un pays voit son PIB nominal augmenter de 5 % alors que les prix augmentent de 5 %. Le PIB réel || V:Reste approximativement constant|Augmente aussi de 5 %|Diminue de 5 %|Devient nul
+QCM || Si le PIB nominal reste constant mais que le déflateur baisse, cela signifie que le PIB réel || V:Augmente|Diminue|Reste identique|Devient négatif
+VF || Le déflateur du PIB est un indice de prix global utilisé pour corriger le PIB nominal de l'inflation. || V || Il résume l'évolution moyenne des prix des biens et services compris dans le PIB
+VF || Utiliser le PIB réel permet de comparer la production dans le temps en neutralisant l'effet des variations de prix. || V || On étudie ainsi l'évolution des volumes produits
+VF || Le PIB nominal est toujours supérieur au PIB réel. || F || Tout dépend du niveau de prix et de l'année de base choisie
+VF || Si les prix baissent (déflation) et que le PIB nominal ne change pas, le PIB réel diminue mécaniquement. || F || Au contraire, le PIB réel augmente puisqu'on divise par un déflateur plus faible
+
+### === M0-II-2a : Taux de chômage ===
+### "u = U/L où U = chômeurs (BIT), L = population active"
+@add-theme: Chômage
+@add-theme: Formule
+
+QCM || Le taux de chômage u se calcule par la formule || V:u = U / L|u = L / U|u = U / N|u = N / L
+QCM || Dans la formule du taux de chômage, U représente || V:Le nombre de chômeurs au sens du BIT|Le nombre total d'habitants|Le nombre d'emplois vacants|Le nombre de retraités
+QCM || Selon la définition du BIT, est chômeur un individu qui || V:Est sans emploi, disponible et en recherche active|N'a pas de travail mais n'en cherche pas|Travaille à temps partiel|Est étudiant sans recherche d'emploi
+QCM || Parmi ces personnes, laquelle est comptée comme chômeur au sens du BIT ? || V:Un individu sans emploi qui a envoyé plusieurs candidatures la semaine dernière|Un étudiant à temps plein qui ne cherche pas d'emploi|Une personne au foyer sans recherche active|Un retraité qui ne souhaite pas travailler
+QCM || La population active L d'un pays est définie comme || V:Les actifs occupés + les chômeurs|L'ensemble de la population totale|Les seuls salariés|Les retraités et étudiants
+QCM || Si la population totale est de 70 millions, la population active de 30 millions et le nombre de chômeurs de 3 millions, alors la population active occupée est de || V:27 millions|30 millions|33 millions|40 millions
+QCM || Si U = 3 millions et L = 30 millions, le taux de chômage est de || V:10 %|1 %|30 %|3 %
+QCM || Si un pays compte 27 millions d'actifs occupés et 3 millions de chômeurs, alors le taux de chômage u est de || V:10 %|5 %|15 %|20 %
+VF || Une personne qui n'a pas d'emploi, qui n'en cherche pas et qui n'est pas disponible immédiatement n'est pas comptée comme chômeur BIT. || V || Il manque la condition de recherche active et de disponibilité
+VF || Un salarié en contrat à durée déterminée est compté parmi les chômeurs. || F || Il fait partie des actifs occupés
+VF || Un individu travaillant quelques heures par semaine contre rémunération est considéré comme actif occupé. || V || Toute personne exerçant une activité rémunérée entre dans les actifs occupés
+VF || L'augmentation de la population active L entraîne mécaniquement une hausse du taux de chômage. || F || Tout dépend aussi de l'évolution de l'emploi ; U peut baisser ou rester stable
+
+### === M0-II-2b : Inflation ===
+### "Hausse générale soutenue des prix. Origines : demande (excès), offre (coûts), monétaire (masse M)"
+@add-theme: Inflation
+@add-theme: Formule
+
+QCM || L'inflation se définit comme || V:Une hausse générale et soutenue du niveau moyen des prix|Une hausse ponctuelle du prix d'un seul bien|Une baisse généralisée des prix|Une simple diminution du pouvoir d'achat nominal
+QCM || Pour qu'il y ait inflation au sens macroéconomique, il faut || V:Une augmentation durable de nombreux prix dans l'économie|Une hausse temporaire du prix du pétrole uniquement|Une baisse du chômage|Une diminution des taux d'intérêt
+QCM || Le taux d'inflation entre t−1 et t peut être calculé par la formule || V:π = (P_t - P_{t-1}) / P_{t-1}|π = P_{t-1} / P_t|π = P_t × P_{t-1}|π = P_t + P_{t-1}
+QCM || Une inflation par la demande survient principalement lorsque || V:La demande globale dépasse les capacités de production|Les coûts de production (salaires, matières premières) augmentent|La productivité progresse fortement|Les salaires nominaux baissent
+QCM || Lequel de ces scénarios illustre le mieux une inflation tirée par la demande ? || V:Une forte hausse de la consommation et de l'investissement en situation de plein emploi|Une hausse des prix due à une augmentation du prix du pétrole|Une baisse des taux de TVA sur les biens de consommation|Une chute de la demande de biens durables
+QCM || L'inflation par les coûts est principalement liée à || V:Une hausse des coûts de production (salaires, matières premières)|Une augmentation de la demande globale|Une diminution du salaire minimum|Une appréciation de la monnaie nationale
+QCM || Une forte augmentation du prix du pétrole qui renchérit les coûts de production est un exemple || V:D'inflation par les coûts|D'inflation par la demande|D'inflation monétaire|De déflation automatique
+QCM || L'inflation dite « monétaire » est souvent associée à || V:Une expansion excessive de la masse monétaire par rapport à la production|Une réduction de la masse monétaire|Une politique budgétaire restrictive|Une hausse des impôts sans changement monétaire
+QCM || Si l'indice des prix passe de 105 en 2023 à 110 en 2024, alors le taux d'inflation entre 2023 et 2024 est d'environ || V:4,8 %|5 %|10 %|2,5 %
+VF || Une inflation modérée mais prévisible peut faciliter certains ajustements (réduction des salaires réels sans baisse des salaires nominaux). || V || Elle permet des ajustements réels sans baisse nominale, souvent mal acceptée
+VF || Une inflation élevée et instable peut nuire à l'activité économique en créant de l'incertitude. || V || Elle complique les décisions d'investissement et d'épargne
+VF || Une hausse du prix d'un seul bien, isolée et temporaire, suffit pour parler d'inflation. || F || Il faut une hausse générale et durable de nombreux prix
+VF || Une inflation très forte augmente automatiquement le pouvoir d'achat de tous les ménages. || F || Les salaires nominaux n'augmentent pas forcément au même rythme, le pouvoir d'achat peut baisser
+
+### ========================================
+### CHAPITRE 1 : CONSOMMATION
+### ========================================
+
+### === M1-I-1a : Fonction consommation keynésienne ===
+@add-theme: Keynes
+
+QCM || La fonction de consommation keynésienne s'écrit || V:C = C0 + cY|C = cY|C = C0/Y|C = Y - S
+QCM || La fonction d'affectation de l'État concerne || V:La fourniture de biens publics|La redistribution des revenus|La lutte contre l'inflation|L'équilibre budgétaire
+QCM || La fonction de redistribution vise || V:À réduire les inégalités de revenus|À produire des biens|V:À assurer l'équité sociale|À contrôler les prix
+QCM || La fonction de stabilisation permet || V:De lutter contre le chômage|V:De maîtriser l'inflation|V:De lisser les cycles économiques|De produire des biens publics
+VF || L'État a un rôle de stabilisation de la conjoncture économique. || V || Politique budgétaire et monétaire
+VF || L'affectation concerne uniquement les biens privés. || F || Elle concerne les biens publics (défense, justice, éclairage public)
+
+### === M0-I-2a : Types de modèles ===
+@add-theme: Intro
+
+QCM || Les trois façons d'exprimer un modèle économique sont || V:Formulation littéraire|V:Formulation mathématique|V:Formulation graphique|Formulation expérimentale
+QCM || Un modèle littéraire || V:Décrit les relations en langage naturel|Utilise des équations|V:Est moins précis qu'un modèle mathématique|Utilise des graphiques
+QCM || Un modèle mathématique || V:Exprime les relations par des équations|Est qualitatif|V:Permet des prédictions quantitatives précises|Est toujours faux
+VF || Un modèle graphique utilise des courbes pour représenter les relations économiques. || V || Exemple : offre et demande
+VF || Il n'existe qu'une seule façon de représenter un modèle économique. || F || Trois formulations : littéraire, mathématique, graphique
+
+### === M0-I-2b : Statique comparative ===
+@add-theme: Intro
+
+QCM || La statique comparative consiste à || V:Comparer deux équilibres sans décrire la trajectoire|Étudier l'évolution dans le temps|Faire des expériences reproductibles|Maximiser les profits
+QCM || La différence entre modèle statique et modèle dynamique || V:Le modèle statique ignore la dimension temporelle|Le modèle statique est toujours faux|V:Le modèle dynamique étudie l'évolution dans le temps|Les deux sont identiques
+QCM || Un choc exogène est || V:Une perturbation extérieure au modèle|Une variation endogène|V:Un changement non expliqué par le modèle|Une erreur de calcul
+VF || La statique comparative décrit la trajectoire entre deux équilibres. || F || Elle compare juste deux états sans la trajectoire
+VF || Un modèle dynamique étudie l'évolution temporelle des variables. || V || Il intègre la dimension temps
+
+### === M0-II-1a : Définition PIB ===
+@add-theme: PIB
+
+QCM || Le PIB correspond à || V:La somme des valeurs ajoutées produites sur un territoire|La somme des revenus uniquement|Le stock de capital|La consommation totale
+QCM || La formule du PIB par la demande est || V:PIB = C + I + G + (X-M)|PIB = C + S|PIB = Y - T|PIB = W + P
+QCM || Dans PIB = C + I + G + (X-M), C représente || V:La consommation des ménages|Le capital|Les charges|Le chômage
+QCM || Dans PIB = C + I + G + (X-M), (X-M) représente || V:Le solde commercial (exportations - importations)|Les exportations seulement|Les importations seulement|Les taxes
+VF || Le PIB mesure la production sur un territoire donné pendant une période. || V || Agrégat fondamental comptabilité nationale
+VF || Le PIB inclut la production domestique non marchande. || F || Seulement production marchande comptabilisée
+
+### === M0-II-1b : PIB nominal vs réel ===
+@add-theme: PIB
+
+QCM || Le PIB réel est obtenu en || V:Divisant le PIB nominal par le déflateur|Multipliant le PIB nominal par l'inflation|Soustrayant l'inflation|Ajoutant la croissance
+QCM || Le déflateur du PIB mesure || V:Le niveau général des prix|Le volume de production|Le taux de chômage|Les exportations
+QCM || La formule PIB réel est || V:PIB_réel = PIB_nominal / (Déflateur/100)|PIB_réel = PIB_nominal × Déflateur|PIB_réel = PIB_nominal - Inflation|PIB_réel = PIB_nominal + Croissance
+VF || Le PIB réel élimine l'effet de l'inflation. || V || Prix constants, mesure volume production
+VF || Le PIB nominal utilise les prix constants. || F || Prix courants ; le PIB réel utilise prix constants
+
+### === M0-II-2a : Taux de chômage ===
+@add-theme: Chômage
+
+QCM || Le taux de chômage u se calcule || V:u = U/L où U=chômeurs, L=population active|u = U/P où P=population totale|u = 1 - Emploi|u = Chômeurs × 100
+QCM || Un chômeur au sens du BIT est || V:Sans emploi, disponible, en recherche active|Toute personne sans emploi|Un inactif|Un retraité
+QCM || La population active L comprend || V:Les actifs occupés + les chômeurs|Toute la population|V:Les personnes qui travaillent ou cherchent un emploi|Les retraités
+VF || Le taux de chômage mesure la part des chômeurs dans la population active. || V || u = U/L
+VF || Un étudiant non employé est comptabilisé comme chômeur. || F || Sauf s'il recherche activement un emploi (critères BIT)
+
+### === M0-II-2b : Inflation ===
+@add-theme: Inflation
+
+QCM || L'inflation correspond à || V:Une hausse générale et soutenue des prix|Une hausse ponctuelle d'un prix|V:Une baisse du pouvoir d'achat de la monnaie|Une augmentation du PIB
+QCM || Les trois origines de l'inflation sont || V:Demande excédentaire|V:Hausse des coûts (offre)|V:Excès de masse monétaire|Baisse du chômage
+QCM || Le taux d'inflation π se calcule || V:π = (Pt - Pt-1)/Pt-1|π = Pt/Pt-1|π = Pt - Pt-1|π = 100/Pt
+VF || L'inflation monétaire résulte d'un excès de masse monétaire. || V || Trop de monnaie pour trop peu de biens
+VF || L'inflation par la demande provient d'une demande excédentaire. || V || Trop de demande pour l'offre disponible
+
+### ========================================
+### CHAPITRE 1 : CONSOMMATION
+### ========================================
+
+### === M1-I-1a : Fonction consommation keynésienne ===
+@add-theme: Keynes
+
+QCM || La fonction de consommation keynésienne s'écrit || V:C = C0 + cY|C = cY|C = C0/Y|C = Y - S
+QCM || Dans C = C0 + cY, C0 représente || V:La consommation autonome (incompressible)|La consommation totale|V:La consommation même si Y=0|Le revenu
+QCM || Dans C = C0 + cY, c est || V:La propension marginale à consommer (PMC)|La consommation|Le capital|Le chômage
+QCM || La contrainte 0 < c < 1 signifie || V:Une partie du revenu est épargnée|Tout le revenu est consommé|V:La consommation augmente moins que le revenu|L'épargne est négative
+VF || Keynes suppose que C0 > 0 : il existe une consommation même sans revenu. || V || Minimum vital, besoins incompressibles
+VF || Dans le modèle keynésien, la consommation est proportionnelle au revenu. || F || Affine : C = C0 + cY (C0 ≠ 0)
+
+### === M1-I-1b : Consommation autonome C0 ===
+@add-theme: Keynes
+
+QCM || La consommation autonome C0 || V:Est indépendante du revenu|Dépend du revenu|V:Représente le minimum vital|Est toujours nulle
+QCM || Si Y = 0, la consommation vaut || V:C0|0|cY|C0 + cY
+QCM || C0 peut être financée par || V:Désépargne (emprunt)|Revenu courant uniquement|V:Vente d'actifs|Rien
+VF || C0 représente les besoins incompressibles. || V || Nourriture minimale, logement basique
+VF || C0 = 0 dans le modèle keynésien standard. || F || C0 > 0 : consommation autonome positive
+
+### === M1-I-2a : PMC (Propension Marginale à Consommer) ===
+@add-theme: PMC, Keynes
+
+QCM || La PMC (propension marginale à consommer) est || V:c = ΔC/ΔY|C/Y|ΔY/ΔC|S/Y
+QCM || La PMC mesure || V:La part du revenu additionnel consommée|La consommation totale|V:La sensibilité de C à une variation de Y|L'épargne marginale
+QCM || Si c = 0,8, une hausse de revenu de 100 € entraîne || V:Une hausse de consommation de 80 €|Une hausse de 100 €|Une hausse de 20 €|Une hausse de 800 €
+QCM || La contrainte 0 < c < 1 implique || V:Une partie du revenu additionnel est épargnée|Tout est consommé|V:ΔC < ΔY|L'épargne est nulle
+VF || Si PMC = 0,75, alors 75% du revenu additionnel est consommé. || V || c = ΔC/ΔY = 0,75
+VF || PMC peut être supérieure à 1. || F || Contrainte 0 < c < 1 dans modèle keynésien standard
+
+### === M1-I-2b : PME (Propension Marginale à Épargner) ===
+@add-theme: PME
+
+QCM || La PME (propension marginale à épargner) est || V:PME = ΔS/ΔY = 1 - c|PME = S/Y|PME = ΔY/ΔS|PME = c
+QCM || La relation PMC + PME vaut || V:PMC + PME = 1|PMC + PME = 0|PMC × PME = 1|PMC - PME = 1
+QCM || Si PMC = 0,6, alors PME = || V:0,4|0,6|1|1,4
+VF || PME mesure la part du revenu additionnel épargnée. || V || PME = ΔS/ΔY = 1-c
+VF || Si PMC = 0,9, alors PME = 0,1 : 90% consommés, 10% épargnés. || V || PMC + PME = 1
+
+### === M1-I-2c : Multiplicateur keynésien ===
+@add-theme: Multiplicateur
+
+QCM || Le multiplicateur keynésien k vaut || V:k = 1/(1-c) = 1/PME|k = 1/c|k = 1-c|k = c
+QCM || Le multiplicateur mesure || V:L'amplification d'un choc de demande autonome sur le revenu|La consommation|V:L'effet indirect d'une hausse d'investissement|Le taux d'épargne
+QCM || Si c = 0,8, le multiplicateur vaut || V:k = 5|k = 1,25|k = 0,2|k = 8
+QCM || Le multiplicateur keynésien k implique que || V:Une hausse de l'investissement a un effet amplifié sur le revenu|L'effet est toujours égal à 1|Plus c est faible, plus l'effet est fort|V:Plus c est élevé, plus l'effet multiplicateur est important
+VF || Plus la PMC est élevée, plus le multiplicateur est fort. || V || k = 1/(1-c) : c élevé → k élevé
+VF || Si c = 0,75, une hausse de I de 100 entraîne ΔY = 400. || V || k = 1/(1-0,75) = 4 ; ΔY = 4×100 = 400
+
+### === M1-I-3a : Loi psychologique fondamentale ===
+@add-theme: Keynes
+
+QCM || La "loi psychologique fondamentale" de Keynes montre que || V:Quand Y↑, C↑ mais moins que proportionnellement|La consommation augmente plus vite que le revenu|V:La PMC < 1|L'épargne diminue avec le revenu
+QCM || Selon la loi psychologique, quand le revenu augmente || V:La part épargnée augmente|La part épargnée diminue|V:L'épargne croît avec le revenu|La consommation reste constante
+VF || Selon Keynes, l'épargne augmente avec le revenu. || V || Loi psychologique : Y↑ → S↑
+VF || La loi psychologique implique PMC > 1. || F || Au contraire : 0 < PMC < 1
+
+### === M1-I-3b : Épargne résidu ===
+@add-theme: Épargne
+
+QCM || Selon Keynes, l'épargne est || V:Un résidu de la consommation (S = Y - C)|Une décision active|Indépendante du revenu|Toujours positive
+QCM || La formule S = Y - C signifie || V:On consomme d'abord, puis on épargne le reste|On épargne d'abord|V:L'épargne n'est pas une décision autonome|L'épargne est prioritaire
+VF || Dans le modèle keynésien, l'épargne n'est pas une décision active. || V || S = Y - C : résidu après consommation
+VF || Keynes pense que les agents décident d'abord combien épargner. || F || Ils décident combien consommer ; épargne = résidu
+
+### === M1-II-1a : Revenu relatif (Duesenberry) ===
+@add-theme: Duesenberry
+
+QCM || La théorie du revenu relatif (Duesenberry) stipule que || V:La PMC dépend de la position dans l'échelle des revenus|Tous les ménages ont la même PMC|Le revenu absolu seul compte|V:Les ménages pauvres ont une PMC plus élevée
+QCM || L'effet démonstration (Duesenberry) signifie || V:Les ménages imitent la consommation des plus riches|Chacun consomme indépendamment|V:La consommation dépend du revenu relatif|Les riches imitent les pauvres
+QCM || L'effet de cliquet signifie || V:La consommation est irréversible à la baisse|La consommation baisse proportionnellement au revenu|V:Les ménages maintiennent leur niveau de vie même si Y baisse|La consommation fluctue librement
+VF || Selon Duesenberry, la PMC des ménages pauvres est plus élevée. || V || Effet de démonstration : imitation des riches
+VF || L'effet cliquet rend la consommation rigide à la baisse. || V || Habitudes prises difficiles à abandonner
+
+### === M1-II-2a : Cycle de vie (Modigliani) ===
+@add-theme: Modigliani
+
+QCM || Dans la théorie du cycle de vie (Modigliani) || V:L'objectif est de lisser la consommation sur la durée de vie|On épargne seulement en début de vie|V:Le patrimoine suit une courbe en bosse|L'héritage est l'objectif principal
+QCM || Les trois phases du cycle patrimonial sont || V:Jeunesse (emprunt), activité (épargne), retraite (désépargne)|Enfance, adulte, vieillesse|V:Accumulation puis décumulation de patrimoine|Consommation constante
+QCM || Dans la phase jeunesse, le patrimoine est || V:Négatif (emprunts > épargne)|Positif|Nul|Maximal
+QCM || Dans la phase retraite, selon Modigliani || V:On consomme le patrimoine accumulé (désépargne)|On épargne davantage|V:Le patrimoine diminue jusqu'à zéro|On accumule encore
+VF || Modigliani suppose que PMC = 1 sur l'ensemble de la vie. || V || Consommation intégrale du revenu de vie
+VF || Le patrimoine atteint zéro au décès dans le modèle de base. || V || Pas d'héritage : consommation complète
+
+### === M1-II-3a : Revenu permanent (Friedman) ===
+@add-theme: Friedman
+
+QCM || Dans la théorie de Friedman, le revenu se décompose en || V:Y = Yp + Yt (permanent + transitoire)|Revenu présent et futur|Revenu nominal et réel|Revenu brut et net
+QCM || Le revenu permanent Yp se définit comme || V:La somme qu'un consommateur peut consommer en maintenant constant son capital|Le revenu de la période courante|Le revenu moyen sur 10 ans|Le revenu maximal possible
+QCM || Selon Friedman, la consommation dépend || V:Uniquement du revenu permanent (Cp = γYp)|Du revenu courant|V:Pas du revenu transitoire|De la richesse uniquement
+QCM || Si Yt augmente temporairement (choc transitoire) || V:La consommation change peu (Yp stable)|La consommation augmente proportionnellement|V:Yp reste quasi constant|Yp double
+VF || Friedman distingue revenu permanent et revenu transitoire. || V || Yp (durable) vs Yt (temporaire)
+VF || Une hausse transitoire du revenu (ex: prime) entraîne forte hausse de C. || F || Seul Yp affecte C ; choc transitoire → épargne
+
+### ========================================
+### CHAPITRE 2 : INVESTISSEMENT
+### ========================================
+
+### === M2-I-1a : FBCF ===
+@add-theme: Investissement
+
+QCM || La FBCF (Formation Brute de Capital Fixe) correspond à || V:L'investissement matériel et immatériel (hors financier)|L'investissement financier uniquement|La consommation|Les stocks
+QCM || La FBCF inclut || V:Machines, bâtiments, logiciels|V:Brevets et R&D|Actions et obligations|Matières premières
+VF || La FBCF exclut l'investissement financier. || V || Achat actions ≠ investissement productif
+VF || La FBCF mesure l'investissement productif. || V || Capacités de production
+
+### === M2-I-1b : Investissement brut/net ===
+@add-theme: Investissement
+
+QCM || L'investissement brut se décompose en || V:I_brut = I_remplacement + I_net|I_brut = I_financier + I_productif|I_brut = I_public + I_privé|I_brut = K + L
+QCM || L'investissement net || V:Augmente les capacités de production|Maintient le capital existant|V:I_net = I_brut - Amortissement|Remplace le capital usé
+VF || I_net mesure l'augmentation nette du capital. || V || I_net = ΔK
+VF || Si I_net < 0, le capital diminue. || V || Désinvestissement net
+
+### === M2-I-2a : Accélérateur Clark ===
+@add-theme: Accélérateur
+
+QCM || L'accélérateur simple stipule que || V:It = v·ΔYt (investissement proportionnel à variation demande)|It = v·Yt|It = constant|It = f(taux d'intérêt)
+QCM || Le coefficient v dans It = v·ΔYt représente || V:Le coefficient de capital (v = K/Y)|La vitesse|Le volume|La valeur ajoutée
+QCM || Selon l'accélérateur, si la demande est stable (ΔY=0) || V:L'investissement net est nul|L'investissement explose|V:Seul investissement de remplacement|Investissement négatif
+VF || L'accélérateur simple explique investissement par variation de la demande. || V || It = v·ΔYt
+VF || Si ΔY < 0, alors It < 0 selon accélérateur simple. || V || Désinvestissement
+
+### === M2-I-3a : Accélérateur flexible ===
+@add-theme: Accélérateur
+
+QCM || L'accélérateur flexible diffère du simple car il || V:Introduit la dépréciation δ|V:Prend en compte les délais d'ajustement λ|Ignore la demande|Supprime le lien avec Y
+QCM || La formule de l'accélérateur flexible est || V:Kt = (1-δ)Kt-1 + It|Kt = It|It = v·ΔYt|Kt = λ·Kt-1
+VF || L'accélérateur flexible lisse les variations d'investissement. || V || Ajustement progressif vs brutal (simple)
+VF || δ représente le taux de dépréciation du capital. || V || Usure, obsolescence
+
+### === M2-II-1a : VAN (Valeur Actuelle Nette) ===
+@add-theme: Investissement
+
+QCM || La VAN (Valeur Actuelle Nette) se calcule || V:VAN = -I + Σ(Rt-Ct)/(1+i)^t|VAN = I - Σ(Rt-Ct)|VAN = Rt/i|VAN = I/(1+i)
+QCM || La décision d'investir si || V:VAN > 0|VAN < 0|V:Le projet rapporte plus qu'un placement alternatif|VAN = 0
+QCM || Le taux d'actualisation i représente || V:Le coût d'opportunité du capital|Le taux d'inflation|V:Le taux de rendement alternatif|Le profit
+VF || Si VAN > 0, le projet est rentable. || V || Gains actualisés > coût initial
+VF || VAN = 0 signifie indifférence entre projet et placement alternatif. || V || Rendement égal au taux i
+
+### === M2-II-1b : TRI (Taux de Rendement Interne) ===
+@add-theme: Investissement
+
+QCM || Le TRI (Taux de Rendement Interne) est || V:Le taux qui annule la VAN|Le taux d'intérêt du marché|V:TRI tel que VAN=0|La VAN maximale
+QCM || La décision d'investir si || V:TRI > i (taux du marché)|TRI < i|TRI = 0|VAN < 0
+QCM || Le TRI mesure || V:L'efficacité marginale du capital (Keynes)|La VAN|V:Le rendement interne du projet|Le coût
+VF || Si TRI > taux du marché i, investir. || V || Projet plus rentable que placement alternatif
+VF || TRI = taux qui rend VAN=0. || V || Définition du TRI
+
+### === M2-II-2a : Fonction investissement ===
+@add-theme: Investissement
+
+QCM || La fonction d'investissement I = -ei + I0 montre que || V:L'investissement est décroissant du taux d'intérêt|L'investissement augmente avec i|V:e mesure l'élasticité au taux|I0 est l'investissement total
+QCM || Dans I = -ei + I0, e représente || V:La sensibilité de I au taux i|L'épargne|V:Élasticité investissement/taux|L'efficacité
+QCM || Si i↑, alors I || V:Diminue (fonction décroissante)|Augmente|Reste constant|Double
+VF || L'investissement est fonction décroissante du taux d'intérêt. || V || I = -ei + I0 : pente négative
+VF || Plus e est élevé, plus I est sensible aux variations de i. || V || Grande élasticité
+
+### === M2-III-1a : Modalités financement ===
+@add-theme: Financement
+
+QCM || Les modalités de financement de l'investissement sont || V:Autofinancement|V:Augmentation du capital social|V:Endettement (emprunts obligataires)|Subventions uniquement
+QCM || L'autofinancement provient || V:Des profits non distribués (bénéfices retenus)|D'emprunts bancaires|V:De l'épargne interne de l'entreprise|D'émission d'actions
+VF || L'autofinancement utilise les profits de l'entreprise. || V || Bénéfices retenus (non distribués)
+VF || L'émission d'actions augmente le capital social. || V || Financement externe par equity
+
+### === M2-III-1b : Effet de levier ===
+@add-theme: Financement
+
+QCM || L'effet de levier signifie || V:Si rentabilité économique > taux emprunt, endettement améliore rentabilité fonds propres|L'autofinancement suffit|V:L'endettement est bénéfique si P > r|La dette réduit toujours rentabilité
+QCM || Condition de l'effet de levier positif || V:Rentabilité économique P > taux r|P < r|Dette = 0|Autofinancement uniquement
+VF || Si P > r, l'endettement améliore rentabilité des fonds propres. || V || Effet de levier positif
+VF || L'effet de levier est toujours positif. || F || Seulement si P > r
+
+### === M2-III-2a : q de Tobin ===
+@add-theme: Tobin
+
+QCM || Le ratio q de Tobin compare || V:La valeur boursière du capital au prix du capital neuf|Les profits aux coûts|V:Si q > 1, favoriser investissement neuf|V:Si q < 1, favoriser acquisitions
+QCM || La formule du q de Tobin est || V:q = Valeur boursière / Prix capital neuf|q = Profit / Capital|q = I / K|q = VAN / TRI
+QCM || Si q > 1, cela signifie || V:Le marché valorise le capital plus que son coût de remplacement|Désinvestir|V:Investir dans du capital neuf est rentable|Racheter des entreprises
+VF || q > 1 incite à investir dans du capital neuf. || V || Marché valorise > coût achat
+VF || q < 1 incite aux acquisitions d'entreprises existantes. || V || Moins cher d'acheter que construire
+
+### ========================================
+### CHAPITRE 3 : MODÈLE CLASSIQUE
+### ========================================
+
+### === M3-I-1a : Loi de Say ===
+@add-theme: Say
+
+QCM || La loi de Say stipule que || V:L'offre crée sa propre demande|La demande crée l'offre|V:Tout bien produit trouve un acheteur|Les crises sont inévitables
+QCM || Selon Say, la production génère || V:Des revenus égaux à la valeur des biens produits|Des déficits|V:Une demande équivalente à l'offre|Du chômage
+VF || Say affirme qu'il ne peut y avoir de crise générale de surproduction. || V || Offre = demande toujours (loi des débouchés)
+VF || La loi de Say implique que la demande détermine l'offre. || F || C'est l'offre qui crée sa demande
+
+### === M3-I-1b : Débouchés garantis ===
+@add-theme: Say
+
+QCM || Les débouchés sont garantis car || V:L'offre de travail → Production → Revenus → Demande|La demande précède l'offre|V:Flexibilité des prix assure vente|L'État intervient toujours
+QCM || Selon les classiques, l'équilibre est assuré par || V:La flexibilité des prix|L'intervention étatique|V:L'ajustement automatique des marchés|La planification
+VF || Les classiques pensent que les prix s'ajustent pour assurer l'équilibre. || V || Flexibilité totale
+VF || Les débouchés sont garantis même avec prix rigides. || F || Nécessite flexibilité des prix
+
+### === M3-I-2a : Dichotomie classique ===
+@add-theme: Classique
+
+QCM || La dichotomie classique signifie || V:Séparation entre sphère réelle et sphère monétaire|Opposition micro/macro|V:La monnaie n'affecte pas les variables réelles|Confusion des sphères économiques
+QCM || Dans la dichotomie, le secteur réel détermine || V:Emploi (N), Production (Y), Salaire réel (W/P)|Les prix nominaux|V:Variables réelles indépendamment de M|La masse monétaire
+VF || Chez les classiques, monnaie et variables réelles sont séparées. || V || Dichotomie : secteur réel ≠ monétaire
+VF || La masse monétaire affecte Y et N. || F || Neutralité : M → P seulement
+
+### === M3-I-2b : Monnaie voile ===
+@add-theme: Classique
+
+QCM || La monnaie voile signifie || V:La monnaie facilite échanges mais neutre sur variables réelles|La monnaie détermine production|V:M affecte seulement niveau général des prix P|M affecte N et Y
+QCM || Selon les classiques, ΔM entraîne || V:ΔP proportionnel, pas ΔY ni ΔN|ΔY et ΔN|V:Inflation mais pas changement réel|Chômage
+VF || La monnaie est neutre sur les variables réelles. || V || Affecte prix mais pas Y, N
+VF || Une hausse de M augmente la production Y. || F || M → P uniquement (neutralité)
+
+### === M3-I-3a : Plein emploi ===
+@add-theme: Classique
+
+QCM || Dans le modèle classique, l'équilibre du marché du travail implique || V:Toujours le plein emploi|Du chômage involontaire durable|V:Chômage = volontaire ou frictionnel|Sous-emploi structurel
+QCM || Le chômage classique éventuel est || V:Volontaire (choix des agents)|Involontaire|V:Dû aux rigidités temporaires|Structurel permanent
+VF || Le marché du travail s'équilibre par flexibilité des salaires. || V || W ajuste pour N^d = N^s
+VF || Le chômage involontaire durable existe chez les classiques. || F || Seulement volontaire ou frictionnel
+
+### === M3-II-1a : Demande de travail ===
+@add-theme: Travail
+
+QCM || La demande de travail est || V:Décroissante du salaire réel (W/P)|Croissante du salaire réel|V:N^d(W/P)|Fixe
+QCM || L'entreprise embauche jusqu'à || V:MPL = W/P (productivité marginale = salaire réel)|W = P|V:Coût marginal = productivité marginale|Profit nul
+QCM || La demande de travail est décroissante car || V:Rendements décroissants du travail|Rendements croissants|V:MPL décroît quand N augmente|Salaires croissent
+VF || Condition d'optimum : MPL = W/P. || V || Productivité marginale = salaire réel
+VF || N^d est croissante du salaire réel. || F || Décroissante : W/P↑ → N^d↓
+
+### === M3-II-2a : Offre de travail ===
+@add-theme: Travail
+
+QCM || L'offre de travail est || V:Croissante du salaire réel (W/P)|Décroissante du salaire réel|V:N^s(W/P)|Fixe
+QCM || L'offre de travail résulte || V:D'un arbitrage loisir-travail|D'une obligation|V:Effet substitution > effet revenu|Du hasard
+VF || N^s est croissante du salaire réel. || V || W/P↑ → travail plus attractif vs loisir
+VF || L'offre de travail suppose effet substitution dominant. || V || Hausse W/P → plus travailler
+
+### === M3-II-3a : Équilibre marché travail ===
+@add-theme: Travail
+
+QCM || L'équilibre du marché du travail || V:N^d(W/P) = N^s(W/P) détermine (W/P)* et N*|W = P|V:Puis Y* = f(N*) avec K fixe|Chômage involontaire
+QCM || La séquence classique est || V:Marché travail → N*, (W/P)* → Fonction production → Y*|Y détermine N|V:Secteur réel autonome|Demande détermine Y
+VF || L'équilibre détermine salaire réel et emploi simultanément. || V || N^d = N^s
+VF || Y* est déterminé après N* via fonction de production. || V || Y* = f(N*,K)
+
+### === M3-III-1a : Équation Fisher ===
+@add-theme: Monnaie
+
+QCM || L'équation de Fisher s'écrit || V:P·Y = M·v|M = P·Y|P = M/Y|Y = M·v
+QCM || Dans P·Y = M·v, v représente || V:La vitesse de circulation de la monnaie|Le volume|La valeur|La variation
+QCM || Si v constant et Y fixé (secteur réel), alors || V:P proportionnel à M|P = M|V:ΔM → ΔP proportionnel|P indépendant de M
+VF || Fisher montre que P = M·v/Y. || V || Prix proportionnel à masse monétaire
+VF || Si M double et v,Y constants, alors P double. || V || Proportionnalité stricte
+
+### === M3-III-2a : Équation Cambridge ===
+@add-theme: Monnaie
+
+QCM || L'équation de Cambridge s'écrit || V:M = k·P·Y où k = 1/v|M = v·P·Y|P·Y = k·M|M = P/Y
+QCM || k représente || V:La fraction du revenu nominal détenue en monnaie|La vitesse|V:1/v (inverse vitesse Fisher)|Le capital
+VF || Cambridge et Fisher sont équivalents si k constant. || V || k = 1/v
+VF || k mesure préférence pour la liquidité (encaisses). || V || Fraction revenu en monnaie
+
+### === M3-III-3a : Neutralité de la monnaie ===
+@add-theme: Monnaie
+
+QCM || La neutralité de la monnaie signifie || V:ΔM → ΔP proportionnel, pas effet sur Y, N, W/P|ΔM → ΔY|V:Monnaie n'affecte pas variables réelles|M détermine Y
+QCM || Une hausse de M entraîne || V:Hausse proportionnelle de P|Hausse de Y|V:Pas de changement réel|Chômage
+VF || La monnaie est neutre sur Y, N, W/P. || V || Affecte seulement P
+VF || ΔM modifie les variables réelles à long terme. || F || Neutralité : seulement prix nominaux
+
+### ========================================
+### CHAPITRE 4 : MODÈLE KEYNÉSIEN & IS-LM
+### ========================================
+
+### === M4-I-1a : Économie monétaire de production ===
+@add-theme: Keynes
+
+QCM || L'économie monétaire de production (Keynes) signifie || V:La monnaie n'est pas neutre|La monnaie est un voile|V:Demande détermine production|Offre crée demande
+QCM || Selon Keynes, les anticipations || V:Sont incertaines et cruciales|Sont parfaites|V:Influencent fortement décisions|Sont rationnelles
+VF || Chez Keynes, la monnaie affecte variables réelles. || V || Rejet neutralité classique
+VF || La demande détermine la production selon Keynes. || V || Principe demande effective
+
+### === M4-I-1b : Sous-emploi durable ===
+@add-theme: Keynes
+
+QCM || Selon Keynes, l'équilibre || V:Peut se faire avec chômage involontaire|Est toujours au plein emploi|V:Chômage durable possible|N'existe pas
+QCM || Le chômage keynésien résulte || V:D'une insuffisance de demande|De salaires trop bas|V:De rigidités (prix/salaires)|D'un choix volontaire
+VF || L'équilibre keynésien peut être de sous-emploi. || V || Demande insuffisante → Y < Y*plein emploi
+VF || Les rigidités empêchent l'ajustement automatique. || V || Prix/salaires ne baissent pas assez vite
+
+### === M4-I-2a : Principe demande effective ===
+@add-theme: Keynes
+
+QCM || Le principe de demande effective stipule || V:Production déterminée par demande anticipée (D), pas offre (Z)|Offre détermine production|V:Équilibre : D = Z, peut être < plein emploi|Toujours plein emploi
+QCM || Selon Keynes, si D < Z || V:Production baisse, chômage apparaît|Production augmente|V:Offre s'ajuste à la demande|Tout s'équilibre automatiquement
+VF || La demande anticipée détermine le niveau de production. || V || D → Y, pas Z → Y (rejet Say)
+VF || D = Z peut être inférieur au plein emploi. || V || Sous-emploi d'équilibre possible
+
+### === M4-I-2b : Invalidation loi Say ===
+@add-theme: Keynes
+
+QCM || Keynes invalide Say car || V:Demande ne suit pas automatiquement l'offre|Offre crée toujours demande|V:Insuffisance demande → sous-emploi|Surproduction impossible
+QCM || Une crise de surproduction est possible car || V:Demande peut être insuffisante|Offre illimitée|V:Épargne ≠ investissement automatiquement|Say avait raison
+VF || Keynes rejette "l'offre crée sa demande". || V || Demande insuffisante possible
+VF || Surproduction générale est impossible selon Keynes. || F || Au contraire : possible si demande faible
+
+### === M4-II-1a : Équilibre marché biens (IS) ===
+@add-theme: IS-LM
+
+QCM || L'équilibre du marché des biens s'écrit || V:Y = C(Y) + I(r)|Y = C + S|V:I(r) = S(Y)|Y = rI
+QCM || La courbe IS représente || V:Combinaisons (Y,r) équilibrant le marché des biens|Équilibre monnaie|V:Investissement = Épargne|Offre = Demande travail
+QCM || La courbe IS est || V:Décroissante dans plan (Y,r)|Croissante|V:r↑ → I↓ → Y↓|Horizontale
+VF || IS : I(r) = S(Y) à chaque point. || V || Équilibre biens
+VF || IS décroissante : r↑ → I↓ → Y↓. || V || Taux haut freine investissement donc production
+
+### === M4-II-2a : Demande de monnaie ===
+@add-theme: IS-LM, Monnaie
+
+QCM || La demande de monnaie keynésienne s'écrit || V:L = L1(Y) + L2(r)|L = M/P|V:L1 (transaction+précaution) croissante de Y|L = kY
+QCM || L1(Y) représente || V:Demande pour transactions et précaution|Demande spéculation|V:Croissante du revenu Y|Décroissante de Y
+QCM || L2(r) représente || V:Demande de spéculation (préférence liquidité)|Demande transaction|V:Décroissante du taux r|Croissante de r
+VF || L1 augmente avec le revenu Y. || V || Plus de transactions si Y élevé
+VF || L2 baisse quand r augmente. || V || Arbitrage monnaie/titres : r↑ → titres attractifs → L↓
+
+### === M4-II-2b : Équilibre monétaire (LM) ===
+@add-theme: IS-LM
+
+QCM || L'équilibre du marché monétaire s'écrit || V:L(Y,r) = M/P|L = M|V:Demande monnaie = Offre réelle|L = Y
+QCM || La courbe LM représente || V:Combinaisons (Y,r) équilibrant le marché monétaire|Équilibre biens|V:L(Y,r) = M/P|Investissement = Épargne
+QCM || La courbe LM est || V:Croissante dans plan (Y,r)|Décroissante|V:Y↑ → L↑ → r↑ pour rééquilibrer|Horizontale
+VF || LM : offre monnaie = demande monnaie à chaque point. || V || M/P = L(Y,r)
+VF || LM croissante : Y↑ → L1↑ → r doit↑ pour réduire L2. || V || Rééquilibrage via taux
+
+### === M4-II-3a : Équilibre IS-LM ===
+@add-theme: IS-LM
+
+QCM || L'équilibre IS-LM || V:Intersection IS-LM détermine (Y*, r*)|IS seule suffit|V:Équilibre simultané biens ET monnaie|Dichotomie classique
+QCM || IS-LM rejette || V:La dichotomie classique (monnaie pas neutre)|La loi de Say|V:Séparation réel/monétaire|Le plein emploi toujours
+VF || IS-LM détermine Y* et r* simultanément. || V || Interdépendance biens/monnaie
+VF || IS-LM repose sur dichotomie classique. || F || Au contraire : intégration réel+monétaire
+
+### === M4-II-4a : Trappe à liquidité ===
+@add-theme: IS-LM, Monnaie
+
+QCM || La trappe à liquidité (Keynes) signifie || V:À r très bas, demande monnaie infinie (L2 horizontale)|L = 0|V:LM horizontale|IS horizontale
+QCM || Dans la trappe, une hausse de M || V:N'affecte pas r (déjà minimal)|Baisse r fortement|V:Politique monétaire inefficace|Politique budgétaire inefficace
+VF || Trappe à liquidité : r très bas, LM horizontale. || V || Demande monnaie infinie
+VF || Dans trappe, ΔM inefficace (pas baisse r possible). || V || r déjà minimal
+
+### === M4-III-1a : Multiplicateur dépenses publiques ===
+@add-theme: Politique
+
+QCM || Le multiplicateur des dépenses publiques vaut || V:k_G = 1/(1-c)|k_G = c/(1-c)|V:k_G = multiplicateur keynésien standard|k_G = 1/c
+QCM || Une hausse ΔG entraîne || V:Déplacement IS vers la droite|Déplacement LM|V:ΔY = k_G·ΔG|Pas d'effet
+QCM || La politique budgétaire est efficace || V:Si pas trappe à liquidité|Toujours|V:Si I sensible à r (e élevé)|Jamais
+VF || k_G = 1/(1-c) : même formule que multiplicateur keynésien. || V || Effet identique sur Y
+VF || ΔG déplace IS vers la droite. || V || Hausse demande autonome
+
+### === M4-III-1b : Multiplicateur impôts ===
+@add-theme: Politique
+
+QCM || Le multiplicateur des impôts vaut || V:k_T = -c/(1-c)|k_T = 1/(1-c)|V:|k_T| < |k_G||k_T > 0
+QCM || Théorème d'Haavelmo stipule || V:Si ΔG = ΔT, alors ΔY = ΔG (multiplicateur k=1)|ΔY = 0|V:Budget équilibré → effet expansionniste|ΔY négatif
+VF || |k_T| < |k_G| : baisse impôts moins efficace que hausse dépenses. || V || k_T = -c/(1-c), k_G = 1/(1-c)
+VF || Haavelmo : ΔG = ΔT → ΔY = ΔG. || V || Multiplicateur budget équilibré = 1
+
+### === M4-III-2a : Politique monétaire ===
+@add-theme: Politique, Monnaie
+
+QCM || Une hausse de M/P entraîne || V:Déplacement LM vers la droite|Déplacement IS|V:r↓ → I↑ → Y↑|Aucun effet
+QCM || La politique monétaire est efficace || V:Si investissement élastique à r (e élevé)|Si trappe à liquidité|V:Si LM pas horizontale|Toujours
+VF || ΔM/P déplace LM à droite, baisse r, augmente Y. || V || Mécanisme keynésien
+VF || Politique monétaire inefficace en trappe à liquidité. || V || ΔM ne baisse pas r (déjà minimal)
+
+### === M4-III-3a : Multiplicateur économie ouverte ===
+@add-theme: Politique
+
+QCM || Le multiplicateur en économie ouverte vaut || V:k = 1/(1-c+m) où m = propension à importer|k = 1/(1-c)|V:k plus faible (fuites importations)|k = m/(1-c)
+QCM || La propension à importer m représente || V:Part du revenu additionnel dépensée en importations|Les exportations|V:Fuite hors circuit national|m = X/Y
+VF || k ouvert < k fermé car fuites par importations. || V || m > 0 réduit effet multiplicateur
+VF || k = 1/(1-c+m) : m au dénominateur réduit k. || V || Plus m élevé, plus k faible
+
+### ========================================
+### FIN DE LA BANQUE COMPLÈTE
+### ========================================

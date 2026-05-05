@@ -1,0 +1,160 @@
+@themes: Sociologie
+
+### === SOCIO1-I-1a : Définition et objet de la sociologie ===
+### "Science des faits sociaux et des relations sociales"
+@add-theme: Fondements, Définitions
+
+QCM || La sociologie est définie comme || V:Une discipline des sciences sociales qui recherche des explications sociales à des phénomènes observables|L'étude de la psychologie des individus en groupe|La science des lois naturelles régissant les sociétés|L'étude philosophique de la morale collective
+VF  || Auguste Comte a popularisé le terme « sociologie » à partir de 1839. || V || Il l'utilise dans le sens d'une « physique sociale ».
+QCM || Le terme « sociologie » est formé à partir || V:Du latin socius (compagnon/associé) et du grec logos (discours/science)|Du grec demos (peuple) et logos (science)|Du latin societas (société) et graphein (écrire)|Du grec polis (cité) et logos (discours)
+QCM || Le premier sociologue à avoir voulu faire de la sociologie une science étudiant les faits sociaux est || V:Émile Durkheim|Max Weber|Auguste Comte|Karl Marx
+VF  || Ibn Khaldoun (XIVe siècle) est considéré comme un précurseur de la sociologie avec sa Muqaddima. || V || Il y développe une théorie dynamique de l'histoire et analyse la cohésion sociale (asabiyyah).
+QCM || L'analyse sociologique peut se placer à différentes échelles. La macrosociologie étudie || V:Les phénomènes sociaux à grande échelle (sociétés, institutions, structures)|Les interactions individuelles en face-à-face|Les organisations de taille moyenne|Les comportements psychologiques individuels
+
+---
+
+### === SOCIO1-I-2a : Durkheim et le fait social ===
+### "Fait social : contrainte extérieure et généralité"
+@add-theme: Fondements, Durkheim, Fait social
+
+QCM || Pour Durkheim, un « fait social » est || V:Toute manière de faire, fixée ou non, susceptible d'exercer sur l'individu une contrainte extérieure, et générale dans une société|Tout événement qui concerne au moins deux personnes|Un phénomène lié à la volonté individuelle|Un fait divers rapporté dans la presse
+VF  || Les faits sociaux, selon Durkheim, existent indépendamment de la conscience que les individus en ont. || V || Ils sont extérieurs à l'individu et exercent une contrainte sur lui.
+QCM || L'ouvrage dans lequel Durkheim expose sa méthode pour étudier les faits sociaux est || V:Les Règles de la méthode sociologique (1895)|Le Suicide (1897)|De la division du travail social (1893)|Les Formes élémentaires de la vie religieuse (1912)
+QCM || La règle méthodologique fondamentale de Durkheim est || V:Traiter les faits sociaux comme des choses, c'est-à-dire les étudier objectivement de l'extérieur|Interroger les individus sur leurs motivations profondes|Se fier à l'intuition du chercheur|Comparer systématiquement toutes les sociétés entre elles
+VF  || Durkheim est le représentant du holisme méthodologique. || V || Le holisme considère que le tout (la société) est supérieur à la somme de ses parties (les individus).
+QCM || Durkheim distingue deux types de solidarité sociale || V:La solidarité mécanique (sociétés traditionnelles, similitude) et la solidarité organique (sociétés modernes, complémentarité)|La solidarité nationale et la solidarité internationale|La solidarité familiale et la solidarité professionnelle|La solidarité volontaire et la solidarité obligatoire
+QCM || Dans « De la division du travail social » (1893), Durkheim montre que || V:La division du travail croissante crée une solidarité organique fondée sur la complémentarité des fonctions|La division du travail détruit le lien social|Les sociétés modernes n'ont plus de solidarité|La solidarité mécanique est la forme la plus avancée
+
+---
+
+### === SOCIO1-I-2b : Le Suicide de Durkheim ===
+### "Le suicide comme fait social"
+@add-theme: Fondements, Durkheim, Suicide
+
+QCM || Dans « Le Suicide » (1897), Durkheim montre que le suicide || V:Est un fait social, dont le taux varie selon le degré d'intégration et de régulation de la société|Est un phénomène purement individuel et psychologique|Est uniquement lié à des facteurs génétiques|Ne peut pas être étudié scientifiquement
+QCM || Le suicide « égoïste » selon Durkheim résulte || V:D'un déficit d'intégration sociale (l'individu n'est pas suffisamment rattaché au groupe)|D'un excès de régulation sociale|D'un excès d'intégration dans le groupe|D'un manque de règles et de normes dans la société
+QCM || Le suicide « anomique » selon Durkheim résulte || V:D'un déficit de régulation sociale, en période de crise ou de changement brutal des normes|D'un excès d'intégration sociale|D'une trop forte solidarité mécanique|D'un sentiment de honte individuelle
+VF  || Le suicide altruiste résulte d'un excès d'intégration de l'individu dans le groupe. || V || L'individu se sacrifie pour le groupe (ex : kamikaze, sacrifice militaire).
+QCM || L'anomie, concept central chez Durkheim, désigne || V:Une situation de dérèglement social, où les normes habituelles ne fonctionnent plus|L'absence totale de population dans un territoire|Un excès de lois et de réglementations|Le refus individuel de toute norme sociale
+
+---
+
+### === SOCIO2-I-1a : Max Weber et la sociologie compréhensive ===
+### "Comprendre le sens de l'action sociale"
+@add-theme: Fondements, Weber, Action sociale
+
+QCM || Pour Max Weber, la sociologie doit || V:Comprendre par interprétation l'activité sociale et expliquer causalement son déroulement et ses effets|Uniquement décrire les structures sociales|Étudier les faits sociaux comme des choses|Prédire l'avenir des sociétés
+VF  || Weber est le représentant de l'individualisme méthodologique. || V || Il explique les phénomènes collectifs à partir des actions et motivations individuelles.
+QCM || L'individualisme méthodologique consiste à || V:Expliquer les phénomènes sociaux à partir des actions, motivations et interactions des individus|Étudier chaque individu de manière isolée|Considérer que la société n'existe pas|Nier l'existence de contraintes sociales
+QCM || Weber distingue quatre types d'action sociale. L'action « rationnelle en finalité » est || V:Une action orientée vers un but précis, utilisant des moyens adaptés (calcul coût/bénéfice)|Une action guidée par une croyance en la valeur intrinsèque d'un comportement|Une action dictée par les émotions|Une action conforme à des habitudes ancestrales
+QCM || L'action « rationnelle en valeur » selon Weber est || V:Une action motivée par la croyance en la valeur intrinsèque d'un comportement, indépendamment de ses conséquences|Une action visant à maximiser le profit|Une action dictée par la tradition|Une action émotionnelle spontanée
+VF  || L'action traditionnelle, selon Weber, est guidée par les coutumes et habitudes héritées. || V || C'est un type d'action sociale motivée par la force de l'habitude.
+QCM || L'idéal-type chez Weber est || V:Un modèle théorique abstrait construit par le chercheur pour analyser la réalité, sans prétendre la décrire exactement|Un modèle de société parfaite|Le meilleur type de comportement social|La norme sociale la plus répandue dans une société
+QCM || La neutralité axiologique (Wertfreiheit) selon Weber signifie que || V:Le chercheur doit suspendre ses jugements de valeur dans son travail scientifique|La science doit être au service de valeurs morales|Le sociologue n'a pas le droit d'avoir des opinions|La recherche doit ignorer les faits
+VF  || Weber est l'auteur de « L'Éthique protestante et l'esprit du capitalisme ». || V || Il y soutient que la Réforme protestante est à l'origine de l'éthique du travail du capitalisme.
+
+---
+
+### === SOCIO2-I-2a : Holisme vs Individualisme méthodologique ===
+### "Deux paradigmes fondamentaux de la sociologie"
+@add-theme: Fondements, Paradigmes
+
+QCM || L'opposition entre holisme et individualisme méthodologique porte sur || V:La question de savoir si la société détermine les individus (holisme) ou si les actions individuelles expliquent les phénomènes sociaux (individualisme)|La question de la taille optimale d'une société|Le débat entre sociologie et psychologie|La différence entre méthodes qualitatives et quantitatives
+VF  || Le holisme méthodologique est associé à Durkheim, l'individualisme méthodologique à Weber. || V || C'est l'une des oppositions fondatrices de la sociologie.
+QCM || Selon le holisme méthodologique || V:La société est une réalité sui generis (en soi) qui s'impose aux individus et les détermine|Chaque individu est totalement libre de ses choix|La société n'est que la somme des individus|Seules les motivations individuelles comptent
+QCM || Selon l'individualisme méthodologique || V:Les phénomènes sociaux s'expliquent à partir des actions et motivations des individus|Les individus n'ont aucune liberté face aux structures sociales|La société détermine entièrement les comportements|Les statistiques sont les seuls outils valables
+
+---
+
+### === SOCIO3-I-1a : La socialisation ===
+### "Processus d'intériorisation des normes et valeurs"
+@add-theme: Socialisation
+
+QCM || La socialisation est le processus par lequel || V:L'individu intériorise les normes, valeurs et rôles sociaux de sa société|L'individu choisit librement ses comportements|L'État impose ses lois aux citoyens|Les entreprises forment leurs employés
+VF  || On distingue socialisation primaire (enfance/adolescence) et socialisation secondaire (âge adulte). || V || La socialisation primaire, par la famille et l'école, est la plus déterminante ; la secondaire se poursuit tout au long de la vie.
+QCM || Les principales instances de socialisation primaire sont || V:La famille et l'école|Les médias et les réseaux sociaux uniquement|Les syndicats et les partis politiques|Les entreprises et les administrations
+QCM || La socialisation secondaire se déroule || V:À l'âge adulte, dans le milieu professionnel, le couple, les associations, etc.|Uniquement pendant les études supérieures|Avant 6 ans|Exclusivement dans la famille
+VF  || La socialisation est un processus qui s'achève à la fin de l'adolescence. || F || Elle se poursuit tout au long de la vie ; chaque nouveau rôle ou statut peut remettre en question les acquis antérieurs.
+QCM || Les normes sociales sont || V:Des règles de comportement partagées par un groupe, dont la transgression entraîne des sanctions|Des lois votées par le Parlement uniquement|Des recommandations sans aucune contrainte|Des habitudes biologiques innées
+QCM || Les valeurs sociales sont || V:Des idéaux collectifs qui orientent les comportements et les jugements dans une société|Des prix fixés par le marché|Des normes juridiques|Des statistiques démographiques
+
+---
+
+### === SOCIO3-I-2a : Bourdieu et l'habitus ===
+### "Dispositions durables intériorisées par la socialisation"
+@add-theme: Socialisation, Bourdieu, Habitus
+
+QCM || L'habitus, selon Pierre Bourdieu, est || V:Un ensemble de dispositions durables et profondes, intériorisées par la socialisation, qui orientent les pratiques et les goûts|Un choix conscient et réfléchi de l'individu|Une habitude physique liée au sport|Un titre universitaire
+VF  || L'habitus contribue à la reproduction sociale selon Bourdieu. || V || Il transmet d'une génération à l'autre des manières de faire, penser et être propres à chaque groupe social.
+QCM || Le capital culturel, selon Bourdieu, comprend || V:Les connaissances, diplômes, manières de parler et goûts culturels hérités de la socialisation|Uniquement l'argent et les biens matériels|Le réseau de connaissances d'une personne|Les droits politiques d'un citoyen
+QCM || Bourdieu distingue trois formes principales de capital || V:Capital économique, capital culturel, capital social|Capital financier, capital immobilier, capital artistique|Capital technique, capital humain, capital naturel|Capital politique, capital militaire, capital religieux
+VF  || Le capital social, selon Bourdieu, désigne l'ensemble des relations sociales mobilisables par un individu. || V || C'est le réseau de connaissances et de relations dont dispose un individu.
+QCM || Le capital symbolique, selon Bourdieu, est || V:La reconnaissance, le prestige et l'honneur attachés à la possession des autres formes de capital|Les symboles religieux|Les logos des entreprises|Les drapeaux nationaux
+QCM || Dans « La Distinction » (1979), Bourdieu montre que || V:Les goûts culturels et les pratiques de consommation sont socialement déterminés et contribuent à la distinction entre classes sociales|Tout le monde a exactement les mêmes goûts|Les goûts sont uniquement biologiques|La culture n'a aucun rapport avec les classes sociales
+VF  || Selon Bourdieu, la reproduction sociale passe notamment par le système scolaire qui valorise la culture des classes dominantes. || V || L'école, en apparence neutre et méritocratique, favorise les enfants dont l'habitus correspond à la culture scolaire (culture des classes dominantes).
+
+---
+
+### === SOCIO4-I-1a : Stratification sociale et classes sociales ===
+### "Hiérarchisation de la société en groupes"
+@add-theme: Stratification, Classes sociales
+
+QCM || La stratification sociale désigne || V:La catégorisation hiérarchique de la population en groupes sur la base de critères socio-économiques|La division géographique d'un territoire|L'organisation du système scolaire en niveaux|La répartition des tâches dans une entreprise
+QCM || Dans la perspective marxiste, les classes sociales se définissent par || V:La place des individus dans les rapports de production (propriétaire des moyens de production vs. travailleurs)|Le niveau d'éducation|La religion|La nationalité
+VF  || Marx distingue principalement deux grandes classes antagonistes : la bourgeoisie et le prolétariat. || V || La bourgeoisie possède les moyens de production ; le prolétariat vend sa force de travail.
+QCM || La lutte des classes, selon Marx, est || V:Le moteur de l'histoire, résultant de l'opposition d'intérêts entre classes dominantes et classes dominées|Un conflit armé entre pays|Une compétition sportive|Un débat parlementaire
+QCM || Les PCS (Professions et Catégories Socioprofessionnelles) en France regroupent || V:6 grands groupes : agriculteurs, artisans/commerçants/chefs d'entreprise, cadres, professions intermédiaires, employés, ouvriers|3 classes : haute, moyenne, basse|2 classes : bourgeoisie et prolétariat|10 catégories basées sur le revenu
+VF  || La nomenclature PCS est utilisée par l'INSEE depuis 1982. || V || Elle a remplacé l'ancienne nomenclature des CSP (Catégories Socioprofessionnelles) datant de 1954.
+QCM || Dans la perspective bourdieusienne, la position sociale d'un individu dépend || V:Du volume et de la structure de ses différents capitaux (économique, culturel, social, symbolique)|Uniquement de son revenu|Uniquement de son niveau d'études|De sa date de naissance
+
+---
+
+### === SOCIO4-I-2a : Mobilité sociale ===
+### "Changement de position dans la hiérarchie sociale"
+@add-theme: Stratification, Mobilité sociale
+
+QCM || La mobilité sociale intergénérationnelle mesure || V:Le changement de position sociale entre parents et enfants|Le déménagement d'une ville à une autre|Le changement d'emploi au cours d'une carrière|L'évolution du revenu au fil des mois
+QCM || La mobilité sociale intragénérationnelle mesure || V:Le changement de position sociale d'un individu au cours de sa propre vie (carrière)|Le changement de position entre parents et enfants|Le changement de nationalité|Le changement de religion
+VF  || Une société où la mobilité sociale est forte est dite plus « ouverte » ou « fluide ». || V || La fluidité sociale mesure l'indépendance entre l'origine sociale et la position sociale atteinte.
+QCM || La mobilité structurelle résulte || V:Des transformations de la structure socioprofessionnelle (ex : tertiarisation de l'économie)|Des choix individuels des personnes|De la politique éducative uniquement|Des migrations internationales
+QCM || La reproduction sociale désigne || V:Le fait que les enfants tendent à occuper la même position sociale que leurs parents|La croissance démographique|La transmission du patrimoine génétique|Le renouvellement des élus politiques
+VF  || Les « tables de mobilité » sont des outils statistiques qui croisent la position sociale des individus avec celle de leurs parents. || V || Elles permettent de mesurer la mobilité intergénérationnelle dans une société.
+
+---
+
+### === SOCIO5-I-1a : Déviance et contrôle social ===
+### "Transgression des normes et réponses sociales"
+@add-theme: Déviance, Contrôle social
+
+QCM || La déviance en sociologie désigne || V:Tout comportement qui transgresse les normes sociales en vigueur dans un groupe|Uniquement les actes criminels|Les comportements marginaux positifs|Les maladies mentales exclusivement
+VF  || La délinquance est une forme particulière de déviance qui transgresse les normes juridiques (lois). || V || Toute délinquance est une déviance, mais toute déviance n'est pas de la délinquance (ex : impolitesse).
+QCM || Le contrôle social désigne || V:L'ensemble des mécanismes par lesquels une société assure la conformité des comportements de ses membres aux normes établies|Le contrôle exercé par la police uniquement|La censure des médias|Le contrôle des frontières
+QCM || Le contrôle social formel comprend || V:Les sanctions exercées par des institutions spécialisées (police, justice, administration)|Les moqueries entre amis|Les regards désapprobateurs|Les rumeurs dans un quartier
+QCM || Le contrôle social informel comprend || V:Les sanctions diffuses exercées par l'entourage (moqueries, exclusion, réprobation, valorisation)|Les amendes et les peines de prison|Les lois et règlements|Les examens scolaires
+VF  || Selon Howard Becker, la déviance n'est pas une qualité intrinsèque de l'acte, mais le résultat d'un processus d'étiquetage. || V || Dans « Outsiders » (1963), Becker montre que « le déviant est celui à qui l'étiquette de déviant a été appliquée avec succès ».
+QCM || La théorie de l'étiquetage (labeling theory) de Becker met l'accent sur || V:Le processus social par lequel certains comportements et individus sont désignés comme déviants|Les caractéristiques biologiques des déviants|Les motivations psychologiques des criminels|Le niveau de revenu des délinquants
+
+---
+
+### === SOCIO5-I-2a : Fonctionnalisme et théorie du conflit ===
+### "Deux grandes approches théoriques en sociologie"
+@add-theme: Théories, Courants
+
+QCM || Le fonctionnalisme en sociologie considère que || V:Chaque élément de la société remplit une fonction contribuant à l'équilibre et au maintien du système social|La société est principalement une arène de conflits entre groupes|Les individus sont totalement libres de créer la société qu'ils veulent|La société n'existe pas en tant que telle
+QCM || La théorie du conflit, d'inspiration marxiste, soutient que || V:La société est structurée par des rapports de domination et des conflits d'intérêts entre groupes|La société est un système harmonieux où chacun contribue|Les conflits sont toujours négatifs et destructeurs|Les classes sociales n'existent plus dans les sociétés modernes
+VF  || L'interactionnisme symbolique s'intéresse aux interactions quotidiennes et au sens que les individus donnent à leurs actions. || V || C'est une approche microsociologique, illustrée par les travaux de George Herbert Mead et Erving Goffman.
+QCM || Erving Goffman est notamment connu pour || V:Sa métaphore théâtrale de la vie sociale : les individus jouent des rôles comme des acteurs sur une scène (dramaturgie sociale)|Sa théorie des classes sociales|Son étude du suicide|Sa théorie de la transition démographique
+QCM || Le structuralisme génétique de Bourdieu vise à || V:Articuler les structures objectives (champs, capitaux) et les dispositions subjectives (habitus) pour dépasser l'opposition holisme/individualisme|Étudier les gènes responsables des comportements sociaux|Analyser uniquement les structures économiques|Nier l'existence de toute structure sociale
+
+---
+
+### === SOCIO6-I-1a : Culture et socialisation différenciée ===
+### "Normes, valeurs et différenciation sociale"
+@add-theme: Culture, Socialisation différenciée
+
+QCM || La culture, en sociologie, désigne || V:L'ensemble des normes, valeurs, croyances, pratiques et symboles partagés par un groupe social|Uniquement les œuvres artistiques et littéraires|Le niveau d'études d'une personne|Les traditions culinaires d'un pays
+VF  || La socialisation est un processus différencié selon le genre : filles et garçons n'intériorisent pas les mêmes normes et rôles. || V || La socialisation de genre produit des différences de comportements, de goûts et d'aspirations entre hommes et femmes.
+QCM || Simone de Beauvoir, dans « Le Deuxième Sexe », a écrit || V:« On ne naît pas femme, on le devient », soulignant le rôle de la socialisation dans la construction du genre|« La femme est l'avenir de l'homme »|« L'enfer, c'est les autres »|« Je pense, donc je suis »
+QCM || La socialisation anticipatrice (Robert K. Merton) désigne || V:Le processus par lequel un individu adopte par avance les normes et valeurs d'un groupe qu'il aspire à rejoindre|Un type de socialisation qui commence avant la naissance|La socialisation imposée par État|L'oubli des normes apprises pendant l'enfance
+VF  || Selon Richard Hoggart (La culture du pauvre), un enfant boursier issu des classes populaires peut vivre un conflit entre la culture scolaire et sa culture familiale d'origine. || V || Il est tiraillé entre deux univers culturels aux codes différents.
+QCM || Le fait social total, concept de Marcel Mauss, désigne || V:Un phénomène social qui met en branle la totalité d'une société et de ses institutions (dimensions économique, juridique, religieuse, etc.)|Un fait qui concerne tous les habitants d'un pays|Une statistique portant sur 100% de la population|Un fait divers relayé par tous les médias

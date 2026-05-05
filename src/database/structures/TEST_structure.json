@@ -1,0 +1,174 @@
+{
+  "chapters": [
+    {
+      "id": "test_ch0",
+      "name": "📚 Introduction aux QCM",
+      "notions": [
+        {
+          "id": "test_definitions",
+          "name": "Définitions de base",
+          "description": "Comprendre ce qu'est un QCM et ses avantages",
+          "tags": ["Definitions"],
+          "estimatedTime": 5,
+          "difficulty": "Facile",
+          "questionCount": 2
+        },
+        {
+          "id": "test_types",
+          "name": "Types de questions",
+          "description": "Les différents formats supportés par text2quiz",
+          "tags": ["Types_Questions"],
+          "estimatedTime": 3,
+          "difficulty": "Moyen",
+          "questionCount": 1
+        }
+      ]
+    },
+    {
+      "id": "test_ch1",
+      "name": "🎯 Fonctionnalités Avancées",
+      "notions": [
+        {
+          "id": "test_apprentissage",
+          "name": "Apprentissage progressif",
+          "description": "Système de répétition espacée et maîtrise des notions",
+          "tags": ["Apprentissage_Progressif"],
+          "estimatedTime": 8,
+          "difficulty": "Moyen",
+          "questionCount": 2
+        },
+        {
+          "id": "test_interface",
+          "name": "Interface utilisateur",
+          "description": "Les 4 modes d'apprentissage disponibles",
+          "tags": ["Interface"],
+          "estimatedTime": 5,
+          "difficulty": "Facile",
+          "questionCount": 1
+        }
+      ]
+    },
+    {
+      "id": "test_ch2",
+      "name": "🗂️ Structure Hiérarchique",
+      "notions": [
+        {
+          "id": "test_organisation",
+          "name": "Organisation des questions",
+          "description": "Structure Chapitres → Notions → Sous-notions",
+          "tags": ["Organisation"],
+          "estimatedTime": 6,
+          "difficulty": "Moyen",
+          "questionCount": 2
+        },
+        {
+          "id": "test_sessions",
+          "name": "Sessions d'apprentissage",
+          "description": "Format et composition des sessions (5 questions)",
+          "tags": ["Sessions"],
+          "estimatedTime": 7,
+          "difficulty": "Moyen",
+          "questionCount": 2
+        }
+      ]
+    },
+    {
+      "id": "test_ch3",
+      "name": "📊 Statistiques et Progression",
+      "notions": [
+        {
+          "id": "test_tracking",
+          "name": "Système de tracking",
+          "description": "Données trackées et stockage local",
+          "tags": ["Tracking"],
+          "estimatedTime": 6,
+          "difficulty": "Moyen",
+          "questionCount": 2
+        },
+        {
+          "id": "test_xp",
+          "name": "XP et Niveaux",
+          "description": "Système de progression et streaks quotidiens",
+          "tags": ["XP_Niveau"],
+          "estimatedTime": 5,
+          "difficulty": "Facile",
+          "questionCount": 2
+        }
+      ]
+    },
+    {
+      "id": "test_ch4",
+      "name": "💾 Import et Export",
+      "notions": [
+        {
+          "id": "test_fichiers",
+          "name": "Gestion des fichiers",
+          "description": "Format text2quiz et consolidation",
+          "tags": ["Gestion_Fichiers"],
+          "estimatedTime": 6,
+          "difficulty": "Facile",
+          "questionCount": 2
+        },
+        {
+          "id": "test_json",
+          "name": "Structure JSON",
+          "description": "Organisation des métadonnées",
+          "tags": ["Structure_JSON"],
+          "estimatedTime": 8,
+          "difficulty": "Difficile",
+          "questionCount": 1
+        }
+      ]
+    },
+    {
+      "id": "test_ch5",
+      "name": "⚙️ Technologies",
+      "notions": [
+        {
+          "id": "test_stack",
+          "name": "Stack technique",
+          "description": "TypeScript, Vite, IndexedDB",
+          "tags": ["Stack_Technique"],
+          "estimatedTime": 7,
+          "difficulty": "Moyen",
+          "questionCount": 2
+        },
+        {
+          "id": "test_performance",
+          "name": "Performance et optimisation",
+          "description": "Choix techniques et justifications",
+          "tags": ["Performance"],
+          "estimatedTime": 5,
+          "difficulty": "Moyen",
+          "questionCount": 1
+        }
+      ]
+    }
+  ],
+  "contentTypes": [
+    {
+      "id": "definitions",
+      "name": "Définitions",
+      "tags": ["Definitions"],
+      "questionCount": 2
+    },
+    {
+      "id": "concepts",
+      "name": "Concepts avancés",
+      "tags": ["Apprentissage_Progressif", "Organisation", "Structure_JSON"],
+      "questionCount": 5
+    },
+    {
+      "id": "pratique",
+      "name": "Mise en pratique",
+      "tags": ["Interface", "Sessions", "Gestion_Fichiers"],
+      "questionCount": 5
+    },
+    {
+      "id": "technique",
+      "name": "Aspects techniques",
+      "tags": ["Stack_Technique", "Performance", "Tracking"],
+      "questionCount": 5
+    }
+  ]
+}

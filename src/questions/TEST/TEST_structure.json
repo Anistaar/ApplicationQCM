@@ -1,0 +1,148 @@
+{
+    "chapters": [
+        {
+            "id": "intro",
+            "name": "Introduction",
+            "notions": [
+                {
+                    "id": "definitions",
+                    "name": "Définitions",
+                    "tags": [
+                        "Definitions",
+                        "Facile"
+                    ],
+                    "questionCount": 3,
+                    "estimatedDuration": 5
+                },
+                {
+                    "id": "types_questions",
+                    "name": "Types de Questions",
+                    "tags": [
+                        "Types_Questions",
+                        "Moyen"
+                    ],
+                    "questionCount": 1,
+                    "estimatedDuration": 2
+                }
+            ]
+        },
+        {
+            "id": "fonctionnalites",
+            "name": "Fonctionnalités",
+            "notions": [
+                {
+                    "id": "apprentissage",
+                    "name": "Apprentissage Progressif",
+                    "tags": [
+                        "Apprentissage_Progressif",
+                        "Moyen",
+                        "Difficile"
+                    ],
+                    "questionCount": 2,
+                    "estimatedDuration": 4
+                },
+                {
+                    "id": "interface",
+                    "name": "Interface",
+                    "tags": [
+                        "Interface",
+                        "Facile"
+                    ],
+                    "questionCount": 1,
+                    "estimatedDuration": 2
+                }
+            ]
+        },
+        {
+            "id": "organisation",
+            "name": "Organisation",
+            "notions": [
+                {
+                    "id": "structure",
+                    "name": "Structure Hiérarchique",
+                    "tags": [
+                        "Organisation",
+                        "Moyen"
+                    ],
+                    "questionCount": 2,
+                    "estimatedDuration": 4
+                },
+                {
+                    "id": "sessions",
+                    "name": "Sessions",
+                    "tags": [
+                        "Sessions",
+                        "Moyen",
+                        "Difficile"
+                    ],
+                    "questionCount": 2,
+                    "estimatedDuration": 4
+                }
+            ]
+        },
+        {
+            "id": "statistiques",
+            "name": "Statistiques & Progression",
+            "notions": [
+                {
+                    "id": "tracking",
+                    "name": "Tracking",
+                    "tags": [
+                        "Tracking",
+                        "Moyen",
+                        "Facile"
+                    ],
+                    "questionCount": 2,
+                    "estimatedDuration": 3
+                },
+                {
+                    "id": "xp_niveau",
+                    "name": "XP & Niveau",
+                    "tags": [
+                        "XP_Niveau",
+                        "Facile",
+                        "Moyen"
+                    ],
+                    "questionCount": 2,
+                    "estimatedDuration": 3
+                }
+            ]
+        },
+        {
+            "id": "technique",
+            "name": "Aspects Techniques",
+            "notions": [
+                {
+                    "id": "fichiers",
+                    "name": "Gestion Fichiers",
+                    "tags": [
+                        "Gestion_Fichiers",
+                        "Facile"
+                    ],
+                    "questionCount": 1,
+                    "estimatedDuration": 2
+                },
+                {
+                    "id": "stack",
+                    "name": "Stack Technique",
+                    "tags": [
+                        "Stack_Technique",
+                        "Moyen"
+                    ],
+                    "questionCount": 1,
+                    "estimatedDuration": 2
+                },
+                {
+                    "id": "performance",
+                    "name": "Performance",
+                    "tags": [
+                        "Performance",
+                        "Moyen"
+                    ],
+                    "questionCount": 1,
+                    "estimatedDuration": 2
+                }
+            ]
+        }
+    ]
+}

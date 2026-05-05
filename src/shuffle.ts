@@ -5,3 +5,9 @@ export function shuffleInPlace<T>(arr: T[]): T[] {
   }
   return arr;
 }
+
+/** Returns a shuffled copy (original untouched) */
+export function shuffleArray<T>(array: T[]): T[] {
+  const result = [...array];
+  return shuffleInPlace(result);
+}

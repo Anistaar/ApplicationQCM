@@ -1,0 +1,520 @@
+### BANQUE INSTITUTIONS ÉCONOMIQUES — COMPLETE
+### Version 2.0 — Consolidée automatiquement (scripts/build-instit-v2.mjs)
+### Générée le 2025-12-14
+
+@themes: Institutions
+
+### ========================================
+### CHAPITRE 1 — FMI
+### Sources: FMI_QCM_EXHAUSTIF_v1.txt
+@themes: Institutions, FMI
+
+QCM || En quelle annï¿½e le FMI a-t-il ï¿½tï¿½ officiellement crï¿½ï¿½ ? || V:1944|1947|1955|1971
+QCM || Quel est le mandat principal du FMI ? || Financer des projets d'infrastructure|V:Assurer la stabilitï¿½ du systï¿½me monï¿½taire international|Rï¿½guler le commerce mondial|ï¿½mettre une monnaie mondiale unique
+QCM || Oï¿½ se situe le siï¿½ge du FMI ? || Genï¿½ve|New York|V:Washington D.C.|Bruxelles
+QCM || Selon la tradition, de quelle origine est le Directeur Gï¿½nï¿½ral du FMI ? || Amï¿½ricain|V:Europï¿½en|Asiatique|Africain
+QCM || Que sont les DTS (Droits de Tirage Spï¿½ciaux) ? || Une monnaie physique utilisï¿½e par les banques|V:Un instrument de rï¿½serve international et une unitï¿½ de compte|Des actions du FMI cotï¿½es en bourse|Une taxe sur les transactions financiï¿½res
+QCM || En quelle annï¿½e les DTS ont-ils ï¿½tï¿½ crï¿½ï¿½s ? || 1944|V:1969|1971|1999
+QCM || Comment est dï¿½terminï¿½ le droit de vote d'un pays au sein du FMI ? || Un pays = une voix|V:En fonction de sa quote-part (contribution financiï¿½re)|En fonction de sa population|En fonction de sa superficie
+QCM || Qu'est-ce que la "conditionnalitï¿½" des prï¿½ts du FMI ? || L'obligation de rembourser en or|V:L'obligation de mener des rï¿½formes ï¿½conomiques (ajustement structurel)|L'obligation d'acheter des produits amï¿½ricains|L'obligation de changer de gouvernement
+QCM || Quel ï¿½vï¿½nement du 15 aoï¿½t 1971 a bouleversï¿½ le rï¿½le initial du FMI ? || La crï¿½ation de l'Euro|V:La suspension de la convertibilitï¿½ du dollar en or (Choc Nixon)|La crise des subprimes|La chute du Mur de Berlin
+QCM || Les Accords de la Jamaï¿½que en 1976 ont officialisï¿½ : || Le retour ï¿½ l'ï¿½talon-or|V:Le systï¿½me de changes flottants|La crï¿½ation de l'OMC|La suppression du FMI
+QCM || Le FMI est souvent qualifiï¿½ de : || "Banque centrale du monde"|V:"Prï¿½teur de dernier ressort"| "Gendarme du commerce"|"Tribunal de la finance"
+QCM || Quelle est la diffï¿½rence temporelle principale entre l'action du FMI et celle de la Banque Mondiale ? || Le FMI agit sur le long terme, la BM sur le court terme|V:Le FMI gï¿½re le court terme (crises), la BM le long terme (dï¿½veloppement)|Il n'y a aucune diffï¿½rence|Les deux agissent uniquement en urgence
+QCM || Combien de pays membres compte environ le FMI aujourd'hui ? || 50|100|V:189 (ou 190)|500
+QCM || Lequel de ces pays dispose du plus grand droit de vote au FMI ? || La Chine|L'Allemagne|V:Les ï¿½tats-Unis|Le Japon
+QCM || Qu'est-ce qu'une "quote-part" au FMI ? || Une taxe sur les importations|V:La souscription en capital d'un pays membre|Le montant maximal qu'un pays peut emprunter|Le salaire du directeur gï¿½nï¿½ral
+QCM || Parmi les critiques souvent adressï¿½es au FMI, on trouve : || Il prï¿½te trop d'argent sans conditions|V:Ses mesures d'austï¿½ritï¿½ aggravent la pauvretï¿½ et les inï¿½galitï¿½s|Il favorise trop les pays communistes|Il ne s'intï¿½resse pas assez ï¿½ la monnaie
+QCM || Quel est le stock d'or approximatif dï¿½tenu par le FMI ? || 100 tonnes|1 000 tonnes|V:2 814 tonnes|10 000 tonnes
+QCM || D'oï¿½ provient essentiellement le stock d'or du FMI ? || D'achats rï¿½cents sur le marchï¿½|V:De la dotation initiale des pays membres (25% de la souscription)|De dons de philanthropes|De saisies judiciaires
+QCM || En 2013, ï¿½ combien ont ï¿½tï¿½ portï¿½es les ressources du FMI aprï¿½s leur quadruplement ? || 250 milliards de dollars|500 milliards de dollars|V:1 000 milliards de dollars|2 000 milliards de dollars
+QCM || Quelle est la troisiï¿½me source de revenus du FMI, aussi importante que les quotes-parts ? || La vente de livres|V:Les emprunts auprï¿½s des pays membres|Les taxes sur les billets d'avion|Les dons des ONG
+QCM || Quel ï¿½tait le taux de change de l'or fixï¿½ par les accords de Bretton Woods ? || 10$ l'once|V:35$ l'once|100$ l'once|500$ l'once
+QCM || Avant 1976, quel ï¿½tait le rï¿½le du FMI concernant les taux de change ? || Il laissait faire le marchï¿½|V:Il garantissait le respect des paritï¿½s fixes et autorisait les dï¿½valuations|Il fixait le prix du pï¿½trole|Il n'avait aucun rï¿½le
+QCM || Qu'est-ce qu'un "dï¿½faut de paiement" pour un pays ? || Une erreur de calcul budgï¿½taire|V:L'incapacitï¿½ de rembourser ses crï¿½anciers|Le refus de payer ses fonctionnaires|La fermeture de la banque centrale
+QCM || Depuis 2008, comment a ï¿½voluï¿½ la conditionnalitï¿½ des prï¿½ts du FMI ? || Elle a ï¿½tï¿½ supprimï¿½e|V:Elle a ï¿½tï¿½ assouplie et mieux ciblï¿½e sur les secteurs essentiels|Elle a ï¿½tï¿½ durcie considï¿½rablement|Elle ne concerne plus que l'Europe
+QCM || Quelle fonction le FMI a-t-il renforcï¿½e pour amï¿½liorer la prï¿½vention des crises ? || La fonction de prï¿½t|V:La mission de surveillance du systï¿½me monï¿½taire international|La fonction de crï¿½ation monï¿½taire|La fonction de tribunal
+QCM || Les DTS peuvent-ils ï¿½tre utilisï¿½s par les particuliers ? || Oui, pour voyager|Non, uniquement par les banques centrales et organisations internationales|Oui, pour acheter de l'or|Oui, sur internet
+QCM || Quelle devise NE fait PAS partie du panier des DTS ? || Le Dollar amï¿½ricain|L'Euro|Le Yen japonais|V:Le Franc suisse
+QCM || Quel est l'objectif des "programmes d'ajustement structurel" ? || Augmenter les salaires|V:Assurer la soutenabilitï¿½ de la dette et la croissance ï¿½ long terme|Nationaliser les entreprises|Fermer les frontiï¿½res
+QCM || En cas de dï¿½sï¿½quilibre temporaire, combien un pays pouvait-il obtenir automatiquement avant 1976 ? || 10% de sa quote-part|V:25% de sa quote-part (droit de tirage)|50% de sa quote-part|100% de sa quote-part
+QCM || Combien de pays fondateurs ont participï¿½ ï¿½ la crï¿½ation du FMI en 1944 ? || V:44|50|100|189
+QCM || ï¿½ quelle date prï¿½cise le systï¿½me de changes fixes a-t-il dï¿½finitivement disparu ? || 15 aoï¿½t 1971|V:Mars 1973|Janvier 1976|Juillet 1944
+QCM || Avant 1976, jusqu'ï¿½ quel pourcentage de sa quote-part un pays pouvait-il emprunter si le FMI le jugeait nï¿½cessaire ? || 25%|50%|100%|V:125%
+QCM || Quelle ï¿½tait la dotation initiale en or exigï¿½e lors de la souscription au FMI en 1944 ? || 10%|V:25%|50%|100%
+
+### ========================================
+### CHAPITRE 2 — OMC
+### Sources: OMC_QCM_EXHAUSTIF_v1.txt
+@themes: Institutions, OMC
+
+QCM || En quelle annÃ©e a Ã©tÃ© crÃ©Ã© le GATT ? || 1944|V:1947|1948|1995
+QCM || OÃ¹ s'est tenue la rÃ©union qui a abouti aux accords de Bretton Woods ? || Ã GenÃ¨ve|Ã Marrakech|V:Aux Ãtats-Unis|Au Royaume-Uni
+QCM || Quelle Ã©tait la conviction principale des AlliÃ©s lors de la crÃ©ation du GATT ? || Que la guerre Ã©tait due Ã  un manque de commerce|V:Que le conflit Ã©tait dÃ» Ã  la gestion nationaliste de la crise de 1929|Que seule l'Europe devait commercer|Que les tarifs douaniers devaient augmenter
+QCM || En quelle annÃ©e l'OMC a-t-elle Ã©tÃ© crÃ©Ã©e ? || 1947|1948|1994|V:1995
+QCM || Combien de pays ont initialement signÃ© le GATT en 1947 ? || 15 pays|V:23 pays|45 pays|164 pays
+QCM || Quel accord a marquÃ© la transformation du GATT en OMC ? || Accord de Bretton Woods|Accord de GenÃ¨ve|V:Accord de Marrakech|Accord de Doha
+QCM || L'Accord de Marrakech est constituÃ© de combien de pages de texte environ ? || Environ 2 000 pages|Environ 5 000 pages|V:Presque 20 000 pages|Environ 50 000 pages
+QCM || Quelle Ã©tait la mission principale du GATT ? || Fixer les taux de change|V:AccÃ©lÃ©rer le commerce mondial par rÃ©duction des tarifs douaniers|CrÃ©er une monnaie unique|RÃ©glementer les investissements directs
+QCM || Quelle diffÃ©rence majeure distingue l'OMC du GATT ? || L'OMC ne traite que des marchandises|V:L'OMC couvre Ã©galement les services et la propriÃ©tÃ© intellectuelle|L'OMC a moins de membres|L'OMC n'a pas de pouvoir de sanction
+QCM || Qu'est-ce que la naissance de l'OMC a permis de renforcer par rapport au GATT ? || Les tarifs douaniers|La circulation des personnes|V:Les procÃ©dures de rÃ¨glement des diffÃ©rends|Les accords bilatÃ©raux uniquement
+QCM || Sur quoi portaient principalement les 6 premiers rounds du GATT ? || Les services|Les investissements|V:Les droits de douane|La propriÃ©tÃ© intellectuelle
+QCM || Ã partir de quel round du GATT a-t-on intÃ©grÃ© les mesures non tarifaires ? || 3Ã¨me round|5Ã¨me round|V:7Ã¨me round (Tokyo Round)|8Ã¨me round (Uruguay Round)
+QCM || Quel Ã©tait l'objectif du 8Ã¨me et dernier round du GATT (Uruguay Round) ? || RÃ©duire uniquement les droits de douane|V:Ouvrir le champ aux nÃ©gociations sur propriÃ©tÃ© intellectuelle, agriculture et services|CrÃ©er le FMI|Abolir le libre-Ã©change
+QCM || Combien de missions principales l'OMC a-t-elle ? || 3 missions principales|V:5 missions principales|7 missions principales|10 missions principales
+QCM || Quelle est la premiÃ¨re mission de l'OMC ? || Fixer les taux de change|V:Veiller Ã  la bonne mise en Åuvre de l'Accord de Marrakech|CrÃ©er des monnaies rÃ©gionales|GÃ©rer les budgets nationaux
+QCM || L'OMC administre les procÃ©dures de rÃ¨glement des diffÃ©rends. Quel organe est responsable ? || Le Conseil gÃ©nÃ©ral uniquement|La ConfÃ©rence ministÃ©rielle|V:L'Organe de rÃ¨glement des diffÃ©rends (ORD)|Le FMI
+QCM || Quel cycle de nÃ©gociations illustre la mission de l'OMC de servir de cadre pour les nÃ©gociations commerciales ? || Cycle de Bretton Woods|Cycle de GenÃ¨ve|V:Cycle de Doha|Cycle d'Uruguay
+QCM || L'OMC gÃ¨re le mÃ©canisme d'examen des politiques commerciales. Quel est l'objectif ? || Imposer des amendes|V:S'assurer de la conformitÃ© des politiques nationales avec les rÃ¨gles OMC|Fixer les prix mondiaux|CrÃ©er des unions douaniÃ¨res
+QCM || Avec quelles institutions l'OMC coopÃ¨re-t-elle pour coordonner les interventions ? || L'ONU et l'OTAN|L'OCDE et l'UE|V:Le FMI et la Banque Mondiale|L'UNESCO et l'OMS
+QCM || Que signifie l'acronyme ADPIC ? || Accord sur le DÃ©veloppement des Politiques Internationales de Commerce|V:Accord sur les aspects des Droits de PropriÃ©tÃ© Intellectuelle liÃ©s au Commerce|Accord de DÃ©veloppement pour les Pays en Crise|Accord de Doha pour les Pays IndustrialisÃ©s en Croissance
+QCM || Que signifie l'acronyme AGCS ? || Accord GÃ©nÃ©ral sur le Commerce SpÃ©cialisÃ©|V:Accord GÃ©nÃ©ral sur le Commerce des Services|Accord de Gestion du Commerce StratÃ©gique|Accord Global de Coordination des Services
+QCM || Que signifie l'acronyme TRIMs ? || Tarifs RÃ©gionaux d'Importation des Marchandises|V:Accord sur les mesures concernant les Investissements|Transferts RÃ©glementÃ©s d'Investissement MultilatÃ©ral|Traitement RÃ©gional des Importations et Marchandises
+QCM || Que signifie TSD dans le contexte de l'OMC ? || Taux SpÃ©ciaux de Douane|Taxe Solidaire de DÃ©veloppement|V:Traitement SpÃ©cial et DiffÃ©renciÃ©|Transferts Souverains Directs
+QCM || L'AGCS (commerce des services) a Ã©tÃ© adoptÃ© lors de quel cycle ? || Kennedy Round|Tokyo Round|V:Cycle d'Uruguay|Cycle de Doha
+QCM || Quelle part de la richesse mondiale reprÃ©sentent les services aujourd'hui ? || Environ 25%|Environ 35%|V:Environ 50%|Environ 75%
+QCM || Quel est l'organe suprÃªme de l'OMC ? || Le Conseil gÃ©nÃ©ral|L'ORD|V:La ConfÃ©rence ministÃ©rielle|Le SecrÃ©tariat
+QCM || Ã quelle frÃ©quence se rÃ©unit la ConfÃ©rence ministÃ©rielle de l'OMC ? || Tous les ans|V:Tous les 2 ans|Tous les 4 ans|Tous les 6 mois
+QCM || Qui est la Directrice gÃ©nÃ©rale de l'OMC depuis 2018 (mentionnÃ©e dans le cours) ? || Christine Lagarde|Angela Merkel|V:Une ex-ministre des finances du NigÃ©ria (1Ã¨re femme et Africaine)|Janet Yellen
+QCM || OÃ¹ aura lieu la 14Ã¨me ConfÃ©rence ministÃ©rielle de l'OMC (MC14) en mars 2026 ? || Ã GenÃ¨ve|Ã Doha|V:Ã YaoundÃ© (Cameroun)|Ã Marrakech
+QCM || Le Conseil gÃ©nÃ©ral peut siÃ©ger sous diffÃ©rentes casquettes. Lesquelles ? || Uniquement en tant qu'organe administratif|V:En tant qu'ORD et Organe d'examen des politiques commerciales|Uniquement pour les accords bilatÃ©raux|En tant que tribunal pÃ©nal international
+QCM || Combien de grands conseils spÃ©cialisÃ©s le Conseil gÃ©nÃ©ral supervise-t-il ? || 2 conseils|V:3 conseils|5 conseils|7 conseils
+QCM || Quel conseil de l'OMC traite des questions de brevets et droits d'auteur ? || Conseil du commerce des marchandises|Conseil du commerce des services|V:Conseil des aspects des droits de propriÃ©tÃ© intellectuelle (ADPIC)|Conseil de l'agriculture
+QCM || Depuis 1995, combien de diffÃ©rends ont Ã©tÃ© soumis Ã  l'OMC environ ? || Environ 100|Environ 300|V:606 diffÃ©rends|Plus de 1000
+QCM || Combien de dÃ©cisions l'ORD a-t-il rendues depuis 1995 ? || Environ 100|Environ 200|V:Plus de 350|Plus de 500
+QCM || Sur quoi portent la majoritÃ© des diffÃ©rends soumis Ã  l'OMC (jusqu'en 1994) ? || Sur l'agriculture|Sur les services|V:Sur le GATT et les droits de douane (488 cas)|Sur la propriÃ©tÃ© intellectuelle
+QCM || Combien de diffÃ©rends ont portÃ© sur l'anti-dumping ? || 42|80|V:137|488
+QCM || Que signifie l'anti-dumping dans le contexte de l'OMC ? || Vendre plus cher Ã  l'Ã©tranger|V:Vendre moins cher Ã  l'Ã©tranger que chez soi|Interdire toute importation|Taxer uniquement les exportations
+QCM || Combien de diffÃ©rends ont portÃ© sur les subventions ? || 42|80|V:130|488
+QCM || Combien de diffÃ©rends ont portÃ© sur l'agriculture ? || 42|V:80|130|488
+QCM || Combien de diffÃ©rends ont portÃ© sur l'ADPIC ? || V:42|80|130|137
+QCM || Quelle forme prennent les sanctions de l'OMC ? || Amendes directes en dollars|Exclusion du membre fautif|V:ReprÃ©sailles commerciales autorisÃ©es (droits de douane punitifs)|Gel des avoirs
+QCM || Dans l'affaire du "bÅuf aux hormones", qui a obtenu gain de cause Ã  l'OMC ? || V:Les Ãtats-Unis et le Canada contre l'UE|L'UE contre les Ãtats-Unis|Le BrÃ©sil contre l'UE|La Chine contre les Ãtats-Unis
+QCM || Dans l'affaire des subventions au coton, quel montant de sanctions le BrÃ©sil a-t-il Ã©tÃ© autorisÃ© Ã  imposer aux Ãtats-Unis ? || 300 millions de dollars|500 millions de dollars|V:Plus de 800 millions de dollars|1 milliard de dollars
+QCM || Comment s'est finalement rÃ©solue l'affaire des subventions au coton (BrÃ©sil vs Ãtats-Unis) ? || Par des sanctions permanentes|Par l'exclusion des Ãtats-Unis|V:Par un accord Ã  l'amiable avec 300 millions de dollars de compensation|Par l'abandon de la plainte
+QCM || En quelle annÃ©e et dans quel pays le Programme de Doha a-t-il Ã©tÃ© lancÃ© ? || 1995 en Suisse|V:2001 au Qatar|2005 au Cameroun|2014 au Maroc
+QCM || Quel est l'objectif principal du Programme de Doha ? || Augmenter les tarifs douaniers|CrÃ©er une monnaie unique|V:Mettre le commerce international au service du dÃ©veloppement|Fermer les frontiÃ¨res
+QCM || Pourquoi les nÃ©gociations du Programme de Doha sont-elles largement bloquÃ©es ? || Par manque de participants|Par une crise Ã©conomique|V:En raison de dÃ©saccords entre pays dÃ©veloppÃ©s et Ã©mergents sur subventions agricoles et ouverture des marchÃ©s|Par l'absence de l'OMC
+QCM || Quelle mesure a Ã©tÃ© adoptÃ©e en mars 2022 dans le cadre du Programme de Doha ? || Suppression de l'OMC|Augmentation des tarifs|V:Nouveau programme d'action de Doha en faveur des pays les moins avancÃ©s (PMA)|CrÃ©ation d'une nouvelle monnaie
+QCM || Combien de membres l'OMC comptait-elle au 29 juillet 2016 ? || 23 membres|95 membres|V:164 membres|193 membres
+QCM || Quelle condition est nÃ©cessaire pour devenir membre de l'OMC ? || Ãtre un Ãtat europÃ©en|Avoir une population de plus de 10 millions|V:Jouir d'une entiÃ¨re autonomie dans la conduite de sa politique commerciale|Ãtre membre de l'ONU obligatoirement
+QCM || Quel processus est engagÃ© pour qu'un pays devienne membre de l'OMC ? || Un simple vote|Une dÃ©cision unilatÃ©rale|V:Un groupe de travail et un processus de nÃ©gociation pour vÃ©rifier la conformitÃ© des politiques Ã©conomiques|Un tirage au sort
+QCM || D'oÃ¹ proviennent les recettes diverses de l'OMC (autres que les contributions des membres) ? || De taxes sur le commerce|De la vente d'obligations|V:Des revenus locatifs et de la vente de publications imprimÃ©es ou Ã©lectroniques|D'amendes imposÃ©es aux contrevenants
+QCM || Que gÃ¨re l'OMC pour aider les pays les moins avancÃ©s ? || Des prÃªts bancaires|Des investissements directs|V:Des fonds d'affectation spÃ©ciale alimentÃ©s par des Membres pour coopÃ©ration technique et formation|Des subventions agricoles illimitÃ©es
+QCM || Les accords de l'OMC rÃ©gissent : || Uniquement les marchandises|Uniquement les services|V:Les marchandises, les services et la propriÃ©tÃ© intellectuelle|Uniquement la propriÃ©tÃ© intellectuelle
+QCM || Quel principe impose aux membres de l'OMC de fournir des rapports ? || Principe de discrÃ©tion|Principe de confidentialitÃ©|V:Obligation d'assurer la transparence des politiques commerciales|Principe de souverainetÃ© absolue
+QCM || Quel a Ã©tÃ© l'un des rÃ©sultats majeurs du Cycle d'Uruguay concernant les droits de douane ? || Leur augmentation|Leur suppression totale|V:L'engagement de rÃ©duire et de "consolider" les taux Ã  des niveaux difficiles Ã  relever|Leur harmonisation Ã  10%
+QCM || Quelle dÃ©cision importante a Ã©tÃ© prise en 2015 concernant l'agriculture ? || Augmentation des subventions|Interdiction de l'agriculture biologique|V:Suppression des subventions Ã  l'export de produits agricoles|CrÃ©ation d'une taxe agricole mondiale
+QCM || Quel comitÃ© supervise le respect des accords sur l'agriculture Ã  l'OMC ? || Le Conseil gÃ©nÃ©ral|La ConfÃ©rence ministÃ©rielle|V:Le ComitÃ© de l'agriculture|Le Conseil des services
+QCM || Depuis quelle annÃ©e les produits textiles n'ont-ils plus de rÃ¨gles spÃ©cifiques Ã  l'OMC ? || 1995|2000|V:2005|2010
+QCM || Pourquoi le secteur des services a-t-il un accord spÃ©cifique (AGCS) ? || Parce qu'il est en dÃ©clin|V:Parce qu'il reprÃ©sente l'Ã©pine dorsale de l'Ã©conomie mondiale (50% richesse) et est de plus en plus Ã©changÃ©|Parce qu'il n'est pas important|Parce qu'il ne concerne que l'Europe
+QCM || Quelles conditions l'OMC impose-t-elle aux Ãtats qui interviennent pour protÃ©ger la vie (animaux, vÃ©gÃ©taux, santÃ©) ? || Aucune condition|Interdiction totale d'intervention|V:Ne pas faire de protectionnisme ni de discrimination|Obligation d'augmenter les tarifs
+QCM || Quelle affirmation est FAUSSE concernant l'OMC ? || L'OMC coopÃ¨re avec le FMI et la Banque Mondiale|L'ORD rÃ¨gle les diffÃ©rends commerciaux|V:L'OMC fixe les taux de change internationaux|Le GATT a Ã©tÃ© crÃ©Ã© en 1947
+QCM || Parmi ces institutions, laquelle NE fait PAS partie du systÃ¨me de Bretton Woods ? || Le FMI|La Banque Mondiale|Le GATT (puis OMC)|V:L'OCDE
+QCM || Quel est le postulat central de l'Accord de Marrakech ? || Les barriÃ¨res commerciales favorisent la croissance|Le protectionnisme est nÃ©cessaire|V:Les barriÃ¨res commerciales limitent la maximisation de la croissance et du bien-Ãªtre mondial|Le commerce doit Ãªtre rÃ©duit|| Le postulat de l'Accord de Marrakech est que les barriÃ¨res commerciales limitent la maximisation de la croissance et du bien-Ãªtre mondial, d'oÃ¹ la nÃ©cessitÃ© de les rÃ©duire. || OMC, Marrakech, Postulat, Moyen, QCM
+QCM || Quel est le siÃ¨ge de l'OMC ? || Ã New York|Ã Bruxelles|V:Ã GenÃ¨ve|Ã Paris
+QCM || Combien de langues officielles l'OMC utilise-t-elle ? || 2 langues|V:3 langues (anglais, franÃ§ais, espagnol)|5 langues|6 langues
+QCM || Quel principe fondamental de l'OMC signifie qu'un pays ne peut discriminer entre ses partenaires commerciaux ? || Principe de rÃ©ciprocitÃ©|Principe de prÃ©fÃ©rence rÃ©gionale|V:Clause de la nation la plus favorisÃ©e (NPF)|Principe du TSD
+QCM || Quel principe impose qu'un produit Ã©tranger soit traitÃ© comme un produit national une fois entrÃ© sur le territoire ? || Principe NPF|V:Principe du traitement national|Principe de l'origine|Principe de rÃ©ciprocitÃ©
+QCM || Quelle est la procÃ©dure standard de rÃ¨glement des diffÃ©rends Ã  l'OMC ? || Arbitrage direct|V:Consultations puis panel d'experts puis Organe d'appel|Vote Ã  l'AssemblÃ©e gÃ©nÃ©rale|DÃ©cision unilatÃ©rale du Directeur gÃ©nÃ©ral
+QCM || Quelle particularitÃ© de l'ORD le distingue des autres juridictions internationales ? || DÃ©cisions non contraignantes|V:Adoption automatique des rapports (consensus nÃ©gatif requis pour bloquer)|Uniquement des pays riches peuvent saisir|Amendes directes en dollars
+
+### ========================================
+### CHAPITRE 3 — Banque Mondiale
+### Sources: BM_QCM_EXHAUSTIF_v1.txt
+@themes: Institutions, BM
+
+QCM || En quelle annï¿½e a ï¿½tï¿½ crï¿½ï¿½e la Banque Mondiale (initialement BIRD) ? || V:1944|1947|1955|1995
+QCM || Quel ï¿½tait l'objectif initial de la Banque Mondiale lors de sa crï¿½ation ? || Rï¿½duire la pauvretï¿½ en Afrique|V:Financer la reconstruction de l'Europe aprï¿½s la guerre|Gï¿½rer la monnaie mondiale|Rï¿½guler le commerce international
+QCM || Oï¿½ se trouve le siï¿½ge de la Banque Mondiale ? || Genï¿½ve|New York|V:Washington D.C.|Paris
+QCM || Selon la tradition tacite, de quelle nationalitï¿½ est le prï¿½sident de la Banque Mondiale ? || Europï¿½en|V:Amï¿½ricain|Chinois|Japonais
+QCM || Laquelle de ces institutions NE fait PAS partie du Groupe de la Banque Mondiale ? || BIRD|AID|SFI|V:FMI
+QCM || Que signifie l'acronyme BIRD ? || Banque Internationale de Rï¿½gulation de la Dette|V:Banque Internationale pour la Reconstruction et le Dï¿½veloppement|Bureau International de Recherche et Dï¿½veloppement|Banque d'Investissement pour la Rï¿½ussite du Dï¿½veloppement
+QCM || Quelle est la mission principale de l'AID (Association Internationale de Dï¿½veloppement) ? || Prï¿½ter au secteur privï¿½|Assurer les investissements|V:Aider les pays les plus pauvres (prï¿½ts ï¿½ taux zï¿½ro ou dons)|Rï¿½gler les diffï¿½rends commerciaux
+QCM || Quelle institution du groupe s'occupe spï¿½cifiquement du secteur privï¿½ ? || BIRD|AID|V:SFI (Sociï¿½tï¿½ Financiï¿½re Internationale)|MIGA
+QCM || Quel est le rï¿½le de la MIGA (Agence Multilatï¿½rale de Garantie des Investissements) ? || Prï¿½ter aux ï¿½tats|V:Assurer les investisseurs contre les risques politiques (guerre, expropriation)|Rï¿½gler les litiges juridiques|Financer les ONG
+QCM || Quelle est la diffï¿½rence majeure entre le FMI et la Banque Mondiale ? || Le FMI s'occupe du dï¿½veloppement, la BM de la monnaie|V:Le FMI vise la stabilitï¿½ ï¿½ court terme, la BM le dï¿½veloppement ï¿½ long terme|Le FMI est privï¿½, la BM est publique|Il n'y a aucune diffï¿½rence
+QCM || Comment sont prises les dï¿½cisions au sein de la Banque Mondiale ? || Un pays = une voix|V:Selon le montant du capital souscrit (quote-part)|Par consensus uniquement|Par tirage au sort
+QCM || Quel est l'objectif actuel principal affichï¿½ par la Banque Mondiale ? || La reconstruction de l'Europe|V:Mettre fin ï¿½ l'extrï¿½me pauvretï¿½ et promouvoir une prospï¿½ritï¿½ partagï¿½e|L'instauration d'une monnaie unique mondiale|La rï¿½gulation des tarifs douaniers
+QCM || Le CIRDI (Centre International pour le Rï¿½glement des Diffï¿½rends Relatifs aux Investissements) gï¿½re les conflits entre : || Deux ï¿½tats|Deux entreprises privï¿½es|V:Un investisseur ï¿½tranger et un ï¿½tat hï¿½te|L'OMC et le FMI
+QCM || Quel pays a ï¿½tï¿½ le premier emprunteur de la Banque Mondiale en 1947 ? || L'Allemagne|Le Japon|V:La France|Le Brï¿½sil
+QCM || Les "Institutions de Bretton Woods" dï¿½signent : || L'ONU et l'OTAN|L'OMC et l'OCDE|V:Le FMI et la Banque Mondiale|La BCE et la FED
+QCM || En quelle annï¿½e la Banque Mondiale a-t-elle rï¿½habilitï¿½ le concept de "gouvernance" ? || 1980|V:1990|2000|2010
+QCM || Quels sont les trois principes clï¿½s de la gouvernance selon la Banque Mondiale ? || Libertï¿½, ï¿½galitï¿½, Fraternitï¿½|V:Efficacitï¿½, Responsabilisation, Transparence|Profit, Croissance, Investissement|Stabilitï¿½, Sï¿½curitï¿½, Contrï¿½le
+QCM || Selon la Banque Mondiale (1998), comment sont dï¿½finies les institutions ? || Uniquement comme des organisations|V:Comme l'ensemble des rï¿½gles formelles et informelles rï¿½gissant les comportements|Comme des bï¿½timents officiels|Comme des lois ï¿½crites uniquement
+QCM || Quelle corrï¿½lation la Banque Mondiale ï¿½tablit-elle grï¿½ce ï¿½ ses donnï¿½es ? || Entre le climat et le PIB|V:Entre la qualitï¿½ des institutions et le PIB|Entre la population et la corruption|Entre la taille du pays et la croissance
+QCM || Quel est le classement de la France sur l'Indice de Perception de la Corruption (IPC) citï¿½ dans le cours ? || 1ï¿½re|10ï¿½me|V:25ï¿½me|50ï¿½me
+QCM || Que comprend le "cadre formel" des institutions selon l'approche de la BM ? || Les valeurs et croyances|V:La Constitution, les lois et le systï¿½me politique|Les normes sociales|Les incitations tacites
+QCM || Que comprend le "cadre informel" des institutions selon l'approche de la BM ? || Les lois et rï¿½glements|V:Les valeurs, croyances et normes sociales|Le systï¿½me judiciaire|La Constitution
+QCM || Quel est le rï¿½le des institutions selon la Banque Mondiale dans les ï¿½changes ï¿½conomiques ? || Elles compliquent les ï¿½changes|V:Elles structurent les incitations et offrent un cadre aux ï¿½changes|Elles remplacent le marchï¿½|Elles fixent les prix
+QCM || Pourquoi la Banque Mondiale considï¿½re-t-elle la bonne gouvernance comme essentielle ? || Pour contrï¿½ler les populations|V:Pour permettre le dï¿½veloppement ï¿½conomique des pays|Pour augmenter les impï¿½ts|Pour rï¿½duire le commerce international
+QCM || Avec quelle autre organisation la Banque Mondiale coopï¿½re-t-elle ï¿½troitement pour coordonner les interventions ? || L'UNESCO|V:L'OMC (et le FMI)|L'OTAN|La FIFA
+QCM || Qui a dï¿½fini les institutions comme "les rï¿½gles du jeu dans une sociï¿½tï¿½" ? || V:Douglas North|Ronald Coase|Oliver Williamson|Adam Smith
+QCM || En quelle annï¿½e la Banque Mondiale a-t-elle redï¿½fini les institutions en reprenant la dï¿½finition de North ? || 1944|1980|V:1998|2010
+QCM || Selon Douglas North, quelles sont les deux catï¿½gories d'institutions ? || Publiques et Privï¿½es|V:Formelles et Informelles|ï¿½conomiques et Sociales|Nationales et Internationales
+QCM || Quel auteur est associï¿½ ï¿½ la "Tragï¿½die des biens communs" (1968) ? || Ostrom|V:Garrett Hardin|Coase|North
+QCM || Quelle solution Elinor Ostrom (2010) propose-t-elle face ï¿½ la tragï¿½die des communs ? || La privatisation totale|La nationalisation par l'ï¿½tat|V:La gestion collective par les communautï¿½s (propriï¿½tï¿½ commune)|L'interdiction d'usage
+QCM || Qui a introduit le concept de "coï¿½ts de transaction" pour expliquer l'existence des firmes ? || V:Ronald Coase|Douglas North|Keynes|Friedman
+QCM || Selon Oliver Williamson (1975), la gouvernance sert ï¿½ rï¿½soudre les conflits liï¿½s ï¿½ : || La baisse des prix|V:L'incertitude, l'opportunisme et les asymï¿½tries d'information|La concurrence dï¿½loyale|L'inflation
+QCM || Quel concept George Akerlof a-t-il illustrï¿½ avec le "marchï¿½ des tacots" (Market for Lemons) ? || L'alï¿½a moral|V:La sï¿½lection adverse|Le monopole|L'externalitï¿½ positive
+QCM || L'alï¿½a moral (ou risque moral) se produit lorsque : || On ne connaï¿½t pas le prix d'un bien|V:Un agent assurï¿½ prend plus de risques car il ne supporte pas les consï¿½quences|Un vendeur ment sur la qualitï¿½|Le marchï¿½ s'effondre
+QCM || Selon Dani Rodrik (2005), ï¿½ quoi servent les "institutions de lï¿½gitimation du marchï¿½" ? || ï¿½ fixer les prix|ï¿½ empï¿½cher la concurrence|V:ï¿½ rendre l'ï¿½conomie de marchï¿½ socialement acceptable (ex: retraites, assurance chï¿½mage)|ï¿½ privatiser les entreprises
+QCM || Quel ï¿½conomiste a travaillï¿½ sur l'asymï¿½trie d'information dans le secteur de la santï¿½ (1963) ? || V:Kenneth Arrow|Amartya Sen|Joseph Stiglitz|Paul Krugman
+QCM || Quelle part des stocks halieutiques mondiaux est considï¿½rï¿½e comme surexploitï¿½e ou pleinement exploitï¿½e ? || 10%|30%|50%|V:70%
+QCM || Quel est l'objectif de protection des zones marines pour 2030 ? || 10%|20%|V:30%|50%
+
+### ========================================
+### CHAPITRE 4 — Théories institutionnelles
+### Sources: BANQUE_QUESTIONS_SUPPLEMENTAIRES_v1.txt, TRAIN_Asymetrie_Signaux_v1.txt, TRAIN_CoutsTransaction_v1.txt, TRAIN_DroitsPropriete_Communs_v1.txt
+@themes: Institutions, Théorie
+
+QCM || Selon la thÃ©orie des jeux et les institutions, quel concept explique pourquoi certaines rÃ¨gles persistent ? || V:L'Ã©quilibre de Nash|La destruction crÃ©atrice|Le principe de Pareto|La main invisible
+QCM || Le concept de "path dependence" dans l'Ã©volution institutionnelle signifie que || V:Les choix passÃ©s contraignent les Ã©volutions futures|Toutes les institutions convergent vers l'efficacitÃ©|Les institutions peuvent changer instantanÃ©ment|La gÃ©ographie dÃ©termine tout
+QCM || Selon North, quels sont les deux types d'institutions ? || V:Formelles (lois, rÃ¨glements)|V:Informelles (normes, conventions)|Publiques et privÃ©es|Nationales et internationales
+QCM || L'efficacitÃ© adaptative d'une sociÃ©tÃ© selon North dÃ©pend de || V:Sa capacitÃ© d'apprentissage institutionnel|Son niveau de PIB|Sa taille dÃ©mographique|Ses ressources naturelles
+QCM || Le problÃ¨me d'agence principal-agent dans les entreprises concerne || V:La divergence d'intÃ©rÃªts entre dirigeants et actionnaires|La concurrence entre firmes|Les asymÃ©tries de prix|Les coÃ»ts de production
+QCM || Quels mÃ©canismes de gouvernance limitent les problÃ¨mes d'agence ? || V:Conseil d'administration indÃ©pendant|V:RÃ©munÃ©ration liÃ©e Ã  la performance|Augmentation des salaires|V:MarchÃ© des prises de contrÃ´le
+QCM || La thÃ©orie de l'enracinement des dirigeants explique || V:Pourquoi les dirigeants cherchent Ã  se rendre indispensables|La stratÃ©gie de diversification|L'internationalisation des firmes|Les fusions-acquisitions
+QCM || Le concept de "shareholder value" privilÃ©gie || V:La maximisation de la valeur pour les actionnaires|L'intÃ©rÃªt des salariÃ©s|La responsabilitÃ© sociale|L'environnement
+QCM || Quel rÃ´le jouent les agences de notation dans l'Ã©conomie mondiale ? || V:Ãvaluer le risque de crÃ©dit des Ã©metteurs|Fixer les taux d'intÃ©rÃªt|RÃ©guler les banques|GÃ©rer les devises
+QCM || La supervision bancaire macro-prudentielle vise Ã  || V:PrÃ©venir les risques systÃ©miques|Maximiser les profits bancaires|RÃ©duire la concurrence|Ãliminer les banques centrales
+QCM || BÃ¢le III renforce quelles exigences pour les banques ? || V:Ratios de capital plus Ã©levÃ©s|V:Ratios de liquiditÃ©|RÃ©duction des dÃ©pÃ´ts|V:Limitation de l'effet de levier
+QCM || Le concept de "too big to fail" pose le problÃ¨me || V:Du risque moral des grandes banques|De la taille optimale|De la concurrence parfaite|Des Ã©conomies d'Ã©chelle
+QCM || L'autoritÃ© de la concurrence intervient principalement pour || V:Sanctionner les ententes anticoncurrentielles|V:ContrÃ´ler les concentrations|Fixer les prix|GÃ©rer l'emploi
+QCM || Quel est l'objectif de la rÃ©gulation des monopoles naturels ? || V:Ãviter l'exploitation du pouvoir de marchÃ©|Augmenter les profits|RÃ©duire l'innovation|Ãliminer la concurrence
+QCM || La dÃ©rÃ©glementation des annÃ©es 1980-90 concernait principalement || V:Les tÃ©lÃ©communications|V:Les transports|V:L'Ã©nergie|L'agriculture exclusivement
+QCM || Le concept de "capture du rÃ©gulateur" signifie || V:L'influence excessive des entreprises rÃ©gulÃ©es sur le rÃ©gulateur|La nationalisation des entreprises|La suppression de la rÃ©gulation|L'intervention de l'Ãtat
+QCM || Quels dÃ©fis posent les plateformes numÃ©riques aux institutions traditionnelles ? || V:Ãconomies de rÃ©seau et effets de verrouillage|V:DifficultÃ©s de taxation|V:Nouveaux monopoles|Aucun dÃ©fi particulier
+QCM || La blockchain peut rÃ©duire les coÃ»ts de transaction en || V:Ãliminant les intermÃ©diaires de confiance|Augmentant la vitesse|RÃ©duisant la sÃ©curitÃ©|V:Automatisant les contrats (smart contracts)
+QCM || Quels sont les enjeux de rÃ©gulation de l'intelligence artificielle ? || V:Protection des donnÃ©es personnelles|V:Biais algorithmiques|V:ResponsabilitÃ© en cas d'erreur|Aucun enjeu spÃ©cifique
+QCM || Le concept de "surveillance capitalism" selon Shoshana Zuboff dÃ©signe || V:L'extraction de valeur Ã  partir des donnÃ©es comportementales|Le contrÃ´le Ã©tatique de l'Ã©conomie|La planification centralisÃ©e|La nationalisation des GAFAM
+QCM || Selon Acemoglu, Johnson et Robinson, quels facteurs dÃ©terminent le dÃ©veloppement Ã©conomique ? || V:La qualitÃ© des institutions|La gÃ©ographie|V:L'Ã©tat de droit|Les ressources naturelles uniquement
+QCM || Le concept de "malÃ©diction des ressources" suggÃ¨re que || V:L'abondance de ressources naturelles peut nuire au dÃ©veloppement|Les ressources sont toujours bÃ©nÃ©fiques|La gÃ©ographie dÃ©termine tout|L'industrie est inutile
+QCM || Quelles institutions sont cruciales pour le dÃ©veloppement selon la littÃ©rature ? || V:Protection des droits de propriÃ©tÃ©|V:SystÃ¨me judiciaire efficace|V:Lutte contre la corruption|Planification centralisÃ©e
+QCM || Le concept de "middle income trap" explique || V:Pourquoi certains pays stagnent Ã  revenus intermÃ©diaires|La convergence automatique|L'inexistence des inÃ©galitÃ©s|La thÃ©orie de la croissance endogÃ¨ne
+QCM || La Banque Centrale EuropÃ©enne a pour mandat principal || V:La stabilitÃ© des prix|La croissance Ã©conomique|L'emploi|V:La stabilitÃ© financiÃ¨re
+QCM || Le Pacte de StabilitÃ© et de Croissance limite || V:Les dÃ©ficits publics Ã  3% du PIB|V:La dette publique Ã  60% du PIB|Les dÃ©penses sociales|Les investissements publics
+QCM || Quel principe guide la politique de concurrence europÃ©enne ? || V:Interdiction des abus de position dominante|V:ContrÃ´le des aides d'Ãtat|Protectionnisme europÃ©en|Nationalisation des entreprises
+QCM || La politique agricole commune (PAC) reprÃ©sente environ || V:40% du budget europÃ©en|10% du budget europÃ©en|70% du budget europÃ©en|90% du budget europÃ©en
+QCM || Selon l'Ã©conomie comportementale, les institutions peuvent || V:Orienter les comportements par des "nudges"|Ãliminer totalement les biais|Rendre tous les agents rationnels|Supprimer les Ã©motions
+QCM || Le concept de "framing effect" montre que || V:La prÃ©sentation d'un choix influence la dÃ©cision|Les prÃ©fÃ©rences sont toujours stables|L'information parfaite existe|Les agents sont parfaitement rationnels
+QCM || Quels biais cognitifs peuvent affecter les dÃ©cisions Ã©conomiques ? || V:Biais de confirmation|V:Aversion aux pertes|V:Biais d'ancrage|RationalitÃ© parfaite
+QCM || Les institutions peuvent corriger les biais comportementaux par || V:Des rÃ¨gles automatiques|V:Des mÃ©canismes de commitment|V:De l'Ã©ducation financiÃ¨re|L'Ã©limination de tout choix
+QCM || L'indice "Doing Business" de la Banque mondiale mesure || V:La facilitÃ© de faire des affaires|Le niveau de corruption|V:L'efficacitÃ© rÃ©glementaire|La croissance Ã©conomique
+QCM || L'indice de perception de la corruption de Transparency International || V:Classe les pays selon la perception de corruption|Mesure la corruption rÃ©elle|Ãvalue les institutions financiÃ¨res|Calcule les coÃ»ts de transaction
+QCM || Quels indicateurs Ã©valuent la qualitÃ© institutionnelle ? || V:Ãtat de droit (Rule of Law)|V:EfficacitÃ© gouvernementale|V:Voix et responsabilitÃ©|PIB par habitant uniquement
+QCM || Les limites des indices institutionnels incluent || V:SubjectivitÃ© des perceptions|V:Biais culturels|V:DifficultÃ©s de comparaison|Parfaite objectivitÃ©
+QCM || Comment les institutions Ã©voluent-elles en pÃ©riode de crise ? || V:AccÃ©lÃ©ration des rÃ©formes|V:Remise en question des rÃ¨gles existantes|StabilitÃ© parfaite|V:Innovations institutionnelles
+QCM || La crise de 2008 a conduit Ã  quelles rÃ©formes institutionnelles ? || V:Renforcement de la supervision bancaire|V:CrÃ©ation du mÃ©canisme de surveillance unique (MSU)|V:Nouvelles exigences de capital|DÃ©rÃ©glementation totale
+QCM || La rÃ©silience institutionnelle dÃ©pend de || V:La capacitÃ© d'adaptation|V:La diversitÃ© des mÃ©canismes|V:L'apprentissage organisationnel|La rigiditÃ© des rÃ¨gles
+QCM || Face Ã  la pandÃ©mie COVID-19, quelles innovations institutionnelles ont Ã©mergÃ© ? || V:Coordination internationale renforcÃ©e|V:Nouveaux mÃ©canismes de solidaritÃ©|V:Digitalisation des services publics|Retour au protectionnisme uniquement
+QCM || La thÃ©orie des contrats incomplets explique || V:Pourquoi tous les contingences ne peuvent Ãªtre prÃ©vues|L'efficacitÃ© parfaite des marchÃ©s|L'inutilitÃ© des institutions|La planification totale
+QCM || Quel lien existe entre institutions et inÃ©galitÃ©s ? || V:Les institutions peuvent rÃ©duire ou amplifier les inÃ©galitÃ©s|Aucun lien|Les institutions augmentent toujours les inÃ©galitÃ©s|V:Certaines institutions redistributives
+QCM || Le concept de "institutional complementarity" suggÃ¨re que || V:Les institutions se renforcent mutuellement|Chaque institution fonctionne isolÃ©ment|La concurrence entre institutions|L'uniformitÃ© institutionnelle
+QCM || Comment mesurer l'efficacitÃ© d'une rÃ©forme institutionnelle ? || V:Impact sur les comportements Ã©conomiques|V:CoÃ»ts de mise en Åuvre|V:AcceptabilitÃ© sociale|CritÃ¨re unique de PIB
+
+QCM || SÃ©lection adverse vs alÃ©a moral : bonnes associations || V:SÃ©lection adverse = avant contrat|V:AlÃ©a moral = aprÃ¨s contrat|SÃ©lection adverse = aprÃ¨s contrat|AlÃ©a moral = avant contrat
+QCM || MarchÃ© des voitures dâoccasion (Akerlof) : effets || V:QualitÃ© moyenne baisse|V:Risque de disparition du marchÃ©|Hausse automatique de la qualitÃ©|Absence dâexternalitÃ©s
+QCM || Correctifs dâasymÃ©trie : lesquels ? || V:Labels & garanties|V:RÃ©gulation/contrats (franchises)|Supprimer lâinformation|Prix plus bas suffisent toujours
+QCM || Spence â signal : propriÃ©tÃ©s dâun bon signal || V:CoÃ»t diffÃ©rentiel selon la qualitÃ©|Observable|Imitation gratuite|V:CrÃ©dible & corrÃ©lÃ© Ã  la qualitÃ©
+QCM || Exemples de signal || V:DiplÃ´me|V:Garantie vendeur|Subvention universelle|Interdiction pure et simple
+QCM || Arrow (santÃ©) : mÃ©canismes || V:Certification/reputation|V:Assurances|Absence de contrats|Suppression de lâÃ©thique mÃ©dicale
+QCM || PiÃ¨ge : laquelle est FAUSSE ? || V:LâalÃ©a moral prÃ©cÃ¨de la signature|DiplÃ´me peut trier|Labels informent|RÃ©putation rÃ©duit lâincertitude
+QCM || Quand privilÃ©gier un contrat avec franchise ? || V:Quand lâalÃ©a moral est Ã©levÃ©|Quand info parfaite|Toujours inutile|Quand le risque est nul
+QCM || Plateformes de seconde main : quels outils rÃ©duisent la sÃ©lection adverse ? || V:Scores/rÃ©clamations publics|V:Garantie acheteur|Anonymat total|Suppression des avis
+
+QCM || Pourquoi une firme existe (Coase 1937) ? || V:RÃ©duire coÃ»ts de transaction du marchÃ©|Pour Ã©viter les salaires|Pour Ã©viter les impÃ´ts|Parce que la loi lâimpose
+QCM || ThÃ©orÃ¨me de Coase : valable siâ¦ || V:CoÃ»ts de transaction â nuls|Information parfaite inutile|Droits de propriÃ©tÃ© non dÃ©finis|Pouvoir de marchÃ© Ã©levÃ©
+QCM || Williamson â facteurs â coÃ»ts || V:SpÃ©cificitÃ© des actifs|V:Incertitude|V:Opportunisme|SubstituabilitÃ© parfaite
+QCM || Choix du mode de gouvernance || V:MarchÃ© / HiÃ©rarchie / Hybrides selon coÃ»ts|Toujours marchÃ©|Toujours intÃ©gration verticale|Toujours contrats relationnels
+QCM || Exemple : piÃ¨ce automobile trÃ¨s spÃ©cifique â choisir ? || V:IntÃ©gration/contrat long terme|Spotâmarket|Aucun contrat|Appel dâoffres quotidien
+QCM || PiÃ¨ge : laquelle est FAUSSE ? || MarchÃ© si coÃ»ts faibles|HiÃ©rarchie si actifs spÃ©cifiques|Hybrides possibles|V:Contrats sont inutiles
+QCM || Plateformes numÃ©riques : effet sur coÃ»ts ? || V:RÃ©duction recherche/nÃ©gociation|Toujours â coÃ»ts de surveillance|Ãlimination totale des coÃ»ts|Aucun impact
+
+QCM || Fonction des droits de propriÃ©tÃ© (North/Coriat-Weinstein) || RÃ©duire lâÃ©pargne|V:Aligner incitations & rÃ©duire coÃ»ts de transaction|Rendre lâinvestissement impossible|Supprimer toutes externalitÃ©s
+QCM || Ãmergence : du commun au privÃ© â thÃ¨se nÃ©oclassique || V:Privatisation via recherche dâefficience|Toujours inefficiente|Aucun rapport avec incitations|BasÃ©e sur hasard
+QCM || Hardin 1968 â tragÃ©die : configuration || V:AccÃ¨s libre + rivalitÃ© â surexploitation|AccÃ¨s restreint + nonârivalitÃ© â surexploitation|Ressource privÃ©e â toujours optimale|Rien Ã  voir avec externalitÃ©s
+QCM || Solutions type Ostrom || V:RÃ¨gles locales|V:Surveillance|V:Sanctions graduelles|Absence de participation
+QCM || PÃªcheries : leviers efficaces || V:Quotas individuels transfÃ©rables|V:Lutte pÃªche illÃ©gale|Abandon de tout contrÃ´le|V:Zones marines protÃ©gÃ©es
+QCM || OPEP â risque de dÃ©viation : pourquoi ? || V:Incitation Ã  surproduire quand prix â|Absence de coordination|Ressource infinie|Inexistence des coÃ»ts de contrÃ´le
+QCM || PiÃ¨ge : dÃ©finition des biens communs || Excluables & rivaux|Nonâexcluables & nonârivaux|V:Nonâexcluables & rivaux|Excluables & nonârivaux
+QCM || PropriÃ©tÃ© publique mondiale (idÃ©e) : objectifs || V:StabilitÃ© des prix|V:RÃ©investissement dans alternatives|SpÃ©culation libre|Suppression des quotas
+QCM || Cas pratique : forÃªt communale â que mettre en place dâabord ? || V:RÃ¨gles dâaccÃ¨s + suivi|Rien|Subvention sans contrÃ´le|Quota collectif sans sanction
+
+### ========================================
+### CHAPITRE 5 — Gouvernance
+### Sources: TRAIN_Definitions_Gouvernance_v1.txt
+@themes: Institutions, Gouvernance
+
+QCM || Selon North, une institution estâ¦ || Des organisations publiques|V:Des rÃ¨gles du jeu (formelles & informelles) encadrant les interactions|Un acteur Ã©conomique|Un marchÃ© concurrentiel
+QCM || Institution vs organisation : lesquelles sont correctes ? || V:Institution = rÃ¨gle|V:Organisation = groupe poursuivant des objectifs|Les deux sont identiques|Une organisation est forcÃ©ment publique
+QCM || Banque mondiale (annÃ©es 1990) â motsâclÃ©s de la Â« bonne gouvernance Â» || V:EfficacitÃ©|V:Responsabilisation|V:Transparence & participation|Monopole de lâÃtat central
+QCM || Gouvernance moderne : caractÃ©ristiques || V:RÃ©seaux dâacteurs|V:Pouvoirs multicentrÃ©s|HiÃ©rarchie pure|Absence dâÃtat par principe
+QCM || Confusion frÃ©quente : laquelle est FAUSSE ? || V:Les institutions sont toujours des organismes avec salariÃ©s|Les institutions structurent les incitations|Les organisations peuvent influencer les institutions|Institutions & organisations coâÃ©voluent
+QCM || Rodrik (2005) â associer || V:CrÃ©ation â droits de propriÃ©tÃ©|V:RÃ©gulation â autoritÃ©s de concurrence/BC|Stabilisation â politiques monÃ©taires/budgÃ©taires|LÃ©gitimation â protection sociale
+QCM || Indice de gouvernance/IPC et croissance : lequel est exact ? || V:Meilleure qualitÃ© institutionnelle â PIB/habitant plus Ã©levÃ© (corrÃ©lation)|Aucune relation|QualitÃ© â entraÃ®ne inflation â¬ automatiquement|CorrÃ©lation nÃ©gative systÃ©matique
+QCM || Acemoglu & Robinson â rÃ´le des institutions Ã©conomiques || Organiser seules le commerce mondial|V:RÃ©guler les interactions et les incitations|Ãliminer toutes les asymÃ©tries dâinfo|Supprimer les coÃ»ts de transaction
+
+### ========================================
+### CHAPITRE 6 — Statistiques publiques (INSEE/Eurostat/IPC)
+### Sources: TRAIN_Stats_IPC_v1.txt
+@themes: Institutions, Stats
+
+QCM || INSEE â missions clÃ©s || V:Comptes nationaux/PIB/IPC|Fixer la politique monÃ©taire|V:Recensements|V:RÃ©pertoires SIREN/SIRET/RNIPP/COG
+QCM || Eurostat â rÃ´le || V:Harmonisation UE & coordination SSE|Fixer les budgets nationaux|Collecter sans les Ãtats membres|V:ComparabilitÃ© internationale
+QCM || INED â nature/missions || V:EPST de recherche dÃ©mographique|Fixe la natalitÃ© par dÃ©cret|V:Diffusion/formation|Production de lâIPC
+QCM || IPC â construction || V:Indice de Laspeyres chaÃ®nÃ©|V:PondÃ©rations MAJ annuelles|CrÃ©dits immobiliers inclus|V:Ajustements hÃ©doniques possibles
+QCM || IPC â notions Ã  ne pas confondre || V:Â« Shrinkflation Â» = quantitÃ© â Ã  prix constant|Objectif BCE 5 %|V:PondÃ©rations reflÃ¨tent budget moyen|Prix relevÃ©s en magasin & donnÃ©es de caisse
+QCM || IndÃ©pendance/coordination || V:AutoritÃ© de la statistique publique (2008)|CNIL = organisme de lâINSEE|V:SSP coordonnÃ© par lâINSEE|Indice des loyers commerciaux existe
+QCM || Eurostat â histoire brÃ¨ve || V:CECA â CEE â renforcement pour lâeuro|CrÃ©ation 2010|RÃ´le inchangÃ© depuis 1952|Sans lien avec indicateurs europÃ©ens
+QCM || INSEE Ã  Metz ? || V:Oui, dÃ©mÃ©nagement partiel de services|Non, jamais|Exclusivement Ã  Lyon|Uniquement Ã  Bercy
+
+### ========================================
+### CHAPITRE 7 — Comptabilité (IFRS/ANC)
+### Sources: TRAIN_Comptabilite_IFRS_v1.txt
+@themes: Institutions, Compta
+
+QCM || IFRS â orientation || Vers lâÃtat dâabord|V:Vers lâinvestisseur (utilitÃ© dÃ©cisionnelle)|Vers les auditeurs|Vers les fournisseurs
+QCM || IFRS â principes (IASC 1989) || V:Pertinence|V:FiabilitÃ©|V:ComparabilitÃ©|V:ComprÃ©hensibilitÃ©
+QCM || ModÃ¨le continental vs IFRS || V:Continental â prudence/patrimonialitÃ©|V:IFRS â juste valeur/marketâbased|IFRS suppriment la volatilitÃ©|Continental = uniquement actionnaires
+QCM || ANC (France) â missions || V:RÃ¨glements comptables nationaux|V:Participation au processus IFRS|Fixer lâeuro|V:Coordonner la recherche comptable
+QCM || Ãtats financiers â finalitÃ© IFRS || Informer lâÃtat|Informer les crÃ©anciers uniquement|V:Fournir une info utile aux investisseurs|Supprimer lâaudit
+QCM || Critique frÃ©quente des IFRS || V:Prise en compte insuffisante des risques climatiques|Pas de comparabilitÃ©|Absence dâaudit|Interdiction de la juste valeur
+QCM || Juste valeur â notion || V:Valeur dâÃ©change/flux actualisÃ©s lorsque pas de marchÃ© actif|CoÃ»t historique identique|Toujours le prix dâachat|Interdite en IFRS
+QCM || PiÃ¨ge : laquelle est FAUSSE ? || IFRS pour comptes consolidÃ©s cotÃ©s|ANC = autoritÃ© publique|IASC 1973|V:Eurostat Ã©dicte les IFRS
+
+### ========================================
+### TRAIN — Comparatifs (FMI/OMC/BM) & pièges
+### Sources: TRAIN_OMC_FMI_BM_v1.txt, TRAIN_Pieges_Comparatifs_v1.txt
+@themes: Institutions, FMI, OMC, BM
+
+QCM || GATT â OMC : diffÃ©rences majeures || V:IntÃ¨gre services & ADPIC|Ne traite que des tarifs|V:ORD (rÃ¨glement diffÃ©rends) renforcÃ©|Fin du multilatÃ©ralisme
+QCM || OMC â missions || V:Cadre de rÃ¨gles & nÃ©gociation|V:Administration des diffÃ©rends|Fixer les taux de change|GÃ©rer les budgets nationaux
+QCM || FMI â rÃ´le || V:StabilitÃ© du SMI & prÃªts en crise|RÃ©gir fiscalitÃ© mondiale|Fixer politique monÃ©taire de lâUE|GÃ©rer ADPIC
+QCM || Banque mondiale â instruments || V:BIRD/AID/SFI/MIGA|CrÃ©ation de lâeuro|Taux directeurs BCE|V:Garanties & assistance
+QCM || ADPIC â correspond Ã â¦ || V:Accord sur la propriÃ©tÃ© intellectuelle|Accord agricole|Accord sur tarifs douaniers|Accord de Doha
+QCM || TSD â signifie pour PED || V:Traitement spÃ©cial & diffÃ©renciÃ©|Taux spÃ©ciaux de douane|Taxe solidaire de dÃ©veloppement|Transferts souverains directs
+QCM || Rounds du GATT : objectif central || V:RÃ©duire les barriÃ¨res au commerce|Fixer lâor Ã  35$|Unifier la fiscalitÃ©|CrÃ©er la BCE
+QCM || PiÃ¨ge : laquelle est FAUSSE ? || OMC coopÃ¨re avec FMI/BM|ORD rÃ¨gle les diffÃ©rends|V:OMC fixe les changes|GATT nÃ© en 1947
+
+QCM || Laquelle est FAUSSE ? (institutions/organisations) || V:Une institution = organisme avec salariÃ©s|Institution = rÃ¨gles|Organisation = groupe poursuivant des objectifs|CoâÃ©volution frÃ©quente
+QCM || AsymÃ©trie dâinfo â inversion || V:SÃ©lection adverse aprÃ¨s contrat|AlÃ©a moral aprÃ¨s contrat|Labels/garanties informent|Signaux coÃ»tent
+QCM || Biens : classification rapide || V:Commun = nonâexcluable & rival|Public = nonâexcluable & nonârival|PrivÃ© = excluable & rival|Club = excluable & nonârival
+QCM || IFRS vs continental â Ã©noncez le FAUX || Continental = prudence/patrimonialitÃ©|IFRS = investisseur/juste valeur|ComparabilitÃ© internationale|V:IFRS destinÃ©es dâabord Ã  lâÃtat
+QCM || OMC/FMI/BM â qui fait quoi ? || V:OMC = rÃ¨gles du commerce & diffÃ©rends|V:FMI = stabilitÃ© SMI|V:BM = dÃ©veloppement/projets|Fixer lâeuro
+QCM || Gouvernance â lequel nâappartient pas ? || EfficacitÃ©|Transparence|Responsabilisation|V:OpacitÃ©
+QCM || IPC â Ã©noncÃ© FAUX || Laspeyres chaÃ®nÃ©|PondÃ©rations MAJ|V:CrÃ©dits immobiliers inclus|Ajustements hÃ©doniques possibles
+QCM || TCE â lequel est FAUX ? || SpÃ©cificitÃ© â â intÃ©gration plus probable|Opportunisme pris en compte|V:Contrats inutiles|Arbitrage marchÃ©/hiÃ©rarchie/hybride
+
+### ========================================
+### EXAMENS — Annales
+### Sources: INSTIT_Examen_2023.txt, INSTIT_Examen_2024.txt, INSTIT_ALL.txt
+@themes: Institutions, FMI, OMC, BM, Théorie, Gouvernance, Stats, Compta
+
+QCM || Le Fond MonÃ©taire International : || a Ã©tÃ© crÃ©Ã© en juillet 1954|V:regroupe 189 pays|assure la croissance Ã©conomique mondiale|V:conditionne lâobtention de ses prÃªts Ã©conomiques Ã  des garanties financiÃ¨res
+QCM || Les ressources du Fond MonÃ©taire Internationale || comprennent de panier de devises|financent des projets de dÃ©veloppement Ã©conomiques|V:comprennent les quotes-parts des pays membres|sont constituÃ©es de stock dâor et de bronze
+QCM || La banque mondiale : || V:est une institution internationale crÃ©Ã©e le 27 dÃ©cembre 1944|est un groupe qui rÃ©unit six autres institutions|a son siÃ¨ge Ã  New York|V:a pour rÃ´le principal de lutter contre la pauvretÃ©
+QCM || Les institutions de rÃ©flexion ou thinks tanks : || V:influencent les dÃ©cideurs politiques|apparaissent entre la fin du 20Ã¨me siÃ¨cle|sont de conception franÃ§aise|V:se financent sur la base de ressources privÃ©es
+QCM || Le lobbying : || recouvre des activitÃ©s multiples dâinfluence culturelle|concerne seulement les entreprises|regroupe les partis politiques|V:renvoie Ã  tout processus dâinfluence, formel ou informel, initiÃ© par un acteur, privÃ© ou public, auprÃ¨s dâune institution publique
+QCM || Le paradoxe de Madison : || V:montre que lâinterdiction des lobbies (et du lobbying) serait contraire aux principes rÃ©publicains|cherche Ã  renforcer le poids de certains lobbies|veut combattre les dÃ©rives du lobbying en encourageant leur gÃ©nÃ©ralisation|gÃ©nÃ©ralise la pratique du lobbying en Europe
+QCM || Les institutions : || V:forment lâensemble des rÃ¨gles formelles et informelles rÃ©gissant les comportements des individus et des organisations|reprÃ©sentent des organisations politique, Ã©conomique, sociale ou religieuse|se confondent avec les organisations|sont dÃ©pendantes des organisations et sâinfluencent mutuellement
+QCM || La gouvernance Ã©conomique : || V:occupe une place de choix dans lâanalyse mÃ©thodique des politiques publiques, de la gestion, de la sociologie des organisations et des associations culturelles|V:comprend les relations internationales, les rÃ©gulations Ã©conomiques et le rapport aux pouvoirs locaux|est un concept remis en avant par le FMI dans les annÃ©es 1990|est un concept remis en avant par la Banque mondiale dans les annÃ©es 2000
+QCM || LâOrganisation mondiale du commerce a succÃ©dÃ© : || au FMI|V:au GATT|Ã  Bretton Woods|Ã  lâOCDE
+QCM || LâINSEE : || a Ã©tÃ© crÃ©Ã© par la loi de finances du 27 avril 1948|V:est un organisme exclusivement de statistiques nationales|est un outil au service de la comptabilitÃ© analytique|V:a dÃ©mÃ©nagÃ© une partie de ses locaux Ã  Metz depuis 2011
+QCM || LâINSEE gÃ¨re : || la base des rÃ©pertoires des personnes morales (BRPM)|V:le rÃ©pertoire national dâidentification des personnes physiques (RNIPP) appelÃ© communÃ©ment numÃ©ro de sÃ©curitÃ© sociale|le fichier gÃ©nÃ©ral des grands Ã©lecteurs (FGE)|la base de donnÃ©es des professions juridiques (BDPJ)
+QCM || Les normes IFRS : || V:sâappliquent aux sociÃ©tÃ©s cotÃ©es pour leurs comptes consolidÃ©s (Ã©tats financiers des groupes dâentreprises)|comprennent les normes de comptabilitÃ© nationale|sâappuient sur les normes de comptabilitÃ© europÃ©enne|rendent nÃ©cessaire lâintervention dâune entitÃ© Ã©tatique
+QCM || Les principes de la comptabilitÃ© franÃ§aise reposent : || le coÃ»t marginal|la frÃ©quence des mÃ©thodes|V:image sincÃ¨re|V:indÃ©pendance des exercices
+QCM || Les normes comptables internationales IFRS reposent sur les principes suivants : || V:pertinence|rationalitÃ©|prÃ©visibilitÃ©|intÃ©gritÃ©
+QCM || LâOrganisation mondiale du commerce a pour mission : || de servir de cadre aux nÃ©gociations politiques|de veiller Ã  la mise en Åuvre des accords de Paris|V:dâadministrer les procÃ©dures de rÃ¨glement des diffÃ©rends des conflits commerciaux|de coopÃ©rer avec lâONU
+
+QCM || Selon Douglas North, qu'est-ce qu'une institution ? || Un groupe dâindividus poursuivant un but commun|V:Un ensemble de rÃ¨gles de jeu structurant les interactions humaines|Une organisation internationale|Un acteur Ã©conomique clÃ©
+QCM || Quel rÃ´le jouent les institutions Ã©conomiques selon Acemoglu et Robinson ? || Organiser la gouvernance mondiale|V:RÃ©guler les interactions humaines dans le domaine Ã©conomique|Assurer le commerce international|Ãliminer les asymÃ©tries dâinformation
+QCM || Quels sont les mots clÃ©s associÃ©s Ã  la bonne gouvernance selon la Banque mondiale ? || ProductivitÃ© et innovation|V:EfficacitÃ©, responsabilisation, participation et transparence|Croissance, stabilitÃ©, et dÃ©veloppement durable|ÃgalitÃ©, justice, et inclusion
+QCM || Comment la sÃ©lection adverse peut-elle affecter un marchÃ© ? || En augmentant les prix|En supprimant les mauvaises options du marchÃ©|V:En entraÃ®nant une disparition progressive des produits de bonne qualitÃ©|En amÃ©liorant la transparence du marchÃ©
+QCM || Selon Garrett Hardin, quâest-ce qui cause la tragÃ©die des biens communs ? || Le manque dâinnovation|V:Lâabsence de droits de propriÃ©tÃ© sur les ressources partagÃ©es|La sur-rÃ©glementation des marchÃ©s|Les asymÃ©tries dâinformation
+QCM || Quel est lâobjectif principal de la thÃ©orie des droits de propriÃ©tÃ© ? || Maximiser les profits des entreprises|V:Fournir des incitations Ã  valoriser les ressources|Encourager la privatisation totale des biens communs|RÃ©duire les asymymÃ©tries dâinformation
+QCM || Ã quoi servent principalement les normes IFRS ? || Simplifier la fiscalitÃ© internationale|V:Harmoniser la communication financiÃ¨re au niveau international|Augmenter les bÃ©nÃ©fices des entreprises|Ãliminer les coÃ»ts dâaudit
+QCM || Quelle est lâune des critiques majeures des normes IFRS ? || Leur manque de transparence|Leur incompatibilitÃ© avec le modÃ¨le anglo-saxon|V:Leur absence de prise en compte des enjeux climatiques|Leur complexitÃ© excessive
+QCM || Quel est le rÃ´le principal de lâOMC ? || RÃ©guler les marchÃ©s financiers|Promouvoir les normes environnementales|V:RÃ©gir les rÃ¨gles du commerce mondial|
+QCM || Quelle est la mission principale de lâINSEE ? || Surveiller les marchÃ©s financiers|V:Fournir des donnÃ©es statistiques sur lâÃ©conomie et la sociÃ©tÃ© franÃ§aises|GÃ©rer les politiques budgÃ©taires de lâÃtat|RÃ©guler les entreprises cotÃ©es
+QCM || Quand lâINSEE a-t-il Ã©tÃ© crÃ©Ã© ? || V:1946|1958|1984|1973
+QCM || Quelle solution peut rÃ©duire les asymÃ©tries dâinformation sur le marchÃ© du travail ? || LâalÃ©a moral|La publicitÃ©|V:Les signaux tels que les diplÃ´mes|Les quotas dâembauche
+QCM || Quel problÃ¨me la thÃ©orie de la sÃ©lection adverse tente-t-elle de rÃ©soudre ? || Les mauvaises dÃ©cisions des consommateurs|V:La disparition de produits de qualitÃ© sur un marchÃ©|Lâopportunisme des entreprises|Lâaugmentation des prix
+QCM || Quels biens sont caractÃ©risÃ©s par une non-excluabilitÃ© et une rivalitÃ© dâusage ? || Les biens privÃ©s|Les biens publics|V:Les biens communs|Les biens de club
+QCM || Quelle solution institutionnelle peut Ã©viter la tragÃ©die des biens communs ? || La taxation|V:La privatisation ou la gestion collective des ressources|Lâabolition des quotas de production|La dÃ©rÃ©glementation
+QCM || Quel est lâobjectif principal des Ã©tats financiers selon les normes IFRS ? || V:RÃ©pondre aux besoins des investisseurs|RÃ©duire les coÃ»ts de production|Faciliter les relations entre actionnaires et employÃ©s|Renforcer les politiques publiques
+QCM || Quelles sont les quatre caractÃ©ristiques qualitatives des Ã©tats financiers selon lâIASC (1989) ? || Transparence, rÃ©gularitÃ©, neutralitÃ©, sincÃ©ritÃ©|V:Pertinence, fiabilitÃ©, comparabilitÃ©, comprÃ©hensibilitÃ©|SimplicitÃ©, lisibilitÃ©, flexibilitÃ©, robustesse|ProductivitÃ©, efficience, exactitude, simplicitÃ©
+QCM || Quel est le rÃ´le principal du FMI ? || Promouvoir le commerce international|V:Fournir des prÃªts pour stabiliser les Ã©conomies en difficultÃ©|GÃ©rer les normes comptables internationales|
+QCM || Quelle est la mission principale de lâOMC ? || RÃ©guler les flux migratoires|V:Promouvoir un commerce ouvert et Ã©quitable|Superviser les systÃ¨mes monÃ©taires|Harmoniser les systÃ¨mes fiscaux nationaux
+QCM || Quel accord de lâOMC traite des droits de propriÃ©tÃ© intellectuelle ? || Accord de Doha|V:Accord sur les ADPIC|Accord sur lâagriculture|Accord gÃ©nÃ©ral sur les tarifs douaniers
+
+QCM || PremiÃ¨res institutions Ã©conomiques antiquitÃ© || V:Organisation Ã©changes et rÃ©gulation monÃ©taire|Banques modernes|Bourses actions|Corporations mÃ©tiers
+QCM || RÃ´les principaux Ãtat Ã©poque romaine || V:ContrÃ´le Ã©mission monÃ©taire et gestion import|Politique sociale|Ãducation publique|SantÃ© publique
+QCM || Empire romain : objectif Ã©conomique || Autarcie complÃ¨te|V:Favoriser commerce au sein empire|Interdire Ã©changes|Limiter marchÃ©s
+QCM || ConsÃ©quence commerce empire romain || Disparition marchÃ©s|V:Naissance marchÃ©s locaux|Centralisation totale|Planification Ã©tatique
+QCM || Moyen-Ãge Europe : dÃ©veloppements || V:Corporations mÃ©tiers et guildes|Banques modernes|MarchÃ©s financiers|Assurances vie
+QCM || Moyen-Ãge : crÃ©ation institutions || V:Banques et bourses primitives|Banques centrales|MarchÃ©s dÃ©rivÃ©s|Hedge funds
+QCM || CaractÃ¨re institutions moyen-Ã¢ge || TrÃ¨s structurÃ©es|V:Pas forcÃ©ment structurÃ©es, rÃ¨gles informelles|Toujours formelles|Uniquement Ã©tatiques
+QCM || Exemples institutions informelles Ã©poque || V:BCE, FMI etc. mais informel|Seulement locales|Uniquement religieuses|Pas d'exemples
+QCM || Objectif guildes || LibÃ©raliser accÃ¨s|V:RÃ©guler accÃ¨s professions, interdire certains mÃ©tiers|Faciliter commerce|CrÃ©er emplois
+QCM || Pouvoir corporation bouchers Paris || Ãconomique uniquement|V:Fort pouvoir politique|Seulement local|Aucun pouvoir
+QCM || Fonctions banques Ã©poque vs aujourd'hui || Identiques|V:Pas mÃªmes fonctions qu'aujourd'hui, pas titres|Plus dÃ©veloppÃ©es|Plus simples
+QCM || RÃ´le bourses primitives || CrÃ©dit personnel|V:Ãchanger devises, effets commerce, fixer cours marchandises|Assurance vie|Ãpargne retraite
+QCM || ConsÃ©quence fixation cours bourses || Concurrence pure|V:Oligopole|Monopole Ã©tatique|MarchÃ© parfait
+QCM || RÃ´le institution Ãglise || Ãconomique direct|V:Consultation|RÃ©glementation|Production
+QCM || XVIe-XVIIIe : naissance || CitÃ©s-Ãtats|V:Ãtats modernes - monarchies centralisÃ©es|RÃ©publiques|FÃ©dÃ©rations
+QCM || Exemples Ãtats modernes || Italie, Allemagne|V:France, Espagne, Angleterre|Russie, Pologne|SuÃ¨de, NorvÃ¨ge
+QCM || CapacitÃ© Ãtats modernes || RÃ©gulation locale|V:RÃ©guler Ã©conomie maniÃ¨re structurÃ©e, plus rÃ¨gles, plus grand territoire|Moins de contrÃ´le|MÃªme capacitÃ© qu'avant
+QCM || Ordre chronologique dÃ©veloppement || V:Ãtats modernes puis colonial|Colonial puis Ãtats modernes|SimultanÃ©|Inverse selon pays
+QCM || PremiÃ¨res institutions coloniales || Caritatives|V:But Ã©conomique - Compagnie des Indes|Militaires|Religieuses
+QCM || SystÃ¨me colonial relie || Europe-Afrique|V:Asie et Europe|AmÃ©rique-Europe|Afrique-Asie
+QCM || ConsÃ©quence Ã©changes coloniaux || Autarcie|V:Premiers dÃ©bats Ã©conomiques|Isolement|Uniformisation
+QCM || DÃ©bat Ã©conomique Ã©poque || LibÃ©raux vs socialistes|V:Mercantilistes vs physiocrates|KeynÃ©siens vs monÃ©taristes|Classiques vs nÃ©oclassiques
+QCM || DÃ©finition institution selon North (1991) || Organisation publique gÃ©rant Ã©conomie|Ensemble rÃ¨gles formelles uniquement|V:RÃ¨gles jeu sociÃ©tÃ©, contraintes conÃ§ues hommes structurant interaction|Entreprise grande taille
+QCM || DiffÃ©rence organisation vs institution || Organisations publiques, institutions privÃ©es|V:Organisations = joueurs, institutions = rÃ¨gles jeu|Organisations formelles, institutions informelles|Aucune diffÃ©rence
+QCM || Qui redÃ©finit institutions 1998 incluant organisations || Douglas North|V:Banque Mondiale|Dani Rodrik|Oliver Williamson
+DragMatch || Associe chaque famille d'institutions (Rodrik) Ã  son rÃ´le || CrÃ©ation de marchÃ©:Droits de propriÃ©tÃ© et systÃ¨me juridique, RÃ©gulation du marchÃ©:AutoritÃ©s de rÃ©gulation et contrÃ´le, Stabilisation du marchÃ©:Institutions monÃ©taires et budgÃ©taires, LÃ©gitimation du marchÃ©:Protection sociale et redistribution
+QCM || Path dependence signifie || DÃ©pendance aux importations|V:DÃ©pendance au sentier, influence passÃ© sur choix prÃ©sents|DÃ©pendance technologique|DÃ©pendance financiÃ¨re
+QCM || Institutions formelles comprennent || Coutumes et traditions|V:Constitutions, lois, droits propriÃ©tÃ©|Codes conduite informels|Sanctions sociales
+QCM || Institutions informelles comprennent || Constitutions et lois|Droits de propriÃ©tÃ©|V:Sanctions, tabous, coutumes, traditions|RÃ©glementations officielles
+QR || Quel auteur a mis en avant le rÃ´le des institutions (rÃ¨gles du jeu) et du path dependence dans le dÃ©veloppement Ã©conomique ? || V:Douglas North|Oliver Williamson|Ronald Coase|George Akerlof
+QCM || Williamson 1975 contribution || CrÃ©ation institutions|V:Gouvernance et rÃ©solution conflits|Mesure corruption|Droits propriÃ©tÃ©
+QCM || Importance institutions selon thÃ©orie || GÃ©nÃ¨rent profits|V:RÃ©duisent incertitude, structurent interactions|CrÃ©ent emploi|Augmentent croissance automatiquement
+QCM || CaractÃ©ristique principale gouvernance moderne || Renforcement Ãtat central|V:DÃ©sengagement Ãtat central, pluralitÃ© acteurs|Centralisation dÃ©cisions|Ãlimination secteur privÃ©
+QCM || Mode dÃ©cision gouvernance moderne || VerticalitÃ© hiÃ©rarchique|V:DÃ©cision en rÃ©seau vs verticalitÃ© traditionnelle|AutoritÃ© centralisÃ©e|Bureaucratie renforcÃ©e
+QCM || Type coordination gouvernance || Verticale|V:Coordination horizontale|HiÃ©rarchique|CentralisÃ©e
+QCM || MÃ©thode gouvernance moderne || AutoritÃ©|V:NÃ©gociation et compromis|Contrainte|Commandement
+QCM || Acteurs gouvernance moderne || Public uniquement|PrivÃ© uniquement|V:PluralitÃ© - public, privÃ©, sociÃ©tÃ© civile|Internationaux uniquement
+QCM || Premier principe bonne gouvernance || V:EfficacitÃ© - optimisation ressources|AutoritÃ©|HiÃ©rarchie|Profit
+QCM || DeuxiÃ¨me principe bonne gouvernance || EfficacitÃ©|V:Responsabilisation - accountability acteurs|ContrÃ´le|Croissance
+QCM || TroisiÃ¨me principe bonne gouvernance || EfficacitÃ©|Responsabilisation|V:Transparence - accÃ¨s information|SimplicitÃ©
+QCM || Autres principes gouvernance || V:Participation, Ãtat de droit|Profit, compÃ©titivitÃ©|StabilitÃ©, sÃ©curitÃ©|AutoritÃ©, contrÃ´le
+QCM || L'indice de perception de la corruption (Transparency International) Ã©value principalement quoi ? || V:La perception de la corruption dans le secteur public|Le niveau de PIB|Le taux d'inflation|La taille de la population
+QCM || Parmi les Ã©lÃ©ments suivants, lesquels correspondent Ã  des critÃ¨res utilisÃ©s par Transparency International ? || V:AccÃ¨s Ã  la justice, transparence budgÃ©taire, application des lois|Taux de natalitÃ©, solde migratoire, taille du territoire|Altitude moyenne, climat, densitÃ©|Nombre d'universitÃ©s publiques
+DragMatch || Associe chaque critÃ¨re de gouvernance Ã  son idÃ©e-clÃ© || AccÃ¨s Ã  la justice:Recours effectif et accÃ¨s aux tribunaux, Transparence budgÃ©taire:Publication claire des budgets, Application des lois:EffectivitÃ© des rÃ¨gles et des contrÃ´les, CapacitÃ© de sanctions:Sanctionner les manquements, LibertÃ© d'expression:Protection de la parole et des mÃ©dias
+QCM || Accountability en gouvernance || Transparence financiÃ¨re|V:Responsabilisation des acteurs|EfficacitÃ© Ã©conomique|Participation citoyenne
+QCM || Ãtat de droit signifie || Domination Ãtat|V:Respect des rÃ¨gles Ã©tablies|AutoritÃ© judiciaire|RÃ©glementation excessive
+QCM || DÃ©veloppeur thÃ©orie sÃ©lection adverse 1970 || Kenneth Arrow|Michael Spence|V:George Akerlof|Oliver Williamson
+QCM || MarchÃ© "lemons" Akerlof concerne || MarchÃ© fruits|V:MarchÃ© voitures occasion mauvaise qualitÃ©|MarchÃ© immobilier|MarchÃ© travail
+QCM || Timing information cachÃ©e sÃ©lection adverse || V:Avant la transaction|AprÃ¨s transaction|Pendant transaction|Pas information cachÃ©e
+QCM || MÃ©canisme sÃ©lection adverse || Information rÃ©vÃ©lÃ©e|V:Information cachÃ©e avant transaction|Information parfaite|Information symÃ©trique
+QCM || ConsÃ©quence sÃ©lection adverse || Augmentation prix|V:Produits mauvaise qualitÃ© chassent bons du marchÃ©|AmÃ©lioration qualitÃ©|Disparition vendeurs
+QCM || RÃ´le prix sÃ©lection adverse || Fonctionne normalement|V:Prix ne joue plus son rÃ´le de signal qualitÃ©|Prix augmente|Prix diminue
+QCM || ConsÃ©quence extrÃªme sÃ©lection adverse || Augmentation prix|AmÃ©lioration qualitÃ©|V:Effondrement complet du marchÃ©|RÃ©gulation automatique
+QCM || AlÃ©a moral dÃ©finition || ProblÃ¨me Ã©thique entreprise|V:Modification comportement aprÃ¨s engagement contractuel|Risque marchÃ© financier|AsymÃ©trie avant contrat
+QCM || Timing information cachÃ©e alÃ©a moral || Avant transaction|V:AprÃ¨s la transaction|Pendant nÃ©gociation|Pas information cachÃ©e
+QCM || Exemple classique alÃ©a moral || Achat voiture occasion|V:Conduite plus risquÃ©e aprÃ¨s souscription assurance auto|NÃ©gociation salariale|Vente bien immobilier
+QCM || AlÃ©a moral assurance santÃ© || SÃ©lection meilleurs risques|V:Consommation mÃ©dicale excessive|Augmentation primes automatique|RÃ©duction offre
+QCM || DÃ©veloppeurs thÃ©orie signaux || George Akerlof|V:Arrow et Spence|Douglas North|Oliver Williamson
+QCM || Fonction signal selon Spence || Cacher information|V:Communiquer qualitÃ© de maniÃ¨re coÃ»teuse|RÃ©duire prix|Ãliminer concurrence
+QCM || Condition signal efficace || Gratuit|V:CoÃ»t du signal corrÃ©lÃ© Ã  la qualitÃ©|Obligatoire|Permanent
+QCM || Exemple signal marchÃ© travail || ExpÃ©rience professionnelle|V:DiplÃ´me comme signal productivitÃ©|Ãge candidat|Lieu rÃ©sidence
+QCM || Relation diplÃ´me/chÃ´mage observÃ©e || CorrÃ©lation positive|V:CorrÃ©lation nÃ©gative (plus diplÃ´me, moins chÃ´mage)|Aucune corrÃ©lation|CorrÃ©lation variable
+QCM || Signaux coÃ»teux Spence || V:Signaux coÃ»teux pour communiquer qualitÃ©|Signaux gratuits plus efficaces|Signaux inutiles|Signaux trompeurs
+QCM || Formalisation tragÃ©die biens communs 1968 || Ronald Coase|Elinor Ostrom|V:Garrett Hardin|Oliver Williamson
+QCM || Origine tragÃ©die biens communs || ExcÃ¨s rÃ©glementation|V:Surexploitation due absence incitation conservation|Privatisation excessive|Nationalisation
+QCM || Logique tragÃ©die biens communs || Collective optimale|V:Logique individuelle vs collective|Coordination parfaite|Altruisme
+QCM || CritÃ¨res classification biens || Prix et qualitÃ©|V:RivalitÃ© et excluabilitÃ©|Public et privÃ©|National et international
+QCM || Bien rival dÃ©finition || Bien cher|V:Consommation par agent rÃ©duit disponibilitÃ© pour autres|Bien rare|Bien rÃ©glementÃ©
+QCM || Bien excluable dÃ©finition || Bien interdit|Bien exportÃ©|V:PossibilitÃ© empÃªcher certains agents de consommer|Bien mauvaise qualitÃ©
+QCM || Nombre types biens rivalitÃ©/excluabilitÃ© || 2|3|V:4|5
+QCM || Types biens selon classification || Public, privÃ©|V:PrivÃ©, public, club, commun|National, international|MatÃ©riel, immatÃ©riel
+QCM || Solution 1 tragÃ©die biens communs || Laisser faire marchÃ©|V:Privatisation - attribution droits propriÃ©tÃ©|Augmenter accÃ¨s libre|RÃ©duire demande
+QCM || Solution 2 tragÃ©die biens communs || Privatisation|V:Gestion collective - rÃ¨gles communautaires|Nationalisation|LibÃ©ralisation
+QCM || Solution 3 tragÃ©die biens communs || Privatisation|Gestion collective|V:RÃ©gulation publique - intervention Ãtat|DÃ©rÃ©gulation
+VF || Une part importante des stocks halieutiques est sous pression, ce qui justifie des outils de gestion comme les quotas et la surveillance. || V
+QCM || Gestion pÃªcheries mÃ©thodes || AccÃ¨s libre total|V:Quotas, sanctions, surveillance|Privatisation individuelle uniquement|Interdiction complÃ¨te
+QCM || OPEP gisements pÃ©troliers illustre || TragÃ©die pure|V:Solution par cartel et quotas production|Ãchec coordination|Bien public pur
+QCM || ThÃ©orÃ¨me Coase allocation optimale || Intervention Ãtat|V:Droits propriÃ©tÃ© dÃ©finis et coÃ»ts transaction nuls|Concurrence parfaite|RÃ©glementation stricte
+QCM || Coase 1960 Ã©nonce || MarchÃ©s toujours efficients|V:Si droits propriÃ©tÃ© dÃ©finis et coÃ»ts transaction nuls, allocation optimale|Ãtat doit toujours intervenir|Firmes dominent marchÃ©s
+QCM || DÃ©veloppeur thÃ©orie coÃ»ts transaction || Douglas North|V:Ronald Coase|George Akerlof|Michael Spence
+QCM || Coase 1937 existence firmes || Maximiser profits|V:Organisation interne moins coÃ»teuse que marchÃ©|CrÃ©er emploi|Innover
+QCM || Ãcole thÃ©orique coÃ»ts transaction || KeynÃ©sienne|V:Ãcole nÃ©o-institutionnelle|MonÃ©tariste|Classique
+QCM || Williamson facteurs coÃ»ts transaction || Taille entreprises|V:SpÃ©cificitÃ© actifs, incertitude, opportunisme|Concurrence|RÃ©glementation
+QCM || SpÃ©cificitÃ© actifs selon Williamson || Actifs trÃ¨s chers|V:Investissements spÃ©cialisÃ©s difficiles Ã  redÃ©ployer|Actifs publics|Actifs Ã©trangers
+QCM || Incertitude facteur coÃ»ts || Certitude parfaite|V:ImprÃ©visibilitÃ© de l'environnement|StabilitÃ© totale|Information parfaite
+QCM || Opportunisme Williamson || Saisir bonnes affaires|V:Comportement intÃ©ressÃ© avec ruse|Innovation|FlexibilitÃ©
+QCM || RationalitÃ© limitÃ©e || IrrationalitÃ© agents|RationalitÃ© parfaite|V:CapacitÃ©s cognitives bornÃ©es individus|RationalitÃ© collective
+QCM || PrivilÃ©gier firme vs marchÃ© quand || CoÃ»ts transaction faibles|V:CoÃ»ts transaction Ã©levÃ©s|Concurrence parfaite|Information parfaite
+VF || Oliver Williamson a fortement contribuÃ© Ã  la thÃ©orie des coÃ»ts de transaction et Ã  l'analyse de la gouvernance. || V
+VF || L'INSEE a pour missions la collecte, la production et la diffusion de statistiques publiques. || V
+QCM || De qui relÃ¨ve institutionnellement l'INSEE ? || MinistÃ¨re de l'intÃ©rieur|MinistÃ¨re de l'Ã©ducation|Premier ministre|V:MinistÃ¨re de l'Ã©conomie
+QR || Quel a Ã©tÃ© un impact majeur de la transition numÃ©rique pour l'INSEE ? || V:Un accÃ¨s facilitÃ© aux donnÃ©es et de nouveaux modes de collecte|La fin des publications|La disparition des enquÃªtes|L'arrÃªt des sÃ©ries longues
+QCM || Mission INSEE || Production uniquement|V:Collecte, production, diffusion statistiques|Collecte uniquement|Diffusion uniquement
+QCM || Quelle est la logique de construction de l'IPC (Indice des prix Ã  la consommation) ? || V:Un panier reprÃ©sentatif de biens et services et des relevÃ©s rÃ©guliers de prix|Uniquement des donnÃ©es financiÃ¨res|Un indice basÃ© seulement sur les loyers|Une enquÃªte annuelle sans relevÃ©s de prix
+QCM || Dans l'IPC, pourquoi regrouper des produits en Â« postes Â» ? || V:Pour agrÃ©ger des produits homogÃ¨nes et faciliter la mesure|Pour Ã©liminer les produits chers|Pour surpondÃ©rer l'alimentation|Pour exclure le logement
+QCM || Ã quoi sert la nomenclature COICOP dans l'IPC ? || V:Classer les dÃ©penses de consommation par finalitÃ©|Indexer les salaires|Fixer les taux d'intÃ©rÃªt|Ãvaluer la production industrielle
+QCM || COICOP signification || Committee Individual Consumption Products|V:Classification Individual Consumption by Purpose|Council International Consumer Price|Commission Individual Consumer Protection
+QCM || Pourquoi le poste Â« logement Â» est-il dÃ©licat Ã  mesurer dans l'IPC ? || V:Parce que la dÃ©pense de logement perÃ§ue peut Ãªtre sous-reprÃ©sentÃ©e par la mÃ©thodologie|Parce qu'il n'existe aucun loyer|Parce que le logement est un bien public pur|Parce que les loyers ne varient jamais
+QCM || Shrinkflation dÃ©finition || Baisse gÃ©nÃ©rale prix|V:RÃ©duction quantitÃ© sans changement prix|Inflation trÃ¨s faible|DÃ©flation structurelle
+QCM || Effet qualitÃ© IPC || Bien captÃ©|V:AmÃ©lioration produits non captÃ©e|SurÃ©valuÃ©|IgnorÃ© volontairement
+QCM || Ajustements hÃ©doniques || Correction saisonniÃ¨re|V:DÃ©composition prix selon attributs produit|PondÃ©ration gÃ©ographique|Lissage temporel
+QCM || DÃ©fi Ã©conomie numÃ©rique INSEE || CoÃ»t collecte|V:GratuitÃ© apparente et nouveaux modÃ¨les Ã©conomiques|RapiditÃ© Ã©volutions|ComplexitÃ© technique seule
+QCM || Limite principale IPC || Trop volatile|V:DÃ©calage entre inflation perÃ§ue et mesurÃ©e|Couvre pas assez produits|PubliÃ© trop tard
+QCM || Biais substitution IPC || Bien gÃ©rÃ©|V:DifficultÃ© avec changements habitudes consommation|Inexistant|SurestimÃ©
+QCM || Quel est le rÃ´le principal d'Eurostat ? || V:Harmoniser les statistiques europÃ©ennes et produire des indicateurs comparables|Fixer les politiques monÃ©taires|GÃ©rer les banques centrales|Surveiller directement l'inflation
+QCM || Eurostat appuie les politiques de l'Union europÃ©enne en produisant des statistiques harmonisÃ©es comparables entre pays. || V:Vrai|Faux|â|â
+QCM || SiÃ¨ge Eurostat || Bruxelles|Strasbourg|V:Luxembourg|Francfort
+QCM || Pourquoi l'harmonisation statistique est-elle essentielle au sein de l'UE ? || V:Pour comparer les pays et suivre des rÃ¨gles communes|Pour manipuler les chiffres|Pour remplacer les instituts nationaux|Pour abolir la diversitÃ© des mÃ©thodes scientifiques
+QCM || RÃ´le crucial Eurostat euro || Fixer taux change|V:VÃ©rification critÃ¨res convergence|GÃ©rer politique monÃ©taire|ContrÃ´ler inflation directement
+QCM || Surveillance budgÃ©taire Eurostat || Politique monÃ©taire|V:DÃ©ficit et dette publique|Politique commerciale|Politique agricole uniquement
+QCM || Mission principale Eurostat || DÃ©finir politique Ã©conomique europÃ©enne|V:Harmonisation statistiques europÃ©ennes|ContrÃ´ler banques centrales|GÃ©rer budget europÃ©en
+QCM || Coordination Eurostat || Politiques fiscales nationales|V:Instituts statistiques nationaux|Banques centrales nationales|Parlements nationaux
+QCM || Support politiques UE || Une seule politique|V:Support aux politiques UE gÃ©nÃ©rales|Politique agricole uniquement|Politique commerciale uniquement
+QCM || Indicateurs harmonisÃ©s || Nationaux uniquement|V:Production indicateurs europÃ©ens|Locaux uniquement|Sectoriels uniquement
+QCM || AnnÃ©e crÃ©ation INED || V:1945|1946|1947|1950
+QCM || Fondateur INED || Jean Monnet|V:Alfred Sauvy|Pierre MendÃ¨s France|RenÃ© Cassin
+QCM || Terme inventÃ© Alfred Sauvy || Ãconomie sociale marchÃ©|V:Tiers-Monde|Ãtat-providence|DÃ©veloppement durable
+QCM || Statut INED depuis 1986 || MinistÃ¨re|V:EPST - Ãtablissement Public Scientifique et Technologique|Association|Entreprise publique
+QCM || EPST signification || Ãtablissement Public SpÃ©cialisÃ© Technique|V:Ãtablissement Public Scientifique et Technologique|Ãtablissement Public SupÃ©rieur Technique|Ãtablissement Public Service Territorial
+QCM || Tutelles INED || Ãconomie uniquement|V:MinistÃ¨res recherche et affaires sociales|IntÃ©rieur uniquement|Ãducation uniquement
+QCM || Mission 1 INED || Statistiques Ã©conomiques|V:Recherche dÃ©mographique|Politique Ã©conomique|RÃ©gulation financiÃ¨re
+QCM || Mission 2 INED || Formation gÃ©nÃ©rale|V:Expertise pour politiques publiques|ContrÃ´le qualitÃ©|Audit public
+QCM || Mission 3 INED || Recherche privÃ©e|V:Diffusion connaissances|Collecte taxes|RÃ©glementation
+QCM || Mission 4 INED || ContrÃ´le entreprises|V:Formation chercheurs|Inspection|Certification
+QCM || Type institution INED (Rodrik) || CrÃ©ation marchÃ©|RÃ©gulation marchÃ©|Stabilisation marchÃ©|V:LÃ©gitimation marchÃ©
+QCM || Fonction lÃ©gitimation INED || ContrÃ´le|V:Fournit expertise pour justifier politiques publiques|Sanction|RÃ©glementation
+QCM || Quel est l'objectif principal des IFRS ? || V:AmÃ©liorer la transparence et la comparabilitÃ© des Ã©tats financiers|RÃ©duire le nombre d'entreprises cotÃ©es|Supprimer les audits|Uniformiser les fiscalitÃ©s
+QCM || Quel organisme indÃ©pendant Ã©labore les IFRS ? || V:L'IASB (International Accounting Standards Board)|La Banque mondiale|Le FMI|La BCE
+QCM || En Europe, les IFRS sont appliquÃ©es aux comptes consolidÃ©s des sociÃ©tÃ©s cotÃ©es. || V:Vrai|Faux|â|â
+QCM || Dans une approche comptable de type Â« continental Â», quel principe est central ? || V:La prudence comptable|La juste valeur|La volatilitÃ©|L'absence d'amortissement
+QCM || Dans les systÃ¨mes comptables de tradition continentale, quelle protection est davantage mise en avant ? || V:La protection des crÃ©anciers|La seule protection des investisseurs|La protection des managers|La neutralitÃ© totale
+QCM || Dans la logique continentale, les entreprises se financent historiquement surtout via : || V:Les banques et parfois l'Ãtat|Uniquement les marchÃ©s financiers|Exclusivement l'autofinancement|Des plateformes de dons
+QCM || Un trait saillant du modÃ¨le continental est : || V:Le conservatisme (moins de volatilitÃ© comptable)|La surÃ©valuation systÃ©matique|L'absence de rÃ¨gles|La crÃ©ativitÃ© sans limite
+QCM || Quelle base dâÃ©valuation privilÃ©gie classiquement le modÃ¨le continental ? || V:Le coÃ»t historique|La juste valeur|La valeur liquidative|La valeur de rÃ©alisation immÃ©diate
+QCM || Le modÃ¨le anglo-saxon cherche avant tout Ã  : || V:Fournir une information utile Ã  la dÃ©cision des investisseurs|ProtÃ©ger uniquement les crÃ©anciers|Supprimer l'information sectorielle|RÃ©duire l'audit
+QCM || Dans les systÃ¨mes anglo-saxons, le financement s'appuie davantage sur : || V:Les marchÃ©s financiers|Uniquement les banques|La fiscalitÃ©|Les coopÃ©ratives
+QCM || Une caractÃ©ristique associÃ©e au rÃ©fÃ©rentiel anglo-saxon est : || V:La transparence et la rÃ©activitÃ©|L'opacitÃ©|La rigiditÃ© extrÃªme|L'absence de comparabilitÃ©
+QCM || Quelle base d'Ã©valuation est plus frÃ©quente dans le modÃ¨le anglo-saxon ? || V:La juste valeur|Le coÃ»t historique|La valeur d'usage|Le coÃ»t moyen pondÃ©rÃ©
+QCM || En France, quel est l'organisme chargÃ© d'Ã©laborer les normes comptables et de participer aux travaux internationaux ? || V:L'ANC (AutoritÃ© des Normes Comptables)|La Cour des comptes|La DGFiP|La CNIL
+DragMatch || Associe chaque principe comptable franÃ§ais Ã  sa dÃ©finition || Image fidÃ¨le:Reflet de la rÃ©alitÃ© Ã©conomique, RÃ©gularitÃ© et sincÃ©ritÃ©:ConformitÃ© aux rÃ¨gles Ã©tablies, ContinuitÃ© d'exploitation:L'entreprise poursuit son activitÃ©, Permanence des mÃ©thodes:StabilitÃ© des mÃ©thodes dans le temps, CoÃ»t historique:Valeur d'acquisition initiale, IndÃ©pendance des exercices:Rattachement Ã  la pÃ©riode concernÃ©e, Prudence:Anticiper les pertes sans anticiper les gains
+QCM || Image fidÃ¨le signifie || BeautÃ© comptes|V:Reflet de la rÃ©alitÃ© Ã©conomique|SimplicitÃ©|ClartÃ© formelle
+QCM || RÃ©gularitÃ© et sincÃ©ritÃ© || Innovation|V:ConformitÃ© aux rÃ¨gles Ã©tablies|CrÃ©ativitÃ©|FlexibilitÃ©
+QCM || ContinuitÃ© exploitation || ArrÃªt activitÃ©|V:Entreprise poursuit son activitÃ©|Changement activitÃ©|Pause activitÃ©
+QCM || Permanence mÃ©thodes || Changement constant|V:StabilitÃ© dans le temps|Innovation continue|Adaptation permanente
+QCM || CoÃ»t historique || Valeur actuelle|V:Valeur d'acquisition|Valeur de marchÃ©|Valeur liquidative
+QCM || IndÃ©pendance exercices || MÃ©lange pÃ©riodes|V:Rattachement Ã  la pÃ©riode concernÃ©e|Globalisation|Lissage
+QCM || Prudence comptable || Optimisme|V:Anticipation des pertes, non des gains|NeutralitÃ©|TÃ©mÃ©ritÃ©
+DragMatch || Associe chaque caractÃ©ristique qualitative IFRS Ã  son sens || ComprÃ©hensibilitÃ©:Un utilisateur averti comprend l'information, Pertinence:Information utile qui influence les dÃ©cisions, FiabilitÃ©:ReprÃ©sentation fidÃ¨le et neutralitÃ©, ComparabilitÃ©:Comparaison entre entreprises et dans le temps
+QCM || ComprÃ©hensibilitÃ© IFRS || Expert uniquement|V:Utilisateur averti comprend immÃ©diatement|SpÃ©cialiste uniquement|Formation longue requise
+QCM || Pertinence IFRS || Information inutile|V:Influence les dÃ©cisions, importance relative|Information technique|Information historique
+QCM || FiabilitÃ© IFRS || Forme sur substance|V:Substance sur forme, neutralitÃ©|Apparence|Formalisme
+QCM || ComparabilitÃ© IFRS || Une entreprise|V:Entre entreprises et dans le temps|Une pÃ©riode|Un secteur
+QCM || Juste valeur IFRS || CoÃ»t acquisition|V:RÃ©Ã©valuation Ã  chaque clÃ´ture|Valeur historique|CoÃ»t amorti
+QCM || Prix marchÃ© juste valeur || IgnorÃ©|V:UtilisÃ© si disponible|Interdit|DÃ©conseillÃ©
+QCM || ConsÃ©quence juste valeur || StabilitÃ©|V:VolatilitÃ© accrue des rÃ©sultats|SimplicitÃ©|PrÃ©visibilitÃ©
+QCM || RÃ©activitÃ© juste valeur || Retard|V:RÃ©activitÃ© aux Ã©volutions|Inertie|Lenteur
+QCM || CoÃ»t historique France || RÃ©Ã©valuation|V:CoÃ»t d'acquisition initial|Valeur marchÃ©|Juste valeur
+QCM || Avantage coÃ»t historique || VolatilitÃ©|V:StabilitÃ© des comptes|ComplexitÃ©|OpacitÃ©
+QCM || Amortissement coÃ»t historique || Interdit|V:Amortissement systÃ©matique|Facultatif|Rare
+QCM || ThÃ©orie Casta 2003 || 2 dÃ©terminants|V:3 dÃ©terminants adoption IFRS|4 dÃ©terminants|5 dÃ©terminants
+QCM || Facteur 1 Casta || Ãconomique|V:Facteurs politiques|StratÃ©gique|Technique
+QCM || Facteur 2 Casta || Politique|V:Facteurs Ã©conomiques|StratÃ©gique|Social
+QCM || Facteur 3 Casta || Politique|Ãconomique|V:Facteurs stratÃ©giques|Culturel
+QCM || Facteurs politiques Casta || IndÃ©pendance|V:Pression internationale, appartenance UE|Isolement|NeutralitÃ©
+QCM || Facteurs Ã©conomiques Casta || Fermeture|V:DÃ©veloppement marchÃ©s financiers, ouverture|Protection|Autarcie
+QCM || Facteurs stratÃ©giques Casta || DiscrÃ©tion|V:Recherche lÃ©gitimitÃ©, attractivitÃ© investisseurs|Isolement|Conservation
+VF || Les IFRS visent simultanÃ©ment pertinence, fiabilitÃ©, comparabilitÃ© et comprÃ©hensibilitÃ©, ce qui peut nÃ©cessiter des arbitrages. || V
+QR || Lorsque la juste valeur est privilÃ©giÃ©e, quel effet peut apparaÃ®tre en pÃ©riode de forte variation des marchÃ©s ? || V:Une volatilitÃ© apparente plus Ã©levÃ©e des rÃ©sultats|Une baisse de transparence|La disparition de l'information sectorielle|L'impossibilitÃ© de comparer les entreprises
+VF || L'application des IFRS peut requÃ©rir des jugements professionnels importants, rendant parfois la mise en Åuvre exigeante. || V
+QR || La mise en place d'un rÃ©fÃ©rentiel comptable dans une organisation implique gÃ©nÃ©ralement : || V:Des coÃ»ts de transition (formation, systÃ¨mes, processus)|La suppression de l'audit lÃ©gal|L'abolition des annexes|L'indiffÃ©rence des investisseurs

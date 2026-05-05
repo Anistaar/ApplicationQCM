@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo TEST - Text2Quiz VIP</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 3rem;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      color: #667eea;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .info-box {
+      background: #f0f9ff;
+      border-left: 4px solid #0284c7;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    .info-box h3 {
+      color: #0284c7;
+      margin-bottom: 0.5rem;
+    }
+
+    .info-box p {
+      color: #0c4a6e;
+      line-height: 1.6;
+    }
+
+    .status {
+      background: #f1f5f9;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .status-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem;
+      margin-bottom: 0.5rem;
+      border-radius: 8px;
+      background: white;
+    }
+
+    .status-item.loading {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    .status-item.success {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .status-item.error {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(0, 0, 0, 0.1);
+      border-top-color: #667eea;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f8fafc;
+      border-radius: 12px;
+      border: 2px solid #e2e8f0;
+    }
+
+    .stat-value {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #667eea;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 1.25rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin-top: 1rem;
+    }
+
+    .btn:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .features {
+      background: #f8fafc;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .features h3 {
+      color: #1e293b;
+      margin-bottom: 1rem;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      padding: 0.5rem 0;
+      color: #475569;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .features li::before {
+      content: '✓';
+      color: #10b981;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧪 Matière TEST</h1>
+    <p class="subtitle">Démonstration du système d'apprentissage adaptatif</p>
+
+    <div class="info-box">
+      <h3>📖 Contenu de la matière TEST</h3>
+      <p>
+        <strong>20 questions</strong> organisées en <strong>6 chapitres</strong> couvrant toutes les fonctionnalités de l'application :
+        QCM, apprentissage progressif, structure hiérarchique, tracking, et aspects techniques.
+      </p>
+    </div>
+
+    <div class="status" id="status">
+      <div class="status-item loading">
+        <div class="spinner"></div>
+        <span>Initialisation en cours...</span>
+      </div>
+    </div>
+
+    <div class="stats" id="stats" style="display: none;">
+      <div class="stat">
+        <div class="stat-value" id="questions-count">20</div>
+        <div class="stat-label">Questions</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="chapters-count">6</div>
+        <div class="stat-label">Chapitres</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="notions-count">10</div>
+        <div class="stat-label">Notions</div>
+      </div>
+    </div>
+
+    <button class="btn" id="start-btn" onclick="goToApp()" disabled>
+      ⏳ Chargement...
+    </button>
+
+    <div class="features">
+      <h3>✨ Fonctionnalités à tester</h3>
+      <ul>
+        <li>Structure hiérarchique avec 6 chapitres pliables</li>
+        <li>Icônes de maîtrise (🟢🟡🔴⚪)</li>
+        <li>4 modes d'apprentissage (Adaptatif/Manuel/Révision/Marathon)</li>
+        <li>Sessions de 5 questions avec mix révision/nouveau</li>
+        <li>Badges de difficulté (Facile/Moyen/Difficile/Expert)</li>
+        <li>Compteurs de questions par notion</li>
+      </ul>
+    </div>
+  </div>
+
+  <script type="module">
+    import { parseText2Quiz } from './src/parser';
+
+    const statusDiv = document.getElementById('status');
+    const statsDiv = document.getElementById('stats');
+    const startBtn = document.getElementById('start-btn');
+
+    function addStatus(message, type = 'loading') {
+      const item = document.createElement('div');
+      item.className = `status-item ${type}`;
+      
+      if (type === 'loading') {
+        item.innerHTML = `<div class="spinner"></div><span>${message}</span>`;
+      } else if (type === 'success') {
+        item.innerHTML = `<span>✅</span><span>${message}</span>`;
+      } else {
+        item.innerHTML = `<span>❌</span><span>${message}</span>`;
+      }
+      
+      statusDiv.appendChild(item);
+      statusDiv.scrollTop = statusDiv.scrollHeight;
+    }
+
+    async function initDemo() {
+      try {
+        addStatus('Vérification du fichier TEST_MEGA.txt...', 'loading');
+        const response = await fetch('./questions/TEST/TEST_MEGA.txt');
+        
+        if (!response.ok) {
+          throw new Error('Fichier TEST_MEGA.txt introuvable');
+        }
+
+        const text = await response.text();
+        const questions = parseText2Quiz(text);
+        
+        addStatus(`✓ ${questions.length} questions trouvées`, 'success');
+
+        // Vérifier la structure
+        const structureResponse = await fetch('./database/structures/TEST_structure.json');
+        
+        if (structureResponse.ok) {
+          addStatus('✓ Structure hiérarchique disponible', 'success');
+        } else {
+          addStatus('⚠️ Structure JSON non trouvée (mode classique)', 'error');
+        }
+
+        // Compter les thèmes
+        const themes = new Set(questions.flatMap(q => q.tags || []));
+        
+        document.getElementById('questions-count').textContent = questions.length;
+        document.getElementById('notions-count').textContent = themes.size;
+
+        // Afficher les stats et activer le bouton
+        statsDiv.style.display = 'grid';
+        startBtn.disabled = false;
+        startBtn.textContent = '🚀 Accéder à la matière TEST';
+        startBtn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+
+        addStatus('✅ Tout est prêt !', 'success');
+
+      } catch (error) {
+        console.error('Erreur:', error);
+        addStatus(`❌ Erreur: ${error.message}`, 'error');
+        startBtn.disabled = false;
+        startBtn.textContent = '🔄 Réessayer';
+        startBtn.onclick = () => location.reload();
+      }
+    }
+
+    window.goToApp = function() {
+      window.location.href = './src/new-ui/index.html#TEST';
+    };
+
+    initDemo();
+  </script>
+</body>
+</html>

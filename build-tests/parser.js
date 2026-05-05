@@ -155,6 +155,50 @@ export function parseQuestions(content) {
             }
             continue;
         }
+        // ----- OpenQ (question ouverte) -----
+        if (kind === 'OPENQ' && cols.length >= 3) {
+            const question = clean(cols[1]);
+            const keywordsRaw = clean(cols[2]);
+            const referenceCourse = clean(cols[3]);
+            const explication = clean(cols[4]);
+            const topics = uniq([
+                ...currentThemes,
+                ...parseTopicList(cols[5]),
+                ...extractInlineTags(question)
+            ]);
+            // Parse keywords: "keyword1,keyword2,keyword3"
+            const expectedKeywords = keywordsRaw
+                .split(/[,;]/)
+                .map((k) => k.trim().toLowerCase())
+                .filter(Boolean);
+            if (expectedKeywords.length > 0) {
+                out.push({ type: 'OpenQ', question, expectedKeywords, referenceCourse, explication, topics });
+            }
+            continue;
+        }
+        // ----- FormulaBuilder (construction de formule) -----
+        if (kind === 'FORMULABUILDER' && cols.length >= 3) {
+            const variable = clean(cols[1]); // Ex: "VA = ?"
+            const tokensRaw = clean(cols[2]); // Ex: "Production|CI|−|+"
+            const correctFormula = clean(cols[3]); // Ex: "Production - CI"
+            const explication = clean(cols[4]);
+            const topics = uniq([
+                ...currentThemes,
+                ...parseTopicList(cols[5]),
+                ...extractInlineTags(variable)
+            ]);
+            // Parse available tokens: "token1|token2|token3"
+            const availableTokens = tokensRaw
+                .split('|')
+                .map((t) => t.trim())
+                .filter(Boolean);
+            if (availableTokens.length > 0 && correctFormula) {
+                const question = `Reconstruis la formule : ${variable}`;
+                const formulaData = { variable, availableTokens, correctFormula };
+                out.push({ type: 'FormulaBuilder', question, formulaData, explication, topics });
+            }
+            continue;
+        }
         // autres types ignorés
     }
     return out;
@@ -180,6 +224,12 @@ export function isCorrect(q, ua) {
         const userMatches = ua.matches ?? {};
         return q.pairs.every((pair) => userMatches[pair.item] === pair.match);
     }
+    if (q.type === 'OpenQ') {
+        return ua.isCorrect ?? false;
+    }
+    if (q.type === 'FormulaBuilder') {
+        return ua.isCorrect ?? false;
+    }
     return false;
 }
 export function correctText(q) {
@@ -191,6 +241,10 @@ export function correctText(q) {
         return q.answers.filter((a) => a.correct).map((a) => a.text).join(' | ');
     if (q.type === 'DragMatch')
         return q.pairs.map((p) => `${p.item} → ${p.match}`).join(', ');
+    if (q.type === 'OpenQ')
+        return q.expectedKeywords?.join(', ') ?? 'Réponse attendue';
+    if (q.type === 'FormulaBuilder')
+        return q.formulaData?.correctFormula ?? 'Formule attendue';
     return '';
 }
 export function countCorrect(q) {
@@ -202,5 +256,11 @@ export function countCorrect(q) {
         return q.answers.filter((a) => a.correct).length;
     if (q.type === 'DragMatch')
         return q.pairs.length;
+    if (q.type === 'OpenQ')
+        return q.expectedKeywords?.length ?? 1;
+    if (q.type === 'FormulaBuilder')
+        return 1;
     return 0;
 }
+// Alias pour compatibilité
+export { parseQuestions as parseText2Quiz };

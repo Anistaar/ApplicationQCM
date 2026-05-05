@@ -1,0 +1,345 @@
+Chapitre 2 – La sortie de la trappe malthusienne :
+
+les premiers pas des sociétés modernes
+
+
+
+
+
+Entre l’an 0 et 1750, la population mondiale est passée de 160 à 700 millions environ, c’est-à-dire a été multipliée par 4 en 1750 ans. En supposant que le revenu par tête n’ait pas augmenté, cela signifie que la production mondiale a également été multipliée par 4, ce qui n’a pas pu se produire sans changement technologique majeur. Mais, à la différence des sociétés modernes, une société traditionnelle répond à une augmentation de la productivité par une augmentation de la population et non du niveau de vie. En d’autres termes, les sociétés traditionnelles étaient enfermées dans une trappe malthusienne (cf. chap 1).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La rupture se produit avec la révolution industrielle. Mais le changement majeur qui s’est produit vers 1800 ce n’est pas tant au niveau de la technologie qu’au niveau de la démographie : à partir de cette date, les gains de productivité cessent d’entraîner des hausses de la population. En d’autres termes, la révolution industrielle est associée à une réduction de la fertilité connue sous le nom de transition démographique.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 1 / La sortie de la trappe malthusienne : une mise en perspective empirique
+
+
+
+
+
+Une économie est bloquée dans une trappe malthusienne si elle satisfait non pas deux, mais trois conditions :
+
+
+
+Décroissance de la productivité moyenne du travail : l’augmentation de la population entraîne une augmentation moins que proportionnelle de la production
+
+
+
+croissance de la population en réponse à une augmentation des salaires et revenus
+
+
+
+absence de progrès technique d’une ampleur suffisante pour compenser la décroissance de la productivité moyenne du travail (= les innovations ne permettent pas d’augmenter la production à un rythme supérieur à la baisse de la productivité du travail) 
+
+
+
+
+
+
+
+Courbe rouge= pop° diminue à cause de la peste noir (1485) et salaires augmentent (courbe bleu). Salaires baissent quand la population augmentent. Fin 18 début 19ème hausse de la pop° associée à une hausse des salaires.
+
+
+
+
+
+
+
+
+
+
+
+Le Graphique 17 représente le salaire réel et la population entre les années 1280 et 1860. Comme nous l’avons vu dans le chapitre 1, dans les siècles précédents, il existait une forte relation décroissante entre population et salaires réels : lorsque l’un augmentait, l’autre diminuait, comme le suggérait simplement la théorie malthusienne. 
+
+
+
+
+
+
+
+
+
+- XIIIème – XVIIème siècle : corrélation négative de forte intensité entre variation de la population et variation des salaires (droite de régression est très verticale). Explication : l'économie anglaise est en pleine trappe malthusienne (à l'examen expliquez le mécanisme de la trappe)
+
+
+
+ -XVIIIème siècle : droite de régression moins verticale mais toujours avec une pente négative : l'économie est donc toujours dans une trappe malthusienne mais de moindre intensité que les siècles précédents). Concrètement, population et salaire ne sont plus aussi fortement liés.
+
+Pourquoi ? Notamment en raison des progrès de la connaissance qui permettent par exemple de freiner la diffusion d'épidémies dans la population (i.e. les conditions de vie ne sont plus uniquement liées au salaire, au revenu mais à des facteurs exogènes : médecine, législation du travail,...) 
+
+
+
+- à partir du XIXème : corrélation positive entre population et salaire. Cela s'explique par la sortie de la trappe malthusienne. Désormais, salaires et population peuvent augmenter.
+
+
+
+
+
+
+
+Entre la fin du XVIème siècle et le début du XVIIIème siècle, malgré une hausse des salaires, la croissance de la population a été faible. Autour de 1740, la logique malthusienne réapparaît (dans ce que nous appelons « le XVIIIème siècle »). Puis vers 1800, l’économie semble être passée à un régime entièrement nouveau, dans lequel la population et les salaires réels ont augmenté simultanément (dans ce que nous appelons la « sortie de la trappe »). 
+
+
+
+
+
+
+
+Section 2 / Comment échapper au piège malthusien ?
+
+
+
+    A / Grâce au progrès technique
+
+
+
+Le modèle malthusien suppose que lorsque la production totale augmente, la population augmente de sorte que la production par tête reste constante à long terme. Mais, si la production totale augmente tellement vite qu’elle n’est pas compensée par une hausse suffisamment forte de la population, la production par tête peut alors enfin augmenter. Et c’est précisément ce que va permettre la révolution industrielle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+B / Grâce à la transition démographique
+
+
+
+Comprendre le déroulement de la révolution industrielle et ses conséquences actuelles revient donc à comprendre pourquoi les dynamiques malthusiennes ont cessé de dominer les sociétés modernes. 
+
+
+
+Pays après pays, chacun est passé par la transition démographique, c’est-à-dire augmentation du taux de croissance de la population puis diminution tandis que le revenu continue d’augmenter. 
+
+
+
+Le paradoxe de la transition démographique est que certains des pays les plus riches, comme le Japon ou l’Europe, maintiennent juste leur population(taux de croissance démographique faible)  alors que, paradoxalement, ce sont eux qui ont les moyens d’avoir le plus d’enfants.
+
+
+
+
+
+
+
+
+
+Taux de natalité
+
+
+
+Taux de mortalité
+
+
+
+
+
+
+
+
+
+Taux de croissance démographique
+
+
+
+temps
+
+
+
+
+
+
+
+
+
+Société traditionnelle
+
+
+
+Transition démographique
+
+Société moderne
+
+
+
+
+
+
+
+• Les pays pauvres qui n'ont pas encore tous connu leur transition démographique connaissent eux des taux de croissance démographiques très forts alors que leur population vit à la limite du seuil de subsistance. 
+
+
+
+• Comment ainsi expliquer que la révolution industrielle s’accompagne d’une transition démographique ?  Par l'arbitrage entre quantité et qualité des enfants.
+
+
+
+On peut en effet considérer qu’il existe un facteur qui fait plus diminuer la fertilité lorsque le revenu augmente que les dynamiques malthusiennes ne la font augmenter. Il s’agit, en l’occurrence, de la qualité des enfants
+
+
+
+• On peut en effet affiner la théorie malthusienne sur l'évolution démographique en raisonnant non pas en « nombre d'enfants » mais en « budget enfant ».
+
+
+
+• Quand le revenu de la famille augmente, les dépenses en enfants augmentent, comme le suppose Malthus mais cette augmentation peut prendre deux formes : 
+
+
+
+ augmentation du nombre d'enfants pour une dépense par enfant identique
+
+ 
+
+ augmentation des dépenses consacrées à chaque enfant pour un nombre d'enfants identique.
+
+
+
+En d'autres termes, les parents sont supposés arbitrer entre quantité 
+
+d'enfants et qualité de vie de chaque enfant.
+
+
+
+
+
+Cet arbitrage existait bien avant la révolution industrielle. Dans toute société disposant de droits de propriété bien établis, la descendance des propriétaires fonciers dépendaient du système de transmission du patrimoine et de la qualité de vie dont les enfants pourraient profiter. De telles familles pouvaient accumuler de la richesse et profiter d’un niveau de vie supérieur au niveau de subsistance. 
+
+
+
+Par exemple, une famille noble tenait compte du fait qu'un enfant supplémentaire diminuait la part d'héritages de ses frères et sœurs. Ainsi pour éviter une dispersion des terres familiales, le nombre d'enfants nobles était inférieur au nombre d'enfants de familles sans terre.
+
+
+
+Dès les débuts de la civilisation, les déviations à un comportement purement malthusien sont donc observables même si elles sont marginales. 
+
+
+
+Dans une économie traditionnelle, les possibilités pour une famille sans terre d’influencer la qualité de vie de ses enfants sont très limitées. S’il n’y a pas de propriété à transmettre, un enfant supplémentaire ne diminue pas la part d’héritage de ses frères et sœurs. Les parents pouvaient cependant consacrer du temps et des ressources à l’éducation de leurs enfants pour leur transmettre du capital humain.  En d'autres termes, les parents « investissent » dans leurs enfants.
+
+
+
+Mais cette incitation à la dépense dépend du rendement de capital humain offert par la société dans laquelle ils vivent. Là où le rendement est bas, la dimension qualitative des enfants n’interfère pas sur les dynamiques malthusiennes. 
+
+
+
+Cad que ce comportement n'a de sens que si leur retour sur investissement est positif, c'est-à-dire si le capital humain ainsi accumulé génère un rendement positif (concrètement si acquérir des compétences permet d'accéder à des niveaux de revenu plus élevés). 
+
+
+
+En d'autres termes, l'incitation à dépenser dans l'éducation des enfants dépend du rendement de capital humain offert par la société dans laquelle ils vivent.
+
+Dans les sociétés traditionnelles, la possibilité de transmettre du capital, quelle qu’en soit la forme, ne contrecarre pas les prévisions du modèle classique.
+
+
+
+
+
+Une société traditionnelle est avant tout une économie agricole ou les compétences pouvaient s'acquérir très facilement dès l'enfance et dans le cadre de la famille.  Investir dans le capital humain de ses enfants n'avait donc aucun intérêt.  C'est la raison pour laquelle dans ce type de société, lorsque le revenu augmente, le nombre d'enfants augmente (plus d'enfants = plus de bras disponibles pour cultiver les terres) pour une dépense par enfant constante (et faible).
+
+
+
+Dans cette perspective, le facteur qualitatif a dominé les dynamiques malthusiennes à partir de la révolution industrielle parce que celle-ci a entraîné une forte augmentation du rendement du capital humain.
+
+
+
+Les individus se sont alors détournés du secteur agricole où les compétences ( limités et peu rémunérés) pouvaient s’acquérir très facilement dès l’enfance pour aller vers l’industrie et les secteurs où les compétences s’acquéraient à l’école et à la maison. 
+
+
+
+Dans ce nouvel environnement, les parents pouvaient agir sur l’avenir de leurs enfants : moins ils en avaient, plus ils pouvaient donner à chacun d’eux des ressources pour le futur.
+
+
+
+C’est ainsi que dans les sociétés modernes lorsque le revenu augmente, les dépenses consacrés à chaque enfant augmentent pour un nombre d’enfant plus restreint.  La caractéristique intrinsèque du capital humain est que son rendement n’est pas entièrement capté par son détenteur, il bénéficie également aux autres. 🡺 ex : Bach et Mozart furent bien payés mais chacun d’eux fournit stimulation et inspiration à d’autres sans qu’ils en tirent une quelconque rémunération.
+
+
+
+L’accumulation de capital humain génère donc des effets externes positifs : tout élément qui augmente le rendement du capital humain encourage une augmentation plus grande de ce capital qui, elle-même, augmentera à nouveau le retour sur investissement,…
+
+
+
+Dans cette perspective, les améliorations technologiques qui se sont produites dans l’Angleterre du XVIIIe siècle ont augmenté les salaires de ceux dont les compétences étaient requises par l’usage économique de ces améliorations. Ces augmentations de salaires ont incité d’autres individus à acquérir ces compétences et les familles à privilégier un investissement plus important dans un nombre plus réduit d’enfants. Cette augmentation de la qualification de la force de travail a elle-même augmenté le rendement du capital humain, permettant alors un processus auto-entretenu.
+
+
+
+
+
+Conclusion
+
+
+
+Une société traditionnelle se caractérise par la stabilité de son revenu par tête alors qu’une société moderne voit son revenu par tête augmenter. La révolution industrielle sépare ces deux types de société. 
+
+
+
+Ses effets n’ont pas touché de la même façon toutes les parties du monde. Vers 1850, le revenu par tête des pays anglophone est deux fois plus important que celui de l’Afrique ou de l’Asie, vers 1900 le rapport est de 6. 
+
+
+
+A cette époque, le reste de l’Europe est loin derrière la Grande Bretagne et les USA et le Japon ne se distingue pas des autres pays asiatiques. Dans la première moitié du XXe siècle, les inégalités augmentent : les pays anglophones continue de gagner par rapport à l’Europe du Nord qui elle-même gagne par rapport au reste de l’Europe et à l’Asie. Afrique et Asie continuent elles à stagner. 
+
+
+
+La période coloniale n’apporta pas de changement en dépit d’un transfert de technologie. En effet, ce transfert permit d’augmenter la production des pays colonisés mais le résultat fut une augmentation de la population et non du niveau de vie.
+
+
+
+Dans la période qui suivit les années 50, la trajectoire de la croissance mondiale changea et s’accéléra fortement. La période de reconstruction fit passer l’Europe continentale et le Japon au niveau des USA. L’Afrique et l’Asie connurent leur première augmentation du revenu par tête. La révolution industrielle commença donc à se diffuser aux pays non européens ce qui explique que les taux de croissance de la production mondiale atteignirent des niveaux jamais atteints.
