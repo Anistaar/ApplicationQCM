@@ -1,0 +1,237 @@
+@themes: QCM Débats Contemporains
+
+### === DQ1-I-1a : Taux d'ouverture et formule PIB ===
+### "Mesurer l'intégration d'un pays à l'économie mondiale"
+@add-theme: Taux d'ouverture, Commerce international, Formule
+
+QCM || Le taux d'ouverture d'un pays se calcule comme || V:(Exportations + Importations) / PIB|Exportations / PIB|PIB / (Exportations + Importations)|Importations - Exportations
+VF  || Un taux d'ouverture supérieur à 100 % est économiquement impossible. || F || C'est possible : Belgique, Pays-Bas, Luxembourg — les exportations + importations dépassent le PIB car les échanges extérieurs sont très importants par rapport à la production intérieure nette.
+QCM || L'identité comptable du PIB en économie ouverte est || V:Y = C + I + G + X – M|Y = C + I + G|Y = C + S|Y = X – M + C + G
+VF  || Dans l'identité comptable Y = C + I + G + X – M, X désigne les exportations nettes. || F || X désigne les exportations (brutes) et M les importations. Le terme X – M représente la balance commerciale (ou exportations nettes).
+QCM || Le « paradoxe américain » en matière de taux d'ouverture signifie que || V:Malgré des échanges colossaux en valeur absolue, le taux d'ouverture des États-Unis est faible car leur immense marché intérieur domine le PIB|Les États-Unis pratiquent un protectionnisme systématique qui réduit leurs échanges|Le dollar fort décourage mécaniquement les exportations américaines|Les États-Unis n'importent presque rien en dehors des matières premières énergétiques
+QCM || La part du commerce international dans le PIB mondial est || V:Supérieure à 1/3 du PIB mondial|Inférieure à 10 % du PIB mondial|Environ 15 % du PIB mondial|Environ 80 % du PIB mondial
+VF  || Le commerce international porte avant tout sur les services (assurances, banques, tourisme). || F || La plus grande partie du commerce international contemporain porte sur les produits manufacturés, même si les services croissent rapidement.
+QCM || L'interdépendance économique entre pays se manifeste sur || V:Le marché des biens et services, le marché du travail (migrations) ET le marché des capitaux (IDE, portefeuilles)|Uniquement le marché des biens et services|Uniquement les marchés financiers|Uniquement le marché des matières premières
+
+---
+
+### === DQ1-I-1b : Les 8 grands thèmes de l'économie internationale ===
+### "Les axes structurants du cours Débats Contemporains"
+@add-theme: Économie internationale, Thèmes
+
+QCM || Parmi les propositions suivantes, laquelle N'EST PAS un des 8 grands thèmes de l'économie internationale du cours ? || V:La politique fiscale nationale (impôt sur le revenu, TVA)|Les gains à l'échange et la spécialisation internationale|Le rôle des firmes multinationales (FMN)|La balance des paiements et les déséquilibres mondiaux
+QCM || L'exemple de Cuba illustrant l'impossibilité d'une autarcie complète montre que || V:Même les régimes les plus fermés ont besoin d'échanges extérieurs, car l'autarcie implique un coût de bien-être considérable|Le communisme s'accommode parfaitement du libre-échange mondial|Les sanctions économiques n'ont jamais d'effet sur les pays fermés|Cuba est un modèle de développement économique grâce à son autosuffisance
+VF  || Tous les pays du monde, sans exception, participent au commerce international dans une certaine mesure. || V || Il n'existe aucun pays totalement autarcique : même les économies les plus fermées (Corée du Nord, Cuba à certaines périodes) maintiennent des échanges minimaux.
+
+---
+
+### === DQ2-I-1a : Trente Glorieuses et croissance française ===
+### "1950-1973 : croissance 4-8%/an, PIB × 10 en 60 ans, plein-emploi, tertiarisation"
+@add-theme: France, Trente Glorieuses, Croissance, Récession
+
+QCM || La période des Trente Glorieuses en France (1950-1973) se caractérise par || V:Des taux de croissance annuels de 4 à 8 %, inédits dans l'histoire économique française|Une croissance modeste de 1 à 2 % par an, mais régulière|Une stagflation (inflation + stagnation) qui a marqué l'économie française|Un fort chômage structurel malgré la croissance industrielle
+QCM || En combien de temps environ le PIB français a-t-il été multiplié par dix depuis les années 1950 ? || V:En une soixantaine d'années|En trente ans exactement (d'où les Trente Glorieuses)|En cent cinquante ans|En dix ans grâce aux politiques keynésiennes
+VF  || Selon l'INSEE, un pays entre en récession quand son PIB se replie pendant au moins un trimestre consécutif. || F || La définition officielle est deux trimestres consécutifs de baisse du PIB (et non un seul).
+QCM || Le choc pétrolier de 1973 a mis fin aux Trente Glorieuses principalement parce que || V:Il a entraîné une forte hausse du coût de l'énergie, augmentant les coûts de production et freinant la croissance|Il a provoqué une hyperinflation mondiale incontrôlable|Les États-Unis ont brutalement coupé les exportations de pétrole vers l'Europe|Il a détruit physiquement les infrastructures industrielles françaises
+QCM || La tertiarisation de l'économie française désigne || V:Le glissement structurel des emplois du secteur primaire et secondaire vers le secteur tertiaire (services)|Le développement de l'agriculture et des industries agroalimentaires|La réindustrialisation partielle de la France depuis les années 2010|La modernisation du secteur primaire par les nouvelles technologies
+QCM || En France aujourd'hui, la répartition approximative de l'emploi est || V:~1 million dans le primaire, ~5 millions dans le secondaire, ~19 millions dans le tertiaire|7 millions dans chaque secteur (primaire, secondaire, tertiaire)|6M primaire, 6M secondaire, 7M tertiaire (comme en 1949)|10M industrie, 10M services, 5M agriculture
+VF  || En 1949, la répartition de l'emploi français entre les trois secteurs était environ égale (chaque secteur représentait ~7 millions d'emplois). || V || Depuis, la tertiarisation a profondément modifié cette répartition : le tertiaire représente désormais environ 19M d'emplois.
+QCM || Le terme « récession » selon la définition technique désigne || V:Deux trimestres consécutifs de baisse du PIB|Un trimestre de baisse du PIB|Une année de croissance négative|Toute période de ralentissement de la croissance
+
+---
+
+### === DQ3-I-1a : Géoéconomie — du militaire à l'économique ===
+### "Après la Guerre froide : les rivalités entre États prennent une forme économique"
+@add-theme: Géoéconomie, Guerre froide, Puissance économique
+
+QCM || La géoéconomie désigne || V:Le déplacement des rivalités internationales de la sphère militaire vers la sphère économique, les États cherchant la puissance par leur santé économique|La science qui étudie la répartition géographique des ressources naturelles|La politique d'aide au développement des pays riches envers les pays pauvres|L'analyse des flux commerciaux entre blocs régionaux
+QCM || La fin de la Guerre froide (chute du Mur de Berlin 1989) a modifié les rivalités internationales car || V:L'effondrement de l'URSS a réduit la menace militaire directe, ce qui a déplacé les rivalités vers la sphère économique et technologique|L'OTAN a imposé la paix définitive et permanente en Europe|Les pays en développement ont acquis l'arme nucléaire, rendant la guerre impossible|Les multinationales ont entièrement remplacé les États comme acteurs des conflits
+VF  || Après la chute du Mur de Berlin, les firmes multinationales sont restées pleinement sous le contrôle politique de leur État d'origine. || F || Après 1989, les FMN sont devenues de plus en plus autonomes vis-à-vis des États, réduisant leur dépendance nationale (mais pas totalement : Huawei, Gazprom restent instrumentalisées).
+QCM || La réaction initiale des Européens à l'invasion de l'Ukraine par la Russie (2022) illustre la géoéconomie car || V:Elle a pris la forme de sanctions économiques (embargo sur le gaz, gel d'avoirs) plutôt qu'une intervention militaire directe|Elle s'est traduite par une intervention militaire immédiate de l'OTAN en Ukraine|Elle a consisté uniquement en l'expulsion des diplomates russes de tous les pays européens|Elle n'a provoqué aucune réaction car l'UE dépend du gaz russe
+QCM || Quelles entreprises sont citées comme exemples d'instruments de puissance géoéconomique d'un État ? || V:Huawei (Chine) et Gazprom (Russie)|Apple (États-Unis) et Volkswagen (Allemagne)|Total (France) et BP (Royaume-Uni)|Samsung (Corée du Sud) et Sony (Japon)
+VF  || L'UE était bien préparée à faire face à la menace militaire russe après la Guerre froide car elle avait développé ses capacités de défense. || F || L'UE s'est au contraire désarmée militairement après 1989 (dividende de la paix) et n'est préparée qu'économiquement. Les États-Unis ont maintenu un double équipement militaire et économique.
+
+---
+
+### === DQ3-I-2a : Fragmentation économique mondiale ===
+### "Depuis Covid/Ukraine : remise en cause de la mondialisation, blocs régionaux, supply chains"
+@add-theme: Fragmentation, Démondialisation, Covid, Géopolitique
+
+QCM || La « fragmentation économique mondiale » désigne || V:La tendance au morcellement de l'économie mondiale en blocs régionaux ou nationaux, inversant partiellement la tendance à l'intégration mondiale|L'augmentation du nombre de pays dans le monde liée à la décolonisation|La spécialisation croissante des économies dans des niches de production|La diversification des portefeuilles d'investissement internationaux
+QCM || Quels événements récents ont accéléré la tendance à la fragmentation économique mondiale ? || V:La pandémie de Covid-19, la guerre en Ukraine et les tensions en mer Rouge / Proche-Orient|La création de l'euro et l'élargissement de l'UE aux pays d'Europe centrale|La montée du libre-échange via l'OMC et les accords bilatéraux|La croissance économique de la Chine dans les années 2000 et 2010
+VF  || Le multilatéralisme reste le modèle dominant et incontesté des relations commerciales mondiales depuis les années 2020. || F || Depuis le Covid, la guerre en Ukraine et les tensions en mer Rouge, on assiste à une remise en cause du multilatéralisme et à une fragmentation économique croissante (blocs, protectionnisme, reshoring).
+QCM || La notion de « reshoring » (relocalisation) répandue depuis le Covid désigne || V:Le rapatriement de productions stratégiques dans le pays d'origine pour réduire la dépendance aux chaînes d'approvisionnement mondiales|Le transfert de technologies des pays développés vers les émergents|La montée en puissance des plateformes numériques dans le commerce international|Le recours accru aux travailleurs immigrés dans les secteurs en tension
+
+---
+
+### === DQ4-I-1a : La Chine — gradualisme et modèle de Deng Xiaoping ===
+### "Transition progressive vers le marché ; zones économiques spéciales ; croissance 10%/an"
+@add-theme: Chine, Deng Xiaoping, Gradualisme, OMC
+
+QCM || Le « gradualisme » chinois désigne || V:Une transition progressive vers l'économie de marché par petits changements structurels et institutionnels, sans rupture brutale|Un régime de croissance lente et stable, opposé aux réformes rapides|Le passage immédiat au capitalisme décidé par Deng Xiaoping dès 1978|La politique de l'enfant unique limitant la croissance démographique pour favoriser la croissance économique
+QCM || La Chine a adhéré à l'Organisation Mondiale du Commerce (OMC) en || V:Décembre 2001|Janvier 1990|Janvier 1995 (lors de la création de l'OMC)|Décembre 2010
+QCM || Le modèle de développement économique de Deng Xiaoping repose sur || V:L'ouverture économique à l'extérieur pour une croissance tirée par les exportations de produits manufacturés|La fermeture du marché intérieur aux investisseurs étrangers|La nationalisation de toutes les entreprises privées nationales et étrangères|Le développement du marché intérieur uniquement, sans recours aux exportations
+VF  || En Chine, la priorité a été donnée à la privatisation des entreprises publiques plutôt qu'à la concurrence entre acteurs économiques. || F || C'est l'inverse : la Chine a donné la priorité à la concurrence plutôt qu'à la privatisation. Les nouvelles entreprises créées appartenaient aux villages et villes mais se faisaient concurrence entre elles.
+QCM || Le taux de croissance annuel moyen de la Chine depuis les années 1980 est || V:Environ 10 % par an|Environ 3 % par an|Environ 6 % par an|Environ 15-20 % par an
+QCM || La Chine est qualifiée d'« usine du monde » principalement grâce à || V:Une population nombreuse, un coût du travail historiquement faible et des zones économiques spéciales attirant les investisseurs étrangers|Sa supériorité technologique dans tous les secteurs industriels|Ses ressources naturelles abondantes (pétrole, terres rares)|Sa politique de taux de change favorable aux importations étrangères
+VF  || Depuis 2010, la Chine est la première puissance économique mondiale devant les États-Unis (en termes de PIB en dollars courants). || F || La Chine a dépassé le Japon pour devenir la 2e puissance mondiale depuis 2010, mais elle reste derrière les États-Unis en PIB nominal (bien qu'elle soit 1re en parité de pouvoir d'achat).
+QCM || La guerre commerciale entre les États-Unis et la Chine sous Trump trouve son origine dans || V:Un déficit commercial américain chronique vis-à-vis de la Chine, interprété par Trump comme un vol économique|Un excédent commercial américain jugé trop faible par les industriels américains|Les manipulations monétaires américaines dévaluant le dollar|La délocalisation d'entreprises chinoises aux États-Unis
+QCM || Les zones économiques spéciales (ZES) créées par Deng Xiaoping en Chine sont || V:Des zones géographiques délimitées où les entreprises étrangères bénéficient d'avantages fiscaux et réglementaires pour s'implanter et exporter|Des zones rurales bénéficiant d'aides agricoles spéciales|Des zones interdites aux investissements étrangers pour protéger les industries nationales|Des zones militaires à usage économique double (dual-use)
+
+---
+
+### === DQ5-I-1a : L'Inde — émergence et modèle ===
+### "Émergence plus tardive ; démocratie parlementaire ; croissance par les services"
+@add-theme: Inde, Émergents, Comparaison Chine-Inde
+
+QCM || En quoi le modèle de développement indien diffère-t-il fondamentalement du modèle chinois ? || V:L'Inde s'internationalise davantage par les marchés de capitaux (6000 sociétés cotées) et les services que par les exportations manufacturières|L'Inde est plus protectionniste que la Chine sur les biens manufacturés|L'Inde a une croissance plus rapide que la Chine depuis 1990|L'Inde a adopté exactement le même modèle de zones économiques spéciales que la Chine
+VF  || Le taux d'ouverture de l'Inde est environ deux fois plus élevé que celui de la Chine. || F || C'est l'inverse : les ratios d'ouverture commerciale de l'Inde sont deux fois plus faibles que ceux de la Chine. En revanche, l'internationalisation des entreprises indiennes via les marchés de capitaux est deux fois plus forte.
+QCM || L'Inde compte environ combien de sociétés cotées en Bourse, en comparaison de la Chine ? || V:~6 000 (contre ~1 000 en Chine)|~500 (contre ~5 000 en Chine)|~1 000 (comme la Chine)|~20 000 (dix fois plus qu'en Chine)
+QCM || La force de l'économie indienne repose essentiellement sur || V:Son capital humain qualifié (ingénieurs, informaticiens) et ses bas salaires relatifs dans les services|Son niveau élevé d'exportations de biens manufacturés|Ses ressources naturelles (pétrole, gaz, minerais)|Sa politique agressive de protectionnisme industriel
+VF  || L'Inde est une démocratie parlementaire, contrairement à la Chine qui est un régime de parti unique. || V || L'Inde est la plus grande démocratie du monde (élections parlementaires régulières), tandis que la Chine est dirigée par le Parti Communiste Chinois dans un régime de parti unique.
+
+---
+
+### === DQ6-I-1a : Le modèle de gravité du commerce ===
+### "Tij = A × Yi × Yj / Dij — PIB, taille, distance"
+@add-theme: Modèle de gravité, Distance, Partenaires commerciaux
+
+QCM || Le modèle de gravité du commerce international stipule que les échanges entre deux pays sont || V:Proportionnels à leurs PIB respectifs et inversement proportionnels à la distance qui les sépare|Uniquement déterminés par les différences de salaires entre pays|Proportionnels à la distance et indépendants de la taille des économies|Uniquement déterminés par les accords commerciaux bilatéraux existants
+QCM || Dans la formule Tij = A × Yi × Yj / Dij, que représente Dij ? || V:La distance entre les pays i et j (proxy pour tous les coûts de commerce)|Le différentiel de PIB entre les deux pays|Le niveau des droits de douane entre i et j|Les investissements directs étrangers bilatéraux
+VF  || Les estimations économétriques montrent qu'une augmentation de 1 % de la distance entre deux pays est associée à une diminution du commerce d'environ 0,7 à 1 %. || V || Ce résultat est robuste et bien établi dans la littérature économétrique sur les échanges internationaux.
+QCM || Les cinq principaux partenaires commerciaux de la France sont || V:Tous européens : Allemagne, Belgique, Italie, Espagne, Royaume-Uni|États-Unis, Chine, Allemagne, Japon, Royaume-Uni|Chine, États-Unis, Allemagne, Russie, Espagne|Tous asiatiques : Chine, Japon, Inde, Corée du Sud, Singapour
+QCM || L'« effet frontière » dans le commerce international désigne || V:Le fait que les flux commerciaux entre deux régions d'un même pays sont bien plus importants qu'entre deux régions de pays différents, même très ouverts|Le rôle des douanes dans le contrôle et le filtrage des marchandises à la frontière|La protection des industries nationales par des barrières tarifaires imposées à la frontière|L'augmentation automatique des échanges lors de la création d'une union douanière
+VF  || Selon le modèle de gravité, deux pays grands et proches commercent nécessairement beaucoup entre eux, peu importe les politiques commerciales. || F || Si la taille et la distance sont des déterminants majeurs, les politiques commerciales (accords, droits de douane), les institutions et d'autres facteurs jouent aussi un rôle important.
+QCM || Parmi les éléments suivants, lesquels peuvent être inclus dans la variable « distance » du modèle de gravité ? || V:La distance géographique, les coûts de transport, les différences culturelles, les barrières linguistiques et institutionnelles|Uniquement la distance en kilomètres à vol d'oiseau entre les capitales|Uniquement les droits de douane et les quotas|Le différentiel de salaires entre les deux pays
+
+---
+
+### === DQ7-I-1a : Avantages absolus et comparatifs ===
+### "Smith : avantages absolus — Ricardo : avantages comparatifs — base du libre-échange"
+@add-theme: Libre-échange, Ricardo, Avantages comparatifs, Smith
+
+QCM || Le principe des avantages comparatifs (Ricardo) affirme que || V:Chaque pays a intérêt à se spécialiser dans la production pour laquelle son coût d'opportunité est le plus faible, même si un pays est moins efficace que l'autre dans toutes les productions|Seuls les pays ayant un avantage absolu ont intérêt à commercer avec leurs partenaires|Les pays doivent protéger leurs industries naissantes jusqu'à maturité avant d'ouvrir au libre-échange|Le libre-échange ne bénéficie qu'aux pays développés au détriment des pays en développement
+QCM || L'avantage absolu chez Adam Smith désigne || V:La capacité à produire un bien avec moins de travail ou de ressources qu'un autre pays|La production qui procure le plus de profit à un pays|La capacité à dominer militairement ses partenaires commerciaux|L'avantage lié à la taille du marché intérieur
+VF  || Selon Ricardo, même si un pays est moins efficace que son partenaire dans TOUTES les productions, il a intérêt à se spécialiser et commercer. || V || C'est l'essence du principe des avantages comparatifs : le pays moins efficace dans tout se spécialise là où il est le « moins désavantagé » (coût d'opportunité le plus faible).
+QCM || Le coût d'opportunité d'un bien A dans un pays est || V:La quantité du bien B à laquelle ce pays doit renoncer pour produire une unité supplémentaire de A|Le coût de transport pour exporter le bien A|Le niveau des droits de douane sur le bien A|Le coût monétaire de production du bien A
+VF  || Le libre-échange profite toujours à tous les acteurs économiques à l'intérieur d'un pays. || F || Le libre-échange augmente le bien-être global mais crée des gagnants et des perdants au sein de chaque pays (les secteurs en concurrence avec les importations perdent des emplois ou des revenus).
+QCM || Le paradoxe de Leontief (1953) a montré, sur les données américaines, que || V:Les États-Unis exportaient des biens relativement intensifs en travail qualifié, contrairement à ce que prédisait le théorème HO (qui prévoyait des exportations intensives en capital)|Les États-Unis exportaient des produits agricoles et importaient des produits industriels|Le libre-échange bénéficiait uniquement aux grandes économies développées|Le modèle de gravité ne s'appliquait pas aux échanges américains
+
+---
+
+### === DQ7-I-1b : Théorème de Heckscher-Ohlin (HO) ===
+### "La spécialisation internationale s'explique par les dotations factorielles"
+@add-theme: Théorème HO, Dotations factorielles, Spécialisation
+
+QCM || Le théorème de Heckscher-Ohlin (HO) prédit que || V:Un pays exporte les biens dont la production est intensive en son facteur de production le plus abondant (capital ou travail)|Un pays exporte uniquement les biens pour lesquels il a un avantage technologique|La spécialisation internationale est déterminée par la taille du marché intérieur|Les pays riches exportent systématiquement vers les pays pauvres et vice-versa
+QCM || Si la Chine exporte massivement des biens manufacturés intensifs en travail vers la France, cela s'explique selon HO par || V:La Chine est abondante en travail (peu cher) et la France est abondante en capital|La France a de meilleures technologies industrielles que la Chine|La Chine a des avantages technologiques dans la manufacture|Les droits de douane français sont inexistants sur les produits chinois
+VF  || Le théorème HO a été parfaitement validé empiriquement pour tous les pays et toutes les périodes. || F || Le théorème HO a été partiellement réfuté (paradoxe de Leontief) et la réalité est plus complexe. D'autres théories (nouvelle théorie du commerce, économies d'échelle) complètent HO.
+
+---
+
+### === DQ7-I-2a : Politiques commerciales — libre-échange vs protectionnisme ===
+### "Arguments pour le libre-échange (Ricardo, HO) et pour le protectionnisme (industrie naissante, sécurité)"
+@add-theme: Protectionnisme, Libre-échange, OMC, Barrières commerciales
+
+QCM || Parmi les barrières commerciales suivantes, laquelle est de nature tarifaire ? || V:Les droits de douane|Les quotas d'importation|Les restrictions volontaires aux exportations (RVE)|Les normes techniques et sanitaires (normes OTC/SPS)
+QCM || Les barrières non tarifaires au commerce comprennent || V:Les quotas, les normes techniques, les subventions aux entreprises nationales, les procédures douanières complexes|Uniquement les droits de douane et les taxes à l'importation|Les accords de libre-échange bilatéraux|La politique monétaire et le taux de change
+QCM || L'argument de l'« industrie naissante » en faveur du protectionnisme dit que || V:Certaines industries nécessitent une protection temporaire pour atteindre la taille et l'efficacité nécessaires avant d'affronter la concurrence internationale|Toutes les industries nationales doivent être protégées indéfiniment|Le libre-échange ne bénéficie qu'aux industries déjà établies|Les pays en développement ne peuvent jamais concurrencer les pays développés
+VF  || Le protectionnisme augmente le pouvoir d'achat du consommateur moyen en réduisant le prix des biens importés. || F || C'est l'inverse : le protectionnisme (droits de douane, quotas) augmente les prix des biens importés pour les consommateurs nationaux, réduisant leur pouvoir d'achat.
+QCM || La politique commerciale de Trump (guerre commerciale avec la Chine 2018-2019) consistait à || V:Imposer des droits de douane élevés sur les importations chinoises pour réduire le déficit commercial américain et relocaliser la production|Supprimer toutes les barrières commerciales entre les deux pays|Créer un accord de libre-échange multilatéral dans le cadre de l'OMC|Interdire les investissements directs étrangers chinois aux États-Unis
+QCM || L'Organisation Mondiale du Commerce (OMC) a pour objectif principal de || V:Promouvoir le libre-échange en réduisant les barrières commerciales via des négociations multilatérales et des mécanismes de règlement des différends|Imposer le protectionnisme aux pays en développement|Fixer les prix mondiaux des matières premières|Réglementer les investissements directs étrangers à l'échelle mondiale
+VF  || Les accords commerciaux multilatéraux éliminent entièrement toutes les barrières au commerce entre les pays signataires. || F || Les accords éliminent généralement les barrières formelles (droits de douane, quotas) mais rarement toutes les entraves, notamment les barrières non tarifaires (normes, réglementations).
+QCM || Les personnes qui s'opposent au libre-échange le font souvent parce que || V:Certains acteurs économiques (secteurs en concurrence directe avec les importations, travailleurs peu qualifiés) perdent à l'échange même si le pays dans son ensemble gagne|Tout le monde perd au libre-échange selon la théorie économique|Personne ne gagne au libre-échange dans les pays développés|Le libre-échange génère nécessairement du chômage à l'échelle macroéconomique
+
+---
+
+### === DQ7-I-3a : Gains à l'échange — statiques et dynamiques ===
+### "Gains statiques (allocation efficace) et dynamiques (économies d'échelle, innovation, variété)"
+@add-theme: Gains à l'échange, Économies d'échelle, Spécialisation
+
+QCM || Les gains statiques du libre-échange proviennent de || V:Une meilleure allocation des ressources entre pays grâce à la spécialisation selon les avantages comparatifs|La création de nouvelles industries par les investissements étrangers|La réduction des inégalités entre nations participantes|L'augmentation des salaires dans les pays exportateurs
+QCM || Les gains dynamiques du libre-échange comprennent || V:Les économies d'échelle (marché plus grand), l'innovation accrue (concurrence), la variété des produits disponibles, les transferts technologiques|Uniquement la réduction des coûts de production par la spécialisation|Uniquement la hausse des revenus fiscaux liée aux exportations|Uniquement l'augmentation du taux d'emploi dans les secteurs exportateurs
+VF  || Dans une économie de 2 pays / 2 biens, il y a des gains à l'échange en toutes circonstances. || F || Il y a des gains à l'échange si et seulement si les pays produisent des biens différents (avec des coûts d'opportunité différents). Si les deux pays ont les mêmes coûts d'opportunité, il n'y a aucun gain à l'échange.
+
+---
+
+### === DQ7-I-4a : Commerce intra-branche et nouvelle théorie du commerce ===
+### "Krugman : économies d'échelle, différenciation des produits, commerce entre pays similaires"
+@add-theme: Commerce intra-branche, Krugman, Économies d'échelle, Différenciation
+
+QCM || Le commerce « intra-branche » désigne || V:Des échanges portant sur des biens similaires (même secteur) entre des pays aux dotations factorielles proches — ex : la France exporte et importe des voitures|Des échanges entre industries de secteurs différents (automobiles vs textiles)|Des échanges au sein d'une même entreprise multinationale entre ses filiales|Des échanges de matières premières entre pays développés et pays en développement
+QCM || Paul Krugman explique le commerce intra-branche par || V:Les économies d'échelle et la différenciation des produits : les pays se spécialisent dans des variétés différentes d'un même produit pour servir un marché mondial plus grand|Les différences de dotations factorielles qui génèrent des avantages comparatifs différents|Les politiques de dumping pratiquées par certains pays|Les différences de taux de change entre monnaies nationales
+VF  || La majeure partie du commerce entre pays développés (UE, États-Unis, Japon) est du commerce inter-branche (échange de biens totalement différents). || F || La majeure partie du commerce entre pays développés est au contraire du commerce intra-branche : ils s'échangent des produits différenciés du même secteur (différentes marques/variétés de voitures, produits chimiques, machines, etc.).
+QCM || Le commerce intra-firme (au sein des FMN) représente || V:Une part importante et croissante du commerce international mondial (environ 1/3 des échanges)|Moins de 5 % des échanges mondiaux, car les FMN préfèrent vendre à des clients indépendants|Uniquement les échanges de services financiers entre filiales|Uniquement les transferts de matières premières entre pays d'extraction et pays de transformation
+
+---
+
+### === DQ8-I-1a : Firmes multinationales (FMN) et IDE ===
+### "FMN = acteurs majeurs du commerce mondial ; IDE = source de croissance pour les pays récepteurs"
+@add-theme: FMN, IDE, Investissements directs étrangers, Mondialisation
+
+QCM || Un investissement direct étranger (IDE) se distingue d'un investissement de portefeuille car || V:L'IDE implique une prise de contrôle durable dans une entreprise étrangère (≥ 10 % du capital) dans un but de direction, pas seulement de placement financier|L'IDE est un simple achat d'actions cotées en bourse sans implication dans la gestion|L'IDE porte uniquement sur des obligations d'État étrangères|L'IDE se définit par sa durée supérieure à dix ans
+QCM || Les IDE peuvent prendre la forme de || V:La création d'une filiale à l'étranger (greenfield), le rachat d'une entreprise existante, une joint-venture avec un partenaire local|Uniquement des achats de participations boursières minoritaires|Uniquement des prêts bancaires accordés à des entreprises étrangères|Uniquement des partenariats commerciaux sans prise de contrôle
+VF  || Les firmes multinationales sont principalement implantées dans les pays en développement, car c'est là que se trouvent les coûts de production les plus bas. || F || Les IDE sont majoritairement réalisés entre pays développés (États-Unis, UE, Japon). Les pays en développement attirent des IDE mais représentent une part minoritaire des flux totaux d'IDE.
+QCM || Parmi les motivations des FMN pour investir à l'étranger, laquelle N'est PAS habituelle ? || V:Éviter systématiquement toute concurrence étrangère en s'implatant dans chaque marché|Accéder à des marchés locaux (market-seeking IDE)|Réduire les coûts de production (efficiency-seeking, accès à une main-d'œuvre moins chère)|Accéder à des ressources naturelles ou des compétences technologiques (resource/asset-seeking)
+
+---
+
+### === DQ9-I-1a : La balance des paiements ===
+### "BDP : compte courant (balance commerciale + revenus + transferts) + compte de capital + compte financier"
+@add-theme: Balance des paiements, Compte courant, Déficit commercial
+
+QCM || La balance des paiements d'un pays est un document comptable qui enregistre || V:L'ensemble des transactions économiques entre résidents de ce pays et le reste du monde pendant une période donnée|Uniquement les exportations et importations de biens marchands|Les recettes et dépenses du budget de l'État avec l'étranger|Uniquement les flux de capitaux entre banques nationales et internationales
+QCM || Le compte courant de la balance des paiements comprend || V:La balance commerciale (biens + services) + les revenus du travail et du capital + les transferts courants|Uniquement la balance commerciale des biens (exportations - importations de biens)|Les flux d'IDE entrants et sortants|Les variations des réserves de change de la Banque Centrale
+VF  || Un déficit de la balance commerciale (M > X) signifie que le pays vit au-dessus de ses moyens et consomme plus qu'il ne produit. || F || Un déficit commercial peut s'expliquer par de nombreux facteurs (spécialisation dans les services, investissements étrangers, phase de développement) et n'indique pas nécessairement une économie en difficulté.
+QCM || La balance des paiements d'un pays est toujours équilibrée en théorie car || V:Tout déficit du compte courant est nécessairement financé par un surplus du compte financier (entrées de capitaux)|Les exportations sont toujours égales aux importations à long terme|La Banque Centrale ajuste les réserves de change pour équilibrer les comptes|Les banques commerciales comblent automatiquement tout déséquilibre des paiements
+QCM || Le déficit commercial chronique des États-Unis vis-à-vis de la Chine est interprété par Trump comme || V:Une forme de « vol économique » justifiant des droits de douane punitifs pour relocaliser la production|Un signe de la complémentarité bénéfique des deux économies|La preuve de l'efficacité du libre-échange entre les deux pays|Une situation normale et souhaitable dans un monde globalisé
+
+---
+
+### === DQ10-I-1a : OMC et multilatéralisme ===
+### "GATT → OMC 1995 : principe du traitement national, clause NPF, mécanisme règlement différends"
+@add-theme: OMC, GATT, Multilatéralisme, Libre-échange
+
+QCM || L'OMC (Organisation Mondiale du Commerce) a remplacé le GATT en || V:1995 (lors de la conclusion du cycle d'Uruguay)|1948 (fondation du GATT)|2001 (lors de l'entrée de la Chine)|1989 (chute du Mur de Berlin)
+QCM || La clause de la « nation la plus favorisée » (NPF/MFN) dans le cadre de l'OMC signifie que || V:Tout avantage commercial accordé à un pays doit être accordé immédiatement et inconditionnellement à tous les membres de l'OMC|Un pays peut traiter ses alliés politiques mieux que ses autres partenaires commerciaux|Le pays le plus favorisé peut imposer ses conditions aux autres membres|Les pays développés accordent des préférences commerciales aux pays en développement
+QCM || Le principe du « traitement national » dans l'OMC signifie que || V:Un pays ne peut pas traiter les produits importés moins favorablement que les produits nationaux similaires une fois les droits de douane acquittés|Un pays doit accorder les mêmes préférences commerciales à tous ses partenaires|Les pays en développement bénéficient d'un traitement spécial et différencié|Les filiales de FMN étrangères doivent être traitées comme des entreprises nationales
+VF  || Le multilatéralisme incarné par l'OMC est aujourd'hui en crise, concurrencé par une multiplication d'accords bilatéraux et la montée du protectionnisme. || V || Depuis les années 2010 (blocage du cycle de Doha, montée de Trump, sanctions, etc.), le multilatéralisme est effectivement contesté et l'OMC en difficulté.
+
+---
+
+### === DQ11-I-1a : Les BRICS et pays émergents ===
+### "Brésil, Russie, Inde, Chine, Afrique du Sud — émergence économique, nouveau bloc"
+@add-theme: BRICS, Pays émergents, Multipolarité
+
+QCM || L'acronyme BRICS désigne initialement || V:Brésil, Russie, Inde, Chine, Afrique du Sud (South Africa)|Bolivie, République tchèque, Iran, Chine, Suède|Birmanie, Russie, Indonésie, Croatie, Singapour|Brésil, Roumanie, Inde, Chine, Sénégal
+QCM || Les pays BRICS partagent comme caractéristique commune || V:Des économies émergentes ou en développement ayant connu une forte croissance économique et une montée en puissance géopolitique|Un régime politique identique (démocratie parlementaire)|Un niveau de PIB par habitant similaire à celui des pays de l'OCDE|Une politique commerciale commune de protectionnisme systématique
+VF  || La Russie est exclue des BRICS depuis 2022 en raison des sanctions liées à la guerre en Ukraine. || F || La Russie reste officiellement membre des BRICS. Les BRICS en 2024 ont même accueilli de nouveaux membres (Émirats arabes unis, Arabie saoudite, Éthiopie, Iran, Égypte, Argentine — certains ont décliné).
+QCM || La montée en puissance des BRICS illustre || V:L'émergence d'un monde multipolaire où d'autres puissances économiques contestent la domination historique des pays de l'OCDE (G7)|La fin de la mondialisation et le retour aux blocs régionaux|La victoire définitive du modèle de marché capitaliste dans tous les pays|Le remplacement du G7 par le G20 comme principal forum économique mondial
+
+---
+
+### === DQ12-I-1a : Taux de change et commerce international ===
+### "Dévaluation, appréciation, effets sur les exportations/importations"
+@add-theme: Taux de change, Dévaluation, Compétitivité
+
+QCM || Une dépréciation (ou dévaluation) de la monnaie nationale tend à || V:Rendre les exportations moins chères pour l'étranger et les importations plus chères pour les résidents, améliorant la balance commerciale à moyen terme|Rendre les exportations plus chères et décourager les importations simultanément|N'avoir aucun effet sur les échanges commerciaux dans un monde globalisé|Améliorer immédiatement et systématiquement la balance commerciale
+QCM || La parité de pouvoir d'achat (PPA) sert à comparer les PIB entre pays en || V:Corrigeant les différences de niveau général des prix entre pays, donnant une mesure plus réaliste du pouvoir d'achat réel|Convertissant les PIB au taux de change nominal du marché|Ajustant le PIB par le taux d'inflation de chaque pays|Normalisant le PIB par habitant par rapport au pays le plus riche
+VF  || En termes de PPA, la Chine dépasse déjà les États-Unis comme première puissance économique mondiale. || V || En parité de pouvoir d'achat (PPA), la Chine est en effet passée devant les États-Unis aux alentours de 2014-2016, même si en PIB nominal (dollars courants) les États-Unis restent en tête.
+QCM || La « compétitivité-prix » d'un pays dépend de || V:Le taux de change, les coûts de production (salaires, énergie) et la productivité|Uniquement du taux de change nominal|Uniquement du niveau des droits de douane que ce pays impose à ses partenaires|La qualité perçue des produits exportés uniquement
+
+---
+
+### === DQ13-I-1a : Récapitulatif — QCM style annales ===
+### "Questions transversales sur tout le cours — format identique à l'examen"
+@add-theme: Révision, Annales, Transversal
+
+QCM || La Chine devient une grande puissance économique principalement parce que || V:Elle a réformé son économie progressivement (gradualisme), adhéré à l'OMC en 2001, et exploité ses avantages comparatifs dans la manufacture grâce à une main-d'œuvre abondante et peu coûteuse|Elle est restée un pays communiste refusant toute ouverture aux marchés internationaux|Elle possède une grande armée permettant d'imposer ses conditions commerciales|Elle est une démocratie parlementaire attirant les investisseurs étrangers par sa stabilité politique
+QCM || Les gens s'opposent au libre-échange parce que || V:Même si le pays dans son ensemble gagne, certains acteurs économiques (travailleurs des secteurs exposés, petites entreprises locales) perdent — il y a des gagnants ET des perdants à l'intérieur d'un pays|Tout le monde perd au libre-échange dans les économies développées|Il n'y a ni gagnant ni perdant, seulement des redistributions neutres|La théorie économique montre que le libre-échange réduit le PIB mondial
+QCM || Pour deux pays participant au libre-échange, il y a des gains à l'échange || V:Si et seulement si les pays présentent des différences dans leurs coûts d'opportunité (avantages comparatifs différents)|Si et seulement si les pays se spécialisent complètement dans une seule production|Uniquement si l'un des pays a plus de main-d'œuvre que l'autre|Pour les deux pays en toutes circonstances sans exception
+QCM || Le protectionnisme inclut || V:À la fois des barrières tarifaires (droits de douane) ET des barrières non tarifaires (quotas, normes, subventions)|Uniquement l'absence de barrières tarifaires|Uniquement les barrières non tarifaires (normes, quotas) mais pas les droits de douane|Uniquement les accords bilatéraux de restriction des échanges
+QCM || Le modèle de Deng Xiaoping pour la Chine a consisté à || V:Donner la priorité à la concurrence plutôt qu'à la privatisation, en permettant à de nouvelles entreprises (des villes et villages) de se faire concurrence tout en gardant une direction centrale|Privatiser immédiatement toutes les entreprises d'État|Isoler économiquement la Chine pour protéger son industrie naissante|Imposer un marché complètement libre dans tous les secteurs dès 1978
+QCM || Selon le cours, la plus grande partie du commerce international contemporain porte sur || V:Les produits manufacturés|Les produits agricoles et agroalimentaires|Les services (finance, tourisme, numérique)|Les produits miniers et énergétiques (pétrole, gaz, minerais)
+QCM || En comparaison de la Chine, l'Inde présente la caractéristique suivante || V:L'Inde a plus de sociétés cotées en bourse (~6000) que la Chine (~1000) et s'internationalise davantage via les marchés de capitaux que via les exportations manufacturières|L'Inde exporte plus de marchandises que la Chine|L'Inde a un taux d'ouverture deux fois plus élevé que la Chine|L'Inde a adopté exactement le même modèle de développement que la Chine
+QCM || Les exportations de la Chine vers la France reflètent principalement || V:Des différences dans les dotations factorielles (abondance de travail en Chine, abondance de capital en France) — prédit par le théorème Heckscher-Ohlin|Des différences dans les institutions politiques entre les deux pays|Des différences dans le niveau de corruption et de climat des affaires|Des accords bilatéraux préférentiels entre la France et la Chine
+VF  || Un pays ayant un déficit commercial a nécessairement une mauvaise performance économique. || F || Un déficit commercial peut coexister avec une bonne performance économique. Les États-Unis ont un déficit commercial chronique tout en maintenant une très forte croissance et un faible chômage.
+VF  || La distance géographique reste aujourd'hui une barrière importante au commerce international, même dans un monde de conteneurs et d'internet. || V || Malgré les progrès des transports et du numérique, la distance reste un déterminant majeur des échanges (effet frontière, coûts de coordination, fuseau horaire, culture) comme le confirment les estimations du modèle de gravité.

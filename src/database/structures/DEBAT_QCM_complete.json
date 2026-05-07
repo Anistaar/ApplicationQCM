@@ -1,0 +1,323 @@
+{
+  "id": "DEBAT_QCM",
+  "name": "QCM Débats Contemporains",
+  "version": "1.0",
+  "structureType": "sequential",
+  "lastUpdate": "2025-01-01",
+  "description": "Révision complète Débats Contemporains — toutes les notions clés du cours pour l'examen QCM",
+  "chapters": [
+    {
+      "id": "DQ1",
+      "number": "1",
+      "name": "Mondialisation & taux d'ouverture",
+      "description": "Formule taux d'ouverture, PIB en économie ouverte, 8 grands thèmes",
+      "sections": [
+        {
+          "id": "DQ1-I",
+          "romanNumeral": "I",
+          "name": "Mesure de l'intégration internationale",
+          "subsections": [
+            {
+              "id": "DQ1-I-1",
+              "number": "1",
+              "name": "Taux d'ouverture et formule PIB",
+              "notions": [
+                {"id": "DQ1-I-1a", "name": "Taux d'ouverture et formule PIB", "description": "Taux d'ouverture = (X+M)/PIB ; Y = C + I + G + X – M ; paradoxe américain ; 1/3 du PIB mondial = commerce", "tags": ["Taux d'ouverture", "Commerce international", "Formule"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "DQ1-I-1b", "name": "Les 8 grands thèmes de l'économie internationale", "description": "Les axes structurants du cours Débats Contemporains ; interdépendance sur 3 marchés (biens, travail, capitaux)", "tags": ["Économie internationale", "Thèmes"], "difficulty": "Facile", "estimatedTime": 5}
+              ],
+              "estimatedTime": 10
+            }
+          ],
+          "estimatedTime": 10
+        }
+      ],
+      "estimatedTime": 10,
+      "icon": "🌍"
+    },
+    {
+      "id": "DQ2",
+      "number": "2",
+      "name": "Macroéconomie de la France",
+      "description": "Trente Glorieuses, récession, chocs pétroliers, tertiarisation",
+      "sections": [
+        {
+          "id": "DQ2-I",
+          "romanNumeral": "I",
+          "name": "Histoire économique française",
+          "subsections": [
+            {
+              "id": "DQ2-I-1",
+              "number": "1",
+              "name": "Trente Glorieuses et après",
+              "notions": [
+                {"id": "DQ2-I-1a", "name": "Trente Glorieuses et croissance française", "description": "1950–1973 : 4-8%/an ; PIB × 10 en 60 ans ; plein-emploi ; tertiarisation (1M/5M/19M) ; choc pétrolier 1973", "tags": ["France", "Trente Glorieuses", "Croissance", "Récession"], "difficulty": "Facile", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "🇫🇷"
+    },
+    {
+      "id": "DQ3",
+      "number": "3",
+      "name": "Géoéconomie",
+      "description": "Rivalités militaires → économiques après Guerre froide ; fragmentation post-Covid",
+      "sections": [
+        {
+          "id": "DQ3-I",
+          "romanNumeral": "I",
+          "name": "Rivalités économiques mondiales",
+          "subsections": [
+            {
+              "id": "DQ3-I-1",
+              "number": "1",
+              "name": "Géoéconomie et fragmentation",
+              "notions": [
+                {"id": "DQ3-I-1a", "name": "Géoéconomie — du militaire à l'économique", "description": "Après Guerre froide : puissance = économie + technologie ; Huawei/Gazprom comme instruments d'État ; sanctions Ukraine", "tags": ["Géoéconomie", "Guerre froide", "Puissance économique"], "difficulty": "Moyen", "estimatedTime": 7},
+                {"id": "DQ3-I-2a", "name": "Fragmentation économique mondiale", "description": "Covid, guerre en Ukraine, mer Rouge → démondialisation partielle, reshoring, blocs régionaux", "tags": ["Fragmentation", "Démondialisation", "Covid", "Géopolitique"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 14
+            }
+          ],
+          "estimatedTime": 14
+        }
+      ],
+      "estimatedTime": 14,
+      "icon": "🗺️"
+    },
+    {
+      "id": "DQ4",
+      "number": "4",
+      "name": "La Chine",
+      "description": "Gradualisme de Deng Xiaoping, OMC 2001, usine du monde, 2e puissance depuis 2010",
+      "sections": [
+        {
+          "id": "DQ4-I",
+          "romanNumeral": "I",
+          "name": "Émergence et modèle chinois",
+          "subsections": [
+            {
+              "id": "DQ4-I-1",
+              "number": "1",
+              "name": "Le modèle de Deng Xiaoping",
+              "notions": [
+                {"id": "DQ4-I-1a", "name": "La Chine — gradualisme et modèle de Deng Xiaoping", "description": "Transition progressive vers le marché ; zones économiques spéciales ; croissance ~10%/an ; priorité concurrence > privatisation ; OMC décembre 2001", "tags": ["Chine", "Deng Xiaoping", "Gradualisme", "OMC"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            }
+          ],
+          "estimatedTime": 8
+        }
+      ],
+      "estimatedTime": 8,
+      "icon": "🇨🇳"
+    },
+    {
+      "id": "DQ5",
+      "number": "5",
+      "name": "L'Inde",
+      "description": "Émergence par les services et marchés de capitaux ; comparaison Chine",
+      "sections": [
+        {
+          "id": "DQ5-I",
+          "romanNumeral": "I",
+          "name": "Émergence indienne",
+          "subsections": [
+            {
+              "id": "DQ5-I-1",
+              "number": "1",
+              "name": "Le modèle indien",
+              "notions": [
+                {"id": "DQ5-I-1a", "name": "L'Inde — émergence et modèle", "description": "6000 sociétés cotées vs 1000 Chine ; taux d'ouverture 2× plus faible que Chine ; internationalisation via marchés de capitaux 2× plus forte ; démocratie parlementaire", "tags": ["Inde", "Émergents", "Comparaison Chine-Inde"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "🇮🇳"
+    },
+    {
+      "id": "DQ6",
+      "number": "6",
+      "name": "Modèle de gravité",
+      "description": "Tij = A×Yi×Yj/Dij ; effet frontière ; partenaires France",
+      "sections": [
+        {
+          "id": "DQ6-I",
+          "romanNumeral": "I",
+          "name": "Théorie des échanges",
+          "subsections": [
+            {
+              "id": "DQ6-I-1",
+              "number": "1",
+              "name": "Le modèle de gravité du commerce",
+              "notions": [
+                {"id": "DQ6-I-1a", "name": "Le modèle de gravité du commerce", "description": "Tij = A × Yi × Yj / Dij ; effet frontière ; -0,7 à -1% par 1% de distance ; 5 premiers partenaires France = européens", "tags": ["Modèle de gravité", "Distance", "Partenaires commerciaux"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 7
+            }
+          ],
+          "estimatedTime": 7
+        }
+      ],
+      "estimatedTime": 7,
+      "icon": "⚖️"
+    },
+    {
+      "id": "DQ7",
+      "number": "7",
+      "name": "Avantages comparatifs & théorèmes",
+      "description": "Ricardo, Smith, HO, paradoxe de Leontief, commerce intra-branche, Krugman",
+      "sections": [
+        {
+          "id": "DQ7-I",
+          "romanNumeral": "I",
+          "name": "Fondements théoriques du commerce",
+          "subsections": [
+            {
+              "id": "DQ7-I-1",
+              "number": "1",
+              "name": "Avantages absolus et comparatifs",
+              "notions": [
+                {"id": "DQ7-I-1a", "name": "Avantages comparatifs (Ricardo) vs absolus (Smith)", "description": "Smith : avantage absolu (moins de ressources). Ricardo : avantage comparatif (coût d'opportunité le plus faible). Paradoxe de Leontief.", "tags": ["Libre-échange", "Ricardo", "Avantages comparatifs", "Smith"], "difficulty": "Moyen", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            },
+            {
+              "id": "DQ7-I-2",
+              "number": "2",
+              "name": "Théorème HO et dotations factorielles",
+              "notions": [
+                {"id": "DQ7-I-1b", "name": "Théorème de Heckscher-Ohlin (HO)", "description": "La spécialisation dépend des dotations factorielles (capital/travail) ; paradoxe de Leontief pour les États-Unis", "tags": ["Théorème HO", "Dotations factorielles", "Spécialisation"], "difficulty": "Difficile", "estimatedTime": 8}
+              ],
+              "estimatedTime": 8
+            }
+          ],
+          "estimatedTime": 16
+        }
+      ],
+      "estimatedTime": 16,
+      "icon": "📐"
+    },
+    {
+      "id": "DQ8",
+      "number": "8",
+      "name": "Politiques commerciales",
+      "description": "Libre-échange vs protectionnisme ; barrières tarifaires/non tarifaires ; OMC ; Trump ; gains à l'échange",
+      "sections": [
+        {
+          "id": "DQ8-I",
+          "romanNumeral": "I",
+          "name": "Libre-échange et protectionnisme",
+          "subsections": [
+            {
+              "id": "DQ8-I-1",
+              "number": "1",
+              "name": "Politiques commerciales — libre-échange vs protectionnisme",
+              "notions": [
+                {"id": "DQ7-I-2a", "name": "Politiques commerciales — libre-échange vs protectionnisme", "description": "Barrières tarifaires vs non tarifaires ; argument industrie naissante ; OMC ; guerre commerciale Trump ; gains statiques et dynamiques", "tags": ["Protectionnisme", "Libre-échange", "OMC", "Barrières commerciales"], "difficulty": "Moyen", "estimatedTime": 8},
+                {"id": "DQ7-I-3a", "name": "Gains à l'échange — statiques et dynamiques", "description": "Gains statiques (allocation efficace) + dynamiques (économies d'échelle, innovation, variété) ; conditions des gains à l'échange", "tags": ["Gains à l'échange", "Économies d'échelle", "Spécialisation"], "difficulty": "Moyen", "estimatedTime": 6},
+                {"id": "DQ7-I-4a", "name": "Commerce intra-branche et nouvelle théorie du commerce", "description": "Krugman : différenciation des produits + économies d'échelle → commerce intra-branche entre pays similaires ; commerce intra-firme", "tags": ["Commerce intra-branche", "Krugman", "Économies d'échelle", "Différenciation"], "difficulty": "Difficile", "estimatedTime": 7}
+              ],
+              "estimatedTime": 21
+            }
+          ],
+          "estimatedTime": 21
+        }
+      ],
+      "estimatedTime": 21,
+      "icon": "🤝"
+    },
+    {
+      "id": "DQ9",
+      "number": "9",
+      "name": "FMN, IDE et balance des paiements",
+      "description": "Firmes multinationales, investissements directs étrangers, balance des paiements",
+      "sections": [
+        {
+          "id": "DQ9-I",
+          "romanNumeral": "I",
+          "name": "Acteurs et flux financiers mondiaux",
+          "subsections": [
+            {
+              "id": "DQ9-I-1",
+              "number": "1",
+              "name": "FMN et IDE",
+              "notions": [
+                {"id": "DQ8-I-1a", "name": "Firmes multinationales (FMN) et IDE", "description": "IDE = prise de contrôle durable ≥10% ; greenfield vs rachat vs joint-venture ; motivations des FMN", "tags": ["FMN", "IDE", "Investissements directs étrangers", "Mondialisation"], "difficulty": "Moyen", "estimatedTime": 7},
+                {"id": "DQ9-I-1a", "name": "La balance des paiements", "description": "Compte courant (biens+services+revenus+transferts) + compte de capital + compte financier ; toujours équilibrée en théorie", "tags": ["Balance des paiements", "Compte courant", "Déficit commercial"], "difficulty": "Moyen", "estimatedTime": 7}
+              ],
+              "estimatedTime": 14
+            }
+          ],
+          "estimatedTime": 14
+        }
+      ],
+      "estimatedTime": 14,
+      "icon": "🏦"
+    },
+    {
+      "id": "DQ10",
+      "number": "10",
+      "name": "OMC, BRICS et taux de change",
+      "description": "Multilatéralisme OMC/GATT ; BRICS émergents ; taux de change et compétitivité",
+      "sections": [
+        {
+          "id": "DQ10-I",
+          "romanNumeral": "I",
+          "name": "Cadres institutionnels et enjeux contemporains",
+          "subsections": [
+            {
+              "id": "DQ10-I-1",
+              "number": "1",
+              "name": "OMC, BRICS et taux de change",
+              "notions": [
+                {"id": "DQ10-I-1a", "name": "OMC et multilatéralisme", "description": "GATT → OMC 1995 ; clause NPF (nation la plus favorisée) ; traitement national ; crise du multilatéralisme depuis 2010", "tags": ["OMC", "GATT", "Multilatéralisme", "Libre-échange"], "difficulty": "Moyen", "estimatedTime": 6},
+                {"id": "DQ11-I-1a", "name": "Les BRICS et pays émergents", "description": "Brésil, Russie, Inde, Chine, Afrique du Sud ; multipolarité ; nouveaux membres 2024", "tags": ["BRICS", "Pays émergents", "Multipolarité"], "difficulty": "Facile", "estimatedTime": 5},
+                {"id": "DQ12-I-1a", "name": "Taux de change et commerce international", "description": "Dépréciation → exportations moins chères + importations plus chères ; PPA (Chine 1re en PPA) ; compétitivité-prix", "tags": ["Taux de change", "Dévaluation", "Compétitivité"], "difficulty": "Moyen", "estimatedTime": 6}
+              ],
+              "estimatedTime": 17
+            }
+          ],
+          "estimatedTime": 17
+        }
+      ],
+      "estimatedTime": 17,
+      "icon": "🌐"
+    },
+    {
+      "id": "DQ11",
+      "number": "11",
+      "name": "Révision transversale — style annales",
+      "description": "Questions récapitulatives couvrant l'ensemble du cours — format identique à l'examen",
+      "sections": [
+        {
+          "id": "DQ11-I",
+          "romanNumeral": "I",
+          "name": "Synthèse complète",
+          "subsections": [
+            {
+              "id": "DQ11-I-1",
+              "number": "1",
+              "name": "QCM récapitulatifs",
+              "notions": [
+                {"id": "DQ13-I-1a", "name": "Récapitulatif — QCM style annales", "description": "Questions transversales sur tout le cours DC1-DC7 — format examen QCM +1/-0.5", "tags": ["Révision", "Annales", "Transversal"], "difficulty": "Moyen", "estimatedTime": 10}
+              ],
+              "estimatedTime": 10
+            }
+          ],
+          "estimatedTime": 10
+        }
+      ],
+      "estimatedTime": 10,
+      "icon": "📝"
+    }
+  ]
+}

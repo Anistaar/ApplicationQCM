@@ -100,7 +100,8 @@ const SUBJECTS: { id: string; name: string; icon: string; file?: string; files?:
   { id: 'DEBATS', name: 'Débats Contemporains', icon: '🌍', files: [
     '/src/questions/S2/DEBATS/DEBATS_QCM_v1.txt',
     '/src/questions/S2/DEBATS/DEBATS_ANNALES_2025_v1.txt'
-  ]}
+  ]},
+  { id: 'DEBAT_QCM', name: 'QCM Débats Contemporains', icon: '🗳️', file: '/src/questions/S2/DEBATS/DEBAT_QCM_v1.txt' }
 ];
 
 // ========================================
